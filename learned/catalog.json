@@ -11,8 +11,8 @@
     {
       "id": "height",
       "label": "Change height",
-      "stage": "Needs work",
-      "detail": "The latest training run finished without passing lower/raise tracking. No validated learned recording yet."
+      "stage": "Training",
+      "detail": "Practicing height changes from lowered and raised starting poses; no validated learned recording yet."
     },
     {
       "id": "drive",
