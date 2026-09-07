@@ -35,8 +35,8 @@
     {
       "id": "recovery",
       "label": "Stand after a fall",
-      "stage": "Training",
-      "detail": "Required capability and current priority. Front, side and upside-down recovery still fail; the complete skill is unvalidated."
+      "stage": "In development",
+      "detail": "Required capability and current priority. Training has finished without a validated recovery policy. Wider leg motion and mechanical clearances are being investigated."
     }
   ],
   "policies": [
