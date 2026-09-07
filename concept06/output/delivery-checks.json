@@ -1,0 +1,10 @@
+{
+  "nominal_jump_mm": 177.58512515800874,
+  "nominal_and_variation_cases": 14,
+  "all_cases_pass": true,
+  "printed_pieces": 16,
+  "largest_print_axis_mm": 169.54316118483513,
+  "lan_url": "http://192.168.86.226:8765/viewer/brushless.html",
+  "server_binding": "0.0.0.0:8765",
+  "target_250mm_reached": false
+}

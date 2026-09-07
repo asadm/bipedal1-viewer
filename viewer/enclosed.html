@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eff2f0"><title>Beni / Enclosed concept 02</title>
+  <link rel="icon" href="data:,"><link rel="stylesheet" href="./viewer.css">
+  <style>
+    .concept-note{font-size:11px;line-height:1.6;color:#7c847c;margin:14px 0 0}
+    .drive-button{width:100%;margin:0 0 16px;border-color:#d2ad8d;color:#9a5d2d;background:#f8f0e7}
+    .study-tag{font-size:10px;color:#7a8778;border:1px solid #d8dfd3;border-radius:5px;padding:5px 8px}
+    .sidebar-footer a{text-decoration:underline;text-underline-offset:3px}
+    .brand-secondary{font-size:14px}.measurements{gap:11px}
+    .swatch.shell{background:#d2d9d1}.swatch.jump{background:#e7873b}.swatch.spring{background:#b99545}
+  </style>
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/controls/OrbitControls.js":"./vendor/OrbitControls.js"}}</script>
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="./enclosed.html"><span class="brand-mark" aria-hidden="true">b.</span><span>Beni <span class="brand-secondary">/ enclosed concept</span></span></a>
+    <div class="header-meta"><span class="status-dot"></span> Concept 02 <span class="header-separator">/</span> 3 motors</div>
+    <a class="download" href="../output/concept02/beni_enclosed_normal.step" download>Concept STEP <span aria-hidden="true">↗</span></a>
+  </header>
+  <main class="workspace">
+    <aside class="sidebar" aria-label="Inspection controls">
+      <section class="control-section actuator-section">
+        <div class="eyebrow">ENCLOSED / PRINTABLE / THREE MOTORS</div>
+        <h1>Enclosed concept</h1>
+        <p class="intro">Rounded shells, covered arms and a protected common height / jump drive.</p>
+        <div class="slider-heading"><label for="height-travel">Shared leg position</label><output id="travel-output">— <span>°</span></output></div>
+        <input id="height-travel" type="range" min="-7.7" max="32.3" value="11.5" step="any" disabled aria-describedby="travel-description">
+        <div class="range-ends" id="travel-description"><span>Crouched</span><span>Extended</span></div>
+        <div class="preset-row" aria-label="Height presets"><button data-height="low" disabled>Low</button><button data-height="middle" disabled>Ride</button><button data-height="high" disabled>Extended</button></div>
+        <dl class="measurements" aria-live="polite">
+          <div><dt>Body rise</dt><dd id="rise-output">—</dd></div>
+          <div><dt>Overall height</dt><dd id="overall-output">—</dd></div>
+          <div><dt>Overall width</dt><dd>180 mm</dd></div>
+        </dl>
+        <p class="concept-note">Pose preview. Jump motor, transmission and spring internals are provisional.</p>
+      </section>
+      <section class="control-section">
+        <h2>Explore the design</h2>
+        <div class="segmented" aria-label="Enclosure display"><button data-frame="solid" aria-pressed="true">Enclosed</button><button data-frame="ghost" aria-pressed="false">Ghost</button><button data-frame="cutaway" aria-pressed="false">Cutaway</button></div>
+        <button id="locate-drive" class="drive-button">Locate jump drive</button>
+        <a class="drive-button" style="display:block;text-align:center;border:1px solid #d2ad8d;border-radius:6px;padding:9px;font-size:12px" href="./drive.html">Inside the jump drive ↗</a>
+        <label class="check-row"><span>Wheels</span><input id="show-wheels" type="checkbox" checked></label>
+        <label class="check-row"><span>One-wheel bump</span><input id="show-bump" type="checkbox"></label>
+        <label class="check-row"><span>Part edges</span><input id="show-edges" type="checkbox"></label>
+      </section>
+      <section class="control-section selection-section">
+        <div class="selection-heading"><h2>Selected part</h2><button id="clear-selection" class="quiet-button" hidden>Clear</button></div>
+        <div id="selection" aria-live="polite"><p class="selection-empty">Click a part to inspect its purpose.</p></div>
+      </section>
+      <div class="sidebar-footer"><span class="small-dot"></span> Appearance &amp; packaging study<p>Solid CAD geometry. Motion is prescribed; jump, strength and sealing are unvalidated.</p><p><a href="./">Earlier mechanism</a> · <a href="../concept02/README.md">Design notes</a></p></div>
+    </aside>
+    <section class="viewport" aria-label="3D model viewport">
+      <div class="view-toolbar" aria-label="Camera views"><button data-view="iso" aria-pressed="true">3D</button><button data-view="front" aria-pressed="false">Front</button><button data-view="side" aria-pressed="false">Side</button><button data-view="top" aria-pressed="false">Top</button><span class="toolbar-divider"></span><button id="fit-view">Fit</button></div>
+      <canvas id="model-canvas" tabindex="0" aria-label="Orbitable enclosed Beni concept. Drag to orbit, scroll to zoom, right-drag to pan. Arrow keys orbit, plus and minus zoom, Home resets the view."></canvas>
+      <div id="load-status" role="status">Loading the enclosed concept…</div>
+      <div class="canvas-caption"><span class="caption-mark"></span><span id="canvas-caption">Enclosed concept</span></div>
+      <div class="legend"><span><i class="swatch shell"></i>Printed shell</span><span><i class="swatch jump"></i>Jump-drive reservation</span><span><i class="swatch spring"></i>Elastic coupling reservation</span></div>
+      <div class="interaction-hint">Drag to orbit <span>·</span> Scroll to zoom <span>·</span> Click a part to inspect</div>
+    </section>
+  </main>
+  <noscript>This viewer needs JavaScript and WebGL.</noscript>
+  <script type="module" src="./enclosed.mjs"></script>
+</body>
+</html>

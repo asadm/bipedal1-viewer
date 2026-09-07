@@ -1,0 +1,13 @@
+{
+  "mujoco_version": "3.3.7",
+  "actuators": 3,
+  "mass_kg": 2.0,
+  "matched_CAD_poses": 27,
+  "max_wheel_position_error_mm": 2.3852447794681098e-14,
+  "passive_rollout_s": 9.999999999999897,
+  "finite": true,
+  "warnings": {},
+  "max_height_force_N": 45.21765017806429,
+  "balance_policy": "not implemented",
+  "hardware_calibration": "not performed"
+}

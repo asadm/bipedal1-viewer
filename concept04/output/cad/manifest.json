@@ -1,0 +1,154 @@
+{
+  "status": "Development CAD; no complete interference, structural or sealing qualification",
+  "parts": 39,
+  "printed_parts": [
+    {
+      "name": "left_body_half",
+      "bounds_mm": [
+        160.0000002,
+        65.75000019999999,
+        95.5000001
+      ],
+      "volume_cm3": 121.72796505241607,
+      "print_status": "Fit prototype only; not structurally released"
+    },
+    {
+      "name": "right_body_half",
+      "bounds_mm": [
+        160.0000002,
+        65.75000019999999,
+        95.5000001
+      ],
+      "volume_cm3": 121.72797646552472,
+      "print_status": "Fit prototype only; not structurally released"
+    },
+    {
+      "name": "left_crank",
+      "bounds_mm": [
+        78.41966463986661,
+        8.0,
+        18.0
+      ],
+      "volume_cm3": 10.143805036906086,
+      "print_status": "Fit prototype only; not structurally released"
+    },
+    {
+      "name": "left_lower_link",
+      "bounds_mm": [
+        128.8392180286538,
+        8.0,
+        20.0
+      ],
+      "volume_cm3": 19.330395075862096,
+      "print_status": "Fit prototype only; not structurally released"
+    },
+    {
+      "name": "left_tie_link",
+      "bounds_mm": [
+        101.11487850580143,
+        6.0,
+        13.0
+      ],
+      "volume_cm3": 7.41450826507832,
+      "print_status": "Fit prototype only; not structurally released"
+    },
+    {
+      "name": "left_rim",
+      "bounds_mm": [
+        52.0,
+        28.0,
+        52.0
+      ],
+      "volume_cm3": 20.580322146254442,
+      "print_status": "Fit prototype only; not structurally released"
+    },
+    {
+      "name": "left_first_gear",
+      "bounds_mm": [
+        50.0,
+        8.0,
+        50.0
+      ],
+      "volume_cm3": 14.148086276391329,
+      "print_status": "Fit prototype only; not structurally released"
+    },
+    {
+      "name": "left_output_gear",
+      "bounds_mm": [
+        75.0,
+        12.0,
+        75.0
+      ],
+      "volume_cm3": 47.910012408153825,
+      "print_status": "Fit prototype only; not structurally released"
+    },
+    {
+      "name": "right_crank",
+      "bounds_mm": [
+        78.41966463986661,
+        8.0,
+        18.0
+      ],
+      "volume_cm3": 10.143805036906086,
+      "print_status": "Fit prototype only; not structurally released"
+    },
+    {
+      "name": "right_lower_link",
+      "bounds_mm": [
+        128.8392180286538,
+        8.0,
+        20.0
+      ],
+      "volume_cm3": 19.330395075862096,
+      "print_status": "Fit prototype only; not structurally released"
+    },
+    {
+      "name": "right_tie_link",
+      "bounds_mm": [
+        101.11487850580143,
+        6.0,
+        13.0
+      ],
+      "volume_cm3": 7.414508265078321,
+      "print_status": "Fit prototype only; not structurally released"
+    },
+    {
+      "name": "right_rim",
+      "bounds_mm": [
+        52.0,
+        28.0,
+        52.0
+      ],
+      "volume_cm3": 20.580322146254442,
+      "print_status": "Fit prototype only; not structurally released"
+    },
+    {
+      "name": "right_first_gear",
+      "bounds_mm": [
+        50.0,
+        8.0,
+        50.0
+      ],
+      "volume_cm3": 14.148086276391345,
+      "print_status": "Fit prototype only; not structurally released"
+    },
+    {
+      "name": "right_output_gear",
+      "bounds_mm": [
+        75.0,
+        12.0,
+        75.0
+      ],
+      "volume_cm3": 47.910012408153825,
+      "print_status": "Fit prototype only; not structurally released"
+    }
+  ],
+  "all_printed_parts_under_170mm": true,
+  "assembly_bounds_at_ride_mm": [
+    174.21287010072137,
+    180.00000010000028,
+    215.19819763656798
+  ],
+  "nominal_rigid_print_volume_cm3": 482.510199935233,
+  "motor_spring_subtotal_usd": 49.34
+}

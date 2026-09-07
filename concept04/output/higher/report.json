@@ -1,0 +1,75 @@
+{
+  "first_flight_wheel_clearance_mm": 71.90308017338886,
+  "max_both_wheel_clearance_mm": 71.90308017338886,
+  "takeoff_s": 1.3825000000000454,
+  "landing_s": 1.5965000000001168,
+  "first_flight_time_s": 0.21400000000007147,
+  "com_ballistic_rise_mm": 41.90575303297578,
+  "max_pitch_deg": 4.129425678439574,
+  "max_roll_deg": 2.2958890788315924e-14,
+  "final_pitch_deg": -1.354581582832773,
+  "final_roll_deg": 8.27727073240783e-15,
+  "max_spring_compression_mm": 18.229387756004954,
+  "peak_hip_current_A": 34.99999999999999,
+  "peak_wheel_torque_Nm": 0.45,
+  "body_ground_contact": false,
+  "max_closure_error_mm": 0.02206550309011544,
+  "hip_range_rad": [
+    0.7065950684911653,
+    1.2519846010857134
+  ],
+  "final_speed_m_s": -0.03386564521758778,
+  "final_x_m": 0.21652317613098207,
+  "hip_copper_loss_J": 207.72583092906171,
+  "motor_envelope_errors": 0,
+  "warnings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "duration_s": 5.0,
+  "launch_pulse_s": 0.054,
+  "push_Nm": 2.6,
+  "crouch_q_rad": 0.72,
+  "initial_pitch_deg": -0.8098317100145254,
+  "checks": {
+    "jump_over_40mm": true,
+    "landed": true,
+    "body_clear": true,
+    "spring_under_19_5mm": true,
+    "closure_under_0_1mm": true,
+    "no_hip_endstop": true,
+    "final_pitch_under_5deg": true,
+    "final_roll_under_5deg": true,
+    "final_speed_under_0_1": true,
+    "motor_envelope": true,
+    "no_warnings": true
+  },
+  "nominal_model_pass": true,
+  "final_hip_angles_rad": [
+    1.0034641745676554,
+    1.003464174567655
+  ],
+  "final_spring_compression_mm": [
+    6.47186578853013,
+    6.471865788530116
+  ],
+  "final_wheel_contact": [
+    true,
+    true
+  ],
+  "controller": {
+    "crouch": 0.72,
+    "pulse": 0.054,
+    "push": 2.6,
+    "retract": 0.8,
+    "hip_kp": 55,
+    "hip_kd": 0.8
+  },
+  "simulation_timestep_s": 0.00025
+}

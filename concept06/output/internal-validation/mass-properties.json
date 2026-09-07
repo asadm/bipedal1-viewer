@@ -1,0 +1,3568 @@
+{
+  "status": "CAD-derived mass/inertia estimate, not weighed or sliced.",
+  "parameters": {
+    "revision": "concept06-internal-knee-full",
+    "status": "Full-robot kinematic packaging candidate; not a dynamics model or manufacturing release.",
+    "budget": {
+      "original_target_usd": 75,
+      "current_motor_spring_estimate_usd": 112.52,
+      "scope": "Four motors and two springs only; all controllers, transmission hardware, internal-knee metalwork, battery, tax and delivery extra."
+    },
+    "mass_kg": 2.1,
+    "pivot_x_m": 0.04290204859622333,
+    "wheel_radius_m": 0.05,
+    "track_m": 0.15,
+    "spring": {
+      "part": "MISUMI SWF12-50",
+      "quantity": 2,
+      "rate_N_m": 5500,
+      "rate_tolerance_fraction": 0.1,
+      "free_length_m": 0.05,
+      "outside_diameter_nominal_m": 0.012,
+      "inside_diameter_nominal_m": 0.0065,
+      "design_compression_limit_m": 0.02,
+      "catalog_max_compression_m": 0.025,
+      "price_each_usd": 2.28,
+      "purchase_url": "https://us.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+      "source": "https://uk.misumi-ec.com/pdf/fa/2014/P2_0365-0366_F37_EN.pdf",
+      "procurement_status": "Previously checked estimate; price is not reconfirmed for this model",
+      "upper_seat_from_knee_m": 0.043,
+      "lower_seat_from_knee_m": 0.025,
+      "seat_y_from_leg_m": 0.0295
+    },
+    "jump_motor": {
+      "part": "SunnySky X2216 V3 880KV long shaft",
+      "sku": "SS-XV3-X2216-L-880-V3",
+      "quantity": 2,
+      "kv_rpm_per_V": 880,
+      "torque_constant_Nm_A": 0.010851473392629226,
+      "resistance_ohm": 0.089,
+      "no_load_current_A": 0.5,
+      "mass_kg": 0.0675,
+      "diameter_m": 0.0277,
+      "body_length_m": 0.034,
+      "ratio": 20,
+      "efficiency_assumption": 0.8,
+      "rotor_inertia_assumption_kg_m2": 4e-06,
+      "current_limit_assumption_A": 32,
+      "electrical_lag_assumption_s": 0.0004,
+      "supply_voltage_assumption_V": 11.1,
+      "motor_constant_factor": 1.0,
+      "price_listed_usd": 24.99,
+      "source": "https://sunnyskyusa.com/products/sunnysky-x2216-v3-brushless-motors-long-shaft-version",
+      "caution": "DC-equivalent BLDC model. Kv/Kt, current and resistance conventions must be calibrated to the FOC driver. Manufacturer 32 A/30 s assumes propeller cooling; sealed joint thermal rating is unknown. Rotor inertia estimated from a 21 g thin ring at 13.8 mm. Encoder and bidirectional FOC required."
+    },
+    "wheel_motor": {
+      "part": "SunnySky V2806 650KV",
+      "quantity": 2,
+      "kv_rpm_per_V": 650,
+      "diameter_m": 0.035,
+      "body_length_m": 0.018,
+      "mass_kg": 0.047,
+      "ratio": 5,
+      "price_each_usd": 28.99,
+      "source": "https://sunnyskyusa.com/products/sunnysky-v2806-motor?variant=45703574095",
+      "status": "Packaging selection only. FOC, encoder, torque-speed model, thermal rating, adapter and gear procurement unqualified."
+    },
+    "unmeasured": {
+      "spring_branch_damping_N_s_m": 0.0,
+      "hinge_friction_Nm": 0.002,
+      "tire_friction": 0.8
+    },
+    "geometry": {
+      "crank_mm": 64.48187746169309,
+      "tie_mm": 65.59,
+      "coupler_mm": 15.16,
+      "lower_mm": 119.11935079120995,
+      "body_pin_mm": [
+        18.68,
+        12.55
+      ],
+      "q_low_rad": 0.35,
+      "q_high_rad": 1.5,
+      "vertical_stroke_mm": 100.12092415619405,
+      "knee_range_rad": [
+        0.47928597950357954,
+        2.3453711622081452
+      ],
+      "lever_phase_rad": 3.4517376616691857
+    },
+    "motor_spring_subtotal_usd": 112.52,
+    "nominal_q_rad": 1.0,
+    "mass_status": "2.1 kg is the old dynamics reference only. Revised full assembly mass and inertia have not been calculated.",
+    "internal_knee": true
+  },
+  "parts": [
+    {
+      "name": "battery_envelope",
+      "body": "chassis",
+      "mass_kg": 0.16,
+      "com_m": [
+        -0.029,
+        -9.257512082340306e-19,
+        -0.020000000000000004
+      ],
+      "unit_inertia_m2": [
+        [
+          0.0001511610474439034,
+          3.9049176479007464e-21,
+          0.0
+        ],
+        [
+          3.9049176479007464e-21,
+          0.0004386676664723595,
+          2.377237670526897e-21
+        ],
+        [
+          0.0,
+          2.377237670526897e-21,
+          0.00047831486559866927
+        ]
+      ],
+      "volume_cm3": 59.683209312903955,
+      "basis": "160 g battery allowance; SKU and discharge capability unselected.",
+      "printed": false
+    },
+    {
+      "name": "electronics_envelope",
+      "body": "chassis",
+      "mass_kg": 0.12,
+      "com_m": [
+        -0.012,
+        -1.665334536937735e-19,
+        0.031000000000000003
+      ],
+      "unit_inertia_m2": [
+        [
+          0.0001816666666666668,
+          4.9127266182781885e-21,
+          -7.90864958063416e-20
+        ],
+        [
+          4.9127266182781885e-21,
+          0.0003466666666666668,
+          -1.0975456072640166e-36
+        ],
+        [
+          -7.90864958063416e-20,
+          -1.0975456072640166e-36,
+          0.0005176666666666667
+        ]
+      ],
+      "volume_cm3": 23.551999999999996,
+      "basis": "120 g allowance for four FOC channels, computing and sensors; packaging unqualified.",
+      "printed": false
+    },
+    {
+      "name": "left_tire",
+      "body": "left_wheel",
+      "mass_kg": 0.18095033884857126,
+      "com_m": [
+        3.2995946484973e-18,
+        9.300533456922015e-19,
+        3.295184359844263e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          0.0008491180649441396,
+          1.2888704665708455e-20,
+          1.1735889115462678e-19
+        ],
+        [
+          1.2888704665708455e-20,
+          0.0015496110100911209,
+          2.3068986217581692e-21
+        ],
+        [
+          1.1735889115462678e-19,
+          2.3068986217581692e-21,
+          0.0008491180649441533
+        ]
+      ],
+      "volume_cm3": 164.50030804415567,
+      "basis": "Solid rubber-envelope assumption, 1.10 g/cm\u00b3; tire SKU unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_SunnySky_X2216_V3_880KV",
+      "body": "chassis",
+      "mass_kg": 0.0675,
+      "com_m": [
+        -0.021097951403776665,
+        0.0015127260492256622,
+        0.010770329614269011
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00014884176844254439,
+          5.603604741599252e-21,
+          0.0
+        ],
+        [
+          5.603604741599252e-21,
+          9.467737600209449e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.00014884176844254563
+        ]
+      ],
+      "volume_cm3": 20.775077328832126,
+      "basis": "Manufacturer 67.5 g total; inertia distributed over representative motor envelope.",
+      "printed": false
+    },
+    {
+      "name": "left_rotor_encoder_magnet",
+      "body": "chassis",
+      "mass_kg": 9.864600932271958e-05,
+      "com_m": [
+        -0.02109795140377667,
+        -0.0185,
+        0.01077032961426901
+      ],
+      "unit_inertia_m2": [
+        [
+          1.0833333333334222e-06,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.9999999999999914e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.08333333333335e-06
+        ]
+      ],
+      "volume_cm3": 0.012566370614359184,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_rotor_encoder_board",
+      "body": "chassis",
+      "mass_kg": 0.0011840000000000006,
+      "com_m": [
+        -0.021097951403776665,
+        -0.022,
+        0.010770329614269006
+      ],
+      "unit_inertia_m2": [
+        [
+          3.35466666666666e-05,
+          -9.094947017729278e-20,
+          4.547473508864639e-20
+        ],
+        [
+          -9.094947017729278e-20,
+          6.666666666666675e-05,
+          0.0
+        ],
+        [
+          4.547473508864639e-20,
+          0.0,
+          3.354666666666688e-05
+        ]
+      ],
+      "volume_cm3": 0.6400000000000003,
+      "basis": "Board-envelope density assumption, components unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_hip_shaft",
+      "body": "left_upper",
+      "mass_kg": 0.023675042237452686,
+      "com_m": [
+        4.757945742304837e-19,
+        0.008999999999999994,
+        -3.055041828150124e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00030400000000000023,
+          -1.6015317403052994e-19,
+          -3.119351261523094e-19
+        ],
+        [
+          -1.6015317403052994e-19,
+          7.999999999999605e-06,
+          -2.6414470231133925e-19
+        ],
+        [
+          -2.710505431213761e-19,
+          -2.6414470231133925e-19,
+          0.00030399999999999996
+        ]
+      ],
+      "volume_cm3": 3.015928947446202,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_bearing_33.5",
+      "body": "chassis",
+      "mass_kg": 0.004,
+      "com_m": [
+        0.04290204859622333,
+        0.03349999999999999,
+        6.596706005998402e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          2.2083333333333878e-05,
+          -6.17602464013016e-19,
+          -1.2711443461430174e-20
+        ],
+        [
+          -6.17602464013016e-19,
+          4.0000000000000484e-05,
+          2.798888119687885e-21
+        ],
+        [
+          -1.2711443461430174e-20,
+          2.798888119687885e-21,
+          2.2083333333334342e-05
+        ]
+      ],
+      "volume_cm3": 0.7539822368615507,
+      "basis": "4 g per 688 bearing assumption; detailed race/ball geometry omitted.",
+      "printed": false
+    },
+    {
+      "name": "left_bearing_52",
+      "body": "chassis",
+      "mass_kg": 0.004,
+      "com_m": [
+        0.04290204859622333,
+        0.051999999999999984,
+        6.596706005998402e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          2.2083333333334342e-05,
+          -3.08801232006508e-19,
+          -1.2711443461430174e-20
+        ],
+        [
+          -3.08801232006508e-19,
+          4.0000000000000484e-05,
+          2.940246105530712e-21
+        ],
+        [
+          -1.2711443461430174e-20,
+          2.940246105530712e-21,
+          2.208333333333496e-05
+        ]
+      ],
+      "volume_cm3": 0.7539822368615507,
+      "basis": "4 g per 688 bearing assumption; detailed race/ball geometry omitted.",
+      "printed": false
+    },
+    {
+      "name": "right_tire",
+      "body": "right_wheel",
+      "mass_kg": 0.18095033884857126,
+      "com_m": [
+        3.2995946484973e-18,
+        9.300533456922015e-19,
+        3.295184359844263e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          0.0008491180649441396,
+          1.2888704665708455e-20,
+          1.1735889115462678e-19
+        ],
+        [
+          1.2888704665708455e-20,
+          0.0015496110100911209,
+          2.3068986217581692e-21
+        ],
+        [
+          1.1735889115462678e-19,
+          2.3068986217581692e-21,
+          0.0008491180649441533
+        ]
+      ],
+      "volume_cm3": 164.50030804415567,
+      "basis": "Solid rubber-envelope assumption, 1.10 g/cm\u00b3; tire SKU unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_SunnySky_X2216_V3_880KV",
+      "body": "chassis",
+      "mass_kg": 0.0675,
+      "com_m": [
+        0.03490204859622333,
+        -0.0015127260492256622,
+        0.010770329614269006
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00014884176844254452,
+          -3.362162844959551e-20,
+          -1.3448651379838205e-19
+        ],
+        [
+          -3.362162844959551e-20,
+          9.467737600209457e-05,
+          -2.801802370799626e-21
+        ],
+        [
+          -1.3448651379838205e-19,
+          -2.801802370799626e-21,
+          0.0001488417684425461
+        ]
+      ],
+      "volume_cm3": 20.775077328832126,
+      "basis": "Manufacturer 67.5 g total; inertia distributed over representative motor envelope.",
+      "printed": false
+    },
+    {
+      "name": "right_rotor_encoder_magnet",
+      "body": "chassis",
+      "mass_kg": 9.864600932271955e-05,
+      "com_m": [
+        0.034902048596223326,
+        0.0185,
+        0.010770329614269008
+      ],
+      "unit_inertia_m2": [
+        [
+          1.0833333333332778e-06,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.9999999999999194e-06,
+          3.6187644375762663e-20
+        ],
+        [
+          0.0,
+          3.6187644375762663e-20,
+          1.0833333333332054e-06
+        ]
+      ],
+      "volume_cm3": 0.01256637061435918,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_rotor_encoder_board",
+      "body": "chassis",
+      "mass_kg": 0.0011840000000000004,
+      "com_m": [
+        0.034902048596223326,
+        0.021999999999999995,
+        0.010770329614269008
+      ],
+      "unit_inertia_m2": [
+        [
+          3.35466666666668e-05,
+          -3.637978807091712e-19,
+          -9.09494701772928e-20
+        ],
+        [
+          -3.637978807091712e-19,
+          6.666666666666694e-05,
+          -4.54747350886464e-20
+        ],
+        [
+          -9.09494701772928e-20,
+          -4.54747350886464e-20,
+          3.354666666666706e-05
+        ]
+      ],
+      "volume_cm3": 0.6400000000000002,
+      "basis": "Board-envelope density assumption, components unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_hip_shaft",
+      "body": "right_upper",
+      "mass_kg": 0.023675042237452686,
+      "com_m": [
+        -4.757945742304837e-19,
+        -0.008999999999999994,
+        3.055041828150124e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00030400000000000023,
+          1.7353886138554754e-19,
+          -3.119351261523094e-19
+        ],
+        [
+          1.7353886138554754e-19,
+          7.999999999999605e-06,
+          2.5554985130147693e-19
+        ],
+        [
+          -2.710505431213761e-19,
+          2.5554985130147693e-19,
+          0.00030399999999999996
+        ]
+      ],
+      "volume_cm3": 3.015928947446202,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_bearing_33.5",
+      "body": "chassis",
+      "mass_kg": 0.004,
+      "com_m": [
+        0.04290204859622333,
+        -0.03349999999999999,
+        6.596706005998402e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          2.2083333333333878e-05,
+          6.17602464013016e-19,
+          -1.2711443461430174e-20
+        ],
+        [
+          6.17602464013016e-19,
+          4.0000000000000484e-05,
+          -4.005142932213307e-21
+        ],
+        [
+          -1.2711443461430174e-20,
+          -4.005142932213307e-21,
+          2.2083333333334342e-05
+        ]
+      ],
+      "volume_cm3": 0.7539822368615507,
+      "basis": "4 g per 688 bearing assumption; detailed race/ball geometry omitted.",
+      "printed": false
+    },
+    {
+      "name": "right_bearing_52",
+      "body": "chassis",
+      "mass_kg": 0.004,
+      "com_m": [
+        0.04290204859622333,
+        -0.051999999999999984,
+        6.596706005998402e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          2.2083333333334342e-05,
+          3.08801232006508e-19,
+          -1.2711443461430174e-20
+        ],
+        [
+          3.08801232006508e-19,
+          4.0000000000000484e-05,
+          -2.940246105530712e-21
+        ],
+        [
+          -1.2711443461430174e-20,
+          -2.940246105530712e-21,
+          2.208333333333496e-05
+        ]
+      ],
+      "volume_cm3": 0.7539822368615507,
+      "basis": "4 g per 688 bearing assumption; detailed race/ball geometry omitted.",
+      "printed": false
+    },
+    {
+      "name": "left_motor_pinion",
+      "body": "chassis",
+      "mass_kg": 0.0054884857269649305,
+      "com_m": [
+        -0.021097951403776672,
+        0.0315,
+        0.010770329614269
+      ],
+      "unit_inertia_m2": [
+        [
+          1.4297263933441207e-05,
+          -2.497574891700026e-19,
+          2.9138373736500303e-19
+        ],
+        [
+          -2.497574891700026e-19,
+          2.0427861200213084e-05,
+          -3.746362337550039e-19
+        ],
+        [
+          2.9138373736500303e-19,
+          -3.746362337550039e-19,
+          1.429726393343971e-05
+        ]
+      ],
+      "volume_cm3": 0.699170156301265,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_first_gear",
+      "body": "chassis",
+      "mass_kg": 0.018109550433780878,
+      "com_m": [
+        0.006902048596223343,
+        0.031500000000000014,
+        -1.1049576760106152e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          0.0001514316705697701,
+          9.874012885080738e-20,
+          -2.771213790230356e-20
+        ],
+        [
+          9.874012885080738e-20,
+          0.00029219667447287376,
+          1.345704633716153e-22
+        ],
+        [
+          -2.771213790230356e-20,
+          1.345704633716153e-22,
+          0.00015143167056977155
+        ]
+      ],
+      "volume_cm3": 14.148086276391313,
+      "basis": "PETG HF density 1.28 g/cm\u00b3; full-density CAD volume, before slicing.",
+      "printed": true
+    },
+    {
+      "name": "left_final_pinion",
+      "body": "chassis",
+      "mass_kg": 0.007488853335395904,
+      "com_m": [
+        0.006902048596223332,
+        0.04299999999999997,
+        7.783829110539046e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          2.4094689450341392e-05,
+          -6.101469980872086e-20,
+          -4.160179156114711e-21
+        ],
+        [
+          -6.101469980872086e-20,
+          2.418937890068002e-05,
+          -5.380600239384306e-21
+        ],
+        [
+          -4.160179156114711e-21,
+          -5.380600239384306e-21,
+          2.4094689450342127e-05
+        ]
+      ],
+      "volume_cm3": 0.9539940554644464,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_output_gear",
+      "body": "left_upper",
+      "mass_kg": 0.042429531380969256,
+      "com_m": [
+        8.274591580274423e-18,
+        -0.009000000000000001,
+        1.1179240956267391e-17
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00024067787831782674,
+          2.112572817768432e-19,
+          -1.7497353765706312e-18
+        ],
+        [
+          2.112572817768432e-19,
+          0.00045735575663565176,
+          3.985764068365002e-19
+        ],
+        [
+          -1.748276003132876e-18,
+          3.985764068365002e-19,
+          0.00024067787831782528
+        ]
+      ],
+      "volume_cm3": 33.148071391382224,
+      "basis": "PETG HF density 1.28 g/cm\u00b3; full-density CAD volume, before slicing.",
+      "printed": true
+    },
+    {
+      "name": "right_motor_pinion",
+      "body": "chassis",
+      "mass_kg": 0.0054884857269649305,
+      "com_m": [
+        0.034902048596223284,
+        -0.03150000000000003,
+        0.010770329614269025
+      ],
+      "unit_inertia_m2": [
+        [
+          1.429726393343821e-05,
+          4.995149783400052e-19,
+          0.0
+        ],
+        [
+          4.995149783400052e-19,
+          2.042786120021641e-05,
+          -7.908987157050081e-19
+        ],
+        [
+          0.0,
+          -7.908987157050081e-19,
+          1.4297263933441875e-05
+        ]
+      ],
+      "volume_cm3": 0.699170156301265,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_first_gear",
+      "body": "chassis",
+      "mass_kg": 0.018109550433780902,
+      "com_m": [
+        0.006902048596223345,
+        -0.031499999999999966,
+        2.863337118816664e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00015143167056977215,
+          9.874012885080726e-20,
+          1.2843976062592068e-20
+        ],
+        [
+          9.874012885080726e-20,
+          0.00029219667447287365,
+          -7.093544109787416e-20
+        ],
+        [
+          1.2843976062592068e-20,
+          -7.093544109787416e-20,
+          0.0001514316705697728
+        ]
+      ],
+      "volume_cm3": 14.14808627639133,
+      "basis": "PETG HF density 1.28 g/cm\u00b3; full-density CAD volume, before slicing.",
+      "printed": true
+    },
+    {
+      "name": "right_final_pinion",
+      "body": "chassis",
+      "mass_kg": 0.007488853335395904,
+      "com_m": [
+        0.006902048596223332,
+        -0.04299999999999997,
+        7.783829110539046e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          2.4094689450341392e-05,
+          6.101469980872086e-20,
+          -4.160179156114711e-21
+        ],
+        [
+          6.101469980872086e-20,
+          2.418937890068002e-05,
+          5.380600239384306e-21
+        ],
+        [
+          -4.160179156114711e-21,
+          5.380600239384306e-21,
+          2.4094689450342127e-05
+        ]
+      ],
+      "volume_cm3": 0.9539940554644464,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_output_gear",
+      "body": "right_upper",
+      "mass_kg": 0.042429531380969256,
+      "com_m": [
+        8.274591580274423e-18,
+        0.009000000000000001,
+        1.1179240956267391e-17
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00024067787831782674,
+          -2.112572817768432e-19,
+          -1.7497353765706312e-18
+        ],
+        [
+          -2.112572817768432e-19,
+          0.00045735575663565176,
+          -3.985764068365002e-19
+        ],
+        [
+          -1.748276003132876e-18,
+          -3.985764068365002e-19,
+          0.00024067787831782528
+        ]
+      ],
+      "volume_cm3": 33.148071391382224,
+      "basis": "PETG HF density 1.28 g/cm\u00b3; full-density CAD volume, before slicing.",
+      "printed": true
+    },
+    {
+      "name": "left_slim_lower_pod",
+      "body": "left_lower",
+      "mass_kg": 0.0608669619707887,
+      "com_m": [
+        0.08760531359682061,
+        0.00010098496405548625,
+        7.962615887129227e-11
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00035902888435554583,
+          5.4676981326918146e-05,
+          1.9483710141536426e-12
+        ],
+        [
+          5.4676981326918146e-05,
+          0.0020812152533072658,
+          1.0593773631163616e-12
+        ],
+        [
+          1.9483710141536426e-12,
+          1.0593773631163616e-12,
+          0.002022062028498434
+        ]
+      ],
+      "volume_cm3": 47.55231403967867,
+      "basis": "PETG HF density 1.28 g/cm\u00b3; full-density CAD volume, before slicing.",
+      "printed": true
+    },
+    {
+      "name": "left_wheel_motor_mount_lid",
+      "body": "left_lower",
+      "mass_kg": 0.013278952309829438,
+      "com_m": [
+        0.11129168761957853,
+        -0.02886161896447348,
+        -2.576259539145825e-11
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00017748329566734036,
+          -5.657704603568297e-06,
+          1.604729471569166e-13
+        ],
+        [
+          -5.657704603568297e-06,
+          0.0005309099897396019,
+          -3.2964889361000524e-14
+        ],
+        [
+          1.604729471569166e-13,
+          -3.2964889361000524e-14,
+          0.0003636540091989044
+        ]
+      ],
+      "volume_cm3": 10.374181492054248,
+      "basis": "PETG HF density 1.28 g/cm\u00b3; full-density CAD volume, before slicing.",
+      "printed": true
+    },
+    {
+      "name": "left_V2806_stator",
+      "body": "left_lower",
+      "mass_kg": 0.015453840586116211,
+      "com_m": [
+        0.08911935079120997,
+        -0.021578400503778343,
+        1.3976756014148468e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          5.8507313688462935e-05,
+          -2.4890779406066145e-19,
+          1.5662782313265707e-20
+        ],
+        [
+          -2.4890779406066145e-19,
+          6.307918765742944e-05,
+          4.843054638091681e-21
+        ],
+        [
+          1.5662782313265707e-20,
+          4.843054638091681e-21,
+          5.850731368846201e-05
+        ]
+      ],
+      "volume_cm3": 3.741636850425445,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "left_V2806_rotor",
+      "body": "left_lower",
+      "mass_kg": 0.014825955325022865,
+      "com_m": [
+        0.08911935079120996,
+        -0.015266376979021713,
+        1.97943985566831e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00014114842216134956,
+          -2.5944914076215674e-19,
+          2.08900341783205e-21
+        ],
+        [
+          -2.5944914076215674e-19,
+          0.00023693875771260765,
+          2.970272826685834e-20
+        ],
+        [
+          2.08900341783205e-21,
+          2.970272826685834e-20,
+          0.00014114842216135363
+        ]
+      ],
+      "volume_cm3": 3.5896151819182327,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_winding_0",
+      "body": "left_lower",
+      "mass_kg": 0.0013933503407384097,
+      "com_m": [
+        0.10011935079120995,
+        -0.018,
+        -4.808094756558601e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999983e-05,
+          0.0,
+          1.0965577502332985e-21
+        ],
+        [
+          0.0,
+          3.919999999999673e-06,
+          1.9232379026234266e-22
+        ],
+        [
+          1.0965577502332985e-21,
+          1.9232379026234266e-22,
+          1.3960000000001264e-05
+        ]
+      ],
+      "volume_cm3": 0.29556103684972795,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_winding_1",
+      "body": "left_lower",
+      "mass_kg": 0.0013933503407384102,
+      "com_m": [
+        0.09864563023283879,
+        -0.018,
+        0.0055
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999932e-05,
+          0.0,
+          9.846978061432013e-20
+        ],
+        [
+          0.0,
+          3.919999999999672e-06,
+          -1.2308722576790016e-20
+        ],
+        [
+          9.846978061432013e-20,
+          -1.2308722576790016e-20,
+          1.395999999999811e-05
+        ]
+      ],
+      "volume_cm3": 0.295561036849728,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_winding_2",
+      "body": "left_lower",
+      "mass_kg": 0.0013933503407384102,
+      "com_m": [
+        0.09461935079120996,
+        -0.018,
+        0.009526279441628826
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3960000000000029e-05,
+          -1.9693956122864025e-19,
+          1.9693956122864025e-19
+        ],
+        [
+          -1.9693956122864025e-19,
+          3.919999999998097e-06,
+          0.0
+        ],
+        [
+          1.9693956122864025e-19,
+          0.0,
+          1.395999999999811e-05
+        ]
+      ],
+      "volume_cm3": 0.295561036849728,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_winding_3",
+      "body": "left_lower",
+      "mass_kg": 0.0013933503407384097,
+      "com_m": [
+        0.08911935079120996,
+        -0.018,
+        0.011000000000000001
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999885e-05,
+          1.969395612286403e-19,
+          3.938791224572806e-19
+        ],
+        [
+          1.969395612286403e-19,
+          3.919999999999673e-06,
+          -2.4617445153580038e-20
+        ],
+        [
+          3.938791224572806e-19,
+          -2.4617445153580038e-20,
+          1.3959999999999688e-05
+        ]
+      ],
+      "volume_cm3": 0.29556103684972795,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_winding_4",
+      "body": "left_lower",
+      "mass_kg": 0.0013933503407384102,
+      "com_m": [
+        0.08361935079120994,
+        -0.018,
+        0.009526279441628826
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3960000000000029e-05,
+          1.9693956122864025e-19,
+          -9.846978061432013e-20
+        ],
+        [
+          1.9693956122864025e-19,
+          3.920000000002036e-06,
+          2.4617445153580032e-20
+        ],
+        [
+          -9.846978061432013e-20,
+          2.4617445153580032e-20,
+          1.396000000000126e-05
+        ]
+      ],
+      "volume_cm3": 0.295561036849728,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_winding_5",
+      "body": "left_lower",
+      "mass_kg": 0.0013933503407384097,
+      "com_m": [
+        0.07959307134958113,
+        -0.018,
+        0.005499999999999999
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999936e-05,
+          0.0,
+          4.9234890307160075e-20
+        ],
+        [
+          0.0,
+          3.919999999999673e-06,
+          0.0
+        ],
+        [
+          4.9234890307160075e-20,
+          0.0,
+          1.3959999999999688e-05
+        ]
+      ],
+      "volume_cm3": 0.29556103684972795,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_winding_6",
+      "body": "left_lower",
+      "mass_kg": 0.0013933503407384102,
+      "com_m": [
+        0.07811935079120995,
+        -0.018,
+        1.20202368913965e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999982e-05,
+          0.0,
+          -4.568470383075503e-21
+        ],
+        [
+          0.0,
+          3.92000000000046e-06,
+          -9.6161895131172e-23
+        ],
+        [
+          -4.568470383075503e-21,
+          -9.6161895131172e-23,
+          1.3960000000000473e-05
+        ]
+      ],
+      "volume_cm3": 0.295561036849728,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_winding_7",
+      "body": "left_lower",
+      "mass_kg": 0.0013933503407384097,
+      "com_m": [
+        0.07959307134958113,
+        -0.018,
+        -0.005499999999999997
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999983e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.919999999998885e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.3959999999999688e-05
+        ]
+      ],
+      "volume_cm3": 0.29556103684972795,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_winding_8",
+      "body": "left_lower",
+      "mass_kg": 0.0013933503407384102,
+      "com_m": [
+        0.08361935079120994,
+        -0.018,
+        -0.009526279441628822
+      ],
+      "unit_inertia_m2": [
+        [
+          1.396000000000008e-05,
+          1.9693956122864025e-19,
+          1.9693956122864025e-19
+        ],
+        [
+          1.9693956122864025e-19,
+          3.920000000002036e-06,
+          -2.4617445153580032e-20
+        ],
+        [
+          1.9693956122864025e-19,
+          -2.4617445153580032e-20,
+          1.396000000000126e-05
+        ]
+      ],
+      "volume_cm3": 0.295561036849728,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_winding_9",
+      "body": "left_lower",
+      "mass_kg": 0.0013933503407384102,
+      "com_m": [
+        0.08911935079120996,
+        -0.018,
+        -0.011
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999982e-05,
+          -1.9693956122864025e-19,
+          0.0
+        ],
+        [
+          -1.9693956122864025e-19,
+          3.919999999998097e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.3959999999999685e-05
+        ]
+      ],
+      "volume_cm3": 0.295561036849728,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_winding_10",
+      "body": "left_lower",
+      "mass_kg": 0.0013933503407384102,
+      "com_m": [
+        0.09461935079120996,
+        -0.018,
+        -0.009526279441628826
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3960000000000029e-05,
+          -1.9693956122864025e-19,
+          -3.938791224572805e-19
+        ],
+        [
+          -1.9693956122864025e-19,
+          3.919999999996521e-06,
+          2.4617445153580032e-20
+        ],
+        [
+          -3.938791224572805e-19,
+          2.4617445153580032e-20,
+          1.3959999999996536e-05
+        ]
+      ],
+      "volume_cm3": 0.295561036849728,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_winding_11",
+      "body": "left_lower",
+      "mass_kg": 0.0013933503407384097,
+      "com_m": [
+        0.0986456302328388,
+        -0.018,
+        -0.005500000000000006
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999983e-05,
+          -3.938791224572806e-19,
+          -1.969395612286403e-19
+        ],
+        [
+          -3.938791224572806e-19,
+          3.919999999998097e-06,
+          0.0
+        ],
+        [
+          -1.969395612286403e-19,
+          0.0,
+          1.3959999999998113e-05
+        ]
+      ],
+      "volume_cm3": 0.29556103684972795,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_pinion_adapter",
+      "body": "left_lower",
+      "mass_kg": 0.005129592484781418,
+      "com_m": [
+        0.08911935079120993,
+        -0.007007211538461539,
+        1.087369121867868e-20
+      ],
+      "unit_inertia_m2": [
+        [
+          2.6537608250123185e-05,
+          8.907727846341576e-20,
+          3.7156700677875377e-20
+        ],
+        [
+          8.907727846341576e-20,
+          3.1985576923077975e-05,
+          4.316776997772994e-21
+        ],
+        [
+          3.7156700677875377e-20,
+          4.316776997772994e-21,
+          2.6537608250126258e-05
+        ]
+      ],
+      "volume_cm3": 0.6534512719466775,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_pinion_20T",
+      "body": "left_lower",
+      "mass_kg": 0.0025104670631959534,
+      "com_m": [
+        0.0891193507912102,
+        -0.0004999999999999999,
+        -8.080285579367608e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          9.448407353402966e-06,
+          1.7063438545563293e-20,
+          -2.7733246009955015e-20
+        ],
+        [
+          1.7063438545563293e-20,
+          1.4730148040112264e-05,
+          4.955117261051192e-23
+        ],
+        [
+          -2.7733246009955015e-20,
+          4.955117261051192e-23,
+          9.448407353379401e-06
+        ]
+      ],
+      "volume_cm3": 0.3198047214262361,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_gear_100T",
+      "body": "left_wheel",
+      "mass_kg": 0.12498294108440261,
+      "com_m": [
+        -1.5230616630607426e-16,
+        -0.021094583376309494,
+        -1.801742427305098e-16
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00013969863552822104,
+          -2.475887217711097e-19,
+          4.13058043709475e-18
+        ],
+        [
+          -2.475887217711097e-19,
+          0.00025633405209007817,
+          -2.885618292569203e-19
+        ],
+        [
+          4.133520782600986e-18,
+          -2.885618292569203e-19,
+          0.00013969863552822226
+        ]
+      ],
+      "volume_cm3": 15.92139376871371,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_688_inner",
+      "body": "left_lower",
+      "mass_kg": 0.004,
+      "com_m": [
+        0.11911935079120993,
+        -0.023499999999999997,
+        1.30049346975397e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          2.2083333333333173e-05,
+          1.2352049280260315e-18,
+          -1.396173592825811e-20
+        ],
+        [
+          1.2352049280260315e-18,
+          4.000000000000386e-05,
+          -2.817735851133593e-21
+        ],
+        [
+          -1.396173592825811e-20,
+          -2.817735851133593e-21,
+          2.2083333333338655e-05
+        ]
+      ],
+      "volume_cm3": 0.7539822368615511,
+      "basis": "4 g per 688 bearing assumption; detailed race/ball geometry omitted.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_688_outer",
+      "body": "left_lower",
+      "mass_kg": 0.004,
+      "com_m": [
+        0.11911935079120993,
+        0.012999999999999994,
+        1.30049346975397e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          2.208333333333333e-05,
+          -9.264036960195238e-19,
+          -1.396173592825811e-20
+        ],
+        [
+          -9.264036960195238e-19,
+          4.000000000000386e-05,
+          -2.8271597168565422e-22
+        ],
+        [
+          -1.396173592825811e-20,
+          -2.8271597168565422e-22,
+          2.2083333333338655e-05
+        ]
+      ],
+      "volume_cm3": 0.7539822368615511,
+      "basis": "4 g per 688 bearing assumption; detailed race/ball geometry omitted.",
+      "printed": false
+    },
+    {
+      "name": "left_wheel_axle",
+      "body": "left_wheel",
+      "mass_kg": 0.02406962627474357,
+      "com_m": [
+        3.6712743250183787e-19,
+        -0.0195,
+        -3.123279279015024e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00031408333333333467,
+          1.0104781597103658e-19,
+          -1.001182349177781e-18
+        ],
+        [
+          1.0104781597103658e-19,
+          7.99999999999666e-06,
+          1.1342702325144135e-19
+        ],
+        [
+          -1.0028870095490916e-18,
+          1.1342702325144135e-19,
+          0.0003140833333333344
+        ]
+      ],
+      "volume_cm3": 3.0661944299036397,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_rim",
+      "body": "left_wheel",
+      "mass_kg": 0.023982666990092192,
+      "com_m": [
+        1.4163376866223682e-19,
+        0.0002897384305835016,
+        -1.1285885066887758e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00025712513950233837,
+          -4.686280991675234e-21,
+          -1.5282219801543523e-20
+        ],
+        [
+          -4.686280991675234e-21,
+          0.00045274144869215564,
+          1.3118983735266919e-20
+        ],
+        [
+          -1.5282219801543523e-20,
+          1.3118983735266919e-20,
+          0.00025712513950234287
+        ]
+      ],
+      "volume_cm3": 18.736458586009526,
+      "basis": "PETG HF density 1.28 g/cm\u00b3; full-density CAD volume, before slicing.",
+      "printed": true
+    },
+    {
+      "name": "right_slim_lower_pod",
+      "body": "right_lower",
+      "mass_kg": 0.06086696197078868,
+      "com_m": [
+        0.0876053135968206,
+        -0.00010098496405548835,
+        7.962615736510466e-11
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00035902888435554583,
+          -5.4676981326918193e-05,
+          1.9483709972667746e-12
+        ],
+        [
+          -5.4676981326918193e-05,
+          0.002081215253307272,
+          -1.0593773237938181e-12
+        ],
+        [
+          1.9483709972667746e-12,
+          -1.0593773237938181e-12,
+          0.0020220620284984395
+        ]
+      ],
+      "volume_cm3": 47.552314039678656,
+      "basis": "PETG HF density 1.28 g/cm\u00b3; full-density CAD volume, before slicing.",
+      "printed": true
+    },
+    {
+      "name": "right_wheel_motor_mount_lid",
+      "body": "right_lower",
+      "mass_kg": 0.013278952309829438,
+      "com_m": [
+        0.11129168761957856,
+        0.02886161896447348,
+        -2.5762596043411243e-11
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00017748329566734036,
+          5.657704603569016e-06,
+          1.6047288722431114e-13
+        ],
+        [
+          5.657704603569016e-06,
+          0.000530909989739596,
+          3.2964862654366603e-14
+        ],
+        [
+          1.6047288722431114e-13,
+          3.2964862654366603e-14,
+          0.0003636540091988987
+        ]
+      ],
+      "volume_cm3": 10.374181492054248,
+      "basis": "PETG HF density 1.28 g/cm\u00b3; full-density CAD volume, before slicing.",
+      "printed": true
+    },
+    {
+      "name": "right_V2806_stator",
+      "body": "right_lower",
+      "mass_kg": 0.015453840586116211,
+      "com_m": [
+        0.08911935079120997,
+        0.021578400503778343,
+        1.3976756014148468e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          5.8507313688462935e-05,
+          2.4890779406066145e-19,
+          1.5662782313265707e-20
+        ],
+        [
+          2.4890779406066145e-19,
+          6.307918765742944e-05,
+          -4.843054638091681e-21
+        ],
+        [
+          1.5662782313265707e-20,
+          -4.843054638091681e-21,
+          5.850731368846201e-05
+        ]
+      ],
+      "volume_cm3": 3.741636850425445,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "right_V2806_rotor",
+      "body": "right_lower",
+      "mass_kg": 0.014825955325022865,
+      "com_m": [
+        0.08911935079120996,
+        0.015266376979021713,
+        1.97943985566831e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00014114842216134956,
+          2.5944914076215674e-19,
+          2.08900341783205e-21
+        ],
+        [
+          2.5944914076215674e-19,
+          0.00023693875771260765,
+          -2.970272826685834e-20
+        ],
+        [
+          2.08900341783205e-21,
+          -2.970272826685834e-20,
+          0.00014114842216135363
+        ]
+      ],
+      "volume_cm3": 3.5896151819182327,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_winding_0",
+      "body": "right_lower",
+      "mass_kg": 0.0013933503407384097,
+      "com_m": [
+        0.10011935079120995,
+        0.018,
+        -4.808094756558601e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999983e-05,
+          0.0,
+          1.0965577502332985e-21
+        ],
+        [
+          0.0,
+          3.919999999999673e-06,
+          -1.9232379026234266e-22
+        ],
+        [
+          1.0965577502332985e-21,
+          -1.9232379026234266e-22,
+          1.3960000000001264e-05
+        ]
+      ],
+      "volume_cm3": 0.29556103684972795,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_winding_1",
+      "body": "right_lower",
+      "mass_kg": 0.0013933503407384102,
+      "com_m": [
+        0.09864563023283879,
+        0.018,
+        0.0055
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999932e-05,
+          0.0,
+          9.846978061432013e-20
+        ],
+        [
+          0.0,
+          3.919999999999672e-06,
+          1.2308722576790016e-20
+        ],
+        [
+          9.846978061432013e-20,
+          1.2308722576790016e-20,
+          1.395999999999811e-05
+        ]
+      ],
+      "volume_cm3": 0.295561036849728,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_winding_2",
+      "body": "right_lower",
+      "mass_kg": 0.0013933503407384102,
+      "com_m": [
+        0.09461935079120994,
+        0.018,
+        0.009526279441628824
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999932e-05,
+          1.9693956122864025e-19,
+          0.0
+        ],
+        [
+          1.9693956122864025e-19,
+          3.919999999999672e-06,
+          2.4617445153580032e-20
+        ],
+        [
+          0.0,
+          2.4617445153580032e-20,
+          1.3959999999999685e-05
+        ]
+      ],
+      "volume_cm3": 0.295561036849728,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_winding_3",
+      "body": "right_lower",
+      "mass_kg": 0.0013933503407384102,
+      "com_m": [
+        0.08911935079120997,
+        0.018,
+        0.011
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999982e-05,
+          0.0,
+          1.9693956122864025e-19
+        ],
+        [
+          0.0,
+          3.919999999996521e-06,
+          -2.4617445153580032e-20
+        ],
+        [
+          1.9693956122864025e-19,
+          -2.4617445153580032e-20,
+          1.3959999999996536e-05
+        ]
+      ],
+      "volume_cm3": 0.295561036849728,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_winding_4",
+      "body": "right_lower",
+      "mass_kg": 0.0013933503407384104,
+      "com_m": [
+        0.08361935079120995,
+        0.017999999999999995,
+        0.009526279441628826
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3960000000000175e-05,
+          -1.9693956122864023e-19,
+          0.0
+        ],
+        [
+          -1.9693956122864023e-19,
+          3.919999999999672e-06,
+          -4.923489030716006e-20
+        ],
+        [
+          0.0,
+          -4.923489030716006e-20,
+          1.3959999999999683e-05
+        ]
+      ],
+      "volume_cm3": 0.29556103684972806,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_winding_5",
+      "body": "right_lower",
+      "mass_kg": 0.0013933503407384097,
+      "com_m": [
+        0.07959307134958113,
+        0.018,
+        0.005499999999999999
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999936e-05,
+          0.0,
+          4.9234890307160075e-20
+        ],
+        [
+          0.0,
+          3.919999999999673e-06,
+          0.0
+        ],
+        [
+          4.9234890307160075e-20,
+          0.0,
+          1.3959999999999688e-05
+        ]
+      ],
+      "volume_cm3": 0.29556103684972795,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_winding_6",
+      "body": "right_lower",
+      "mass_kg": 0.0013933503407384102,
+      "com_m": [
+        0.07811935079120995,
+        0.018,
+        1.20202368913965e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999982e-05,
+          0.0,
+          -4.568470383075503e-21
+        ],
+        [
+          0.0,
+          3.92000000000046e-06,
+          9.6161895131172e-23
+        ],
+        [
+          -4.568470383075503e-21,
+          9.6161895131172e-23,
+          1.3960000000000473e-05
+        ]
+      ],
+      "volume_cm3": 0.295561036849728,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_winding_7",
+      "body": "right_lower",
+      "mass_kg": 0.0013933503407384097,
+      "com_m": [
+        0.07959307134958113,
+        0.018,
+        -0.005499999999999997
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999983e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          3.919999999998885e-06,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.3959999999999688e-05
+        ]
+      ],
+      "volume_cm3": 0.29556103684972795,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_winding_8",
+      "body": "right_lower",
+      "mass_kg": 0.0013933503407384102,
+      "com_m": [
+        0.08361935079120994,
+        0.018,
+        -0.009526279441628822
+      ],
+      "unit_inertia_m2": [
+        [
+          1.396000000000008e-05,
+          -1.9693956122864025e-19,
+          1.9693956122864025e-19
+        ],
+        [
+          -1.9693956122864025e-19,
+          3.920000000002036e-06,
+          2.4617445153580032e-20
+        ],
+        [
+          1.9693956122864025e-19,
+          2.4617445153580032e-20,
+          1.396000000000126e-05
+        ]
+      ],
+      "volume_cm3": 0.295561036849728,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_winding_9",
+      "body": "right_lower",
+      "mass_kg": 0.0013933503407384104,
+      "com_m": [
+        0.08911935079120997,
+        0.017999999999999995,
+        -0.010999999999999998
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3960000000000175e-05,
+          0.0,
+          -1.9693956122864023e-19
+        ],
+        [
+          0.0,
+          3.91999999999652e-06,
+          4.923489030716006e-20
+        ],
+        [
+          -1.9693956122864023e-19,
+          4.923489030716006e-20,
+          1.3959999999998108e-05
+        ]
+      ],
+      "volume_cm3": 0.29556103684972806,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_winding_10",
+      "body": "right_lower",
+      "mass_kg": 0.0013933503407384102,
+      "com_m": [
+        0.09461935079120996,
+        0.018,
+        -0.009526279441628826
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3960000000000029e-05,
+          1.9693956122864025e-19,
+          -3.938791224572805e-19
+        ],
+        [
+          1.9693956122864025e-19,
+          3.919999999996521e-06,
+          -2.4617445153580032e-20
+        ],
+        [
+          -3.938791224572805e-19,
+          -2.4617445153580032e-20,
+          1.3959999999996536e-05
+        ]
+      ],
+      "volume_cm3": 0.295561036849728,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_winding_11",
+      "body": "right_lower",
+      "mass_kg": 0.0013933503407384097,
+      "com_m": [
+        0.0986456302328388,
+        0.018,
+        -0.005500000000000006
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3959999999999983e-05,
+          3.938791224572806e-19,
+          -1.969395612286403e-19
+        ],
+        [
+          3.938791224572806e-19,
+          3.919999999998097e-06,
+          0.0
+        ],
+        [
+          -1.969395612286403e-19,
+          0.0,
+          1.3959999999998113e-05
+        ]
+      ],
+      "volume_cm3": 0.29556103684972795,
+      "basis": "Share of manufacturer 47 g complete V2806 motor; representative internal geometry.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_pinion_adapter",
+      "body": "right_lower",
+      "mass_kg": 0.005129592484781418,
+      "com_m": [
+        0.08911935079120993,
+        0.007007211538461539,
+        1.087369121867868e-20
+      ],
+      "unit_inertia_m2": [
+        [
+          2.6537608250123185e-05,
+          -8.907727846341576e-20,
+          3.7156700677875377e-20
+        ],
+        [
+          -8.907727846341576e-20,
+          3.1985576923077975e-05,
+          -4.316776997772994e-21
+        ],
+        [
+          3.7156700677875377e-20,
+          -4.316776997772994e-21,
+          2.6537608250126258e-05
+        ]
+      ],
+      "volume_cm3": 0.6534512719466775,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_pinion_20T",
+      "body": "right_lower",
+      "mass_kg": 0.0025104670631959534,
+      "com_m": [
+        0.0891193507912102,
+        0.0004999999999999999,
+        -8.080285579367608e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          9.448407353402966e-06,
+          -1.7063438545563293e-20,
+          -2.7733246009955015e-20
+        ],
+        [
+          -1.7063438545563293e-20,
+          1.4730148040112264e-05,
+          -4.955117261051192e-23
+        ],
+        [
+          -2.7733246009955015e-20,
+          -4.955117261051192e-23,
+          9.448407353379401e-06
+        ]
+      ],
+      "volume_cm3": 0.3198047214262361,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_gear_100T",
+      "body": "right_wheel",
+      "mass_kg": 0.12498294108440261,
+      "com_m": [
+        -1.5230616630607426e-16,
+        0.021094583376309494,
+        -1.801742427305098e-16
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00013969863552822104,
+          2.475669671219888e-19,
+          4.13058043709475e-18
+        ],
+        [
+          2.475669671219888e-19,
+          0.00025633405209007817,
+          2.885803366848067e-19
+        ],
+        [
+          4.133520782600986e-18,
+          2.885803366848067e-19,
+          0.00013969863552822226
+        ]
+      ],
+      "volume_cm3": 15.92139376871371,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_688_inner",
+      "body": "right_lower",
+      "mass_kg": 0.004,
+      "com_m": [
+        0.11911935079120993,
+        0.023499999999999997,
+        1.30049346975397e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          2.2083333333333173e-05,
+          -1.2352049280260315e-18,
+          -1.396173592825811e-20
+        ],
+        [
+          -1.2352049280260315e-18,
+          4.000000000000386e-05,
+          2.817735851133593e-21
+        ],
+        [
+          -1.396173592825811e-20,
+          2.817735851133593e-21,
+          2.2083333333338655e-05
+        ]
+      ],
+      "volume_cm3": 0.7539822368615511,
+      "basis": "4 g per 688 bearing assumption; detailed race/ball geometry omitted.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_688_outer",
+      "body": "right_lower",
+      "mass_kg": 0.004,
+      "com_m": [
+        0.11911935079120993,
+        -0.012999999999999994,
+        1.30049346975397e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          2.208333333333333e-05,
+          9.264036960195238e-19,
+          -1.396173592825811e-20
+        ],
+        [
+          9.264036960195238e-19,
+          4.000000000000386e-05,
+          2.8271597168565422e-22
+        ],
+        [
+          -1.396173592825811e-20,
+          2.8271597168565422e-22,
+          2.2083333333338655e-05
+        ]
+      ],
+      "volume_cm3": 0.7539822368615511,
+      "basis": "4 g per 688 bearing assumption; detailed race/ball geometry omitted.",
+      "printed": false
+    },
+    {
+      "name": "right_wheel_axle",
+      "body": "right_wheel",
+      "mass_kg": 0.02406962627474357,
+      "com_m": [
+        3.6712743250183787e-19,
+        0.0195,
+        -3.123279279015024e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00031408333333333467,
+          -1.0104781597103658e-19,
+          -1.001182349177781e-18
+        ],
+        [
+          -1.0104781597103658e-19,
+          7.99999999999666e-06,
+          -1.1342702325144135e-19
+        ],
+        [
+          -1.0028870095490916e-18,
+          -1.1342702325144135e-19,
+          0.0003140833333333344
+        ]
+      ],
+      "volume_cm3": 3.0661944299036397,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_rim",
+      "body": "right_wheel",
+      "mass_kg": 0.023982666990092192,
+      "com_m": [
+        1.4163376866223682e-19,
+        -0.0002897384305835016,
+        -1.1285885066887758e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00025712513950233837,
+          4.686280991675234e-21,
+          -1.5282219801543523e-20
+        ],
+        [
+          4.686280991675234e-21,
+          0.00045274144869215564,
+          -1.3118983735266919e-20
+        ],
+        [
+          -1.5282219801543523e-20,
+          -1.3118983735266919e-20,
+          0.00025712513950234287
+        ]
+      ],
+      "volume_cm3": 18.736458586009526,
+      "basis": "PETG HF density 1.28 g/cm\u00b3; full-density CAD volume, before slicing.",
+      "printed": true
+    },
+    {
+      "name": "streamlined_upper_shell",
+      "body": "chassis",
+      "mass_kg": 0.10277751339240797,
+      "com_m": [
+        0.008991410694880074,
+        -6.538364136650124e-09,
+        0.02272789220784959
+      ],
+      "unit_inertia_m2": [
+        [
+          0.0018876568423757353,
+          -3.939564055268619e-10,
+          4.939652844922042e-05
+        ],
+        [
+          -3.939564055268619e-10,
+          0.0021537947348864534,
+          -2.1523046566922168e-10
+        ],
+        [
+          4.939652844922042e-05,
+          -2.1523046566922168e-10,
+          0.0036169192512904703
+        ]
+      ],
+      "volume_cm3": 80.29493233781872,
+      "basis": "PETG HF density 1.28 g/cm\u00b3; full-density CAD volume, before slicing.",
+      "printed": true
+    },
+    {
+      "name": "streamlined_lower_tray",
+      "body": "chassis",
+      "mass_kg": 0.0868081600229987,
+      "com_m": [
+        0.005200514249200494,
+        -6.275400496576528e-09,
+        -0.027908051891036133
+      ],
+      "unit_inertia_m2": [
+        [
+          0.0013936431234715966,
+          4.757926845645867e-11,
+          -4.4752906706687184e-05
+        ],
+        [
+          4.757926845645867e-11,
+          0.002292176305817662,
+          6.456197215171879e-11
+        ],
+        [
+          -4.4752906706687184e-05,
+          6.456197215171879e-11,
+          0.0035268513122213027
+        ]
+      ],
+      "volume_cm3": 67.81887501796773,
+      "basis": "PETG HF density 1.28 g/cm\u00b3; full-density CAD volume, before slicing.",
+      "printed": true
+    },
+    {
+      "name": "flush_visor",
+      "body": "chassis",
+      "mass_kg": 0.0023621870271365616,
+      "com_m": [
+        0.0806900852633077,
+        5.531767047813379e-12,
+        0.003811617835807895
+      ],
+      "unit_inertia_m2": [
+        [
+          0.0008811990402008222,
+          -1.0181496893068214e-13,
+          4.986273586587416e-06
+        ],
+        [
+          -1.0181496893068214e-13,
+          2.802655164129638e-05,
+          1.121675505152657e-13
+        ],
+        [
+          4.986273586587416e-06,
+          1.121675505152657e-13,
+          0.0008795331660044209
+        ]
+      ],
+      "volume_cm3": 1.968489189280468,
+      "basis": "Polymer visor/diffuser allocation, 1.20 g/cm\u00b3.",
+      "printed": false
+    },
+    {
+      "name": "visor_light_0",
+      "body": "chassis",
+      "mass_kg": 1.4809985634460794e-05,
+      "com_m": [
+        0.08417675439023832,
+        -0.017938361070478123,
+        0.003997793766345324
+      ],
+      "unit_inertia_m2": [
+        [
+          1.1929731530169275e-05,
+          -2.0157181761104859e-07,
+          2.7768109444686328e-08
+        ],
+        [
+          -2.0157181761104859e-07,
+          1.9516521034517655e-07,
+          5.223461723741921e-10
+        ],
+        [
+          2.7768109444686328e-08,
+          5.223461723741921e-10,
+          1.1989835762433103e-05
+        ]
+      ],
+      "volume_cm3": 0.012341654695383996,
+      "basis": "Polymer visor/diffuser allocation, 1.20 g/cm\u00b3.",
+      "printed": false
+    },
+    {
+      "name": "visor_light_1",
+      "body": "chassis",
+      "mass_kg": 1.4809985637131642e-05,
+      "com_m": [
+        0.08417675438953456,
+        0.017938361070517144,
+        0.003997793767912118
+      ],
+      "unit_inertia_m2": [
+        [
+          1.1929731533964298e-05,
+          2.015718196596219e-07,
+          2.7768109478441166e-08
+        ],
+        [
+          2.015718196596219e-07,
+          1.95165211373519e-07,
+          -5.223510400864312e-10
+        ],
+        [
+          2.7768109478441166e-08,
+          -5.223510400864312e-10,
+          1.1989835764779682e-05
+        ]
+      ],
+      "volume_cm3": 0.012341654697609701,
+      "basis": "Polymer visor/diffuser allocation, 1.20 g/cm\u00b3.",
+      "printed": false
+    },
+    {
+      "name": "left_internal_hip_carrier",
+      "body": "chassis",
+      "mass_kg": 0.08454453178437871,
+      "com_m": [
+        0.04453808683842693,
+        0.05491184989887189,
+        0.0022786546007137884
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00025024477042971416,
+          -1.934527431232532e-05,
+          -2.1471480532734384e-05
+        ],
+        [
+          -1.934527431232532e-05,
+          0.0004270948164676546,
+          -2.625738178825178e-05
+        ],
+        [
+          -2.1471480532734384e-05,
+          -2.625738178825178e-05,
+          0.0002327629840041063
+        ]
+      ],
+      "volume_cm3": 10.77000404896544,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_body_guide_pin",
+      "body": "chassis",
+      "mass_kg": 0.002552465491225367,
+      "com_m": [
+        0.06158204859622333,
+        0.06924999999999999,
+        0.01255
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3270833333335295e-05,
+          -7.160608278411784e-19,
+          8.95076034801473e-20
+        ],
+        [
+          -7.160608278411784e-19,
+          4.499999999999907e-06,
+          -1.790152069602946e-19
+        ],
+        [
+          8.95076034801473e-20,
+          -1.790152069602946e-19,
+          1.3270833333335295e-05
+        ]
+      ],
+      "volume_cm3": 0.3251548396465436,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_tie_link",
+      "body": "left_tie",
+      "mass_kg": 0.017363745970424258,
+      "com_m": [
+        0.03279500000000001,
+        0.017,
+        -3.493378979209862e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          7.323622675049348e-06,
+          1.0526072863517128e-19,
+          1.4241883714627367e-20
+        ],
+        [
+          1.0526072863517128e-19,
+          0.00042047433132090664,
+          1.115472046464943e-21
+        ],
+        [
+          1.4241883714627367e-20,
+          1.115472046464943e-21,
+          0.0004158173753125238
+        ]
+      ],
+      "volume_cm3": 2.211942161837485,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_knee_lever_inner",
+      "body": "left_lower",
+      "mass_kg": 0.006612197236309629,
+      "com_m": [
+        -0.0034467137719797238,
+        0.008500000000000006,
+        0.0011102652331156824
+      ],
+      "unit_inertia_m2": [
+        [
+          2.4418968997815817e-05,
+          -2.1595040661255806e-20,
+          1.0446562345622084e-05
+        ],
+        [
+          -2.1595040661255806e-20,
+          7.671512645006017e-05,
+          9.717768297565114e-21
+        ],
+        [
+          1.0446562345622084e-05,
+          9.717768297565114e-21,
+          5.3796157452244166e-05
+        ]
+      ],
+      "volume_cm3": 0.842318119275112,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_knee_lever_outer",
+      "body": "left_lower",
+      "mass_kg": 0.006612197236309629,
+      "com_m": [
+        -0.0034467137719797238,
+        0.021000000000000005,
+        0.0011102652331156824
+      ],
+      "unit_inertia_m2": [
+        [
+          2.441896899781587e-05,
+          -1.7276032529004645e-20,
+          1.0446562345622084e-05
+        ],
+        [
+          -1.7276032529004645e-20,
+          7.671512645006017e-05,
+          1.2957024396753485e-20
+        ],
+        [
+          1.0446562345622084e-05,
+          1.2957024396753485e-20,
+          5.3796157452244166e-05
+        ]
+      ],
+      "volume_cm3": 0.842318119275112,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_knee_shaft",
+      "body": "left_lower",
+      "mass_kg": 0.010858391873740988,
+      "com_m": [
+        -6.474876908491015e-05,
+        0.010042672178219565,
+        1.9007237357500565e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          6.907149511101705e-05,
+          -1.6069746857909464e-07,
+          -6.6169731807270315e-21
+        ],
+        [
+          -1.6069746857909464e-07,
+          7.8824972510034e-06,
+          2.3429542182632525e-21
+        ],
+        [
+          -6.6169731807270315e-21,
+          2.3429542182632525e-21,
+          6.88406820161218e-05
+        ]
+      ],
+      "volume_cm3": 1.383234633597578,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_knee_guide_pin",
+      "body": "left_lower",
+      "mass_kg": 0.0037732098565940206,
+      "com_m": [
+        -0.014436706150420621,
+        0.015499999999999998,
+        0.004626782416151362
+      ],
+      "unit_inertia_m2": [
+        [
+          2.6333333333333446e-05,
+          0.0,
+          1.513731529443668e-20
+        ],
+        [
+          0.0,
+          4.499999999999953e-06,
+          -1.513731529443668e-20
+        ],
+        [
+          1.513731529443668e-20,
+          -1.513731529443668e-20,
+          2.6333333333333355e-05
+        ]
+      ],
+      "volume_cm3": 0.4806636759992383,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_knee_bushing",
+      "body": "left_upper",
+      "mass_kg": 0.0021894953008075634,
+      "com_m": [
+        0.06448187746169305,
+        0.0125,
+        1.7706003593052857e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          1.4383489583333302e-05,
+          -3.509215679861831e-19,
+          1.1819511406383032e-20
+        ],
+        [
+          -3.509215679861831e-19,
+          2.610031250000413e-05,
+          -1.627810007748408e-21
+        ],
+        [
+          1.1819511406383032e-20,
+          -1.627810007748408e-21,
+          1.4383489583338274e-05
+        ]
+      ],
+      "volume_cm3": 0.24880628418267764,
+      "basis": "Bronze density 8.8 g/cm\u00b3 assumption; exact bushing unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_guide_spacer_body_inner",
+      "body": "chassis",
+      "mass_kg": 8.09945390295384e-05,
+      "com_m": [
+        0.06158204859622331,
+        0.06674999999999999,
+        0.012549999999999995
+      ],
+      "unit_inertia_m2": [
+        [
+          7.3956250000021566e-06,
+          -2.1155599361029685e-18,
+          -2.6444499201287106e-19
+        ],
+        [
+          -2.1155599361029685e-18,
+          1.4776250000002845e-05,
+          -3.525933226838281e-19
+        ],
+        [
+          -2.6444499201287106e-19,
+          -3.525933226838281e-19,
+          7.395625000002861e-06
+        ]
+      ],
+      "volume_cm3": 0.010317775672552664,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_guide_spacer_body_outer",
+      "body": "chassis",
+      "mass_kg": 8.099453902953843e-05,
+      "com_m": [
+        0.06158204859622331,
+        0.07124999999999998,
+        0.012549999999999997
+      ],
+      "unit_inertia_m2": [
+        [
+          7.3956249999993326e-06,
+          -7.05186645367656e-19,
+          -8.8148330670957e-20
+        ],
+        [
+          -7.05186645367656e-19,
+          1.4776250000001429e-05,
+          0.0
+        ],
+        [
+          -8.8148330670957e-20,
+          0.0,
+          7.395625000002859e-06
+        ]
+      ],
+      "volume_cm3": 0.010317775672552668,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_guide_spacer_knee_inner",
+      "body": "left_lower",
+      "mass_kg": 0.0012149180854430315,
+      "com_m": [
+        -0.014436706150420617,
+        0.012499999999999997,
+        0.004626782416151366
+      ],
+      "unit_inertia_m2": [
+        [
+          9.075625000000003e-06,
+          7.051866453676822e-20,
+          -1.1753110756128036e-20
+        ],
+        [
+          7.051866453676822e-20,
+          1.477625000000005e-05,
+          -1.1753110756128036e-20
+        ],
+        [
+          -1.1753110756128036e-20,
+          -1.1753110756128036e-20,
+          9.075625000000215e-06
+        ]
+      ],
+      "volume_cm3": 0.15476663508828425,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_guide_spacer_knee_outer",
+      "body": "left_lower",
+      "mass_kg": 8.099453902953466e-05,
+      "com_m": [
+        -0.014436706150420617,
+        0.019249999999999993,
+        0.004626782416151367
+      ],
+      "unit_inertia_m2": [
+        [
+          7.395625000000206e-06,
+          1.762966613419222e-19,
+          -1.1018541333870137e-20
+        ],
+        [
+          1.762966613419222e-19,
+          1.4776250000000087e-05,
+          -2.2037082667740274e-20
+        ],
+        [
+          -1.1018541333870137e-20,
+          -2.2037082667740274e-20,
+          7.395625000000471e-06
+        ]
+      ],
+      "volume_cm3": 0.010317775672552187,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "left_covered_thigh",
+      "body": "left_upper",
+      "mass_kg": 0.059803278259666005,
+      "com_m": [
+        0.02342613188045571,
+        0.026689678341816677,
+        -0.0020301233043635326
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00042866798741191675,
+          -1.2312675880516846e-05,
+          8.651813676674688e-05
+        ],
+        [
+          -1.2312675880516846e-05,
+          0.001526414493930988,
+          3.3754292889517087e-06
+        ],
+        [
+          8.651813676674688e-05,
+          3.3754292889517087e-06,
+          0.0013067410503375364
+        ]
+      ],
+      "volume_cm3": 46.721311140364065,
+      "basis": "PETG HF density 1.28 g/cm\u00b3; full-density CAD volume, before slicing.",
+      "printed": true
+    },
+    {
+      "name": "left_thigh_service_lid",
+      "body": "left_upper",
+      "mass_kg": 0.00596156277428813,
+      "com_m": [
+        0.057083189791941956,
+        0.00594379786378434,
+        -0.0033037648124816603
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00029912254125876196,
+          5.961948860053082e-07,
+          4.5071800739932963e-07
+        ],
+        [
+          5.961948860053082e-07,
+          0.0006223910273126077,
+          -9.424210267538869e-07
+        ],
+        [
+          4.5071800739932963e-07,
+          -9.424210267538869e-07,
+          0.00032395880983293477
+        ]
+      ],
+      "volume_cm3": 4.967968978573443,
+      "basis": "TPU density assumption; solid CAD volume.",
+      "printed": true
+    },
+    {
+      "name": "right_internal_hip_carrier",
+      "body": "chassis",
+      "mass_kg": 0.08454453178437871,
+      "com_m": [
+        0.04453808683842693,
+        -0.05491184989887189,
+        0.0022786546007137884
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00025024477042971416,
+          1.934527431232532e-05,
+          -2.1471480532734404e-05
+        ],
+        [
+          1.934527431232532e-05,
+          0.0004270948164676546,
+          2.625738178825178e-05
+        ],
+        [
+          -2.1471480532734404e-05,
+          2.625738178825178e-05,
+          0.0002327629840041063
+        ]
+      ],
+      "volume_cm3": 10.77000404896544,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_body_guide_pin",
+      "body": "chassis",
+      "mass_kg": 0.002552465491225367,
+      "com_m": [
+        0.06158204859622333,
+        -0.06924999999999999,
+        0.01255
+      ],
+      "unit_inertia_m2": [
+        [
+          1.3270833333335295e-05,
+          7.160608278411784e-19,
+          8.95076034801473e-20
+        ],
+        [
+          7.160608278411784e-19,
+          4.499999999999907e-06,
+          1.790152069602946e-19
+        ],
+        [
+          8.95076034801473e-20,
+          1.790152069602946e-19,
+          1.3270833333335295e-05
+        ]
+      ],
+      "volume_cm3": 0.3251548396465436,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_tie_link",
+      "body": "right_tie",
+      "mass_kg": 0.017363745970424258,
+      "com_m": [
+        0.032795000000000005,
+        -0.016999999999999998,
+        -3.878855280364054e-19
+      ],
+      "unit_inertia_m2": [
+        [
+          7.323622675049401e-06,
+          1.0526072863517128e-19,
+          1.3183301545607767e-20
+        ],
+        [
+          1.0526072863517128e-19,
+          0.00042047433132090707,
+          -9.7413073604174e-22
+        ],
+        [
+          1.3183301545607767e-20,
+          -9.7413073604174e-22,
+          0.00041581737531252446
+        ]
+      ],
+      "volume_cm3": 2.211942161837485,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_knee_lever_inner",
+      "body": "right_lower",
+      "mass_kg": 0.006612197236309629,
+      "com_m": [
+        -0.0034467137719797238,
+        -0.008500000000000006,
+        0.0011102652331156822
+      ],
+      "unit_inertia_m2": [
+        [
+          2.4418968997815817e-05,
+          1.2957024396753485e-20,
+          1.0446562345622084e-05
+        ],
+        [
+          1.2957024396753485e-20,
+          7.671512645006017e-05,
+          -9.717768297565114e-21
+        ],
+        [
+          1.0446562345622084e-05,
+          -9.717768297565114e-21,
+          5.3796157452244166e-05
+        ]
+      ],
+      "volume_cm3": 0.842318119275112,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_knee_lever_outer",
+      "body": "right_lower",
+      "mass_kg": 0.006612197236309629,
+      "com_m": [
+        -0.0034467137719797238,
+        -0.021000000000000005,
+        0.0011102652331156822
+      ],
+      "unit_inertia_m2": [
+        [
+          2.441896899781587e-05,
+          0.0,
+          1.0446562345622084e-05
+        ],
+        [
+          0.0,
+          7.671512645006017e-05,
+          -8.638016264502323e-21
+        ],
+        [
+          1.0446562345622084e-05,
+          -8.638016264502323e-21,
+          5.3796157452244166e-05
+        ]
+      ],
+      "volume_cm3": 0.842318119275112,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_knee_shaft",
+      "body": "right_lower",
+      "mass_kg": 0.010858391873740988,
+      "com_m": [
+        -6.474876908491015e-05,
+        -0.010042672178219565,
+        1.9007237357500565e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          6.907149511101705e-05,
+          1.6069746857909464e-07,
+          -6.6169731807270315e-21
+        ],
+        [
+          1.6069746857909464e-07,
+          7.8824972510034e-06,
+          -2.3429542182632525e-21
+        ],
+        [
+          -6.6169731807270315e-21,
+          -2.3429542182632525e-21,
+          6.88406820161218e-05
+        ]
+      ],
+      "volume_cm3": 1.383234633597578,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_knee_guide_pin",
+      "body": "right_lower",
+      "mass_kg": 0.0037732098565940206,
+      "com_m": [
+        -0.014436706150420621,
+        -0.015499999999999998,
+        0.004626782416151362
+      ],
+      "unit_inertia_m2": [
+        [
+          2.6333333333333446e-05,
+          0.0,
+          1.513731529443668e-20
+        ],
+        [
+          0.0,
+          4.499999999999953e-06,
+          1.513731529443668e-20
+        ],
+        [
+          1.513731529443668e-20,
+          1.513731529443668e-20,
+          2.6333333333333355e-05
+        ]
+      ],
+      "volume_cm3": 0.4806636759992383,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_knee_bushing",
+      "body": "right_upper",
+      "mass_kg": 0.0021894953008075634,
+      "com_m": [
+        0.06448187746169305,
+        -0.0125,
+        1.7706003593052857e-18
+      ],
+      "unit_inertia_m2": [
+        [
+          1.4383489583333302e-05,
+          3.509215679861831e-19,
+          1.1819511406383032e-20
+        ],
+        [
+          3.509215679861831e-19,
+          2.610031250000413e-05,
+          1.627810007748408e-21
+        ],
+        [
+          1.1819511406383032e-20,
+          1.627810007748408e-21,
+          1.4383489583338274e-05
+        ]
+      ],
+      "volume_cm3": 0.24880628418267764,
+      "basis": "Bronze density 8.8 g/cm\u00b3 assumption; exact bushing unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_guide_spacer_body_inner",
+      "body": "chassis",
+      "mass_kg": 8.099453902953838e-05,
+      "com_m": [
+        0.06158204859622333,
+        -0.06675,
+        0.01255
+      ],
+      "unit_inertia_m2": [
+        [
+          7.395625000000043e-06,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.477625000000003e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          7.395624999998633e-06
+        ]
+      ],
+      "volume_cm3": 0.01031777567255266,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_guide_spacer_body_outer",
+      "body": "chassis",
+      "mass_kg": 8.09945390295384e-05,
+      "com_m": [
+        0.06158204859622333,
+        -0.07125,
+        0.012549999999999995
+      ],
+      "unit_inertia_m2": [
+        [
+          7.395624999999336e-06,
+          -7.051866453676562e-19,
+          -8.814833067095703e-20
+        ],
+        [
+          -7.051866453676562e-19,
+          1.4776249999999318e-05,
+          3.525933226838281e-19
+        ],
+        [
+          -8.814833067095703e-20,
+          3.525933226838281e-19,
+          7.39562499999863e-06
+        ]
+      ],
+      "volume_cm3": 0.010317775672552664,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_guide_spacer_knee_inner",
+      "body": "right_lower",
+      "mass_kg": 0.0012149180854430315,
+      "com_m": [
+        -0.014436706150420617,
+        -0.012500000000000002,
+        0.004626782416151368
+      ],
+      "unit_inertia_m2": [
+        [
+          9.075624999999958e-06,
+          -7.051866453676822e-20,
+          0.0
+        ],
+        [
+          -7.051866453676822e-20,
+          1.4776250000000238e-05,
+          -2.350622151225607e-20
+        ],
+        [
+          0.0,
+          -2.350622151225607e-20,
+          9.075625000000122e-06
+        ]
+      ],
+      "volume_cm3": 0.15476663508828425,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_guide_spacer_knee_outer",
+      "body": "right_lower",
+      "mass_kg": 8.099453902953469e-05,
+      "com_m": [
+        -0.014436706150420617,
+        -0.019249999999999996,
+        0.004626782416151367
+      ],
+      "unit_inertia_m2": [
+        [
+          7.395624999999938e-06,
+          -1.322224960064416e-19,
+          -1.1018541333870133e-20
+        ],
+        [
+          -1.322224960064416e-19,
+          1.4776250000000082e-05,
+          0.0
+        ],
+        [
+          -1.1018541333870133e-20,
+          0.0,
+          7.395625000000203e-06
+        ]
+      ],
+      "volume_cm3": 0.01031777567255219,
+      "basis": "Steel, 7.85 g/cm\u00b3; material allocation, grade unselected.",
+      "printed": false
+    },
+    {
+      "name": "right_covered_thigh",
+      "body": "right_upper",
+      "mass_kg": 0.05980327825966601,
+      "com_m": [
+        0.023426131880455718,
+        -0.026689678341816677,
+        -0.002030123304363533
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00042866798741191653,
+          1.2312675880516844e-05,
+          8.651813676674688e-05
+        ],
+        [
+          1.2312675880516844e-05,
+          0.0015264144939309886,
+          -3.3754292889517083e-06
+        ],
+        [
+          8.651813676674688e-05,
+          -3.3754292889517083e-06,
+          0.0013067410503375362
+        ]
+      ],
+      "volume_cm3": 46.72131114036407,
+      "basis": "PETG HF density 1.28 g/cm\u00b3; full-density CAD volume, before slicing.",
+      "printed": true
+    },
+    {
+      "name": "right_thigh_service_lid",
+      "body": "right_upper",
+      "mass_kg": 0.00596156277428813,
+      "com_m": [
+        0.057083189791941956,
+        -0.00594379786378434,
+        -0.0033037648124816603
+      ],
+      "unit_inertia_m2": [
+        [
+          0.00029912254125876196,
+          -5.961948860053082e-07,
+          4.5071800739932963e-07
+        ],
+        [
+          -5.961948860053082e-07,
+          0.0006223910273126077,
+          9.424210267538809e-07
+        ],
+        [
+          4.5071800739932963e-07,
+          9.424210267538809e-07,
+          0.00032395880983293406
+        ]
+      ],
+      "volume_cm3": 4.967968978573443,
+      "basis": "TPU density assumption; solid CAD volume.",
+      "printed": true
+    },
+    {
+      "name": "unmodeled_hardware_allowance",
+      "body": "chassis",
+      "mass_kg": 0.15,
+      "com_m": [
+        -0.005,
+        0,
+        0
+      ],
+      "unit_inertia_m2": [
+        [
+          0.0009749999999999998,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0014999999999999998,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.001875
+        ]
+      ],
+      "basis": "150 g allowance for missing fasteners, idler shafts, cables, retainers and mounting hardware. Location/inertia approximate.",
+      "printed": false
+    },
+    {
+      "name": "left_spring_upper_half",
+      "body": "left_upper",
+      "mass_kg": 0.009,
+      "com_m": [
+        0.021481877461693097,
+        0.0295,
+        0
+      ],
+      "unit_inertia_m2": [
+        [
+          2.4e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.5333333333333335e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.5333333333333335e-05
+        ]
+      ],
+      "basis": "Half of an assumed 18 g spring plus guide/seat hardware allocation; actual mass and moving COM unmeasured.",
+      "printed": false
+    },
+    {
+      "name": "left_spring_lower_half",
+      "body": "left_lower",
+      "mass_kg": 0.009,
+      "com_m": [
+        0.025,
+        0.0295,
+        0
+      ],
+      "unit_inertia_m2": [
+        [
+          2.4e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.5333333333333335e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.5333333333333335e-05
+        ]
+      ],
+      "basis": "Other half of spring/guide allocation; shape change not explicitly inertial.",
+      "printed": false
+    },
+    {
+      "name": "right_spring_upper_half",
+      "body": "right_upper",
+      "mass_kg": 0.009,
+      "com_m": [
+        0.021481877461693097,
+        -0.0295,
+        0
+      ],
+      "unit_inertia_m2": [
+        [
+          2.4e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.5333333333333335e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.5333333333333335e-05
+        ]
+      ],
+      "basis": "Half of an assumed 18 g spring plus guide/seat hardware allocation; actual mass and moving COM unmeasured.",
+      "printed": false
+    },
+    {
+      "name": "right_spring_lower_half",
+      "body": "right_lower",
+      "mass_kg": 0.009,
+      "com_m": [
+        0.025,
+        -0.0295,
+        0
+      ],
+      "unit_inertia_m2": [
+        [
+          2.4e-05,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          4.5333333333333335e-05,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          4.5333333333333335e-05
+        ]
+      ],
+      "basis": "Other half of spring/guide allocation; shape change not explicitly inertial.",
+      "printed": false
+    }
+  ],
+  "bodies": {
+    "chassis": {
+      "mass_kg": 1.01223452413207,
+      "com_m": [
+        0.004612496882779931,
+        -1.2020333563919491e-09,
+        0.0024655050209203416
+      ],
+      "inertia_kg_m2": [
+        [
+          0.0015336337935284209,
+          1.3838874924893603e-05,
+          -8.061458904429236e-05
+        ],
+        [
+          1.3838874924893603e-05,
+          0.0018387792416012384,
+          -1.9446016222366184e-11
+        ],
+        [
+          -8.061458904429236e-05,
+          -1.9446016222366184e-11,
+          0.0024801035585120226
+        ]
+      ]
+    },
+    "left_lower": {
+      "mass_kg": 0.17493788265602236,
+      "com_m": [
+        0.07281488919835677,
+        -0.0038427284748733955,
+        0.00021799918975904067
+      ],
+      "inertia_kg_m2": [
+        [
+          7.143658636449057e-05,
+          7.657399074669986e-05,
+          3.304242099554767e-06
+        ],
+        [
+          7.657399074669986e-05,
+          0.0004008888343816377,
+          -7.111901614636105e-07
+        ],
+        [
+          3.304242099554767e-06,
+          -7.111901614636105e-07,
+          0.0004339975226553404
+        ]
+      ]
+    },
+    "left_tie": {
+      "mass_kg": 0.017363745970424258,
+      "com_m": [
+        0.03279500000000001,
+        0.017,
+        -3.493378979209862e-19
+      ],
+      "inertia_kg_m2": [
+        [
+          1.2716552371279583e-07,
+          1.8277205526828767e-21,
+          2.472924509611118e-22
+        ],
+        [
+          1.8277205526828767e-21,
+          7.301009476140227e-06,
+          1.9368773251926554e-23
+        ],
+        [
+          2.472924509611118e-22,
+          1.9368773251926554e-23,
+          7.2201472750152265e-06
+        ]
+      ]
+    },
+    "left_upper": {
+      "mass_kg": 0.14305890995318365,
+      "com_m": [
+        0.01450999569492009,
+        0.012272167278237038,
+        -0.000986332345462122
+      ],
+      "inertia_kg_m2": [
+        [
+          8.004201536526749e-05,
+          -2.2140498881665394e-05,
+          7.097750368607356e-06
+        ],
+        [
+          -2.2140498881665394e-05,
+          0.00015060942675224073,
+          1.8220039933761255e-06
+        ],
+        [
+          7.097750368607357e-06,
+          1.8220039933761255e-06,
+          0.0001681034659709552
+        ]
+      ]
+    },
+    "left_wheel": {
+      "mass_kg": 0.35398557319780966,
+      "com_m": [
+        -5.205403231112499e-17,
+        -0.008754232708947774,
+        -6.202802565681569e-17
+      ],
+      "inertia_kg_m2": [
+        [
+          0.00022247589437563817,
+          -2.6636182302257093e-19,
+          5.130236291691703e-19
+        ],
+        [
+          -2.6636182302257093e-19,
+          0.00032349052549655925,
+          -3.1554766930603925e-19
+        ],
+        [
+          5.133500916602811e-19,
+          -3.1554766930603925e-19,
+          0.00022247589437564088
+        ]
+      ]
+    },
+    "right_lower": {
+      "mass_kg": 0.17493788265602236,
+      "com_m": [
+        0.07281488919835676,
+        0.0038427284748733955,
+        0.00021799918975904005
+      ],
+      "inertia_kg_m2": [
+        [
+          7.143658636449057e-05,
+          -7.657399074669986e-05,
+          3.3042420995547668e-06
+        ],
+        [
+          -7.657399074669986e-05,
+          0.00040088883438163796,
+          7.111901614636124e-07
+        ],
+        [
+          3.3042420995547668e-06,
+          7.111901614636124e-07,
+          0.0004339975226553407
+        ]
+      ]
+    },
+    "right_tie": {
+      "mass_kg": 0.017363745970424258,
+      "com_m": [
+        0.032795000000000005,
+        -0.016999999999999998,
+        -3.878855280364054e-19
+      ],
+      "inertia_kg_m2": [
+        [
+          1.2716552371279676e-07,
+          1.8277205526828767e-21,
+          2.2891149908943474e-22
+        ],
+        [
+          1.8277205526828767e-21,
+          7.301009476140235e-06,
+          -1.691455864261118e-23
+        ],
+        [
+          2.2891149908943474e-22,
+          -1.691455864261118e-23,
+          7.220147275015238e-06
+        ]
+      ]
+    },
+    "right_upper": {
+      "mass_kg": 0.14305890995318365,
+      "com_m": [
+        0.014509995694920093,
+        -0.012272167278237038,
+        -0.0009863323454621222
+      ],
+      "inertia_kg_m2": [
+        [
+          8.004201536526748e-05,
+          2.21404988816654e-05,
+          7.097750368607358e-06
+        ],
+        [
+          2.21404988816654e-05,
+          0.00015060942675224078,
+          -1.8220039933761267e-06
+        ],
+        [
+          7.0977503686073595e-06,
+          -1.8220039933761267e-06,
+          0.00016810346597095522
+        ]
+      ]
+    },
+    "right_wheel": {
+      "mass_kg": 0.35398557319780966,
+      "com_m": [
+        -5.205403231112499e-17,
+        0.008754232708947774,
+        -6.202802565681569e-17
+      ],
+      "inertia_kg_m2": [
+        [
+          0.00022247589437563814,
+          2.7102353501569977e-19,
+          5.130236291691703e-19
+        ],
+        [
+          2.7102353501569977e-19,
+          0.00032349052549655925,
+          3.1638485059340123e-19
+        ],
+        [
+          5.133500916602811e-19,
+          3.1638485059340123e-19,
+          0.00022247589437564088
+        ]
+      ]
+    }
+  },
+  "total_mass_kg": 2.3909267476869474,
+  "printed_mass_kg": 0.638450681654236,
+  "sources": [
+    "https://sunnyskyusa.com/products/sunnysky-v2806-motor",
+    "https://sunnyskyusa.com/products/sunnysky-x2216-v3-brushless-motors-long-shaft-version",
+    "https://cdn1.bambulab.com/filament/filament-guide/wksdyyzd8n9/filament-guide-en.pdf"
+  ],
+  "limitations": "Dense PETG prints, solid rubber tire envelopes, steel metal allocations; bought part and electronics masses include explicit assumptions. Springs split between seats. Gears assigned to output bodies; rotor/intermediate spin added as armature by plant. No measured component inertia, slicer mass, wiring layout or complete BOM.",
+  "cad_mesh_sha256": "0b70c01c786fe3acdcb8384d41b841f2465246ff0c3340f9bd011ca2caf526b8"
+}

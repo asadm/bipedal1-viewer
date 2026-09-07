@@ -1,0 +1,7 @@
+{
+  "independent_pose_pairs": 121,
+  "max_wheel_position_error_m": 5.721958498152797e-17,
+  "max_spring_length_error_m": 3.469446951953614e-17,
+  "max_closure_error_m": 3.925231146709438e-17,
+  "pass": true
+}

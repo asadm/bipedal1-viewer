@@ -1,0 +1,138 @@
+{
+  "target": "250 mm minimum clearance under both wheels; Beni advertised metric is not precisely defined.",
+  "assumptions": "18\u201320 cm ballistic COM rise might suffice with a redesigned tuck, but clearance and COM peaks must be checked simultaneously in full-body dynamics. 25 cm COM rise is also sized. The 65% conversion factor is a scenario, not a measured efficiency.",
+  "current_max_pair_spring_energy_at_20mm_J": 1.56,
+  "optimistic_current_hip_torque_Nm": 2.6058697142857143,
+  "current_hip_pair_work_over_0_5_rad_J": 2.6058697142857143,
+  "hypothetical_hip_pair_work_over_1_15_rad_J": 5.993500342857143,
+  "energy_scenarios": [
+    {
+      "mass_kg": 1.75,
+      "ballistic_COM_rise_m": 0.18,
+      "takeoff_speed_m_s": 1.879255171603899,
+      "takeoff_translation_energy_J": 3.09015,
+      "ideal_work_including_100mm_COM_push_J": 4.806900000000001,
+      "mechanical_energy_if_conversion_65pct_J": 7.3952307692307695
+    },
+    {
+      "mass_kg": 1.75,
+      "ballistic_COM_rise_m": 0.2,
+      "takeoff_speed_m_s": 1.9809088823063015,
+      "takeoff_translation_energy_J": 3.4335000000000004,
+      "ideal_work_including_100mm_COM_push_J": 5.150250000000001,
+      "mechanical_energy_if_conversion_65pct_J": 7.923461538461539
+    },
+    {
+      "mass_kg": 1.75,
+      "ballistic_COM_rise_m": 0.25,
+      "takeoff_speed_m_s": 2.2147234590350102,
+      "takeoff_translation_energy_J": 4.291875,
+      "ideal_work_including_100mm_COM_push_J": 6.008624999999999,
+      "mechanical_energy_if_conversion_65pct_J": 9.24403846153846
+    },
+    {
+      "mass_kg": 2.0,
+      "ballistic_COM_rise_m": 0.18,
+      "takeoff_speed_m_s": 1.879255171603899,
+      "takeoff_translation_energy_J": 3.5316,
+      "ideal_work_including_100mm_COM_push_J": 5.493600000000001,
+      "mechanical_energy_if_conversion_65pct_J": 8.451692307692309
+    },
+    {
+      "mass_kg": 2.0,
+      "ballistic_COM_rise_m": 0.2,
+      "takeoff_speed_m_s": 1.9809088823063015,
+      "takeoff_translation_energy_J": 3.9240000000000004,
+      "ideal_work_including_100mm_COM_push_J": 5.886000000000001,
+      "mechanical_energy_if_conversion_65pct_J": 9.055384615384616
+    },
+    {
+      "mass_kg": 2.0,
+      "ballistic_COM_rise_m": 0.25,
+      "takeoff_speed_m_s": 2.2147234590350102,
+      "takeoff_translation_energy_J": 4.905,
+      "ideal_work_including_100mm_COM_push_J": 6.867,
+      "mechanical_energy_if_conversion_65pct_J": 10.564615384615385
+    },
+    {
+      "mass_kg": 2.4,
+      "ballistic_COM_rise_m": 0.18,
+      "takeoff_speed_m_s": 1.879255171603899,
+      "takeoff_translation_energy_J": 4.23792,
+      "ideal_work_including_100mm_COM_push_J": 6.592320000000001,
+      "mechanical_energy_if_conversion_65pct_J": 10.14203076923077
+    },
+    {
+      "mass_kg": 2.4,
+      "ballistic_COM_rise_m": 0.2,
+      "takeoff_speed_m_s": 1.9809088823063015,
+      "takeoff_translation_energy_J": 4.7088,
+      "ideal_work_including_100mm_COM_push_J": 7.063200000000001,
+      "mechanical_energy_if_conversion_65pct_J": 10.86646153846154
+    },
+    {
+      "mass_kg": 2.4,
+      "ballistic_COM_rise_m": 0.25,
+      "takeoff_speed_m_s": 2.2147234590350102,
+      "takeoff_translation_energy_J": 5.886,
+      "ideal_work_including_100mm_COM_push_J": 8.2404,
+      "mechanical_energy_if_conversion_65pct_J": 12.67753846153846
+    }
+  ],
+  "long_stroke_geometry": {
+    "geometry": {
+      "crank_mm": 64.48187746169309,
+      "tie_mm": 83.50170734093714,
+      "coupler_mm": 28.22381039362516,
+      "lower_mm": 119.11935079120995,
+      "body_pin_mm": [
+        22.693104254181087,
+        44.99999999998685
+      ]
+    },
+    "q_low_rad": 0.35,
+    "q_high_rad": 1.5,
+    "stroke_mm": 99.80944095122507,
+    "wheel_drop_limits_mm": [
+      74.91740745002343,
+      174.7268484012485
+    ],
+    "wheel_fore_aft_excursion_mm": 6.044211746556279,
+    "hip_x_to_center_wheel_mm": 42.90204859622333,
+    "knee_angle_limits_rad": [
+      0.4556427024335452,
+      2.332305468018408
+    ],
+    "residual_norm": 17.74657027708943,
+    "status": "Kinematic proposal only. No motor/spring dynamics, CAD interference, manufacturing or landing validation."
+  },
+  "spring_study": {
+    "assumptions": "2 kg total, 1.8 kg approximate supported mass, seats 43/25 mm, quasi-static without friction or acceleration. Rates beyond 3.9 N/mm are scenarios, not newly selected SKUs.",
+    "scenarios": [
+      {
+        "rate_N_mm": 3.9,
+        "max_compression_mm": 18.528286687705496,
+        "max_pair_energy_J": 1.338859889569038,
+        "max_crouch_torque_each_Nm": 1.993896741229063
+      },
+      {
+        "rate_N_mm": 5.5,
+        "max_compression_mm": 18.528286687705496,
+        "max_pair_energy_J": 1.8881357416999254,
+        "max_crouch_torque_each_Nm": 3.3714947129266317
+      },
+      {
+        "rate_N_mm": 7.5,
+        "max_compression_mm": 18.528286687705496,
+        "max_pair_energy_J": 2.5747305568635346,
+        "max_crouch_torque_each_Nm": 5.093492177548591
+      },
+      {
+        "rate_N_mm": 10.0,
+        "max_compression_mm": 18.528286687705496,
+        "max_pair_energy_J": 3.4329740758180463,
+        "max_crouch_torque_each_Nm": 7.245989008326044
+      }
+    ]
+  }
+}

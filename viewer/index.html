@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#eff2f0">
+  <title>Beni — 3D mechanism viewer</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./viewer.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/controls/OrbitControls.js":"./vendor/OrbitControls.js"}}</script>
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="./" aria-label="Beni viewer home"><span class="brand-mark" aria-hidden="true">b.</span><span>Beni <span class="brand-secondary">/ mechanism viewer</span></span></a>
+    <div class="header-meta"><span class="status-dot"></span> Concept 01 <span class="header-separator">/</span> 3 motors</div>
+    <a class="download" href="./enclosed.html">New enclosed concept <span aria-hidden="true">↗</span></a>
+    <a class="download" href="../output/beni_normal.step" download>Download STEP <span aria-hidden="true">↗</span></a>
+  </header>
+  <main class="workspace">
+    <aside class="sidebar" aria-label="Inspection controls">
+      <section class="control-section actuator-section">
+        <div class="eyebrow">MECHANISM</div>
+        <h1>Shared height actuator</h1>
+        <p class="intro">Move both spring supports together. The wheels stay on the ground.</p>
+        <div class="slider-heading"><label for="height-travel">Actuator travel</label><output id="travel-output" for="height-travel">— <span>mm</span></output></div>
+        <input id="height-travel" type="range" min="0" max="14" step="0.01" value="7" disabled aria-describedby="travel-description">
+        <div class="range-ends" id="travel-description"><span>Low body</span><span>Raised body</span></div>
+        <div class="preset-row" aria-label="Height presets">
+          <button type="button" data-height="low" disabled>Low</button>
+          <button type="button" data-height="middle" disabled>Middle</button>
+          <button type="button" data-height="high" disabled>Raised</button>
+        </div>
+        <dl class="measurements" aria-live="polite">
+          <div><dt>Body rise</dt><dd id="rise-output">— mm</dd></div>
+          <div><dt>Overall height</dt><dd id="overall-output">— mm</dd></div>
+          <div><dt>Shock length</dt><dd id="shock-output">— mm</dd></div>
+        </dl>
+      </section>
+      <section class="control-section">
+        <h2>Look inside</h2>
+        <div class="segmented" aria-label="Chassis display">
+          <button type="button" data-frame="solid" aria-pressed="true">Solid</button>
+          <button type="button" data-frame="ghost" aria-pressed="false">Ghost</button>
+          <button type="button" data-frame="cutaway" aria-pressed="false">Cutaway</button>
+        </div>
+        <label class="check-row"><span>Wheels</span><input id="show-wheels" type="checkbox" checked></label>
+        <label class="check-row"><span>Battery &amp; electronics</span><input id="show-electronics" type="checkbox" checked></label>
+        <label class="check-row"><span>Part edges</span><input id="show-edges" type="checkbox" checked></label>
+      </section>
+      <section class="control-section selection-section">
+        <div class="selection-heading"><h2>Selected part</h2><button type="button" id="clear-selection" class="quiet-button" hidden>Clear</button></div>
+        <div id="selection" aria-live="polite"><p class="selection-empty">Click a part in the model to inspect it.</p></div>
+      </section>
+      <div class="sidebar-footer"><span class="small-dot"></span> Kinematic preview <p>Loaded, level-ground poses. This view does not simulate balance or impacts.</p></div>
+    </aside>
+    <section class="viewport" aria-label="3D model viewport">
+      <div class="view-toolbar" aria-label="Camera views">
+        <button type="button" data-view="iso" aria-pressed="true">3D</button>
+        <button type="button" data-view="front" aria-pressed="false">Front</button>
+        <button type="button" data-view="side" aria-pressed="false">Side</button>
+        <button type="button" data-view="top" aria-pressed="false">Top</button>
+        <span class="toolbar-divider"></span>
+        <button type="button" id="fit-view">Fit</button>
+      </div>
+      <canvas id="model-canvas" tabindex="0" aria-label="Orbitable 3D CAD model. Drag to orbit, scroll to zoom, right-drag to pan. Arrow keys orbit, plus and minus zoom, and Home resets the camera."></canvas>
+      <div id="load-status" role="status">Loading CAD assembly…</div>
+      <div class="canvas-caption"><span class="caption-mark" aria-hidden="true"></span><span id="canvas-caption">Full assembly</span></div>
+      <div class="legend" aria-label="Part colors"><span><i class="swatch frame"></i>Chassis</span><span><i class="swatch arm"></i>Arms</span><span><i class="swatch height"></i>Adjuster</span><span><i class="swatch drive"></i>Motors</span></div>
+      <div class="interaction-hint">Drag to orbit <span>·</span> Scroll to zoom <span>·</span> Right-drag to pan</div>
+    </section>
+  </main>
+  <noscript>This viewer needs JavaScript and WebGL.</noscript>
+  <script type="module" src="./viewer.mjs"></script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+{
+  "parameters": {
+    "revision": "concept-02-enclosed",
+    "status": "Appearance and packaging concept; jump transmission and strength unvalidated",
+    "units": "mm",
+    "wheel_radius": 50,
+    "wheel_width": 30,
+    "track": 150,
+    "arm_length": 75,
+    "pivot_x": -66,
+    "low_axle_drop": -10,
+    "height_range": 50,
+    "bump_preview": 12,
+    "body_top": 140,
+    "shell_wall": 2.6,
+    "printer_build_volume": [
+      180,
+      180,
+      180
+    ],
+    "preferred_print_xy": 170,
+    "jump_drive_envelope_mm": [
+      34,
+      74,
+      68
+    ]
+  },
+  "part_count": 35,
+  "poses": {
+    "low": {
+      "state": {
+        "body_z": 40,
+        "height": 0,
+        "left_bump": 0,
+        "right_bump": 0,
+        "left": {
+          "angle": -0.13373158940994154,
+          "wheel": [
+            8.330343736592525,
+            0,
+            10
+          ]
+        },
+        "right": {
+          "angle": -0.13373158940994154,
+          "wheel": [
+            8.330343736592525,
+            0,
+            10
+          ]
+        }
+      },
+      "size_mm": [
+        159.84,
+        180.15,
+        179.96
+      ]
+    },
+    "normal": {
+      "state": {
+        "body_z": 65,
+        "height": 25,
+        "left_bump": 0,
+        "right_bump": 0,
+        "left": {
+          "angle": 0.2013579207903308,
+          "wheel": [
+            7.484692283495335,
+            0,
+            -15
+          ]
+        },
+        "right": {
+          "angle": 0.2013579207903308,
+          "wheel": [
+            7.484692283495335,
+            0,
+            -15
+          ]
+        }
+      },
+      "size_mm": [
+        159.84,
+        180.15,
+        204.96
+      ]
+    },
+    "raised": {
+      "state": {
+        "body_z": 90,
+        "height": 50,
+        "left_bump": 0,
+        "right_bump": 0,
+        "left": {
+          "angle": 0.5625362445438556,
+          "wheel": [
+            -2.557112297752397,
+            0,
+            -40
+          ]
+        },
+        "right": {
+          "angle": 0.5625362445438556,
+          "wheel": [
+            -2.557112297752397,
+            0,
+            -40
+          ]
+        }
+      },
+      "size_mm": [
+        159.84,
+        180.15,
+        229.96
+      ]
+    }
+  },
+  "print_envelopes": [
+    {
+      "name": "front_structural_shell",
+      "bounds_mm": [
+        128.15,
+        108.11,
+        160.44
+      ],
+      "solid_count": 1,
+      "fits_conservative_build_box": true,
+      "status": "Concept geometry, not released for functional printing"
+    },
+    {
+      "name": "rear_service_shell",
+      "bounds_mm": [
+        28.78,
+        108.11,
+        160.12
+      ],
+      "solid_count": 1,
+      "fits_conservative_build_box": true,
+      "status": "Concept geometry, not released for functional printing"
+    },
+    {
+      "name": "lower_impact_wrap",
+      "bounds_mm": [
+        159.13,
+        110.11,
+        91.1
+      ],
+      "solid_count": 1,
+      "fits_conservative_build_box": true,
+      "status": "Concept geometry, not released for functional printing"
+    },
+    {
+      "name": "left_covered_arm",
+      "bounds_mm": [
+        108.21,
+        64.03,
+        34.03
+      ],
+      "solid_count": 1,
+      "fits_conservative_build_box": true,
+      "status": "Concept geometry, not released for functional printing"
+    },
+    {
+      "name": "left_rim",
+      "bounds_mm": [
+        51.8,
+        21.03,
+        51.85
+      ],
+      "solid_count": 1,
+      "fits_conservative_build_box": true,
+      "status": "Concept geometry, not released for functional printing"
+    },
+    {
+      "name": "left_wheel_face",
+      "bounds_mm": [
+        48.6,
+        1.55,
+        48.65
+      ],
+      "solid_count": 1,
+      "fits_conservative_build_box": true,
+      "status": "Concept geometry, not released for functional printing"
+    },
+    {
+      "name": "right_covered_arm",
+      "bounds_mm": [
+        108.21,
+        64.03,
+        34.03
+      ],
+      "solid_count": 1,
+      "fits_conservative_build_box": true,
+      "status": "Concept geometry, not released for functional printing"
+    },
+    {
+      "name": "right_rim",
+      "bounds_mm": [
+        51.8,
+        21.03,
+        51.85
+      ],
+      "solid_count": 1,
+      "fits_conservative_build_box": true,
+      "status": "Concept geometry, not released for functional printing"
+    },
+    {
+      "name": "right_wheel_face",
+      "bounds_mm": [
+        48.6,
+        1.55,
+        48.65
+      ],
+      "solid_count": 1,
+      "fits_conservative_build_box": true,
+      "status": "Concept geometry, not released for functional printing"
+    }
+  ],
+  "status": "Appearance and packaging concept; jump transmission and strength unvalidated",
+  "verification_scope": "Valid CAD shapes and printed-part bounds; no full interference, assembly, strength, sealing or jump validation"
+}

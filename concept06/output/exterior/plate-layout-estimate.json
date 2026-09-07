@@ -1,0 +1,222 @@
+{
+  "status": "Bounding-box nesting estimate only, not a sliced project. 170 x 170 mm working area, 4 mm object spacing, one rigid filament/color plus TPU. Print orientation, supports, brim and strength remain to be qualified; they may increase the plate count.",
+  "plate_count": 6,
+  "plates": [
+    {
+      "plate": 1,
+      "material": "rigid polymer",
+      "parts": [
+        {
+          "name": "streamlined_upper_shell",
+          "x_mm": 0,
+          "y_mm": 0,
+          "width_mm": 166.0000002000001,
+          "depth_mm": 118.0,
+          "height_mm": 59.60000010001592,
+          "orientation": "current STL orientation",
+          "material": "rigid polymer"
+        },
+        {
+          "name": "left_motor_service_lid",
+          "x_mm": 0,
+          "y_mm": 122,
+          "width_mm": 68.39999999999999,
+          "depth_mm": 43.8,
+          "height_mm": 2.4000000000000057,
+          "orientation": "Y-axis through build height",
+          "material": "rigid polymer"
+        },
+        {
+          "name": "right_motor_service_lid",
+          "x_mm": 72.4,
+          "y_mm": 122,
+          "width_mm": 68.39999999999999,
+          "depth_mm": 43.8,
+          "height_mm": 2.4000000000000057,
+          "orientation": "Y-axis through build height",
+          "material": "rigid polymer"
+        }
+      ]
+    },
+    {
+      "plate": 2,
+      "material": "rigid polymer",
+      "parts": [
+        {
+          "name": "streamlined_lower_tray",
+          "x_mm": 0,
+          "y_mm": 0,
+          "width_mm": 166.00000020000545,
+          "depth_mm": 116.0000002,
+          "height_mm": 30.29989169781576,
+          "orientation": "current STL orientation",
+          "material": "rigid polymer"
+        },
+        {
+          "name": "left_first_gear",
+          "x_mm": 0,
+          "y_mm": 120,
+          "width_mm": 49.98499408791941,
+          "depth_mm": 49.984994087919404,
+          "height_mm": 8.0,
+          "orientation": "Y-axis through build height",
+          "material": "rigid polymer"
+        },
+        {
+          "name": "right_first_gear",
+          "x_mm": 54,
+          "y_mm": 120,
+          "width_mm": 49.98499408791942,
+          "depth_mm": 49.98499408791942,
+          "height_mm": 8.0,
+          "orientation": "Y-axis through build height",
+          "material": "rigid polymer"
+        }
+      ]
+    },
+    {
+      "plate": 3,
+      "material": "rigid polymer",
+      "parts": [
+        {
+          "name": "left_lower_with_motor_cover",
+          "x_mm": 0,
+          "y_mm": 0,
+          "width_mm": 169.54316118483513,
+          "depth_mm": 73.91719042916296,
+          "height_mm": 44.4,
+          "orientation": "current STL orientation",
+          "material": "rigid polymer"
+        },
+        {
+          "name": "right_lower_with_motor_cover",
+          "x_mm": 0,
+          "y_mm": 77.92,
+          "width_mm": 169.54316118483513,
+          "depth_mm": 73.91719042916296,
+          "height_mm": 44.4,
+          "orientation": "current STL orientation",
+          "material": "rigid polymer"
+        },
+        {
+          "name": "left_tie_link",
+          "x_mm": 0,
+          "y_mm": 155.84,
+          "width_mm": 96.50170734093714,
+          "depth_mm": 13.0,
+          "height_mm": 6.0,
+          "orientation": "Y-axis through build height",
+          "material": "rigid polymer"
+        }
+      ]
+    },
+    {
+      "plate": 4,
+      "material": "rigid polymer",
+      "parts": [
+        {
+          "name": "left_covered_thigh",
+          "x_mm": 0,
+          "y_mm": 0,
+          "width_mm": 119.43133750000001,
+          "depth_mm": 57.4986208,
+          "height_mm": 30.2000001,
+          "orientation": "Y-axis through build height",
+          "material": "rigid polymer"
+        },
+        {
+          "name": "left_rim",
+          "x_mm": 0,
+          "y_mm": 61.5,
+          "width_mm": 52.0,
+          "depth_mm": 52.0,
+          "height_mm": 24.0,
+          "orientation": "Y-axis through build height",
+          "material": "rigid polymer"
+        },
+        {
+          "name": "right_rim",
+          "x_mm": 56,
+          "y_mm": 61.5,
+          "width_mm": 52.0,
+          "depth_mm": 52.0,
+          "height_mm": 24.0,
+          "orientation": "Y-axis through build height",
+          "material": "rigid polymer"
+        },
+        {
+          "name": "right_tie_link",
+          "x_mm": 0,
+          "y_mm": 117.5,
+          "width_mm": 96.50170734093714,
+          "depth_mm": 13.0,
+          "height_mm": 6.0,
+          "orientation": "Y-axis through build height",
+          "material": "rigid polymer"
+        }
+      ]
+    },
+    {
+      "plate": 5,
+      "material": "rigid polymer",
+      "parts": [
+        {
+          "name": "right_covered_thigh",
+          "x_mm": 0,
+          "y_mm": 0,
+          "width_mm": 119.43133750000001,
+          "depth_mm": 57.4986208,
+          "height_mm": 30.2000001,
+          "orientation": "Y-axis through build height",
+          "material": "rigid polymer"
+        },
+        {
+          "name": "left_output_gear",
+          "x_mm": 0,
+          "y_mm": 61.5,
+          "width_mm": 61.95117736944046,
+          "depth_mm": 61.95117736944046,
+          "height_mm": 12.0,
+          "orientation": "Y-axis through build height",
+          "material": "rigid polymer"
+        },
+        {
+          "name": "right_output_gear",
+          "x_mm": 65.96,
+          "y_mm": 61.5,
+          "width_mm": 61.95117736944046,
+          "depth_mm": 61.95117736944046,
+          "height_mm": 12.0,
+          "orientation": "Y-axis through build height",
+          "material": "rigid polymer"
+        }
+      ]
+    },
+    {
+      "plate": 6,
+      "material": "TPU",
+      "parts": [
+        {
+          "name": "left_thigh_service_lid",
+          "x_mm": 0,
+          "y_mm": 0,
+          "width_mm": 119.4313374,
+          "depth_mm": 57.4986207,
+          "height_mm": 2.0,
+          "orientation": "Y-axis through build height",
+          "material": "TPU"
+        },
+        {
+          "name": "right_thigh_service_lid",
+          "x_mm": 0,
+          "y_mm": 61.5,
+          "width_mm": 119.4313374,
+          "depth_mm": 57.4986207,
+          "height_mm": 2.0,
+          "orientation": "Y-axis through build height",
+          "material": "TPU"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "poses": [
+    {
+      "pose": "low",
+      "left": "0.0 mm",
+      "right": "0.0 mm"
+    },
+    {
+      "pose": "ride",
+      "left": "70.1 mm",
+      "right": "70.1 mm"
+    },
+    {
+      "pose": "high",
+      "left": "99.8 mm",
+      "right": "99.8 mm"
+    },
+    {
+      "pose": "split",
+      "left": "20.0 mm",
+      "right": "75.0 mm"
+    }
+  ],
+  "validation": "45/45 sampled packaging checks pass. This page demonstrates geometry and gear motion. The new wheel drive has not been simulated or built.",
+  "errors": 0,
+  "direct_cutaway_link": "pass"
+}

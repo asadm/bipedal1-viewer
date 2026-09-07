@@ -1,0 +1,344 @@
+{
+  "status": "REJECTED by user: retain Beni-style bending legs with in-thigh springs. Archived sizing study only.",
+  "checkpoint_commit": "38727ed",
+  "original": {
+    "printed_parts": 18,
+    "printed_roles": {
+      "body_halves": 2,
+      "structural_thighs": 2,
+      "lower_leg_motor_housings": 2,
+      "guide_links": 2,
+      "large_gears": 4,
+      "wheel_rims": 2,
+      "wheel_motor_access_lids": 2,
+      "TPU_inner_panels": 2
+    },
+    "passive_linkage_pivots": 6,
+    "vertical_stroke_mm": 99.80944095122507,
+    "foot_fore_aft_range_mm": 6.044211746556279
+  },
+  "swing_arm": {
+    "status": "Not chosen: large fore/aft wheel sweep conflicts with upright compact stance",
+    "arm_length_mm": 150.0,
+    "q_low_rad": 0.3385277000976794,
+    "q_high_rad": 1.5,
+    "matched_vertical_stroke_mm": 99.80944095122507,
+    "foot_fore_aft_range_mm": 130.87611523613057,
+    "print_target_before_printability_and_assembly_detail": 12
+  },
+  "rack": {
+    "status": "REJECTED architecture; not an active design or released print",
+    "motors": 4,
+    "independent_height_axes": 2,
+    "travel_mm": 100.0,
+    "printed_part_target": 10,
+    "serviceable_rack_variant_print_target": 12,
+    "printed_roles": {
+      "structural_body_halves_with_fixed_leg_guides": 2,
+      "sliding_legs_with_motor_housing_and_rack": 2,
+      "wheel_motor_access_lids": 2,
+      "36_tooth_driven_gears": 2,
+      "wheel_rims": 2
+    },
+    "new_hardware": [
+      "Two 150 mm miniature linear rails with long carriages",
+      "Two long-stroke springs: selection unresolved"
+    ],
+    "removed_hardware": [
+      "Six passive linkage pivots",
+      "Two intermediate/hip shaft positions",
+      "Two sets of associated shaft-to-leg torque connections"
+    ],
+    "transmission": {
+      "first_stage": [
+        12,
+        36
+      ],
+      "ratio": 3.0,
+      "rack_pinion_teeth": 12,
+      "module_mm": 1,
+      "rack_pinion_pitch_radius_mm": 6.0,
+      "efficiency_assumption": 0.8
+    },
+    "guide": {
+      "reference": "HIWIN MGN9H dimensional envelope; procurement not selected",
+      "rail_length_mm": 150,
+      "carriage_length_mm": 39.9,
+      "spare_travel_mm": 10.099999999999994,
+      "source": "https://www.hiwin.com/wp-content/uploads/Linear_Guideway-E.pdf"
+    },
+    "packaging_target": {
+      "compact_height_mm": 185,
+      "extended_height_mm": 285,
+      "width_mm": 180,
+      "body_length_mm": 144,
+      "largest_body_piece_envelope_mm": [
+        144,
+        60,
+        155
+      ],
+      "largest_slider_piece_envelope_mm": [
+        69,
+        50,
+        162
+      ],
+      "status": "Nominal allocations only; no CAD solid/print-layout validation"
+    },
+    "spring": {
+      "status": "Envelope and desired force curve only; no qualified purchasable spring selected",
+      "free_length_mm": 150.0,
+      "outside_diameter_max_mm": 11.0,
+      "desired_rate_N_mm": 0.3,
+      "working_compression_mm": 100.0,
+      "compressed_length_mm": 50.0,
+      "required_solid_height_max_mm": 45.0,
+      "guided": true,
+      "guide": "Enclosed guide channel; details and friction unresolved",
+      "maximum_force_per_leg_N": 30.0,
+      "maximum_pair_energy_J": 3.0,
+      "static_equilibrium_extension_mm_at_2_1kg": 65.66499999999999
+    },
+    "force_curve": [
+      {
+        "speed_m_s": 0.0,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.05,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.1,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.15000000000000002,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.2,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.25,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.30000000000000004,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.35000000000000003,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.4,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.45,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.5,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.55,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.6000000000000001,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.65,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.7000000000000001,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.75,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.8,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.8500000000000001,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.9,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 0.9500000000000001,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 1.0,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 1.05,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 1.1,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 1.1500000000000001,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 1.2000000000000002,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 1.25,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 1.3,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 1.35,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 1.4000000000000001,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 1.4500000000000002,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 1.5,
+        "current_A": 32.0,
+        "force_per_leg_N": 136.72856474712825
+      },
+      {
+        "speed_m_s": 1.55,
+        "current_A": 30.22593394058819,
+        "force_per_leg_N": 129.0280724909387
+      },
+      {
+        "speed_m_s": 1.6,
+        "current_A": 27.17776725726539,
+        "force_per_leg_N": 115.79723262678824
+      },
+      {
+        "speed_m_s": 1.6500000000000001,
+        "current_A": 24.129600573942547,
+        "force_per_leg_N": 102.56639276263753
+      },
+      {
+        "speed_m_s": 1.7000000000000002,
+        "current_A": 21.081433890619746,
+        "force_per_leg_N": 89.33555289848705
+      },
+      {
+        "speed_m_s": 1.75,
+        "current_A": 18.033267207296944,
+        "force_per_leg_N": 76.10471303433653
+      },
+      {
+        "speed_m_s": 1.8,
+        "current_A": 14.985100523974124,
+        "force_per_leg_N": 62.87387317018595
+      },
+      {
+        "speed_m_s": 1.85,
+        "current_A": 11.936933840651301,
+        "force_per_leg_N": 49.643033306035356
+      },
+      {
+        "speed_m_s": 1.9000000000000001,
+        "current_A": 8.888767157328479,
+        "force_per_leg_N": 36.41219344188477
+      },
+      {
+        "speed_m_s": 1.9500000000000002,
+        "current_A": 5.840600474005678,
+        "force_per_leg_N": 23.18135357773426
+      },
+      {
+        "speed_m_s": 2.0,
+        "current_A": 2.7924337906828556,
+        "force_per_leg_N": 9.950513713583666
+      },
+      {
+        "speed_m_s": 2.0500000000000003,
+        "current_A": 0.0,
+        "force_per_leg_N": 0.0
+      },
+      {
+        "speed_m_s": 2.1,
+        "current_A": 0.0,
+        "force_per_leg_N": 0.0
+      }
+    ],
+    "stroke_screen": {
+      "status": "Optimistic grounded single-mass stroke screen, not a jump simulation",
+      "mass_assumption_kg": 2.1,
+      "stroke_time_s": 0.0548999999999981,
+      "end_speed_m_s": 2.067462848202152,
+      "ideal_ballistic_rise_if_all_mass_had_end_speed_mm": 217.85946119756142,
+      "warnings": [
+        "Unsprung mass and takeoff transition omitted",
+        "Mechanical end-stop impact must not be used as the launch strategy",
+        "No validated balance, flight, landing or spring selection"
+      ]
+    },
+    "validated_jump_height_mm": null,
+    "validated_print_plate_count": null,
+    "motor_spring_budget_status": "Existing motor choices retained; new spring and rail prices unqualified"
+  },
+  "sources": [
+    {
+      "url": "https://www.pololu.com/category/271/12v-37d-metal-gearmotors",
+      "finding": "Off-the-shelf 37D example has 12 W maximum output at 30:1 and 330 rpm no-load; unsuitable as a like-for-like jump-drive replacement."
+    },
+    {
+      "url": "https://www.hiwin.com/wp-content/uploads/Linear_Guideway-E.pdf",
+      "finding": "MGN9H dimensional reference is 20 mm wide, 10 mm installed height and 39.9 mm long. Genuine HIWIN ratings do not qualify low-cost clones."
+    }
+  ]
+}

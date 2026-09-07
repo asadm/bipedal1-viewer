@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Beni / Learned skills</title><link rel="icon" href="data:,">
+  <link rel="stylesheet" href="viewer.css"><link rel="stylesheet" href="longstroke.css"><link rel="stylesheet" href="skills.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/controls/OrbitControls.js":"./vendor/OrbitControls.js"}}</script>
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="validation.html"><span class="brand-mark">b.</span><span>Beni <span class="brand-secondary">/ learned skills</span></span></a>
+  <div class="header-meta">MuJoCo · PPO <span class="header-separator">/</span> <span id="policy-count">0 validated policies</span></div>
+  <a class="download" href="validation.html">Design & programmed tests ↗</a>
+</header>
+<main class="workspace">
+<aside class="sidebar" aria-label="Learned skill controls">
+  <section class="control-section">
+    <div class="eyebrow">LEARNING / SIMULATION</div><h1>From balance to movement.</h1>
+    <p class="intro">Skills learned with PPO, then checked independently in CPU MuJoCo. Select a validated policy to inspect its recorded motion.</p>
+    <p class="status-note" id="policy-status" role="status">Loading skill status…</p>
+    <div id="policy-picker" hidden><label for="policy-select">Validated recording</label><select id="policy-select"></select></div>
+    <div id="replay-controls" hidden>
+      <h2 id="replay-title"></h2><p class="small-note" id="replay-detail"></p>
+      <div class="play-row"><button id="play" class="primary">Play</button><button id="restart">Restart</button><select id="speed" aria-label="Playback speed"><option value=".25">0.25×</option><option value=".5">0.5×</option><option value="1" selected>1× real time</option></select></div>
+      <div class="slider-heading"><label for="timeline">Simulation time</label><output id="time-output">0.00 s</output></div><input id="timeline" type="range" min="0" max="12" step=".005" value="0">
+      <dl class="measurements"><div><dt>Body / target height</dt><dd id="height">—</dd></div><div><dt>Speed / target</dt><dd id="velocity">—</dd></div><div><dt>Wheel clearance</dt><dd id="clearance">—</dd></div><div><dt>Body tilt</dt><dd id="tilt">—</dd></div><div><dt>Hip current, L / R</dt><dd id="current">—</dd></div><div><dt>Spring compression, L / R</dt><dd id="compression">—</dd></div></dl>
+      <p class="small-note"><a id="report-link">Evaluation campaign ↗</a><br><a id="record-link" download>Download recorded motion ↗</a><br><a id="policy-link" download>ONNX policy ↗</a> · <a id="checkpoint-link" download>Training checkpoint ↗</a></p>
+    </div>
+  </section>
+  <section class="control-section"><h2>Skill progress</h2><div id="task-list" class="task-list"></div></section>
+  <section class="control-section"><h2>Inspect the robot</h2><div class="segmented" aria-label="Assembly display"><button data-display="cad" aria-pressed="true">Enclosed</button><button data-display="ghost" aria-pressed="false">Cutaway</button></div>
+    <p class="small-note">The same 2.39 kg CAD assembly, four motors and two thigh springs used in the training model.</p>
+    <details><summary>What a validated replay means</summary><p>At least 95% of 20 held-out cases pass for each of three hardware variants at two physics timesteps. Checks include motor limits, linkage and spring travel, contacts, task performance and recovery.</p><p>This is simulation validation. Motor calibration, structural strength, sealing and hardware transfer remain unqualified. The design's separate body-level requirement still fails.</p></details>
+  </section>
+  <div class="sidebar-footer">Drag to orbit · Scroll to zoom<br><a href="validation.html">Open the programmed jump demo ↗</a></div>
+</aside>
+<section class="viewport" aria-label="Three-dimensional learned-policy replay">
+  <div class="view-toolbar"><button data-view="iso">3D</button><button data-view="side">Side</button><button data-view="front">Front</button><button id="fit">Fit</button></div>
+  <div class="telemetry"><span id="phase">Robot preview</span><span id="contact">Static pose · no learned motion</span></div>
+  <canvas id="model-canvas" tabindex="0" aria-label="Beni robot. Drag to orbit; select a validated policy to play its motion."></canvas>
+  <div id="load-status" role="status">Loading the current assembly…</div>
+  <div class="canvas-caption"><span class="caption-mark"></span><span id="caption">Static design preview · no validated learned policy yet</span></div>
+  <div class="interaction-hint">Drag to orbit <span>·</span> Scroll to zoom <span>·</span> Cutaway reveals the mechanism</div>
+</section>
+</main><script type="module" src="skills.mjs"></script>
+</body></html>

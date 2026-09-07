@@ -1,0 +1,43 @@
+{
+  "status": "Analytical screening only; hardware and dynamics unqualified.",
+  "nominal": {
+    "samples": 501,
+    "stroke_mm": 100.12092415619405,
+    "height_strictly_monotonic": true,
+    "minimum_hip_neck_gap_mm": 3.351015711144292,
+    "minimum_knee_shaft_gap_mm": 1.2506963278339498,
+    "minimum_guide_wall_gap_mm": 0.9589307441231085,
+    "maximum_spring_compression_mm": 18.850944974501434,
+    "maximum_closure_residual_mm": 2.842170943040401e-14
+  },
+  "tolerance_screen": {
+    "trials": 200,
+    "poses_each": 51,
+    "failed_trials": [],
+    "perturbations": "Independent uniform \u00b10.1 mm anchor coordinates and four link lengths, \u00b10.25\u00b0 lever indexing. Fixed profile and shaft radii; no fit, angular misalignment or print distortion model.",
+    "minimum_hip_neck_gap_mm": 3.224795997510011,
+    "minimum_knee_shaft_gap_mm": 0.8990358282327673,
+    "minimum_guide_wall_gap_mm": 0.8334987811014756,
+    "maximum_spring_compression_mm": 19.656998516882894
+  },
+  "browser_solver": {
+    "poses": 51,
+    "max_point_difference_mm": 2.21980646867526e-13,
+    "height_and_support_cases": 4,
+    "legacy_transform_difference": 0
+  },
+  "conservative_guide_load_screen": {
+    "assumptions": "2.1 kg reference mass; vertical load factor, absolute spring moment and 0.45 N\u00b7m wheel moment added. Not an impact prediction or final new-wheel torque rating.",
+    "load_bounds_N": {
+      "standing": 444.74729907352173,
+      "3g_equal": 684.0476125163278,
+      "6g_equal": 1042.9980826805368,
+      "6g_one_wheel": 1760.899023008955
+    },
+    "minimum_effective_lever_mm": 9.240904770284935,
+    "maximum_same_knee_torque_force_ratio": 2.811541221170314,
+    "nominal_net_eye_area_mm2": 15.600000000000001,
+    "nominal_stem_area_mm2": 32,
+    "limitation": "No fatigue, notch, buckling/yield interaction, pin bearing, printed body, shaft connection or landing qualification."
+  }
+}

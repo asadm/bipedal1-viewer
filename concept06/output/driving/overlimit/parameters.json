@@ -1,0 +1,102 @@
+{
+  "revision": "concept06-brushless",
+  "status": "Development CAD and nominal dynamics; not a hardware release",
+  "budget": {
+    "target_usd": 75,
+    "ceiling_usd": 75,
+    "scope": "four motors and two springs; drivers, transmission hardware, battery, tax and delivery separate"
+  },
+  "mass_kg": 2.1,
+  "pivot_x_m": 0.04290204859622333,
+  "wheel_radius_m": 0.05,
+  "track_m": 0.15,
+  "spring": {
+    "part": "MISUMI SWF12-50",
+    "quantity": 2,
+    "rate_N_m": 5500,
+    "rate_tolerance_fraction": 0.1,
+    "free_length_m": 0.05,
+    "outside_diameter_nominal_m": 0.012,
+    "inside_diameter_nominal_m": 0.0065,
+    "design_compression_limit_m": 0.02,
+    "catalog_max_compression_m": 0.025,
+    "price_each_usd": 2.28,
+    "purchase_url": "https://us.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+    "source": "https://uk.misumi-ec.com/pdf/fa/2014/P2_0365-0366_F37_EN.pdf",
+    "procurement_status": "Previously checked estimate; price is not reconfirmed for this model",
+    "upper_seat_from_knee_m": 0.043,
+    "lower_seat_from_knee_m": 0.025,
+    "seat_y_from_leg_m": 0.031
+  },
+  "jump_motor": {
+    "part": "SunnySky X2216 V3 880KV long shaft",
+    "sku": "SS-XV3-X2216-L-880-V3",
+    "quantity": 2,
+    "kv_rpm_per_V": 880,
+    "torque_constant_Nm_A": 0.010851473392629226,
+    "resistance_ohm": 0.089,
+    "no_load_current_A": 0.5,
+    "mass_kg": 0.0675,
+    "diameter_m": 0.0277,
+    "body_length_m": 0.034,
+    "ratio": 20,
+    "efficiency_assumption": 0.8,
+    "rotor_inertia_assumption_kg_m2": 4e-06,
+    "current_limit_assumption_A": 32,
+    "electrical_lag_assumption_s": 0.0004,
+    "supply_voltage_assumption_V": 11.1,
+    "motor_constant_factor": 1.0,
+    "price_listed_usd": 24.99,
+    "source": "https://sunnyskyusa.com/products/sunnysky-x2216-v3-brushless-motors-long-shaft-version",
+    "caution": "DC-equivalent BLDC model. Kv/Kt, current and resistance conventions must be calibrated to the FOC driver. Manufacturer 32 A/30 s assumes propeller cooling; sealed joint thermal rating is unknown. Rotor inertia estimated from a 21 g thin ring at 13.8 mm. Encoder and bidirectional FOC required."
+  },
+  "wheel_motor": {
+    "part": "Waveshare DCGM-3865-12V-EN-240RPM / SKU 22346",
+    "status": "Manufacturer torque-speed points selected; backlash, inertia and reversal response unmeasured",
+    "stall_torque_Nm": 0.833565,
+    "no_load_rpm": 240,
+    "torque_limit_Nm": 0.45,
+    "rated_torque_Nm": 0.392266,
+    "rated_speed_rpm": 125,
+    "mass_kg": 0.167,
+    "price_each_usd": 9.99,
+    "source": "https://www.waveshare.com/product/robotics/motors-servos/motors/dcgm-3865-12v-en-240rpm.htm",
+    "quantity": 2
+  },
+  "unmeasured": {
+    "spring_branch_damping_N_s_m": 0.0,
+    "hinge_friction_Nm": 0.002,
+    "tire_friction": 0.8
+  },
+  "geometry": {
+    "crank_mm": 64.48187746169309,
+    "tie_mm": 83.50170734093714,
+    "coupler_mm": 28.22381039362516,
+    "lower_mm": 119.11935079120995,
+    "body_pin_mm": [
+      22.693104254181087,
+      44.99999999998685
+    ],
+    "q_low_rad": 0.35,
+    "q_high_rad": 1.5,
+    "vertical_stroke_mm": 99.80944095122507,
+    "knee_range_rad": [
+      0.4556427024335452,
+      2.332305468018408
+    ]
+  },
+  "motor_spring_subtotal_usd": 74.52,
+  "nominal_q_rad": 1.0,
+  "mass_status": "2.4 kg baseline minus 0.375 kg motor savings plus 0.075 kg allowance for changed drives/encoders; still an assumed, unweighed assembly.",
+  "simulation_timestep_s": 0.00025,
+  "driving_test": {
+    "target_speed_m_s": 1.1,
+    "resistance_N": 0.0,
+    "disturbance_N": 0.0,
+    "disturbance_duration_s": 0.15,
+    "acceleration_m_s2": 0.3,
+    "cruise_duration_s": 6.0,
+    "perfect_state": true,
+    "terrain": "flat plane"
+  }
+}

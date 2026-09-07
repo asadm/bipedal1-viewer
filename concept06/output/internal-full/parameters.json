@@ -1,0 +1,92 @@
+{
+  "revision": "concept06-internal-knee-full",
+  "status": "Full-robot kinematic packaging candidate; not a dynamics model or manufacturing release.",
+  "budget": {
+    "original_target_usd": 75,
+    "current_motor_spring_estimate_usd": 112.52,
+    "scope": "Four motors and two springs only; all controllers, transmission hardware, internal-knee metalwork, battery, tax and delivery extra."
+  },
+  "mass_kg": 2.1,
+  "pivot_x_m": 0.04290204859622333,
+  "wheel_radius_m": 0.05,
+  "track_m": 0.15,
+  "spring": {
+    "part": "MISUMI SWF12-50",
+    "quantity": 2,
+    "rate_N_m": 5500,
+    "rate_tolerance_fraction": 0.1,
+    "free_length_m": 0.05,
+    "outside_diameter_nominal_m": 0.012,
+    "inside_diameter_nominal_m": 0.0065,
+    "design_compression_limit_m": 0.02,
+    "catalog_max_compression_m": 0.025,
+    "price_each_usd": 2.28,
+    "purchase_url": "https://us.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+    "source": "https://uk.misumi-ec.com/pdf/fa/2014/P2_0365-0366_F37_EN.pdf",
+    "procurement_status": "Previously checked estimate; price is not reconfirmed for this model",
+    "upper_seat_from_knee_m": 0.043,
+    "lower_seat_from_knee_m": 0.025,
+    "seat_y_from_leg_m": 0.0295
+  },
+  "jump_motor": {
+    "part": "SunnySky X2216 V3 880KV long shaft",
+    "sku": "SS-XV3-X2216-L-880-V3",
+    "quantity": 2,
+    "kv_rpm_per_V": 880,
+    "torque_constant_Nm_A": 0.010851473392629226,
+    "resistance_ohm": 0.089,
+    "no_load_current_A": 0.5,
+    "mass_kg": 0.0675,
+    "diameter_m": 0.0277,
+    "body_length_m": 0.034,
+    "ratio": 20,
+    "efficiency_assumption": 0.8,
+    "rotor_inertia_assumption_kg_m2": 4e-06,
+    "current_limit_assumption_A": 32,
+    "electrical_lag_assumption_s": 0.0004,
+    "supply_voltage_assumption_V": 11.1,
+    "motor_constant_factor": 1.0,
+    "price_listed_usd": 24.99,
+    "source": "https://sunnyskyusa.com/products/sunnysky-x2216-v3-brushless-motors-long-shaft-version",
+    "caution": "DC-equivalent BLDC model. Kv/Kt, current and resistance conventions must be calibrated to the FOC driver. Manufacturer 32 A/30 s assumes propeller cooling; sealed joint thermal rating is unknown. Rotor inertia estimated from a 21 g thin ring at 13.8 mm. Encoder and bidirectional FOC required."
+  },
+  "wheel_motor": {
+    "part": "SunnySky V2806 650KV",
+    "quantity": 2,
+    "kv_rpm_per_V": 650,
+    "diameter_m": 0.035,
+    "body_length_m": 0.018,
+    "mass_kg": 0.047,
+    "ratio": 5,
+    "price_each_usd": 28.99,
+    "source": "https://sunnyskyusa.com/products/sunnysky-v2806-motor?variant=45703574095",
+    "status": "Packaging selection only. FOC, encoder, torque-speed model, thermal rating, adapter and gear procurement unqualified."
+  },
+  "unmeasured": {
+    "spring_branch_damping_N_s_m": 0.0,
+    "hinge_friction_Nm": 0.002,
+    "tire_friction": 0.8
+  },
+  "geometry": {
+    "crank_mm": 64.48187746169309,
+    "tie_mm": 65.59,
+    "coupler_mm": 15.16,
+    "lower_mm": 119.11935079120995,
+    "body_pin_mm": [
+      18.68,
+      12.55
+    ],
+    "q_low_rad": 0.35,
+    "q_high_rad": 1.5,
+    "vertical_stroke_mm": 100.12092415619405,
+    "knee_range_rad": [
+      0.47928597950357954,
+      2.3453711622081452
+    ],
+    "lever_phase_rad": 3.4517376616691857
+  },
+  "motor_spring_subtotal_usd": 112.52,
+  "nominal_q_rad": 1.0,
+  "mass_status": "2.1 kg is the old dynamics reference only. Revised full assembly mass and inertia have not been calculated.",
+  "internal_knee": true
+}

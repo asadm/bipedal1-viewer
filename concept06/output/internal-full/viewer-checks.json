@@ -1,0 +1,34 @@
+{
+  "poses": [
+    {
+      "pose": "low",
+      "left": "0.0 mm",
+      "right": "0.0 mm"
+    },
+    {
+      "pose": "ride",
+      "left": "71.5 mm",
+      "right": "71.5 mm"
+    },
+    {
+      "pose": "high",
+      "left": "100.1 mm",
+      "right": "100.1 mm"
+    },
+    {
+      "pose": "split",
+      "left": "20.0 mm",
+      "right": "75.0 mm"
+    }
+  ],
+  "validation": "325/325 sampled packaging checks pass. This is the integrated kinematic CAD. Jump dynamics, mounts, strength and sealing remain unqualified.",
+  "errors": 0,
+  "direct_cutaway_link": "pass",
+  "travel_cycle": {
+    "before": "0.3 mm",
+    "after": "0.6 mm"
+  },
+  "maximum_spring": "18.9 mm",
+  "step_download_status": 200,
+  "notes_status": 200
+}

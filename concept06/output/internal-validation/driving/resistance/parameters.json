@@ -1,0 +1,344 @@
+{
+  "revision": "concept06-internal-knee-full",
+  "status": "Full-robot kinematic packaging candidate; not a dynamics model or manufacturing release.",
+  "budget": {
+    "original_target_usd": 75,
+    "current_motor_spring_estimate_usd": 112.52,
+    "scope": "Four motors and two springs only; all controllers, transmission hardware, internal-knee metalwork, battery, tax and delivery extra."
+  },
+  "mass_kg": 2.3909267476869474,
+  "pivot_x_m": 0.04290204859622333,
+  "wheel_radius_m": 0.05,
+  "track_m": 0.15,
+  "spring": {
+    "part": "MISUMI SWF12-50",
+    "quantity": 2,
+    "rate_N_m": 5500,
+    "rate_tolerance_fraction": 0.1,
+    "free_length_m": 0.05,
+    "outside_diameter_nominal_m": 0.012,
+    "inside_diameter_nominal_m": 0.0065,
+    "design_compression_limit_m": 0.02,
+    "catalog_max_compression_m": 0.025,
+    "price_each_usd": 2.28,
+    "purchase_url": "https://us.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+    "source": "https://uk.misumi-ec.com/pdf/fa/2014/P2_0365-0366_F37_EN.pdf",
+    "procurement_status": "Previously checked estimate; price is not reconfirmed for this model",
+    "upper_seat_from_knee_m": 0.043,
+    "lower_seat_from_knee_m": 0.025,
+    "seat_y_from_leg_m": 0.0295
+  },
+  "jump_motor": {
+    "part": "SunnySky X2216 V3 880KV long shaft",
+    "sku": "SS-XV3-X2216-L-880-V3",
+    "quantity": 2,
+    "kv_rpm_per_V": 880,
+    "torque_constant_Nm_A": 0.010851473392629226,
+    "resistance_ohm": 0.089,
+    "no_load_current_A": 0.5,
+    "mass_kg": 0.0675,
+    "diameter_m": 0.0277,
+    "body_length_m": 0.034,
+    "ratio": 20,
+    "efficiency_assumption": 0.8,
+    "rotor_inertia_assumption_kg_m2": 4e-06,
+    "current_limit_assumption_A": 32,
+    "electrical_lag_assumption_s": 0.0004,
+    "supply_voltage_assumption_V": 11.1,
+    "motor_constant_factor": 1.0,
+    "price_listed_usd": 24.99,
+    "source": "https://sunnyskyusa.com/products/sunnysky-x2216-v3-brushless-motors-long-shaft-version",
+    "caution": "DC-equivalent BLDC model. Kv/Kt, current and resistance conventions must be calibrated to the FOC driver. Manufacturer 32 A/30 s assumes propeller cooling; sealed joint thermal rating is unknown. Rotor inertia estimated from a 21 g thin ring at 13.8 mm. Encoder and bidirectional FOC required."
+  },
+  "wheel_motor": {
+    "part": "SunnySky V2806 650KV",
+    "quantity": 2,
+    "kv_rpm_per_V": 650,
+    "diameter_m": 0.035,
+    "body_length_m": 0.018,
+    "mass_kg": 0.047,
+    "ratio": 5,
+    "price_each_usd": 28.99,
+    "source": "https://sunnyskyusa.com/products/sunnysky-v2806-motor?variant=45703574095",
+    "status": "Packaging selection only. FOC, encoder, torque-speed model, thermal rating, adapter and gear procurement unqualified.",
+    "torque_constant_Nm_A": 0.014691225516174956,
+    "resistance_ohm": 0.227,
+    "no_load_current_A": 0.4,
+    "efficiency_assumption": 0.8,
+    "rotor_inertia_assumption_kg_m2": 5e-06,
+    "current_limit_assumption_A": 8.0,
+    "electrical_lag_assumption_s": 0.001,
+    "motor_constant_factor": 1.0,
+    "supply_voltage_assumption_V": 11.1,
+    "caution": "DC-equivalent model; 8 A assumed current limit, not a thermal rating. Resistance/current/FOC conventions require bench identification. Manufacturer propeller test rating does not establish sealed duty."
+  },
+  "unmeasured": {
+    "spring_branch_damping_N_s_m": 0.0,
+    "hinge_friction_Nm": 0.002,
+    "tire_friction": 0.8
+  },
+  "geometry": {
+    "crank_mm": 64.48187746169309,
+    "tie_mm": 65.59,
+    "coupler_mm": 15.16,
+    "lower_mm": 119.11935079120995,
+    "body_pin_mm": [
+      18.68,
+      12.55
+    ],
+    "q_low_rad": 0.35,
+    "q_high_rad": 1.5,
+    "vertical_stroke_mm": 100.12092415619405,
+    "knee_range_rad": [
+      0.47928597950357954,
+      2.3453711622081452
+    ],
+    "lever_phase_rad": 3.4517376616691857
+  },
+  "motor_spring_subtotal_usd": 112.52,
+  "nominal_q_rad": 1.0,
+  "mass_status": "CAD-derived mass/inertia estimate, not weighed or sliced.",
+  "internal_knee": true,
+  "rigid_bodies": {
+    "chassis": {
+      "mass_kg": 1.01223452413207,
+      "com_m": [
+        0.004612496882779931,
+        -1.2020333563919491e-09,
+        0.0024655050209203416
+      ],
+      "inertia_kg_m2": [
+        [
+          0.0015336337935284209,
+          1.3838874924893603e-05,
+          -8.061458904429236e-05
+        ],
+        [
+          1.3838874924893603e-05,
+          0.0018387792416012384,
+          -1.9446016222366184e-11
+        ],
+        [
+          -8.061458904429236e-05,
+          -1.9446016222366184e-11,
+          0.0024801035585120226
+        ]
+      ]
+    },
+    "left_lower": {
+      "mass_kg": 0.17493788265602236,
+      "com_m": [
+        0.07281488919835677,
+        -0.0038427284748733955,
+        0.00021799918975904067
+      ],
+      "inertia_kg_m2": [
+        [
+          7.143658636449057e-05,
+          7.657399074669986e-05,
+          3.304242099554767e-06
+        ],
+        [
+          7.657399074669986e-05,
+          0.0004008888343816377,
+          -7.111901614636105e-07
+        ],
+        [
+          3.304242099554767e-06,
+          -7.111901614636105e-07,
+          0.0004339975226553404
+        ]
+      ]
+    },
+    "left_tie": {
+      "mass_kg": 0.017363745970424258,
+      "com_m": [
+        0.03279500000000001,
+        0.017,
+        -3.493378979209862e-19
+      ],
+      "inertia_kg_m2": [
+        [
+          1.2716552371279583e-07,
+          1.8277205526828767e-21,
+          2.472924509611118e-22
+        ],
+        [
+          1.8277205526828767e-21,
+          7.301009476140227e-06,
+          1.9368773251926554e-23
+        ],
+        [
+          2.472924509611118e-22,
+          1.9368773251926554e-23,
+          7.2201472750152265e-06
+        ]
+      ]
+    },
+    "left_upper": {
+      "mass_kg": 0.14305890995318365,
+      "com_m": [
+        0.01450999569492009,
+        0.012272167278237038,
+        -0.000986332345462122
+      ],
+      "inertia_kg_m2": [
+        [
+          8.004201536526749e-05,
+          -2.2140498881665394e-05,
+          7.097750368607356e-06
+        ],
+        [
+          -2.2140498881665394e-05,
+          0.00015060942675224073,
+          1.8220039933761255e-06
+        ],
+        [
+          7.097750368607357e-06,
+          1.8220039933761255e-06,
+          0.0001681034659709552
+        ]
+      ]
+    },
+    "left_wheel": {
+      "mass_kg": 0.35398557319780966,
+      "com_m": [
+        -5.205403231112499e-17,
+        -0.008754232708947774,
+        -6.202802565681569e-17
+      ],
+      "inertia_kg_m2": [
+        [
+          0.00022247589437563817,
+          -2.6636182302257093e-19,
+          5.130236291691703e-19
+        ],
+        [
+          -2.6636182302257093e-19,
+          0.00032349052549655925,
+          -3.1554766930603925e-19
+        ],
+        [
+          5.133500916602811e-19,
+          -3.1554766930603925e-19,
+          0.00022247589437564088
+        ]
+      ]
+    },
+    "right_lower": {
+      "mass_kg": 0.17493788265602236,
+      "com_m": [
+        0.07281488919835676,
+        0.0038427284748733955,
+        0.00021799918975904005
+      ],
+      "inertia_kg_m2": [
+        [
+          7.143658636449057e-05,
+          -7.657399074669986e-05,
+          3.3042420995547668e-06
+        ],
+        [
+          -7.657399074669986e-05,
+          0.00040088883438163796,
+          7.111901614636124e-07
+        ],
+        [
+          3.3042420995547668e-06,
+          7.111901614636124e-07,
+          0.0004339975226553407
+        ]
+      ]
+    },
+    "right_tie": {
+      "mass_kg": 0.017363745970424258,
+      "com_m": [
+        0.032795000000000005,
+        -0.016999999999999998,
+        -3.878855280364054e-19
+      ],
+      "inertia_kg_m2": [
+        [
+          1.2716552371279676e-07,
+          1.8277205526828767e-21,
+          2.2891149908943474e-22
+        ],
+        [
+          1.8277205526828767e-21,
+          7.301009476140235e-06,
+          -1.691455864261118e-23
+        ],
+        [
+          2.2891149908943474e-22,
+          -1.691455864261118e-23,
+          7.220147275015238e-06
+        ]
+      ]
+    },
+    "right_upper": {
+      "mass_kg": 0.14305890995318365,
+      "com_m": [
+        0.014509995694920093,
+        -0.012272167278237038,
+        -0.0009863323454621222
+      ],
+      "inertia_kg_m2": [
+        [
+          8.004201536526748e-05,
+          2.21404988816654e-05,
+          7.097750368607358e-06
+        ],
+        [
+          2.21404988816654e-05,
+          0.00015060942675224078,
+          -1.8220039933761267e-06
+        ],
+        [
+          7.0977503686073595e-06,
+          -1.8220039933761267e-06,
+          0.00016810346597095522
+        ]
+      ]
+    },
+    "right_wheel": {
+      "mass_kg": 0.35398557319780966,
+      "com_m": [
+        -5.205403231112499e-17,
+        0.008754232708947774,
+        -6.202802565681569e-17
+      ],
+      "inertia_kg_m2": [
+        [
+          0.00022247589437563814,
+          2.7102353501569977e-19,
+          5.130236291691703e-19
+        ],
+        [
+          2.7102353501569977e-19,
+          0.00032349052549655925,
+          3.1638485059340123e-19
+        ],
+        [
+          5.133500916602811e-19,
+          3.1638485059340123e-19,
+          0.00022247589437564088
+        ]
+      ]
+    }
+  },
+  "mass_scale": 1.0,
+  "model_limits": "CAD-derived but unweighed mass/inertia; closed internal linkages; actual exterior convex hulls for ground contacts; current/voltage-limited motor models with assumed conventions and losses. No self-contact, joint flexibility, gearbox backlash, temperature or hardware qualification.",
+  "sensor_delay_s": 0.0,
+  "sensor_noise_rad": 0.0,
+  "simulation_timestep_s": 0.00025,
+  "driving_test": {
+    "target_speed_m_s": 2.0,
+    "resistance_N": 2.0,
+    "disturbance_N": 0.0,
+    "disturbance_duration_s": 0.15,
+    "acceleration_m_s2": 0.3,
+    "cruise_duration_s": 6.0,
+    "perfect_state": true,
+    "terrain": "flat plane"
+  }
+}

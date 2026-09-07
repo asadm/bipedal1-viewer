@@ -1,2 +1,10 @@
-# bipedal1-viewer
-Published Beni robot viewer, CAD assets and validated simulation replays
+# Beni robot viewer
+
+Built viewer, CAD assets and simulation replays, automatically updated from the
+robot project on each push. `deployment.json` identifies the source revision.
+
+- [Open the current design](https://asadm.github.io/bipedal1-viewer/)
+- [Watch learned skills](https://asadm.github.io/bipedal1-viewer/viewer/skills.html)
+
+The robot and policies are simulation prototypes. Physical hardware remains
+unqualified; see the validation reports linked from the viewer.

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "status": "Select a validated simulation recording. Hardware transfer is not yet demonstrated.",
+  "tasks": [
+    {
+      "id": "balance",
+      "label": "Balance",
+      "stage": "Validated",
+      "detail": "120/120 independent simulation cases passed."
+    },
+    {
+      "id": "height",
+      "label": "Change height",
+      "stage": "Training",
+      "detail": "Balance holds; lower/raise tracking is still being learned in 128 randomized environments."
+    },
+    {
+      "id": "drive",
+      "label": "Drive & turn",
+      "stage": "Training",
+      "detail": "Speed tracking is improving; forward/reverse/turn tests are not yet passing."
+    },
+    {
+      "id": "push",
+      "label": "Recover from a push",
+      "stage": "Validated",
+      "detail": "120/120 independent simulation cases passed."
+    },
+    {
+      "id": "jump",
+      "label": "Jump & land",
+      "stage": "Not trained",
+      "detail": "Actual two-wheel flight, touchdown and stable recovery."
+    },
+    {
+      "id": "recovery",
+      "label": "Stand after a fall",
+      "stage": "Not trained",
+      "detail": "16 settled front, back and side poses prepared for training."
+    }
+  ],
+  "policies": [
+    {
+      "id": "balance-757765e27bf2",
+      "skill": "balance",
+      "label": "Balance",
+      "policy_sha256": "757765e27bf24e0af6d6f43f75fc761397f2b8b033ce58cb5518213fad269fa9",
+      "model_sha256": "8fb5e4c3e5c1ff8b1a44c18e1a2d8f5c790b85cc202bc2f88f3cf1666a661491",
+      "cases": 120,
+      "passed": 120,
+      "replay": "balance-757765e27bf2/trajectory.json",
+      "evaluation": "balance-757765e27bf2/evaluation.json",
+      "policy": "balance-757765e27bf2/policy.onnx",
+      "checkpoint": "balance-757765e27bf2/checkpoint.pt"
+    },
+    {
+      "id": "push-784d4f0ab341",
+      "skill": "push",
+      "label": "Recover from a push",
+      "policy_sha256": "784d4f0ab34153fc778a1cf705a4102f5459a607cb0ab128fc0e33f4ff8036a0",
+      "model_sha256": "8fb5e4c3e5c1ff8b1a44c18e1a2d8f5c790b85cc202bc2f88f3cf1666a661491",
+      "cases": 120,
+      "passed": 120,
+      "replay": "push-784d4f0ab341/trajectory.json",
+      "evaluation": "push-784d4f0ab341/evaluation.json",
+      "policy": "push-784d4f0ab341/policy.onnx",
+      "checkpoint": "push-784d4f0ab341/checkpoint.pt"
+    }
+  ]
+}

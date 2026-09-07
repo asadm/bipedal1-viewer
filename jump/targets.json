@@ -1,0 +1,9 @@
+{
+  "revision": "jump-study-01",
+  "status": "Sizing assumptions, not achieved performance or released hardware",
+  "ballistic_com_rise_mm": [50, 100, 200],
+  "ground_push_stroke_mm": [35, 50],
+  "landing_deceleration_stroke_mm": [20, 40],
+  "working_ballistic_com_rise_mm": 100,
+  "gravity_m_s2": 9.81
+}

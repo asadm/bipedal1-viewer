@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beni / Inside the jump drive</title><link rel="icon" href="data:,"><link rel="stylesheet" href="./viewer.css">
+  <style>
+    .steps{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:18px 0}.steps button{padding:9px 5px}
+    .reading{font-size:12px;color:#727e72;line-height:1.7;margin:14px 0 0;min-height:80px}
+    .mini-slider{margin-top:22px}.mini-slider input{margin-top:9px}.mini-slider output{font-size:16px}
+    .part-label{position:absolute;z-index:1;pointer-events:none;white-space:nowrap;font-size:10px;color:#415548;background:#fafcf8e8;border:1px solid #d6dfd2;border-radius:5px;padding:5px 8px;transform:translate(-50%,-50%)}
+    .part-label.orange{color:#96531b;border-color:#d9b38d}.part-label.gold{color:#826220;border-color:#d4c18f}
+    .formula{font-size:12px;font-family:ui-monospace,monospace;color:#64775b;line-height:1.8;margin:0}
+    .drive-note{font-size:10px;line-height:1.6;color:#82907d}.return-link{font-size:12px;text-decoration:underline;text-underline-offset:3px}
+    .swatch.input{background:#de873c}.swatch.output{background:#719ca1}.swatch.elastic{background:#bb943c}
+  </style>
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/controls/OrbitControls.js":"./vendor/OrbitControls.js"}}</script>
+</head>
+<body>
+  <header class="header"><a class="brand" href="./enclosed.html"><span class="brand-mark">b.</span><span>Beni <span class="brand-secondary">/ inside the jump drive</span></span></a><div class="header-meta">Proposed mechanism <span class="header-separator">/</span> illustrative geometry</div><a class="return-link" href="./enclosed.html">Back to robot ↗</a></header>
+  <main class="workspace">
+    <aside class="sidebar" aria-label="Drive explanation controls">
+      <section class="control-section actuator-section">
+        <div class="eyebrow">ONE MOTOR / TWO ELASTIC OUTPUTS</div><h1>Inside the jump drive</h1>
+        <p class="intro">The motor turns a common shaft. Each arm connects through its own spring, so the wheels can move independently.</p>
+        <div class="steps" aria-label="Mechanism phases"><button data-phase="crouch" aria-pressed="false">1 · Crouch</button><button data-phase="load" aria-pressed="true">2 · Load</button><button data-phase="extend" aria-pressed="false">3 · Extend</button><button data-phase="retract" aria-pressed="false">4 · Retract</button></div>
+        <p id="phase-description" class="reading" aria-live="polite"></p>
+        <div class="mini-slider"><div class="slider-heading"><label for="command">Common shaft angle</label><output id="command-value"></output></div><input id="command" type="range" min="-15" max="45" step="1" value="14"></div>
+        <div class="mini-slider"><div class="slider-heading"><label for="twist">Both springs: twist</label><output id="twist-value"></output></div><input id="twist" type="range" min="-15" max="28" step="1" value="22"></div>
+        <div class="mini-slider"><div class="slider-heading"><label for="bump">Left arm: extra deflection</label><output id="bump-value"></output></div><input id="bump" type="range" min="0" max="18" step="1" value="0"></div>
+      </section>
+      <section class="control-section"><h2>Read the force path</h2><p class="formula">Motor → reduction → shaft<br>→ spring L → arm L<br>→ spring R → arm R</p><p class="drive-note">The gold spring ends attach to the orange input hub and blue arm hub. Relative rotation loads the spring. The arms are not fixed to the shared shaft.</p><dl class="measurements"><div><dt>Left spring twist</dt><dd id="left-twist"></dd></div><div><dt>Right spring twist</dt><dd id="right-twist"></dd></div></dl></section>
+      <div class="sidebar-footer"><span class="small-dot"></span> Functional sketch<p>Enlarged spacing and a 3:1 example gear stage explain motion. Motor, total reduction, spring sizes and separate dampers are unselected. Fit inside the robot is not established by this sketch.</p><p>Poses are prescribed. No latch, jump dynamics or performance claim.</p></div>
+    </aside>
+    <section class="viewport" aria-label="Internal drive model">
+      <div class="view-toolbar"><button data-view="iso" aria-pressed="true">3D</button><button data-view="front" aria-pressed="false">Gear face</button><button data-view="side" aria-pressed="false">Shaft view</button><button id="fit-view">Fit</button></div>
+      <canvas id="model-canvas" tabindex="0" aria-label="Orbitable schematic of the motor, gears, common shaft and two independent torsion spring couplings"></canvas>
+      <div id="load-status" role="status">Opening the drive mechanism…</div>
+      <div class="canvas-caption"><span class="caption-mark"></span><span>Enlarged functional sketch</span></div>
+      <div class="legend"><span><i class="swatch input"></i>Common driven input</span><span><i class="swatch elastic"></i>Independent metal springs</span><span><i class="swatch output"></i>Arm outputs</span></div>
+      <div class="interaction-hint">Drag to orbit <span>·</span> Scroll to zoom <span>·</span> Try the left-arm deflection slider</div>
+    </section>
+  </main>
+  <script type="module" src="./drive.mjs"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="beni_three_motor_concept">
+  <compiler angle="radian" autolimits="true" />
+  <option timestep=".001" integrator="implicitfast" gravity="0 0 -9.81" iterations="80" />
+  <default>
+    <geom friction=".8 .005 .0001" solref=".008 1" solimp=".9 .95 .001" />
+  </default>
+  <worldbody>
+    <light pos="0 -1 2" dir="0 0 -1" />
+    <geom name="ground" type="plane" size="4 4 .1" rgba=".8 .82 .84 1" />
+    <camera name="overview" pos=".55 -.7 .4" xyaxes=".786 .618 0 -.228 .290 .929" />
+    <body name="chassis" pos="0 0 0.0575">
+      <freejoint name="root" />
+      <inertial pos="0 0 .082" mass="1.46" diaginertia=".004 .005 .006" />
+      <geom name="body_collision" type="box" pos="-.0085 0 .09" size=".0735 .0535 .036" rgba=".22 .30 .38 1" />
+      <geom name="heel_collision" type="box" pos="-.085 0 -.010" size=".0075 .048 .004" rgba=".22 .30 .38 1" />
+      <site name="imu" pos="0 0 .100" size=".003" />
+      <body name="shared_yoke" pos="-0.042 0 0.061973678">
+        <joint name="height" type="slide" axis="0 0 1" range="-0.0069743001 0.0070032382" damping="4" frictionloss="2" />
+        <inertial pos="0 0 .012" mass=".04" diaginertia=".00004 .000003 .00004" />
+        <geom type="box" pos="0 0 .012" size=".006 .051 .004" rgba=".96 .44 .13 1" contype="0" conaffinity="0" />
+        <site name="left_upper" pos="0 0.044 0" size=".002" />
+        <site name="right_upper" pos="0 -0.044 0" size=".002" />
+      </body>
+      <body name="left_arm" pos="-0.07 0.053 0">
+        <joint name="left_suspension" type="hinge" axis="0 1 0" range="-0.41151685 0.48551812" damping=".006" frictionloss=".005" />
+        <inertial pos="0.055 -0.012 0" mass=".17" diaginertia=".00010 .00015 .00018" />
+        <geom type="capsule" fromto="0 0 0 .06 0 0" size=".006" rgba=".14 .49 .69 1" />
+        <geom name="left_motor_case" type="cylinder" pos="0.075 -0.0185 0" size=".0125 .0305" quat=".70710678 .70710678 0 0" rgba=".23 .56 .42 1" />
+        <site name="left_lower" pos="0.03 -0.009 0" size=".002" />
+        <body name="left_wheel" pos="0.075 0.022 0">
+          <joint name="left_wheel_spin" type="hinge" axis="0 1 0" damping=".0004" frictionloss=".002" />
+          <inertial pos="0 0 0" mass=".08" diaginertia=".000056 .00010 .000056" />
+          <geom name="left_tire" type="cylinder" size="0.05 0.015" quat=".70710678 .70710678 0 0" rgba=".06 .07 .09 1" condim="4" />
+        </body>
+      </body>
+      <body name="right_arm" pos="-0.07 -0.053 0">
+        <joint name="right_suspension" type="hinge" axis="0 1 0" range="-0.41151685 0.48551812" damping=".006" frictionloss=".005" />
+        <inertial pos="0.055 0.012 0" mass=".17" diaginertia=".00010 .00015 .00018" />
+        <geom type="capsule" fromto="0 0 0 .06 0 0" size=".006" rgba=".14 .49 .69 1" />
+        <geom name="right_motor_case" type="cylinder" pos="0.075 0.0185 0" size=".0125 .0305" quat=".70710678 .70710678 0 0" rgba=".23 .56 .42 1" />
+        <site name="right_lower" pos="0.03 0.009 0" size=".002" />
+        <body name="right_wheel" pos="0.075 -0.022 0">
+          <joint name="right_wheel_spin" type="hinge" axis="0 1 0" damping=".0004" frictionloss=".002" />
+          <inertial pos="0 0 0" mass=".08" diaginertia=".000056 .00010 .000056" />
+          <geom name="right_tire" type="cylinder" size="0.05 0.015" quat=".70710678 .70710678 0 0" rgba=".06 .07 .09 1" condim="4" />
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <tendon>
+    <spatial name="left_shock" limited="true" range="0.0552 0.07" stiffness="4900.0" damping="80.0" springlength=".069" width=".003" rgba=".93 .73 .22 1">
+      <site site="left_upper" />
+      <site site="left_lower" />
+    </spatial>
+    <spatial name="right_shock" limited="true" range="0.0552 0.07" stiffness="4900.0" damping="80.0" springlength=".069" width=".003" rgba=".93 .73 .22 1">
+      <site site="right_upper" />
+      <site site="right_lower" />
+    </spatial>
+  </tendon>
+  <actuator>
+    <motor name="left_drive" joint="left_wheel_spin" gear="1" ctrllimited="true" ctrlrange="-.6 .6" />
+    <motor name="right_drive" joint="right_wheel_spin" gear="1" ctrllimited="true" ctrlrange="-.6 .6" />
+    <position name="common_height" joint="height" kp="15000" kv="100" ctrlrange="-0.0069743001 0.0070032382" forcerange="-120 120" />
+  </actuator>
+  <sensor>
+    <gyro name="body_gyro" site="imu" />
+    <accelerometer name="body_acceleration" site="imu" />
+    <jointpos name="left_wheel_spin_position" joint="left_wheel_spin" />
+    <jointvel name="left_wheel_spin_velocity" joint="left_wheel_spin" />
+    <jointpos name="right_wheel_spin_position" joint="right_wheel_spin" />
+    <jointvel name="right_wheel_spin_velocity" joint="right_wheel_spin" />
+    <jointpos name="left_suspension_position" joint="left_suspension" />
+    <jointvel name="left_suspension_velocity" joint="left_suspension" />
+    <jointpos name="right_suspension_position" joint="right_suspension" />
+    <jointvel name="right_suspension_velocity" joint="right_suspension" />
+    <jointpos name="height_position" joint="height" />
+    <jointvel name="height_velocity" joint="height" />
+  </sensor>
+  <keyframe>
+    <key name="nominal" qpos="0 0 0.0575 1 0 0 0 0 0.10016742 0 0.10016742 0" ctrl="0 0 0" />
+  </keyframe>
+</mujoco>

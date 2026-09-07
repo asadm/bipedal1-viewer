@@ -1,0 +1,1031 @@
+{
+  "reports": [
+    {
+      "first_flight_wheel_clearance_mm": 69.1107141777154,
+      "max_both_wheel_clearance_mm": 69.1107141777154,
+      "takeoff_s": 1.3895000000000477,
+      "landing_s": 1.6067500000001202,
+      "first_flight_time_s": 0.21725000000007255,
+      "com_ballistic_rise_mm": 43.48804214568547,
+      "max_pitch_deg": 21.180062577730304,
+      "max_roll_deg": 1.711934907050812e-13,
+      "final_pitch_deg": -0.2544770325357957,
+      "final_roll_deg": -2.941741966200504e-15,
+      "max_spring_compression_mm": 13.771650162792012,
+      "peak_hip_current_A": 34.99999999999999,
+      "peak_wheel_torque_Nm": 0.45,
+      "body_ground_contact": false,
+      "max_closure_error_mm": 0.025450294570399146,
+      "hip_range_rad": [
+        0.45527158754776736,
+        1.2433076021692846
+      ],
+      "final_speed_m_s": -0.2874821348545447,
+      "final_x_m": -0.17161833011308375,
+      "hip_copper_loss_J": 159.11365760408813,
+      "motor_envelope_errors": 0,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "duration_s": 8.0,
+      "launch_pulse_s": 0.06,
+      "push_Nm": 3.9,
+      "crouch_q_rad": 0.45,
+      "initial_pitch_deg": -1.3828549779806112,
+      "checks": {
+        "jump_over_40mm": true,
+        "landed": true,
+        "body_clear": true,
+        "spring_under_19_5mm": true,
+        "closure_under_0_1mm": true,
+        "no_hip_endstop": true,
+        "final_pitch_under_5deg": true,
+        "final_roll_under_5deg": true,
+        "final_speed_under_0_1": false,
+        "motor_envelope": true,
+        "no_warnings": true
+      },
+      "nominal_model_pass": false,
+      "final_hip_angles_rad": [
+        1.0037560231624916,
+        1.0037560231624918
+      ],
+      "final_spring_compression_mm": [
+        0.0,
+        0.0
+      ],
+      "final_wheel_contact": [
+        true,
+        true
+      ],
+      "controller": {
+        "crouch": 0.45,
+        "pulse": 0.06,
+        "push": 3.9,
+        "retract": 0.7,
+        "hip_kp": 55,
+        "hip_kd": 1.5,
+        "wheel_velocity_gain": 0.3,
+        "wheel_position_gain": 0.3
+      },
+      "simulation_timestep_s": 0.00025,
+      "target_250mm_reached": false,
+      "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+    },
+    {
+      "first_flight_wheel_clearance_mm": 68.53585000023934,
+      "max_both_wheel_clearance_mm": 68.53585000023934,
+      "takeoff_s": 1.3897500000000478,
+      "landing_s": 1.60575000000012,
+      "first_flight_time_s": 0.21600000000007213,
+      "com_ballistic_rise_mm": 42.770796396533775,
+      "max_pitch_deg": 21.811590669990235,
+      "max_roll_deg": 1.4203875956763022e-13,
+      "final_pitch_deg": 0.4042742709025328,
+      "final_roll_deg": -4.6821165090140275e-15,
+      "max_spring_compression_mm": 13.771668901283423,
+      "peak_hip_current_A": 34.99999999999999,
+      "peak_wheel_torque_Nm": 0.45,
+      "body_ground_contact": false,
+      "max_closure_error_mm": 0.02548887559940197,
+      "hip_range_rad": [
+        0.45527115977018323,
+        1.2443392238002353
+      ],
+      "final_speed_m_s": 0.27562077725144946,
+      "final_x_m": -0.3724077285024231,
+      "hip_copper_loss_J": 157.97294616628477,
+      "motor_envelope_errors": 0,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "duration_s": 8.0,
+      "launch_pulse_s": 0.06,
+      "push_Nm": 3.9,
+      "crouch_q_rad": 0.45,
+      "initial_pitch_deg": -1.3828549779806112,
+      "checks": {
+        "jump_over_40mm": true,
+        "landed": true,
+        "body_clear": true,
+        "spring_under_19_5mm": true,
+        "closure_under_0_1mm": true,
+        "no_hip_endstop": true,
+        "final_pitch_under_5deg": true,
+        "final_roll_under_5deg": true,
+        "final_speed_under_0_1": false,
+        "motor_envelope": true,
+        "no_warnings": true
+      },
+      "nominal_model_pass": false,
+      "final_hip_angles_rad": [
+        1.0054049653807915,
+        1.005404965380792
+      ],
+      "final_spring_compression_mm": [
+        0.0,
+        0.0
+      ],
+      "final_wheel_contact": [
+        true,
+        true
+      ],
+      "controller": {
+        "crouch": 0.45,
+        "pulse": 0.06,
+        "push": 3.9,
+        "retract": 0.7,
+        "hip_kp": 55,
+        "hip_kd": 1.5,
+        "wheel_velocity_gain": 0.3,
+        "wheel_position_gain": 0.7
+      },
+      "simulation_timestep_s": 0.00025,
+      "target_250mm_reached": false,
+      "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+    },
+    {
+      "first_flight_wheel_clearance_mm": 68.99480677489976,
+      "max_both_wheel_clearance_mm": 68.99480677489976,
+      "takeoff_s": 1.3895000000000477,
+      "landing_s": 1.6065000000001202,
+      "first_flight_time_s": 0.21700000000007247,
+      "com_ballistic_rise_mm": 43.412423204525844,
+      "max_pitch_deg": 20.80973227642625,
+      "max_roll_deg": 1.952019000567551e-13,
+      "final_pitch_deg": -0.8085799234431901,
+      "final_roll_deg": 1.2831468548968039e-14,
+      "max_spring_compression_mm": 13.771798907377564,
+      "peak_hip_current_A": 34.99999999999999,
+      "peak_wheel_torque_Nm": 0.45,
+      "body_ground_contact": false,
+      "max_closure_error_mm": 0.025445488090369936,
+      "hip_range_rad": [
+        0.45526819263748924,
+        1.2432411998547568
+      ],
+      "final_speed_m_s": -0.12450693041171554,
+      "final_x_m": 0.022672308701790676,
+      "hip_copper_loss_J": 158.8759438792211,
+      "motor_envelope_errors": 0,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "duration_s": 8.0,
+      "launch_pulse_s": 0.06,
+      "push_Nm": 3.9,
+      "crouch_q_rad": 0.45,
+      "initial_pitch_deg": -1.3828549779806112,
+      "checks": {
+        "jump_over_40mm": true,
+        "landed": true,
+        "body_clear": true,
+        "spring_under_19_5mm": true,
+        "closure_under_0_1mm": true,
+        "no_hip_endstop": true,
+        "final_pitch_under_5deg": true,
+        "final_roll_under_5deg": true,
+        "final_speed_under_0_1": false,
+        "motor_envelope": true,
+        "no_warnings": true
+      },
+      "nominal_model_pass": false,
+      "final_hip_angles_rad": [
+        1.0037261679528202,
+        1.00372616795282
+      ],
+      "final_spring_compression_mm": [
+        0.0,
+        0.0
+      ],
+      "final_wheel_contact": [
+        true,
+        true
+      ],
+      "controller": {
+        "crouch": 0.45,
+        "pulse": 0.06,
+        "push": 3.9,
+        "retract": 0.7,
+        "hip_kp": 55,
+        "hip_kd": 1.5,
+        "wheel_velocity_gain": 0.6,
+        "wheel_position_gain": 0.3
+      },
+      "simulation_timestep_s": 0.00025,
+      "target_250mm_reached": false,
+      "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+    },
+    {
+      "first_flight_wheel_clearance_mm": 68.47557537417381,
+      "max_both_wheel_clearance_mm": 68.47557537417381,
+      "takeoff_s": 1.3897500000000478,
+      "landing_s": 1.60575000000012,
+      "first_flight_time_s": 0.21600000000007213,
+      "com_ballistic_rise_mm": 42.73921711577938,
+      "max_pitch_deg": 21.6405392473045,
+      "max_roll_deg": 1.9599284107956746e-13,
+      "final_pitch_deg": -0.890112374825159,
+      "final_roll_deg": 4.443851335976946e-15,
+      "max_spring_compression_mm": 13.771817840608575,
+      "peak_hip_current_A": 34.99999999999999,
+      "peak_wheel_torque_Nm": 0.45,
+      "body_ground_contact": false,
+      "max_closure_error_mm": 0.025489715962024678,
+      "hip_range_rad": [
+        0.4552677604621455,
+        1.244212733023132
+      ],
+      "final_speed_m_s": 0.11167794260150067,
+      "final_x_m": -0.15824247906847372,
+      "hip_copper_loss_J": 157.45175403249274,
+      "motor_envelope_errors": 0,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "duration_s": 8.0,
+      "launch_pulse_s": 0.06,
+      "push_Nm": 3.9,
+      "crouch_q_rad": 0.45,
+      "initial_pitch_deg": -1.3828549779806112,
+      "checks": {
+        "jump_over_40mm": true,
+        "landed": true,
+        "body_clear": true,
+        "spring_under_19_5mm": true,
+        "closure_under_0_1mm": true,
+        "no_hip_endstop": true,
+        "final_pitch_under_5deg": true,
+        "final_roll_under_5deg": true,
+        "final_speed_under_0_1": false,
+        "motor_envelope": true,
+        "no_warnings": true
+      },
+      "nominal_model_pass": false,
+      "final_hip_angles_rad": [
+        1.0054228542083783,
+        1.0054228542083783
+      ],
+      "final_spring_compression_mm": [
+        0.0,
+        0.0
+      ],
+      "final_wheel_contact": [
+        true,
+        true
+      ],
+      "controller": {
+        "crouch": 0.45,
+        "pulse": 0.06,
+        "push": 3.9,
+        "retract": 0.7,
+        "hip_kp": 55,
+        "hip_kd": 1.5,
+        "wheel_velocity_gain": 0.6,
+        "wheel_position_gain": 0.7
+      },
+      "simulation_timestep_s": 0.00025,
+      "target_250mm_reached": false,
+      "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+    },
+    {
+      "first_flight_wheel_clearance_mm": 68.93331618182528,
+      "max_both_wheel_clearance_mm": 68.93331618182528,
+      "takeoff_s": 1.3895000000000477,
+      "landing_s": 1.60625000000012,
+      "first_flight_time_s": 0.21675000000007238,
+      "com_ballistic_rise_mm": 43.381606339494645,
+      "max_pitch_deg": 20.502276957541497,
+      "max_roll_deg": 9.46854581598295e-14,
+      "final_pitch_deg": -1.1761902926901209,
+      "final_roll_deg": -4.380656987747063e-15,
+      "max_spring_compression_mm": 13.771998546899352,
+      "peak_hip_current_A": 34.99999999999999,
+      "peak_wheel_torque_Nm": 0.45,
+      "body_ground_contact": false,
+      "max_closure_error_mm": 0.025435379523275722,
+      "hip_range_rad": [
+        0.45526363647845997,
+        1.2430332764515746
+      ],
+      "final_speed_m_s": -0.062400747921653316,
+      "final_x_m": 0.12486994734225629,
+      "hip_copper_loss_J": 158.20481144703382,
+      "motor_envelope_errors": 0,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "duration_s": 8.0,
+      "launch_pulse_s": 0.06,
+      "push_Nm": 3.9,
+      "crouch_q_rad": 0.45,
+      "initial_pitch_deg": -1.3828549779806112,
+      "checks": {
+        "jump_over_40mm": true,
+        "landed": true,
+        "body_clear": true,
+        "spring_under_19_5mm": true,
+        "closure_under_0_1mm": true,
+        "no_hip_endstop": true,
+        "final_pitch_under_5deg": true,
+        "final_roll_under_5deg": true,
+        "final_speed_under_0_1": true,
+        "motor_envelope": true,
+        "no_warnings": true
+      },
+      "nominal_model_pass": true,
+      "final_hip_angles_rad": [
+        1.0051146977159362,
+        1.0051146977159364
+      ],
+      "final_spring_compression_mm": [
+        0.0,
+        0.0
+      ],
+      "final_wheel_contact": [
+        true,
+        true
+      ],
+      "controller": {
+        "crouch": 0.45,
+        "pulse": 0.06,
+        "push": 3.9,
+        "retract": 0.7,
+        "hip_kp": 55,
+        "hip_kd": 1.5,
+        "wheel_velocity_gain": 1.0,
+        "wheel_position_gain": 0.3
+      },
+      "simulation_timestep_s": 0.00025,
+      "target_250mm_reached": false,
+      "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+    },
+    {
+      "first_flight_wheel_clearance_mm": 68.92327475969354,
+      "max_both_wheel_clearance_mm": 68.92327475969354,
+      "takeoff_s": 1.3895000000000477,
+      "landing_s": 1.60625000000012,
+      "first_flight_time_s": 0.21675000000007238,
+      "com_ballistic_rise_mm": 43.37747156168878,
+      "max_pitch_deg": 20.467444554049223,
+      "max_roll_deg": 3.064688427195973e-14,
+      "final_pitch_deg": -1.2387308459528843,
+      "final_roll_deg": -1.9680551667457243e-15,
+      "max_spring_compression_mm": 13.772017940721492,
+      "peak_hip_current_A": 34.99999999999999,
+      "peak_wheel_torque_Nm": 0.45,
+      "body_ground_contact": false,
+      "max_closure_error_mm": 0.0254331526619687,
+      "hip_range_rad": [
+        0.4552631938331963,
+        1.2429919439589823
+      ],
+      "final_speed_m_s": 0.01828173668408948,
+      "final_x_m": -0.044189126604036046,
+      "hip_copper_loss_J": 156.70588842576143,
+      "motor_envelope_errors": 0,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "duration_s": 8.0,
+      "launch_pulse_s": 0.06,
+      "push_Nm": 3.9,
+      "crouch_q_rad": 0.45,
+      "initial_pitch_deg": -1.3828549779806112,
+      "checks": {
+        "jump_over_40mm": true,
+        "landed": true,
+        "body_clear": true,
+        "spring_under_19_5mm": true,
+        "closure_under_0_1mm": true,
+        "no_hip_endstop": true,
+        "final_pitch_under_5deg": true,
+        "final_roll_under_5deg": true,
+        "final_speed_under_0_1": true,
+        "motor_envelope": true,
+        "no_warnings": true
+      },
+      "nominal_model_pass": true,
+      "final_hip_angles_rad": [
+        1.0054019953805156,
+        1.0054019953805151
+      ],
+      "final_spring_compression_mm": [
+        0.0,
+        0.0
+      ],
+      "final_wheel_contact": [
+        true,
+        true
+      ],
+      "controller": {
+        "crouch": 0.45,
+        "pulse": 0.06,
+        "push": 3.9,
+        "retract": 0.7,
+        "hip_kp": 55,
+        "hip_kd": 1.5,
+        "wheel_velocity_gain": 1.0,
+        "wheel_position_gain": 0.7
+      },
+      "simulation_timestep_s": 0.00025,
+      "target_250mm_reached": false,
+      "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+    },
+    {
+      "first_flight_wheel_clearance_mm": 57.663151144145466,
+      "max_both_wheel_clearance_mm": 57.663151144145466,
+      "takeoff_s": 1.3895000000000477,
+      "landing_s": 1.5950000000001163,
+      "first_flight_time_s": 0.20550000000006863,
+      "com_ballistic_rise_mm": 43.48003938456771,
+      "max_pitch_deg": 14.56408612212453,
+      "max_roll_deg": 4.264742180693087e-13,
+      "final_pitch_deg": -0.69324663923478,
+      "final_roll_deg": -5.06725196465664e-15,
+      "max_spring_compression_mm": 13.771650162792012,
+      "peak_hip_current_A": 34.99999999999999,
+      "peak_wheel_torque_Nm": 0.45,
+      "body_ground_contact": false,
+      "max_closure_error_mm": 0.025450294570399146,
+      "hip_range_rad": [
+        0.45527158754776736,
+        1.2433076021692846
+      ],
+      "final_speed_m_s": -0.17152044889436277,
+      "final_x_m": -0.11029771001504649,
+      "hip_copper_loss_J": 157.26801936277207,
+      "motor_envelope_errors": 0,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "duration_s": 8.0,
+      "launch_pulse_s": 0.06,
+      "push_Nm": 3.9,
+      "crouch_q_rad": 0.45,
+      "initial_pitch_deg": -1.3828549779806112,
+      "checks": {
+        "jump_over_40mm": true,
+        "landed": true,
+        "body_clear": true,
+        "spring_under_19_5mm": true,
+        "closure_under_0_1mm": true,
+        "no_hip_endstop": true,
+        "final_pitch_under_5deg": true,
+        "final_roll_under_5deg": true,
+        "final_speed_under_0_1": false,
+        "motor_envelope": true,
+        "no_warnings": true
+      },
+      "nominal_model_pass": false,
+      "final_hip_angles_rad": [
+        1.003729730543384,
+        1.0037297305433843
+      ],
+      "final_spring_compression_mm": [
+        0.0,
+        0.0
+      ],
+      "final_wheel_contact": [
+        true,
+        true
+      ],
+      "controller": {
+        "crouch": 0.45,
+        "pulse": 0.06,
+        "push": 3.9,
+        "retract": 0.9,
+        "hip_kp": 55,
+        "hip_kd": 1.5,
+        "wheel_velocity_gain": 0.3,
+        "wheel_position_gain": 0.3
+      },
+      "simulation_timestep_s": 0.00025,
+      "target_250mm_reached": false,
+      "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+    },
+    {
+      "first_flight_wheel_clearance_mm": 57.11176544104381,
+      "max_both_wheel_clearance_mm": 57.11176544104381,
+      "takeoff_s": 1.3897500000000478,
+      "landing_s": 1.594000000000116,
+      "first_flight_time_s": 0.2042500000000682,
+      "com_ballistic_rise_mm": 42.76281731366366,
+      "max_pitch_deg": 14.980957135011781,
+      "max_roll_deg": 2.0714772289313511e-13,
+      "final_pitch_deg": -0.37945759701643045,
+      "final_roll_deg": -2.6609130390609135e-15,
+      "max_spring_compression_mm": 13.771668901283423,
+      "peak_hip_current_A": 34.99999999999999,
+      "peak_wheel_torque_Nm": 0.45,
+      "body_ground_contact": false,
+      "max_closure_error_mm": 0.02548887559940197,
+      "hip_range_rad": [
+        0.45527115977018323,
+        1.2443392238002353
+      ],
+      "final_speed_m_s": 0.16714261769547392,
+      "final_x_m": -0.21261801385832943,
+      "hip_copper_loss_J": 156.24739253636653,
+      "motor_envelope_errors": 0,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "duration_s": 8.0,
+      "launch_pulse_s": 0.06,
+      "push_Nm": 3.9,
+      "crouch_q_rad": 0.45,
+      "initial_pitch_deg": -1.3828549779806112,
+      "checks": {
+        "jump_over_40mm": true,
+        "landed": true,
+        "body_clear": true,
+        "spring_under_19_5mm": true,
+        "closure_under_0_1mm": true,
+        "no_hip_endstop": true,
+        "final_pitch_under_5deg": true,
+        "final_roll_under_5deg": true,
+        "final_speed_under_0_1": false,
+        "motor_envelope": true,
+        "no_warnings": true
+      },
+      "nominal_model_pass": false,
+      "final_hip_angles_rad": [
+        1.0053656288827006,
+        1.005365628882701
+      ],
+      "final_spring_compression_mm": [
+        0.0,
+        0.0
+      ],
+      "final_wheel_contact": [
+        true,
+        true
+      ],
+      "controller": {
+        "crouch": 0.45,
+        "pulse": 0.06,
+        "push": 3.9,
+        "retract": 0.9,
+        "hip_kp": 55,
+        "hip_kd": 1.5,
+        "wheel_velocity_gain": 0.3,
+        "wheel_position_gain": 0.7
+      },
+      "simulation_timestep_s": 0.00025,
+      "target_250mm_reached": false,
+      "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+    },
+    {
+      "first_flight_wheel_clearance_mm": 57.554044562727306,
+      "max_both_wheel_clearance_mm": 57.554044562727306,
+      "takeoff_s": 1.3895000000000477,
+      "landing_s": 1.5947500000001162,
+      "first_flight_time_s": 0.20525000000006854,
+      "com_ballistic_rise_mm": 43.404432091088715,
+      "max_pitch_deg": 14.318127030881856,
+      "max_roll_deg": 1.6391982246534604e-13,
+      "final_pitch_deg": -1.0407827832478027,
+      "final_roll_deg": -4.089345392788302e-15,
+      "max_spring_compression_mm": 13.771798907377564,
+      "peak_hip_current_A": 34.99999999999999,
+      "peak_wheel_torque_Nm": 0.45,
+      "body_ground_contact": false,
+      "max_closure_error_mm": 0.025445488090369936,
+      "hip_range_rad": [
+        0.45526819263748924,
+        1.2432411998547568
+      ],
+      "final_speed_m_s": -0.073185498587189,
+      "final_x_m": 0.009854316992518673,
+      "hip_copper_loss_J": 157.14116633012952,
+      "motor_envelope_errors": 0,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "duration_s": 8.0,
+      "launch_pulse_s": 0.06,
+      "push_Nm": 3.9,
+      "crouch_q_rad": 0.45,
+      "initial_pitch_deg": -1.3828549779806112,
+      "checks": {
+        "jump_over_40mm": true,
+        "landed": true,
+        "body_clear": true,
+        "spring_under_19_5mm": true,
+        "closure_under_0_1mm": true,
+        "no_hip_endstop": true,
+        "final_pitch_under_5deg": true,
+        "final_roll_under_5deg": true,
+        "final_speed_under_0_1": true,
+        "motor_envelope": true,
+        "no_warnings": true
+      },
+      "nominal_model_pass": true,
+      "final_hip_angles_rad": [
+        1.0037106664371973,
+        1.0037106664371975
+      ],
+      "final_spring_compression_mm": [
+        0.0,
+        0.0
+      ],
+      "final_wheel_contact": [
+        true,
+        true
+      ],
+      "controller": {
+        "crouch": 0.45,
+        "pulse": 0.06,
+        "push": 3.9,
+        "retract": 0.9,
+        "hip_kp": 55,
+        "hip_kd": 1.5,
+        "wheel_velocity_gain": 0.6,
+        "wheel_position_gain": 0.3
+      },
+      "simulation_timestep_s": 0.00025,
+      "target_250mm_reached": false,
+      "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+    },
+    {
+      "first_flight_wheel_clearance_mm": 57.05481268812104,
+      "max_both_wheel_clearance_mm": 57.05481268812104,
+      "takeoff_s": 1.3897500000000478,
+      "landing_s": 1.594000000000116,
+      "first_flight_time_s": 0.2042500000000682,
+      "com_ballistic_rise_mm": 42.73123893894276,
+      "max_pitch_deg": 14.85995866136551,
+      "max_roll_deg": 1.7435071138452202e-13,
+      "final_pitch_deg": -1.1222755065938206,
+      "final_roll_deg": 7.135014494293927e-16,
+      "max_spring_compression_mm": 13.771817840608575,
+      "peak_hip_current_A": 34.99999999999999,
+      "peak_wheel_torque_Nm": 0.45,
+      "body_ground_contact": false,
+      "max_closure_error_mm": 0.025489715962024678,
+      "hip_range_rad": [
+        0.4552677604621455,
+        1.244212733023132
+      ],
+      "final_speed_m_s": 0.06623968323816008,
+      "final_x_m": -0.08862320287457595,
+      "hip_copper_loss_J": 155.70928375681058,
+      "motor_envelope_errors": 0,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "duration_s": 8.0,
+      "launch_pulse_s": 0.06,
+      "push_Nm": 3.9,
+      "crouch_q_rad": 0.45,
+      "initial_pitch_deg": -1.3828549779806112,
+      "checks": {
+        "jump_over_40mm": true,
+        "landed": true,
+        "body_clear": true,
+        "spring_under_19_5mm": true,
+        "closure_under_0_1mm": true,
+        "no_hip_endstop": true,
+        "final_pitch_under_5deg": true,
+        "final_roll_under_5deg": true,
+        "final_speed_under_0_1": true,
+        "motor_envelope": true,
+        "no_warnings": true
+      },
+      "nominal_model_pass": true,
+      "final_hip_angles_rad": [
+        1.005408867767596,
+        1.0054088677675963
+      ],
+      "final_spring_compression_mm": [
+        0.0,
+        0.0
+      ],
+      "final_wheel_contact": [
+        true,
+        true
+      ],
+      "controller": {
+        "crouch": 0.45,
+        "pulse": 0.06,
+        "push": 3.9,
+        "retract": 0.9,
+        "hip_kp": 55,
+        "hip_kd": 1.5,
+        "wheel_velocity_gain": 0.6,
+        "wheel_position_gain": 0.7
+      },
+      "simulation_timestep_s": 0.00025,
+      "target_250mm_reached": false,
+      "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+    },
+    {
+      "first_flight_wheel_clearance_mm": 57.49567072207268,
+      "max_both_wheel_clearance_mm": 57.49567072207268,
+      "takeoff_s": 1.3895000000000477,
+      "landing_s": 1.5947500000001162,
+      "first_flight_time_s": 0.20525000000006854,
+      "com_ballistic_rise_mm": 43.373617103819676,
+      "max_pitch_deg": 14.188420356908468,
+      "max_roll_deg": 5.70957721726843e-14,
+      "final_pitch_deg": -1.263491251831621,
+      "final_roll_deg": 1.8903215476322553e-15,
+      "max_spring_compression_mm": 13.771998546899352,
+      "peak_hip_current_A": 34.99999999999999,
+      "peak_wheel_torque_Nm": 0.45,
+      "body_ground_contact": false,
+      "max_closure_error_mm": 0.025435379523275722,
+      "hip_range_rad": [
+        0.45526363647845997,
+        1.2430332764515746
+      ],
+      "final_speed_m_s": -0.03631334163656887,
+      "final_x_m": 0.07102897596870782,
+      "hip_copper_loss_J": 156.56661222976825,
+      "motor_envelope_errors": 0,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "duration_s": 8.0,
+      "launch_pulse_s": 0.06,
+      "push_Nm": 3.9,
+      "crouch_q_rad": 0.45,
+      "initial_pitch_deg": -1.3828549779806112,
+      "checks": {
+        "jump_over_40mm": true,
+        "landed": true,
+        "body_clear": true,
+        "spring_under_19_5mm": true,
+        "closure_under_0_1mm": true,
+        "no_hip_endstop": true,
+        "final_pitch_under_5deg": true,
+        "final_roll_under_5deg": true,
+        "final_speed_under_0_1": true,
+        "motor_envelope": true,
+        "no_warnings": true
+      },
+      "nominal_model_pass": true,
+      "final_hip_angles_rad": [
+        1.0051433630030593,
+        1.0051433630030593
+      ],
+      "final_spring_compression_mm": [
+        0.0,
+        0.0
+      ],
+      "final_wheel_contact": [
+        true,
+        true
+      ],
+      "controller": {
+        "crouch": 0.45,
+        "pulse": 0.06,
+        "push": 3.9,
+        "retract": 0.9,
+        "hip_kp": 55,
+        "hip_kd": 1.5,
+        "wheel_velocity_gain": 1.0,
+        "wheel_position_gain": 0.3
+      },
+      "simulation_timestep_s": 0.00025,
+      "target_250mm_reached": false,
+      "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+    },
+    {
+      "first_flight_wheel_clearance_mm": 57.486137388196674,
+      "max_both_wheel_clearance_mm": 57.486137388196674,
+      "takeoff_s": 1.3895000000000477,
+      "landing_s": 1.5947500000001162,
+      "first_flight_time_s": 0.20525000000006854,
+      "com_ballistic_rise_mm": 43.36948275592431,
+      "max_pitch_deg": 14.161404294726267,
+      "max_roll_deg": 2.5755420690096258e-14,
+      "final_pitch_deg": -1.302645280480496,
+      "final_roll_deg": 4.031791026758031e-15,
+      "max_spring_compression_mm": 13.772017940721492,
+      "peak_hip_current_A": 34.99999999999999,
+      "peak_wheel_torque_Nm": 0.45,
+      "body_ground_contact": false,
+      "max_closure_error_mm": 0.0254331526619687,
+      "hip_range_rad": [
+        0.4552631938331963,
+        1.2429919439589823
+      ],
+      "final_speed_m_s": 0.011525918294212728,
+      "final_x_m": -0.02596587027112169,
+      "hip_copper_loss_J": 155.07463310396034,
+      "motor_envelope_errors": 0,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "duration_s": 8.0,
+      "launch_pulse_s": 0.06,
+      "push_Nm": 3.9,
+      "crouch_q_rad": 0.45,
+      "initial_pitch_deg": -1.3828549779806112,
+      "checks": {
+        "jump_over_40mm": true,
+        "landed": true,
+        "body_clear": true,
+        "spring_under_19_5mm": true,
+        "closure_under_0_1mm": true,
+        "no_hip_endstop": true,
+        "final_pitch_under_5deg": true,
+        "final_roll_under_5deg": true,
+        "final_speed_under_0_1": true,
+        "motor_envelope": true,
+        "no_warnings": true
+      },
+      "nominal_model_pass": true,
+      "final_hip_angles_rad": [
+        1.0053981178287004,
+        1.0053981178287
+      ],
+      "final_spring_compression_mm": [
+        0.0,
+        0.0
+      ],
+      "final_wheel_contact": [
+        true,
+        true
+      ],
+      "controller": {
+        "crouch": 0.45,
+        "pulse": 0.06,
+        "push": 3.9,
+        "retract": 0.9,
+        "hip_kp": 55,
+        "hip_kd": 1.5,
+        "wheel_velocity_gain": 1.0,
+        "wheel_position_gain": 0.7
+      },
+      "simulation_timestep_s": 0.00025,
+      "target_250mm_reached": false,
+      "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+    }
+  ],
+  "best_passing": {
+    "first_flight_wheel_clearance_mm": 68.93331618182528,
+    "max_both_wheel_clearance_mm": 68.93331618182528,
+    "takeoff_s": 1.3895000000000477,
+    "landing_s": 1.60625000000012,
+    "first_flight_time_s": 0.21675000000007238,
+    "com_ballistic_rise_mm": 43.381606339494645,
+    "max_pitch_deg": 20.502276957541497,
+    "max_roll_deg": 9.46854581598295e-14,
+    "final_pitch_deg": -1.1761902926901209,
+    "final_roll_deg": -4.380656987747063e-15,
+    "max_spring_compression_mm": 13.771998546899352,
+    "peak_hip_current_A": 34.99999999999999,
+    "peak_wheel_torque_Nm": 0.45,
+    "body_ground_contact": false,
+    "max_closure_error_mm": 0.025435379523275722,
+    "hip_range_rad": [
+      0.45526363647845997,
+      1.2430332764515746
+    ],
+    "final_speed_m_s": -0.062400747921653316,
+    "final_x_m": 0.12486994734225629,
+    "hip_copper_loss_J": 158.20481144703382,
+    "motor_envelope_errors": 0,
+    "warnings": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "duration_s": 8.0,
+    "launch_pulse_s": 0.06,
+    "push_Nm": 3.9,
+    "crouch_q_rad": 0.45,
+    "initial_pitch_deg": -1.3828549779806112,
+    "checks": {
+      "jump_over_40mm": true,
+      "landed": true,
+      "body_clear": true,
+      "spring_under_19_5mm": true,
+      "closure_under_0_1mm": true,
+      "no_hip_endstop": true,
+      "final_pitch_under_5deg": true,
+      "final_roll_under_5deg": true,
+      "final_speed_under_0_1": true,
+      "motor_envelope": true,
+      "no_warnings": true
+    },
+    "nominal_model_pass": true,
+    "final_hip_angles_rad": [
+      1.0051146977159362,
+      1.0051146977159364
+    ],
+    "final_spring_compression_mm": [
+      0.0,
+      0.0
+    ],
+    "final_wheel_contact": [
+      true,
+      true
+    ],
+    "controller": {
+      "crouch": 0.45,
+      "pulse": 0.06,
+      "push": 3.9,
+      "retract": 0.7,
+      "hip_kp": 55,
+      "hip_kd": 1.5,
+      "wheel_velocity_gain": 1.0,
+      "wheel_position_gain": 0.3
+    },
+    "simulation_timestep_s": 0.00025,
+    "target_250mm_reached": false,
+    "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+  }
+}

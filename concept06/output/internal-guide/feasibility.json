@@ -1,0 +1,1954 @@
+{
+  "status": "2D feasibility only. Not incorporated in CAD or dynamics.",
+  "geometry": {
+    "crank_mm": 64.48187746169309,
+    "tie_mm": 70.18782642546631,
+    "coupler_mm": 8.467143118087549,
+    "lower_mm": 119.11935079120995,
+    "body_pin_mm": [
+      6.807931276254326,
+      13.499999999996055
+    ],
+    "q_low_rad": 0.35,
+    "q_high_rad": 1.5,
+    "vertical_stroke_mm": 115.15899446376483,
+    "knee_range_rad": [
+      0.5147640402305056,
+      2.4966875074733834
+    ]
+  },
+  "guide_radius_mm": 4,
+  "hip_profile_radius_mm": 23,
+  "knee_profile_radius_mm": 15,
+  "hip_endpoint_profile_margin_mm": 3.880544710139345,
+  "knee_endpoint_profile_margin_mm": 2.5328568819124513,
+  "proof": "Both endpoint discs lie inside the convex hip-to-knee profile. The straight capsule between them therefore also lies inside at every valid pose. This does not check lateral interference or fasteners.",
+  "stroke_mm": 115.15899446376483,
+  "max_wheel_path_change_mm": 19.55904304529119,
+  "maximum_guide_force_multiplier": 4.337978526535183,
+  "minimum_knee_lever_mm": 3.7875920833869032,
+  "min_spring_seat_distance_mm": 27.492051631105433,
+  "catalog_spring_compression_limit_mm": 25,
+  "rows": [
+    {
+      "q_rad": 0.35,
+      "B_thigh_mm": [
+        1.7660644712063043,
+        15.01595633137091
+      ],
+      "D_thigh_mm": [
+        71.24845237095079,
+        5.089791408258446
+      ],
+      "E_mm": [
+        -53.404418405601675,
+        -56.73262559897182
+      ],
+      "wheel_position_change_mm": 19.55904304529119,
+      "effective_knee_lever_mm": 5.995583862654016,
+      "same_knee_torque_guide_force_ratio": 4.337978526535183,
+      "spring_seat_distance_mm": 27.492051631105433
+    },
+    {
+      "q_rad": 0.3615,
+      "B_thigh_mm": [
+        1.5932679998763275,
+        15.03527270596265
+      ],
+      "D_thigh_mm": [
+        71.10004127761108,
+        5.281327511890453
+      ],
+      "E_mm": [
+        -53.05335873780128,
+        -59.37363520419474
+      ],
+      "wheel_position_change_mm": 18.716246128144594,
+      "effective_knee_lever_mm": 6.149802082539996,
+      "same_knee_torque_guide_force_ratio": 4.258951272211236,
+      "spring_seat_distance_mm": 28.169093900771806
+    },
+    {
+      "q_rad": 0.373,
+      "B_thigh_mm": [
+        1.420260821175554,
+        15.052600687652918
+      ],
+      "D_thigh_mm": [
+        70.95003802422261,
+        5.464010570955658
+      ],
+      "E_mm": [
+        -52.70399010265454,
+        -61.92196911114473
+      ],
+      "wheel_position_change_mm": 17.934379539583254,
+      "effective_knee_lever_mm": 6.296419202352953,
+      "same_knee_torque_guide_force_ratio": 4.18748099120667,
+      "spring_seat_distance_mm": 28.837251691203047
+    },
+    {
+      "q_rad": 0.38449999999999995,
+      "B_thigh_mm": [
+        1.2470658150512088,
+        15.06793798484139
+      ],
+      "D_thigh_mm": [
+        70.79859276933962,
+        5.638405830048182
+      ],
+      "E_mm": [
+        -52.35784388403023,
+        -64.38529850130766
+      ],
+      "wheel_position_change_mm": 17.20703195715735,
+      "effective_knee_lever_mm": 6.4359224124661205,
+      "same_knee_torque_guide_force_ratio": 4.12250452362982,
+      "spring_seat_distance_mm": 29.496482433553208
+    },
+    {
+      "q_rad": 0.39599999999999996,
+      "B_thigh_mm": [
+        1.0737058862904183,
+        15.081282569192869
+      ],
+      "D_thigh_mm": [
+        70.64583874239949,
+        5.805005935580912
+      ],
+      "E_mm": [
+        -52.016173668174915,
+        -66.77029527486093
+      ],
+      "wheel_position_change_mm": 16.52870248026362,
+      "effective_knee_lever_mm": 6.568735315789191,
+      "same_knee_torque_guide_force_ratio": 4.0631521566522775,
+      "spring_seat_distance_mm": 30.146810673152714
+    },
+    {
+      "q_rad": 0.4075,
+      "B_thigh_mm": [
+        0.9002039614910924,
+        15.092632675905522
+      ],
+      "D_thigh_mm": [
+        70.4918951884086,
+        5.96424341444434
+      ],
+      "E_mm": [
+        -51.68000907604153,
+        -69.08280299532112
+      ],
+      "wheel_position_change_mm": 15.894637600766961,
+      "effective_knee_lever_mm": 6.695228949381242,
+      "same_knee_torque_guide_force_ratio": 4.0087049731672835,
+      "spring_seat_distance_mm": 30.788308812203205
+    },
+    {
+      "q_rad": 0.419,
+      "B_thigh_mm": [
+        0.7265829860299045,
+        15.101986803944282
+      ],
+      "D_thigh_mm": [
+        70.33686968699816,
+        6.116500521032805
+      ],
+      "E_mm": [
+        -51.35019746336658,
+        -71.32797191217821
+      ],
+      "wheel_position_change_mm": 15.300703247580996,
+      "effective_knee_lever_mm": 6.815730470165635,
+      "same_knee_torque_guide_force_ratio": 3.9585631087562394,
+      "spring_seat_distance_mm": 31.421082990541667
+    },
+    {
+      "q_rad": 0.4305,
+      "B_thigh_mm": [
+        0.5528659210278084,
+        15.109343716239346
+      ],
+      "D_thigh_mm": [
+        70.18086000078503,
+        6.262117102170986
+      ],
+      "E_mm": [
+        -51.02743660318322,
+        -73.51036690193787
+      ],
+      "wheel_position_change_mm": 14.743283164733853,
+      "effective_knee_lever_mm": 6.930530083108229,
+      "same_knee_torque_guide_force_ratio": 3.912221773364543,
+      "spring_seat_distance_mm": 32.04526267581843
+    },
+    {
+      "q_rad": 0.44199999999999995,
+      "B_thigh_mm": [
+        0.37907574031345703,
+        15.114702439849788
+      ],
+      "D_thigh_mm": [
+        70.02395556456436,
+        6.401396947842876
+      ],
+      "E_mm": [
+        -50.71230057162676,
+        -75.63405470183096
+      ],
+      "wheel_position_change_mm": 14.21919733853129,
+      "effective_knee_lever_mm": 7.039886628138168,
+      "same_knee_torque_guide_force_ratio": 3.8692528937426527,
+      "spring_seat_distance_mm": 32.6609929576606
+    },
+    {
+      "q_rad": 0.45349999999999996,
+      "B_thigh_mm": [
+        0.20523542738495237,
+        15.11806226609222
+      ],
+      "D_thigh_mm": [
+        69.86623869691128,
+        6.534612970242154
+      ],
+      "E_mm": [
+        -50.40526044596793,
+        -77.70267510655646
+      ],
+      "wheel_position_change_mm": 13.725635882869907,
+      "effective_knee_lever_mm": 7.144032130281667,
+      "same_knee_torque_guide_force_ratio": 3.8292908870077453,
+      "spring_seat_distance_mm": 33.2684288296963
+    },
+    {
+      "q_rad": 0.46499999999999997,
+      "B_thigh_mm": [
+        0.03136797237030642,
+        15.11942275063452
+      ],
+      "D_thigh_mm": [
+        69.70778559473642,
+        6.662011465553672
+      ],
+      "E_mm": [
+        -50.10670099740892,
+        -79.71949960006528
+      ],
+      "wheel_position_change_mm": 13.26010498023478,
+      "effective_knee_lever_mm": 7.243175538965669,
+      "same_knee_torque_guide_force_ratio": 3.7920215127039083,
+      "spring_seat_distance_mm": 33.867730943836946
+    },
+    {
+      "q_rad": 0.4765,
+      "B_thigh_mm": [
+        -0.1425036310129677,
+        15.118783713554588
+      ],
+      "D_thigh_mm": [
+        69.54866715632647,
+        6.7838156499520466
+      ],
+      "E_mm": [
+        -49.81693425922735,
+        -81.68748003788123
+      ],
+      "wheel_position_change_mm": 12.820382323467378,
+      "effective_knee_lever_mm": 7.337505826416853,
+      "same_knee_torque_guide_force_ratio": 3.7571730480523193,
+      "spring_seat_distance_mm": 34.45906246196135
+    },
+    {
+      "q_rad": 0.488,
+      "B_thigh_mm": [
+        -0.31635638849873793,
+        15.116145239364148
+      ],
+      "D_thigh_mm": [
+        69.388949667528,
+        6.900228615698175
+      ],
+      "E_mm": [
+        -49.53621063389931,
+        -83.60928937418419
+      ],
+      "wheel_position_change_mm": 12.404480116755472,
+      "effective_knee_lever_mm": 7.427194574501025,
+      "same_knee_torque_guide_force_ratio": 3.7245092367674233,
+      "spring_seat_distance_mm": 35.042586730061124
+    },
+    {
+      "q_rad": 0.49949999999999994,
+      "B_thigh_mm": [
+        -0.490167308313219,
+        15.111507676997563
+      ],
+      "D_thigh_mm": [
+        69.22869537775068,
+        7.011435819714233
+      ],
+      "E_mm": [
+        -49.2647280448412,
+        -85.48735597115989
+      ],
+      "wheel_position_change_mm": 12.01061414412062,
+      "effective_knee_lever_mm": 7.51239814956002,
+      "same_knee_torque_guide_force_ratio": 3.693823606307738,
+      "spring_seat_distance_mm": 35.61846557158642
+    },
+    {
+      "q_rad": 0.511,
+      "B_thigh_mm": [
+        -0.6639134042155943,
+        15.104871639765701
+      ],
+      "D_thigh_mm": [
+        69.06796298653165,
+        7.117607192100696
+      ],
+      "E_mm": [
+        -49.00263952192059,
+        -87.32389268816483
+      ],
+      "wheel_position_change_mm": 11.637177747665126,
+      "effective_knee_lever_mm": 7.5932595426631035,
+      "same_knee_torque_guide_force_ratio": 3.664934851376698,
+      "spring_seat_distance_mm": 36.18685804864262
+    },
+    {
+      "q_rad": 0.5225,
+      "B_thigh_mm": [
+        -0.8375716985379134,
+        15.096238005274813
+      ],
+      "D_thigh_mm": [
+        68.90680805694305,
+        7.2188989333137314
+      ],
+      "E_mm": [
+        -48.750059523048684,
+        -89.12092169230783
+      ],
+      "wheel_position_change_mm": 11.28271980865291,
+      "effective_knee_lever_mm": 7.669909936045884,
+      "same_knee_torque_guide_force_ratio": 3.6376830557937567,
+      "spring_seat_distance_mm": 36.74791957760987
+    },
+    {
+      "q_rad": 0.534,
+      "B_thigh_mm": [
+        -1.0111192252238625,
+        15.085607915310474
+      ],
+      "D_thigh_mm": [
+        68.74528336873564,
+        7.315455054470089
+      ],
+      "E_mm": [
+        -48.50706922871875,
+        -90.88029573733259
+      ],
+      "wheel_position_change_mm": 10.945926014791214,
+      "effective_knee_lever_mm": 7.742470043864895,
+      "same_knee_torque_guide_force_ratio": 3.6119265791360258,
+      "spring_seat_distance_mm": 37.301801313691186
+    },
+    {
+      "q_rad": 0.5455,
+      "B_thigh_mm": [
+        -1.1845330328659802,
+        15.072982775686592
+      ],
+      "D_thigh_mm": [
+        68.58343922151097,
+        7.4074087043025365
+      ],
+      "E_mm": [
+        -48.273720996565416,
+        -92.60371650804845
+      ],
+      "wheel_position_change_mm": 10.625602842918818,
+      "effective_knee_lever_mm": 7.811051265692587,
+      "same_knee_torque_guide_force_ratio": 3.5875394746479343,
+      "spring_seat_distance_mm": 37.84864973961264
+    },
+    {
+      "q_rad": 0.5569999999999999,
+      "B_thigh_mm": [
+        -1.3577901877409557,
+        15.058364256059477
+      ],
+      "D_thigh_mm": [
+        68.42132369620096,
+        7.4948833178108245
+      ],
+      "E_mm": [
+        -48.05004212479964,
+        -94.29275051155378
+      ],
+      "wheel_position_change_mm": 10.320663799041212,
+      "effective_knee_lever_mm": 7.87575668366569,
+      "same_knee_torque_guide_force_ratio": 3.564409334844206,
+      "spring_seat_distance_mm": 38.38860640917927
+    },
+    {
+      "q_rad": 0.5685,
+      "B_thigh_mm": [
+        -1.5308677768425811,
+        15.041754289707049
+      ],
+      "D_thigh_mm": [
+        68.25898288156239,
+        7.577993615025768
+      ],
+      "E_mm": [
+        -47.83603804377207,
+        -95.94884290577164
+      ],
+      "wheel_position_change_mm": 10.030117545561579,
+      "effective_knee_lever_mm": 7.936681928332557,
+      "same_knee_torque_guide_force_ratio": 3.5424354837872483,
+      "spring_seat_distance_mm": 38.92180780802304
+    },
+    {
+      "q_rad": 0.58,
+      "B_thigh_mm": [
+        -1.7037429109119566,
+        15.023155073273143
+      ],
+      "D_thigh_mm": [
+        68.09646107115512,
+        7.656846473084439
+      ],
+      "E_mm": [
+        -47.6316950318237,
+        -97.57332958430152
+      ],
+      "wheel_position_change_mm": 9.753057614644188,
+      "effective_knee_lever_mm": 7.9939159336265035,
+      "same_knee_torque_guide_force_ratio": 3.5215274521737556,
+      "spring_seat_distance_mm": 39.448385302672925
+    },
+    {
+      "q_rad": 0.5914999999999999,
+      "B_thigh_mm": [
+        -1.876392727464565,
+        15.002569066477028
+      ],
+      "D_thigh_mm": [
+        67.9338009352927,
+        7.731541690671374
+      ],
+      "E_mm": [
+        -47.436982533429806,
+        -99.16744777980857
+      ],
+      "wheel_position_change_mm": 9.488653461331056,
+      "effective_knee_lever_mm": 8.047541597729797,
+      "same_knee_torque_guide_force_ratio": 3.501603684521566,
+      "spring_seat_distance_mm": 39.968465155760455
+    },
+    {
+      "q_rad": 0.603,
+      "B_thigh_mm": [
+        -2.048794393813811,
+        14.979998991788099
+      ],
+      "D_thigh_mm": [
+        67.77104367166902,
+        7.802172660568978
+      ],
+      "E_mm": [
+        -47.251855143260386,
+        -100.73234540275323
+      ],
+      "wheel_position_change_mm": 9.236142653631692,
+      "effective_knee_lever_mm": 8.097636363666728,
+      "same_knee_torque_guide_force_ratio": 3.482590437919313,
+      "spring_seat_distance_mm": 40.48216859027601
+    },
+    {
+      "q_rad": 0.6145,
+      "B_thigh_mm": [
+        -2.2209251100905885,
+        14.955447834065835
+      ],
+      "D_thigh_mm": [
+        67.60822913773619,
+        7.86882696339676
+      ],
+      "E_mm": [
+        -47.076254308343046,
+        -102.26908929570226
+      ],
+      "wheel_position_change_mm": 8.994824031794321,
+      "effective_knee_lever_mm": 8.144272731112588,
+      "same_knee_torque_guide_force_ratio": 3.464420839723706,
+      "spring_seat_distance_mm": 40.989611889702225
+    },
+    {
+      "q_rad": 0.626,
+      "B_thigh_mm": [
+        -2.392762112258552,
+        14.928918840165062
+      ],
+      "D_thigh_mm": [
+        67.44539596739747,
+        7.931586893461176
+      ],
+      "E_mm": [
+        -46.91010979131162,
+        -103.77867255386165
+      ],
+      "wheel_position_change_mm": 8.764051697189052,
+      "effective_knee_lever_mm": 8.187518709001889,
+      "same_knee_torque_guide_force_ratio": 3.4470340778040414,
+      "spring_seat_distance_mm": 41.490906523865654
+    },
+    {
+      "q_rad": 0.6375,
+      "B_thigh_mm": [
+        -2.564282675124617,
+        14.90041551850656
+      ],
+      "D_thigh_mm": [
+        67.28258167416615,
+        7.99052992588182
+      ],
+      "E_mm": [
+        -46.75334093033861,
+        -105.26202103833175
+      ],
+      "wheel_position_change_mm": 8.543229714186548,
+      "effective_knee_lever_mm": 8.227438216970693,
+      "same_knee_torque_guide_force_ratio": 3.430374701840699,
+      "spring_seat_distance_mm": 41.9861592926701
+    },
+    {
+      "q_rad": 0.649,
+      "B_thigh_mm": [
+        -2.735464115344336,
+        14.86994163861307
+      ],
+      "D_thigh_mm": [
+        67.11982274260086,
+        8.04572913272089
+      ],
+      "E_mm": [
+        -46.60585772533277,
+        -106.71999918883157
+      ],
+      "wheel_position_change_mm": 8.331807427119202,
+      "effective_knee_lever_mm": 8.264091442400314,
+      "same_knee_torque_guide_force_ratio": 3.414392018083963,
+      "spring_seat_distance_mm": 42.475472481680825
+    },
+    {
+      "q_rad": 0.6605,
+      "B_thigh_mm": [
+        -2.906283794421735,
+        14.837501230610798
+      ],
+      "D_thigh_mm": [
+        66.95715470954971,
+        8.097253554657943
+      ],
+      "E_mm": [
+        -46.467561775089386,
+        -108.1534152263534
+      ],
+      "wheel_position_change_mm": 8.129275309787664,
+      "effective_knee_lever_mm": 8.297535158786543,
+      "same_knee_torque_guide_force_ratio": 3.399039563096689,
+      "spring_seat_distance_mm": 42.95894402492632
+    },
+    {
+      "q_rad": 0.6719999999999999,
+      "B_thigh_mm": [
+        -3.076719121703226,
+        14.803098584696416
+      ],
+      "D_thigh_mm": [
+        66.79461223650401,
+        8.145168533772509
+      ],
+      "E_mm": [
+        -46.33834708607271,
+        -109.5630258227436
+      ],
+      "wheel_position_change_mm": 7.935161277641741,
+      "effective_knee_lever_mm": 8.327823010296454,
+      "same_knee_torque_guide_force_ratio": 3.3842746445099086,
+      "spring_seat_distance_mm": 43.43666767137572
+    },
+    {
+      "q_rad": 0.6835,
+      "B_thigh_mm": [
+        -3.2467475573651896,
+        14.76673825056971
+      ],
+      "D_thigh_mm": [
+        66.6322291741721,
+        8.189536012181392
+      ],
+      "E_mm": [
+        -46.21810077020418,
+        -110.94954030299456
+      ],
+      "wheel_position_change_mm": 7.749027403271445,
+      "effective_knee_lever_mm": 8.355005766657818,
+      "same_knee_torque_guide_force_ratio": 3.3700579388456613,
+      "spring_seat_distance_mm": 43.908733152397936
+    },
+    {
+      "q_rad": 0.695,
+      "B_thigh_mm": [
+        -3.4163466153948203,
+        14.728425036831863
+      ],
+      "D_thigh_mm": [
+        66.470038620223,
+        8.230414800597256
+      ],
+      "E_mm": [
+        -46.10670364630088,
+        -112.31362443668196
+      ],
+      "wheel_position_change_mm": 7.570466984584337,
+      "effective_knee_lever_mm": 8.379131551928156,
+      "same_knee_torque_guide_force_ratio": 3.356353138105982,
+      "spring_seat_distance_mm": 44.37522634817212
+    },
+    {
+      "q_rad": 0.7064999999999999,
+      "B_thigh_mm": [
+        -3.5854938665638842,
+        14.688164010349562
+      ],
+      "D_thigh_mm": [
+        66.30807297101616,
+        8.267860820303248
+      ],
+      "E_mm": [
+        -46.0040307575305,
+        -113.65590386712921
+      ],
+      "wheel_position_change_mm": 7.399101922346759,
+      "effective_knee_lever_mm": 8.400246050188365,
+      "same_knee_torque_guide_force_ratio": 3.343126638169449,
+      "spring_seat_distance_mm": 44.836229451537605
+    },
+    {
+      "q_rad": 0.718,
+      "B_thigh_mm": [
+        -3.7541669413949528,
+        14.64596049558487
+      ],
+      "D_thigh_mm": [
+        66.14636396802112,
+        8.30192732155788
+      ],
+      "E_mm": [
+        -45.909951815364195,
+        -114.97696722026964
+      ],
+      "wheel_position_change_mm": 7.234580369912834,
+      "effective_knee_lever_mm": 8.418392690783806,
+      "same_knee_torque_guide_force_ratio": 3.3303472631369195,
+      "spring_seat_distance_mm": 45.29182112817401
+    },
+    {
+      "q_rad": 0.7295,
+      "B_thigh_mm": [
+        -3.9223435331197125,
+        14.601820073891107
+      ],
+      "D_thigh_mm": [
+        65.98494273953537,
+        8.332665081036339
+      ],
+      "E_mm": [
+        -45.82433157890743,
+        -116.27736892958993
+      ],
+      "wheel_position_change_mm": 7.076574623122685,
+      "effective_knee_lever_mm": 8.433612815377943,
+      "same_knee_torque_guide_force_ratio": 3.3179860206741982,
+      "spring_seat_distance_mm": 45.742076672319165
+    },
+    {
+      "q_rad": 0.741,
+      "B_thigh_mm": [
+        -4.090001400629028,
+        14.555748582774708
+      ],
+      "D_thigh_mm": [
+        65.82383983822851,
+        8.360122580569072
+      ],
+      "E_mm": [
+        -45.74703017715825,
+        -117.55763180879251
+      ],
+      "wheel_position_change_mm": 6.924779222738096,
+      "effective_knee_lever_mm": 8.445945828780522,
+      "same_knee_torque_guide_force_ratio": 3.3060158841480223,
+      "spring_seat_distance_mm": 46.1870681574772
+    },
+    {
+      "q_rad": 0.7525,
+      "B_thigh_mm": [
+        -4.2571183714142835,
+        14.507752115123221
+      ],
+      "D_thigh_mm": [
+        65.66308527497196,
+        8.38434616914321
+      ],
+      "E_mm": [
+        -45.67790338060142,
+        -118.8182493997796
+      ],
+      "wheel_position_change_mm": 6.778909245487246,
+      "effective_knee_lever_mm": 8.45542933525339,
+      "same_knee_torque_guide_force_ratio": 3.2944115979729918,
+      "spring_seat_distance_mm": 46.62686458176032
+    },
+    {
+      "q_rad": 0.764,
+      "B_thigh_mm": [
+        -4.423672344499664,
+        14.457837018399545
+      ],
+      "D_thigh_mm": [
+        65.50270854935465,
+        8.40538020987993
+      ],
+      "E_mm": [
+        -45.61680282758913,
+        -120.05968812010966
+      ],
+      "wheel_position_change_mm": 6.638698762967152,
+      "effective_knee_lever_mm": 8.462099261775917,
+      "same_knee_torque_guide_force_ratio": 3.2831495031041027,
+      "spring_seat_distance_mm": 47.06153200765578
+    },
+    {
+      "q_rad": 0.7755,
+      "B_thigh_mm": [
+        -4.58964129336498,
+        14.406009893802459
+      ],
+      "D_thigh_mm": [
+        65.34273867723579,
+        8.423267213483836
+      ],
+      "E_mm": [
+        -45.563576210129874,
+        -121.28238923111883
+      ],
+      "wheel_position_change_mm": 6.503899450357811,
+      "effective_knee_lever_mm": 8.465989969561386,
+      "same_knee_torque_guide_force_ratio": 3.2722073800413063,
+      "spring_seat_distance_mm": 47.49113369612238
+    },
+    {
+      "q_rad": 0.7869999999999999,
+      "B_thigh_mm": [
+        -4.755003268858646,
+        14.352277595393662
+      ],
+      "D_thigh_mm": [
+        65.18320421564148,
+        8.438047959473426
+      ],
+      "E_mm": [
+        -45.518067423001895,
+        -122.48677064536466
+      ],
+      "wheel_position_change_mm": 6.374279329227942,
+      "effective_knee_lever_mm": 8.467134354952101,
+      "same_knee_torque_guide_force_ratio": 3.2615643070738862,
+      "spring_seat_distance_mm": 47.91573023500939
+    },
+    {
+      "q_rad": 0.7985,
+      "B_thigh_mm": [
+        -4.919736402100419,
+        14.296647229191304
+      ],
+      "D_thigh_mm": [
+        65.02413328527587,
+        8.449761606339433
+      ],
+      "E_mm": [
+        -45.48011667949389,
+        -123.67322858985102
+      ],
+      "wheel_position_change_mm": 6.249621630721315,
+      "effective_knee_lever_mm": 8.465563940678289,
+      "same_knee_torque_guide_force_ratio": 3.251200531795909,
+      "spring_seat_distance_mm": 48.33537966185466
+    },
+    {
+      "q_rad": 0.8099999999999999,
+      "B_thigh_mm": [
+        -5.08381890737352,
+        14.239126152230229
+      ],
+      "D_thigh_mm": [
+        64.8655535908844,
+        8.458445791637256
+      ],
+      "E_mm": [
+        -45.4495605965431,
+        -124.84213913960902
+      ],
+      "wheel_position_change_mm": 6.129723767144528,
+      "effective_knee_lever_mm": 8.461308958342716,
+      "same_knee_torque_guide_force_ratio": 3.2410973541787773,
+      "spring_seat_distance_mm": 48.75013758117003
+    },
+    {
+      "q_rad": 0.8214999999999999,
+      "B_thigh_mm": [
+        -5.247229085005782,
+        14.17972197158903
+      ],
+      "D_thigh_mm": [
+        64.70749243967985,
+        8.464136722896509
+      ],
+      "E_mm": [
+        -45.42623225157551,
+        -125.99385963456055
+      ],
+      "wheel_position_change_mm": 6.014396401494208,
+      "effective_knee_lever_mm": 8.454398422884537,
+      "same_knee_torque_guide_force_ratio": 3.231237019701589,
+      "spring_seat_distance_mm": 49.160057276356
+    },
+    {
+      "q_rad": 0.833,
+      "B_thigh_mm": [
+        -5.409945324239385,
+        14.118442543384017
+      ],
+      "D_thigh_mm": [
+        64.54997675801653,
+        8.466869260123108
+      ],
+      "E_mm": [
+        -45.409961212937304,
+        -127.12872999117785
+      ],
+      "wheel_position_change_mm": 5.903462605762444,
+      "effective_knee_lever_mm": 8.444860199681456,
+      "same_knee_torque_guide_force_ratio": 3.2216026212205144,
+      "spring_seat_distance_mm": 49.56518981641593
+    },
+    {
+      "q_rad": 0.8445,
+      "B_thigh_mm": [
+        -5.571946106088844,
+        14.055295971730253
+      ],
+      "D_thigh_mm": [
+        64.39303310647759,
+        8.46667699057451
+      ],
+      "E_mm": [
+        -45.40057354544322,
+        -128.24707391920163
+      ],
+      "wheel_position_change_mm": 5.796757100032561,
+      "effective_knee_lever_mm": 8.432721064865227,
+      "same_knee_torque_guide_force_ratio": 3.2121780084104152,
+      "spring_seat_distance_mm": 49.96558415765512
+    },
+    {
+      "q_rad": 0.856,
+      "B_thigh_mm": [
+        -5.733210006186878,
+        13.990290607669806
+      ],
+      "D_thigh_mm": [
+        64.23668769352145,
+        8.463592296404713
+      ],
+      "E_mm": [
+        -45.39789179222668,
+        -129.34920005261947
+      ],
+      "wheel_position_change_mm": 5.694125565373639,
+      "effective_knee_lever_mm": 8.418006759351758,
+      "same_knee_torque_guide_force_ratio": 3.202947703739149,
+      "spring_seat_distance_mm": 50.36128724056544
+    },
+    {
+      "q_rad": 0.8674999999999999,
+      "B_thigh_mm": [
+        -5.893715697617738,
+        13.923435048067326
+      ],
+      "D_thigh_mm": [
+        64.08096638781716,
+        8.457646415701053
+      ],
+      "E_mm": [
+        -45.40173493379118,
+        -130.43540300314055
+      ],
+      "wheel_position_change_mm": 5.595424024468552,
+      "effective_knee_lever_mm": 8.40074203702058,
+      "same_knee_torque_guide_force_ratio": 3.193896824041766,
+      "spring_seat_distance_mm": 50.75234408209748
+    },
+    {
+      "q_rad": 0.879,
+      "B_thigh_mm": [
+        -6.053441953737675,
+        13.854738134473129
+      ],
+      "D_thigh_mm": [
+        63.925894729384346,
+        8.448869497367784
+      ],
+      "E_mm": [
+        -45.4119183248561,
+        -131.50596434360682
+      ],
+      "wheel_position_change_mm": 5.500518284688853,
+      "effective_knee_lever_mm": 8.38095070741881,
+      "same_knee_torque_guide_force_ratio": 3.185011006849938,
+      "spring_seat_distance_mm": 51.13879786353154
+    },
+    {
+      "q_rad": 0.8905,
+      "B_thigh_mm": [
+        -6.212367650982113,
+        13.78420895195391
+      ],
+      "D_thigh_mm": [
+        63.77149793964035,
+        8.437290650251743
+      ],
+      "E_mm": [
+        -45.42825360935735,
+        -132.56115352803815
+      ],
+      "wheel_position_change_mm": 5.409283439079227,
+      "effective_knee_lever_mm": 8.358655673311333,
+      "same_knee_torque_guide_force_ratio": 3.176276340704471,
+      "spring_seat_distance_mm": 51.52069001415301
+    },
+    {
+      "q_rad": 0.902,
+      "B_thigh_mm": [
+        -6.370471771659227,
+        13.711856827891264
+      ],
+      "D_thigh_mm": [
+        63.617800930446165,
+        8.422937986850297
+      ],
+      "E_mm": [
+        -45.45054861368766,
+        -133.6012287543976
+      ],
+      "wheel_position_change_mm": 5.321603421354167,
+      "effective_knee_lever_mm": 8.333878963349042,
+      "same_knee_torque_guide_force_ratio": 3.167679298737057,
+      "spring_seat_distance_mm": 51.89806029094021
+    },
+    {
+      "q_rad": 0.9135,
+      "B_thigh_mm": [
+        -6.527733406729491,
+        13.637691330748146
+      ],
+      "D_thigh_mm": [
+        63.46482831223299,
+        8.405838661892098
+      ],
+      "E_mm": [
+        -45.47860721803514,
+        -134.62643777559998
+      ],
+      "wheel_position_change_mm": 5.237370611623567,
+      "effective_knee_lever_mm": 8.306641760081963,
+      "same_knee_torque_guide_force_ratio": 3.159206674853177,
+      "spring_seat_distance_mm": 52.27094685446587
+    },
+    {
+      "q_rad": 0.9249999999999999,
+      "B_thigh_mm": [
+        -6.684131758570883,
+        13.561722268803452
+      ],
+      "D_thigh_mm": [
+        63.31260440128169,
+        8.386018906034813
+      ],
+      "E_mm": [
+        -45.51222920543236,
+        -135.63701866381587
+      ],
+      "wheel_position_change_mm": 5.156485490122016,
+      "effective_knee_lever_mm": 8.27696442350158,
+      "same_knee_torque_guide_force_ratio": 3.150845521881825,
+      "spring_seat_distance_mm": 52.63938634121124
+    },
+    {
+      "q_rad": 0.9365,
+      "B_thigh_mm": [
+        -6.839646143729316,
+        13.483959688854902
+      ],
+      "D_thigh_mm": [
+        63.16115322621995,
+        8.363504054881016
+      ],
+      "E_mm": [
+        -45.55121008788928,
+        -136.6332005326989
+      ],
+      "wheel_position_change_mm": 5.078856336745188,
+      "effective_knee_lever_mm": 8.244866510256584,
+      "same_knee_torque_guide_force_ratio": 3.142583091080987,
+      "spring_seat_distance_mm": 53.00341393248456
+    },
+    {
+      "q_rad": 0.948,
+      "B_thigh_mm": [
+        -6.994255995654015,
+        13.40441387489036
+      ],
+      "D_thigh_mm": [
+        63.01049853379446,
+        8.338318573472304
+      ],
+      "E_mm": [
+        -45.59534090873983,
+        -137.61520422180251
+      ],
+      "wheel_position_change_mm": 5.004398974701631,
+      "effective_knee_lever_mm": 8.21036678864797,
+      "same_knee_torque_guide_force_ratio": 3.1344067724002773,
+      "spring_seat_distance_mm": 53.36306342013102
+    },
+    {
+      "q_rad": 0.9595,
+      "B_thigh_mm": [
+        -7.147940867417413,
+        13.323095346727776
+      ],
+      "D_thigh_mm": [
+        62.860663793968634,
+        8.310486076383299
+      ],
+      "E_mm": [
+        -45.64440802007636,
+        -138.58324294714023
+      ],
+      "wheel_position_change_mm": 4.933036557083654,
+      "effective_knee_lever_mm": 8.17348324947243,
+      "same_knee_torque_guide_force_ratio": 3.126304034904308,
+      "spring_seat_distance_mm": 53.71836726921489
+    },
+    {
+      "q_rad": 0.971,
+      "B_thigh_mm": [
+        -7.3006804344192044,
+        13.240014858623987
+      ],
+      "D_thigh_mm": [
+        62.711672204391135,
+        8.280029343498601
+      ],
+      "E_mm": [
+        -45.69819283388418,
+        -139.5375229215662
+      ],
+      "wheel_position_change_mm": 4.864699395652663,
+      "effective_knee_lever_mm": 8.134233112746111,
+      "same_knee_torque_guide_force_ratio": 3.1182623667522567,
+      "spring_seat_distance_mm": 54.069356677847345
+    },
+    {
+      "q_rad": 0.9824999999999999,
+      "B_thigh_mm": [
+        -7.452454497074281,
+        13.155183397852449
+      ],
+      "D_thigh_mm": [
+        62.563546694273825,
+        8.24697033151871
+      ],
+      "E_mm": [
+        -45.7564715451936,
+        -140.47824394843542
+      ],
+      "wheel_position_change_mm": 4.799324831621755,
+      "effective_knee_lever_mm": 8.092632830304316,
+      "same_knee_torque_guide_force_ratio": 3.110269214109967,
+      "spring_seat_distance_mm": 54.4160616343297
+    },
+    {
+      "q_rad": 0.994,
+      "B_thigh_mm": [
+        -7.603242983484063,
+        13.068612183250206
+      ],
+      "D_thigh_mm": [
+        62.41630992771342,
+        8.211330181203678
+      ],
+      "E_mm": [
+        -45.8190148252681,
+        -141.4055999918016
+      ],
+      "wheel_position_change_mm": 4.7368571487388085,
+      "effective_knee_lever_mm": 8.04869808423533,
+      "same_knee_torque_guide_force_ratio": 3.1023119183403276,
+      "spring_seat_distance_mm": 54.75851097177394
+    },
+    {
+      "q_rad": 1.0055,
+      "B_thigh_mm": [
+        -7.753025952090994,
+        12.980312663734216
+      ],
+      "D_thigh_mm": [
+        62.26998430648614,
+        8.173129220324732
+      ],
+      "E_mm": [
+        -45.88558748250742,
+        -142.31977972625901
+      ],
+      "wheel_position_change_mm": 4.677247529511656,
+      "effective_knee_lever_mm": 8.002443781068296,
+      "same_knee_torque_guide_force_ratio": 3.094377650774419,
+      "spring_seat_distance_mm": 55.09673242035779
+    },
+    {
+      "q_rad": 1.017,
+      "B_thigh_mm": [
+        -7.901783594315788,
+        12.890296516787238
+      ],
+      "D_thigh_mm": [
+        62.12459197233968,
+        8.132386962255378
+      ],
+      "E_mm": [
+        -45.955948088369205,
+        -143.22096706941414
+      ],
+      "wheel_position_change_mm": 4.62045405599247,
+      "effective_knee_lever_mm": 7.953884041594392,
+      "same_knee_torque_guide_force_ratio": 3.0864533443086675,
+      "spring_seat_distance_mm": 55.43075265736739
+    },
+    {
+      "q_rad": 1.0285,
+      "B_thigh_mm": [
+        -8.049496237177074,
+        12.798575646913505
+      ],
+      "D_thigh_mm": [
+        61.98015480880284,
+        8.089122100091775
+      ],
+      "E_mm": [
+        -46.029848565205455,
+        -144.10934169988192
+      ],
+      "wheel_position_change_mm": 4.5664417571768325,
+      "effective_knee_lever_mm": 7.903032186158027,
+      "same_knee_torque_guide_force_ratio": 3.0785256210000287,
+      "spring_seat_distance_mm": 55.760597355175356
+    },
+    {
+      "q_rad": 1.04,
+      "B_thigh_mm": [
+        -8.196144345893124,
+        12.705162184064378
+      ],
+      "D_thigh_mm": [
+        61.83669444252843,
+        8.043352496148628
+      ],
+      "E_mm": [
+        -46.10703373244205,
+        -144.98507956363898
+      ],
+      "wheel_position_change_mm": 4.515182705780732,
+      "effective_knee_lever_mm": 7.849900715208143,
+      "same_knee_torque_guide_force_ratio": 3.0705807147397297,
+      "spring_seat_distance_mm": 56.08629122729777
+    },
+    {
+      "q_rad": 1.0514999999999999,
+      "B_thigh_mm": [
+        -8.341708526465297,
+        12.610068482034167
+      ],
+      "D_thigh_mm": [
+        61.69423224418109,
+        7.9950951666293335
+      ],
+      "E_mm": [
+        -46.18724080700852,
+        -145.84835337154934
+      ],
+      "wheel_position_change_mm": 4.4666561679472885,
+      "effective_knee_lever_mm": 7.794501284849625,
+      "same_knee_torque_guide_force_ratio": 3.062604387973029,
+      "spring_seat_distance_mm": 56.4078580726727
+    },
+    {
+      "q_rad": 1.063,
+      "B_thigh_mm": [
+        -8.48616952824288,
+        12.513307116826365
+      ],
+      "D_thigh_mm": [
+        61.55278932887704,
+        7.94436626121767
+      ],
+      "E_mm": [
+        -46.27019885333158,
+        -146.69933309087756
+      ],
+      "wheel_position_change_mm": 4.420848810353476,
+      "effective_knee_lever_mm": 7.736844677079002,
+      "same_knee_torque_guide_force_ratio": 3.0545818412942105,
+      "spring_seat_distance_mm": 56.72532081829824
+    },
+    {
+      "q_rad": 1.0745,
+      "B_thigh_mm": [
+        -8.629508246468934,
+        12.414890884990491
+      ],
+      "D_thigh_mm": [
+        61.41238655617845,
+        7.8911810372808056
+      ],
+      "E_mm": [
+        -46.355628177525716,
+        -147.53818643364744
+      ],
+      "wheel_position_change_mm": 4.377754970233707,
+      "effective_knee_lever_mm": 7.676940764326519,
+      "same_knee_torque_guide_force_ratio": 3.046497614577608,
+      "spring_seat_distance_mm": 57.03870156036811
+    },
+    {
+      "q_rad": 1.0859999999999999,
+      "B_thigh_mm": [
+        -8.771705724806887,
+        12.31483280192977
+      ],
+      "D_thigh_mm": [
+        61.2730445296403,
+        7.835553828310477
+      ],
+      "E_mm": [
+        -46.443239659643325,
+        -148.36507934478317
+      ],
+      "wheel_position_change_mm": 4.337376995070483,
+      "effective_knee_lever_mm": 7.614798467857425,
+      "same_knee_torque_guide_force_ratio": 3.0383354781006155,
+      "spring_seat_distance_mm": 57.34802160404249
+    },
+    {
+      "q_rad": 1.0975,
+      "B_thigh_mm": [
+        -8.912743157847489,
+        12.213146100179845
+      ],
+      "D_thigh_mm": [
+        61.134783595902896,
+        7.7774980061564065
+      ],
+      "E_mm": [
+        -46.53273401694336,
+        -149.18017649308405
+      ],
+      "wheel_position_change_mm": 4.299725660150931,
+      "effective_knee_lever_mm": 7.550425709505798,
+      "same_knee_torque_guide_force_ratio": 3.0300783118660757,
+      "spring_seat_distance_mm": 57.653301501992125
+    },
+    {
+      "q_rad": 1.109,
+      "B_thigh_mm": [
+        -9.052601893595774,
+        12.109844227658815
+      ],
+      "D_thigh_mm": [
+        60.99762384331728,
+        7.717025936525836
+      ],
+      "E_mm": [
+        -46.62380099011325,
+        -149.98364176824234
+      ],
+      "wheel_position_change_mm": 4.264820673912933,
+      "effective_knee_lever_mm": 7.483829356124849,
+      "same_knee_torque_guide_force_ratio": 3.021707971029111,
+      "spring_seat_distance_mm": 57.95456109185597
+    },
+    {
+      "q_rad": 1.1204999999999998,
+      "B_thigh_mm": [
+        -9.191263435937786,
+        12.004940845888765
+      ],
+      "D_thigh_mm": [
+        60.86158510008563,
+        7.654148927128606
+      ],
+      "E_mm": [
+        -46.71611844316536,
+        -150.7756387873254
+      ],
+      "wheel_position_change_mm": 4.232691283062273,
+      "effective_knee_lever_mm": 7.415015156033418,
+      "same_knee_torque_guide_force_ratio": 3.0132051349657383,
+      "spring_seat_distance_mm": 58.251819532757054
+    },
+    {
+      "q_rad": 1.1320000000000001,
+      "B_thigh_mm": [
+        -9.328709447086657,
+        11.898449828189026
+      ],
+      "D_thigh_mm": [
+        60.726686931891216,
+        7.588877167741206
+      ],
+      "E_mm": [
+        -46.80935136634131,
+        -151.5563314144021
+      ],
+      "wheel_position_change_mm": 4.203376991941096,
+      "effective_knee_lever_mm": 7.343987666619838,
+      "same_knee_torque_guide_force_ratio": 3.0045491370711614,
+      "spring_seat_distance_mm": 58.54509534102592
+    },
+    {
+      "q_rad": 1.1435,
+      "B_thigh_mm": [
+        -9.464921750007727,
+        11.790385257841491
+      ],
+      "D_thigh_mm": [
+        60.5929486389858,
+        7.521219661337774
+      ],
+      "E_mm": [
+        -46.903150769706194,
+        -152.32588429731658
+      ],
+      "wheel_position_change_mm": 4.176928413632023,
+      "effective_knee_lever_mm": 7.270750172124416,
+      "same_knee_torque_guide_force_ratio": 2.9957177718265373,
+      "spring_seat_distance_mm": 58.83440642528842
+    },
+    {
+      "q_rad": 1.1549999999999998,
+      "B_thigh_mm": [
+        -9.599882330822473,
+        11.680761426228077
+      ],
+      "D_thigh_mm": [
+        60.46038925269323,
+        7.45118414529211
+      ],
+      "E_mm": [
+        -46.99715245319909,
+        -153.08446342601746
+      ],
+      "wheel_position_change_mm": 4.1534082739783225,
+      "effective_knee_lever_mm": 7.195304590460658,
+      "same_knee_torque_guide_force_ratio": 2.986687074997002,
+      "spring_seat_distance_mm": 59.11977012108573
+    },
+    {
+      "q_rad": 1.1665,
+      "B_thigh_mm": [
+        -9.73357334119079,
+        11.569592830940739
+      ],
+      "D_thigh_mm": [
+        60.329027531278726,
+        7.3787770014843765
+      ],
+      "E_mm": [
+        -47.09097563663019,
+        -153.83223671732128
+      ],
+      "wheel_position_change_mm": 4.132892594222272,
+      "effective_knee_lever_mm": 7.1176513677443065,
+      "same_knee_torque_guide_force_ratio": 2.9774310719910875,
+      "spring_seat_distance_mm": 59.40120322520511
+    },
+    {
+      "q_rad": 1.178,
+      "B_thigh_mm": [
+        -9.865977100671396,
+        11.456894173864178
+      ],
+      "D_thigh_mm": [
+        60.198881955121145,
+        7.304003153946603
+      ],
+      "E_mm": [
+        -47.18422143042608,
+        -154.56937463158363
+      ],
+      "wheel_position_change_mm": 4.115472083555498,
+      "effective_knee_lever_mm": 7.037789358975173,
+      "same_knee_torque_guide_force_ratio": 2.967921488378773,
+      "spring_seat_distance_mm": 59.67872202991837
+    },
+    {
+      "q_rad": 1.1895,
+      "B_thigh_mm": [
+        -9.997076099060095,
+        11.342680359231531
+      ],
+      "D_thigh_mm": [
+        60.06997072111257,
+        7.226865952444225
+      ],
+      "E_mm": [
+        -47.27647112473298,
+        -155.29605082744678
+      ],
+      "wheel_position_change_mm": 4.101253779830345,
+      "effective_knee_lever_mm": 6.9557156930507436,
+      "same_knee_torque_guide_force_ratio": 2.9581274152797756,
+      "spring_seat_distance_mm": 59.952342357343774
+    },
+    {
+      "q_rad": 1.201,
+      "B_thigh_mm": [
+        -10.126852998705417,
+        11.226966491653318
+      ],
+      "D_thigh_mm": [
+        59.94231173619315,
+        7.14736704010949
+      ],
+      "E_mm": [
+        -47.36728427066711,
+        -156.012442861679
+      ],
+      "wheel_position_change_mm": 4.090362985386809,
+      "effective_knee_lever_mm": 6.871425619973742,
+      "same_knee_torque_guide_force_ratio": 2.9480149207236,
+      "spring_seat_distance_mm": 60.222079594172655
+    },
+    {
+      "q_rad": 1.2125,
+      "B_thigh_mm": [
+        -10.255290636801533,
+        11.109767874119878
+      ],
+      "D_thigh_mm": [
+        59.8159226099101,
+        7.0655062029057945
+      ],
+      "E_mm": [
+        -47.456196522930995,
+        -156.71873294214407
+      ],
+      "wheel_position_change_mm": 4.082945555893454,
+      "effective_knee_lever_mm": 6.784912337737072,
+      "same_knee_torque_guide_force_ratio": 2.9375465960561478,
+      "spring_seat_distance_mm": 60.48794872703387
+    },
+    {
+      "q_rad": 1.224,
+      "B_thigh_mm": [
+        -10.38237202765801,
+        10.991100005977556
+      ],
+      "D_thigh_mm": [
+        59.690820645867035,
+        6.9812811982976335
+      ],
+      "E_mm": [
+        -47.54271720750647,
+        -157.41510874316202
+      ],
+      "wheel_position_change_mm": 4.07917061400512,
+      "effective_knee_lever_mm": 6.696166795914327,
+      "same_knee_torque_guide_force_ratio": 2.926681023899652,
+      "spring_seat_distance_mm": 60.74996437880719
+    },
+    {
+      "q_rad": 1.2355,
+      "B_thigh_mm": [
+        -10.508080364946125,
+        10.870978580878958
+      ],
+      "D_thigh_mm": [
+        59.567022831900914,
+        6.894687560012255
+      ],
+      "E_mm": [
+        -47.62632657146659,
+        -158.1017642940147
+      ],
+      "wheel_position_change_mm": 4.079233777353975,
+      "effective_knee_lever_mm": 6.605177472433582,
+      "same_knee_torque_guide_force_ratio": 2.915372150899259,
+      "spring_seat_distance_mm": 61.00814084624526
+    },
+    {
+      "q_rad": 1.2469999999999999,
+      "B_thigh_mm": [
+        -10.632399023921487,
+        10.749419484707477
+      ],
+      "D_thigh_mm": [
+        59.444545828791284,
+        6.8057183751859895
+      ],
+      "E_mm": [
+        -47.70647266384587,
+        -158.77890095315337
+      ],
+      "wheel_position_change_mm": 4.08336101319654,
+      "effective_knee_lever_mm": 6.511930119344245,
+      "same_knee_torque_guide_force_ratio": 2.9035685442865917,
+      "spring_seat_distance_mm": 61.262492139323804
+    },
+    {
+      "q_rad": 1.2585,
+      "B_thigh_mm": [
+        -10.755311563622644,
+        10.62643879347641
+      ],
+      "D_thigh_mm": [
+        59.323405957263596,
+        6.71436402946447
+      ],
+      "E_mm": [
+        -47.78256778660344,
+        -159.44672848285518
+      ],
+      "wheel_position_change_mm": 4.0918132615840666,
+      "effective_knee_lever_mm": 6.416407472571118,
+      "same_knee_torque_guide_force_ratio": 2.8912125058555933,
+      "spring_seat_distance_mm": 61.51303202281291
+    },
+    {
+      "q_rad": 1.27,
+      "B_thigh_mm": [
+        -10.876801729045365,
+        10.502052771202926
+      ],
+      "D_thigh_mm": [
+        59.203619182997876,
+        6.620611914737395
+      ],
+      "E_mm": [
+        -47.85398444254251,
+        -160.1054662417659
+      ],
+      "wheel_position_change_mm": 4.1048920075389255,
+      "effective_knee_lever_mm": 6.318588919648734,
+      "same_knee_torque_guide_force_ratio": 2.8782390098612027,
+      "spring_seat_distance_mm": 61.759774060654586
+    },
+    {
+      "q_rad": 1.2814999999999999,
+      "B_thigh_mm": [
+        -10.996853453292346,
+        10.376277867757182
+      ],
+      "D_thigh_mm": [
+        59.08520109928951,
+        6.524446093091099
+      ],
+      "E_mm": [
+        -47.92005069199946,
+        -160.75534451606646
+      ],
+      "wheel_position_change_mm": 4.122946033605078,
+      "effective_knee_lever_mm": 6.2184501181922,
+      "same_knee_torque_guide_force_ratio": 2.8645744220403575,
+      "spring_seat_distance_mm": 62.002731663848806
+    },
+    {
+      "q_rad": 1.293,
+      "B_thigh_mm": [
+        -11.115450859698031,
+        10.249130716686837
+      ],
+      "D_thigh_mm": [
+        58.968166906929795,
+        6.425846909199544
+      ],
+      "E_mm": [
+        -47.98004481141629,
+        -161.3966060140686
+      ],
+      "wheel_position_change_mm": 4.146379651880084,
+      "effective_knee_lever_mm": 6.115962556325272,
+      "same_knee_torque_guide_force_ratio": 2.85013494460563,
+      "spring_seat_distance_mm": 62.24191814269361
+    },
+    {
+      "q_rad": 1.3045,
+      "B_thigh_mm": [
+        -11.232578263928277,
+        10.120628133017307
+      ],
+      "D_thigh_mm": [
+        58.85253139077298,
+        6.324790541669637
+      ],
+      "E_mm": [
+        -48.03318912349313,
+        -162.02950755411405
+      ],
+      "wheel_position_change_mm": 4.175662805667462,
+      "effective_knee_lever_mm": 6.011093044365166,
+      "same_knee_torque_guide_force_ratio": 2.834824715526507,
+      "spring_seat_distance_mm": 62.47734676440984
+    },
+    {
+      "q_rad": 1.3159999999999998,
+      "B_thigh_mm": [
+        -11.348220176054582,
+        9.99078711102799
+      ],
+      "D_thigh_mm": [
+        58.73830889232971,
+        6.221248481711575
+      ],
+      "E_mm": [
+        -48.078642839131604,
+        -162.65432198197664
+      ],
+      "wheel_position_change_mm": 4.211343554580504,
+      "effective_knee_lever_mm": 5.903803124645974,
+      "same_knee_torque_guide_force_ratio": 2.8185334680427823,
+      "spring_seat_distance_mm": 62.70903081741482
+    },
+    {
+      "q_rad": 1.3275000000000001,
+      "B_thigh_mm": [
+        -11.46236130260263,
+        9.859624822004795
+      ],
+      "D_thigh_mm": [
+        58.62551327756447,
+        6.115186924782671
+      ],
+      "E_mm": [
+        -48.11549371393788,
+        -163.2713403619319
+      ],
+      "wheel_position_change_mm": 4.254063626967111,
+      "effective_knee_lever_mm": 5.7940483832949585,
+      "same_knee_torque_guide_force_ratio": 2.8011336257500132,
+      "spring_seat_distance_mm": 62.9369836838078
+    },
+    {
+      "q_rad": 1.339,
+      "B_thigh_mm": [
+        -11.57498654857478,
+        9.727158611969285
+      ],
+      "D_thigh_mm": [
+        58.51415789886508,
+        6.006566057375643
+      ],
+      "E_mm": [
+        -48.142748274189444,
+        -163.88087449576244
+      ],
+      "wheel_position_change_mm": 4.304577960246543,
+      "effective_knee_lever_mm": 5.681777643857,
+      "same_knee_torque_guide_force_ratio": 2.7824766662199427,
+      "spring_seat_distance_mm": 63.16121892201662
+    },
+    {
+      "q_rad": 1.3504999999999998,
+      "B_thigh_mm": [
+        -11.68608101944641,
+        9.593405999384665
+      ],
+      "D_thigh_mm": [
+        58.40425554988207,
+        5.895339216639867
+      ],
+      "E_mm": [
+        -48.15932030544502,
+        -164.48325983687135
+      ],
+      "wheel_position_change_mm": 4.363779483882955,
+      "effective_knee_lever_mm": 5.566932017611679,
+      "same_knee_torque_guide_force_ratio": 2.7623885266673924,
+      "spring_seat_distance_mm": 63.38175036205633
+    },
+    {
+      "q_rad": 1.362,
+      "B_thigh_mm": [
+        -11.795630023135672,
+        9.458384672838998
+      ],
+      "D_thigh_mm": [
+        58.295818411580036,
+        5.7814518946966675
+      ],
+      "E_mm": [
+        -48.164017216674566,
+        -165.07885888331623
+      ],
+      "wheel_position_change_mm": 4.4327308784241035,
+      "effective_knee_lever_mm": 5.449443778861045,
+      "same_knee_torque_guide_force_ratio": 2.7406637405722263,
+      "spring_seat_distance_mm": 63.59859221650737
+    },
+    {
+      "q_rad": 1.3735,
+      "B_thigh_mm": [
+        -11.903619071946487,
+        9.322112488705937
+      ],
+      "D_thigh_mm": [
+        58.18885798737394,
+        5.664840551861738
+      ],
+      "E_mm": [
+        -48.15552378734694,
+        -165.66806515522572
+      ],
+      "wheel_position_change_mm": 4.5127057413382685,
+      "effective_knee_lever_mm": 5.329235024849261,
+      "same_knee_torque_guide_force_ratio": 2.717057871869003,
+      "spring_seat_distance_mm": 63.81175921119244
+    },
+    {
+      "q_rad": 1.3849999999999998,
+      "B_thigh_mm": [
+        -12.010033884484544,
+        9.184607468783215
+      ],
+      "D_thigh_mm": [
+        58.083385024597476,
+        5.545431192847639
+      ],
+      "E_mm": [
+        -48.13238266503922,
+        -166.25130789048717
+      ],
+      "wheel_position_change_mm": 4.605242624606244,
+      "effective_knee_lever_mm": 5.206216068550959,
+      "same_knee_torque_guide_force_ratio": 2.6912776334698996,
+      "spring_seat_distance_mm": 64.02126674069069
+    },
+    {
+      "q_rad": 1.3965,
+      "B_thigh_mm": [
+        -12.114860387545995,
+        9.045887797909293
+      ],
+      "D_thigh_mm": [
+        57.97940941870358,
+        5.423137646425509
+      ],
+      "E_mm": [
+        -48.09297079351127,
+        -166.82905763037752
+      ],
+      "wheel_position_change_mm": 4.712216974159667,
+      "effective_knee_lever_mm": 5.080283497251088,
+      "same_knee_torque_guide_force_ratio": 2.6629678073125276,
+      "spring_seat_distance_mm": 64.22713105540119
+    },
+    {
+      "q_rad": 1.408,
+      "B_thigh_mm": [
+        -12.218084717978583,
+        8.905971821558474
+      ],
+      "D_thigh_mm": [
+        57.87694009544277,
+        5.297859470586928
+      ],
+      "E_mm": [
+        -48.03547069658748,
+        -167.4018329175383
+      ],
+      "wheel_position_change_mm": 4.83593842356865,
+      "effective_knee_lever_mm": 4.951317809068908,
+      "same_knee_torque_guide_force_ratio": 2.631693670385878,
+      "spring_seat_distance_mm": 64.42936948901017
+    },
+    {
+      "q_rad": 1.4194999999999998,
+      "B_thigh_mm": [
+        -12.319693224515062,
+        8.764878043414697
+      ],
+      "D_thigh_mm": [
+        57.775984864664146,
+        5.169479379907582
+      ],
+      "E_mm": [
+        -47.957835193106675,
+        -167.9702083977667
+      ],
+      "wheel_position_change_mm": 4.979284738831504,
+      "effective_knee_lever_mm": 4.819180511037235,
+      "same_knee_torque_guide_force_ratio": 2.596916984004484,
+      "spring_seat_distance_mm": 64.62800073819164
+    },
+    {
+      "q_rad": 1.431,
+      "B_thigh_mm": [
+        -12.41967246957854,
+        8.622625122924472
+      ],
+      "D_thigh_mm": [
+        57.67655023714067,
+        5.037860056506421
+      ],
+      "E_mm": [
+        -47.85774363015222,
+        -168.53482471235696
+      ],
+      "wheel_position_change_mm": 5.145889989182576,
+      "effective_knee_lever_mm": 4.683710522580922,
+      "same_knee_torque_guide_force_ratio": 2.5579625610301653,
+      "spring_seat_distance_mm": 64.8230452105378
+    },
+    {
+      "q_rad": 1.4425,
+      "B_thigh_mm": [
+        -12.518009231059567,
+        8.47923187282921
+      ],
+      "D_thigh_mm": [
+        57.57864119261864,
+        4.902840156023097
+      ],
+      "E_mm": [
+        -47.73254703070347,
+        -169.09640070121776
+      ],
+      "wheel_position_change_mm": 5.340415110170582,
+      "effective_knee_lever_mm": 4.544719671961694,
+      "same_knee_torque_guide_force_ratio": 2.513970693579037,
+      "spring_seat_distance_mm": 65.01452546266755
+    },
+    {
+      "q_rad": 1.4540000000000002,
+      "B_thigh_mm": [
+        -12.614690504064777,
+        8.334717256677232
+      ],
+      "D_thigh_mm": [
+        57.4822608826548,
+        4.764229248118712
+      ],
+      "E_mm": [
+        -47.57919855677747,
+        -169.65574862710633
+      ],
+      "wheel_position_change_mm": 5.568947577947112,
+      "effective_knee_lever_mm": 4.401986992269915,
+      "same_knee_torque_guide_force_ratio": 2.4638277412843848,
+      "spring_seat_distance_mm": 65.2024667590814
+    },
+    {
+      "q_rad": 1.4655,
+      "B_thigh_mm": [
+        -12.709703502636717,
+        8.189100386315904
+      ],
+      "D_thigh_mm": [
+        57.38741024495187,
+        4.621801325539802
+      ],
+      "E_mm": [
+        -47.3941642291699,
+        -170.21379340721808
+      ],
+      "wheel_position_change_mm": 5.839610872014212,
+      "effective_knee_lever_mm": 4.25525140479013,
+      "same_knee_torque_guide_force_ratio": 2.4060618254925012,
+      "spring_seat_distance_mm": 65.38689779507212
+    },
+    {
+      "q_rad": 1.4769999999999999,
+      "B_thigh_mm": [
+        -12.80303566144481,
+        8.04240051936409
+      ],
+      "D_thigh_mm": [
+        57.294087495575184,
+        4.475286357894003
+      ],
+      "E_mm": [
+        -47.17330665816204,
+        -170.7715972469807
+      ],
+      "wheel_position_change_mm": 6.163529888063057,
+      "effective_knee_lever_mm": 4.104202199797665,
+      "same_knee_torque_guide_force_ratio": 2.3386804696757735,
+      "spring_seat_distance_mm": 65.56785164621189
+    },
+    {
+      "q_rad": 1.4885000000000002,
+      "B_thigh_mm": [
+        -12.894674637447089,
+        7.894637056665373
+      ],
+      "D_thigh_mm": [
+        57.202287449489724,
+        4.324359124356644
+      ],
+      "E_mm": [
+        -46.911731187304895,
+        -171.33039169019204
+      ],
+      "wheel_position_change_mm": 6.556432957355513,
+      "effective_knee_lever_mm": 3.9484664524808446,
+      "same_knee_torque_guide_force_ratio": 2.2589067664103055,
+      "spring_seat_distance_mm": 65.74536703659543
+    },
+    {
+      "q_rad": 1.5,
+      "B_thigh_mm": [
+        -12.984608311522535,
+        7.745829539722342
+      ],
+      "D_thigh_mm": [
+        57.112000594607714,
+        4.168624179052027
+      ],
+      "E_mm": [
+        -46.60357857791028,
+        -171.89162006273665
+      ],
+      "wheel_position_change_mm": 7.0414697601122285,
+      "effective_knee_lever_mm": 3.7875920833869032,
+      "same_knee_torque_guide_force_ratio": 2.1627268531985484,
+      "spring_seat_distance_mm": 65.91949006499813
+    }
+  ],
+  "adoption_status": "Rejected after whole-guide check found hip-shaft interference; see internal-knee.md for the revised geometry."
+}

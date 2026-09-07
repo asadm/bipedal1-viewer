@@ -1,0 +1,14 @@
+{
+  "replayed_frame_checks": 80,
+  "maximum_body_position_error_m": 0.0,
+  "maximum_spring_compression_error_m": 0.0,
+  "flight_frames": 50,
+  "fitted_vertical_COM_acceleration_m_s2": -9.812407139329457,
+  "ballistic_fit_max_error_mm": 0.024746242276052488,
+  "plant_mass_kg": 2.3909267476869496,
+  "geometry_matches_current_CAD": true,
+  "motor_matches_current_CAD": true,
+  "sampled_actuator_controls_within_XML_ranges": true,
+  "current_CAD_sha256": "0b70c01c786fe3acdcb8384d41b841f2465246ff0c3340f9bd011ca2caf526b8",
+  "passed": true
+}

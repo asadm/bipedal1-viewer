@@ -1,0 +1,34 @@
+{
+  "kinematic_samples_per_side": 4331,
+  "shock_length_mm": [
+    56.971952924668464,
+    69.01497164255771
+  ],
+  "shock_length_limits_mm": [
+    55.2,
+    70.0
+  ],
+  "motion_ratio": [
+    0.3980302740664854,
+    0.40439593094276916
+  ],
+  "axle_x_excursion_mm": 8.667504192891997,
+  "yoke_travel_mm": 13.977538287600055,
+  "height_force_static_N": 39.36853259251623,
+  "screw_torque_static_Nm": 0.020885655214577824,
+  "normal_pose_all_intersections_mm3": [
+    [
+      "left_motor_shaft_boss",
+      "left_wheel_shaft",
+      31.416
+    ],
+    [
+      "right_motor_shaft_boss",
+      "right_wheel_shaft",
+      31.416
+    ]
+  ],
+  "exact_CAD_pose_count": 27,
+  "unintended_sweep_intersections": [],
+  "audit_scope": "27 exact poses plus 4331 kinematic samples per side; not continuous CAD collision certification; fasteners and wires incomplete"
+}

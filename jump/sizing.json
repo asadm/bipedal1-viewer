@@ -1,0 +1,151 @@
+{
+  "status": "Sizing assumptions, not achieved performance or released hardware",
+  "cad_revision": "concept-01",
+  "mass_kg": 2.0,
+  "assumptions": [
+    "All-up mass treated as one vertically translating point mass; constant net acceleration during push",
+    "Ballistic rise measured above takeoff COM; not wheel clearance or an obstacle rating",
+    "No drivetrain loss, damping, rotor inertia, leg dynamics, body pitch or tire slip",
+    "Arm torque and speed are equivalent vertical-load values at the arms, before motor/spring allocation",
+    "50 mm push is an exploration outside the current 35 mm CAD height range",
+    "Landing is a point-mass fall followed by constant deceleration; real peaks and one-wheel loads differ"
+  ],
+  "launch_cases": [
+    {
+      "ballistic_com_rise_mm": 50.0,
+      "ground_push_stroke_mm": 35.0,
+      "takeoff_speed_m_s": 0.9904544411531507,
+      "push_duration_ms": 70.67462882846132,
+      "net_acceleration_m_s2": 14.014285714285714,
+      "combined_vertical_force_N": 47.64857142857143,
+      "mechanical_work_J": 1.6677000000000002,
+      "average_mechanical_power_W": 23.59686959301585,
+      "peak_mechanical_power_W": 47.1937391860317,
+      "combined_equivalent_arm_torque_at_takeoff_Nm": 3.3692627970994438,
+      "equivalent_arm_speed_at_takeoff_rpm": 133.7583440670675,
+      "max_combined_equivalent_arm_torque_during_push_Nm": 3.573642857142857
+    },
+    {
+      "ballistic_com_rise_mm": 100.0,
+      "ground_push_stroke_mm": 35.0,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "push_duration_ms": 49.97450930244726,
+      "net_acceleration_m_s2": 28.02857142857143,
+      "combined_vertical_force_N": 75.67714285714285,
+      "mechanical_work_J": 2.6487000000000003,
+      "average_mechanical_power_W": 53.00102065975249,
+      "peak_mechanical_power_W": 106.00204131950498,
+      "combined_equivalent_arm_torque_at_takeoff_Nm": 5.351182089510881,
+      "equivalent_arm_speed_at_takeoff_rpm": 189.16286426021364,
+      "max_combined_equivalent_arm_torque_during_push_Nm": 5.6757857142857135
+    },
+    {
+      "ballistic_com_rise_mm": 200.0,
+      "ground_push_stroke_mm": 35.0,
+      "takeoff_speed_m_s": 1.9809088823063015,
+      "push_duration_ms": 35.33731441423066,
+      "net_acceleration_m_s2": 56.05714285714286,
+      "combined_vertical_force_N": 131.7342857142857,
+      "mechanical_work_J": 4.6107000000000005,
+      "average_mechanical_power_W": 130.47680833785233,
+      "peak_mechanical_power_W": 260.95361667570467,
+      "combined_equivalent_arm_torque_at_takeoff_Nm": 9.315020674333756,
+      "equivalent_arm_speed_at_takeoff_rpm": 267.516688134135,
+      "max_combined_equivalent_arm_torque_during_push_Nm": 9.880071428571428
+    },
+    {
+      "ballistic_com_rise_mm": 50.0,
+      "ground_push_stroke_mm": 50.0,
+      "takeoff_speed_m_s": 0.9904544411531507,
+      "push_duration_ms": 100.96375546923045,
+      "net_acceleration_m_s2": 9.81,
+      "combined_vertical_force_N": 39.24,
+      "mechanical_work_J": 1.9620000000000002,
+      "average_mechanical_power_W": 19.43271613542482,
+      "peak_mechanical_power_W": 38.86543227084964,
+      "combined_equivalent_arm_torque_at_takeoff_Nm": 2.489498913436196,
+      "equivalent_arm_speed_at_takeoff_rpm": 149.08122179746886,
+      "max_combined_equivalent_arm_torque_during_push_Nm": 2.943
+    },
+    {
+      "ballistic_com_rise_mm": 100.0,
+      "ground_push_stroke_mm": 50.0,
+      "takeoff_speed_m_s": 1.4007141035914503,
+      "push_duration_ms": 71.39215614635322,
+      "net_acceleration_m_s2": 19.62,
+      "combined_vertical_force_N": 58.86,
+      "mechanical_work_J": 2.943,
+      "average_mechanical_power_W": 41.22301606869638,
+      "peak_mechanical_power_W": 82.44603213739276,
+      "combined_equivalent_arm_torque_at_takeoff_Nm": 3.7342483701542935,
+      "equivalent_arm_speed_at_takeoff_rpm": 210.8326857611319,
+      "max_combined_equivalent_arm_torque_during_push_Nm": 4.414499999999999
+    },
+    {
+      "ballistic_com_rise_mm": 200.0,
+      "ground_push_stroke_mm": 50.0,
+      "takeoff_speed_m_s": 1.9809088823063015,
+      "push_duration_ms": 50.481877734615225,
+      "net_acceleration_m_s2": 39.24,
+      "combined_vertical_force_N": 98.10000000000001,
+      "mechanical_work_J": 4.905000000000001,
+      "average_mechanical_power_W": 97.1635806771241,
+      "peak_mechanical_power_W": 194.3271613542482,
+      "combined_equivalent_arm_torque_at_takeoff_Nm": 6.22374728359049,
+      "equivalent_arm_speed_at_takeoff_rpm": 298.1624435949377,
+      "max_combined_equivalent_arm_torque_during_push_Nm": 7.3575
+    }
+  ],
+  "landing_cases": [
+    {
+      "fall_of_com_before_contact_mm": 50,
+      "deceleration_stroke_mm": 20,
+      "average_combined_ground_force_N": 68.67,
+      "average_ground_force_body_weights": 3.5,
+      "energy_to_absorb_J": 1.3734000000000002
+    },
+    {
+      "fall_of_com_before_contact_mm": 50,
+      "deceleration_stroke_mm": 40,
+      "average_combined_ground_force_N": 44.145,
+      "average_ground_force_body_weights": 2.25,
+      "energy_to_absorb_J": 1.7658000000000003
+    },
+    {
+      "fall_of_com_before_contact_mm": 100,
+      "deceleration_stroke_mm": 20,
+      "average_combined_ground_force_N": 117.72,
+      "average_ground_force_body_weights": 6.0,
+      "energy_to_absorb_J": 2.3544
+    },
+    {
+      "fall_of_com_before_contact_mm": 100,
+      "deceleration_stroke_mm": 40,
+      "average_combined_ground_force_N": 68.67,
+      "average_ground_force_body_weights": 3.5,
+      "energy_to_absorb_J": 2.7468000000000004
+    },
+    {
+      "fall_of_com_before_contact_mm": 200,
+      "deceleration_stroke_mm": 20,
+      "average_combined_ground_force_N": 215.82000000000002,
+      "average_ground_force_body_weights": 11.0,
+      "energy_to_absorb_J": 4.316400000000001
+    },
+    {
+      "fall_of_com_before_contact_mm": 200,
+      "deceleration_stroke_mm": 40,
+      "average_combined_ground_force_N": 117.72,
+      "average_ground_force_body_weights": 6.0,
+      "energy_to_absorb_J": 4.7088
+    }
+  ],
+  "current_spring_screen": {
+    "assumed_constant_motion_ratio": 0.4,
+    "assumed_free_eye_length_mm": 69.00408163265305,
+    "force_per_shock_N": 75.67714285714285,
+    "required_eye_length_mm": 53.559766763848394,
+    "candidate_minimum_eye_length_mm": 55.2,
+    "status": "Screening only: current ride springs cannot be carried over without redesign"
+  }
+}

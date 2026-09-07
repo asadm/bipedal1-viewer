@@ -1,0 +1,32 @@
+{
+  "jump_clearance": "121.8 mm",
+  "validation": "20/21 dynamics cases pass excluding the body-level requirement. This replay jumps, lands and recovers. Full acceptance fails; the body settles at -8.6°. See the report for structural and sealing failures.",
+  "settled_attitude": "-8.6° / -0.0°",
+  "short_launch_nominal": {
+    "clearance": "43.3 mm",
+    "note": "Shorter launch: nominal and 5 ms delayed/noisy follow-up cases pass the dynamics checks excluding body level. Only these two cases were tested with this trajectory. The full uncertainty campaign has not been repeated; hardware acceptance still fails."
+  },
+  "short_launch_delayed": {
+    "clearance": "50.6 mm",
+    "note": "Shorter launch: nominal and 5 ms delayed/noisy follow-up cases pass the dynamics checks excluding body level. Only these two cases were tested with this trajectory. The full uncertainty campaign has not been repeated; hardware acceptance still fails."
+  },
+  "state_delay_5ms_noise_0_2deg": {
+    "clearance": "123.8 mm",
+    "note": "20/21 dynamics cases pass excluding the body-level requirement. This replay has dynamics failures. Full acceptance fails; the body settles at -8.6°. See the report for structural and sealing failures."
+  },
+  "driving": [
+    {
+      "case": "target_20kmh",
+      "speed": "5.542 m/s · 19.95 km/h",
+      "note": "Driving checks pass for this assumed flat-ground model. Strength, sealing and hardware speed remain unqualified."
+    },
+    {
+      "case": "resistance",
+      "speed": "1.964 m/s · 7.07 km/h",
+      "note": "Driving checks fail for this assumed flat-ground model. Strength, sealing and hardware speed remain unqualified."
+    }
+  ],
+  "legacy_views": "pass",
+  "runtime_errors": 0,
+  "report_http_status": 200
+}

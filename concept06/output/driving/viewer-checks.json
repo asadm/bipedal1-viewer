@@ -1,0 +1,30 @@
+{
+  "driving": [
+    {
+      "case": "cruise",
+      "result": "0.794",
+      "final_speed": "0.004 m/s · 0.01 km/h",
+      "validation": "This case passes. Failed checks: none. The sweep includes deliberately unattainable commands. These are model results, not hardware speed ratings."
+    },
+    {
+      "case": "limit",
+      "result": "1.042",
+      "final_speed": "0.004 m/s · 0.01 km/h",
+      "validation": "This case passes. Failed checks: none. The sweep includes deliberately unattainable commands. These are model results, not hardware speed ratings."
+    },
+    {
+      "case": "overlimit",
+      "result": "—",
+      "final_speed": "1.673 m/s · 6.02 km/h",
+      "validation": "This case fails. Failed checks: completed, cruise tracking, lean under 15deg, stops. The sweep includes deliberately unattainable commands. These are model results, not hardware speed ratings."
+    },
+    {
+      "case": "resistance",
+      "result": "0.762",
+      "final_speed": "0.029 m/s · 0.10 km/h",
+      "validation": "This case fails. Failed checks: cruise tracking. The sweep includes deliberately unattainable commands. These are model results, not hardware speed ratings."
+    }
+  ],
+  "existing_pose_and_jump": "pass",
+  "runtime_errors": 0
+}

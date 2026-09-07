@@ -1,0 +1,8 @@
+{
+  "pose_pairs": 121,
+  "max_wheel_error_m": 5.551115123125783e-17,
+  "max_spring_error_m": 4.163336342344337e-17,
+  "max_closure_error_m": 2.0693415059165078e-14,
+  "mass_sum_error_kg": 2.220446049250313e-15,
+  "passed": true
+}

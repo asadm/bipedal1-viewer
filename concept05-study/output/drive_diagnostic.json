@@ -1,0 +1,1049 @@
+{
+  "scope": "Exploratory dynamics scenarios with unchanged launch timing. Current-only and current-plus-torque commands are distinguished. Hypothetical ratio/inertia changes are not implemented in CAD. No hardware rating established.",
+  "results": [
+    {
+      "case": "mass_2kg",
+      "parameters": {
+        "revision": "concept05-long-stroke",
+        "status": "Development CAD and nominal dynamics; not a hardware release",
+        "budget": {
+          "target_usd": 20,
+          "ceiling_usd": 50,
+          "scope": "four motors and two springs; drivers, transmission hardware, battery, tax and delivery separate"
+        },
+        "mass_kg": 2.0,
+        "pivot_x_m": 0.04290204859622333,
+        "wheel_radius_m": 0.05,
+        "track_m": 0.15,
+        "spring": {
+          "part": "MISUMI SWF12-50",
+          "quantity": 2,
+          "rate_N_m": 5500,
+          "rate_tolerance_fraction": 0.1,
+          "free_length_m": 0.05,
+          "outside_diameter_nominal_m": 0.012,
+          "inside_diameter_nominal_m": 0.0065,
+          "design_compression_limit_m": 0.02,
+          "catalog_max_compression_m": 0.025,
+          "price_each_usd": 2.28,
+          "purchase_url": "https://us.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+          "source": "https://uk.misumi-ec.com/pdf/fa/2014/P2_0365-0366_F37_EN.pdf",
+          "procurement_status": "Previously checked estimate; price is not reconfirmed for this model",
+          "upper_seat_from_knee_m": 0.043,
+          "lower_seat_from_knee_m": 0.025,
+          "seat_y_from_leg_m": 0.031
+        },
+        "jump_motor": {
+          "part": "Mabuchi RS-550PC-7527 / Kysan 1112389",
+          "nominal_voltage_V": 12,
+          "no_load_rpm": 18200,
+          "no_load_current_A": 1.15,
+          "stall_current_A": 70,
+          "stall_torque_Nm": 0.421,
+          "mass_kg": 0.255,
+          "diameter_m": 0.0385,
+          "body_length_m": 0.057,
+          "ratio": 24,
+          "efficiency_assumption": 0.8,
+          "rotor_inertia_assumption_kg_m2": 1e-05,
+          "current_limit_assumption_A": 35,
+          "electrical_lag_assumption_s": 0.0004,
+          "supply_voltage_assumption_V": 11.1,
+          "reverse_torque_factor_assumption": 0.75,
+          "price_listed_usd": 12.5,
+          "source": "https://www.kysanelectronics.com/Products/SubClass.php?recordID=281",
+          "datasheet": "https://www.electan.com/datasheets/mov555.pdf",
+          "caution": "Manufacturer sheet identifies CCW-advanced timing. Reverse performance is not established. Rotor inertia, reduction losses, driver and battery are unmeasured.",
+          "quantity": 2
+        },
+        "wheel_motor": {
+          "part": "Waveshare DCGM-3865-12V-EN-240RPM / SKU 22346",
+          "status": "Manufacturer torque-speed points selected; backlash, inertia and reversal response unmeasured",
+          "stall_torque_Nm": 0.833565,
+          "no_load_rpm": 240,
+          "torque_limit_Nm": 0.45,
+          "rated_torque_Nm": 0.392266,
+          "rated_speed_rpm": 125,
+          "mass_kg": 0.167,
+          "price_each_usd": 9.99,
+          "source": "https://www.waveshare.com/product/robotics/motors-servos/motors/dcgm-3865-12v-en-240rpm.htm",
+          "quantity": 2
+        },
+        "unmeasured": {
+          "spring_branch_damping_N_s_m": 8,
+          "hinge_friction_Nm": 0.002,
+          "tire_friction": 0.8
+        },
+        "geometry": {
+          "crank_mm": 64.48187746169309,
+          "tie_mm": 83.50170734093714,
+          "coupler_mm": 28.22381039362516,
+          "lower_mm": 119.11935079120995,
+          "body_pin_mm": [
+            22.693104254181087,
+            44.99999999998685
+          ],
+          "q_low_rad": 0.35,
+          "q_high_rad": 1.5,
+          "vertical_stroke_mm": 99.80944095122507,
+          "knee_range_rad": [
+            0.4556427024335452,
+            2.332305468018408
+          ]
+        },
+        "motor_spring_subtotal_usd": 49.54,
+        "nominal_q_rad": 1.0,
+        "mass_status": "Conservative 2.4 kg development assumption retained; no claim of reaching the 1.75\u20132 kg design target."
+      },
+      "report": {
+        "first_flight_wheel_clearance_mm": 67.25579474374189,
+        "max_both_wheel_clearance_mm": 67.25579474374189,
+        "takeoff_s": 1.390250000000048,
+        "landing_s": 1.6035000000001192,
+        "first_flight_time_s": 0.21325000000007122,
+        "com_ballistic_rise_mm": 39.32908156063722,
+        "max_pitch_deg": 18.549572727617406,
+        "max_roll_deg": 1.3799976465945786e-13,
+        "final_pitch_deg": -2.33361859383618,
+        "final_roll_deg": -2.273413400713134e-15,
+        "max_spring_compression_mm": 13.740673039720743,
+        "peak_hip_current_A": 34.99999999999999,
+        "peak_wheel_torque_Nm": 0.45,
+        "body_ground_contact": false,
+        "max_closure_error_mm": 0.03600596165956536,
+        "hip_range_rad": [
+          0.4559713969054058,
+          1.4860163257953825
+        ],
+        "final_speed_m_s": -0.06121235883648697,
+        "final_x_m": 0.12048502137308913,
+        "hip_copper_loss_J": 147.558292115728,
+        "motor_envelope_errors": 0,
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration_s": 8.0,
+        "launch_pulse_s": 0.06,
+        "push_Nm": 3.9,
+        "crouch_q_rad": 0.45,
+        "initial_pitch_deg": -2.5441061975253376,
+        "checks": {
+          "jump_over_40mm": true,
+          "landed": true,
+          "body_clear": true,
+          "spring_under_19_5mm": true,
+          "closure_under_0_1mm": true,
+          "no_hip_endstop": true,
+          "final_pitch_under_5deg": true,
+          "final_roll_under_5deg": true,
+          "final_speed_under_0_1": true,
+          "motor_envelope": true,
+          "no_warnings": true
+        },
+        "nominal_model_pass": true,
+        "final_hip_angles_rad": [
+          1.0047168829374689,
+          1.0047168829374689
+        ],
+        "final_spring_compression_mm": [
+          0.0,
+          0.0
+        ],
+        "final_wheel_contact": [
+          true,
+          true
+        ],
+        "controller": {
+          "crouch": 0.45,
+          "pulse": 0.06,
+          "push": 3.9,
+          "retract": 0.7,
+          "hip_kp": 55,
+          "hip_kd": 1.5,
+          "wheel_velocity_gain": 1.0,
+          "wheel_position_gain": 0.3
+        },
+        "simulation_timestep_s": 0.00025,
+        "target_250mm_reached": false,
+        "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+      }
+    },
+    {
+      "case": "current_45A_same_command",
+      "parameters": {
+        "revision": "concept05-long-stroke",
+        "status": "Development CAD and nominal dynamics; not a hardware release",
+        "budget": {
+          "target_usd": 20,
+          "ceiling_usd": 50,
+          "scope": "four motors and two springs; drivers, transmission hardware, battery, tax and delivery separate"
+        },
+        "mass_kg": 2.4,
+        "pivot_x_m": 0.04290204859622333,
+        "wheel_radius_m": 0.05,
+        "track_m": 0.15,
+        "spring": {
+          "part": "MISUMI SWF12-50",
+          "quantity": 2,
+          "rate_N_m": 5500,
+          "rate_tolerance_fraction": 0.1,
+          "free_length_m": 0.05,
+          "outside_diameter_nominal_m": 0.012,
+          "inside_diameter_nominal_m": 0.0065,
+          "design_compression_limit_m": 0.02,
+          "catalog_max_compression_m": 0.025,
+          "price_each_usd": 2.28,
+          "purchase_url": "https://us.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+          "source": "https://uk.misumi-ec.com/pdf/fa/2014/P2_0365-0366_F37_EN.pdf",
+          "procurement_status": "Previously checked estimate; price is not reconfirmed for this model",
+          "upper_seat_from_knee_m": 0.043,
+          "lower_seat_from_knee_m": 0.025,
+          "seat_y_from_leg_m": 0.031
+        },
+        "jump_motor": {
+          "part": "Mabuchi RS-550PC-7527 / Kysan 1112389",
+          "nominal_voltage_V": 12,
+          "no_load_rpm": 18200,
+          "no_load_current_A": 1.15,
+          "stall_current_A": 70,
+          "stall_torque_Nm": 0.421,
+          "mass_kg": 0.255,
+          "diameter_m": 0.0385,
+          "body_length_m": 0.057,
+          "ratio": 24,
+          "efficiency_assumption": 0.8,
+          "rotor_inertia_assumption_kg_m2": 1e-05,
+          "current_limit_assumption_A": 45,
+          "electrical_lag_assumption_s": 0.0004,
+          "supply_voltage_assumption_V": 11.1,
+          "reverse_torque_factor_assumption": 0.75,
+          "price_listed_usd": 12.5,
+          "source": "https://www.kysanelectronics.com/Products/SubClass.php?recordID=281",
+          "datasheet": "https://www.electan.com/datasheets/mov555.pdf",
+          "caution": "Manufacturer sheet identifies CCW-advanced timing. Reverse performance is not established. Rotor inertia, reduction losses, driver and battery are unmeasured.",
+          "quantity": 2
+        },
+        "wheel_motor": {
+          "part": "Waveshare DCGM-3865-12V-EN-240RPM / SKU 22346",
+          "status": "Manufacturer torque-speed points selected; backlash, inertia and reversal response unmeasured",
+          "stall_torque_Nm": 0.833565,
+          "no_load_rpm": 240,
+          "torque_limit_Nm": 0.45,
+          "rated_torque_Nm": 0.392266,
+          "rated_speed_rpm": 125,
+          "mass_kg": 0.167,
+          "price_each_usd": 9.99,
+          "source": "https://www.waveshare.com/product/robotics/motors-servos/motors/dcgm-3865-12v-en-240rpm.htm",
+          "quantity": 2
+        },
+        "unmeasured": {
+          "spring_branch_damping_N_s_m": 8,
+          "hinge_friction_Nm": 0.002,
+          "tire_friction": 0.8
+        },
+        "geometry": {
+          "crank_mm": 64.48187746169309,
+          "tie_mm": 83.50170734093714,
+          "coupler_mm": 28.22381039362516,
+          "lower_mm": 119.11935079120995,
+          "body_pin_mm": [
+            22.693104254181087,
+            44.99999999998685
+          ],
+          "q_low_rad": 0.35,
+          "q_high_rad": 1.5,
+          "vertical_stroke_mm": 99.80944095122507,
+          "knee_range_rad": [
+            0.4556427024335452,
+            2.332305468018408
+          ]
+        },
+        "motor_spring_subtotal_usd": 49.54,
+        "nominal_q_rad": 1.0,
+        "mass_status": "Conservative 2.4 kg development assumption retained; no claim of reaching the 1.75\u20132 kg design target."
+      },
+      "report": {
+        "first_flight_wheel_clearance_mm": 69.67193912805992,
+        "max_both_wheel_clearance_mm": 69.67193912805992,
+        "takeoff_s": 1.3885000000000474,
+        "landing_s": 1.6065000000001202,
+        "first_flight_time_s": 0.2180000000000728,
+        "com_ballistic_rise_mm": 44.18004925049096,
+        "max_pitch_deg": 22.30861371734756,
+        "max_roll_deg": 1.2687244481241105e-13,
+        "final_pitch_deg": -1.1339935462834905,
+        "final_roll_deg": 6.269291695462763e-15,
+        "max_spring_compression_mm": 13.771998546899352,
+        "peak_hip_current_A": 44.99999999999999,
+        "peak_wheel_torque_Nm": 0.45,
+        "body_ground_contact": false,
+        "max_closure_error_mm": 0.02543657620908762,
+        "hip_range_rad": [
+          0.45526363647845997,
+          1.197908476718536
+        ],
+        "final_speed_m_s": -0.07515482964086058,
+        "final_x_m": 0.15133439223445905,
+        "hip_copper_loss_J": 165.90800138132437,
+        "motor_envelope_errors": 0,
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration_s": 8.0,
+        "launch_pulse_s": 0.06,
+        "push_Nm": 3.9,
+        "crouch_q_rad": 0.45,
+        "initial_pitch_deg": -1.3828549779806112,
+        "checks": {
+          "jump_over_40mm": true,
+          "landed": true,
+          "body_clear": true,
+          "spring_under_19_5mm": true,
+          "closure_under_0_1mm": true,
+          "no_hip_endstop": true,
+          "final_pitch_under_5deg": true,
+          "final_roll_under_5deg": true,
+          "final_speed_under_0_1": true,
+          "motor_envelope": true,
+          "no_warnings": true
+        },
+        "nominal_model_pass": true,
+        "final_hip_angles_rad": [
+          1.0050996739204008,
+          1.0050996739204008
+        ],
+        "final_spring_compression_mm": [
+          0.0,
+          0.0
+        ],
+        "final_wheel_contact": [
+          true,
+          true
+        ],
+        "controller": {
+          "crouch": 0.45,
+          "pulse": 0.06,
+          "push": 3.9,
+          "retract": 0.7,
+          "hip_kp": 55,
+          "hip_kd": 1.5,
+          "wheel_velocity_gain": 1.0,
+          "wheel_position_gain": 0.3
+        },
+        "simulation_timestep_s": 0.00025,
+        "target_250mm_reached": false,
+        "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+      }
+    },
+    {
+      "case": "current_45A_stronger_push",
+      "parameters": {
+        "revision": "concept05-long-stroke",
+        "status": "Development CAD and nominal dynamics; not a hardware release",
+        "budget": {
+          "target_usd": 20,
+          "ceiling_usd": 50,
+          "scope": "four motors and two springs; drivers, transmission hardware, battery, tax and delivery separate"
+        },
+        "mass_kg": 2.4,
+        "pivot_x_m": 0.04290204859622333,
+        "wheel_radius_m": 0.05,
+        "track_m": 0.15,
+        "spring": {
+          "part": "MISUMI SWF12-50",
+          "quantity": 2,
+          "rate_N_m": 5500,
+          "rate_tolerance_fraction": 0.1,
+          "free_length_m": 0.05,
+          "outside_diameter_nominal_m": 0.012,
+          "inside_diameter_nominal_m": 0.0065,
+          "design_compression_limit_m": 0.02,
+          "catalog_max_compression_m": 0.025,
+          "price_each_usd": 2.28,
+          "purchase_url": "https://us.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+          "source": "https://uk.misumi-ec.com/pdf/fa/2014/P2_0365-0366_F37_EN.pdf",
+          "procurement_status": "Previously checked estimate; price is not reconfirmed for this model",
+          "upper_seat_from_knee_m": 0.043,
+          "lower_seat_from_knee_m": 0.025,
+          "seat_y_from_leg_m": 0.031
+        },
+        "jump_motor": {
+          "part": "Mabuchi RS-550PC-7527 / Kysan 1112389",
+          "nominal_voltage_V": 12,
+          "no_load_rpm": 18200,
+          "no_load_current_A": 1.15,
+          "stall_current_A": 70,
+          "stall_torque_Nm": 0.421,
+          "mass_kg": 0.255,
+          "diameter_m": 0.0385,
+          "body_length_m": 0.057,
+          "ratio": 24,
+          "efficiency_assumption": 0.8,
+          "rotor_inertia_assumption_kg_m2": 1e-05,
+          "current_limit_assumption_A": 45,
+          "electrical_lag_assumption_s": 0.0004,
+          "supply_voltage_assumption_V": 11.1,
+          "reverse_torque_factor_assumption": 0.75,
+          "price_listed_usd": 12.5,
+          "source": "https://www.kysanelectronics.com/Products/SubClass.php?recordID=281",
+          "datasheet": "https://www.electan.com/datasheets/mov555.pdf",
+          "caution": "Manufacturer sheet identifies CCW-advanced timing. Reverse performance is not established. Rotor inertia, reduction losses, driver and battery are unmeasured.",
+          "quantity": 2
+        },
+        "wheel_motor": {
+          "part": "Waveshare DCGM-3865-12V-EN-240RPM / SKU 22346",
+          "status": "Manufacturer torque-speed points selected; backlash, inertia and reversal response unmeasured",
+          "stall_torque_Nm": 0.833565,
+          "no_load_rpm": 240,
+          "torque_limit_Nm": 0.45,
+          "rated_torque_Nm": 0.392266,
+          "rated_speed_rpm": 125,
+          "mass_kg": 0.167,
+          "price_each_usd": 9.99,
+          "source": "https://www.waveshare.com/product/robotics/motors-servos/motors/dcgm-3865-12v-en-240rpm.htm",
+          "quantity": 2
+        },
+        "unmeasured": {
+          "spring_branch_damping_N_s_m": 8,
+          "hinge_friction_Nm": 0.002,
+          "tire_friction": 0.8
+        },
+        "geometry": {
+          "crank_mm": 64.48187746169309,
+          "tie_mm": 83.50170734093714,
+          "coupler_mm": 28.22381039362516,
+          "lower_mm": 119.11935079120995,
+          "body_pin_mm": [
+            22.693104254181087,
+            44.99999999998685
+          ],
+          "q_low_rad": 0.35,
+          "q_high_rad": 1.5,
+          "vertical_stroke_mm": 99.80944095122507,
+          "knee_range_rad": [
+            0.4556427024335452,
+            2.332305468018408
+          ]
+        },
+        "motor_spring_subtotal_usd": 49.54,
+        "nominal_q_rad": 1.0,
+        "mass_status": "Conservative 2.4 kg development assumption retained; no claim of reaching the 1.75\u20132 kg design target."
+      },
+      "report": {
+        "first_flight_wheel_clearance_mm": 91.92786231240792,
+        "max_both_wheel_clearance_mm": 163.13205715931417,
+        "takeoff_s": 1.3885000000000474,
+        "landing_s": 1.6407500000001316,
+        "first_flight_time_s": 0.25225000000008424,
+        "com_ballistic_rise_mm": 58.40998589470023,
+        "max_pitch_deg": 179.99998631279857,
+        "max_roll_deg": 179.99999999998644,
+        "final_pitch_deg": 179.75408478374126,
+        "final_roll_deg": 178.21456557951026,
+        "max_spring_compression_mm": 13.771998546899352,
+        "peak_hip_current_A": 44.99999999999999,
+        "peak_wheel_torque_Nm": 0.45,
+        "body_ground_contact": true,
+        "max_closure_error_mm": 0.040066781706717416,
+        "hip_range_rad": [
+          0.45526363647845997,
+          1.4497691280187612
+        ],
+        "final_speed_m_s": -0.0009883265448840566,
+        "final_x_m": 0.27741610872789246,
+        "hip_copper_loss_J": 903.9910526419325,
+        "motor_envelope_errors": 0,
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration_s": 8.0,
+        "launch_pulse_s": 0.06,
+        "push_Nm": 5.0,
+        "crouch_q_rad": 0.45,
+        "initial_pitch_deg": -1.3828549779806112,
+        "checks": {
+          "jump_over_40mm": true,
+          "landed": true,
+          "body_clear": false,
+          "spring_under_19_5mm": true,
+          "closure_under_0_1mm": true,
+          "no_hip_endstop": true,
+          "final_pitch_under_5deg": false,
+          "final_roll_under_5deg": false,
+          "final_speed_under_0_1": true,
+          "motor_envelope": true,
+          "no_warnings": true
+        },
+        "nominal_model_pass": false,
+        "final_hip_angles_rad": [
+          0.9363169292247104,
+          1.0833974298303601
+        ],
+        "final_spring_compression_mm": [
+          0.0,
+          0.0
+        ],
+        "final_wheel_contact": [
+          false,
+          false
+        ],
+        "controller": {
+          "crouch": 0.45,
+          "pulse": 0.06,
+          "push": 5.0,
+          "retract": 0.7,
+          "hip_kp": 55,
+          "hip_kd": 1.5,
+          "wheel_velocity_gain": 1.0,
+          "wheel_position_gain": 0.3
+        },
+        "simulation_timestep_s": 0.00025,
+        "target_250mm_reached": false,
+        "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+      }
+    },
+    {
+      "case": "half_rotor_inertia",
+      "parameters": {
+        "revision": "concept05-long-stroke",
+        "status": "Development CAD and nominal dynamics; not a hardware release",
+        "budget": {
+          "target_usd": 20,
+          "ceiling_usd": 50,
+          "scope": "four motors and two springs; drivers, transmission hardware, battery, tax and delivery separate"
+        },
+        "mass_kg": 2.4,
+        "pivot_x_m": 0.04290204859622333,
+        "wheel_radius_m": 0.05,
+        "track_m": 0.15,
+        "spring": {
+          "part": "MISUMI SWF12-50",
+          "quantity": 2,
+          "rate_N_m": 5500,
+          "rate_tolerance_fraction": 0.1,
+          "free_length_m": 0.05,
+          "outside_diameter_nominal_m": 0.012,
+          "inside_diameter_nominal_m": 0.0065,
+          "design_compression_limit_m": 0.02,
+          "catalog_max_compression_m": 0.025,
+          "price_each_usd": 2.28,
+          "purchase_url": "https://us.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+          "source": "https://uk.misumi-ec.com/pdf/fa/2014/P2_0365-0366_F37_EN.pdf",
+          "procurement_status": "Previously checked estimate; price is not reconfirmed for this model",
+          "upper_seat_from_knee_m": 0.043,
+          "lower_seat_from_knee_m": 0.025,
+          "seat_y_from_leg_m": 0.031
+        },
+        "jump_motor": {
+          "part": "Mabuchi RS-550PC-7527 / Kysan 1112389",
+          "nominal_voltage_V": 12,
+          "no_load_rpm": 18200,
+          "no_load_current_A": 1.15,
+          "stall_current_A": 70,
+          "stall_torque_Nm": 0.421,
+          "mass_kg": 0.255,
+          "diameter_m": 0.0385,
+          "body_length_m": 0.057,
+          "ratio": 24,
+          "efficiency_assumption": 0.8,
+          "rotor_inertia_assumption_kg_m2": 5e-06,
+          "current_limit_assumption_A": 35,
+          "electrical_lag_assumption_s": 0.0004,
+          "supply_voltage_assumption_V": 11.1,
+          "reverse_torque_factor_assumption": 0.75,
+          "price_listed_usd": 12.5,
+          "source": "https://www.kysanelectronics.com/Products/SubClass.php?recordID=281",
+          "datasheet": "https://www.electan.com/datasheets/mov555.pdf",
+          "caution": "Manufacturer sheet identifies CCW-advanced timing. Reverse performance is not established. Rotor inertia, reduction losses, driver and battery are unmeasured.",
+          "quantity": 2
+        },
+        "wheel_motor": {
+          "part": "Waveshare DCGM-3865-12V-EN-240RPM / SKU 22346",
+          "status": "Manufacturer torque-speed points selected; backlash, inertia and reversal response unmeasured",
+          "stall_torque_Nm": 0.833565,
+          "no_load_rpm": 240,
+          "torque_limit_Nm": 0.45,
+          "rated_torque_Nm": 0.392266,
+          "rated_speed_rpm": 125,
+          "mass_kg": 0.167,
+          "price_each_usd": 9.99,
+          "source": "https://www.waveshare.com/product/robotics/motors-servos/motors/dcgm-3865-12v-en-240rpm.htm",
+          "quantity": 2
+        },
+        "unmeasured": {
+          "spring_branch_damping_N_s_m": 8,
+          "hinge_friction_Nm": 0.002,
+          "tire_friction": 0.8
+        },
+        "geometry": {
+          "crank_mm": 64.48187746169309,
+          "tie_mm": 83.50170734093714,
+          "coupler_mm": 28.22381039362516,
+          "lower_mm": 119.11935079120995,
+          "body_pin_mm": [
+            22.693104254181087,
+            44.99999999998685
+          ],
+          "q_low_rad": 0.35,
+          "q_high_rad": 1.5,
+          "vertical_stroke_mm": 99.80944095122507,
+          "knee_range_rad": [
+            0.4556427024335452,
+            2.332305468018408
+          ]
+        },
+        "motor_spring_subtotal_usd": 49.54,
+        "nominal_q_rad": 1.0,
+        "mass_status": "Conservative 2.4 kg development assumption retained; no claim of reaching the 1.75\u20132 kg design target."
+      },
+      "report": {
+        "first_flight_wheel_clearance_mm": 99.95731459683859,
+        "max_both_wheel_clearance_mm": 99.95731459683859,
+        "takeoff_s": 1.387500000000047,
+        "landing_s": 1.6530000000001357,
+        "first_flight_time_s": 0.26550000000008867,
+        "com_ballistic_rise_mm": 65.53102205881007,
+        "max_pitch_deg": 79.68410722264385,
+        "max_roll_deg": 5.98903220447413e-14,
+        "final_pitch_deg": 67.58693252181148,
+        "final_roll_deg": -2.879692486568691e-14,
+        "max_spring_compression_mm": 13.74737274669266,
+        "peak_hip_current_A": 34.99999999999999,
+        "peak_wheel_torque_Nm": 0.45,
+        "body_ground_contact": true,
+        "max_closure_error_mm": 0.04446434066830085,
+        "hip_range_rad": [
+          0.45582628713935247,
+          1.4146135272359812
+        ],
+        "final_speed_m_s": 0.0019139676185109297,
+        "final_x_m": 0.12243399004641982,
+        "hip_copper_loss_J": 125.74182603168148,
+        "motor_envelope_errors": 0,
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration_s": 8.0,
+        "launch_pulse_s": 0.06,
+        "push_Nm": 3.9,
+        "crouch_q_rad": 0.45,
+        "initial_pitch_deg": -1.3828549779806112,
+        "checks": {
+          "jump_over_40mm": true,
+          "landed": true,
+          "body_clear": false,
+          "spring_under_19_5mm": true,
+          "closure_under_0_1mm": true,
+          "no_hip_endstop": true,
+          "final_pitch_under_5deg": false,
+          "final_roll_under_5deg": true,
+          "final_speed_under_0_1": true,
+          "motor_envelope": true,
+          "no_warnings": true
+        },
+        "nominal_model_pass": false,
+        "final_hip_angles_rad": [
+          1.020012722066006,
+          1.0200127220660056
+        ],
+        "final_spring_compression_mm": [
+          0.0,
+          0.0
+        ],
+        "final_wheel_contact": [
+          false,
+          false
+        ],
+        "controller": {
+          "crouch": 0.45,
+          "pulse": 0.06,
+          "push": 3.9,
+          "retract": 0.7,
+          "hip_kp": 55,
+          "hip_kd": 1.5,
+          "wheel_velocity_gain": 1.0,
+          "wheel_position_gain": 0.3
+        },
+        "simulation_timestep_s": 0.00025,
+        "target_250mm_reached": false,
+        "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+      }
+    },
+    {
+      "case": "ratio_20",
+      "parameters": {
+        "revision": "concept05-long-stroke",
+        "status": "Development CAD and nominal dynamics; not a hardware release",
+        "budget": {
+          "target_usd": 20,
+          "ceiling_usd": 50,
+          "scope": "four motors and two springs; drivers, transmission hardware, battery, tax and delivery separate"
+        },
+        "mass_kg": 2.4,
+        "pivot_x_m": 0.04290204859622333,
+        "wheel_radius_m": 0.05,
+        "track_m": 0.15,
+        "spring": {
+          "part": "MISUMI SWF12-50",
+          "quantity": 2,
+          "rate_N_m": 5500,
+          "rate_tolerance_fraction": 0.1,
+          "free_length_m": 0.05,
+          "outside_diameter_nominal_m": 0.012,
+          "inside_diameter_nominal_m": 0.0065,
+          "design_compression_limit_m": 0.02,
+          "catalog_max_compression_m": 0.025,
+          "price_each_usd": 2.28,
+          "purchase_url": "https://us.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+          "source": "https://uk.misumi-ec.com/pdf/fa/2014/P2_0365-0366_F37_EN.pdf",
+          "procurement_status": "Previously checked estimate; price is not reconfirmed for this model",
+          "upper_seat_from_knee_m": 0.043,
+          "lower_seat_from_knee_m": 0.025,
+          "seat_y_from_leg_m": 0.031
+        },
+        "jump_motor": {
+          "part": "Mabuchi RS-550PC-7527 / Kysan 1112389",
+          "nominal_voltage_V": 12,
+          "no_load_rpm": 18200,
+          "no_load_current_A": 1.15,
+          "stall_current_A": 70,
+          "stall_torque_Nm": 0.421,
+          "mass_kg": 0.255,
+          "diameter_m": 0.0385,
+          "body_length_m": 0.057,
+          "ratio": 20,
+          "efficiency_assumption": 0.8,
+          "rotor_inertia_assumption_kg_m2": 1e-05,
+          "current_limit_assumption_A": 35,
+          "electrical_lag_assumption_s": 0.0004,
+          "supply_voltage_assumption_V": 11.1,
+          "reverse_torque_factor_assumption": 0.75,
+          "price_listed_usd": 12.5,
+          "source": "https://www.kysanelectronics.com/Products/SubClass.php?recordID=281",
+          "datasheet": "https://www.electan.com/datasheets/mov555.pdf",
+          "caution": "Manufacturer sheet identifies CCW-advanced timing. Reverse performance is not established. Rotor inertia, reduction losses, driver and battery are unmeasured.",
+          "quantity": 2
+        },
+        "wheel_motor": {
+          "part": "Waveshare DCGM-3865-12V-EN-240RPM / SKU 22346",
+          "status": "Manufacturer torque-speed points selected; backlash, inertia and reversal response unmeasured",
+          "stall_torque_Nm": 0.833565,
+          "no_load_rpm": 240,
+          "torque_limit_Nm": 0.45,
+          "rated_torque_Nm": 0.392266,
+          "rated_speed_rpm": 125,
+          "mass_kg": 0.167,
+          "price_each_usd": 9.99,
+          "source": "https://www.waveshare.com/product/robotics/motors-servos/motors/dcgm-3865-12v-en-240rpm.htm",
+          "quantity": 2
+        },
+        "unmeasured": {
+          "spring_branch_damping_N_s_m": 8,
+          "hinge_friction_Nm": 0.002,
+          "tire_friction": 0.8
+        },
+        "geometry": {
+          "crank_mm": 64.48187746169309,
+          "tie_mm": 83.50170734093714,
+          "coupler_mm": 28.22381039362516,
+          "lower_mm": 119.11935079120995,
+          "body_pin_mm": [
+            22.693104254181087,
+            44.99999999998685
+          ],
+          "q_low_rad": 0.35,
+          "q_high_rad": 1.5,
+          "vertical_stroke_mm": 99.80944095122507,
+          "knee_range_rad": [
+            0.4556427024335452,
+            2.332305468018408
+          ]
+        },
+        "motor_spring_subtotal_usd": 49.54,
+        "nominal_q_rad": 1.0,
+        "mass_status": "Conservative 2.4 kg development assumption retained; no claim of reaching the 1.75\u20132 kg design target."
+      },
+      "report": {
+        "first_flight_wheel_clearance_mm": 69.13239607991936,
+        "max_both_wheel_clearance_mm": 69.13239607991936,
+        "takeoff_s": 1.3890000000000475,
+        "landing_s": 1.6065000000001202,
+        "first_flight_time_s": 0.21750000000007264,
+        "com_ballistic_rise_mm": 44.145142185514494,
+        "max_pitch_deg": 20.851160911422898,
+        "max_roll_deg": 3.4559532932529865e-14,
+        "final_pitch_deg": -1.1681742688922763,
+        "final_roll_deg": 2.907074041818779e-15,
+        "max_spring_compression_mm": 13.756438420715375,
+        "peak_hip_current_A": 34.99999999999999,
+        "peak_wheel_torque_Nm": 0.45,
+        "body_ground_contact": false,
+        "max_closure_error_mm": 0.024768538507989973,
+        "hip_range_rad": [
+          0.45562010300801453,
+          1.2061036847679325
+        ],
+        "final_speed_m_s": -0.06485187960572257,
+        "final_x_m": 0.12991436478243976,
+        "hip_copper_loss_J": 202.97460229867005,
+        "motor_envelope_errors": 0,
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration_s": 8.0,
+        "launch_pulse_s": 0.06,
+        "push_Nm": 3.9,
+        "crouch_q_rad": 0.45,
+        "initial_pitch_deg": -1.3828549779806112,
+        "checks": {
+          "jump_over_40mm": true,
+          "landed": true,
+          "body_clear": true,
+          "spring_under_19_5mm": true,
+          "closure_under_0_1mm": true,
+          "no_hip_endstop": true,
+          "final_pitch_under_5deg": true,
+          "final_roll_under_5deg": true,
+          "final_speed_under_0_1": true,
+          "motor_envelope": true,
+          "no_warnings": true
+        },
+        "nominal_model_pass": true,
+        "final_hip_angles_rad": [
+          1.0052809640436096,
+          1.0052809640436096
+        ],
+        "final_spring_compression_mm": [
+          0.0,
+          0.0
+        ],
+        "final_wheel_contact": [
+          true,
+          true
+        ],
+        "controller": {
+          "crouch": 0.45,
+          "pulse": 0.06,
+          "push": 3.9,
+          "retract": 0.7,
+          "hip_kp": 55,
+          "hip_kd": 1.5,
+          "wheel_velocity_gain": 1.0,
+          "wheel_position_gain": 0.3
+        },
+        "simulation_timestep_s": 0.00025,
+        "target_250mm_reached": false,
+        "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+      }
+    },
+    {
+      "case": "ratio_16",
+      "parameters": {
+        "revision": "concept05-long-stroke",
+        "status": "Development CAD and nominal dynamics; not a hardware release",
+        "budget": {
+          "target_usd": 20,
+          "ceiling_usd": 50,
+          "scope": "four motors and two springs; drivers, transmission hardware, battery, tax and delivery separate"
+        },
+        "mass_kg": 2.4,
+        "pivot_x_m": 0.04290204859622333,
+        "wheel_radius_m": 0.05,
+        "track_m": 0.15,
+        "spring": {
+          "part": "MISUMI SWF12-50",
+          "quantity": 2,
+          "rate_N_m": 5500,
+          "rate_tolerance_fraction": 0.1,
+          "free_length_m": 0.05,
+          "outside_diameter_nominal_m": 0.012,
+          "inside_diameter_nominal_m": 0.0065,
+          "design_compression_limit_m": 0.02,
+          "catalog_max_compression_m": 0.025,
+          "price_each_usd": 2.28,
+          "purchase_url": "https://us.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+          "source": "https://uk.misumi-ec.com/pdf/fa/2014/P2_0365-0366_F37_EN.pdf",
+          "procurement_status": "Previously checked estimate; price is not reconfirmed for this model",
+          "upper_seat_from_knee_m": 0.043,
+          "lower_seat_from_knee_m": 0.025,
+          "seat_y_from_leg_m": 0.031
+        },
+        "jump_motor": {
+          "part": "Mabuchi RS-550PC-7527 / Kysan 1112389",
+          "nominal_voltage_V": 12,
+          "no_load_rpm": 18200,
+          "no_load_current_A": 1.15,
+          "stall_current_A": 70,
+          "stall_torque_Nm": 0.421,
+          "mass_kg": 0.255,
+          "diameter_m": 0.0385,
+          "body_length_m": 0.057,
+          "ratio": 16,
+          "efficiency_assumption": 0.8,
+          "rotor_inertia_assumption_kg_m2": 1e-05,
+          "current_limit_assumption_A": 35,
+          "electrical_lag_assumption_s": 0.0004,
+          "supply_voltage_assumption_V": 11.1,
+          "reverse_torque_factor_assumption": 0.75,
+          "price_listed_usd": 12.5,
+          "source": "https://www.kysanelectronics.com/Products/SubClass.php?recordID=281",
+          "datasheet": "https://www.electan.com/datasheets/mov555.pdf",
+          "caution": "Manufacturer sheet identifies CCW-advanced timing. Reverse performance is not established. Rotor inertia, reduction losses, driver and battery are unmeasured.",
+          "quantity": 2
+        },
+        "wheel_motor": {
+          "part": "Waveshare DCGM-3865-12V-EN-240RPM / SKU 22346",
+          "status": "Manufacturer torque-speed points selected; backlash, inertia and reversal response unmeasured",
+          "stall_torque_Nm": 0.833565,
+          "no_load_rpm": 240,
+          "torque_limit_Nm": 0.45,
+          "rated_torque_Nm": 0.392266,
+          "rated_speed_rpm": 125,
+          "mass_kg": 0.167,
+          "price_each_usd": 9.99,
+          "source": "https://www.waveshare.com/product/robotics/motors-servos/motors/dcgm-3865-12v-en-240rpm.htm",
+          "quantity": 2
+        },
+        "unmeasured": {
+          "spring_branch_damping_N_s_m": 8,
+          "hinge_friction_Nm": 0.002,
+          "tire_friction": 0.8
+        },
+        "geometry": {
+          "crank_mm": 64.48187746169309,
+          "tie_mm": 83.50170734093714,
+          "coupler_mm": 28.22381039362516,
+          "lower_mm": 119.11935079120995,
+          "body_pin_mm": [
+            22.693104254181087,
+            44.99999999998685
+          ],
+          "q_low_rad": 0.35,
+          "q_high_rad": 1.5,
+          "vertical_stroke_mm": 99.80944095122507,
+          "knee_range_rad": [
+            0.4556427024335452,
+            2.332305468018408
+          ]
+        },
+        "motor_spring_subtotal_usd": 49.54,
+        "nominal_q_rad": 1.0,
+        "mass_status": "Conservative 2.4 kg development assumption retained; no claim of reaching the 1.75\u20132 kg design target."
+      },
+      "report": {
+        "first_flight_wheel_clearance_mm": 63.3463563581852,
+        "max_both_wheel_clearance_mm": 63.3463563581852,
+        "takeoff_s": 1.3890000000000475,
+        "landing_s": 1.596750000000117,
+        "first_flight_time_s": 0.20775000000006938,
+        "com_ballistic_rise_mm": 40.2886979303623,
+        "max_pitch_deg": 16.118132156143268,
+        "max_roll_deg": 1.0056975938684906e-13,
+        "final_pitch_deg": -1.2334179184296445,
+        "final_roll_deg": -2.37497897996268e-15,
+        "max_spring_compression_mm": 13.728592133787007,
+        "peak_hip_current_A": 34.99999999999999,
+        "peak_wheel_torque_Nm": 0.45,
+        "body_ground_contact": false,
+        "max_closure_error_mm": 0.02240140145700655,
+        "hip_range_rad": [
+          0.4562563538013045,
+          1.1427208814399623
+        ],
+        "final_speed_m_s": -0.045253046614628895,
+        "final_x_m": 0.0893984863211889,
+        "hip_copper_loss_J": 279.3752660970979,
+        "motor_envelope_errors": 0,
+        "warnings": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "duration_s": 8.0,
+        "launch_pulse_s": 0.06,
+        "push_Nm": 3.9,
+        "crouch_q_rad": 0.45,
+        "initial_pitch_deg": -1.3828549779806112,
+        "checks": {
+          "jump_over_40mm": true,
+          "landed": true,
+          "body_clear": true,
+          "spring_under_19_5mm": true,
+          "closure_under_0_1mm": true,
+          "no_hip_endstop": true,
+          "final_pitch_under_5deg": true,
+          "final_roll_under_5deg": true,
+          "final_speed_under_0_1": true,
+          "motor_envelope": true,
+          "no_warnings": true
+        },
+        "nominal_model_pass": true,
+        "final_hip_angles_rad": [
+          1.0054066725356208,
+          1.0054066725356208
+        ],
+        "final_spring_compression_mm": [
+          0.0,
+          0.0
+        ],
+        "final_wheel_contact": [
+          true,
+          true
+        ],
+        "controller": {
+          "crouch": 0.45,
+          "pulse": 0.06,
+          "push": 3.9,
+          "retract": 0.7,
+          "hip_kp": 55,
+          "hip_kd": 1.5,
+          "wheel_velocity_gain": 1.0,
+          "wheel_position_gain": 0.3
+        },
+        "simulation_timestep_s": 0.00025,
+        "target_250mm_reached": false,
+        "model_limits": "No internal self-collision, motor mounting, sealing, structural, thermal or hardware qualification. Perfect-state controller."
+      }
+    }
+  ]
+}

@@ -1,0 +1,2724 @@
+{
+  "revision": "concept06-internal-knee-full",
+  "status": "Full-robot kinematic packaging candidate; structural loads, fits, fastening, seals and dynamics not qualified.",
+  "printed_parts": [
+    {
+      "name": "left_first_gear",
+      "bounds_mm": [
+        49.98499408791941,
+        8.0,
+        49.984994087919404
+      ],
+      "volume_cm3": 14.148086276391313,
+      "orientation": "CAD orientation",
+      "material": "rigid polymer"
+    },
+    {
+      "name": "left_output_gear",
+      "bounds_mm": [
+        61.95117736944046,
+        12.0,
+        61.95117736944046
+      ],
+      "volume_cm3": 33.148071391382224,
+      "orientation": "CAD orientation",
+      "material": "rigid polymer"
+    },
+    {
+      "name": "right_first_gear",
+      "bounds_mm": [
+        49.98499408791942,
+        8.0,
+        49.98499408791942
+      ],
+      "volume_cm3": 14.14808627639133,
+      "orientation": "CAD orientation",
+      "material": "rigid polymer"
+    },
+    {
+      "name": "right_output_gear",
+      "bounds_mm": [
+        61.95117736944046,
+        12.0,
+        61.95117736944046
+      ],
+      "volume_cm3": 33.148071391382224,
+      "orientation": "CAD orientation",
+      "material": "rigid polymer"
+    },
+    {
+      "name": "left_slim_lower_pod",
+      "bounds_mm": [
+        156.11935089121,
+        60.00000010000004,
+        64.40000020000001
+      ],
+      "volume_cm3": 47.55231403967867,
+      "orientation": "CAD orientation",
+      "material": "rigid polymer"
+    },
+    {
+      "name": "left_wheel_motor_mount_lid",
+      "bounds_mm": [
+        82.2000002,
+        11.500000100000054,
+        64.40000020000001
+      ],
+      "volume_cm3": 10.374181492054248,
+      "orientation": "CAD orientation",
+      "material": "rigid polymer"
+    },
+    {
+      "name": "left_rim",
+      "bounds_mm": [
+        52.0,
+        24.0,
+        52.0
+      ],
+      "volume_cm3": 18.736458586009526,
+      "orientation": "CAD orientation",
+      "material": "rigid polymer"
+    },
+    {
+      "name": "right_slim_lower_pod",
+      "bounds_mm": [
+        156.11935089121,
+        60.00000010000004,
+        64.40000020000001
+      ],
+      "volume_cm3": 47.552314039678656,
+      "orientation": "CAD orientation",
+      "material": "rigid polymer"
+    },
+    {
+      "name": "right_wheel_motor_mount_lid",
+      "bounds_mm": [
+        82.2000002,
+        11.500000100000054,
+        64.40000020000001
+      ],
+      "volume_cm3": 10.374181492054248,
+      "orientation": "CAD orientation",
+      "material": "rigid polymer"
+    },
+    {
+      "name": "right_rim",
+      "bounds_mm": [
+        52.0,
+        24.0,
+        52.0
+      ],
+      "volume_cm3": 18.736458586009526,
+      "orientation": "CAD orientation",
+      "material": "rigid polymer"
+    },
+    {
+      "name": "streamlined_upper_shell",
+      "bounds_mm": [
+        166.0000002000001,
+        116.0000002,
+        48.01296033421395
+      ],
+      "volume_cm3": 80.29493233781872,
+      "orientation": "CAD orientation",
+      "material": "rigid polymer"
+    },
+    {
+      "name": "streamlined_lower_tray",
+      "bounds_mm": [
+        166.00000020000545,
+        116.0000002,
+        30.29989169781576
+      ],
+      "volume_cm3": 67.81887501796773,
+      "orientation": "CAD orientation",
+      "material": "rigid polymer"
+    },
+    {
+      "name": "left_covered_thigh",
+      "bounds_mm": [
+        126.6649879,
+        32.2,
+        64.9989448
+      ],
+      "volume_cm3": 46.721311140364065,
+      "orientation": "CAD orientation",
+      "material": "rigid polymer"
+    },
+    {
+      "name": "left_thigh_service_lid",
+      "bounds_mm": [
+        78.41661837614518,
+        2.0,
+        62.307687867084454
+      ],
+      "volume_cm3": 4.967968978573443,
+      "orientation": "CAD orientation",
+      "material": "TPU"
+    },
+    {
+      "name": "right_covered_thigh",
+      "bounds_mm": [
+        126.6649879,
+        32.2,
+        64.9989448
+      ],
+      "volume_cm3": 46.72131114036407,
+      "orientation": "CAD orientation",
+      "material": "rigid polymer"
+    },
+    {
+      "name": "right_thigh_service_lid",
+      "bounds_mm": [
+        78.41661837614518,
+        2.0,
+        62.307687867084454
+      ],
+      "volume_cm3": 4.967968978573443,
+      "orientation": "CAD orientation",
+      "material": "TPU"
+    }
+  ],
+  "parts": 103,
+  "parameters": {
+    "revision": "concept06-internal-knee-full",
+    "status": "Full-robot kinematic packaging candidate; not a dynamics model or manufacturing release.",
+    "budget": {
+      "original_target_usd": 75,
+      "current_motor_spring_estimate_usd": 112.52,
+      "scope": "Four motors and two springs only; all controllers, transmission hardware, internal-knee metalwork, battery, tax and delivery extra."
+    },
+    "mass_kg": 2.1,
+    "pivot_x_m": 0.04290204859622333,
+    "wheel_radius_m": 0.05,
+    "track_m": 0.15,
+    "spring": {
+      "part": "MISUMI SWF12-50",
+      "quantity": 2,
+      "rate_N_m": 5500,
+      "rate_tolerance_fraction": 0.1,
+      "free_length_m": 0.05,
+      "outside_diameter_nominal_m": 0.012,
+      "inside_diameter_nominal_m": 0.0065,
+      "design_compression_limit_m": 0.02,
+      "catalog_max_compression_m": 0.025,
+      "price_each_usd": 2.28,
+      "purchase_url": "https://us.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+      "source": "https://uk.misumi-ec.com/pdf/fa/2014/P2_0365-0366_F37_EN.pdf",
+      "procurement_status": "Previously checked estimate; price is not reconfirmed for this model",
+      "upper_seat_from_knee_m": 0.043,
+      "lower_seat_from_knee_m": 0.025,
+      "seat_y_from_leg_m": 0.0295
+    },
+    "jump_motor": {
+      "part": "SunnySky X2216 V3 880KV long shaft",
+      "sku": "SS-XV3-X2216-L-880-V3",
+      "quantity": 2,
+      "kv_rpm_per_V": 880,
+      "torque_constant_Nm_A": 0.010851473392629226,
+      "resistance_ohm": 0.089,
+      "no_load_current_A": 0.5,
+      "mass_kg": 0.0675,
+      "diameter_m": 0.0277,
+      "body_length_m": 0.034,
+      "ratio": 20,
+      "efficiency_assumption": 0.8,
+      "rotor_inertia_assumption_kg_m2": 4e-06,
+      "current_limit_assumption_A": 32,
+      "electrical_lag_assumption_s": 0.0004,
+      "supply_voltage_assumption_V": 11.1,
+      "motor_constant_factor": 1.0,
+      "price_listed_usd": 24.99,
+      "source": "https://sunnyskyusa.com/products/sunnysky-x2216-v3-brushless-motors-long-shaft-version",
+      "caution": "DC-equivalent BLDC model. Kv/Kt, current and resistance conventions must be calibrated to the FOC driver. Manufacturer 32 A/30 s assumes propeller cooling; sealed joint thermal rating is unknown. Rotor inertia estimated from a 21 g thin ring at 13.8 mm. Encoder and bidirectional FOC required."
+    },
+    "wheel_motor": {
+      "part": "SunnySky V2806 650KV",
+      "quantity": 2,
+      "kv_rpm_per_V": 650,
+      "diameter_m": 0.035,
+      "body_length_m": 0.018,
+      "mass_kg": 0.047,
+      "ratio": 5,
+      "price_each_usd": 28.99,
+      "source": "https://sunnyskyusa.com/products/sunnysky-v2806-motor?variant=45703574095",
+      "status": "Packaging selection only. FOC, encoder, torque-speed model, thermal rating, adapter and gear procurement unqualified."
+    },
+    "unmeasured": {
+      "spring_branch_damping_N_s_m": 0.0,
+      "hinge_friction_Nm": 0.002,
+      "tire_friction": 0.8
+    },
+    "geometry": {
+      "crank_mm": 64.48187746169309,
+      "tie_mm": 65.59,
+      "coupler_mm": 15.16,
+      "lower_mm": 119.11935079120995,
+      "body_pin_mm": [
+        18.68,
+        12.55
+      ],
+      "q_low_rad": 0.35,
+      "q_high_rad": 1.5,
+      "vertical_stroke_mm": 100.12092415619405,
+      "knee_range_rad": [
+        0.47928597950357954,
+        2.3453711622081452
+      ],
+      "lever_phase_rad": 3.4517376616691857
+    },
+    "motor_spring_subtotal_usd": 112.52,
+    "nominal_q_rad": 1.0,
+    "mass_status": "2.1 kg is the old dynamics reference only. Revised full assembly mass and inertia have not been calculated.",
+    "internal_knee": true
+  },
+  "thigh_profile_mm": [
+    [
+      -30.5,
+      0.0
+    ],
+    [
+      -30.3531342,
+      -2.9895228
+    ],
+    [
+      -29.9139511,
+      -5.9502548
+    ],
+    [
+      -29.1866802,
+      -8.8536827
+    ],
+    [
+      -28.1783257,
+      -11.6718447
+    ],
+    [
+      -26.8985986,
+      -14.3776005
+    ],
+    [
+      -25.3598232,
+      -16.9448921
+    ],
+    [
+      -23.5768188,
+      -19.3489952
+    ],
+    [
+      -21.5667568,
+      -21.5667568
+    ],
+    [
+      -19.3489952,
+      -23.5768188
+    ],
+    [
+      -16.9448921,
+      -25.3598232
+    ],
+    [
+      -14.3776005,
+      -26.8985986
+    ],
+    [
+      -11.6718447,
+      -28.1783257
+    ],
+    [
+      -8.8536827,
+      -29.1866802
+    ],
+    [
+      -5.9502548,
+      -29.9139511
+    ],
+    [
+      -2.9895228,
+      -30.3531342
+    ],
+    [
+      62.2311412,
+      -34.4194051
+    ],
+    [
+      63.162304,
+      -34.4651502
+    ],
+    [
+      63.7080622,
+      -34.4880213
+    ],
+    [
+      64.2521813,
+      -34.4989448
+    ],
+    [
+      64.7945642,
+      -34.4980445
+    ],
+    [
+      65.3351127,
+      -34.4854356
+    ],
+    [
+      65.8737274,
+      -34.461225
+    ],
+    [
+      66.8048902,
+      -34.4154799
+    ],
+    [
+      67.3414712,
+      -34.379767
+    ],
+    [
+      67.8759175,
+      -34.3326438
+    ],
+    [
+      68.4081274,
+      -34.2741955
+    ],
+    [
+      68.9379986,
+      -34.2045007
+    ],
+    [
+      69.8601938,
+      -34.067706
+    ],
+    [
+      70.3876231,
+      -33.986837
+    ],
+    [
+      70.9125068,
+      -33.8948601
+    ],
+    [
+      71.4347402,
+      -33.7918356
+    ],
+    [
+      71.9542185,
+      -33.6778179
+    ],
+    [
+      72.4708358,
+      -33.552856
+    ],
+    [
+      73.3751822,
+      -33.326329
+    ],
+    [
+      73.8888322,
+      -33.1904658
+    ],
+    [
+      74.3994082,
+      -33.0437386
+    ],
+    [
+      74.9068025,
+      -32.8861791
+    ],
+    [
+      75.410907,
+      -32.7178129
+    ],
+    [
+      75.9116131,
+      -32.5386596
+    ],
+    [
+      76.7894012,
+      -32.224582
+    ],
+    [
+      77.2865995,
+      -32.0346549
+    ],
+    [
+      77.7801798,
+      -31.8339609
+    ],
+    [
+      78.2700317,
+      -31.6224998
+    ],
+    [
+      78.7560435,
+      -31.4002644
+    ],
+    [
+      79.5988199,
+      -31.0016608
+    ],
+    [
+      80.0808795,
+      -30.768636
+    ],
+    [
+      80.5588739,
+      -30.5247985
+    ],
+    [
+      81.032689,
+      -30.2701162
+    ],
+    [
+      81.5022098,
+      -30.0045473
+    ],
+    [
+      81.9673202,
+      -29.7280396
+    ],
+    [
+      82.7669684,
+      -29.2487489
+    ],
+    [
+      83.2275512,
+      -28.9612389
+    ],
+    [
+      83.6834875,
+      -28.6626502
+    ],
+    [
+      84.1346573,
+      -28.3528931
+    ],
+    [
+      84.5809385,
+      -28.0318622
+    ],
+    [
+      85.3297574,
+      -27.4765002
+    ],
+    [
+      85.7710262,
+      -27.1440731
+    ],
+    [
+      86.2071566,
+      -26.8001085
+    ],
+    [
+      86.6380199,
+      -26.4444436
+    ],
+    [
+      87.063485,
+      -26.0768915
+    ],
+    [
+      87.483417,
+      -25.6972379
+    ],
+    [
+      88.1741953,
+      -25.071153
+    ],
+    [
+      88.5884561,
+      -24.6791526
+    ],
+    [
+      88.9969031,
+      -24.2745243
+    ],
+    [
+      89.3993887,
+      -23.8569461
+    ],
+    [
+      89.7957596,
+      -23.4260484
+    ],
+    [
+      90.4218445,
+      -22.7352702
+    ],
+    [
+      90.8119407,
+      -22.2906284
+    ],
+    [
+      91.1955943,
+      -21.8317528
+    ],
+    [
+      91.5726279,
+      -21.3580773
+    ],
+    [
+      91.9428534,
+      -20.8689449
+    ],
+    [
+      92.4982154,
+      -20.1201259
+    ],
+    [
+      92.8614309,
+      -19.6147699
+    ],
+    [
+      93.2174189,
+      -19.0922912
+    ],
+    [
+      93.5659421,
+      -18.551628
+    ],
+    [
+      93.9067389,
+      -17.9915172
+    ],
+    [
+      94.3860296,
+      -17.191869
+    ],
+    [
+      94.7188085,
+      -16.6107934
+    ],
+    [
+      95.0432399,
+      -16.0069121
+    ],
+    [
+      95.4418434,
+      -15.1641357
+    ],
+    [
+      95.7559211,
+      -14.2863476
+    ],
+    [
+      95.982448,
+      -13.3820012
+    ],
+    [
+      96.1192428,
+      -12.459806
+    ],
+    [
+      96.1649879,
+      -11.5286431
+    ],
+    [
+      96.1192428,
+      -10.5974803
+    ],
+    [
+      95.982448,
+      -9.6752851
+    ],
+    [
+      95.7559211,
+      -8.7709387
+    ],
+    [
+      95.4418434,
+      -7.8931505
+    ],
+    [
+      95.0432399,
+      -7.0503741
+    ],
+    [
+      85.2070272,
+      11.0778233
+    ],
+    [
+      84.0214134,
+      13.0559005
+    ],
+    [
+      82.6476231,
+      14.9082422
+    ],
+    [
+      81.0988868,
+      16.6170094
+    ],
+    [
+      79.3901196,
+      18.1657457
+    ],
+    [
+      77.5377779,
+      19.5395359
+    ],
+    [
+      75.5597008,
+      20.7251497
+    ],
+    [
+      73.4749381,
+      21.711169
+    ],
+    [
+      71.3035674,
+      22.4880979
+    ],
+    [
+      69.0665,
+      23.0484541
+    ],
+    [
+      66.7852803,
+      23.3868411
+    ],
+    [
+      2.9895228,
+      30.3531342
+    ],
+    [
+      0.0,
+      30.5
+    ],
+    [
+      -2.9895228,
+      30.3531342
+    ],
+    [
+      -5.9502548,
+      29.9139511
+    ],
+    [
+      -8.8536827,
+      29.1866802
+    ],
+    [
+      -11.6718447,
+      28.1783257
+    ],
+    [
+      -14.3776005,
+      26.8985986
+    ],
+    [
+      -16.9448921,
+      25.3598232
+    ],
+    [
+      -19.3489952,
+      23.5768188
+    ],
+    [
+      -21.5667568,
+      21.5667568
+    ],
+    [
+      -23.5768188,
+      19.3489952
+    ],
+    [
+      -25.3598232,
+      16.9448921
+    ],
+    [
+      -26.8985986,
+      14.3776005
+    ],
+    [
+      -28.1783257,
+      11.6718447
+    ],
+    [
+      -29.1866802,
+      8.8536827
+    ],
+    [
+      -29.9139511,
+      5.9502548
+    ],
+    [
+      -30.3531342,
+      2.9895228
+    ]
+  ],
+  "covered_leg_design": {},
+  "wheel_drive": {
+    "motor": "SunnySky V2806 650KV",
+    "motor_body_mm": [
+      35,
+      18
+    ],
+    "ratio": 5,
+    "gear_teeth": [
+      20,
+      100
+    ],
+    "module_mm": 0.5,
+    "gear_centres_mm": 30,
+    "main_pod_thickness_mm": 38.5,
+    "previous_box_thickness_mm": 49,
+    "bearing": "two 688 bearings per wheel",
+    "wheel_motor_pair_usd": 57.98,
+    "motor_spring_subtotal_usd": 112.52,
+    "status": "Packaging study; motor attachment, gear procurement, axle retention, loads, cooling and new dynamics unqualified."
+  },
+  "checks": [
+    {
+      "check": "thigh/body",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "lid/body",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/body",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/tire",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/thigh",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/lid",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/thigh",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/lid",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/carrier",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_shaft",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_pin",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/thigh",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/lid",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/body",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/thigh",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/carrier",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/knee_shaft",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/thigh",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/lid",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/thigh",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/lid",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/thigh",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/lid",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/thigh",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/lid",
+      "q_rad": 0.35,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/body",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "lid/body",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/body",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/tire",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/thigh",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/lid",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/thigh",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/lid",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/carrier",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_shaft",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_pin",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/thigh",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/lid",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/body",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/thigh",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/carrier",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/knee_shaft",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/thigh",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/lid",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/thigh",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/lid",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/thigh",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/lid",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/thigh",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/lid",
+      "q_rad": 0.4458333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/body",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "lid/body",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/body",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/tire",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/thigh",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/lid",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/thigh",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/lid",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/carrier",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_shaft",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_pin",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/thigh",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/lid",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/body",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/thigh",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/carrier",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/knee_shaft",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/thigh",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/lid",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/thigh",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/lid",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/thigh",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/lid",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/thigh",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/lid",
+      "q_rad": 0.5416666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/body",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "lid/body",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/body",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/tire",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/thigh",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/lid",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/thigh",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/lid",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/carrier",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_shaft",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_pin",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/thigh",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/lid",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/body",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/thigh",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/carrier",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/knee_shaft",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/thigh",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/lid",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/thigh",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/lid",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/thigh",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/lid",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/thigh",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/lid",
+      "q_rad": 0.6375,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/body",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "lid/body",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/body",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/tire",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/thigh",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/lid",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/thigh",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/lid",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/carrier",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_shaft",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_pin",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/thigh",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/lid",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/body",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/thigh",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/carrier",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/knee_shaft",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/thigh",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/lid",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/thigh",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/lid",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/thigh",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/lid",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/thigh",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/lid",
+      "q_rad": 0.7333333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/body",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "lid/body",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/body",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/tire",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/thigh",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/lid",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/thigh",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/lid",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/carrier",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_shaft",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_pin",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/thigh",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/lid",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/body",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/thigh",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/carrier",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/knee_shaft",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/thigh",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/lid",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/thigh",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/lid",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/thigh",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/lid",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/thigh",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/lid",
+      "q_rad": 0.8291666666666666,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/body",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "lid/body",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/body",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/tire",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/thigh",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/lid",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/thigh",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/lid",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/carrier",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_shaft",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_pin",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/thigh",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/lid",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/body",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/thigh",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/carrier",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/knee_shaft",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/thigh",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/lid",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/thigh",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/lid",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/thigh",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/lid",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/thigh",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/lid",
+      "q_rad": 0.9249999999999999,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/body",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "lid/body",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/body",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/tire",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/thigh",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/lid",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/thigh",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/lid",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/carrier",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_shaft",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_pin",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/thigh",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/lid",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/body",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/thigh",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/carrier",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/knee_shaft",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/thigh",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/lid",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/thigh",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/lid",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/thigh",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/lid",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/thigh",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/lid",
+      "q_rad": 1.0208333333333333,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/body",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "lid/body",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/body",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/tire",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/thigh",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/lid",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/thigh",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/lid",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/carrier",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_shaft",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_pin",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/thigh",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/lid",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/body",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/thigh",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/carrier",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/knee_shaft",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/thigh",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/lid",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/thigh",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/lid",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/thigh",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/lid",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/thigh",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/lid",
+      "q_rad": 1.1166666666666667,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/body",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "lid/body",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/body",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/tire",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/thigh",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/lid",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/thigh",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/lid",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/carrier",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_shaft",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_pin",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/thigh",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/lid",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/body",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/thigh",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/carrier",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/knee_shaft",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/thigh",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/lid",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/thigh",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/lid",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/thigh",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/lid",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/thigh",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/lid",
+      "q_rad": 1.2125,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/body",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "lid/body",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/body",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/tire",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/thigh",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/lid",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/thigh",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/lid",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/carrier",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_shaft",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_pin",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/thigh",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/lid",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/body",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/thigh",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/carrier",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/knee_shaft",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/thigh",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/lid",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/thigh",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/lid",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/thigh",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/lid",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/thigh",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/lid",
+      "q_rad": 1.3083333333333331,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/body",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "lid/body",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/body",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/tire",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/thigh",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/lid",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/thigh",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/lid",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/carrier",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_shaft",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_pin",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/thigh",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/lid",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/body",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/thigh",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/carrier",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/knee_shaft",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/thigh",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/lid",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/thigh",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/lid",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/thigh",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/lid",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/thigh",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/lid",
+      "q_rad": 1.4041666666666668,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/body",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "lid/body",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/body",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "thigh/tire",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/thigh",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "pod/lid",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/thigh",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/lid",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/carrier",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_shaft",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "guide/knee_pin",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/thigh",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/lid",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "carrier/body",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/thigh",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/carrier",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "spring/knee_shaft",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/thigh",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_inner/lid",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/thigh",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_lever_outer/lid",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/thigh",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_knee_guide_pin/lid",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/thigh",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "left_guide_spacer_knee_inner/lid",
+      "q_rad": 1.5,
+      "overlap_mm3": 0.0,
+      "passed": true
+    }
+  ],
+  "minimum_pod_ground_clearance_mm": 20.639558344473752,
+  "all_packaging_checks_pass": true
+}

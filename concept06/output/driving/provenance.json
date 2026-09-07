@@ -1,0 +1,10 @@
+{
+  "mujoco_version": "3.3.7",
+  "sources": {
+    "design/concept06/driving.py": "8ee108ca4fc40e10179ab57bbc7e9abf966c44a86607f5774c48d55f4f7391bf",
+    "design/concept06/model.py": "9c4b09189139f1d8ef0f140b9809580ae562e6b5c031021b8415e2e4e84360f8",
+    "design/concept06/linkage.py": "ac70c27aa24e5af8a857f16716206685c2994e1d84bf41da63228feae175c660",
+    "design/concept06/geometry.json": "1f7005b4a565bd0233828fd6314dd0ddd2f479e47b5e57cbc9c0da22f7909ea7",
+    "design/viewer/brushless.mjs": "638b7a03afb177fb162b973eeaf6080badba9250aa87b83079cb58208852d252"
+  }
+}

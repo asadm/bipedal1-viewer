@@ -1,0 +1,18 @@
+{
+  "ui": "passed",
+  "presets": [
+    "compact",
+    "extended",
+    "split"
+  ],
+  "displays": [
+    "enclosed",
+    "cutaway"
+  ],
+  "comparison": true,
+  "jump_apex": "177.6 mm",
+  "landing_contact": "Wheel contact",
+  "runtime_errors": 0,
+  "parts_sha256": "e6847134c94f79a622cd88df2162e13a09e73b6d484d390a1a0fab736ec23820",
+  "scope": "Headless Chrome DOM interaction and rendered screenshots for the final exterior meshes. Recorded motion only; no new dynamics simulation."
+}

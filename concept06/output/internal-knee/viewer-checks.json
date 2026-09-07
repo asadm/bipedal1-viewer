@@ -1,0 +1,21 @@
+{
+  "poses": [
+    {
+      "pose": "low",
+      "extension": "0.0 mm",
+      "compression": "18.72 mm",
+      "neck_gap": "5.33 mm",
+      "wall_gap": "1.05 mm"
+    },
+    {
+      "pose": "high",
+      "extension": "100.2 mm",
+      "compression": "0.00 mm",
+      "neck_gap": "1.11 mm",
+      "wall_gap": "1.14 mm"
+    }
+  ],
+  "controls": "pass",
+  "direct_link": "pass",
+  "runtime_errors": 0
+}

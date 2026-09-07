@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Beni / Bending legs</title>
+<script>
+const previous=new URLSearchParams(location.search);
+const target=new URL('streamlined.html',location.href);
+target.searchParams.set('mode',previous.get('mode')==='jump'?'jump':'pose');
+for(const key of ['pose','view'])if(previous.has(key))target.searchParams.set(key,previous.get(key));
+if(previous.get('display')==='inside')target.searchParams.set('display','ghost');
+location.replace(target.href);
+</script><meta http-equiv="refresh" content="0; url=streamlined.html?mode=pose"></head>
+<body><p>The active design uses Beni-style bending legs and in-thigh springs. <a href="streamlined.html?mode=pose">Open the restored design</a>.</p></body></html>

@@ -1,0 +1,144 @@
+{
+  "status": "FAIL \u2014 current assembly is not qualified for powered jumping or outdoor exposure.",
+  "material_reference": {
+    "steel_yield_MPa": 355.0,
+    "target_static_factor": 2.0,
+    "steel_grade_status": "355 MPa reference from S355MC sheet data; actual carrier/shaft/pin material and fabrication remain unselected.",
+    "printed_polymer": "PETG HF assumed for this screen, not an approved gear material",
+    "PETG_HF_XY_tensile_MPa": 34,
+    "PETG_HF_XY_tensile_spread_MPa": 4,
+    "PETG_HF_Z_tensile_MPa": 23,
+    "PETG_HF_XY_flexural_MPa": 64,
+    "PETG_HF_Z_flexural_MPa": 48,
+    "provisional_tensile_allowable_MPa": 15.0
+  },
+  "load_basis": {
+    "nominal_peak_guide_N": 769.5973268211607,
+    "worst_campaign_peak_guide_N": 1222.9851503288055,
+    "worst_case": "drop_250mm_roll_5deg",
+    "nominal_peak_knee_reaction_N": 872.5254803927935,
+    "load_trace_stride_s": 0.001,
+    "warning": "Rigid-contact simulation peaks, not measured landing loads. Force maxima are sampled every dynamics step; torque trace is 1 ms. Constraint/contact compliance strongly affects impacts."
+  },
+  "nominal_sections": {
+    "guide_net_stress_MPa": 49.33316197571542,
+    "guide_nominal_yield_factor": 7.195970940900791,
+    "guide_axial_deflection_mm": 0.00788717010409374,
+    "carrier_post_bending_MPa": 319.9613877652809,
+    "carrier_post_combined_upper_bound_MPa": 389.02835647120946,
+    "carrier_bending_only_yield_factor": 1.109508876928684,
+    "carrier_combined_yield_factor_lower_bound": 0.9125298814207962,
+    "carrier_diameter_for_factor_2_mm": 9.092689069555865,
+    "knee_guide_pin_bending_MPa": 98.71401333647371,
+    "knee_guide_pin_nominal_yield_factor": 3.596247260152997
+  },
+  "worst_campaign_sections": {
+    "guide_net_stress_MPa": 78.39648399543624,
+    "guide_nominal_yield_factor": 4.528264303545372,
+    "guide_axial_deflection_mm": 0.012533686876572867,
+    "carrier_post_bending_MPa": 508.45814074204503,
+    "carrier_post_combined_upper_bound_MPa": 618.214079545096,
+    "carrier_bending_only_yield_factor": 0.6981892343820322,
+    "carrier_combined_yield_factor_lower_bound": 0.5742347380072963,
+    "carrier_diameter_for_factor_2_mm": 10.610720743658423,
+    "knee_guide_pin_bending_MPa": 156.8687523104161,
+    "knee_guide_pin_nominal_yield_factor": 2.263038334731677
+  },
+  "hip_output_gear": {
+    "teeth": 60,
+    "module_mm": 1,
+    "face_width_mm": 12,
+    "pitch_radius_mm": 30,
+    "Lewis_module_form_factor": 0.4360530603182633,
+    "measured_trace_peak_hip_torque_Nm": 8.816822131499162,
+    "motor_envelope_torque_bound_Nm": 8.816822131511246,
+    "nominal_trace_Lewis_stress_MPa": 56.16557895413515,
+    "envelope_Lewis_stress_MPa": 56.16557895421212,
+    "envelope_with_assumed_1_5_load_factor_MPa": 84.24836843131818,
+    "provisional_allowable_MPa": 15.0,
+    "passed_simple_screen": false,
+    "limitation": "Lewis cantilever approximation; assumed 20\u00b0 full-depth form, not the actual root fillet. No AGMA/JGMA rating, fatigue, temperature, creep, wear, layer orientation or root-geometry validation."
+  },
+  "knee_bushing": {
+    "nominal_projected_bronze_pressure_MPa": 27.266421262274797,
+    "nominal_projected_printed_seat_pressure_MPa": 18.177614174849865,
+    "status": "UNQUALIFIED \u2014 bushing PV/pressure rating, lubrication, fits, printed bearing/creep strength and side loading are unspecified. No tensile-to-compressive-strength equivalence assumed."
+  },
+  "torque_and_retention": [
+    {
+      "interface": "Hip shaft to printed thigh",
+      "status": "FAIL",
+      "evidence": "Round 8 mm shaft in round 8.2 mm bore; no modeled key, clamp, spline or positive torque fastener. Clearance fit provides no defined torque capacity.",
+      "required": "Add a positively driven metal hub/shaft connection and load-spreading attachment to the thigh."
+    },
+    {
+      "interface": "Hip output gear to shaft",
+      "status": "UNQUALIFIED",
+      "evidence": "Round bore and shaft envelopes; hub/clamping/retention not detailed.",
+      "required": "Select or draw the complete keyed/clamped gear-shaft assembly."
+    },
+    {
+      "interface": "Knee shaft to lower print",
+      "status": "UNQUALIFIED",
+      "evidence": "A D-flat is allocated, but cyclic bearing stress, creep, hub confinement and retention are untested.",
+      "required": "Prefer a metal hub/load spreader and verify shaft/cheek retention."
+    },
+    {
+      "interface": "Wheel axle, gear and rim",
+      "status": "UNQUALIFIED",
+      "evidence": "Shaft and bores exist without final positive torque connections or axial retention.",
+      "required": "Detail gear/hub clamps, shoulders and retainers before applying wheel torque."
+    },
+    {
+      "interface": "Spring and guide pins",
+      "status": "UNQUALIFIED",
+      "evidence": "Pins have no final axial retainers. Spring unloads above its free length; captive spring/rod retention is not complete.",
+      "required": "Provide captive seats and positive pin retainers, then verify full travel on a bench."
+    }
+  ],
+  "enclosure": {
+    "status": "FAIL CAD sealing review; no physical ingress test performed.",
+    "open_paths": [
+      {
+        "location": "Body split seam",
+        "nominal_gap_mm": 0.4,
+        "closure": "No compressed perimeter gasket or final fasteners."
+      },
+      {
+        "location": "Hip overlap",
+        "nominal_radial_gap_mm": 0.2,
+        "closure": "36 mm lid opening around 35.8 mm fixed cheek, without an allocated rotary seal."
+      },
+      {
+        "location": "Knee boss opening",
+        "nominal_radial_gap_mm": 0.4,
+        "closure": "9.4 mm radius opening around 9 mm boss, without a qualified seal."
+      },
+      {
+        "location": "Spring-post wiping slit",
+        "nominal_slit_width_mm": 0.7,
+        "closure": "Single slit in a 0.6 mm TPU membrane; no overlapping lips, compression or wear data."
+      },
+      {
+        "location": "Visor, wheel axles and service lids",
+        "closure": "No complete gasket, shaft-seal, cable-gland or drainage details."
+      }
+    ],
+    "required": "Captured gasket seams, supported rotating seals/labyrinths, overlapping wipers and sealed cable routes; then controlled spray/dust and repeated-motion tests. No IP rating claimed."
+  },
+  "disposition": [
+    "Keep the general bending-leg layout, but do not release these STLs for a powered jump.",
+    "Redesign the carrier support/post and positively driven metal hubs; re-run packaging and load checks after those CAD changes.",
+    "Replace or substantially redesign/load-qualify the printed hip gearing; generic coupon strength is insufficient.",
+    "Resolve the 5 ms delay endstop failure with a delay-aware launch/velocity envelope and validate it again.",
+    "Rebalance component placement if a level body is required; current equilibrium is about 9 degrees pitched.",
+    "Finish closures and physical bench qualification; simulation cannot certify fatigue, print strength, seals or motor temperature."
+  ],
+  "sources": [
+    "https://www.ssab.com/en/brands-and-products/ssab-domex/product-offer/355mc",
+    "https://c.cdnmp.net/712781591/content/Bambulab_PETG_HF_Technical_Data_Sheet.pdf",
+    "https://khkgears.net/pdf/spur-tech.pdf",
+    "https://sunnyskyusa.com/products/sunnysky-v2806-motor"
+  ],
+  "hardware_release_pass": false
+}

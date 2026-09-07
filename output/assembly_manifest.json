@@ -1,0 +1,243 @@
+{
+  "parameters": {
+    "revision": "concept-01",
+    "units": "mm",
+    "wheel_diameter": 100.0,
+    "tire_width": 30.0,
+    "track": 150.0,
+    "arm_length": 75.0,
+    "pivot_x": -70.0,
+    "arm_y": 53.0,
+    "arm_thickness": 8.0,
+    "low_axle_drop": -10.0,
+    "height_range": 35.0,
+    "bump": 20.0,
+    "droop": 10.0,
+    "shock_fraction": 0.4,
+    "shock_x": -42.0,
+    "shock_y": 44.0,
+    "shock_loaded_length": 65.0,
+    "shock_min_length": 55.2,
+    "shock_max_length": 70.0,
+    "shock_body_diameter": 10.0,
+    "shock_spring_rate_N_mm": 4.9,
+    "sprung_mass_kg": 1.6,
+    "all_up_mass_kg": 2.0,
+    "screw_lead": 1.0,
+    "screw_efficiency": 0.3,
+    "height_speed_mm_s": 5.0,
+    "drive_diameter": 25.0,
+    "drive_length": 61.0,
+    "drive_outer_y": 65.0,
+    "drive_status": "DFRobot FIT0493 / 25GA-370 class: 25 mm gearbox, 61 mm body including encoder, 12 mm shaft; drawing-based envelope",
+    "battery_status": "60 x 65 x 30 envelope; chemistry, capacity and SKU unselected",
+    "shock_status": "RC4WD Z-D0087 published length/OD reference; eye details simplified and spring rate unverified",
+    "height_drive_status": "N20-class 12 V geared motor, about 150:1; 10 x 12 x 32 mm body reservation; exact SKU pending",
+    "printer_build_volume": [
+      180,
+      180,
+      180
+    ],
+    "print_xy_limit": 170.0,
+    "structural_material": "PETG baseline; printed arms and chassis; metal pins, bearings and screw",
+    "simulator": "MuJoCo",
+    "shock_damping_N_s_m": 80.0
+  },
+  "poses": {
+    "low": {
+      "state": {
+        "height_mm": 0,
+        "left_bump_mm": 0.0,
+        "right_bump_mm": 0.0,
+        "body_z_mm": 40.0,
+        "upper_eye_z_mm": 68.97691666814971,
+        "left_wheel": [
+          4.330343736592525,
+          10.0
+        ],
+        "right_wheel": [
+          4.330343736592525,
+          10.0
+        ],
+        "left_lower_eye": [
+          -40.267862505362984,
+          4.0
+        ],
+        "right_lower_eye": [
+          -40.267862505362984,
+          4.0
+        ],
+        "left_shock_mm": 65.0,
+        "right_shock_mm": 65.0
+      },
+      "part_count": 44,
+      "bounds_mm": {
+        "x_min": -92.50000010000002,
+        "x_max": 65.00000010000005,
+        "y_min": -90.09483366314781,
+        "y_max": 90.09483366314781,
+        "z_min": -1.0000001907095601e-07,
+        "z_max": 180.0000001,
+        "length": 157.50000020000007,
+        "width": 180.18966732629562,
+        "height": 180.00000020000002
+      }
+    },
+    "normal": {
+      "state": {
+        "height_mm": 17.5,
+        "left_bump_mm": 0.0,
+        "right_bump_mm": 0.0,
+        "body_z_mm": 57.5,
+        "upper_eye_z_mm": 61.97367847320268,
+        "left_wheel": [
+          4.624057782996502,
+          -7.5
+        ],
+        "right_wheel": [
+          4.624057782996502,
+          -7.5
+        ],
+        "left_lower_eye": [
+          -40.150376886801396,
+          -3.0
+        ],
+        "right_lower_eye": [
+          -40.150376886801396,
+          -3.0
+        ],
+        "left_shock_mm": 65.0,
+        "right_shock_mm": 65.0
+      },
+      "part_count": 44,
+      "bounds_mm": {
+        "x_min": -92.50000010000002,
+        "x_max": 65.00000010000005,
+        "y_min": -90.09483366314781,
+        "y_max": 90.09483366314781,
+        "z_min": -1.0000001907095601e-07,
+        "z_max": 197.5000001,
+        "length": 157.50000020000007,
+        "width": 180.18966732629562,
+        "height": 197.50000020000002
+      }
+    },
+    "raised": {
+      "state": {
+        "height_mm": 35.0,
+        "left_bump_mm": 0.0,
+        "right_bump_mm": 0.0,
+        "body_z_mm": 75.0,
+        "upper_eye_z_mm": 54.99937838054966,
+        "left_wheel": [
+          0.710678118654755,
+          -25.0
+        ],
+        "right_wheel": [
+          0.710678118654755,
+          -25.0
+        ],
+        "left_lower_eye": [
+          -41.7157287525381,
+          -10.0
+        ],
+        "right_lower_eye": [
+          -41.7157287525381,
+          -10.0
+        ],
+        "left_shock_mm": 65.0,
+        "right_shock_mm": 65.0
+      },
+      "part_count": 44,
+      "bounds_mm": {
+        "x_min": -92.50000010000002,
+        "x_max": 65.00000010000005,
+        "y_min": -90.09483366314781,
+        "y_max": 90.09483366314781,
+        "z_min": -1.0000001907095601e-07,
+        "z_max": 215.0000001,
+        "length": 157.50000020000007,
+        "width": 180.18966732629562,
+        "height": 215.00000020000002
+      }
+    },
+    "left_bump": {
+      "state": {
+        "height_mm": 17.5,
+        "left_bump_mm": 20.0,
+        "right_bump_mm": 0,
+        "body_z_mm": 57.5,
+        "upper_eye_z_mm": 61.97367847320268,
+        "left_wheel": [
+          3.9509972887451994,
+          12.5
+        ],
+        "right_wheel": [
+          4.624057782996502,
+          -7.5
+        ],
+        "left_lower_eye": [
+          -40.41960108450192,
+          5.0
+        ],
+        "right_lower_eye": [
+          -40.150376886801396,
+          -3.0
+        ],
+        "left_shock_mm": 56.99559368495065,
+        "right_shock_mm": 65.0
+      },
+      "part_count": 44,
+      "bounds_mm": {
+        "x_min": -92.50000010000002,
+        "x_max": 65.00000010000005,
+        "y_min": -90.09483366314781,
+        "y_max": 90.09483366314781,
+        "z_min": -1.0000001907095601e-07,
+        "z_max": 197.5000001,
+        "length": 157.50000020000007,
+        "width": 180.18966732629562,
+        "height": 197.50000020000002
+      }
+    },
+    "cross_articulation": {
+      "state": {
+        "height_mm": 17.5,
+        "left_bump_mm": 20.0,
+        "right_bump_mm": -10.0,
+        "body_z_mm": 57.5,
+        "upper_eye_z_mm": 61.97367847320268,
+        "left_wheel": [
+          3.9509972887451994,
+          12.5
+        ],
+        "right_wheel": [
+          2.929760729074104,
+          -17.5
+        ],
+        "left_lower_eye": [
+          -40.41960108450192,
+          5.0
+        ],
+        "right_lower_eye": [
+          -40.828095708370356,
+          -7.0
+        ],
+        "left_shock_mm": 56.99559368495065,
+        "right_shock_mm": 68.98363343426819
+      },
+      "part_count": 44,
+      "bounds_mm": {
+        "x_min": -92.50000010000002,
+        "x_max": 65.00000010000005,
+        "y_min": -90.09483366314781,
+        "y_max": 90.09483366314781,
+        "z_min": -10.000000100000019,
+        "z_max": 197.5000001,
+        "length": 157.50000020000007,
+        "width": 180.18966732629562,
+        "height": 207.50000020000002
+      }
+    }
+  }
+}

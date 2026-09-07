@@ -1,0 +1,18 @@
+{
+  "revision": "concept-02-enclosed",
+  "status": "Appearance and packaging concept; jump transmission and strength unvalidated",
+  "units": "mm",
+  "wheel_radius": 50,
+  "wheel_width": 30,
+  "track": 150,
+  "arm_length": 75,
+  "pivot_x": -66,
+  "low_axle_drop": -10,
+  "height_range": 50,
+  "bump_preview": 12,
+  "body_top": 140,
+  "shell_wall": 2.6,
+  "printer_build_volume": [180, 180, 180],
+  "preferred_print_xy": 170,
+  "jump_drive_envelope_mm": [34, 74, 68]
+}
