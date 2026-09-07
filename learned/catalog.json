@@ -36,7 +36,7 @@
       "id": "recovery",
       "label": "Stand after a fall",
       "stage": "In development",
-      "detail": "Required capability and current priority. Training has finished without a validated recovery policy. Wider leg motion and mechanical clearances are being investigated."
+      "detail": "Required capability and current priority. A wider four-motor leg design has passed its sampled enclosure checks and is undergoing simulation tests. Standing recovery remains unvalidated."
     }
   ],
   "policies": [
