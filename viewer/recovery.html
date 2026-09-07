@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Beni / Recovery development</title><link rel="icon" href="data:,">
+  <link rel="stylesheet" href="viewer.css"><link rel="stylesheet" href="recovery.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/controls/OrbitControls.js":"./vendor/OrbitControls.js"}}</script>
+</head>
+<body>
+<header class="header"><a class="brand" href="validation.html"><span class="brand-mark">b.</span><span>Beni <span class="brand-secondary">/ recovery development</span></span></a><span class="header-meta">Four motors · wider leg candidate</span><a class="download" href="skills.html">Learned skills ↗</a></header>
+<main class="workspace">
+  <aside class="sidebar">
+    <section class="control-section">
+      <div class="eyebrow">PROGRAMMED MUJOCO REPLAYS</div>
+      <h1>Getting back on its wheels.</h1>
+      <p class="intro">A quick leg motion rolls the body up. Balance feedback catches it above the wheels and brings it upright. Each fall uses its own programmed sequence.</p>
+      <label for="family">Starting fall</label><select id="family" disabled></select>
+      <p id="verification" class="note">Loading simulation checks…</p>
+      <div class="play-row"><button id="play" disabled>Play</button><button id="restart" disabled>Restart</button><select id="speed" aria-label="Playback speed"><option value="0.1">0.1×</option><option value="0.25" selected>0.25×</option><option value="0.5">0.5×</option><option value="1">1×</option></select></div>
+      <div class="slider-heading"><label for="timeline">Simulation time</label><output id="time-output">0.00 s</output></div>
+      <input id="timeline" type="range" min="0" max="6" step=".005" value="0" disabled>
+      <div class="preset-row"><button id="capture" disabled>Balance handoff</button><button id="finish" disabled>Finish</button></div>
+    </section>
+    <section class="control-section">
+      <h2>Recorded motion</h2>
+      <dl class="measurements">
+        <div><dt>Body tilt</dt><dd id="tilt">—</dd></div>
+        <div><dt>Left / right hip</dt><dd id="hips">—</dd></div>
+        <div><dt>Spring compression</dt><dd id="springs">—</dd></div>
+        <div><dt>Body speed</dt><dd id="velocity">—</dd></div>
+        <div><dt>Body angular speed</dt><dd id="angular">—</dd></div>
+        <div><dt>Peak hip current</dt><dd id="current">—</dd></div>
+        <div><dt>Estimated mass</dt><dd id="mass">—</dd></div>
+      </dl>
+    </section>
+    <section class="control-section">
+      <h2>Demonstrated, still in development</h2>
+      <p class="note">These exact starts finish with at least two seconds of wheel-supported balance at both simulation timesteps. The motions can be aggressive.</p>
+      <p class="note" id="sensitivity">Recovery from arbitrary falls is not validated. No learned recovery policy is released.</p>
+      <p class="note">The display shows the simulated contact hulls of the new enclosed candidate. Self-contact, sensing delays and the strength of printed parts, spring fittings and torque connections remain unqualified.</p>
+      <a id="evidence" class="evidence" href="../recovery/catalog.json">Replay evidence ↗</a>
+    </section>
+  </aside>
+  <section class="viewport" aria-label="Interactive 3D recovery replay">
+    <div class="view-toolbar"><button data-view="iso">3D</button><button data-view="side">Side</button><button data-view="front">Front</button><button id="fit">Fit</button></div>
+    <div class="canvas-caption"><span class="caption-mark"></span>Development candidate · simulated contact hulls</div>
+    <canvas id="model-canvas" tabindex="0" aria-label="Robot recovery replay. Drag to orbit; scroll to zoom."></canvas>
+    <div id="phase" role="status">Fallen start</div>
+    <div id="load-status" role="status">Loading recovery replay…</div>
+    <div class="interaction-hint">Drag to orbit · Scroll to zoom · Scrub to inspect the tumble</div>
+  </section>
+</main>
+<script type="module" src="recovery.mjs"></script>
+</body></html>

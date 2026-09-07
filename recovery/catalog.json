@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "kind": "programmed-development",
+  "geometry": "geometry.json",
+  "mass_kg": 2.448068616181515,
+  "actuator_count": 4,
+  "provenance": {
+    "baseline_model_sha256": "8fb5e4c3e5c1ff8b1a44c18e1a2d8f5c790b85cc202bc2f88f3cf1666a661491",
+    "model_sha256": "60f21ccdef503755e4dff697eceedf1ee508977b3ba661cab7c014b79c7e3f8d",
+    "cad_export_sha256": "f13d6ea9e08958e2e1fb580e83b011811c3e974f8f76d13092c3fbfbc45d9ac0",
+    "loader_source_sha256": "74a10b70ec791e9a33d9302693d1fda7389898cada7253121ef400c4fb169217",
+    "mujoco_version": "3.10.0",
+    "physics_timestep_s": 0.0005,
+    "mass_kg": 2.448068616181515,
+    "hip_range_rad": [
+      -2.6,
+      2.6
+    ],
+    "ground_only": true,
+    "hardware_release": false
+  },
+  "source_sha256": {
+    "scripts/wide_recovery_control.py": "a58d458e950e2704193c6ac7d783869915c633ed92e16a4792f0239ae6966368",
+    "scripts/wide_recovery_model.py": "74a10b70ec791e9a33d9302693d1fda7389898cada7253121ef400c4fb169217",
+    "src/beni/robot/factory.py": "b80c8459af7a3a970ac7a0f84a9b2ee9144f2f712afa07c0d6b10188323f2572",
+    "src/beni/actuator/electrical.py": "2cd878df9a8dfee121c7d24dc2c2f287ccf8c7d39b9ae3ac1b85cd0745c98273",
+    "src/beni/robot/geometry.py": "5da8e47085adc7274df5e6f30c90515322964cf8277adb945bd79b35ddcfdaa5",
+    "scripts/search_wide_getup.py": "73572b6d8cbaa4a1457f127328eb8aa32c1cf77e37aac0495015f6342b43be95"
+  },
+  "learned_policy": false,
+  "recovery_validated": false,
+  "hardware_release": false,
+  "limitations": [
+    "Separate sequence for each exact start; no autonomous recovery policy yet.",
+    "Ground-contact hull display; internal parts and self-contact are not rendered or simulated.",
+    "Aggressive motions; printed parts, fittings and torque connections remain structurally unqualified."
+  ],
+  "replays": [
+    {
+      "family": "front",
+      "label": "Front",
+      "file": "front.json",
+      "source_sha256": "99a3455c98c872667f2adb3c701004c9c0c99a0444b34e8ead0c6bdfabe7878e",
+      "half_step_source_sha256": "fbd88ab523fd27a8c2ee0b2261cdc7c3c2659794f109f361e870a2aa5349218c",
+      "stable_hold_s": 4.2260000000003775,
+      "half_step_stable_hold_s": 4.771500000000086
+    },
+    {
+      "family": "back",
+      "label": "Back",
+      "file": "back.json",
+      "source_sha256": "a97c324da23a655ca42ed4b706b2ab99562aaed11eb9ffa1d89c64f5bf0251a4",
+      "half_step_source_sha256": "d70d42419d764285af1b9801d5552f1f6beea2a9bc4db9c8d1037ffb4d1df2cd",
+      "stable_hold_s": 4.888000000000011,
+      "half_step_stable_hold_s": 4.469749999999717
+    },
+    {
+      "family": "left_side",
+      "label": "Left Side",
+      "file": "left_side.json",
+      "source_sha256": "461e2241064a5b919c083f0572ab4ba5378e578a21165f654509d035bf24a990",
+      "half_step_source_sha256": "513ae4bdabaedc91f6b724cb6134e29b3c9e0ab3617f49170c198f2418ab2f4d",
+      "stable_hold_s": 4.851000000000031,
+      "half_step_stable_hold_s": 4.508499999999764
+    },
+    {
+      "family": "right_side",
+      "label": "Right Side",
+      "file": "right_side.json",
+      "source_sha256": "9a17575287a2f18b45bf7d66a3793bec10fbcd15abfc5a1f12333d09209aedce",
+      "half_step_source_sha256": "2ca65f2af27d647490fd3a8c7b39d0d47fd300ca95484f2f69cba3352b3eaf1a",
+      "stable_hold_s": 4.591000000000175,
+      "half_step_stable_hold_s": 4.283499999999489
+    },
+    {
+      "family": "inverted",
+      "label": "Inverted",
+      "file": "inverted.json",
+      "source_sha256": "fc64b5194ca83d08370f0afabec7838733d928fb387be5c2e771edf9519ef7c0",
+      "half_step_source_sha256": "356460b09381ff1dcf450147fa27c4b226d24e80212b32372e1ea9188fd8c3a4",
+      "stable_hold_s": 4.190500000000397,
+      "half_step_stable_hold_s": 4.190249999999375
+    },
+    {
+      "family": "front_left",
+      "label": "Front Left",
+      "file": "front_left.json",
+      "source_sha256": "2cf9344b5877cfb0cbc10e74b722914c50e6ecffc35978c4f19ad7f6190188ac",
+      "half_step_source_sha256": "5bb7d2d2f1b3eacdda53a6b3f91f2ccdf71a2372263b660c954510a1a7b10a63",
+      "stable_hold_s": 4.058000000000471,
+      "half_step_stable_hold_s": 4.053249999999208
+    },
+    {
+      "family": "front_right",
+      "label": "Front Right",
+      "file": "front_right.json",
+      "source_sha256": "aa3f823de611d64a50b7f7daa3d2bdf08e7cce8c52d93c11af1d410fd2464518",
+      "half_step_source_sha256": "00104ec61b0fecda81fd06acbb7260157df7a2c58e05127e5f7420f596c88a43",
+      "stable_hold_s": 4.620500000000159,
+      "half_step_stable_hold_s": 4.6002499999998765
+    },
+    {
+      "family": "back_left",
+      "label": "Back Left",
+      "file": "back_left.json",
+      "source_sha256": "423dbb788fcedcb36b3e696cf2be8bd5938d5a3f97199a6d6b1fca9a8c9387f3",
+      "half_step_source_sha256": "4644cdf23cd45d17b15e624a5192c09ddfda1fff43552079ec816ffb9b7dd6e0",
+      "stable_hold_s": 4.284000000000345,
+      "half_step_stable_hold_s": 4.812250000000136
+    },
+    {
+      "family": "back_right",
+      "label": "Back Right",
+      "file": "back_right.json",
+      "source_sha256": "83f6883cdc1580d0f7f0fcad284ae8eee6fb90cd91022526477d47aa155bdd8c",
+      "half_step_source_sha256": "bd7f5e1bf7f8fe0bc84b3d1d198f39750d5122dc9c9d19fef285b8eb056763ad",
+      "stable_hold_s": 4.87100000000002,
+      "half_step_stable_hold_s": 4.891250000000232
+    }
+  ],
+  "sensitivity": [
+    {
+      "source_sha256": "12ec48994aad9e3bdf75a4ea6c9e96037599f1d7b66d54c649c4f6207c663861",
+      "timestep_s": 0.0005,
+      "summary": {
+        "front": {
+          "cases": 17,
+          "stable_finishes": 10,
+          "physical_pass_cases": 17
+        },
+        "back": {
+          "cases": 17,
+          "stable_finishes": 15,
+          "physical_pass_cases": 17
+        },
+        "left_side": {
+          "cases": 17,
+          "stable_finishes": 14,
+          "physical_pass_cases": 17
+        },
+        "right_side": {
+          "cases": 17,
+          "stable_finishes": 11,
+          "physical_pass_cases": 17
+        },
+        "inverted": {
+          "cases": 17,
+          "stable_finishes": 13,
+          "physical_pass_cases": 17
+        },
+        "front_left": {
+          "cases": 17,
+          "stable_finishes": 13,
+          "physical_pass_cases": 17
+        },
+        "front_right": {
+          "cases": 17,
+          "stable_finishes": 5,
+          "physical_pass_cases": 17
+        },
+        "back_left": {
+          "cases": 17,
+          "stable_finishes": 16,
+          "physical_pass_cases": 17
+        },
+        "back_right": {
+          "cases": 17,
+          "stable_finishes": 8,
+          "physical_pass_cases": 17
+        }
+      },
+      "limitations": [
+        "One separately selected sequence per family; no autonomous family selector tested.",
+        "Nominal hardware only, perfect state and ground-only contacts.",
+        "Small perturbations of nine original poses do not establish recovery from arbitrary falls."
+      ]
+    },
+    {
+      "source_sha256": "a9422018d192b8daa91312cafa43473024c0b91c30983687f9852fe30d3e9892",
+      "timestep_s": 0.00025,
+      "summary": {
+        "front": {
+          "cases": 17,
+          "stable_finishes": 11,
+          "physical_pass_cases": 17
+        },
+        "back": {
+          "cases": 17,
+          "stable_finishes": 14,
+          "physical_pass_cases": 17
+        },
+        "left_side": {
+          "cases": 17,
+          "stable_finishes": 16,
+          "physical_pass_cases": 17
+        },
+        "right_side": {
+          "cases": 17,
+          "stable_finishes": 13,
+          "physical_pass_cases": 17
+        },
+        "inverted": {
+          "cases": 17,
+          "stable_finishes": 14,
+          "physical_pass_cases": 17
+        },
+        "front_left": {
+          "cases": 17,
+          "stable_finishes": 10,
+          "physical_pass_cases": 17
+        },
+        "front_right": {
+          "cases": 17,
+          "stable_finishes": 7,
+          "physical_pass_cases": 17
+        },
+        "back_left": {
+          "cases": 17,
+          "stable_finishes": 15,
+          "physical_pass_cases": 17
+        },
+        "back_right": {
+          "cases": 17,
+          "stable_finishes": 9,
+          "physical_pass_cases": 17
+        }
+      },
+      "limitations": [
+        "One separately selected sequence per family; no autonomous family selector tested.",
+        "Nominal hardware only, perfect state and ground-only contacts.",
+        "Small perturbations of nine original poses do not establish recovery from arbitrary falls."
+      ]
+    }
+  ]
+}
