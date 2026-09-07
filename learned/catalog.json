@@ -25,7 +25,7 @@
       "id": "push",
       "label": "Recover from a push",
       "stage": "Validated",
-      "detail": "120/120 independent simulation cases passed."
+      "detail": "Original and wider robots each passed 120/120 independent push-recovery cases."
     },
     {
       "id": "jump",
@@ -37,7 +37,7 @@
       "id": "recovery",
       "label": "Stand after a fall",
       "stage": "In development",
-      "detail": "Required. The wider candidate now has validated balance. Programmed get-ups pass 18/18 exact-start tests and 214/306 nearby-start tests. Learned full-fall recovery remains unvalidated. See the recovery development viewer."
+      "detail": "Required. The wider candidate has validated balance and push recovery. Programmed get-ups pass 18/18 exact-start tests and 214/306 nearby-start tests. Learned full-fall recovery remains unvalidated. See the recovery development viewer."
     }
   ],
   "policies": [
@@ -106,6 +106,21 @@
       "policy": "balance-95954210455f/policy.onnx",
       "checkpoint": "balance-95954210455f/checkpoint.pt",
       "geometry": "balance-95954210455f/geometry.json",
+      "geometry_sha256": "2560292600249b8958ddce441780c7aa94a19fe700daac5a05433e3a5917565c"
+    },
+    {
+      "id": "push-9b3b76d7bf69",
+      "skill": "push",
+      "label": "Push recovery \u00b7 wider candidate",
+      "policy_sha256": "9b3b76d7bf6951a81e6d31457c9f0e5622c4446ab857f99788e01cff1e151bf8",
+      "model_sha256": "60f21ccdef503755e4dff697eceedf1ee508977b3ba661cab7c014b79c7e3f8d",
+      "cases": 120,
+      "passed": 120,
+      "replay": "push-9b3b76d7bf69/trajectory.json",
+      "evaluation": "push-9b3b76d7bf69/evaluation.json",
+      "policy": "push-9b3b76d7bf69/policy.onnx",
+      "checkpoint": "push-9b3b76d7bf69/checkpoint.pt",
+      "geometry": "push-9b3b76d7bf69/geometry.json",
       "geometry_sha256": "2560292600249b8958ddce441780c7aa94a19fe700daac5a05433e3a5917565c"
     }
   ]
