@@ -36,7 +36,7 @@
       "id": "recovery",
       "label": "Stand after a fall",
       "stage": "Training",
-      "detail": "The current policy passes 8 of 61 tested fall starts. Side and upside-down recovery still fail; the complete skill is unvalidated."
+      "detail": "A recent policy recovered from 10 of 61 test falls. Front, side and upside-down recovery still fail; the complete skill is unvalidated."
     }
   ],
   "policies": [
