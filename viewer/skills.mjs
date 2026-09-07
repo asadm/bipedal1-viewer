@@ -107,7 +107,10 @@ try {
         ? Math.abs(frame.command[1]) > 1e-6 ? 'Turn in place'
           : frame.command[0] > 1e-6 ? 'Forward'
             : frame.command[0] < -1e-6 ? 'Reverse' : 'Stop'
-        : frame.phase;
+        : selected?.skill === 'height'
+          ? frame.command[2] < record.frames[0].command[2] - 1e-6 ? 'Lower'
+            : frame.command[2] > record.frames[0].command[2] + 1e-6 ? 'Raise' : 'Ride height'
+          : frame.phase;
       $('height').textContent = `${(frame.qpos[2] * 1000).toFixed(0)} / ${(frame.command[2] * 1000).toFixed(0)} mm`;
       const bodyVelocity = new THREE.Vector3(...frame.qvel.slice(0, 3)).applyQuaternion(groups.chassis.quaternion.clone().invert());
       $('velocity').textContent = `${bodyVelocity.x.toFixed(2)} / ${frame.command[0].toFixed(2)} m/s`;

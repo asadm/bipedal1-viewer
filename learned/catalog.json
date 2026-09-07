@@ -11,8 +11,8 @@
     {
       "id": "height",
       "label": "Change height",
-      "stage": "Training",
-      "detail": "Practicing height changes from lowered and raised starting poses; no validated learned recording yet."
+      "stage": "Validated",
+      "detail": "120/120 independent simulation cases passed."
     },
     {
       "id": "drive",
@@ -78,6 +78,19 @@
       "evaluation": "drive-b825ae36ad43/evaluation.json",
       "policy": "drive-b825ae36ad43/policy.onnx",
       "checkpoint": "drive-b825ae36ad43/checkpoint.pt"
+    },
+    {
+      "id": "height-8d58267240a0",
+      "skill": "height",
+      "label": "Change height",
+      "policy_sha256": "8d58267240a0952b8d1cc36d876710420c756e175d5ffcc65c8bcb9925e36896",
+      "model_sha256": "8fb5e4c3e5c1ff8b1a44c18e1a2d8f5c790b85cc202bc2f88f3cf1666a661491",
+      "cases": 120,
+      "passed": 120,
+      "replay": "height-8d58267240a0/trajectory.json",
+      "evaluation": "height-8d58267240a0/evaluation.json",
+      "policy": "height-8d58267240a0/policy.onnx",
+      "checkpoint": "height-8d58267240a0/checkpoint.pt"
     }
   ]
 }
