@@ -17,8 +17,8 @@
     {
       "id": "drive",
       "label": "Drive & turn",
-      "stage": "Training",
-      "detail": "Turning and stopping now pass development checks, but forward and reverse tracking have regressed. The complete skill is still unvalidated."
+      "stage": "Needs improvement",
+      "detail": "The latest training run finished without passing the complete skill. Turning and stopping improved, but forward and reverse tracking regressed."
     },
     {
       "id": "push",
@@ -36,7 +36,7 @@
       "id": "recovery",
       "label": "Stand after a fall",
       "stage": "Training",
-      "detail": "Learning from tilted starts and settled front, back and side falls; no validated stand-up yet."
+      "detail": "The current policy passes 8 of 61 tested fall starts. Side and upside-down recovery still fail; the complete skill is unvalidated."
     }
   ],
   "policies": [
