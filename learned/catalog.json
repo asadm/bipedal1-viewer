@@ -18,7 +18,7 @@
       "id": "drive",
       "label": "Drive & turn",
       "stage": "Training",
-      "detail": "Speed tracking is improving; forward/reverse/turn tests are not yet passing."
+      "detail": "Forward, reverse and stopping pass preliminary checks; turning is still being learned."
     },
     {
       "id": "push",
