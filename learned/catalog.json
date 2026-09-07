@@ -29,8 +29,8 @@
     {
       "id": "jump",
       "label": "Jump & land",
-      "stage": "Not trained",
-      "detail": "Actual two-wheel flight, touchdown and stable recovery."
+      "stage": "Training",
+      "detail": "Learning launch, two-wheel flight and landing from the balance policy; no validated learned jump yet."
     },
     {
       "id": "recovery",
