@@ -173,6 +173,7 @@ try {
     $('assembly-note').textContent = activeCompiled
       ? `${activeCompiled.mass.toFixed(2)} kg wider four-motor candidate. Display uses its simulated contact hulls; internal parts and self-contact are not shown.`
       : 'The same 2.39 kg CAD assembly, four motors and two thigh springs used in the original training model.';
+    $('inspection-hint').textContent = activeCompiled ? 'Exterior geometry' : 'Cutaway reveals the mechanism';
     record = next; selected = entry; $('replay-controls').hidden = false;
     $('replay-title').textContent = entry.label; $('replay-detail').textContent = `${entry.passed}/${entry.cases} campaign cases passed · recorded seed ${next.report.seed} · ${next.report.variant}`;
     $('timeline').min = record.frames[0].t; $('timeline').max = record.frames.at(-1).t;
@@ -180,7 +181,8 @@ try {
     $('policy-link').hidden = !entry.policy; $('checkpoint-link').hidden = !entry.checkpoint;
     if (entry.policy) $('policy-link').href = '../learned/' + entry.policy;
     if (entry.checkpoint) $('checkpoint-link').href = '../learned/' + entry.checkpoint;
-    $('caption').textContent = `Learned PPO policy ${entry.policy_sha256.slice(0, 8)} · recorded CPU MuJoCo · hardware unqualified`;
+    const method = next.report.controller?.startsWith('Posture transfer') ? 'Transferred PPO' : 'Learned PPO';
+    $('caption').textContent = `${method} policy ${entry.policy_sha256.slice(0, 8)} · recorded CPU MuJoCo · hardware unqualified`;
     show(record.frames[0].t); view(); $('load-status').hidden = true;
   }
   function fail(error) { play(false); $('load-status').hidden = false; $('load-status').textContent = error.message; }

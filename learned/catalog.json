@@ -7,7 +7,7 @@
       "id": "balance",
       "label": "Balance",
       "stage": "Validated",
-      "detail": "120/120 independent simulation cases passed."
+      "detail": "Original and wider robots each passed 120/120 independent balance cases."
     },
     {
       "id": "height",
@@ -37,7 +37,7 @@
       "id": "recovery",
       "label": "Stand after a fall",
       "stage": "In development",
-      "detail": "Required capability and current priority. The wider four-motor candidate has programmed get-ups from nine exact fall directions at both timesteps (18/18). Nearby-start tests pass 214/306; reliable recovery and a learned recovery policy remain unvalidated. See the separate recovery development viewer."
+      "detail": "Required. The wider candidate now has validated balance. Programmed get-ups pass 18/18 exact-start tests and 214/306 nearby-start tests. Learned full-fall recovery remains unvalidated. See the recovery development viewer."
     }
   ],
   "policies": [
@@ -92,6 +92,21 @@
       "evaluation": "height-8d58267240a0/evaluation.json",
       "policy": "height-8d58267240a0/policy.onnx",
       "checkpoint": "height-8d58267240a0/checkpoint.pt"
+    },
+    {
+      "id": "balance-95954210455f",
+      "skill": "balance",
+      "label": "Balance \u00b7 wider candidate",
+      "policy_sha256": "95954210455fc6aa8dae0801846306b6d3359b493248ce0da141175bddfd78a4",
+      "model_sha256": "60f21ccdef503755e4dff697eceedf1ee508977b3ba661cab7c014b79c7e3f8d",
+      "cases": 120,
+      "passed": 120,
+      "replay": "balance-95954210455f/trajectory.json",
+      "evaluation": "balance-95954210455f/evaluation.json",
+      "policy": "balance-95954210455f/policy.onnx",
+      "checkpoint": "balance-95954210455f/checkpoint.pt",
+      "geometry": "balance-95954210455f/geometry.json",
+      "geometry_sha256": "2560292600249b8958ddce441780c7aa94a19fe700daac5a05433e3a5917565c"
     }
   ]
 }
