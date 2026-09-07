@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
+import {compiledRobot} from './compiled-robot.mjs';
 
 const $ = id => document.getElementById(id);
 const json = async url => {
@@ -34,23 +35,7 @@ try {
   const floor = new THREE.Mesh(new THREE.PlaneGeometry(30, 30), new THREE.MeshStandardMaterial({color: '#e5ebe3', roughness: 1})); floor.position.z = -.0003; scene.add(floor);
   floor.receiveShadow = true;
   const grid = new THREE.GridHelper(30, 600, '#aebba8', '#c3cec0'); grid.rotation.x = Math.PI / 2; grid.position.z = .0001; grid.material.transparent = true; grid.material.opacity = .32; scene.add(grid);
-  const groups = {};
-  for (const part of parts) {
-    const group = groups[part.body] ??= new THREE.Group(); if (!group.parent) scene.add(group);
-    let geometry;
-    if (part.kind === 'mesh') {
-      geometry = new THREE.BufferGeometry();
-      geometry.setAttribute('position', new THREE.Float32BufferAttribute(part.vertices.flat(), 3));
-      geometry.setIndex(part.triangles.flat()); geometry.computeVertexNormals();
-    } else if (part.kind === 'cylinder') {
-      geometry = new THREE.CylinderGeometry(part.radius, part.radius, part.length, 48);
-      geometry.rotateX(Math.PI / 2);
-    } else throw Error('Unknown geometry: ' + part.kind);
-    const material = new THREE.MeshStandardMaterial({color: new THREE.Color(...part.color), roughness: .65, metalness: .08});
-    const mesh = new THREE.Mesh(geometry, material);
-    mesh.castShadow = true; mesh.receiveShadow = true;
-    mesh.position.set(...part.pos); mesh.quaternion.copy(quaternion(part.quat)); group.add(mesh);
-  }
+  const {root, groups} = compiledRobot(parts); scene.add(root);
   let record, time = 0, playing = false, previous = performance.now(), selection = 0;
   let target = new THREE.Vector3(0, 0, .12);
   const cache = new Map();

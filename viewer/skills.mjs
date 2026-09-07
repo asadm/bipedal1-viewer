@@ -1,6 +1,7 @@
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {pose, leg} from '../concept06/internal-kinematics.mjs';
+import {compiledRobot} from './compiled-robot.mjs';
 
 const $ = id => document.getElementById(id);
 const json = async url => {
@@ -46,6 +47,8 @@ try {
   }
   pushArrow.visible = false; scene.add(pushArrow);
   const groups = {}, meshes = [], gears = [];
+  const compiledModels = new Map();
+  let activeCompiled = null, selection = 0;
   for (const part of parts) {
     const parent = groups[part.body] ??= new THREE.Group();
     if (!parent.parent) scene.add(parent);
@@ -71,12 +74,13 @@ try {
   const ride = leg(parameters.geometry, parameters.geometry.q_low_rad).E[1] - leg(parameters.geometry, parameters.nominal_q_rad).E[1];
   const staticFrame = pose(parameters, [ride, ride]);
   function apply(frame) {
+    const activeGroups = activeCompiled?.groups ?? groups;
     for (const [name, transform] of Object.entries(frame.bodies)) {
-      const group = groups[name]; if (!group) continue;
+      const group = activeGroups[name]; if (!group) continue;
       group.position.set(...transform.pos.map(v => v * 1000));
       group.quaternion.set(transform.quat[1], transform.quat[2], transform.quat[3], transform.quat[0]);
     }
-    for (const gear of gears) {
+    for (const gear of activeCompiled ? [] : gears) {
       if (gear.kind === 'wheel') {
         const relative = groups[gear.side + '_lower'].quaternion.clone().invert().multiply(groups[gear.side + '_wheel'].quaternion);
         gear.pivot.rotation.y = 2 * Math.atan2(relative.y, relative.w) * gear.ratio;
@@ -85,7 +89,7 @@ try {
         gear.pivot.rotation.y = (q - parameters.nominal_q_rad) * gear.ratio;
       }
     }
-    frame.spring_seats.forEach(([start, end], i) => {
+    if (!activeCompiled) frame.spring_seats.forEach(([start, end], i) => {
       const a = new THREE.Vector3(...start.map(v => v * 1000));
       const delta = new THREE.Vector3(...end.map(v => v * 1000)).sub(a);
       springMeshes[i].position.copy(a); springMeshes[i].quaternion.setFromUnitVectors(new THREE.Vector3(1, 0, 0), delta.clone().normalize()); springMeshes[i].scale.x = delta.length() / 50;
@@ -112,7 +116,7 @@ try {
             : frame.command[2] > record.frames[0].command[2] + 1e-6 ? 'Raise' : 'Ride height'
           : frame.phase;
       $('height').textContent = `${(frame.qpos[2] * 1000).toFixed(0)} / ${(frame.command[2] * 1000).toFixed(0)} mm`;
-      const bodyVelocity = new THREE.Vector3(...frame.qvel.slice(0, 3)).applyQuaternion(groups.chassis.quaternion.clone().invert());
+      const bodyVelocity = new THREE.Vector3(...frame.qvel.slice(0, 3)).applyQuaternion(activeGroups.chassis.quaternion.clone().invert());
       $('velocity').textContent = `${bodyVelocity.x.toFixed(2)} / ${frame.command[0].toFixed(2)} m/s`;
       $('contact').textContent = frame.body_contact ? 'Body contact' : frame.grounded.every(v => !v) ? 'Both wheels airborne' : 'Wheel contact';
       $('clearance').textContent = `${Math.max(0, Math.min(...frame.wheel_clearance_m) * 1000).toFixed(1)} mm`;
@@ -136,10 +140,39 @@ try {
     controls.target.copy(target); camera.position.copy(target).addScaledVector(new THREE.Vector3(...direction).normalize(), Math.max(790, 630 / camera.aspect)); controls.update();
   }
   async function selectPolicy(id) {
+    const ticket = ++selection;
     const entry = policies.find(p => p.id === id); if (!entry) throw Error('Unknown policy');
     play(false); $('load-status').hidden = false; $('load-status').textContent = 'Loading validated recording…';
     const next = await json('../learned/' + entry.replay);
-    if (!next.report.simulation_skill_pass || next.report.policy_sha256 !== entry.policy_sha256 || !next.frames.length) throw Error('Recording does not match the evaluated policy');
+    if (!next.report.simulation_skill_pass || next.report.policy_sha256 !== entry.policy_sha256 || next.report.model_sha256 !== entry.model_sha256 || !next.frames.length) throw Error('Recording does not match the evaluated policy');
+    let compiled = null;
+    if (entry.geometry) {
+      compiled = compiledModels.get(entry.geometry);
+      if (!compiled) {
+        const response = await fetch('../learned/' + entry.geometry);
+        if (!response.ok) throw Error('Cannot load the evaluated plant geometry');
+        const bytes = await response.arrayBuffer();
+        const digest = Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', bytes)), n => n.toString(16).padStart(2, '0')).join('');
+        if (digest !== entry.geometry_sha256) throw Error('Display geometry checksum mismatch');
+        const geometry = JSON.parse(new TextDecoder().decode(bytes));
+        if (geometry.kind !== 'mujoco-hulls-v1' || geometry.model_sha256 !== next.report.model_sha256 || geometry.variant !== next.report.variant) throw Error('Display geometry does not match this recording');
+        compiled = {...compiledRobot(geometry.parts, 1000), mass: geometry.mass_kg};
+        compiled.root.visible = false; scene.add(compiled.root); compiledModels.set(entry.geometry, compiled);
+      }
+      if (next.frames.some(frame => Object.keys(compiled.groups).some(name => !frame.bodies[name]))) throw Error('Recording lacks display body transforms');
+    } else if (entry.model_sha256 !== catalog.cad_model_sha256) {
+      throw Error('No matching CAD assembly for this recording');
+    }
+    if (ticket !== selection) return;
+    if (activeCompiled) activeCompiled.root.visible = false;
+    activeCompiled = compiled;
+    if (activeCompiled) activeCompiled.root.visible = true;
+    Object.values(groups).forEach(group => { group.visible = !activeCompiled; });
+    springMeshes.forEach(mesh => { mesh.visible = !activeCompiled; });
+    document.querySelectorAll('[data-display]').forEach(button => { button.disabled = Boolean(activeCompiled); });
+    $('assembly-note').textContent = activeCompiled
+      ? `${activeCompiled.mass.toFixed(2)} kg wider four-motor candidate. Display uses its simulated contact hulls; internal parts and self-contact are not shown.`
+      : 'The same 2.39 kg CAD assembly, four motors and two thigh springs used in the original training model.';
     record = next; selected = entry; $('replay-controls').hidden = false;
     $('replay-title').textContent = entry.label; $('replay-detail').textContent = `${entry.passed}/${entry.cases} campaign cases passed · recorded seed ${next.report.seed} · ${next.report.variant}`;
     $('timeline').min = record.frames[0].t; $('timeline').max = record.frames.at(-1).t;

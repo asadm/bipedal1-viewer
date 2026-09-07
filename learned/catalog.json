@@ -1,5 +1,6 @@
 {
   "schema_version": 1,
+  "cad_model_sha256": "8fb5e4c3e5c1ff8b1a44c18e1a2d8f5c790b85cc202bc2f88f3cf1666a661491",
   "status": "Select a validated simulation recording. Hardware transfer is not yet demonstrated.",
   "tasks": [
     {
