@@ -103,7 +103,11 @@ try {
       const shift = nextTarget.clone().sub(target); camera.position.add(shift); controls.target.add(shift); target.copy(nextTarget);
       floor.position.x = nextTarget.x; floor.position.y = nextTarget.y;
       grid.position.x = Math.floor(nextTarget.x / 40) * 40; grid.position.y = Math.floor(nextTarget.y / 40) * 40;
-      $('phase').textContent = frame.phase;
+      $('phase').textContent = selected?.skill === 'drive'
+        ? Math.abs(frame.command[1]) > 1e-6 ? 'Turn in place'
+          : frame.command[0] > 1e-6 ? 'Forward'
+            : frame.command[0] < -1e-6 ? 'Reverse' : 'Stop'
+        : frame.phase;
       $('height').textContent = `${(frame.qpos[2] * 1000).toFixed(0)} / ${(frame.command[2] * 1000).toFixed(0)} mm`;
       const bodyVelocity = new THREE.Vector3(...frame.qvel.slice(0, 3)).applyQuaternion(groups.chassis.quaternion.clone().invert());
       $('velocity').textContent = `${bodyVelocity.x.toFixed(2)} / ${frame.command[0].toFixed(2)} m/s`;

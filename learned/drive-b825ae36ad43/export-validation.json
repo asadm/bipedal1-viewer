@@ -1,0 +1,7 @@
+{
+  "samples": 192,
+  "max_absolute_action_error": 2.288818359375e-05,
+  "normalization_in_graph": true,
+  "passed": true,
+  "policy_sha256": "b825ae36ad433a5b6945ce5060c2ea607fbb00c0da0da7d56bf4144bffbbb94c"
+}

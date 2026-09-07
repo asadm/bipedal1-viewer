@@ -11,14 +11,14 @@
     {
       "id": "height",
       "label": "Change height",
-      "stage": "Training",
-      "detail": "Balance holds; lower/raise tracking is still being learned in 128 randomized environments."
+      "stage": "Needs work",
+      "detail": "The latest training run finished without passing lower/raise tracking. No validated learned recording yet."
     },
     {
       "id": "drive",
       "label": "Drive & turn",
-      "stage": "Training",
-      "detail": "Turning and stopping hold in development checks. A new trial adds guidance for forward and reverse speed; the complete skill remains unvalidated."
+      "stage": "Validated",
+      "detail": "120/120 independent simulation cases passed."
     },
     {
       "id": "push",
@@ -65,6 +65,19 @@
       "evaluation": "push-784d4f0ab341/evaluation.json",
       "policy": "push-784d4f0ab341/policy.onnx",
       "checkpoint": "push-784d4f0ab341/checkpoint.pt"
+    },
+    {
+      "id": "drive-b825ae36ad43",
+      "skill": "drive",
+      "label": "Drive & turn",
+      "policy_sha256": "b825ae36ad433a5b6945ce5060c2ea607fbb00c0da0da7d56bf4144bffbbb94c",
+      "model_sha256": "8fb5e4c3e5c1ff8b1a44c18e1a2d8f5c790b85cc202bc2f88f3cf1666a661491",
+      "cases": 120,
+      "passed": 120,
+      "replay": "drive-b825ae36ad43/trajectory.json",
+      "evaluation": "drive-b825ae36ad43/evaluation.json",
+      "policy": "drive-b825ae36ad43/policy.onnx",
+      "checkpoint": "drive-b825ae36ad43/checkpoint.pt"
     }
   ]
 }
