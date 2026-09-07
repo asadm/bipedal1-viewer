@@ -18,7 +18,7 @@
       "id": "drive",
       "label": "Drive & turn",
       "stage": "Training",
-      "detail": "Forward, reverse and stopping pass preliminary checks; turning is still being learned."
+      "detail": "Earlier checkpoints passed forward, reverse and stopping checks; the complete driving and turning skill is still unvalidated."
     },
     {
       "id": "push",
@@ -36,7 +36,7 @@
       "id": "recovery",
       "label": "Stand after a fall",
       "stage": "Training",
-      "detail": "Training from settled front, back and side poses; no validated stand-up yet."
+      "detail": "Learning from tilted starts and settled front, back and side falls; no validated stand-up yet."
     }
   ],
   "policies": [
