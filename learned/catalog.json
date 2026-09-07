@@ -18,7 +18,7 @@
       "id": "drive",
       "label": "Drive & turn",
       "stage": "Training",
-      "detail": "Earlier checkpoints passed forward, reverse and stopping checks; the complete driving and turning skill is still unvalidated."
+      "detail": "Turning and stopping now pass development checks, but forward and reverse tracking have regressed. The complete skill is still unvalidated."
     },
     {
       "id": "push",
@@ -30,7 +30,7 @@
       "id": "jump",
       "label": "Jump & land",
       "stage": "Training",
-      "detail": "Learning launch, two-wheel flight and landing from the balance policy; no validated learned jump yet."
+      "detail": "Practicing launch from crouched starts that gradually give way to standing starts; no validated learned jump yet."
     },
     {
       "id": "recovery",
