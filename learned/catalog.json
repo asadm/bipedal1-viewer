@@ -35,8 +35,8 @@
     {
       "id": "recovery",
       "label": "Stand after a fall",
-      "stage": "Not trained",
-      "detail": "16 settled front, back and side poses prepared for training."
+      "stage": "Training",
+      "detail": "Training from settled front, back and side poses; no validated stand-up yet."
     }
   ],
   "policies": [
