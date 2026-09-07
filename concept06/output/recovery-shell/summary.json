@@ -1,0 +1,54 @@
+[
+  {
+    "name": "crown-600",
+    "shape_parameters": {
+      "radius_mm": 600.0,
+      "center_x_mm": 32.240938730846544,
+      "center_z_mm": -5
+    },
+    "mass_delta_kg": -0.0022406787810955384,
+    "packaging_pass": false,
+    "failed_packaging_checks": [
+      {
+        "check": "spring/thigh",
+        "q_rad": 1.3083333333333331,
+        "overlap_mm3": 0.17181794087824365,
+        "passed": false
+      },
+      {
+        "check": "spring/thigh",
+        "q_rad": 1.4041666666666668,
+        "overlap_mm3": 1.0151044883901241,
+        "passed": false
+      },
+      {
+        "check": "spring/thigh",
+        "q_rad": 1.5,
+        "overlap_mm3": 2.6443962387003976,
+        "passed": false
+      }
+    ]
+  },
+  {
+    "name": "crown-900",
+    "shape_parameters": {
+      "radius_mm": 900.0,
+      "center_x_mm": 32.240938730846544,
+      "center_z_mm": -5
+    },
+    "mass_delta_kg": -0.001388880422123609,
+    "packaging_pass": true,
+    "failed_packaging_checks": []
+  },
+  {
+    "name": "crown-1400",
+    "shape_parameters": {
+      "radius_mm": 1400.0,
+      "center_x_mm": 32.240938730846544,
+      "center_z_mm": -5
+    },
+    "mass_delta_kg": -0.0008888508628009037,
+    "packaging_pass": true,
+    "failed_packaging_checks": []
+  }
+]

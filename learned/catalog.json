@@ -17,8 +17,8 @@
     {
       "id": "drive",
       "label": "Drive & turn",
-      "stage": "Needs improvement",
-      "detail": "The latest training run finished without passing the complete skill. Turning and stopping improved, but forward and reverse tracking regressed."
+      "stage": "Training",
+      "detail": "Turning and stopping hold in development checks. A new trial adds guidance for forward and reverse speed; the complete skill remains unvalidated."
     },
     {
       "id": "push",
