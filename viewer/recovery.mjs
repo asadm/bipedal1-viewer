@@ -11,11 +11,15 @@ const json = async url => {
 const quaternion = values => new THREE.Quaternion(values[1], values[2], values[3], values[0]);
 
 try {
-  const catalog = await json('../recovery/catalog.json');
-  if (catalog.kind !== 'programmed-development' || catalog.learned_policy || catalog.recovery_validated || catalog.hardware_release) {
-    throw Error('Unexpected recovery artifact classification');
+  const jump = document.body.dataset.replayKind === 'jump';
+  const directory = jump ? '../programmed-jump/' : '../recovery/';
+  const catalog = await json(directory + 'catalog.json');
+  const expectedKind = jump ? 'programmed-jump-development' : 'programmed-development';
+  if (catalog.kind !== expectedKind || catalog.learned_policy || catalog.recovery_validated || catalog.hardware_release) {
+    throw Error('Unexpected programmed replay classification');
   }
-  const parts = await json('../recovery/' + catalog.geometry);
+  const entryId = entry => entry.id ?? entry.family;
+  const parts = await json(directory + catalog.geometry);
   THREE.Object3D.DEFAULT_UP.set(0, 0, 1);
   const scene = new THREE.Scene(); scene.background = new THREE.Color('#edf1ef');
   const canvas = $('model-canvas'), viewport = canvas.parentElement;
@@ -66,18 +70,27 @@ try {
     $('springs').textContent = a.spring_mm.map(x => x.toFixed(1)).join(' / ') + ' mm';
     $('velocity').textContent = a.speed_m_s.toFixed(2) + ' m/s';
     $('angular').textContent = a.angular_speed_rad_s.toFixed(1) + ' rad/s';
-    $('phase').textContent = a.stable ? 'Balanced on wheels' : time >= record.metrics.capture_time_s ? 'Balance feedback' : time === 0 ? 'Fallen start' : 'Programmed get-up';
+    if (jump) {
+      $('phase').textContent = {balance:'Balancing', crouch:'Crouching', load:'Loading springs', push:'Pushing off', flight:'In flight', prepare_landing:'Preparing to land', landing:'Landing', extension_brake:'Braking leg extension'}[a.phase] ?? a.phase;
+      $('clearance').textContent = Math.max(0, Math.min(...a.wheel_clearance_mm)).toFixed(1) + ' mm';
+    } else {
+      $('phase').textContent = a.stable ? 'Balanced on wheels' : time >= record.metrics.capture_time_s ? 'Balance feedback' : time === 0 ? 'Fallen start' : 'Programmed get-up';
+    }
   }
   async function selectFamily(family) {
     const ticket = ++selection;
-    play(false); $('load-status').hidden = false; $('load-status').textContent = 'Loading recovery replay…';
-    const entry = catalog.replays.find(row => row.family === family); if (!entry) throw Error('Unknown fall family');
+    play(false); $('load-status').hidden = false; $('load-status').textContent = 'Loading programmed replay…';
+    const entry = catalog.replays.find(row => entryId(row) === family); if (!entry) throw Error('Unknown replay');
     let next = cache.get(family);
-    if (!next) { next = await json('../recovery/' + entry.file); cache.set(family, next); }
+    if (!next) { next = await json(directory + entry.file); cache.set(family, next); }
     if (ticket !== selection) return;
     if (next.source_sha256 !== entry.source_sha256 || next.half_step_source_sha256 !== entry.half_step_source_sha256) throw Error('Replay provenance mismatch');
     record = next; $('timeline').max = Math.ceil(record.frames.at(-1).t * 1000) / 1000;
     $('verification').textContent = `Stable finish at both timesteps: ${entry.stable_hold_s.toFixed(2)} s / ${entry.half_step_stable_hold_s.toFixed(2)} s held.`;
+    if (jump) {
+      $('verification').textContent = `${record.metrics.max_both_wheel_clearance_mm.toFixed(0)} mm wheel clearance · ${record.metrics.ballistic_com_rise_mm.toFixed(0)} mm COM rise after takeoff · stable landing.`;
+      $('sensitivity').textContent = `${catalog.diagnostic_passed}/${catalog.diagnostic_cases} nominal-start checks passed across three hardware variants and two timesteps. This is a programmed demonstration, not a learned jump or a randomized skill qualification.`;
+    }
     if (catalog.sensitivity?.length) {
       const counts = catalog.sensitivity.map(probe => probe.summary[family]);
       const passed = counts.reduce((sum, row) => sum + row.stable_finishes, 0);
@@ -85,26 +98,28 @@ try {
       $('sensitivity').textContent = `This fall: ${passed}/${total} nearby-start tests succeeded across both timesteps. These include the exact start. Recovery from arbitrary falls remains unvalidated; no learned recovery policy is released.`;
     }
     $('current').textContent = record.metrics.peak_current_A.slice(0, 2).map(x => x.toFixed(1)).join(' / ') + ' A';
-    $('evidence').href = '../recovery/' + entry.file;
+    $('evidence').href = directory + entry.file;
     for (const id of ['family', 'play', 'restart', 'timeline', 'capture', 'finish']) $(id).disabled = false;
+    if (jump) $('jump-demo').disabled = false;
     $('family').value = family;
     show(0); view(); $('load-status').hidden = true;
-    const url = new URL(location.href); url.searchParams.set('fall', family); history.replaceState(null, '', url);
+    const url = new URL(location.href); url.searchParams.set(jump ? 'motion' : 'fall', family); history.replaceState(null, '', url);
   }
   $('mass').textContent = catalog.mass_kg.toFixed(2) + ' kg';
-  for (const entry of catalog.replays) $('family').add(new Option(entry.label, entry.family));
+  for (const entry of catalog.replays) $('family').add(new Option(entry.label, entryId(entry)));
   $('family').addEventListener('change', () => selectFamily($('family').value).catch(fail));
   $('play').addEventListener('click', () => { if (time >= record.frames.at(-1).t) show(0); play(!playing); });
   $('restart').addEventListener('click', () => { play(false); show(0); });
   $('timeline').addEventListener('input', () => { play(false); show(Number($('timeline').value)); });
-  $('capture').addEventListener('click', () => { play(false); show(record.metrics.capture_time_s); });
+  $('capture').addEventListener('click', () => { play(false); show(jump ? record.metrics.takeoff_s : record.metrics.capture_time_s); });
+  $('jump-demo')?.addEventListener('click', () => { show(.9); play(true); });
   $('finish').addEventListener('click', () => { play(false); show(record.frames.at(-1).t); });
   document.querySelectorAll('[data-view]').forEach(button => button.addEventListener('click', () => view(button.dataset.view)));
   $('fit').addEventListener('click', () => view());
   const resize = () => { camera.aspect = viewport.clientWidth / viewport.clientHeight; camera.updateProjectionMatrix(); renderer.setSize(viewport.clientWidth, viewport.clientHeight, false); };
   new ResizeObserver(resize).observe(viewport); resize();
-  const requested = new URLSearchParams(location.search).get('fall');
-  await selectFamily(catalog.replays.some(row => row.family === requested) ? requested : catalog.replays[0].family);
+  const requested = new URLSearchParams(location.search).get(jump ? 'motion' : 'fall');
+  await selectFamily(catalog.replays.some(row => entryId(row) === requested) ? requested : entryId(catalog.replays[0]));
   renderer.setAnimationLoop(now => {
     const dt = Math.min((now - previous) / 1000, .1); previous = now;
     if (playing) { show(time + dt * Number($('speed').value)); if (time >= record.frames.at(-1).t) play(false); }

@@ -1,0 +1,79 @@
+{
+  "kind": "programmed-jump-development",
+  "learned_policy": false,
+  "hardware_release": false,
+  "geometry": "geometry.json",
+  "mass_kg": 2.4480686161815157,
+  "model_sha256": "60f21ccdef503755e4dff697eceedf1ee508977b3ba661cab7c014b79c7e3f8d",
+  "plant_fingerprint": "2a948ecc50d3f7e2c10ba1811064f82e3b0cfd07bb86531aa137aea47ef4eab2",
+  "diagnostic_cases": 6,
+  "diagnostic_passed": 6,
+  "limitation": "Six nominal-start checks, not a randomized skill qualification or a learned policy.",
+  "replays": [
+    {
+      "id": "jump",
+      "label": "Current wider robot",
+      "file": "jump.json",
+      "source_sha256": "e5dacb706cb68d21755be0e33f40f19f862b1df0804a765afc0d899c76531ece",
+      "half_step_source_sha256": "2eb7061c8a4ce529eb1f5fe07393708bea8fbf62e45e9a3dbd4fb54e996476d2",
+      "stable_hold_s": 9.626500000000274,
+      "half_step_stable_hold_s": 9.619500000000256
+    }
+  ],
+  "checks": [
+    {
+      "variant": "wide_current",
+      "timestep_s": 0.00025,
+      "wheel_clearance_mm": 86.04524532540168,
+      "com_rise_mm": 55.538896165632345,
+      "stable_hold_s": 9.619500000000256,
+      "diagnostic_pass": true,
+      "source_sha256": "2eb7061c8a4ce529eb1f5fe07393708bea8fbf62e45e9a3dbd4fb54e996476d2"
+    },
+    {
+      "variant": "wide_current",
+      "timestep_s": 0.0005,
+      "wheel_clearance_mm": 85.9902448177212,
+      "com_rise_mm": 55.33817464134616,
+      "stable_hold_s": 9.626500000000274,
+      "diagnostic_pass": true,
+      "source_sha256": "e5dacb706cb68d21755be0e33f40f19f862b1df0804a765afc0d899c76531ece"
+    },
+    {
+      "variant": "wide_heavy",
+      "timestep_s": 0.00025,
+      "wheel_clearance_mm": 83.92740647758627,
+      "com_rise_mm": 52.94619000799666,
+      "stable_hold_s": 9.462000000000623,
+      "diagnostic_pass": true,
+      "source_sha256": "5fee4441eee1f3759c1ccc86ef05ee5e51c2784672475e946988f9327e81a564"
+    },
+    {
+      "variant": "wide_heavy",
+      "timestep_s": 0.0005,
+      "wheel_clearance_mm": 84.94974316304479,
+      "com_rise_mm": 54.30827758270102,
+      "stable_hold_s": 9.50050000000012,
+      "diagnostic_pass": true,
+      "source_sha256": "09828005c9ee655b1e9170a2c304be97793b05c12139542b7592b8cee4e03d4b"
+    },
+    {
+      "variant": "wide_low_battery",
+      "timestep_s": 0.00025,
+      "wheel_clearance_mm": 67.53760833451169,
+      "com_rise_mm": 38.83550120777257,
+      "stable_hold_s": 10.084749999999172,
+      "diagnostic_pass": true,
+      "source_sha256": "707891d2256b7e1fe1db37044d60343a8775adaa427fa0e9e18dd6e79d1c7a13"
+    },
+    {
+      "variant": "wide_low_battery",
+      "timestep_s": 0.0005,
+      "wheel_clearance_mm": 67.46626539287965,
+      "com_rise_mm": 38.85191423010906,
+      "stable_hold_s": 10.085000000000834,
+      "diagnostic_pass": true,
+      "source_sha256": "2ce60fad8e3e5b492c0618d4ca167d3ce32941d68a4d009e2f42f47a4f3de40f"
+    }
+  ]
+}
