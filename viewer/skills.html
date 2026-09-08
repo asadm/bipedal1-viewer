@@ -2,44 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Beni / Learned skills</title><link rel="icon" href="data:,">
+  <title>Beni / Skills & demonstrations</title><link rel="icon" href="data:,">
   <link rel="stylesheet" href="viewer.css"><link rel="stylesheet" href="longstroke.css"><link rel="stylesheet" href="skills.css">
   <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/controls/OrbitControls.js":"./vendor/OrbitControls.js"}}</script>
 </head>
 <body>
 <header class="header">
-  <a class="brand" href="validation.html"><span class="brand-mark">b.</span><span>Beni <span class="brand-secondary">/ learned skills</span></span></a>
-  <div class="header-meta">MuJoCo · learned control <span class="header-separator">/</span> <span id="policy-count">0 validated policies</span></div>
-  <a class="download" href="validation.html">Design & programmed tests ↗</a>
+  <a class="brand" href="validation.html"><span class="brand-mark">b.</span><span>Beni <span class="brand-secondary">/ skills & demos</span></span></a>
+  <div class="header-meta">MuJoCo · recorded motion <span class="header-separator">/</span> <span id="policy-count">0 validated policies</span></div>
+  <a class="download" href="validation.html">Inspect the design ↗</a>
 </header>
 <main class="workspace">
-<aside class="sidebar" aria-label="Learned skill controls">
+<aside class="sidebar" aria-label="Skill and demonstration controls">
   <section class="control-section">
-    <div class="eyebrow">LEARNING / SIMULATION</div><h1>From balance to movement.</h1>
-    <p class="intro">Skills learned with PPO or imitation, then checked independently in CPU MuJoCo. Select a validated policy to inspect its recorded motion.</p>
+    <div class="eyebrow">SKILLS / SIMULATION</div><h1>From balance to movement.</h1>
+    <p class="intro">Watch learned skills and programmed demonstrations on the same robot. Every recording is labelled by its controller type.</p>
     <p class="status-note" id="policy-status" role="status">Loading skill status…</p>
-    <div id="policy-picker" hidden><label for="policy-select">Validated recording</label><select id="policy-select"></select></div>
+    <div id="policy-picker" hidden><label for="policy-select">Motion recording</label><select id="policy-select"></select></div>
+    <div class="demo-shortcuts" aria-label="Programmed demonstrations"><button data-recording="programmed-jump-jump">Programmed jump</button><button data-recording="programmed-recovery-front">Programmed get-up</button></div>
     <div id="replay-controls" hidden>
+      <span id="controller-kind" class="controller-kind"></span>
       <h2 id="replay-title"></h2><p class="small-note" id="replay-detail"></p>
+      <div class="stage-row"><button id="action-start">Go to action</button><button id="peak-jump" hidden>Peak jump</button><button id="finish">Show finish</button></div>
       <div class="play-row"><button id="play" class="primary">Play</button><button id="restart">Restart</button><select id="speed" aria-label="Playback speed"><option value=".25">0.25×</option><option value=".5">0.5×</option><option value="1" selected>1× real time</option></select></div>
       <div class="slider-heading"><label for="timeline">Simulation time</label><output id="time-output">0.00 s</output></div><input id="timeline" type="range" min="0" max="12" step=".005" value="0">
-      <dl class="measurements"><div><dt>Body / target height</dt><dd id="height">—</dd></div><div><dt>Speed / target</dt><dd id="velocity">—</dd></div><div><dt>Wheel clearance</dt><dd id="clearance">—</dd></div><div><dt>Body tilt</dt><dd id="tilt">—</dd></div><div><dt>Hip current, L / R</dt><dd id="current">—</dd></div><div><dt>Spring compression, L / R</dt><dd id="compression">—</dd></div></dl>
-      <p class="small-note"><a id="report-link">Evaluation campaign ↗</a><br><a id="record-link" download>Download recorded motion ↗</a><br><a id="policy-link" download>ONNX policy ↗</a> · <a id="checkpoint-link" download>Training checkpoint ↗</a></p>
+      <dl class="measurements"><div><dt id="height-label">Body / target height</dt><dd id="height">—</dd></div><div><dt id="velocity-label">Speed / target</dt><dd id="velocity">—</dd></div><div><dt>Wheel clearance</dt><dd id="clearance">—</dd></div><div><dt>Body tilt</dt><dd id="tilt">—</dd></div><div><dt id="current-label">Hip current, L / R</dt><dd id="current">—</dd></div><div><dt>Spring compression, L / R</dt><dd id="compression">—</dd></div></dl>
+      <p class="small-note"><a id="report-link">Evaluation campaign ↗</a><br><a id="record-link" download>Download recorded motion ↗</a><span id="learned-downloads"><br><a id="policy-link" download>ONNX policy ↗</a> <span id="download-separator">·</span> <a id="checkpoint-link" download>Training checkpoint ↗</a></span></p>
     </div>
   </section>
-  <section class="control-section"><h2>Skill progress</h2><div id="task-list" class="task-list"></div></section>
+  <section class="control-section"><h2>Learned skill progress</h2><div id="task-list" class="task-list"></div></section>
   <section class="control-section"><h2>Inspect the robot</h2><div class="segmented" aria-label="Assembly display"><button data-display="cad" aria-pressed="true">Enclosed</button><button data-display="ghost" aria-pressed="false">Cutaway</button></div>
     <p class="small-note" id="assembly-note">The same 2.39 kg CAD assembly, four motors and two thigh springs used in the original training model.</p>
-    <details><summary>What a validated replay means</summary><p>At least 95% of 20 held-out cases pass for each of three hardware variants at two physics timesteps. Checks include motor limits, linkage and spring travel, contacts, task performance and recovery.</p><p>This is simulation validation. Motor calibration, structural strength, sealing and hardware transfer remain unqualified. The design's separate body-level requirement still fails.</p></details>
+    <details><summary>How recordings are labelled</summary><p><strong>Programmed</strong> demonstrations use selected control sequences and balance feedback. They show particular starts; they do not establish a learned skill or recovery from arbitrary falls.</p><p><strong>Learned · validated in simulation</strong> means a PPO or imitation policy passed its independent evaluation campaign.</p><p>At least 95% of 20 held-out cases pass for each of three hardware variants at two physics timesteps. Checks include motor limits, linkage and spring travel, contacts, task performance and recovery.</p><p>This is simulation validation. Motor calibration, structural strength, sealing and hardware transfer remain unqualified. The design's separate body-level requirement still fails.</p></details>
   </section>
   <div class="sidebar-footer">Drag to orbit · Scroll to zoom<br><a href="validation.html">Original robot: programmed jump ↗</a><br><a href="programmed-jump.html">Wider candidate: programmed jump ↗</a><br><a href="recovery.html">Wider candidate: recovery development ↗</a></div>
 </aside>
-<section class="viewport" aria-label="Three-dimensional learned-policy replay">
+<section class="viewport" aria-label="Three-dimensional robot motion replay">
   <div class="view-toolbar"><button data-view="iso">3D</button><button data-view="side">Side</button><button data-view="front">Front</button><button id="fit">Fit</button></div>
-  <div class="telemetry"><span id="phase">Robot preview</span><span id="contact">Static pose · no learned motion</span></div>
-  <canvas id="model-canvas" tabindex="0" aria-label="Beni robot. Drag to orbit; select a validated policy to play its motion."></canvas>
+  <div class="telemetry"><span id="viewport-kind" class="controller-kind" hidden></span><span id="phase">Robot preview</span><span id="contact">Static pose</span></div>
+  <canvas id="model-canvas" tabindex="0" aria-label="Beni robot. Drag to orbit; select a motion recording to play it."></canvas>
   <div id="load-status" role="status">Loading the current assembly…</div>
-  <div class="canvas-caption"><span class="caption-mark"></span><span id="caption">Static design preview · no validated learned policy yet</span></div>
+  <div class="canvas-caption"><span class="caption-mark"></span><span id="caption">Static design preview · select a motion recording</span></div>
   <div class="interaction-hint">Drag to orbit <span>·</span> Scroll to zoom <span>·</span> <span id="inspection-hint">Cutaway reveals the mechanism</span></div>
 </section>
 </main><script type="module" src="skills.mjs"></script>

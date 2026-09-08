@@ -43,7 +43,8 @@
       "source_sha256": "99a3455c98c872667f2adb3c701004c9c0c99a0444b34e8ead0c6bdfabe7878e",
       "half_step_source_sha256": "fbd88ab523fd27a8c2ee0b2261cdc7c3c2659794f109f361e870a2aa5349218c",
       "stable_hold_s": 4.2260000000003775,
-      "half_step_stable_hold_s": 4.771500000000086
+      "half_step_stable_hold_s": 4.771500000000086,
+      "replay_sha256": "f4eb35053684995ebc153905098a710e546ba4f9eda3c3fc63e25a61842bd297"
     },
     {
       "family": "back",
@@ -52,7 +53,8 @@
       "source_sha256": "a97c324da23a655ca42ed4b706b2ab99562aaed11eb9ffa1d89c64f5bf0251a4",
       "half_step_source_sha256": "d70d42419d764285af1b9801d5552f1f6beea2a9bc4db9c8d1037ffb4d1df2cd",
       "stable_hold_s": 4.888000000000011,
-      "half_step_stable_hold_s": 4.469749999999717
+      "half_step_stable_hold_s": 4.469749999999717,
+      "replay_sha256": "b797329c002f25eba3b9a7bf361f3b76ea06f98feb0b281806885fbbe7b53497"
     },
     {
       "family": "left_side",
@@ -61,7 +63,8 @@
       "source_sha256": "461e2241064a5b919c083f0572ab4ba5378e578a21165f654509d035bf24a990",
       "half_step_source_sha256": "513ae4bdabaedc91f6b724cb6134e29b3c9e0ab3617f49170c198f2418ab2f4d",
       "stable_hold_s": 4.851000000000031,
-      "half_step_stable_hold_s": 4.508499999999764
+      "half_step_stable_hold_s": 4.508499999999764,
+      "replay_sha256": "b761b3e8b2b04d7e8e2275e5224a2d1a81cbd72f76df6df9fb2730a41b2b874b"
     },
     {
       "family": "right_side",
@@ -70,7 +73,8 @@
       "source_sha256": "9a17575287a2f18b45bf7d66a3793bec10fbcd15abfc5a1f12333d09209aedce",
       "half_step_source_sha256": "2ca65f2af27d647490fd3a8c7b39d0d47fd300ca95484f2f69cba3352b3eaf1a",
       "stable_hold_s": 4.591000000000175,
-      "half_step_stable_hold_s": 4.283499999999489
+      "half_step_stable_hold_s": 4.283499999999489,
+      "replay_sha256": "27d167085c8432485676d8c6f998d2181f803a318d7718ade5052d1b09d69a53"
     },
     {
       "family": "inverted",
@@ -79,7 +83,8 @@
       "source_sha256": "fc64b5194ca83d08370f0afabec7838733d928fb387be5c2e771edf9519ef7c0",
       "half_step_source_sha256": "356460b09381ff1dcf450147fa27c4b226d24e80212b32372e1ea9188fd8c3a4",
       "stable_hold_s": 4.190500000000397,
-      "half_step_stable_hold_s": 4.190249999999375
+      "half_step_stable_hold_s": 4.190249999999375,
+      "replay_sha256": "a672bcb017561fa26d4c98b6691b9176348e00ec9d26d6d2d0d2bede45f8839d"
     },
     {
       "family": "front_left",
@@ -88,7 +93,8 @@
       "source_sha256": "2cf9344b5877cfb0cbc10e74b722914c50e6ecffc35978c4f19ad7f6190188ac",
       "half_step_source_sha256": "5bb7d2d2f1b3eacdda53a6b3f91f2ccdf71a2372263b660c954510a1a7b10a63",
       "stable_hold_s": 4.058000000000471,
-      "half_step_stable_hold_s": 4.053249999999208
+      "half_step_stable_hold_s": 4.053249999999208,
+      "replay_sha256": "e5076928875b6758045a9fa11fd63a22fe74614f7d64cf6c5b69bb54a550dab3"
     },
     {
       "family": "front_right",
@@ -97,7 +103,8 @@
       "source_sha256": "aa3f823de611d64a50b7f7daa3d2bdf08e7cce8c52d93c11af1d410fd2464518",
       "half_step_source_sha256": "00104ec61b0fecda81fd06acbb7260157df7a2c58e05127e5f7420f596c88a43",
       "stable_hold_s": 4.620500000000159,
-      "half_step_stable_hold_s": 4.6002499999998765
+      "half_step_stable_hold_s": 4.6002499999998765,
+      "replay_sha256": "7bce320349adf95b675469a9f461e4090ff1830400d631918ee1d5841cb5a1cb"
     },
     {
       "family": "back_left",
@@ -106,7 +113,8 @@
       "source_sha256": "423dbb788fcedcb36b3e696cf2be8bd5938d5a3f97199a6d6b1fca9a8c9387f3",
       "half_step_source_sha256": "4644cdf23cd45d17b15e624a5192c09ddfda1fff43552079ec816ffb9b7dd6e0",
       "stable_hold_s": 4.284000000000345,
-      "half_step_stable_hold_s": 4.812250000000136
+      "half_step_stable_hold_s": 4.812250000000136,
+      "replay_sha256": "9ff33d882a2744bc9ec005a9f09c2f08e258a1f0a94e746682d28199b93a3708"
     },
     {
       "family": "back_right",
@@ -115,7 +123,8 @@
       "source_sha256": "83f6883cdc1580d0f7f0fcad284ae8eee6fb90cd91022526477d47aa155bdd8c",
       "half_step_source_sha256": "bd7f5e1bf7f8fe0bc84b3d1d198f39750d5122dc9c9d19fef285b8eb056763ad",
       "stable_hold_s": 4.87100000000002,
-      "half_step_stable_hold_s": 4.891250000000232
+      "half_step_stable_hold_s": 4.891250000000232,
+      "replay_sha256": "e18014e0be7b987b92383304e783fc41e8c26253c803f32ef28c7d9a5b345be3"
     }
   ],
   "sensitivity": [
@@ -231,5 +240,6 @@
         "Small perturbations of nine original poses do not establish recovery from arbitrary falls."
       ]
     }
-  ]
+  ],
+  "geometry_sha256": "d9bb4e1dd2cb29ea1fb941910d3a83a8582a502ae987d4b2c3a97556dbcba2d6"
 }

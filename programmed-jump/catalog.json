@@ -17,7 +17,8 @@
       "source_sha256": "e5dacb706cb68d21755be0e33f40f19f862b1df0804a765afc0d899c76531ece",
       "half_step_source_sha256": "2eb7061c8a4ce529eb1f5fe07393708bea8fbf62e45e9a3dbd4fb54e996476d2",
       "stable_hold_s": 9.626500000000274,
-      "half_step_stable_hold_s": 9.619500000000256
+      "half_step_stable_hold_s": 9.619500000000256,
+      "replay_sha256": "fa2904a518f126f4159907a94cf52e1bdb432645f1657ebf57d2fda29b93a5e5"
     }
   ],
   "checks": [
@@ -75,5 +76,6 @@
       "diagnostic_pass": true,
       "source_sha256": "2ce60fad8e3e5b492c0618d4ca167d3ce32941d68a4d009e2f42f47a4f3de40f"
     }
-  ]
+  ],
+  "geometry_sha256": "d9bb4e1dd2cb29ea1fb941910d3a83a8582a502ae987d4b2c3a97556dbcba2d6"
 }
