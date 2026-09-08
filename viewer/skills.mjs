@@ -182,7 +182,9 @@ try {
     if (entry.policy) $('policy-link').href = '../learned/' + entry.policy;
     if (entry.checkpoint) $('checkpoint-link').href = '../learned/' + entry.checkpoint;
     const controller = next.report.controller || '';
-    const method = controller.startsWith('Controller composition') ? 'Combined learned' :
+    const method = controller.startsWith('Controller lookup') ? 'Demonstration lookup' :
+      controller.startsWith('PPO with demonstration residual') ? 'PPO with learned corrections' :
+      controller.startsWith('Controller composition') ? 'Combined learned' :
       controller.startsWith('PPO with frozen balance') ? 'PPO with fixed balance' :
       controller.startsWith('Behavior cloning') ? 'Imitation' :
       controller.startsWith('Posture transfer') ? 'Transferred PPO' : 'Learned PPO';
