@@ -13,13 +13,13 @@
       "id": "height",
       "label": "Change height",
       "stage": "Validated",
-      "detail": "120/120 independent simulation cases passed."
+      "detail": "Original robot: 120/120 cases passed. Wider-robot height control is being fine-tuned and remains unvalidated."
     },
     {
       "id": "drive",
       "label": "Drive & turn",
       "stage": "Validated",
-      "detail": "120/120 independent simulation cases passed."
+      "detail": "Original and wider robots each passed 120/120 independent drive-and-turn cases."
     },
     {
       "id": "push",
@@ -37,7 +37,7 @@
       "id": "recovery",
       "label": "Stand after a fall",
       "stage": "In development",
-      "detail": "Required. The wider candidate has validated balance and push recovery. Programmed get-ups pass 18/18 exact-start tests and 214/306 nearby-start tests. Learned full-fall recovery remains unvalidated. See the recovery development viewer."
+      "detail": "Required. The wider candidate has validated balance, driving and push recovery. Programmed get-ups pass 18/18 exact-start tests and 214/306 nearby-start tests. Learned full-fall recovery remains unvalidated. See the recovery development viewer."
     }
   ],
   "policies": [
@@ -122,6 +122,21 @@
       "checkpoint": "push-9b3b76d7bf69/checkpoint.pt",
       "geometry": "push-9b3b76d7bf69/geometry.json",
       "geometry_sha256": "2560292600249b8958ddce441780c7aa94a19fe700daac5a05433e3a5917565c"
+    },
+    {
+      "id": "drive-a3fd0a3aa370",
+      "skill": "drive",
+      "label": "Drive & turn \u00b7 wider candidate",
+      "policy_sha256": "a3fd0a3aa370e91a899eab7b51a7b74bf0720019c4843102b75bbf98abd55525",
+      "model_sha256": "60f21ccdef503755e4dff697eceedf1ee508977b3ba661cab7c014b79c7e3f8d",
+      "cases": 120,
+      "passed": 120,
+      "replay": "drive-a3fd0a3aa370/trajectory.json",
+      "evaluation": "drive-a3fd0a3aa370/evaluation.json",
+      "policy": "drive-a3fd0a3aa370/policy.onnx",
+      "checkpoint": "drive-a3fd0a3aa370/checkpoint.pt",
+      "geometry": "drive-a3fd0a3aa370/geometry.json",
+      "geometry_sha256": "957121038ccffc28ee6f95a896f8d8804d77b7012c5b038a268a6e6a6a145d45"
     }
   ]
 }
