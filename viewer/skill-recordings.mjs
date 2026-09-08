@@ -12,12 +12,33 @@ export function programmedEntries(catalog, skill) {
   return catalog.replays.map(row => ({
     ...row, id: `programmed-${skill}-${row.id ?? row.family}`,
     type: 'programmed', skill, directory: jump ? '../programmed-jump/' : '../recovery/',
-    label: jump ? 'Jump & land · wider candidate' : `Get up · ${row.label.toLowerCase()} · wider candidate`,
+    label: jump ? 'Jump & land' : `Get up · ${row.label.toLowerCase()}`,
     replay: row.file, evaluation: 'catalog.json', geometry: catalog.geometry,
     geometry_sha256: catalog.geometry_sha256, mass_kg: catalog.mass_kg,
     model_sha256: catalog.model_sha256 ?? catalog.provenance.model_sha256,
     catalog,
   }));
+}
+
+// Select by physical identity, never by a cosmetic label or list position.
+// Old-design policies remain archived without appearing as a second robot.
+export function mainRecordings(catalog, jumpCatalog, recoveryCatalog) {
+  if (catalog.schema_version !== 1) throw Error('Unsupported policy catalog version');
+  const demos = [...programmedEntries(jumpCatalog, 'jump'), ...programmedEntries(recoveryCatalog, 'recovery')];
+  const model = jumpCatalog.model_sha256;
+  if (!model || demos.some(entry => entry.model_sha256 !== model)) throw Error('Demonstrations use different robot models');
+  const labels = {balance: 'Balance', drive: 'Drive & turn', height: 'Change height', push: 'Recover from a push'};
+  const policies = catalog.policies.filter(entry => entry.model_sha256 === model).map(entry => ({
+    ...entry, type: 'learned', directory: '../learned/', label: labels[entry.skill] ?? entry.label,
+  }));
+  return {policies, demos, recordings: [...demos, ...policies]};
+}
+
+export function initialRecordingId(recordings, requested) {
+  const selected = recordings.find(entry => entry.id === requested)
+    ?? recordings.find(entry => entry.id === 'programmed-jump-jump');
+  if (!selected) throw Error('Default jump recording is missing');
+  return selected.id;
 }
 
 export function validateRecording(entry, record) {

@@ -1,4 +1,4 @@
-# Beni robot viewer
+# Clanky robot viewer
 
 Built viewer, CAD assets and simulation replays, automatically updated from the
 robot project on each push. `deployment.json` identifies the source revision.

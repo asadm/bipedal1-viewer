@@ -21,7 +21,7 @@ try{
  if(internalFull)for(const id of ['height','left-height','right-height'])$(id).max=stroke;
  const rideHeight=leg(p.geometry,p.geometry.q_low_rad).E[1]-leg(p.geometry,p.nominal_q_rad).E[1],chartStart=driving?0:.8,chartEnd=driving?frames.at(-1).t:2.2;
  if(driving){
-  document.title='Beni / MuJoCo driving test';
+  document.title='Clanky / MuJoCo driving test';
   document.querySelector('h1').textContent='Drive. Balance. Brake.';
   document.querySelector('.intro').textContent=`Recorded MuJoCo test: ${report.target_speed_m_s.toFixed(2)} m/s command, ${report.voltage_V.toFixed(1)} V battery, ${report.resistance_N.toFixed(1)} N assumed resistance. The existing Waveshare wheel motors retain their torque and speed limits.`;
   document.querySelector('[aria-label="Demonstration"]').hidden=true;

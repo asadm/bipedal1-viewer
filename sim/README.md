@@ -2,7 +2,7 @@
 
 This is the **concept-01 height-only plant**. The [enclosed jumping revision](../jump-upgrade.md) requires a different third actuator, elastic transmission and landing model. The current yoke servo must not be used to claim jumping performance.
 
-`build_model.py` generates `beni.xml` directly from the CAD parameters. `verify.py` checks the wheel and shock geometry at all 27 corner combinations and runs a ten-second passive dynamics smoke test. `plant.py` approximates wheel torque-speed saturation and lag, and rate-limits the shared yoke command. These are an initial plant, not a trained or validated balance controller.
+`build_model.py` generates `clanky.xml` directly from the CAD parameters. `verify.py` checks the wheel and shock geometry at all 27 corner combinations and runs a ten-second passive dynamics smoke test. `plant.py` approximates wheel torque-speed saturation and lag, and rate-limits the shared yoke command. These are an initial plant, not a trained or validated balance controller.
 
 Run `.venv-sim/bin/python design/sim/verify.py` from the project root. The model is compatible with MuJoCo 3.3.7 and has a `nominal` keyframe. Load that keyframe in a MuJoCo viewer to inspect it; it will fall without a balance controller. Use `Plant.step()` before each physics step when evaluating controllers so they cannot bypass its speed/torque and yoke-speed limits. Raw MJCF motors alone do not model voltage saturation.
 
