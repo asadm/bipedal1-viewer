@@ -13,7 +13,7 @@
       "id": "height",
       "label": "Change height",
       "stage": "Validated",
-      "detail": "Original robot: 120/120 cases passed. Wider-robot height control is being fine-tuned and remains unvalidated."
+      "detail": "Original robot: 120/120 cases passed. Wider-robot height fine-tuning did not pass validation; controller development continues."
     },
     {
       "id": "drive",
