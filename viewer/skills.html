@@ -25,10 +25,9 @@
     <div id="policy-picker" hidden><label for="policy-select">Motion</label><select id="policy-select"></select></div>
     <div id="inspection-controls" hidden>
       <h2>Inspect leg travel</h2>
-      <p class="small-note">Move the legs by hand. This is a prescribed pose, not a physics simulation.</p>
+      <p class="small-note">Overall sets both legs to the same extension. Left and Right move just that leg. This is a prescribed pose, not a physics simulation.</p>
       <div class="slider-heading"><label for="leg-height">Overall extension</label><output id="leg-height-output"></output></div><input id="leg-height" type="range" min="0" step=".1">
-      <label class="check-row" for="independent">Independent legs<input id="independent" type="checkbox"></label>
-      <div id="independent-controls" hidden>
+      <div id="independent-controls">
         <div class="slider-heading"><label for="left-height">Left extension</label><output id="left-height-output"></output></div><input id="left-height" type="range" min="0" step=".1">
         <div class="slider-heading"><label for="right-height">Right extension</label><output id="right-height-output"></output></div><input id="right-height" type="range" min="0" step=".1">
       </div>

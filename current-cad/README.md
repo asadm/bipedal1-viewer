@@ -19,6 +19,10 @@ Meshes are in millimeters in each MuJoCo body's local coordinate frame.
 The manifest binds the mesh file to the model and plant fingerprints used by
 all fourteen homepage recordings.
 
+Display poses interpolate between recorded body transforms for smooth playback;
+telemetry and validation use the unchanged original samples. The camera follows
+horizontal travel and keeps its height fixed so the jump is visible in the frame.
+
 Springs are drawn procedurally at the simulated pin coordinates. The coil has a
 50 mm free length, with 14 mm allocated to end fittings, and becomes unloaded
 when the pins separate beyond 64 mm. Coils and tire tread are illustrative;

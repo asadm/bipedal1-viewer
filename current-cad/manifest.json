@@ -3,7 +3,7 @@
   "model_sha256": "60f21ccdef503755e4dff697eceedf1ee508977b3ba661cab7c014b79c7e3f8d",
   "plant_fingerprint": "2a948ecc50d3f7e2c10ba1811064f82e3b0cfd07bb86531aa137aea47ef4eab2",
   "parts": "parts.json",
-  "parts_sha256": "73cbd9e8e72ddaef0ae502ad5fe4328d9adf2f415bdc5ba55785a6ae369dd29b",
+  "parts_sha256": "362ee48b56b13e8aa6605a51a35632a393da30a786cf2fcd1c1c2613a165665a",
   "source_sha256": {
     "design/concept06/recovery_candidate_export.py": "6578343af0330a4d5c44e4e788520db9e7737d7000c8128f44ca45e9ce5c0de6",
     "design/concept06/output/internal-validation/mass-properties.json": "41d3d1b6f38fc398c9fd5b01996461751dcb18ba7ad021a494704f150dcf7dc1",
@@ -24,7 +24,7 @@
     "docs/results/wide-recovery-cad.json": "f13d6ea9e08958e2e1fb580e83b011811c3e974f8f76d13092c3fbfbc45d9ac0",
     "src/clanky/robot/assets/wide/parameters.json": "50a02cc0e9ddf32ebc7d14cfa7e30a170ae33b9507ef95f3e13fc4d6096cbcaa",
     "design/concept06/output/internal-full/parts.json": "0b70c01c786fe3acdcb8384d41b841f2465246ff0c3340f9bd011ca2caf526b8",
-    "design/concept06/export_viewer_cad.py": "9726b0717e89fc3d39b3e9f941ca54874e5a4b7b37c6f641c6ca4cd562280de1"
+    "design/concept06/export_viewer_cad.py": "1c08b33907524eef6a9ed8134c78b173ef017ff3332ea3d05d331893e4d18b3a"
   },
   "units": "mm",
   "frame_convention": "MuJoCo body-local",

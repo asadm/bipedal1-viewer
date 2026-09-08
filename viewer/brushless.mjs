@@ -172,7 +172,7 @@ try{
   mode=kinematicOnly?'pose':value;play(false);cycle(false);document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));
   $('replay-controls').hidden=mode!=='jump';$('pose-controls').hidden=mode!=='pose';
   if(mode==='pose')showPose();else{current.root.position.y=0;previous.root.visible=false;$('new-label').hidden=$('old-label').hidden=true;show(replayStart);}
-  $('caption').textContent=internalValidation&&mode==='jump'?'Current CAD / MuJoCo replay · hardware validation failed':driving?'MuJoCo driving recording · shell mass unverified':mode==='pose'?'Kinematic inspection · balance not simulated':(streamlined?'Original drive replay · new shell not re-simulated':'MuJoCo recording · hardware untested');view();
+  $('caption').textContent=internalValidation&&mode==='jump'?'Original assembly archive / MuJoCo replay · hardware validation failed':driving?'MuJoCo driving recording · shell mass unverified':mode==='pose'?'Kinematic inspection · balance not simulated':(streamlined?'Original drive replay · new shell not re-simulated':'MuJoCo recording · hardware untested');view();
  }
  function setDisplay(value){
   display=kinematicOnly&&value==='physics'?'cad':value;document.querySelectorAll('[data-display]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.display===display)));
@@ -215,14 +215,14 @@ try{
  if(internalValidation){
   $('mass').textContent=`${p.mass_kg.toFixed(2)} kg (CAD estimate)`;
   if($('guide-peak'))$('guide-peak').textContent=report.peak_loads?Math.max(...['left','right'].map(side=>report.peak_loads[side+'_guide_N'])).toFixed(0)+' N':'—';
-  $('exterior-metrics').textContent='Current geometry + mass/inertia + V2806 motors in MuJoCo. Hardware release: FAIL.';
+  $('exterior-metrics').textContent='Original 2.39 kg geometry + mass/inertia + V2806 motors in MuJoCo. Hardware release: FAIL.';
   $('validation-note').textContent=driving?`${report.nominal_model_pass?'Driving checks pass':'Driving checks fail'} for this assumed flat-ground model. Strength, sealing and hardware speed remain unqualified.`:`${sensitivity.dynamics_pass_count}/${sensitivity.total_cases} dynamics cases pass excluding the body-level requirement. This replay ${report.dynamics_pass_excluding_body_level?'jumps, lands and recovers':'has dynamics failures'}. Full acceptance fails; the body settles at ${report.final_pitch_deg.toFixed(1)}°. See the report for structural and sealing failures.`;
   if(!driving)$('result-detail').textContent=`${(report.first_flight_time_s*1000).toFixed(0)} ms airborne · ${report.com_ballistic_rise_mm.toFixed(0)} mm COM rise · hardware untested`;
   if(!driving&&jumpCase.startsWith('short_launch_'))$('validation-note').textContent='Shorter launch: nominal and 5 ms delayed/noisy follow-up cases pass the dynamics checks excluding body level. Only these two cases were tested with this trajectory. The full uncertainty campaign has not been repeated; hardware acceptance still fails.';
   if(driving){
-   document.querySelector('.intro').textContent=`Current internal-knee robot, V2806 wheel motors, ${p.mass_kg.toFixed(2)} kg estimated mass. Recorded ${report.target_speed_m_s.toFixed(2)} m/s command with ${report.resistance_N.toFixed(1)} N assumed resistance. No aerodynamic or thermal model.`;
+   document.querySelector('.intro').textContent=`Archived internal-knee robot, V2806 wheel motors, ${p.mass_kg.toFixed(2)} kg estimated mass. Recorded ${report.target_speed_m_s.toFixed(2)} m/s command with ${report.resistance_N.toFixed(1)} N assumed resistance. No aerodynamic or thermal model.`;
    const links=document.querySelector('.intro').nextElementSibling;
-   links.innerHTML='<a href="?run=drive&case=cruise">0.8 m/s</a> · <a href="?run=drive&case=fast">2 m/s</a> · <a href="?run=drive&case=target_20kmh">20 km/h model</a> · <a href="?run=drive&case=resistance">Resistance</a><br><a href="validation.html">Current jump + validation ↗</a>';
+   links.innerHTML='<a href="?run=drive&case=cruise">0.8 m/s</a> · <a href="?run=drive&case=fast">2 m/s</a> · <a href="?run=drive&case=target_20kmh">20 km/h model</a> · <a href="?run=drive&case=resistance">Resistance</a><br><a href="validation.html">Archived jump + validation ↗</a>';
    document.querySelector('.sidebar details').innerHTML='<summary>Driving model limits</summary><p>CAD-derived estimated mass/inertia, closed internal linkages and outer hulls for ground contacts. Current- and voltage-limited V2806 model. Perfect state, flat ground, assumed losses and explicit resistance; no aerodynamic, motor-temperature or physical-hardware validation.</p><p>The structure and enclosure do not pass the hardware release review.</p><p id="print-note"></p>';
   }
  }

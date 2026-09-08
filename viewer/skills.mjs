@@ -3,6 +3,7 @@ import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {compiledRobot} from './compiled-robot.mjs';
 import {cadRobot} from './cad-robot.mjs';
 import {inspectionPose, inspectionRange} from './cad-pose.mjs';
+import {interpolateBodies} from './replay-pose.mjs';
 import {mainRecordings, initialRecordingId, validateRecording, programmedDetail, programmedPhase} from './skill-recordings.mjs';
 
 const $ = id => document.getElementById(id);
@@ -69,16 +70,18 @@ try {
   }
   document.querySelectorAll('[data-display]').forEach(button => button.onclick = () => display(button.dataset.display));
   display(new URLSearchParams(location.search).get('view'));
-  function apply(frame) {
-    cad.apply(frame);
+  function apply(frame, bodies = frame.bodies) {
+    cad.apply({...frame, bodies});
     const activeGroups = groups;
-    for (const [name, transform] of Object.entries(frame.bodies)) {
+    for (const [name, transform] of Object.entries(bodies)) {
       const group = activeGroups[name]; if (!group) continue;
       group.position.set(...transform.pos.map(v => v * 1000));
       group.quaternion.set(transform.quat[1], transform.quat[2], transform.quat[3], transform.quat[0]);
     }
-    const nextTarget = new THREE.Vector3(...frame.bodies.chassis.pos.map(v => v * 1000));
-    nextTarget.z = Math.max(100, nextTarget.z - 30);
+    const nextTarget = new THREE.Vector3(...bodies.chassis.pos.map(v => v * 1000));
+    // Track driving horizontally; a fixed vertical frame makes jumping and
+    // raising/lowering visible instead of flying the camera with the chassis.
+    nextTarget.z = 155;
     const shift = nextTarget.clone().sub(target); camera.position.add(shift); controls.target.add(shift); target.copy(nextTarget);
     floor.position.x = nextTarget.x; floor.position.y = nextTarget.y;
     grid.position.x = Math.floor(nextTarget.x / 40) * 40; grid.position.y = Math.floor(nextTarget.y / 40) * 40;
@@ -105,7 +108,8 @@ try {
         : `${height.toFixed(0)} / ${(frame.command[2] * 1000).toFixed(0)} mm`;
       if (programmed) $('velocity').textContent = `${frame.speed_m_s.toFixed(2)} m/s`;
       else {
-        const bodyVelocity = new THREE.Vector3(...frame.qvel.slice(0, 3)).applyQuaternion(activeGroups.chassis.quaternion.clone().invert());
+        const [w, x, y, z] = frame.bodies.chassis.quat;
+        const bodyVelocity = new THREE.Vector3(...frame.qvel.slice(0, 3)).applyQuaternion(new THREE.Quaternion(x, y, z, w).invert());
         $('velocity').textContent = `${bodyVelocity.x.toFixed(2)} / ${frame.command[0].toFixed(2)} m/s`;
       }
       $('contact').textContent = programmed
@@ -129,7 +133,10 @@ try {
     time = Math.max(frames[0].t, Math.min(frames.at(-1).t, t));
     let lo = 0, hi = frames.length - 1;
     while (lo < hi) { const mid = Math.ceil((lo + hi) / 2); if (frames[mid].t <= time) lo = mid; else hi = mid - 1; }
-    apply(frames[lo]); $('timeline').value = time; $('time-output').textContent = `${time.toFixed(2)} s`;
+    const frame = frames[lo], next = frames[Math.min(lo + 1, frames.length - 1)];
+    const fraction = next.t > frame.t ? (time - frame.t) / (next.t - frame.t) : 0;
+    apply(frame, interpolateBodies(frame.bodies, next.bodies, fraction));
+    $('timeline').value = time; $('time-output').textContent = `${time.toFixed(2)} s`;
   }
   function play(value) { playing = value; $('play').textContent = value ? 'Pause' : 'Play'; }
   function view(name = 'iso') {
@@ -188,10 +195,10 @@ try {
   const {stroke, ride} = inspectionRange(manifest);
   for (const id of ['leg-height', 'left-height', 'right-height']) { $(id).max = stroke; $(id).value = ride; }
   function showPose() {
-    const independent = $('independent').checked;
-    $('independent-controls').hidden = !independent; $('leg-height').disabled = independent;
-    const heights = independent ? [Number($('left-height').value), Number($('right-height').value)] : [Number($('leg-height').value), Number($('leg-height').value)];
+    const heights = [Number($('left-height').value), Number($('right-height').value)];
+    $('leg-height').value = (heights[0] + heights[1]) / 2;
     for (const id of ['leg-height', 'left-height', 'right-height']) $(id + '-output').textContent = `${Number($(id).value).toFixed(1)} mm`;
+    if (Math.abs(heights[0] - heights[1]) > .01) $('leg-height-output').textContent += ' avg';
     apply(inspectionPose(manifest, heights));
   }
   function inspect() {
@@ -205,9 +212,8 @@ try {
     showPose(); view();
   }
   $('leg-height').oninput = () => { $('left-height').value = $('right-height').value = $('leg-height').value; showPose(); };
-  for (const id of ['left-height', 'right-height', 'independent']) $(id).oninput = showPose;
+  for (const id of ['left-height', 'right-height']) $(id).oninput = showPose;
   document.querySelectorAll('[data-pose]').forEach(button => button.onclick = () => {
-    $('independent').checked = false;
     for (const id of ['leg-height', 'left-height', 'right-height']) $(id).value = {low: 0, ride, high: stroke}[button.dataset.pose];
     showPose();
   });
