@@ -37,7 +37,7 @@
       "id": "recovery",
       "label": "Stand after a fall",
       "stage": "In development",
-      "detail": "Required. The wider candidate has validated balance, driving and push recovery. Programmed get-ups pass 18/18 exact-start tests and 214/306 nearby-start tests. Learned full-fall recovery remains unvalidated. See the recovery development viewer."
+      "detail": "Required. The wider candidate has validated balance, driving and push recovery. The full programmed fall-recovery test passes 349/432 cases; four heavier-robot cases fail the motor electrical checks. Learned full-fall recovery remains unvalidated."
     }
   ],
   "policies": [
