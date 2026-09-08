@@ -13,7 +13,7 @@
       "id": "height",
       "label": "Change height",
       "stage": "Validated",
-      "detail": "Original robot: 120/120 cases passed. Wider-robot height fine-tuning did not pass validation; controller development continues."
+      "detail": "Original and wider robots each passed 120/120 independent height-control cases. The wider policy uses imitation learning."
     },
     {
       "id": "drive",
@@ -136,6 +136,21 @@
       "policy": "drive-a3fd0a3aa370/policy.onnx",
       "checkpoint": "drive-a3fd0a3aa370/checkpoint.pt",
       "geometry": "drive-a3fd0a3aa370/geometry.json",
+      "geometry_sha256": "957121038ccffc28ee6f95a896f8d8804d77b7012c5b038a268a6e6a6a145d45"
+    },
+    {
+      "id": "height-dc946f89dd26",
+      "skill": "height",
+      "label": "Wider candidate \u00b7 height (imitation)",
+      "policy_sha256": "dc946f89dd26f5cf721e7f8c1d5163e2dd0319909b9b533fd97412e1a7c1ddb3",
+      "model_sha256": "60f21ccdef503755e4dff697eceedf1ee508977b3ba661cab7c014b79c7e3f8d",
+      "cases": 120,
+      "passed": 120,
+      "replay": "height-dc946f89dd26/trajectory.json",
+      "evaluation": "height-dc946f89dd26/evaluation.json",
+      "policy": "height-dc946f89dd26/policy.onnx",
+      "checkpoint": "height-dc946f89dd26/checkpoint.pt",
+      "geometry": "height-dc946f89dd26/geometry.json",
       "geometry_sha256": "957121038ccffc28ee6f95a896f8d8804d77b7012c5b038a268a6e6a6a145d45"
     }
   ]

@@ -1,0 +1,1043 @@
+{
+  "skill": "height",
+  "variant": "wide_current",
+  "seed": 133200,
+  "git_commit": "b9a4bd642262b429d967be9880b930f41a115c4d",
+  "num_envs": 0,
+  "workers": 1,
+  "envs_per_worker": 8,
+  "worker_seeds": [],
+  "distributed_backend": "gloo",
+  "policy_dt_s": 0.02,
+  "physics_dt_s": 0.0005,
+  "randomization": false,
+  "recovery_recipe": "baseline",
+  "reward_weights": {
+    "upright": 1.0,
+    "velocity": 2.0,
+    "yaw": 1.0,
+    "yaw_error": -0.5,
+    "height": 4.0,
+    "support": 0.5,
+    "action_rate": -0.015,
+    "electrical_effort": -0.02,
+    "body_rotation": -0.03,
+    "height_precision": 2.0
+  },
+  "reset_parameters": {
+    "recovery": false,
+    "recovery_curriculum": true,
+    "jump": false,
+    "jump_curriculum": true,
+    "height_varied": true
+  },
+  "parameters": {
+    "revision": "concept06-internal-knee-full",
+    "status": "Full-robot kinematic packaging candidate; not a dynamics model or manufacturing release.",
+    "budget": {
+      "original_target_usd": 75,
+      "current_motor_spring_estimate_usd": 112.52,
+      "scope": "Four motors and two springs only; all controllers, transmission hardware, internal-knee metalwork, battery, tax and delivery extra."
+    },
+    "mass_kg": 2.4480686161815157,
+    "pivot_x_m": 0.005,
+    "wheel_radius_m": 0.05,
+    "track_m": 0.15,
+    "spring": {
+      "part": "MISUMI SWF12-50",
+      "quantity": 2,
+      "rate_N_m": 5500,
+      "rate_tolerance_fraction": 0.1,
+      "free_length_m": 0.05,
+      "outside_diameter_nominal_m": 0.012,
+      "inside_diameter_nominal_m": 0.0065,
+      "design_compression_limit_m": 0.02,
+      "catalog_max_compression_m": 0.025,
+      "price_each_usd": 2.28,
+      "purchase_url": "https://us.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+      "source": "https://uk.misumi-ec.com/pdf/fa/2014/P2_0365-0366_F37_EN.pdf",
+      "procurement_status": "Previously checked estimate; price is not reconfirmed for this model",
+      "upper_seat_from_knee_m": 0.06,
+      "lower_seat_from_knee_m": 0.025,
+      "seat_y_from_leg_m": 0.0295,
+      "free_pin_span_m": 0.064
+    },
+    "jump_motor": {
+      "part": "SunnySky X2216 V3 880KV long shaft",
+      "sku": "SS-XV3-X2216-L-880-V3",
+      "quantity": 2,
+      "kv_rpm_per_V": 880,
+      "torque_constant_Nm_A": 0.010851473392629226,
+      "resistance_ohm": 0.089,
+      "no_load_current_A": 0.5,
+      "mass_kg": 0.0675,
+      "diameter_m": 0.0277,
+      "body_length_m": 0.034,
+      "ratio": 20,
+      "efficiency_assumption": 0.8,
+      "rotor_inertia_assumption_kg_m2": 4e-06,
+      "current_limit_assumption_A": 32,
+      "electrical_lag_assumption_s": 0.0004,
+      "supply_voltage_assumption_V": 11.1,
+      "motor_constant_factor": 1.0,
+      "price_listed_usd": 24.99,
+      "source": "https://sunnyskyusa.com/products/sunnysky-x2216-v3-brushless-motors-long-shaft-version",
+      "caution": "DC-equivalent BLDC model. Kv/Kt, current and resistance conventions must be calibrated to the FOC driver. Manufacturer 32 A/30 s assumes propeller cooling; sealed joint thermal rating is unknown. Rotor inertia estimated from a 21 g thin ring at 13.8 mm. Encoder and bidirectional FOC required."
+    },
+    "wheel_motor": {
+      "part": "SunnySky V2806 650KV",
+      "quantity": 2,
+      "kv_rpm_per_V": 650,
+      "diameter_m": 0.035,
+      "body_length_m": 0.018,
+      "mass_kg": 0.047,
+      "ratio": 5,
+      "price_each_usd": 28.99,
+      "source": "https://sunnyskyusa.com/products/sunnysky-v2806-motor?variant=45703574095",
+      "status": "Packaging selection only. FOC, encoder, torque-speed model, thermal rating, adapter and gear procurement unqualified.",
+      "torque_constant_Nm_A": 0.014691225516174956,
+      "resistance_ohm": 0.227,
+      "no_load_current_A": 0.4,
+      "efficiency_assumption": 0.8,
+      "rotor_inertia_assumption_kg_m2": 5e-06,
+      "current_limit_assumption_A": 8.0,
+      "electrical_lag_assumption_s": 0.001,
+      "motor_constant_factor": 1.0,
+      "supply_voltage_assumption_V": 11.1,
+      "caution": "DC-equivalent model; 8 A assumed current limit, not a thermal rating. Resistance/current/FOC conventions require bench identification. Manufacturer propeller test rating does not establish sealed duty."
+    },
+    "unmeasured": {
+      "spring_branch_damping_N_s_m": 0.0,
+      "hinge_friction_Nm": 0.002,
+      "tire_friction": 0.8
+    },
+    "geometry": {
+      "crank_mm": 64.48187746169309,
+      "lower_mm": 119.11935079120995,
+      "body_pin_mm": [
+        11.471528727020925,
+        16.383040885779835
+      ],
+      "tie_mm": 64.48187746169309,
+      "coupler_mm": 24.0,
+      "lever_phase_rad": 3.2560499049148564,
+      "q_low_rad": -2.6,
+      "q_high_rad": 2.6
+    },
+    "motor_spring_subtotal_usd": 112.52,
+    "nominal_q_rad": 0.4101523742186677,
+    "mass_status": "CAD-derived mass/inertia estimate, not weighed or sliced.",
+    "internal_knee": true,
+    "rigid_bodies": {
+      "chassis": {
+        "mass_kg": 1.0140931288372268,
+        "com_m": [
+          -0.007088788595245197,
+          3.346226951463433e-05,
+          0.0012456052895287017
+        ],
+        "inertia_kg_m2": [
+          [
+            0.001612631556069617,
+            1.3409104818414568e-05,
+            1.3418905719794236e-06
+          ],
+          [
+            1.3409104818414568e-05,
+            0.0013770122860254754,
+            5.359372631586237e-06
+          ],
+          [
+            1.3418905719794236e-06,
+            5.359372631586237e-06,
+            0.002105359859529145
+          ]
+        ]
+      },
+      "left_lower": {
+        "mass_kg": 0.18127660330246056,
+        "com_m": [
+          0.08351495589688286,
+          -0.0032891629352024086,
+          0.011840999369046352
+        ],
+        "inertia_kg_m2": [
+          [
+            0.00011479638650417802,
+            0.00010970142778112618,
+            -7.317853392199998e-05
+          ],
+          [
+            0.00010970142778112618,
+            0.0005743556869753018,
+            2.4685320133211374e-05
+          ],
+          [
+            -7.317853392199998e-05,
+            2.4685320133211374e-05,
+            0.000568679210607304
+          ]
+        ]
+      },
+      "left_tie": {
+        "mass_kg": 0.01708538558880156,
+        "com_m": [
+          0.03224093873084655,
+          0.017,
+          -8.87981627051699e-19
+        ],
+        "inertia_kg_m2": [
+          [
+            1.2530978783531078e-07,
+            -1.8277205526828767e-21,
+            1.855422313347536e-22
+          ],
+          [
+            -1.8277205526828767e-21,
+            6.967718525437567e-06,
+            1.0932410532404852e-23
+          ],
+          [
+            1.855422313347536e-22,
+            1.0932410532404852e-23,
+            6.887969765839067e-06
+          ]
+        ]
+      },
+      "left_upper": {
+        "mass_kg": 0.16296319942458637,
+        "com_m": [
+          0.018345778052526365,
+          0.011502012426947107,
+          1.3641574683750698e-05
+        ],
+        "inertia_kg_m2": [
+          [
+            0.00010304237773178683,
+            -2.8743198339436925e-05,
+            -4.7397183771536077e-07
+          ],
+          [
+            -2.8743198339436925e-05,
+            0.00022607726737685678,
+            1.0736371327263606e-06
+          ],
+          [
+            -4.7397183771536077e-07,
+            1.0736371327263606e-06,
+            0.00022338134471558616
+          ]
+        ]
+      },
+      "left_wheel": {
+        "mass_kg": 0.3539855731978098,
+        "com_m": [
+          1.6384821480722782e-19,
+          -0.00875423270894779,
+          1.796269189996981e-18
+        ],
+        "inertia_kg_m2": [
+          [
+            0.00022247589437563857,
+            7.2894928300491925e-22,
+            5.744322228159068e-20
+          ],
+          [
+            7.2894928300491925e-22,
+            0.00032349052549656093,
+            -1.7367385673652427e-20
+          ],
+          [
+            5.744322228159068e-20,
+            -1.7367385673652427e-20,
+            0.00022247589437564128
+          ]
+        ]
+      },
+      "right_lower": {
+        "mass_kg": 0.18127660330246056,
+        "com_m": [
+          0.08351495589688286,
+          0.0032891629352024086,
+          0.011840999369046352
+        ],
+        "inertia_kg_m2": [
+          [
+            0.00011479638650417802,
+            -0.00010970142778112618,
+            -7.317853392199998e-05
+          ],
+          [
+            -0.00010970142778112618,
+            0.0005743556869753018,
+            -2.4685320133211374e-05
+          ],
+          [
+            -7.317853392199998e-05,
+            -2.4685320133211374e-05,
+            0.000568679210607304
+          ]
+        ]
+      },
+      "right_tie": {
+        "mass_kg": 0.01708538558880156,
+        "com_m": [
+          0.03224093873084655,
+          -0.017,
+          -8.87981627051699e-19
+        ],
+        "inertia_kg_m2": [
+          [
+            1.2530978783531078e-07,
+            1.8277205526828767e-21,
+            1.855422313347536e-22
+          ],
+          [
+            1.8277205526828767e-21,
+            6.967718525437567e-06,
+            -1.0932410532404852e-23
+          ],
+          [
+            1.855422313347536e-22,
+            -1.0932410532404852e-23,
+            6.887969765839067e-06
+          ]
+        ]
+      },
+      "right_upper": {
+        "mass_kg": 0.1663171637415588,
+        "com_m": [
+          0.01797581572530148,
+          -0.010760868605805165,
+          1.3366477672189618e-05
+        ],
+        "inertia_kg_m2": [
+          [
+            0.00010751486535604659,
+            3.095898615493378e-05,
+            -4.7479429158855955e-07
+          ],
+          [
+            3.095898615493378e-05,
+            0.00022721017114748753,
+            -1.0719895146813854e-06
+          ],
+          [
+            -4.7479429158855955e-07,
+            -1.0719895146813854e-06,
+            0.00022895990317281853
+          ]
+        ]
+      },
+      "right_wheel": {
+        "mass_kg": 0.3539855731978098,
+        "com_m": [
+          1.6384821480722782e-19,
+          0.00875423270894779,
+          1.796269189996981e-18
+        ],
+        "inertia_kg_m2": [
+          [
+            0.00022247589437563857,
+            -7.2894928300491925e-22,
+            5.744322228159068e-20
+          ],
+          [
+            -7.2894928300491925e-22,
+            0.00032349052549656093,
+            1.7367385673652427e-20
+          ],
+          [
+            5.744322228159068e-20,
+            1.7367385673652427e-20,
+            0.00022247589437564128
+          ]
+        ]
+      }
+    },
+    "mass_scale": 1.0,
+    "model_limits": "CAD-derived but unweighed mass/inertia; closed internal linkages; actual exterior convex hulls for ground contacts; current/voltage-limited motor models with assumed conventions and losses. No self-contact, joint flexibility, gearbox backlash, temperature or hardware qualification.",
+    "sensor_delay_s": 0.0,
+    "sensor_noise_rad": 0.0,
+    "variant": "wide_current",
+    "hardware_release": false,
+    "model_sha256": "60f21ccdef503755e4dff697eceedf1ee508977b3ba661cab7c014b79c7e3f8d",
+    "plant_id": "wide_v1",
+    "policy_interface": {
+      "version": 2,
+      "hip_offset_rad": 0.0,
+      "hip_scale_rad": 2.35,
+      "hip_target_range_rad": [
+        -2.35,
+        2.35
+      ],
+      "hip_observation_offset_rad": 0.4101523742186677,
+      "wheel_scale_Nm": 0.55,
+      "wheel_target_range_Nm": [
+        -0.55,
+        0.55
+      ]
+    },
+    "body_contact_pattern": ".*_ground",
+    "passive_knee_range_rad": [
+      0.35,
+      2.36
+    ],
+    "variant_sha256": "b81d86d989b43df97e4120f791f2c979c6b2eedc0ebedb2ce42f807e689a589b"
+  },
+  "plant_fingerprint": "2a948ecc50d3f7e2c10ba1811064f82e3b0cfd07bb86531aa137aea47ef4eab2",
+  "policy_interface": {
+    "version": 2,
+    "hip_offset_rad": 0.0,
+    "hip_scale_rad": 2.35,
+    "hip_target_range_rad": [
+      -2.35,
+      2.35
+    ],
+    "hip_observation_offset_rad": 0.4101523742186677,
+    "wheel_scale_Nm": 0.55,
+    "wheel_target_range_Nm": [
+      -0.55,
+      0.55
+    ]
+  },
+  "runner": {
+    "seed": 133200,
+    "num_steps_per_env": 24,
+    "max_iterations": 145,
+    "obs_groups": {
+      "actor": [
+        "actor"
+      ],
+      "critic": [
+        "critic"
+      ]
+    },
+    "save_interval": 25,
+    "experiment_name": "beni_height",
+    "run_name": "",
+    "logger": "tensorboard",
+    "wandb_project": "mjlab",
+    "wandb_tags": [],
+    "resume": false,
+    "load_run": ".*",
+    "load_checkpoint": "model_.*.pt",
+    "clip_actions": 1.0,
+    "upload_model": false,
+    "class_name": "OnPolicyRunner",
+    "actor": {
+      "hidden_dims": [
+        128,
+        128,
+        64
+      ],
+      "activation": "elu",
+      "obs_normalization": true,
+      "cnn_cfg": null,
+      "distribution_cfg": {
+        "class_name": "GaussianDistribution",
+        "init_std": 0.3,
+        "std_type": "scalar"
+      },
+      "rnn_type": null,
+      "rnn_hidden_dim": 256,
+      "rnn_num_layers": 1,
+      "class_name": "MLPModel"
+    },
+    "critic": {
+      "hidden_dims": [
+        128,
+        128,
+        64
+      ],
+      "activation": "elu",
+      "obs_normalization": true,
+      "cnn_cfg": null,
+      "distribution_cfg": null,
+      "rnn_type": null,
+      "rnn_hidden_dim": 256,
+      "rnn_num_layers": 1,
+      "class_name": "MLPModel"
+    },
+    "algorithm": {
+      "num_learning_epochs": 5,
+      "num_mini_batches": 4,
+      "learning_rate": 0.0003,
+      "schedule": "adaptive",
+      "gamma": 0.99,
+      "lam": 0.95,
+      "entropy_coef": 0.005,
+      "desired_kl": 0.01,
+      "max_grad_norm": 1.0,
+      "value_loss_coef": 1.0,
+      "use_clipped_value_loss": true,
+      "clip_param": 0.2,
+      "normalize_advantage_per_mini_batch": false,
+      "optimizer": "adam",
+      "share_cnn_encoders": false,
+      "class_name": "PPO"
+    }
+  },
+  "actor_observations": [
+    "gyro*0.25[3]",
+    "gravity[3]",
+    "accel*0.1[3]",
+    "hip_q-0.410152[2]",
+    "hip_qd*0.1[2]",
+    "wheel_qd*0.05[2]",
+    "last_action[4]",
+    "vx,yaw_rate,height,jump_height,jump_active,recovery[6]"
+  ],
+  "actions": [
+    "left_hip",
+    "right_hip",
+    "left_wheel",
+    "right_wheel"
+  ],
+  "hardware_release": false,
+  "training_status": "checkpoint_exported_not_yet_validated",
+  "lock_sha256": "9803542fceea8dc194c2d3c275d5657d4e6a63f2dba36528f50ce51f2b2f969f",
+  "source_sha256": "be35242a979a7f65e2026d96555262ab5f2009172efab8bc76992331a8ad715f",
+  "resume": {
+    "path": "/home/asad/benirobot-rl/runs/wide-height-precision-ppo-20260908/model_297.pt",
+    "sha256": "6a68ce2e9640471e8616bee6b0b2cf84518f997c23c372f6458c45cd9b982891",
+    "skill": "height",
+    "mode": "behavior_cloning"
+  },
+  "hip_correlation": 0.0,
+  "hip_exploration_floor": {
+    "minimum_std": 0.03,
+    "method": "BC initialization"
+  },
+  "wheel_exploration_floor": {
+    "minimum_std": 0.005,
+    "previous_wheel_std": [
+      0.009797791950404644,
+      0.011088281869888306
+    ],
+    "method": "Project wheel deviations after each optimizer step; retain the other group and policy mean"
+  },
+  "parent_training_provenance": {
+    "git_commit": "eb0cb1f301e67f72e53990271313636a7cb509bb",
+    "source_sha256": "b493eaed0f4db0751d211b7b69c6894dc015ecbb597401172ace35bfb4782ace",
+    "worker_seeds": [
+      133200,
+      133201,
+      133202,
+      133203
+    ],
+    "iterations": 145
+  },
+  "learning_method": "Behavior cloning",
+  "imitation": {
+    "git_commit": "b9a4bd642262b429d967be9880b930f41a115c4d",
+    "source_sha256": "be35242a979a7f65e2026d96555262ab5f2009172efab8bc76992331a8ad715f",
+    "dataset": "/home/asad/benirobot-rl/runs/wide-height-feedback-demonstrations-20260908",
+    "dataset_sha256": "1ddf77afed62627ed455d98a976e33a27d6f4ac598c0840c1be97420e9605c61",
+    "parent_checkpoint": "/home/asad/benirobot-rl/runs/wide-height-precision-ppo-20260908/model_297.pt",
+    "parent_checkpoint_sha256": "6a68ce2e9640471e8616bee6b0b2cf84518f997c23c372f6458c45cd9b982891",
+    "updates": 2000,
+    "selected_update": 1600,
+    "seed": 138000,
+    "batch_size": 256,
+    "sampling": "phase",
+    "families": [],
+    "training_frames": 55800,
+    "validation_frames": 7200,
+    "initial_validation": {
+      "action_rmse": [
+        0.11528384685516357,
+        0.07653558999300003,
+        0.15719084441661835,
+        0.02493600733578205
+      ],
+      "phase_rmse": {
+        "initial_transition": 0.08321378380060196,
+        "balance": 0.06782478839159012,
+        "lowering": 0.1172037273645401,
+        "lower_hold": 0.1445022076368332,
+        "raising": 0.10759931802749634,
+        "raised_hold": 0.12908507883548737,
+        "returning": 0.07796300202608109,
+        "nominal_hold": 0.06798262894153595
+      },
+      "balanced_phase_rmse": 0.09942181687802076,
+      "selection_rmse": 0.09942181687802076
+    },
+    "final_validation": {
+      "action_rmse": [
+        0.0015881031285971403,
+        0.001663140021264553,
+        0.0023724001366645098,
+        0.002052758354693651
+      ],
+      "phase_rmse": {
+        "initial_transition": 0.005146683659404516,
+        "balance": 0.001012451946735382,
+        "lowering": 0.002322387881577015,
+        "lower_hold": 0.0012666634283959866,
+        "raising": 0.0023033141624182463,
+        "raised_hold": 0.0013869795948266983,
+        "returning": 0.0022429542150348425,
+        "nominal_hold": 0.0008343692170456052
+      },
+      "balanced_phase_rmse": 0.0020644755131797865,
+      "selection_rmse": 0.0020644755131797865
+    },
+    "training": {
+      "action_rmse": [
+        0.00156929693184793,
+        0.0016472234856337309,
+        0.0022333001252263784,
+        0.0017876444617286325
+      ],
+      "phase_rmse": {
+        "initial_transition": 0.00410764804109931,
+        "balance": 0.0008859980152919888,
+        "lowering": 0.002431772416457534,
+        "lower_hold": 0.0014991210773587227,
+        "raising": 0.002373979426920414,
+        "raised_hold": 0.001510988804511726,
+        "returning": 0.002217669738456607,
+        "nominal_hold": 0.0008646836504340172
+      },
+      "balanced_phase_rmse": 0.00198648264631629,
+      "selection_rmse": 0.00198648264631629
+    },
+    "history": [
+      {
+        "update": 100,
+        "action_rmse": [
+          0.00984156783670187,
+          0.008604885078966618,
+          0.005733429919928312,
+          0.005150838289409876
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.013092736713588238,
+          "balance": 0.003011345397680998,
+          "lowering": 0.011704900301992893,
+          "lower_hold": 0.010416323319077492,
+          "raising": 0.007470116950571537,
+          "raised_hold": 0.006828153971582651,
+          "returning": 0.004729009699076414,
+          "nominal_hold": 0.003032685024663806
+        },
+        "balanced_phase_rmse": 0.007535658922279254,
+        "selection_rmse": 0.007535658922279254
+      },
+      {
+        "update": 200,
+        "action_rmse": [
+          0.008368253707885742,
+          0.007026733830571175,
+          0.003055383451282978,
+          0.002728414488956332
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.00876139011234045,
+          "balance": 0.00245194835588336,
+          "lowering": 0.008314089849591255,
+          "lower_hold": 0.00786031223833561,
+          "raising": 0.005710816476494074,
+          "raised_hold": 0.006441839970648289,
+          "returning": 0.003880982054397464,
+          "nominal_hold": 0.0024706304538995028
+        },
+        "balanced_phase_rmse": 0.0057365011889487505,
+        "selection_rmse": 0.0057365011889487505
+      },
+      {
+        "update": 300,
+        "action_rmse": [
+          0.006846343167126179,
+          0.005467647220939398,
+          0.002343774540349841,
+          0.0020855495240539312
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.006744782906025648,
+          "balance": 0.0019495502347126603,
+          "lowering": 0.00690222904086113,
+          "lower_hold": 0.006401913706213236,
+          "raising": 0.0047047073021531105,
+          "raised_hold": 0.004845340736210346,
+          "returning": 0.003400320652872324,
+          "nominal_hold": 0.0019326022593304515
+        },
+        "balanced_phase_rmse": 0.004610180854797363,
+        "selection_rmse": 0.004610180854797363
+      },
+      {
+        "update": 400,
+        "action_rmse": [
+          0.005346784368157387,
+          0.003991142846643925,
+          0.002969476394355297,
+          0.002045657252892852
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.005996602587401867,
+          "balance": 0.0013927844120189548,
+          "lowering": 0.0053044818341732025,
+          "lower_hold": 0.004905560053884983,
+          "raising": 0.004020845517516136,
+          "raised_hold": 0.004300145898014307,
+          "returning": 0.0028873393312096596,
+          "nominal_hold": 0.001320302253589034
+        },
+        "balanced_phase_rmse": 0.003766007735976018,
+        "selection_rmse": 0.003766007735976018
+      },
+      {
+        "update": 500,
+        "action_rmse": [
+          0.004085879307240248,
+          0.002993963658809662,
+          0.002154028508812189,
+          0.0019666526932269335
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.005655067507177591,
+          "balance": 0.0011601567966863513,
+          "lowering": 0.0038941807579249144,
+          "lower_hold": 0.0031462120823562145,
+          "raising": 0.0034522111527621746,
+          "raised_hold": 0.003179658902809024,
+          "returning": 0.002671846654266119,
+          "nominal_hold": 0.0010702137369662523
+        },
+        "balanced_phase_rmse": 0.00302869344886858,
+        "selection_rmse": 0.00302869344886858
+      },
+      {
+        "update": 600,
+        "action_rmse": [
+          0.0030996643472462893,
+          0.0024186738301068544,
+          0.002368119079619646,
+          0.0021431059576570988
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.005400573834776878,
+          "balance": 0.0009605916566215456,
+          "lowering": 0.003433522768318653,
+          "lower_hold": 0.002345114015042782,
+          "raising": 0.0033903284929692745,
+          "raised_hold": 0.0026127153541892767,
+          "returning": 0.0023128518369048834,
+          "nominal_hold": 0.0008249083184637129
+        },
+        "balanced_phase_rmse": 0.002660075784660876,
+        "selection_rmse": 0.002660075784660876
+      },
+      {
+        "update": 700,
+        "action_rmse": [
+          0.0024958900175988674,
+          0.0021615654695779085,
+          0.0021366968285292387,
+          0.0020821515936404467
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.0052433917298913,
+          "balance": 0.0009356039809063077,
+          "lowering": 0.002968135289847851,
+          "lower_hold": 0.0015313047915697098,
+          "raising": 0.00294632650911808,
+          "raised_hold": 0.0021765807177871466,
+          "returning": 0.002368627581745386,
+          "nominal_hold": 0.000782389601226896
+        },
+        "balanced_phase_rmse": 0.0023690450252615847,
+        "selection_rmse": 0.0023690450252615847
+      },
+      {
+        "update": 800,
+        "action_rmse": [
+          0.002182289958000183,
+          0.002100640209391713,
+          0.0022215566132217646,
+          0.0019877071026712656
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.005198407452553511,
+          "balance": 0.0009184699156321585,
+          "lowering": 0.002921175677329302,
+          "lower_hold": 0.0014585916651412845,
+          "raising": 0.002759216818958521,
+          "raised_hold": 0.0018842098070308566,
+          "returning": 0.002204007236286998,
+          "nominal_hold": 0.0007786475471220911
+        },
+        "balanced_phase_rmse": 0.0022653407650068402,
+        "selection_rmse": 0.0022653407650068402
+      },
+      {
+        "update": 900,
+        "action_rmse": [
+          0.002039537997916341,
+          0.002065725391730666,
+          0.002887183800339699,
+          0.002299243351444602
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.005981810390949249,
+          "balance": 0.001201096223667264,
+          "lowering": 0.0026537009980529547,
+          "lower_hold": 0.0015742552932351828,
+          "raising": 0.002837297273799777,
+          "raised_hold": 0.002128822496160865,
+          "returning": 0.0024462842848151922,
+          "nominal_hold": 0.0009521133033558726
+        },
+        "balanced_phase_rmse": 0.0024719225330045447,
+        "selection_rmse": 0.0024719225330045447
+      },
+      {
+        "update": 1000,
+        "action_rmse": [
+          0.0019775484688580036,
+          0.0019589937292039394,
+          0.003098338143900037,
+          0.0021743520628660917
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.005247585941106081,
+          "balance": 0.0009729580488055944,
+          "lowering": 0.0030343616381287575,
+          "lower_hold": 0.002416212810203433,
+          "raising": 0.002857629442587495,
+          "raised_hold": 0.002102908445522189,
+          "returning": 0.002333969809114933,
+          "nominal_hold": 0.0007419338799081743
+        },
+        "balanced_phase_rmse": 0.002463445001922082,
+        "selection_rmse": 0.002463445001922082
+      },
+      {
+        "update": 1100,
+        "action_rmse": [
+          0.0017888949951156974,
+          0.0018875938840210438,
+          0.0024708458222448826,
+          0.0024096458218991756
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.00549700204282999,
+          "balance": 0.0011266812216490507,
+          "lowering": 0.00259159947745502,
+          "lower_hold": 0.0011043853592127562,
+          "raising": 0.0027278990019112825,
+          "raised_hold": 0.0019529403652995825,
+          "returning": 0.0023249881342053413,
+          "nominal_hold": 0.0010136072523891926
+        },
+        "balanced_phase_rmse": 0.002292387856869027,
+        "selection_rmse": 0.002292387856869027
+      },
+      {
+        "update": 1200,
+        "action_rmse": [
+          0.001738762017339468,
+          0.0018441478023305535,
+          0.0023466823622584343,
+          0.0020412339363247156
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.005395407322794199,
+          "balance": 0.0009892646921798587,
+          "lowering": 0.0024891344364732504,
+          "lower_hold": 0.0008897384395822883,
+          "raising": 0.0025292702484875917,
+          "raised_hold": 0.0015727640129625797,
+          "returning": 0.0022201617248356342,
+          "nominal_hold": 0.0008453557384200394
+        },
+        "balanced_phase_rmse": 0.00211638707696693,
+        "selection_rmse": 0.00211638707696693
+      },
+      {
+        "update": 1300,
+        "action_rmse": [
+          0.0017281343461945653,
+          0.0018228855915367603,
+          0.0022363457828760147,
+          0.0021483812015503645
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.005138380452990532,
+          "balance": 0.0011745699448511004,
+          "lowering": 0.002286490285769105,
+          "lower_hold": 0.0008708903915248811,
+          "raising": 0.002519285539165139,
+          "raised_hold": 0.001581803779117763,
+          "returning": 0.0022887797094881535,
+          "nominal_hold": 0.0011520985281094909
+        },
+        "balanced_phase_rmse": 0.0021265373288770206,
+        "selection_rmse": 0.0021265373288770206
+      },
+      {
+        "update": 1400,
+        "action_rmse": [
+          0.0016520916251465678,
+          0.0017542080022394657,
+          0.0023561487905681133,
+          0.00212141708470881
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.005368283949792385,
+          "balance": 0.0010812757536768913,
+          "lowering": 0.0024071510415524244,
+          "lower_hold": 0.0009602993377484381,
+          "raising": 0.0024515322875231504,
+          "raised_hold": 0.0014486992731690407,
+          "returning": 0.0022692710626870394,
+          "nominal_hold": 0.0008689546375535429
+        },
+        "balanced_phase_rmse": 0.002106933417962864,
+        "selection_rmse": 0.002106933417962864
+      },
+      {
+        "update": 1500,
+        "action_rmse": [
+          0.0016882700147107244,
+          0.001822422374971211,
+          0.002216080902144313,
+          0.0023019430227577686
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.005322599317878485,
+          "balance": 0.0009548724628984928,
+          "lowering": 0.002327041933313012,
+          "lower_hold": 0.0011898790253326297,
+          "raising": 0.002560632536187768,
+          "raised_hold": 0.0016723047010600567,
+          "returning": 0.0022698557004332542,
+          "nominal_hold": 0.0008069167379289865
+        },
+        "balanced_phase_rmse": 0.0021380128018790856,
+        "selection_rmse": 0.0021380128018790856
+      },
+      {
+        "update": 1600,
+        "action_rmse": [
+          0.0015881031285971403,
+          0.001663140021264553,
+          0.0023724001366645098,
+          0.002052758354693651
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.005146683659404516,
+          "balance": 0.001012451946735382,
+          "lowering": 0.002322387881577015,
+          "lower_hold": 0.0012666634283959866,
+          "raising": 0.0023033141624182463,
+          "raised_hold": 0.0013869795948266983,
+          "returning": 0.0022429542150348425,
+          "nominal_hold": 0.0008343692170456052
+        },
+        "balanced_phase_rmse": 0.0020644755131797865,
+        "selection_rmse": 0.0020644755131797865
+      },
+      {
+        "update": 1700,
+        "action_rmse": [
+          0.0017336697783321142,
+          0.0019293180666863918,
+          0.0021452473010867834,
+          0.0019791261292994022
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.0051216622814536095,
+          "balance": 0.0010472016874700785,
+          "lowering": 0.0023176756221801043,
+          "lower_hold": 0.0013265606248751283,
+          "raising": 0.0022621818352490664,
+          "raised_hold": 0.0014000005321577191,
+          "returning": 0.002306796843186021,
+          "nominal_hold": 0.0008112962241284549
+        },
+        "balanced_phase_rmse": 0.0020741719563375227,
+        "selection_rmse": 0.0020741719563375227
+      },
+      {
+        "update": 1800,
+        "action_rmse": [
+          0.001580646843649447,
+          0.0016532184090465307,
+          0.002036577556282282,
+          0.002899965038523078
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.004945049062371254,
+          "balance": 0.0010044066002592444,
+          "lowering": 0.0025631964672356844,
+          "lower_hold": 0.001863053534179926,
+          "raising": 0.002636077580973506,
+          "raised_hold": 0.0019043583888560534,
+          "returning": 0.0022176974453032017,
+          "nominal_hold": 0.0007242918945848942
+        },
+        "balanced_phase_rmse": 0.0022322663717204705,
+        "selection_rmse": 0.0022322663717204705
+      },
+      {
+        "update": 1900,
+        "action_rmse": [
+          0.0015463727759197354,
+          0.0016218668315559626,
+          0.003207768313586712,
+          0.002096999203786254
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.005203326232731342,
+          "balance": 0.0011823970125988126,
+          "lowering": 0.002734823152422905,
+          "lower_hold": 0.0020456062629818916,
+          "raising": 0.002614863682538271,
+          "raised_hold": 0.001918967580422759,
+          "returning": 0.0022194753400981426,
+          "nominal_hold": 0.0008598750573582947
+        },
+        "balanced_phase_rmse": 0.0023474167901440524,
+        "selection_rmse": 0.0023474167901440524
+      },
+      {
+        "update": 2000,
+        "action_rmse": [
+          0.0015044856118038297,
+          0.0015394707443192601,
+          0.002606856171041727,
+          0.002694047288969159
+        ],
+        "phase_rmse": {
+          "initial_transition": 0.005187121219933033,
+          "balance": 0.001190647017210722,
+          "lowering": 0.0023804125376045704,
+          "lower_hold": 0.0016582051757723093,
+          "raising": 0.0025792610831558704,
+          "raised_hold": 0.0020334625151008368,
+          "returning": 0.002396864350885153,
+          "nominal_hold": 0.0008968854090198874
+        },
+        "balanced_phase_rmse": 0.0022903574135852978,
+        "selection_rmse": 0.0022903574135852978
+      }
+    ],
+    "learned_skill_validated": false,
+    "note": "Behavior cloning balanced across phase and, for recovery, fall family; these are sampling labels only. Critic and curriculum counter retained. PPO optimizer moments reset. Hip exploration reset to 0.05; minimum floor set to 0.03. Offline error reduction is not evidence of a successful skill."
+  },
+  "iterations_requested": 0,
+  "checkpoint_iteration": 0,
+  "checkpoint_sha256": "adda8f128d2d97a4f30e43e0dc3c11437c3fc15cb419b70cda583f9587ff051c",
+  "export_validation": {
+    "samples": 192,
+    "max_absolute_action_error": 5.7220458984375e-06,
+    "normalization_in_graph": true,
+    "passed": true,
+    "policy_sha256": "dc946f89dd26f5cf721e7f8c1d5163e2dd0319909b9b533fd97412e1a7c1ddb3"
+  },
+  "source_run": "wide-height-feedback-imitation-20260908"
+}
