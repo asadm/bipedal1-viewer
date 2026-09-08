@@ -18,7 +18,22 @@
     <div class="eyebrow">EXPLORE THE ROBOT</div><h1>Clanky in motion.</h1>
     <p class="intro">Choose a motion. Orbit the robot to see it from any angle.</p>
     <p id="policy-status" class="small-note" role="status"></p>
+    <div class="display-controls" role="group" aria-label="Model view">
+      <button data-display="enclosed" aria-pressed="true">Enclosed</button><button data-display="cutaway" aria-pressed="false">Cutaway</button><button data-display="physics" aria-pressed="false">Physics</button>
+    </div>
+    <p id="display-note" class="small-note">Detailed CAD exterior.</p>
     <div id="policy-picker" hidden><label for="policy-select">Motion</label><select id="policy-select"></select></div>
+    <div id="inspection-controls" hidden>
+      <h2>Inspect leg travel</h2>
+      <p class="small-note">Move the legs by hand. This is a prescribed pose, not a physics simulation.</p>
+      <div class="slider-heading"><label for="leg-height">Overall extension</label><output id="leg-height-output"></output></div><input id="leg-height" type="range" min="0" step=".1">
+      <label class="check-row" for="independent">Independent legs<input id="independent" type="checkbox"></label>
+      <div id="independent-controls" hidden>
+        <div class="slider-heading"><label for="left-height">Left extension</label><output id="left-height-output"></output></div><input id="left-height" type="range" min="0" step=".1">
+        <div class="slider-heading"><label for="right-height">Right extension</label><output id="right-height-output"></output></div><input id="right-height" type="range" min="0" step=".1">
+      </div>
+      <div class="stage-row"><button data-pose="low">Low</button><button data-pose="ride">Ride</button><button data-pose="high">High</button></div>
+    </div>
     <div id="replay-controls" hidden>
       <span id="controller-kind" class="controller-kind"></span>
       <h2 id="replay-title"></h2>
@@ -39,7 +54,8 @@
     <details><summary>About these motions</summary>
       <p><strong>Programmed</strong> motions use selected sequences with balance feedback. Get-ups start already fallen; recovery from arbitrary falls is still in development.</p>
       <p><strong>Learned</strong> skills passed independent simulation evaluation: at least 95% of 20 cases for each of three hardware variants at two physics timesteps.</p>
-      <p id="assembly-note">Clanky's four-motor recovery design, shown using its simulation geometry. Internal parts are not displayed.</p>
+      <p id="assembly-note">One Clanky design: detailed CAD outside, motors and linkages in Cutaway, and the simulator's collision shapes in Physics. All views follow the same recorded body motion.</p>
+      <p>Spring coils and tire tread are illustrative. Spring end fittings and fasteners remain unfinished.</p>
       <p>Hardware transfer, strength and sealing remain untested.</p>
     </details>
   </section>

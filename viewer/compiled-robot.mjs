@@ -16,7 +16,7 @@ export function compiledRobot(parts, scale = 1) {
       geometry.rotateX(Math.PI / 2);
     } else throw Error('Unknown compiled geometry: ' + part.kind);
     geometry.scale(scale, scale, scale);
-    const material = new THREE.MeshStandardMaterial({color: new THREE.Color(...part.color), roughness: .65, metalness: .08});
+    const material = new THREE.MeshStandardMaterial({color: new THREE.Color(...part.color), roughness: .65, metalness: .08, flatShading: part.kind === 'mesh'});
     const mesh = new THREE.Mesh(geometry, material);
     mesh.castShadow = true; mesh.receiveShadow = true;
     mesh.position.set(...part.pos.map(v => v * scale));

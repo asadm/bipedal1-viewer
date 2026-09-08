@@ -1,6 +1,8 @@
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {compiledRobot} from './compiled-robot.mjs';
+import {cadRobot} from './cad-robot.mjs';
+import {inspectionPose, inspectionRange} from './cad-pose.mjs';
 import {mainRecordings, initialRecordingId, validateRecording, programmedDetail, programmedPhase} from './skill-recordings.mjs';
 
 const $ = id => document.getElementById(id);
@@ -25,33 +27,62 @@ try {
   const scene = new THREE.Scene(); scene.background = new THREE.Color('#edf1ef');
   const renderer = new THREE.WebGLRenderer({canvas, antialias: true});
   renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+  renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
   renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.08;
   const camera = new THREE.PerspectiveCamera(37, 1, .5, 15000); camera.up.set(0, 0, 1);
   const controls = new OrbitControls(camera, canvas); controls.enableDamping = true;
   controls.minDistance = 150; controls.maxDistance = 3000;
   scene.add(new THREE.HemisphereLight('#ffffff', '#91a085', 2.5));
   const light = new THREE.DirectionalLight('#fff9ee', 3); light.position.set(220, -350, 700); scene.add(light);
+  light.castShadow = true; light.shadow.mapSize.set(2048, 2048);
+  Object.assign(light.shadow.camera, {left: -400, right: 400, top: 400, bottom: -400, near: 1, far: 1600});
+  light.shadow.normalBias = .25; scene.add(light.target);
   const fill = new THREE.DirectionalLight('#dceaff', 1); fill.position.set(-250, 150, 350); scene.add(fill);
   const floor = new THREE.Mesh(new THREE.PlaneGeometry(12000, 12000), new THREE.MeshStandardMaterial({color: '#e5ebe3', roughness: 1})); floor.position.z = -.3; scene.add(floor);
+  floor.receiveShadow = true;
   const grid = new THREE.GridHelper(12000, 300, '#aebba8', '#c3cec0'); grid.rotation.x = Math.PI / 2; grid.position.z = .05; grid.material.transparent = true; grid.material.opacity = .28; scene.add(grid);
   const pushArrow = new THREE.ArrowHelper(new THREE.Vector3(1, 0, 0), new THREE.Vector3(), 150, '#e87924', 35, 20);
   for (const part of [pushArrow.line, pushArrow.cone]) {
     part.material.depthTest = false; part.material.depthWrite = false; part.renderOrder = 10;
   }
   pushArrow.visible = false; scene.add(pushArrow);
-  // One physical design and one geometry for every motion in this viewer.
+  // Detailed CAD and collision hulls share the same plant and body transforms.
   const geometry = await json('../programmed-jump/' + jumpCatalog.geometry, jumpCatalog.geometry_sha256);
   if (!Array.isArray(geometry)) throw Error('Unsupported simulation geometry');
   const {root, groups} = compiledRobot(geometry, 1000); scene.add(root);
+  const manifest = await json('../current-cad/manifest.json');
+  if (manifest.model_sha256 !== jumpCatalog.model_sha256 || manifest.plant_fingerprint !== jumpCatalog.plant_fingerprint) {
+    throw Error('CAD and recordings describe different physical models');
+  }
+  const cad = cadRobot(await json('../current-cad/' + manifest.parts, manifest.parts_sha256), manifest.parameters);
+  if (Object.keys(cad.groups).some(name => !manifest.parameters.rigid_bodies[name])) throw Error('CAD body frames do not match the simulation');
+  scene.add(cad.root);
   let selection = 0;
   let record = null, selected = null, time = 0, playing = false, last = performance.now(), target = new THREE.Vector3(20, 0, 155);
+  function display(mode) {
+    if (!['enclosed', 'cutaway', 'physics'].includes(mode)) mode = 'enclosed';
+    cad.display(mode); root.visible = mode === 'physics';
+    document.querySelectorAll('[data-display]').forEach(button => button.setAttribute('aria-pressed', String(button.dataset.display === mode)));
+    $('display-note').textContent = {enclosed: 'Detailed CAD exterior.', cutaway: 'Transparent covers reveal motors, gears, hidden links and springs.',
+      physics: 'Actual ground-contact hulls. Internal self-contact is not simulated.'}[mode];
+    const url = new URL(location.href); url.searchParams.set('view', mode); history.replaceState(null, '', url);
+  }
+  document.querySelectorAll('[data-display]').forEach(button => button.onclick = () => display(button.dataset.display));
+  display(new URLSearchParams(location.search).get('view'));
   function apply(frame) {
+    cad.apply(frame);
     const activeGroups = groups;
     for (const [name, transform] of Object.entries(frame.bodies)) {
       const group = activeGroups[name]; if (!group) continue;
       group.position.set(...transform.pos.map(v => v * 1000));
       group.quaternion.set(transform.quat[1], transform.quat[2], transform.quat[3], transform.quat[0]);
     }
+    const nextTarget = new THREE.Vector3(...frame.bodies.chassis.pos.map(v => v * 1000));
+    nextTarget.z = Math.max(100, nextTarget.z - 30);
+    const shift = nextTarget.clone().sub(target); camera.position.add(shift); controls.target.add(shift); target.copy(nextTarget);
+    floor.position.x = nextTarget.x; floor.position.y = nextTarget.y;
+    grid.position.x = Math.floor(nextTarget.x / 40) * 40; grid.position.y = Math.floor(nextTarget.y / 40) * 40;
+    light.position.copy(nextTarget).add(new THREE.Vector3(220, -350, 700)); light.target.position.copy(nextTarget);
     if (record) {
       const push = record.report?.perturbation;
       pushArrow.visible = Boolean(push && frame.t >= push.time_s && frame.t < push.time_s + .4);
@@ -60,11 +91,6 @@ try {
         pushArrow.setDirection(direction);
         pushArrow.position.set(...frame.com_m.map(v => v * 1000)).addScaledVector(direction, -220);
       }
-      const nextTarget = new THREE.Vector3(...frame.bodies.chassis.pos.map(v => v * 1000));
-      nextTarget.z = Math.max(100, nextTarget.z - 30);
-      const shift = nextTarget.clone().sub(target); camera.position.add(shift); controls.target.add(shift); target.copy(nextTarget);
-      floor.position.x = nextTarget.x; floor.position.y = nextTarget.y;
-      grid.position.x = Math.floor(nextTarget.x / 40) * 40; grid.position.y = Math.floor(nextTarget.y / 40) * 40;
       const programmed = selected.type === 'programmed';
       $('phase').textContent = programmed ? programmedPhase(frame, record, selected.skill)
         : selected.skill === 'drive'
@@ -115,11 +141,11 @@ try {
     const ticket = ++selection;
     const entry = recordings.find(p => p.id === id); if (!entry) throw Error('Unknown recording');
     const programmed = entry.type === 'programmed';
-    play(false); $('replay-controls').hidden = true;
+    play(false); $('replay-controls').hidden = true; $('inspection-controls').hidden = true;
     $('load-status').hidden = false; $('load-status').textContent = `Loading ${programmed ? 'programmed demonstration' : 'validated learned recording'}…`;
     const next = await json(entry.directory + entry.replay, entry.replay_sha256);
     validateRecording(entry, next);
-    if (next.frames.some(frame => Object.keys(groups).some(name => !frame.bodies[name]))) {
+    if (next.frames.some(frame => [...Object.keys(groups), ...Object.keys(cad.groups)].some(name => !frame.bodies[name]))) {
       throw Error('Recording lacks display body transforms');
     }
     if (ticket !== selection) return;
@@ -154,11 +180,37 @@ try {
     $('caption').textContent = programmed
       ? `Programmed ${entry.skill === 'jump' ? 'jump and landing' : 'get-up from a selected fallen pose'} · recorded CPU MuJoCo · hardware unqualified`
       : `${method} policy ${entry.policy_sha256.slice(0, 8)} · recorded CPU MuJoCo · hardware unqualified`;
-    const url = new URL(location.href); url.searchParams.delete('policy'); url.searchParams.delete('demo');
+    const url = new URL(location.href); url.searchParams.delete('policy'); url.searchParams.delete('demo'); url.searchParams.delete('inspect');
     url.searchParams.set(programmed ? 'demo' : 'policy', entry.id); history.replaceState(null, '', url);
     show(record.frames[0].t); view(); $('load-status').hidden = true; last = performance.now(); play(true);
   }
   function fail(error) { play(false); $('replay-controls').hidden = true; $('load-status').hidden = false; $('load-status').textContent = error.message; }
+  const {stroke, ride} = inspectionRange(manifest);
+  for (const id of ['leg-height', 'left-height', 'right-height']) { $(id).max = stroke; $(id).value = ride; }
+  function showPose() {
+    const independent = $('independent').checked;
+    $('independent-controls').hidden = !independent; $('leg-height').disabled = independent;
+    const heights = independent ? [Number($('left-height').value), Number($('right-height').value)] : [Number($('leg-height').value), Number($('leg-height').value)];
+    for (const id of ['leg-height', 'left-height', 'right-height']) $(id + '-output').textContent = `${Number($(id).value).toFixed(1)} mm`;
+    apply(inspectionPose(manifest, heights));
+  }
+  function inspect() {
+    ++selection; play(false); record = selected = null; pushArrow.visible = false;
+    $('replay-controls').hidden = true; $('inspection-controls').hidden = false; $('load-status').hidden = true;
+    $('policy-select').value = 'inspect'; $('viewport-kind').hidden = false;
+    $('viewport-kind').textContent = 'Inspection · prescribed pose'; $('viewport-kind').classList.remove('programmed');
+    $('phase').textContent = 'Manual leg travel'; $('contact').textContent = '';
+    $('caption').textContent = 'Kinematic inspection · body held level · not a physics simulation';
+    const url = new URL(location.href); url.searchParams.delete('policy'); url.searchParams.delete('demo'); url.searchParams.set('inspect', '1'); history.replaceState(null, '', url);
+    showPose(); view();
+  }
+  $('leg-height').oninput = () => { $('left-height').value = $('right-height').value = $('leg-height').value; showPose(); };
+  for (const id of ['left-height', 'right-height', 'independent']) $(id).oninput = showPose;
+  document.querySelectorAll('[data-pose]').forEach(button => button.onclick = () => {
+    $('independent').checked = false;
+    for (const id of ['leg-height', 'left-height', 'right-height']) $(id).value = {low: 0, ride, high: stroke}[button.dataset.pose];
+    showPose();
+  });
   $('play').onclick = () => { if (time >= record.frames.at(-1).t) show(record.frames[0].t); play(!playing); };
   $('restart').onclick = () => { show(record.frames[0].t); play(true); };
   $('timeline').oninput = () => { play(false); show(Number($('timeline').value)); };
@@ -184,12 +236,14 @@ try {
       }
       $('policy-select').append(group);
     }
-    const choose = id => selectRecording(id).catch(error => { if ($('policy-select').value === id) fail(error); });
+    const inspection = document.createElement('option'); inspection.value = 'inspect'; inspection.textContent = 'Inspect — Manual leg travel'; $('policy-select').append(inspection);
+    const choose = id => id === 'inspect' ? inspect() : selectRecording(id).catch(error => { if ($('policy-select').value === id) fail(error); });
     $('policy-select').onchange = () => choose($('policy-select').value);
     const query = new URLSearchParams(location.search);
     const requested = query.get('demo') ?? query.get('policy');
     const initial = initialRecordingId(recordings, requested);
-    $('policy-select').value = initial; await selectRecording(initial);
+    $('policy-select').value = initial;
+    if (query.get('inspect') === '1') inspect(); else await selectRecording(initial);
   }
   renderer.setAnimationLoop(now => {
     const dt = Math.min((now - last) / 1000, .1); last = now;

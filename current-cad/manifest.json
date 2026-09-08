@@ -1,0 +1,1139 @@
+{
+  "schema": 1,
+  "model_sha256": "60f21ccdef503755e4dff697eceedf1ee508977b3ba661cab7c014b79c7e3f8d",
+  "plant_fingerprint": "2a948ecc50d3f7e2c10ba1811064f82e3b0cfd07bb86531aa137aea47ef4eab2",
+  "parts": "parts.json",
+  "parts_sha256": "73cbd9e8e72ddaef0ae502ad5fe4328d9adf2f415bdc5ba55785a6ae369dd29b",
+  "source_sha256": {
+    "design/concept06/recovery_candidate_export.py": "6578343af0330a4d5c44e4e788520db9e7737d7000c8128f44ca45e9ce5c0de6",
+    "design/concept06/output/internal-validation/mass-properties.json": "41d3d1b6f38fc398c9fd5b01996461751dcb18ba7ad021a494704f150dcf7dc1",
+    "src/beni/robot/assets/parameters.json": "e2c37ca47e240ce723ffc07293f5f0560ab368d882d5466cebf2df092e8a4493",
+    "docs/results/four-motor-thigh-assembly-clearance.json": "83fd1b352d85ed19de5b704e610c0f08b3f2bb838d154c52823600f60c24039e",
+    "docs/results/four-motor-hip-joint.json": "8a1ba70645b252a0056d2a1e4edfffd8bbc82df55f353831fcacd6d4055107fd",
+    "docs/results/central-hip-clearance.json": "9db3a9d4efc1e66e90803e0989cd1f74466fb623778ef64e96748cca96e70207",
+    "docs/results/central-hip-clearance.step": "9eaaa7b591234c295df5228a8178f436b5d67be62bab57833e31845d0b1417ce",
+    "design/concept06/four_motor_thigh.py": "ab96323670339f719728ac7edb169c0bd566f71b1a08ba39e5462df8160b39ba",
+    "design/concept06/four_motor_leg_clearance.py": "8dcce1ec9552fd85eb8a4f536457fc7c41abfcfea42cdc5cf77d0ed4884db6ce",
+    "design/concept06/four_motor_hip.py": "0b5b25a7dbb7fdfb3f978237ca1588ac604d6a236cad329bded1b5721a97de23",
+    "design/concept06/internal_full.py": "09892017c6a4751285e655aa3c45ae2c2a70681446cb82aa58a3e1bc9fe382f9",
+    "design/concept06/exterior.py": "4b0d05a404483b761ef5d74e1d4749f660647eb6c1c4e574986eefd5d158b937",
+    "design/concept06/wheelpods.py": "d6ef6de2d1793d1328c1a4a0ec8e714642eced45bc48405d04301fe5e5d520b3",
+    "design/concept06/cad.py": "fe482f9e1ee96f9d3d5afa11f91238c199a9c6e8aa60e58a509458a12a6aaaac",
+    "design/concept06/internal_knee.py": "51ca27acda77f1996ddd81d4a7960667daa58fe4b011a67f79850c61e15a1932",
+    "design/concept04/cad.py": "32bfe6187819282ca549c5a4eadc0b70a5c766eb3668a1ce0721bc64e64cec2e",
+    "docs/results/wide-recovery-cad.json": "f13d6ea9e08958e2e1fb580e83b011811c3e974f8f76d13092c3fbfbc45d9ac0",
+    "src/clanky/robot/assets/wide/parameters.json": "50a02cc0e9ddf32ebc7d14cfa7e30a170ae33b9507ef95f3e13fc4d6096cbcaa",
+    "design/concept06/output/internal-full/parts.json": "0b70c01c786fe3acdcb8384d41b841f2465246ff0c3340f9bd011ca2caf526b8",
+    "design/concept06/export_viewer_cad.py": "9726b0717e89fc3d39b3e9f941ca54874e5a4b7b37c6f641c6ca4cd562280de1"
+  },
+  "units": "mm",
+  "frame_convention": "MuJoCo body-local",
+  "parameters": {
+    "revision": "concept06-internal-knee-full",
+    "status": "Full-robot kinematic packaging candidate; not a dynamics model or manufacturing release.",
+    "budget": {
+      "original_target_usd": 75,
+      "current_motor_spring_estimate_usd": 112.52,
+      "scope": "Four motors and two springs only; all controllers, transmission hardware, internal-knee metalwork, battery, tax and delivery extra."
+    },
+    "mass_kg": 2.448068616181515,
+    "pivot_x_m": 0.005,
+    "wheel_radius_m": 0.05,
+    "track_m": 0.15,
+    "spring": {
+      "part": "MISUMI SWF12-50",
+      "quantity": 2,
+      "rate_N_m": 5500,
+      "rate_tolerance_fraction": 0.1,
+      "free_length_m": 0.05,
+      "outside_diameter_nominal_m": 0.012,
+      "inside_diameter_nominal_m": 0.0065,
+      "design_compression_limit_m": 0.02,
+      "catalog_max_compression_m": 0.025,
+      "price_each_usd": 2.28,
+      "purchase_url": "https://us.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+      "source": "https://uk.misumi-ec.com/pdf/fa/2014/P2_0365-0366_F37_EN.pdf",
+      "procurement_status": "Previously checked estimate; price is not reconfirmed for this model",
+      "upper_seat_from_knee_m": 0.06,
+      "lower_seat_from_knee_m": 0.025,
+      "seat_y_from_leg_m": 0.0295,
+      "free_pin_span_m": 0.064
+    },
+    "jump_motor": {
+      "part": "SunnySky X2216 V3 880KV long shaft",
+      "sku": "SS-XV3-X2216-L-880-V3",
+      "quantity": 2,
+      "kv_rpm_per_V": 880,
+      "torque_constant_Nm_A": 0.010851473392629226,
+      "resistance_ohm": 0.089,
+      "no_load_current_A": 0.5,
+      "mass_kg": 0.0675,
+      "diameter_m": 0.0277,
+      "body_length_m": 0.034,
+      "ratio": 20,
+      "efficiency_assumption": 0.8,
+      "rotor_inertia_assumption_kg_m2": 4e-06,
+      "current_limit_assumption_A": 32,
+      "electrical_lag_assumption_s": 0.0004,
+      "supply_voltage_assumption_V": 11.1,
+      "motor_constant_factor": 1.0,
+      "price_listed_usd": 24.99,
+      "source": "https://sunnyskyusa.com/products/sunnysky-x2216-v3-brushless-motors-long-shaft-version",
+      "caution": "DC-equivalent BLDC model. Kv/Kt, current and resistance conventions must be calibrated to the FOC driver. Manufacturer 32 A/30 s assumes propeller cooling; sealed joint thermal rating is unknown. Rotor inertia estimated from a 21 g thin ring at 13.8 mm. Encoder and bidirectional FOC required."
+    },
+    "wheel_motor": {
+      "part": "SunnySky V2806 650KV",
+      "quantity": 2,
+      "kv_rpm_per_V": 650,
+      "diameter_m": 0.035,
+      "body_length_m": 0.018,
+      "mass_kg": 0.047,
+      "ratio": 5,
+      "price_each_usd": 28.99,
+      "source": "https://sunnyskyusa.com/products/sunnysky-v2806-motor?variant=45703574095",
+      "status": "Packaging selection only. FOC, encoder, torque-speed model, thermal rating, adapter and gear procurement unqualified.",
+      "torque_constant_Nm_A": 0.014691225516174956,
+      "resistance_ohm": 0.227,
+      "no_load_current_A": 0.4,
+      "efficiency_assumption": 0.8,
+      "rotor_inertia_assumption_kg_m2": 5e-06,
+      "current_limit_assumption_A": 8.0,
+      "electrical_lag_assumption_s": 0.001,
+      "motor_constant_factor": 1.0,
+      "supply_voltage_assumption_V": 11.1,
+      "caution": "DC-equivalent model; 8 A assumed current limit, not a thermal rating. Resistance/current/FOC conventions require bench identification. Manufacturer propeller test rating does not establish sealed duty."
+    },
+    "unmeasured": {
+      "spring_branch_damping_N_s_m": 0.0,
+      "hinge_friction_Nm": 0.002,
+      "tire_friction": 0.8
+    },
+    "geometry": {
+      "crank_mm": 64.48187746169309,
+      "lower_mm": 119.11935079120995,
+      "body_pin_mm": [
+        11.471528727020925,
+        16.383040885779835
+      ],
+      "tie_mm": 64.48187746169309,
+      "coupler_mm": 24.0,
+      "lever_phase_rad": 3.2560499049148564,
+      "q_low_rad": -2.6,
+      "q_high_rad": 2.6
+    },
+    "motor_spring_subtotal_usd": 112.52,
+    "nominal_q_rad": 0.4101523742186677,
+    "mass_status": "CAD-derived mass/inertia estimate, not weighed or sliced.",
+    "internal_knee": true,
+    "rigid_bodies": {
+      "chassis": {
+        "mass_kg": 1.0140931288372268,
+        "com_m": [
+          -0.007088788595245197,
+          3.346226951463433e-05,
+          0.0012456052895287017
+        ],
+        "inertia_kg_m2": [
+          [
+            0.001612631556069617,
+            1.3409104818414568e-05,
+            1.3418905719794236e-06
+          ],
+          [
+            1.3409104818414568e-05,
+            0.0013770122860254754,
+            5.359372631586237e-06
+          ],
+          [
+            1.3418905719794236e-06,
+            5.359372631586237e-06,
+            0.002105359859529145
+          ]
+        ]
+      },
+      "left_lower": {
+        "mass_kg": 0.18127660330246056,
+        "com_m": [
+          0.08351495589688286,
+          -0.0032891629352024086,
+          0.011840999369046352
+        ],
+        "inertia_kg_m2": [
+          [
+            0.00011479638650417802,
+            0.00010970142778112618,
+            -7.317853392199998e-05
+          ],
+          [
+            0.00010970142778112618,
+            0.0005743556869753018,
+            2.4685320133211374e-05
+          ],
+          [
+            -7.317853392199998e-05,
+            2.4685320133211374e-05,
+            0.000568679210607304
+          ]
+        ]
+      },
+      "left_tie": {
+        "mass_kg": 0.01708538558880156,
+        "com_m": [
+          0.03224093873084655,
+          0.017,
+          -8.87981627051699e-19
+        ],
+        "inertia_kg_m2": [
+          [
+            1.2530978783531078e-07,
+            -1.8277205526828767e-21,
+            1.855422313347536e-22
+          ],
+          [
+            -1.8277205526828767e-21,
+            6.967718525437567e-06,
+            1.0932410532404852e-23
+          ],
+          [
+            1.855422313347536e-22,
+            1.0932410532404852e-23,
+            6.887969765839067e-06
+          ]
+        ]
+      },
+      "left_upper": {
+        "mass_kg": 0.16296319942458637,
+        "com_m": [
+          0.018345778052526365,
+          0.011502012426947107,
+          1.3641574683750698e-05
+        ],
+        "inertia_kg_m2": [
+          [
+            0.00010304237773178683,
+            -2.8743198339436925e-05,
+            -4.7397183771536077e-07
+          ],
+          [
+            -2.8743198339436925e-05,
+            0.00022607726737685678,
+            1.0736371327263606e-06
+          ],
+          [
+            -4.7397183771536077e-07,
+            1.0736371327263606e-06,
+            0.00022338134471558616
+          ]
+        ]
+      },
+      "left_wheel": {
+        "mass_kg": 0.3539855731978098,
+        "com_m": [
+          1.6384821480722782e-19,
+          -0.00875423270894779,
+          1.796269189996981e-18
+        ],
+        "inertia_kg_m2": [
+          [
+            0.00022247589437563857,
+            7.2894928300491925e-22,
+            5.744322228159068e-20
+          ],
+          [
+            7.2894928300491925e-22,
+            0.00032349052549656093,
+            -1.7367385673652427e-20
+          ],
+          [
+            5.744322228159068e-20,
+            -1.7367385673652427e-20,
+            0.00022247589437564128
+          ]
+        ]
+      },
+      "right_lower": {
+        "mass_kg": 0.18127660330246056,
+        "com_m": [
+          0.08351495589688286,
+          0.0032891629352024086,
+          0.011840999369046352
+        ],
+        "inertia_kg_m2": [
+          [
+            0.00011479638650417802,
+            -0.00010970142778112618,
+            -7.317853392199998e-05
+          ],
+          [
+            -0.00010970142778112618,
+            0.0005743556869753018,
+            -2.4685320133211374e-05
+          ],
+          [
+            -7.317853392199998e-05,
+            -2.4685320133211374e-05,
+            0.000568679210607304
+          ]
+        ]
+      },
+      "right_tie": {
+        "mass_kg": 0.01708538558880156,
+        "com_m": [
+          0.03224093873084655,
+          -0.017,
+          -8.87981627051699e-19
+        ],
+        "inertia_kg_m2": [
+          [
+            1.2530978783531078e-07,
+            1.8277205526828767e-21,
+            1.855422313347536e-22
+          ],
+          [
+            1.8277205526828767e-21,
+            6.967718525437567e-06,
+            -1.0932410532404852e-23
+          ],
+          [
+            1.855422313347536e-22,
+            -1.0932410532404852e-23,
+            6.887969765839067e-06
+          ]
+        ]
+      },
+      "right_upper": {
+        "mass_kg": 0.1663171637415588,
+        "com_m": [
+          0.01797581572530148,
+          -0.010760868605805165,
+          1.3366477672189618e-05
+        ],
+        "inertia_kg_m2": [
+          [
+            0.00010751486535604659,
+            3.095898615493378e-05,
+            -4.7479429158855955e-07
+          ],
+          [
+            3.095898615493378e-05,
+            0.00022721017114748753,
+            -1.0719895146813854e-06
+          ],
+          [
+            -4.7479429158855955e-07,
+            -1.0719895146813854e-06,
+            0.00022895990317281853
+          ]
+        ]
+      },
+      "right_wheel": {
+        "mass_kg": 0.3539855731978098,
+        "com_m": [
+          1.6384821480722782e-19,
+          0.00875423270894779,
+          1.796269189996981e-18
+        ],
+        "inertia_kg_m2": [
+          [
+            0.00022247589437563857,
+            -7.2894928300491925e-22,
+            5.744322228159068e-20
+          ],
+          [
+            -7.2894928300491925e-22,
+            0.00032349052549656093,
+            1.7367385673652427e-20
+          ],
+          [
+            5.744322228159068e-20,
+            1.7367385673652427e-20,
+            0.00022247589437564128
+          ]
+        ]
+      }
+    },
+    "mass_scale": 1.0,
+    "model_limits": "CAD-derived but unweighed mass/inertia; closed internal linkages; actual exterior convex hulls for ground contacts; current/voltage-limited motor models with assumed conventions and losses. No self-contact, joint flexibility, gearbox backlash, temperature or hardware qualification.",
+    "sensor_delay_s": 0.0,
+    "sensor_noise_rad": 0.0,
+    "variant": "wider-four-motor-recovery-feasibility",
+    "hardware_release": "failed",
+    "model_sha256": "60f21ccdef503755e4dff697eceedf1ee508977b3ba661cab7c014b79c7e3f8d",
+    "plant_id": "wide_v1",
+    "policy_interface": {
+      "version": 2,
+      "hip_offset_rad": 0.0,
+      "hip_scale_rad": 2.35,
+      "hip_target_range_rad": [
+        -2.35,
+        2.35
+      ],
+      "hip_observation_offset_rad": 0.4101523742186677,
+      "wheel_scale_Nm": 0.55,
+      "wheel_target_range_Nm": [
+        -0.55,
+        0.55
+      ]
+    },
+    "body_contact_pattern": ".*_ground",
+    "passive_knee_range_rad": [
+      0.35,
+      2.36
+    ]
+  },
+  "stance": {
+    "geometry": {
+      "crank_mm": 64.48187746169309,
+      "lower_mm": 119.11935079120995,
+      "body_pin_mm": [
+        11.471528727020925,
+        16.383040885779835
+      ],
+      "tie_mm": 64.48187746169309,
+      "coupler_mm": 24.0,
+      "lever_phase_rad": 3.2560499049148564
+    },
+    "hip_x_mm": 5.0,
+    "anchor_rotation_rad": 0.959931088596881,
+    "allowable_pitch_deg": 15.0,
+    "max_abs_pitch_deg": 14.893311573785423,
+    "stance_q_range_rad": [
+      -0.5061454830783552,
+      1.0995574287564276
+    ],
+    "stance_height_range_mm": [
+      142.42164883205447,
+      209.92991412257524
+    ],
+    "stance_height_stroke_mm": 67.50826529052077,
+    "covers_training_height_range": true,
+    "covers_evaluation_height_range": true,
+    "nominal_q_rad": 0.4101523742186677,
+    "nominal_height_mm": 182.38631120945053,
+    "nominal_pitch_rad": -0.016916373978776177,
+    "full_cycle_knee_range_rad": [
+      0.35856896988601994,
+      2.3453711622081452
+    ],
+    "grashof_margin_mm": 4.0,
+    "stance_samples": 185
+  },
+  "part_count": 117,
+  "triangle_count": 448022,
+  "cad_parity": [
+    {
+      "name": "battery_envelope",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "electronics_envelope",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_SunnySky_X2216_V3_880KV",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_rotor_encoder_magnet",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_rotor_encoder_board",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_bearing_33.5",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_bearing_52",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_SunnySky_X2216_V3_880KV",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_rotor_encoder_magnet",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_rotor_encoder_board",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_inner_hip_bearing",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_bearing_52",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_motor_pinion",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_first_gear",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_final_pinion",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_output_gear",
+      "body": "left_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_motor_pinion",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_first_gear",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_final_pinion",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_output_gear",
+      "body": "right_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "streamlined_upper_shell",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "streamlined_lower_tray",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "flush_visor",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "visor_light_0",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "visor_light_1",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_short_hip_shaft",
+      "body": "left_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_hub_set_screw_57.9",
+      "body": "left_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_hub_set_screw_62.5",
+      "body": "left_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_pololu_2693_hub",
+      "body": "left_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_mount_screw_0",
+      "body": "left_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_mount_screw_1",
+      "body": "left_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_mount_screw_2",
+      "body": "left_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_mount_screw_3",
+      "body": "left_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_mount_screw_4",
+      "body": "left_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_mount_screw_5",
+      "body": "left_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_rear_post_carrier",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_body_guide_pin",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_guide",
+      "body": "left_tie",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_knee_bushing",
+      "body": "left_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_knee_lever_inner",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_knee_lever_outer",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_knee_shaft",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_knee_guide_pin",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_knee_guide_spacer_inner",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_knee_guide_spacer_outer",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_tire",
+      "body": "left_wheel",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_slim_lower_pod",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_motor_mount_lid",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_V2806_stator",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_V2806_rotor",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_winding_0",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_winding_1",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_winding_2",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_winding_3",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_winding_4",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_winding_5",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_winding_6",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_winding_7",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_winding_8",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_winding_9",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_winding_10",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_winding_11",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_pinion_adapter",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_pinion_20T",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_gear_100T",
+      "body": "left_wheel",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_688_inner",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_688_outer",
+      "body": "left_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_wheel_axle",
+      "body": "left_wheel",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_rim",
+      "body": "left_wheel",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_structural_thigh",
+      "body": "left_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "left_thigh_lid",
+      "body": "left_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_short_hip_shaft",
+      "body": "right_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_hub_set_screw_57.9",
+      "body": "right_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_hub_set_screw_62.5",
+      "body": "right_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_pololu_2693_hub",
+      "body": "right_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_mount_screw_0",
+      "body": "right_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_mount_screw_1",
+      "body": "right_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_mount_screw_2",
+      "body": "right_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_mount_screw_3",
+      "body": "right_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_mount_screw_4",
+      "body": "right_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_mount_screw_5",
+      "body": "right_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_rear_post_carrier",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_body_guide_pin",
+      "body": "chassis",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_guide",
+      "body": "right_tie",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_knee_bushing",
+      "body": "right_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_knee_lever_inner",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_knee_lever_outer",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_knee_shaft",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_knee_guide_pin",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_knee_guide_spacer_inner",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_knee_guide_spacer_outer",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_tire",
+      "body": "right_wheel",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_slim_lower_pod",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_motor_mount_lid",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_V2806_stator",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_V2806_rotor",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_winding_0",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_winding_1",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_winding_2",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_winding_3",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_winding_4",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_winding_5",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_winding_6",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_winding_7",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_winding_8",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_winding_9",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_winding_10",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_winding_11",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_pinion_adapter",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_pinion_20T",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_gear_100T",
+      "body": "right_wheel",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_688_inner",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_688_outer",
+      "body": "right_lower",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_wheel_axle",
+      "body": "right_wheel",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_rim",
+      "body": "right_wheel",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_structural_thigh",
+      "body": "right_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    },
+    {
+      "name": "right_thigh_lid",
+      "body": "right_upper",
+      "volume_error_cm3": 0.0,
+      "com_error_m": 0.0
+    }
+  ],
+  "omitted_mass_allocations": [
+    "left_spring_lower_half",
+    "left_spring_upper_half",
+    "right_spring_lower_half",
+    "right_spring_upper_half",
+    "unmodeled_hardware_allowance"
+  ],
+  "limitations": [
+    "Spring coils are illustrative, attached at the simulated pin positions; end fittings remain unfinished.",
+    "Tire tread is illustrative; tire SKU, fasteners, sealing and strength remain unqualified.",
+    "Physics view shows ground-contact hulls, not internal self-contact."
+  ]
+}

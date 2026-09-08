@@ -3,6 +3,8 @@
 .control-section{padding:24px}.intro{margin-bottom:20px}h1{font-size:24px}
 #policy-picker{margin:18px 0;font-size:12px;font-weight:550}
 #policy-select{display:block;width:100%;margin-top:9px;padding:12px 10px;border:1px solid #c9d3ca;border-radius:8px;background:#fff;font:inherit;font-weight:400;color:#263c35}
+.display-controls{display:flex;gap:5px}.display-controls button{flex:1;padding:10px 5px;font-size:12px}.display-controls button[aria-pressed=true]{background:#304e41;color:white;border-color:#304e41}
+#display-note{min-height:32px;margin:10px 0 15px;line-height:1.5}#inspection-controls h2{font-size:17px}#inspection-controls .check-row{margin-top:16px}#inspection-controls input[type=range]{margin-bottom:16px}
 select:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
 #replay-title{margin:17px 0 12px;font-size:17px;font-weight:550}#policy-status:empty{display:none}
 .controller-kind{display:inline-block;font-size:10px;font-weight:650;letter-spacing:.025em;padding:6px 9px;border-radius:5px;background:#dcebe2;color:#2e6349}
@@ -12,5 +14,6 @@ select:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outli
 .evidence .measurements div{flex-wrap:wrap}.evidence .measurements dt{max-width:170px}
 .about-section{padding-top:13px;padding-bottom:20px}.about-section>p{margin:0;color:#526b59}.about-section details{margin-top:10px}
 .sidebar-footer{font-size:10px;padding:22px 24px}.telemetry{flex-wrap:wrap;right:18px;top:80px;gap:6px}.telemetry .controller-kind{font-size:10px}
+.telemetry span:empty{display:none}
 .canvas-caption{max-width:85%;bottom:55px;color:#6b7f70}.viewport{min-height:0}
 @media(max-width:700px){.header-meta{display:none}.workspace{display:flex}.viewport{height:54dvh;min-height:330px}.sidebar{display:flex}.motion-section{padding:22px}.intro{margin-bottom:15px}.about-section{padding:18px 22px}.telemetry{top:66px;right:12px}.telemetry span{font-size:9px}.telemetry .controller-kind{font-size:9px}.canvas-caption{max-width:88%;bottom:43px;font-size:9px}.interaction-hint{bottom:17px}.view-toolbar button{padding:7px 10px}#replay-title{margin-top:13px}.measurements{font-size:12px}.evidence .measurements dt{max-width:none}}
