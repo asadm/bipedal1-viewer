@@ -181,7 +181,11 @@ try {
     $('policy-link').hidden = !entry.policy; $('checkpoint-link').hidden = !entry.checkpoint;
     if (entry.policy) $('policy-link').href = '../learned/' + entry.policy;
     if (entry.checkpoint) $('checkpoint-link').href = '../learned/' + entry.checkpoint;
-    const method = next.report.controller?.startsWith('Posture transfer') ? 'Transferred PPO' : 'Learned PPO';
+    const controller = next.report.controller || '';
+    const method = controller.startsWith('Controller composition') ? 'Combined learned' :
+      controller.startsWith('PPO with frozen balance') ? 'PPO with fixed balance' :
+      controller.startsWith('Behavior cloning') ? 'Imitation' :
+      controller.startsWith('Posture transfer') ? 'Transferred PPO' : 'Learned PPO';
     $('caption').textContent = `${method} policy ${entry.policy_sha256.slice(0, 8)} · recorded CPU MuJoCo · hardware unqualified`;
     show(record.frames[0].t); view(); $('load-status').hidden = true;
   }
