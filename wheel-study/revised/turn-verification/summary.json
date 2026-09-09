@@ -1,0 +1,198 @@
+{
+  "kind": "programmed_wheel_transfer",
+  "rigid_tires": true,
+  "learned_policy": false,
+  "hardware_release": false,
+  "cases": 2,
+  "passed": 2,
+  "records": [
+    {
+      "kind": "turn",
+      "variant": "wide_current",
+      "timestep_s": 0.0005,
+      "baseline": false,
+      "settings": {},
+      "passed": true,
+      "learned_policy": false,
+      "hardware_release": false,
+      "mujoco_version": "3.10.0",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78",
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "mass_kg": 2.2921944426033494,
+      "result": {
+        "duration_s": 12.000000000003174,
+        "hip_range_rad": [
+          0.40963422232431607,
+          0.41044336749218696
+        ],
+        "knee_range_rad": [
+          1.6175459403491812,
+          1.6182065649815935
+        ],
+        "maximum_closure_error_mm": 0.0004254952718848835,
+        "maximum_spring_compression_mm": 0.10303166677427811,
+        "minimum_tilt_deg": 1.4199322585094223,
+        "peak_tilt_deg": 1.5039985859297567,
+        "final_tilt_deg": 1.4338662838135103,
+        "mean_tilt_deg": 1.4452763794855017,
+        "tail_mean_tilt_deg": 1.4337237151324385,
+        "final_stable_hold_s": 6.031499999999377,
+        "longest_stable_hold_s": 6.031499999999377,
+        "final_root_speed_m_s": 0.00011184509974273473,
+        "final_angular_speed_rad_s": 0.008554386437272273,
+        "final_qpos": [
+          0.00016265587152328133,
+          -0.005209805446318854,
+          0.19284575751897562,
+          0.7209111138450831,
+          -0.008665411633712197,
+          0.009026280014883214,
+          0.6929145711016281,
+          0.41017469886037977,
+          1.6177648953584323,
+          -2.6257415566584497,
+          0.3467130736026489,
+          0.41010966574230945,
+          1.6178171629507787,
+          2.7259457844512416,
+          0.34664711193927483
+        ],
+        "final_qvel": [
+          6.789504682405143e-05,
+          -4.0892552553555503e-05,
+          7.891380170082318e-05,
+          -0.00021656217622514535,
+          -0.0008192352445458045,
+          0.008512313537230067,
+          0.002011060453946896,
+          -0.001442429312688958,
+          -0.015292482447325728,
+          0.0018752250961614932,
+          0.002028230325421245,
+          -0.0014546892787043798,
+          0.014304861439474344,
+          0.0018921924098522357
+        ],
+        "checks": {
+          "complete": true,
+          "finite": true,
+          "hip_travel": true,
+          "knee_travel": true,
+          "linkage_closure": true,
+          "spring_travel": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "turn_heading": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "physical_checks_pass": true,
+        "stable_finish": true,
+        "peak_current_A": [
+          1.615213803241044,
+          1.6678841358990524,
+          0.8769290384027885,
+          0.8981912036392733
+        ],
+        "heading_error_deg": 2.278378030972671
+      },
+      "file": "turn-wide_current-500us.json"
+    },
+    {
+      "kind": "turn",
+      "variant": "wide_current",
+      "timestep_s": 0.00025,
+      "baseline": false,
+      "settings": {},
+      "passed": true,
+      "learned_policy": false,
+      "hardware_release": false,
+      "mujoco_version": "3.10.0",
+      "model_sha256": "0ebaeb6eb61747fd87edc0b644c66ee008c61264a87266f4bb0dd3c86cdfca25",
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "mass_kg": 2.2921944426033494,
+      "result": {
+        "duration_s": 11.999999999994708,
+        "hip_range_rad": [
+          0.40980248292059507,
+          0.4104633599327006
+        ],
+        "knee_range_rad": [
+          1.6175293128774848,
+          1.6180677784671815
+        ],
+        "maximum_closure_error_mm": 0.0004012404862766536,
+        "maximum_spring_compression_mm": 0.0997773458963902,
+        "minimum_tilt_deg": 1.4221288147004727,
+        "peak_tilt_deg": 1.5042887130835922,
+        "final_tilt_deg": 1.4453670677653458,
+        "mean_tilt_deg": 1.444833538254288,
+        "tail_mean_tilt_deg": 1.4407427575586698,
+        "final_stable_hold_s": 6.05125000000165,
+        "longest_stable_hold_s": 6.05125000000165,
+        "final_root_speed_m_s": 0.0008834807451463244,
+        "final_angular_speed_rad_s": 0.008903068091030718,
+        "final_qpos": [
+          0.0005338522254165917,
+          -0.004840121265986046,
+          0.19285189341573472,
+          0.7205910216676155,
+          -0.00873891282570092,
+          0.009094831482735405,
+          0.6932456238123302,
+          0.4102679352741197,
+          1.6176879249325522,
+          -2.5976221336034073,
+          0.3468075221667838,
+          0.41020008257344276,
+          1.617742456555642,
+          2.744734914775656,
+          0.3467387009618645
+        ],
+        "final_qvel": [
+          0.0001064335751431422,
+          0.0008743761999920428,
+          -6.838407719658708e-05,
+          -0.000226519977193277,
+          0.00041635996318949907,
+          0.008890441750245866,
+          -0.0016153863261703211,
+          0.0012221311613771595,
+          -0.0003526547533314076,
+          -0.0015992315463124564,
+          -0.0015983411655975878,
+          0.0012149238149455517,
+          0.030545094626671446,
+          -0.0015815933548664796
+        ],
+        "checks": {
+          "complete": true,
+          "finite": true,
+          "hip_travel": true,
+          "knee_travel": true,
+          "linkage_closure": true,
+          "spring_travel": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "turn_heading": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "physical_checks_pass": true,
+        "stable_finish": true,
+        "peak_current_A": [
+          1.6221788514631994,
+          1.6383005207763646,
+          0.8458058425850417,
+          0.8661022945365646
+        ],
+        "heading_error_deg": 2.2261723968454965
+      },
+      "file": "turn-wide_current-250us.json"
+    }
+  ],
+  "limitations": [
+    "Exact-start programmed diagnostics; no RL policy qualification",
+    "No measured TPU deflection, grip, creep, fatigue or impact strength"
+  ]
+}

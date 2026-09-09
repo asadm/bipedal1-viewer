@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "actor_sha256": "a129c86958311c97d491ad2420183e5afe2de5905dd7505c9c97a0dcacf27159",
+  "manifest_sha256": "b8f2c2d6e159b9cf8ecfbe79b2e9fa25c54e3211bd7e565cb8554cc4b56db0c5",
+  "plan_sha256": "f984bd8a103b9bc667f5c4d2fe46fb985fdc0002b69b71527140a8451406f188",
+  "train_samples": 73696,
+  "validation_samples": 24800,
+  "best_update": 2300,
+  "checks": [
+    "fit source snapshots",
+    "plan/manifest identity",
+    "actor checksum",
+    "dataset row checksums/counts/exclusions",
+    "training-only normalization",
+    "sensor mask",
+    "validation selection from saved trace"
+  ],
+  "scope": "Artifact/provenance check; no optimizer rerun or independent Torch export check. Original fit records its NumPy/Torch comparison."
+}

@@ -1,0 +1,896 @@
+{
+  "status": "completed_static_diagnostic",
+  "mass_kg": 2.4892471592111667,
+  "hip_samples": 61,
+  "pitch_samples": 581,
+  "tracked_minima": 61,
+  "weakest_sample": {
+    "hip_rad": -2.1108000000000002,
+    "tracked_minimum_found": true,
+    "tracked_pitch_deg": -90.0,
+    "tracked_support": "body_lower_output_mount_outer",
+    "tracked_energy_J": 1.962602625916794,
+    "pitch_change_from_previous_sample_deg": -0.24999999999999717,
+    "local_minima_deg": [
+      -135.75,
+      -100.0,
+      -90.0
+    ],
+    "first_saddle_toward_roof_J": 0.01906650437912072,
+    "first_saddle_pitch_deg": -98.0
+  },
+  "cases": [
+    {
+      "hip_rad": -2.5,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -70.25,
+      "tracked_support": "left_driven_thigh_frame_outer",
+      "tracked_energy_J": 1.7409516817706068,
+      "pitch_change_from_previous_sample_deg": -0.2500000000000099,
+      "local_minima_deg": [
+        -70.25
+      ],
+      "first_saddle_toward_roof_J": 2.4762535450210157,
+      "first_saddle_pitch_deg": -167.25
+    },
+    {
+      "hip_rad": -2.45135,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -73.5,
+      "tracked_support": "right_coaxial_thigh_frame_outer",
+      "tracked_energy_J": 1.77112781872085,
+      "pitch_change_from_previous_sample_deg": -3.249999999999989,
+      "local_minima_deg": [
+        -73.5
+      ],
+      "first_saddle_toward_roof_J": 2.394519230573967,
+      "first_saddle_pitch_deg": -173.0
+    },
+    {
+      "hip_rad": -2.4027,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -76.5,
+      "tracked_support": "right_coaxial_thigh_frame_outer",
+      "tracked_energy_J": 1.7975282301871007,
+      "pitch_change_from_previous_sample_deg": -3.0000000000000044,
+      "local_minima_deg": [
+        -97.5,
+        -76.5
+      ],
+      "first_saddle_toward_roof_J": 0.07713625178904615,
+      "first_saddle_pitch_deg": -97.0
+    },
+    {
+      "hip_rad": -2.35405,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -79.5,
+      "tracked_support": "right_coaxial_thigh_frame_outer",
+      "tracked_energy_J": 1.8220596696952667,
+      "pitch_change_from_previous_sample_deg": -3.0000000000000044,
+      "local_minima_deg": [
+        -104.0,
+        -100.75,
+        -79.5
+      ],
+      "first_saddle_toward_roof_J": 0.08663501853820743,
+      "first_saddle_pitch_deg": -100.50000000000001
+    },
+    {
+      "hip_rad": -2.3054,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -82.25,
+      "tracked_support": "right_coaxial_thigh_frame_outer",
+      "tracked_energy_J": 1.8427733140607383,
+      "pitch_change_from_previous_sample_deg": -2.7499999999999942,
+      "local_minima_deg": [
+        -110.25,
+        -82.25
+      ],
+      "first_saddle_toward_roof_J": 0.09974165890624098,
+      "first_saddle_pitch_deg": -104.75
+    },
+    {
+      "hip_rad": -2.25675,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -84.75,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 1.8608717285327863,
+      "pitch_change_from_previous_sample_deg": -2.4999999999999973,
+      "local_minima_deg": [
+        -116.74999999999999,
+        -84.75
+      ],
+      "first_saddle_toward_roof_J": 0.11531274009090575,
+      "first_saddle_pitch_deg": -109.0
+    },
+    {
+      "hip_rad": -2.2081,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -87.5,
+      "tracked_support": "right_coaxial_thigh_frame_outer",
+      "tracked_energy_J": 1.876124016581885,
+      "pitch_change_from_previous_sample_deg": -2.750000000000007,
+      "local_minima_deg": [
+        -123.00000000000001,
+        -87.5
+      ],
+      "first_saddle_toward_roof_J": 0.13379256711049559,
+      "first_saddle_pitch_deg": -113.0
+    },
+    {
+      "hip_rad": -2.15945,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -89.75,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 1.887263537718367,
+      "pitch_change_from_previous_sample_deg": -2.25,
+      "local_minima_deg": [
+        -129.25,
+        -89.75
+      ],
+      "first_saddle_toward_roof_J": 0.1565943620725978,
+      "first_saddle_pitch_deg": -117.25000000000001
+    },
+    {
+      "hip_rad": -2.1108000000000002,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 1.962602625916794,
+      "pitch_change_from_previous_sample_deg": -0.24999999999999717,
+      "local_minima_deg": [
+        -135.75,
+        -100.0,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.01906650437912072,
+      "first_saddle_pitch_deg": -98.0
+    },
+    {
+      "hip_rad": -2.06215,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.0395049341508966,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -142.0,
+        -107.75,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.025244699410288618,
+      "first_saddle_pitch_deg": -99.0
+    },
+    {
+      "hip_rad": -2.0135,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.1095670758097675,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -148.25000000000003,
+        -113.5,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.033081710887846505,
+      "first_saddle_pitch_deg": -100.0
+    },
+    {
+      "hip_rad": -1.96485,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.172369828814695,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -154.5,
+        -118.00000000000001,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.042731053223104,
+      "first_saddle_pitch_deg": -101.25
+    },
+    {
+      "hip_rad": -1.9162,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.2275720600422035,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -160.75,
+        -122.0,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.054291575087722865,
+      "first_saddle_pitch_deg": -102.5
+    },
+    {
+      "hip_rad": -1.86755,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.274921168384881,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -167.0,
+        -125.25,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.06781596942724644,
+      "first_saddle_pitch_deg": -103.75
+    },
+    {
+      "hip_rad": -1.8189,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.3142633229050498,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -173.25,
+        -128.5,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.08329741774696986,
+      "first_saddle_pitch_deg": -105.25
+    },
+    {
+      "hip_rad": -1.7702499999999999,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.345552676610335,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -179.75000000000003,
+        -131.25,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.10066965488802504,
+      "first_saddle_pitch_deg": -106.5
+    },
+    {
+      "hip_rad": -1.7216,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.368858833696064,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -133.75,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.1197792049933617,
+      "first_saddle_pitch_deg": -107.75
+    },
+    {
+      "hip_rad": -1.6729500000000002,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.3843721914760785,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -136.25,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.1404328575326974,
+      "first_saddle_pitch_deg": -109.25
+    },
+    {
+      "hip_rad": -1.6243,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.3924071475160322,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -138.5,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.16235058706014227,
+      "first_saddle_pitch_deg": -110.5
+    },
+    {
+      "hip_rad": -1.57565,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.3934033261499823,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -140.75,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.18520119981826833,
+      "first_saddle_pitch_deg": -111.75000000000001
+    },
+    {
+      "hip_rad": -1.5270000000000001,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.3879248264628483,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -142.75,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.2086099903279499,
+      "first_saddle_pitch_deg": -113.0
+    },
+    {
+      "hip_rad": -1.47835,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.3766570994446345,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -144.75,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.23216354390587002,
+      "first_saddle_pitch_deg": -114.25
+    },
+    {
+      "hip_rad": -1.4297,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.360400637966455,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -146.75,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.2554224094584705,
+      "first_saddle_pitch_deg": -115.49999999999999
+    },
+    {
+      "hip_rad": -1.38105,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.3400604356617802,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -148.5,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.2779369719220184,
+      "first_saddle_pitch_deg": -116.74999999999999
+    },
+    {
+      "hip_rad": -1.3324,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.3166302462670463,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -150.5,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.29930603654985344,
+      "first_saddle_pitch_deg": -117.75
+    },
+    {
+      "hip_rad": -1.28375,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.291170979600233,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -152.25,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.3191483761364382,
+      "first_saddle_pitch_deg": -118.74999999999999
+    },
+    {
+      "hip_rad": -1.2351,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.264782903840585,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -154.0,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.33718730045727785,
+      "first_saddle_pitch_deg": -119.5
+    },
+    {
+      "hip_rad": -1.18645,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.2385715104929313,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -155.75,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.35321757101469453,
+      "first_saddle_pitch_deg": -120.25
+    },
+    {
+      "hip_rad": -1.1378,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.2136069660207998,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -157.25000000000003,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.36717799151139996,
+      "first_saddle_pitch_deg": -121.0
+    },
+    {
+      "hip_rad": -1.08915,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.1908773646491806,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -159.0,
+        -90.0
+      ],
+      "first_saddle_toward_roof_J": 0.37914674663605297,
+      "first_saddle_pitch_deg": -121.5
+    },
+    {
+      "hip_rad": -1.0405,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.171237107681216,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -160.75,
+        -90.0,
+        -36.5
+      ],
+      "first_saddle_toward_roof_J": 0.38933667537431305,
+      "first_saddle_pitch_deg": -122.0
+    },
+    {
+      "hip_rad": -0.9918500000000001,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.1553541861948253,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -162.25,
+        -90.0,
+        -38.25
+      ],
+      "first_saddle_toward_roof_J": 0.39809490316521234,
+      "first_saddle_pitch_deg": -122.50000000000001
+    },
+    {
+      "hip_rad": -0.9432,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.1436637400322955,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -164.0,
+        -90.0,
+        -39.5
+      ],
+      "first_saddle_toward_roof_J": 0.4058775289279448,
+      "first_saddle_pitch_deg": -122.75
+    },
+    {
+      "hip_rad": -0.89455,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.136338429948326,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -165.5,
+        -90.0,
+        -40.75
+      ],
+      "first_saddle_toward_roof_J": 0.4131831693864694,
+      "first_saddle_pitch_deg": -123.00000000000001
+    },
+    {
+      "hip_rad": -0.8459000000000001,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.133286095213639,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -167.0,
+        -90.0,
+        -41.75
+      ],
+      "first_saddle_toward_roof_J": 0.42052722397326114,
+      "first_saddle_pitch_deg": -123.24999999999999
+    },
+    {
+      "hip_rad": -0.79725,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.134179715936156,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -168.5,
+        -90.0,
+        -42.5
+      ],
+      "first_saddle_toward_roof_J": 0.428375128156012,
+      "first_saddle_pitch_deg": -123.5
+    },
+    {
+      "hip_rad": -0.7486000000000002,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.1385150453339805,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -170.25,
+        -90.0,
+        -43.25
+      ],
+      "first_saddle_toward_roof_J": 0.43710967849151183,
+      "first_saddle_pitch_deg": -123.75000000000001
+    },
+    {
+      "hip_rad": -0.6999500000000001,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.1456824019370693,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -171.75,
+        -90.0,
+        -44.0
+      ],
+      "first_saddle_toward_roof_J": 0.4470205812603121,
+      "first_saddle_pitch_deg": -124.25
+    },
+    {
+      "hip_rad": -0.6513,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.1550361704289704,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -173.25,
+        -90.0,
+        -44.75
+      ],
+      "first_saddle_toward_roof_J": 0.4582978438537957,
+      "first_saddle_pitch_deg": -124.49999999999999
+    },
+    {
+      "hip_rad": -0.6026500000000001,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.16594952720673,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -174.75,
+        -90.0,
+        -45.5
+      ],
+      "first_saddle_toward_roof_J": 0.4710496493166123,
+      "first_saddle_pitch_deg": -124.75
+    },
+    {
+      "hip_rad": -0.554,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.1778493308442686,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -176.25,
+        -90.0,
+        -46.5
+      ],
+      "first_saddle_toward_roof_J": 0.4853246260549722,
+      "first_saddle_pitch_deg": -125.25
+    },
+    {
+      "hip_rad": -0.50535,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.190232678031264,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -177.75,
+        -90.0,
+        -47.25
+      ],
+      "first_saddle_toward_roof_J": 0.5011486680220054,
+      "first_saddle_pitch_deg": -125.5
+    },
+    {
+      "hip_rad": -0.4567000000000001,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.2026701350743334,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -179.25,
+        -90.0,
+        -48.25
+      ],
+      "first_saddle_toward_roof_J": 0.518493262572977,
+      "first_saddle_pitch_deg": -126.0
+    },
+    {
+      "hip_rad": -0.40805000000000025,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.214801262232614,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -90.0,
+        -49.5
+      ],
+      "first_saddle_toward_roof_J": 0.537332799628381,
+      "first_saddle_pitch_deg": -126.5
+    },
+    {
+      "hip_rad": -0.35939999999999994,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.226326923357439,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -90.0,
+        -50.5
+      ],
+      "first_saddle_toward_roof_J": 0.5576342724364958,
+      "first_saddle_pitch_deg": -127.00000000000001
+    },
+    {
+      "hip_rad": -0.3107500000000001,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.2370011482612426,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -90.0,
+        -51.75
+      ],
+      "first_saddle_toward_roof_J": 0.579358540360035,
+      "first_saddle_pitch_deg": -127.50000000000001
+    },
+    {
+      "hip_rad": -0.2621000000000002,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.2466237367261868,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -90.0,
+        -53.0
+      ],
+      "first_saddle_toward_roof_J": 0.6024626923768546,
+      "first_saddle_pitch_deg": -128.0
+    },
+    {
+      "hip_rad": -0.21344999999999992,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.2550337471025625,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -90.0,
+        -54.25
+      ],
+      "first_saddle_toward_roof_J": 0.6269016041429238,
+      "first_saddle_pitch_deg": -128.5
+    },
+    {
+      "hip_rad": -0.16480000000000006,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.2621036002966473,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -90.0,
+        -55.5
+      ],
+      "first_saddle_toward_roof_J": 0.6526291172152212,
+      "first_saddle_pitch_deg": -129.0
+    },
+    {
+      "hip_rad": -0.1161500000000002,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.2677336232333216,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -90.0,
+        -56.75
+      ],
+      "first_saddle_toward_roof_J": 0.6796154244111863,
+      "first_saddle_pitch_deg": -129.75
+    },
+    {
+      "hip_rad": -0.0674999999999999,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.271847174947265,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -90.0,
+        -58.00000000000001
+      ],
+      "first_saddle_toward_roof_J": 0.7078088087980889,
+      "first_saddle_pitch_deg": -130.25000000000003
+    },
+    {
+      "hip_rad": -0.018850000000000033,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.274386738302534,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -90.0,
+        -59.25000000000001
+      ],
+      "first_saddle_toward_roof_J": 0.7371748007594348,
+      "first_saddle_pitch_deg": -131.0
+    },
+    {
+      "hip_rad": 0.029799999999999827,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -90.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.2753113281162514,
+      "pitch_change_from_previous_sample_deg": 0.0,
+      "local_minima_deg": [
+        -90.0,
+        -60.75
+      ],
+      "first_saddle_toward_roof_J": 0.7676643102109,
+      "first_saddle_pitch_deg": -131.5
+    },
+    {
+      "hip_rad": 0.07845000000000013,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -62.0,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.0006937378724325,
+      "pitch_change_from_previous_sample_deg": 28.0,
+      "local_minima_deg": [
+        -62.0
+      ],
+      "first_saddle_toward_roof_J": 1.073150832187907,
+      "first_saddle_pitch_deg": -132.25
+    },
+    {
+      "hip_rad": 0.1271,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -63.25,
+      "tracked_support": "body_lower_output_mount_outer",
+      "tracked_energy_J": 2.000440511844082,
+      "pitch_change_from_previous_sample_deg": -1.2499999999999987,
+      "local_minima_deg": [
+        -63.25
+      ],
+      "first_saddle_toward_roof_J": 1.1036557853010613,
+      "first_saddle_pitch_deg": -133.0
+    },
+    {
+      "hip_rad": 0.17574999999999985,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -64.5,
+      "tracked_support": "left_tire",
+      "tracked_energy_J": 2.0001063594387807,
+      "pitch_change_from_previous_sample_deg": -1.2499999999999987,
+      "local_minima_deg": [
+        -64.5
+      ],
+      "first_saddle_toward_roof_J": 1.133582293470226,
+      "first_saddle_pitch_deg": -133.75
+    },
+    {
+      "hip_rad": 0.22440000000000015,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -65.75,
+      "tracked_support": "left_tire",
+      "tracked_energy_J": 2.0003501198148683,
+      "pitch_change_from_previous_sample_deg": -1.2500000000000113,
+      "local_minima_deg": [
+        -65.75
+      ],
+      "first_saddle_toward_roof_J": 1.1622535147150526,
+      "first_saddle_pitch_deg": -134.25
+    },
+    {
+      "hip_rad": 0.27305,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -67.0,
+      "tracked_support": "left_tire",
+      "tracked_energy_J": 1.9993380939849885,
+      "pitch_change_from_previous_sample_deg": -1.2499999999999987,
+      "local_minima_deg": [
+        -67.0
+      ],
+      "first_saddle_toward_roof_J": 1.191471390103568,
+      "first_saddle_pitch_deg": -135.0
+    },
+    {
+      "hip_rad": 0.3216999999999999,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -68.25,
+      "tracked_support": "left_tire",
+      "tracked_energy_J": 1.9968852835393651,
+      "pitch_change_from_previous_sample_deg": -1.2499999999999987,
+      "local_minima_deg": [
+        -68.25
+      ],
+      "first_saddle_toward_roof_J": 1.221412721751003,
+      "first_saddle_pitch_deg": -135.75
+    },
+    {
+      "hip_rad": 0.37034999999999973,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -69.5,
+      "tracked_support": "left_tire",
+      "tracked_energy_J": 1.9927828046692349,
+      "pitch_change_from_previous_sample_deg": -1.2499999999999987,
+      "local_minima_deg": [
+        -69.5
+      ],
+      "first_saddle_toward_roof_J": 1.252290620481637,
+      "first_saddle_pitch_deg": -136.5
+    },
+    {
+      "hip_rad": 0.41900000000000015,
+      "tracked_minimum_found": true,
+      "tracked_pitch_deg": -70.75,
+      "tracked_support": "left_tire",
+      "tracked_energy_J": 1.986791113645856,
+      "pitch_change_from_previous_sample_deg": -1.2499999999999987,
+      "local_minima_deg": [
+        -70.75
+      ],
+      "first_saddle_toward_roof_J": 1.2843604778615534,
+      "first_saddle_pitch_deg": -137.25
+    }
+  ],
+  "grid_sha256": "de8b31f3f4c7efa68ade59a43eafb2e456c7a312e5302c2ca5fa64036b787adc",
+  "plant_manifest_sha256": "e733063a55088781d85aaf4a3c2f3ce7b05fd2c696a2f44fad78ebcc39284d9d",
+  "source_sha256": {
+    "return_support_energy.py": "3b21546c02997287d8359d6e9405907da13b7665a65d808b3f25d6ef38a0439a"
+  },
+  "scope": "Static sagittal gravity energy after exact ground support translation, at fixed symmetric closed-linkage hip poses. Track the nearest local minimum from the initial -70 degree back rest as hips unfold; expose jumps and all local minima rather than assuming continuity. Barrier is to the first sampled local maximum in the direction of decreasing pitch, or null if absent. Actual native hulls/cylinders and rigid mass properties; no time integration, friction, angular momentum, actuator or damping analysis. A sampled local energy minimum is not proof of contact-force equilibrium, lateral stability, continuous clearance or mechanical strength. This does not alter any dynamic recording or qualify a redesigned body."
+}

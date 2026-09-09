@@ -1,0 +1,201 @@
+{
+  "status": "preliminary_load_screen_not_qualification",
+  "mass_allowance_kg": 2.2,
+  "cases": {
+    "both_wheels_static_peak_drive": {
+      "normal_force_N": 10.787315,
+      "axial_force_N": 0.0,
+      "wheel_traction_N": 7.835,
+      "wheel_torque_Nm": 0.4701,
+      "gear_force_xz_N": [
+        18.804000000000002,
+        -6.84409628514167
+      ],
+      "reactions": {
+        "rear": [
+          -48.96874999999999,
+          14.413411962854184
+        ],
+        "front": [
+          22.32974999999999,
+          -18.356630677712513
+        ],
+        "force_residual_N": [
+          0.0,
+          8.881784197001252e-16
+        ],
+        "moment_residual_Nmm": [
+          0.0,
+          0.0
+        ]
+      },
+      "radial_bearing_load_N": [
+        51.04590993383748,
+        28.90646337586865
+      ],
+      "catalog_static_radial_rating_N": 509.94579999999996,
+      "static_radial_rating_to_load_ratio": [
+        9.989944359126126,
+        17.64123799474227
+      ],
+      "shaft_stress": {
+        "von_mises_MPa": 46.74740261113117,
+        "shaft_y_mm": 86.45198329853862,
+        "bending_MPa": 9.663949164389388,
+        "torsion_MPa": 26.406613675588236
+      },
+      "illustrative_notch_factor": 2,
+      "notched_stress_allowance_MPa": 93.49480522226234,
+      "qualified": false
+    },
+    "both_wheels_5g_landing_half_g_lateral": {
+      "normal_force_N": 53.936575,
+      "axial_force_N": 5.3936575,
+      "wheel_traction_N": 7.835,
+      "wheel_torque_Nm": 0.4701,
+      "gear_force_xz_N": [
+        18.804000000000002,
+        -6.84409628514167
+      ],
+      "reactions": {
+        "rear": [
+          -48.96874999999999,
+          57.562671962854125
+        ],
+        "front": [
+          22.32974999999999,
+          -104.65515067771246
+        ],
+        "force_residual_N": [
+          0.0,
+          0.0
+        ],
+        "moment_residual_Nmm": [
+          -9.094947017729282e-13,
+          0.0
+        ]
+      },
+      "radial_bearing_load_N": [
+        75.5738028688887,
+        107.0108326219229
+      ],
+      "catalog_static_radial_rating_N": 509.94579999999996,
+      "static_radial_rating_to_load_ratio": [
+        6.7476530310998575,
+        4.7653661550478335
+      ],
+      "shaft_stress": {
+        "von_mises_MPa": 46.17013791954777,
+        "shaft_y_mm": 86.45198329853862,
+        "bending_MPa": 6.305069236318631,
+        "torsion_MPa": 26.406613675588236
+      },
+      "illustrative_notch_factor": 2,
+      "notched_stress_allowance_MPa": 92.34027583909554,
+      "qualified": false
+    },
+    "one_wheel_5g_landing_one_g_lateral": {
+      "normal_force_N": 107.87315,
+      "axial_force_N": 21.57463,
+      "wheel_traction_N": 7.835,
+      "wheel_torque_Nm": 0.4701,
+      "gear_force_xz_N": [
+        18.804000000000002,
+        -6.84409628514167
+      ],
+      "reactions": {
+        "rear": [
+          -48.96874999999999,
+          205.8882532128543
+        ],
+        "front": [
+          22.32974999999999,
+          -306.9173069277126
+        ],
+        "force_residual_N": [
+          0.0,
+          0.0
+        ],
+        "moment_residual_Nmm": [
+          0.0,
+          0.0
+        ]
+      },
+      "radial_bearing_load_N": [
+        211.63154605966216,
+        307.72853463210436
+      ],
+      "catalog_static_radial_rating_N": 509.94579999999996,
+      "static_radial_rating_to_load_ratio": [
+        2.409592565449758,
+        1.6571287437144897
+      ],
+      "shaft_stress": {
+        "von_mises_MPa": 91.17600778298772,
+        "shaft_y_mm": 85.50396659707725,
+        "bending_MPa": 78.87418245413481,
+        "torsion_MPa": 26.406613675588236
+      },
+      "illustrative_notch_factor": 2,
+      "notched_stress_allowance_MPa": 182.35201556597545,
+      "qualified": false
+    },
+    "one_wheel_static_half_g_lateral": {
+      "normal_force_N": 21.57463,
+      "axial_force_N": 10.787315,
+      "wheel_traction_N": 7.835,
+      "wheel_torque_Nm": 0.4701,
+      "gear_force_xz_N": [
+        18.804000000000002,
+        -6.84409628514167
+      ],
+      "reactions": {
+        "rear": [
+          -48.96874999999999,
+          119.58973321285421
+        ],
+        "front": [
+          22.32974999999999,
+          -134.32026692771254
+        ],
+        "force_residual_N": [
+          0.0,
+          3.552713678800501e-15
+        ],
+        "moment_residual_Nmm": [
+          1.3642420526593924e-12,
+          0.0
+        ]
+      },
+      "radial_bearing_load_N": [
+        129.22709764783912,
+        136.16369502402043
+      ],
+      "catalog_static_radial_rating_N": 509.94579999999996,
+      "static_radial_rating_to_load_ratio": [
+        3.946121280148762,
+        3.745093726415409
+      ],
+      "shaft_stress": {
+        "von_mises_MPa": 75.10388794255361,
+        "shaft_y_mm": 85.50396659707725,
+        "bending_MPa": 59.57068277812802,
+        "torsion_MPa": 26.406613675588236
+      },
+      "illustrative_notch_factor": 2,
+      "notched_stress_allowance_MPa": 150.20777588510722,
+      "qualified": false
+    }
+  },
+  "hardware_release": false,
+  "bearing_strength_pass": null,
+  "shaft_strength_pass": null,
+  "source_sha256": "b78062f1f4eb3b654032e8b7e872f008da586fb5709400288d652b6c56c7a8b5",
+  "module_parts_sha256": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+  "limitations": [
+    "2.2 kg is an allowance, not final CAD mass. 5g/1g are assumed loads, not verified landing bounds.",
+    "Bearing ratios compare radial reactions only; simultaneous axial load, internal clearance, shaft fits and flange support remain unqualified.",
+    "Shaft statics use concentrated loads and a conservative inscribed section at the D-flat. Axial bolt preload, real stress concentrations, fatigue and shaft grade are not established.",
+    "The printed bearing tower, motor plate, gear teeth, output plate and TPU hub need their own stiffness/fatigue/impact checks."
+  ]
+}

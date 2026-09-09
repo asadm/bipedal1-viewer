@@ -1,0 +1,520 @@
+{
+  "scope": "Finite programmed posture/heading trials with a conservative cap contact refinement. A failed search is not a four-motor impossibility proof. CAD triangle contact samples are not exact-solid, tolerance, strength or hardware qualification.",
+  "source_sha256": {
+    "native_terrain_posture_review.py": "6688f08170e034561fd51483d817cb2149596c0bb1d4e4aeebae48500ff5b657",
+    "implementation-checks.json": "f4255f046dbd0f833475a0e47dd9ff2daeb5d7cc6594426c85d16f981625f57a"
+  },
+  "cases": [
+    {
+      "directory": "cap-only-419-250us",
+      "artifact_sha256": {
+        "report.json": "7e098b9b08410c94c81745658c7799a9d822185353032ce1a32acfc389424f2a",
+        "parameters.json": "a0801183f6d00297e1a8df63d0df60712c37e955c93b2583aea0a9babfd9eb76",
+        "trajectory.json": "692d4b7ad9dc066e72cfcaac89c638278476ceb803570da4d035d4a3355a37e5",
+        "surface.json": "8831ee12c4043e781332f0efd8532065a6f688b93ca3ba3dd7b56f40364ef416"
+      },
+      "family": "stones",
+      "seed": 731,
+      "magnitude": 0.03,
+      "timestep_s": 0.00025,
+      "controller": {
+        "heading_kp": 0.3,
+        "heading_kd": 0.07,
+        "roll_kp": 3.0,
+        "ride_q": 0.419,
+        "initial_hip_rad": 0.41900000000000015,
+        "raise_interval_s": [
+          0.25,
+          1.0
+        ]
+      },
+      "passed": false,
+      "failed_checks": [
+        "completed",
+        "body_clear",
+        "route_completed",
+        "terrain_exposure",
+        "stable_finish"
+      ],
+      "displacement_m": 0.9300157882280117,
+      "stones_contacted": 4,
+      "first_body_contact_s": 6.086750000001693,
+      "preceding_pose": {
+        "time_s": 6.080250000001685,
+        "mean_wheel_Y_m": 0.023214664329592592,
+        "yaw_deg": 3.0613717844813655,
+        "hip_rad": [
+          0.42326524810282673,
+          0.42214121154845224
+        ]
+      },
+      "mesh_contact_evidence": [
+        {
+          "part": "left_drive_shin_case",
+          "sampled_contact_s": 6.120250000001734,
+          "nearest_mesh_gap_mm": -0.0005919656435524057,
+          "maximum_proxy_to_mesh_distance_mm": 0.00026946676685374614,
+          "sampled_points": 1
+        }
+      ],
+      "settling": {
+        "speed": null,
+        "lean": null,
+        "roll": null,
+        "yaw": null,
+        "pitch_rate": null
+      },
+      "maximum_roll_deg": 7.182466005823073,
+      "peak_current_A": [
+        7.99999993754899,
+        7.996957309214099,
+        7.857808960791602,
+        8.018996613473988
+      ]
+    },
+    {
+      "directory": "flat-950-125us",
+      "artifact_sha256": {
+        "report.json": "47c7b02906c24ee37b174bb7d922d6e5ca37df0e06a26c53fb169cde9230f87e",
+        "parameters.json": "fc731dbc9533e6a6ca42e44056600b910f1c239b11250ce1fb389f0b8c4fc0aa",
+        "trajectory.json": "e2c3615b7530f4fc067e3c33756acee69d34e54bb5d7a1dc04c0e5c827562077",
+        "surface.json": "387e23adf11f99e37136a02bc025fa886b9452ae29cda443cafea95c565837ab"
+      },
+      "family": "flat",
+      "seed": 731,
+      "magnitude": 0.0,
+      "timestep_s": 0.000125,
+      "controller": {
+        "heading_kp": 0.3,
+        "heading_kd": 0.07,
+        "roll_kp": 3.0,
+        "ride_q": 0.95,
+        "initial_hip_rad": 0.41900000000000015,
+        "raise_interval_s": [
+          0.25,
+          1.0
+        ]
+      },
+      "passed": true,
+      "failed_checks": [],
+      "displacement_m": 2.885925449300537,
+      "stones_contacted": 0,
+      "first_body_contact_s": null,
+      "preceding_pose": {
+        "time_s": 13.980125000021246,
+        "mean_wheel_Y_m": 0.0006193136634778523,
+        "yaw_deg": -0.029701513579426474,
+        "hip_rad": [
+          0.9509260103187893,
+          0.9509952225958866
+        ]
+      },
+      "mesh_contact_evidence": [],
+      "settling": {
+        "speed": 0.058391716474205026,
+        "lean": 0.0017229759818378331,
+        "roll": 3.717924166372745e-05,
+        "yaw": 0.0005741535505571917,
+        "pitch_rate": 0.0036961893854543597
+      },
+      "maximum_roll_deg": 0.004023459589774139,
+      "peak_current_A": [
+        0.8350959002048778,
+        0.8337605905548295,
+        7.400912922045916,
+        7.390712547419794
+      ]
+    },
+    {
+      "directory": "flat-950-250us",
+      "artifact_sha256": {
+        "report.json": "c552302484d7d96ef0f99871c9f58c3ffe0e5efbf9349dc425cf6b516f7e82a6",
+        "parameters.json": "e2e12a6447ae1d9081bbab0cd8f16774bbf6e887183553121b8efd11a3f84c1a",
+        "trajectory.json": "9ca02439bcccdd7fc029e4a3cc363318a650b6216952fbd405a5aa74e3ea9aa5",
+        "surface.json": "387e23adf11f99e37136a02bc025fa886b9452ae29cda443cafea95c565837ab"
+      },
+      "family": "flat",
+      "seed": 731,
+      "magnitude": 0.0,
+      "timestep_s": 0.00025,
+      "controller": {
+        "heading_kp": 0.3,
+        "heading_kd": 0.07,
+        "roll_kp": 3.0,
+        "ride_q": 0.95,
+        "initial_hip_rad": 0.41900000000000015,
+        "raise_interval_s": [
+          0.25,
+          1.0
+        ]
+      },
+      "passed": true,
+      "failed_checks": [],
+      "displacement_m": 2.8854318135655084,
+      "stones_contacted": 0,
+      "first_body_contact_s": null,
+      "preceding_pose": {
+        "time_s": 13.980249999990093,
+        "mean_wheel_Y_m": 0.0008494517134647606,
+        "yaw_deg": -0.051350723967569005,
+        "hip_rad": [
+          0.9508334115374406,
+          0.9508730924277556
+        ]
+      },
+      "mesh_contact_evidence": [],
+      "settling": {
+        "speed": 0.05800270482070591,
+        "lean": 0.001746024713667784,
+        "roll": 4.140076866166485e-05,
+        "yaw": 0.0009031705139203102,
+        "pitch_rate": 0.004195155442912555
+      },
+      "maximum_roll_deg": 0.004816337186756554,
+      "peak_current_A": [
+        0.838678799570217,
+        0.8366544226426079,
+        7.411258477208684,
+        7.395780182395067
+      ]
+    },
+    {
+      "directory": "raised-700-250us",
+      "artifact_sha256": {
+        "report.json": "f049a5d4f04ed7d10d5de0072fda40cc9892704e871bf53641ce8d5deff66d38",
+        "parameters.json": "a0801183f6d00297e1a8df63d0df60712c37e955c93b2583aea0a9babfd9eb76",
+        "trajectory.json": "4d6d8051b1a342fdcee1b673b788f7fc7f66eea79f930a016039c5d73b4324d3",
+        "surface.json": "8831ee12c4043e781332f0efd8532065a6f688b93ca3ba3dd7b56f40364ef416"
+      },
+      "family": "stones",
+      "seed": 731,
+      "magnitude": 0.03,
+      "timestep_s": 0.00025,
+      "controller": {
+        "heading_kp": 0.3,
+        "heading_kd": 0.07,
+        "roll_kp": 3.0,
+        "ride_q": 0.7,
+        "initial_hip_rad": 0.41900000000000015,
+        "raise_interval_s": [
+          0.25,
+          1.0
+        ]
+      },
+      "passed": false,
+      "failed_checks": [
+        "completed",
+        "body_clear",
+        "route_completed",
+        "terrain_exposure",
+        "stable_finish"
+      ],
+      "displacement_m": 1.2217045744038249,
+      "stones_contacted": 4,
+      "first_body_contact_s": 5.549500000001037,
+      "preceding_pose": {
+        "time_s": 5.540250000001025,
+        "mean_wheel_Y_m": 0.02462026917771918,
+        "yaw_deg": 2.5152361486530723,
+        "hip_rad": [
+          0.7115787222280591,
+          0.6996942582830026
+        ]
+      },
+      "mesh_contact_evidence": [
+        {
+          "part": "left_drive_shin_case",
+          "sampled_contact_s": 5.620250000001123,
+          "nearest_mesh_gap_mm": -0.0018351230672009056,
+          "maximum_proxy_to_mesh_distance_mm": 0.00084139857011667,
+          "sampled_points": 2
+        }
+      ],
+      "settling": {
+        "speed": null,
+        "lean": null,
+        "roll": null,
+        "yaw": null,
+        "pitch_rate": null
+      },
+      "maximum_roll_deg": 6.821592562951831,
+      "peak_current_A": [
+        7.999999999999998,
+        7.995838032958255,
+        14.271691844389839,
+        13.799681787119617
+      ]
+    },
+    {
+      "directory": "raised-700-heading2-250us",
+      "artifact_sha256": {
+        "report.json": "cd96b225b5a31e43151b2e3cca9e85d9cd5d7577366d65342f2eb548744c494a",
+        "parameters.json": "a0801183f6d00297e1a8df63d0df60712c37e955c93b2583aea0a9babfd9eb76",
+        "trajectory.json": "542e8117b35fd17cef9c285471521cb7ed5a16448126b45b6ecb6bfa8497cf89",
+        "surface.json": "8831ee12c4043e781332f0efd8532065a6f688b93ca3ba3dd7b56f40364ef416"
+      },
+      "family": "stones",
+      "seed": 731,
+      "magnitude": 0.03,
+      "timestep_s": 0.00025,
+      "controller": {
+        "heading_kp": 0.6,
+        "heading_kd": 0.14,
+        "roll_kp": 3.0,
+        "ride_q": 0.7,
+        "initial_hip_rad": 0.41900000000000015,
+        "raise_interval_s": [
+          0.25,
+          1.0
+        ]
+      },
+      "passed": false,
+      "failed_checks": [
+        "completed",
+        "body_clear",
+        "route_completed",
+        "terrain_exposure",
+        "stable_finish"
+      ],
+      "displacement_m": 1.3075946554524172,
+      "stones_contacted": 4,
+      "first_body_contact_s": 5.125500000000518,
+      "preceding_pose": {
+        "time_s": 5.120250000000512,
+        "mean_wheel_Y_m": 0.02534215104078958,
+        "yaw_deg": 1.1976746718158755,
+        "hip_rad": [
+          0.7102269637936187,
+          0.6991962181692475
+        ]
+      },
+      "mesh_contact_evidence": [
+        {
+          "part": "left_drive_shin_case",
+          "sampled_contact_s": 5.220250000000634,
+          "nearest_mesh_gap_mm": -0.0006251652009230113,
+          "maximum_proxy_to_mesh_distance_mm": 0.0002872831079595308,
+          "sampled_points": 1
+        }
+      ],
+      "settling": {
+        "speed": null,
+        "lean": null,
+        "roll": null,
+        "yaw": null,
+        "pitch_rate": null
+      },
+      "maximum_roll_deg": 6.172396417650454,
+      "peak_current_A": [
+        7.999999999999998,
+        7.994459540943378,
+        12.99276749666163,
+        9.863276797585474
+      ]
+    },
+    {
+      "directory": "raised-950-125us",
+      "artifact_sha256": {
+        "report.json": "979bad0fa1db9f086e482618c768ebc7973b7699dcd2512b2bb7d0f45f383501",
+        "parameters.json": "704c789b9177578aabf124c13f04eab2704c40b857d9039a3da06dbe93a0511c",
+        "trajectory.json": "63b6679b0de2bda4b5706033db8739d1b5d4278affb73e4b3d084556d4f786ab",
+        "surface.json": "8831ee12c4043e781332f0efd8532065a6f688b93ca3ba3dd7b56f40364ef416"
+      },
+      "family": "stones",
+      "seed": 731,
+      "magnitude": 0.03,
+      "timestep_s": 0.000125,
+      "controller": {
+        "heading_kp": 0.3,
+        "heading_kd": 0.07,
+        "roll_kp": 3.0,
+        "ride_q": 0.95,
+        "initial_hip_rad": 0.41900000000000015,
+        "raise_interval_s": [
+          0.25,
+          1.0
+        ]
+      },
+      "passed": false,
+      "failed_checks": [
+        "completed",
+        "body_clear",
+        "route_completed",
+        "terrain_exposure",
+        "stable_finish"
+      ],
+      "displacement_m": 1.2114079697215678,
+      "stones_contacted": 4,
+      "first_body_contact_s": 5.3841249999987895,
+      "preceding_pose": {
+        "time_s": 5.380124999998799,
+        "mean_wheel_Y_m": 0.027599764189270064,
+        "yaw_deg": 3.8145882335750656,
+        "hip_rad": [
+          0.9657961752748467,
+          0.9493826023931727
+        ]
+      },
+      "mesh_contact_evidence": [
+        {
+          "part": "left_drive_shin_case",
+          "sampled_contact_s": 5.400124999998752,
+          "nearest_mesh_gap_mm": -0.007272861125215413,
+          "maximum_proxy_to_mesh_distance_mm": 0.003576370671033913,
+          "sampled_points": 1
+        }
+      ],
+      "settling": {
+        "speed": null,
+        "lean": null,
+        "roll": null,
+        "yaw": null,
+        "pitch_rate": null
+      },
+      "maximum_roll_deg": 6.900321462548983,
+      "peak_current_A": [
+        7.9999999999999964,
+        7.058480249338595,
+        20.876231751338363,
+        19.58137990291416
+      ]
+    },
+    {
+      "directory": "raised-950-250us",
+      "artifact_sha256": {
+        "report.json": "bf73344b823d00b6bc6f064d938630aca880ebc6889495b5c614ef66bc8dfc9c",
+        "parameters.json": "a0801183f6d00297e1a8df63d0df60712c37e955c93b2583aea0a9babfd9eb76",
+        "trajectory.json": "96aafd5b14912e3a5910a2698a71393ab118993eb2578d6a9cbcd026e4e78a86",
+        "surface.json": "8831ee12c4043e781332f0efd8532065a6f688b93ca3ba3dd7b56f40364ef416"
+      },
+      "family": "stones",
+      "seed": 731,
+      "magnitude": 0.03,
+      "timestep_s": 0.00025,
+      "controller": {
+        "heading_kp": 0.3,
+        "heading_kd": 0.07,
+        "roll_kp": 3.0,
+        "ride_q": 0.95,
+        "initial_hip_rad": 0.41900000000000015,
+        "raise_interval_s": [
+          0.25,
+          1.0
+        ]
+      },
+      "passed": false,
+      "failed_checks": [
+        "completed",
+        "body_clear",
+        "route_completed",
+        "terrain_exposure",
+        "stable_finish"
+      ],
+      "displacement_m": 1.2108600555774753,
+      "stones_contacted": 4,
+      "first_body_contact_s": 5.386000000000837,
+      "preceding_pose": {
+        "time_s": 5.38025000000083,
+        "mean_wheel_Y_m": 0.027472116479641588,
+        "yaw_deg": 3.7222033441932925,
+        "hip_rad": [
+          0.9647316427330432,
+          0.9491730684527985
+        ]
+      },
+      "mesh_contact_evidence": [
+        {
+          "part": "left_drive_shin_case",
+          "sampled_contact_s": 5.400250000000854,
+          "nearest_mesh_gap_mm": -0.0015830451276337143,
+          "maximum_proxy_to_mesh_distance_mm": 0.0007779347343957085,
+          "sampled_points": 1
+        }
+      ],
+      "settling": {
+        "speed": null,
+        "lean": null,
+        "roll": null,
+        "yaw": null,
+        "pitch_rate": null
+      },
+      "maximum_roll_deg": 6.897602172490367,
+      "peak_current_A": [
+        7.999999999999998,
+        7.016623422783347,
+        20.844615188291787,
+        19.260535051729143
+      ]
+    },
+    {
+      "directory": "raised-950-heading2-250us",
+      "artifact_sha256": {
+        "report.json": "0954b438ac198ab756cb49599db91eb96147cff8032fa28e540d6a40d532420d",
+        "parameters.json": "a0801183f6d00297e1a8df63d0df60712c37e955c93b2583aea0a9babfd9eb76",
+        "trajectory.json": "e2a099f5ab0f1dfa577128d4825601da3fb04ad5877745230a0f7a0eb698a917",
+        "surface.json": "8831ee12c4043e781332f0efd8532065a6f688b93ca3ba3dd7b56f40364ef416"
+      },
+      "family": "stones",
+      "seed": 731,
+      "magnitude": 0.03,
+      "timestep_s": 0.00025,
+      "controller": {
+        "heading_kp": 0.6,
+        "heading_kd": 0.14,
+        "roll_kp": 3.0,
+        "ride_q": 0.95,
+        "initial_hip_rad": 0.41900000000000015,
+        "raise_interval_s": [
+          0.25,
+          1.0
+        ]
+      },
+      "passed": false,
+      "failed_checks": [
+        "completed",
+        "body_clear",
+        "route_completed",
+        "terrain_exposure",
+        "stable_finish"
+      ],
+      "displacement_m": 1.0256271300943485,
+      "stones_contacted": 4,
+      "first_body_contact_s": 5.0380000000004115,
+      "preceding_pose": {
+        "time_s": 5.02025000000039,
+        "mean_wheel_Y_m": 0.026366557685338188,
+        "yaw_deg": 2.3259214034882896,
+        "hip_rad": [
+          0.960672856995056,
+          0.9515597179479447
+        ]
+      },
+      "mesh_contact_evidence": [
+        {
+          "part": "left_drive_shin_case",
+          "sampled_contact_s": 5.040250000000414,
+          "nearest_mesh_gap_mm": -0.08355750762546743,
+          "maximum_proxy_to_mesh_distance_mm": 0.0410322551627088,
+          "sampled_points": 2
+        }
+      ],
+      "settling": {
+        "speed": null,
+        "lean": null,
+        "roll": null,
+        "yaw": null,
+        "pitch_rate": null
+      },
+      "maximum_roll_deg": 6.838816641643055,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        19.527902018047804,
+        17.01627072175475
+      ]
+    }
+  ],
+  "passed": 2,
+  "total": 8,
+  "hardware_qualified": false
+}

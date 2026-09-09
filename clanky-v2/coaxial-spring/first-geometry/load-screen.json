@@ -1,0 +1,99 @@
+{
+  "status": "conditional_planar_piston_guide_screen",
+  "adopted": false,
+  "spring_and_conrod_plane_y_mm": 74.5,
+  "nominal_lateral_spring_offset_mm": 0,
+  "nominal_eccentric_axial_force_couple_Nmm": 0,
+  "nominal_eccentric_roll_couple_Nmm": 0,
+  "contact_band_x_from_pin_mm": [
+    -11.0,
+    1.0
+  ],
+  "assumed_vertical_normal_projection": 0.85,
+  "original_ideal_spring_pair_release_J": 2.0413844117355806,
+  "cases": [
+    {
+      "friction_coefficient": 0.0,
+      "maximum_friction_feedback_factor": 0.0,
+      "maximum_conrod_load_N": 113.97146865187861,
+      "maximum_total_guide_normal_N": 51.597746945269805,
+      "maximum_friction_force_N": 0.0,
+      "maximum_front_vertical_reaction_N": 40.20324449485605,
+      "maximum_rear_vertical_reaction_N": 3.6548404086232775,
+      "nominal_curved_stem_peak_stress_MPa": 23.744055969141375,
+      "nominal_knee_shoulder_peak_bending_MPa": 84.12463759444526,
+      "spring_bush_projected_pressure_MPa": 7.123216790742413,
+      "spring_pair_release_guide_loss_J": 0.0
+    },
+    {
+      "friction_coefficient": 0.1,
+      "maximum_friction_feedback_factor": 0.04904967234906253,
+      "maximum_conrod_load_N": 119.85007559060831,
+      "maximum_total_guide_normal_N": 54.25913998339736,
+      "maximum_friction_force_N": 5.425913998339737,
+      "maximum_front_vertical_reaction_N": 42.27691323706377,
+      "maximum_rear_vertical_reaction_N": 3.8433557488239796,
+      "nominal_curved_stem_peak_stress_MPa": 24.9687657480434,
+      "nominal_knee_shoulder_peak_bending_MPa": 88.46375583281215,
+      "spring_bush_projected_pressure_MPa": 7.4906297244130196,
+      "spring_pair_release_guide_loss_J": 0.019047671824966774
+    },
+    {
+      "friction_coefficient": 0.2,
+      "maximum_friction_feedback_factor": 0.09809934469812506,
+      "maximum_conrod_load_N": 126.36809606677937,
+      "maximum_total_guide_normal_N": 57.21001159268426,
+      "maximum_friction_force_N": 11.442002318536852,
+      "maximum_front_vertical_reaction_N": 44.57613403263315,
+      "maximum_rear_vertical_reaction_N": 4.052375821148468,
+      "nominal_curved_stem_peak_stress_MPa": 26.326686680579034,
+      "nominal_knee_shoulder_peak_bending_MPa": 93.27483808766932,
+      "spring_bush_projected_pressure_MPa": 7.898006004173711,
+      "spring_pair_release_guide_loss_J": 0.037569849154705966
+    },
+    {
+      "friction_coefficient": 0.3,
+      "maximum_friction_feedback_factor": 0.14714901704718758,
+      "maximum_conrod_load_N": 133.63585307397665,
+      "maximum_total_guide_normal_N": 60.50030776375932,
+      "maximum_friction_force_N": 18.150092329127794,
+      "maximum_front_vertical_reaction_N": 47.139823132595794,
+      "maximum_rear_vertical_reaction_N": 4.285438466599618,
+      "nominal_curved_stem_peak_stress_MPa": 27.840802723745135,
+      "nominal_knee_shoulder_peak_bending_MPa": 98.63931598364564,
+      "spring_bush_projected_pressure_MPa": 8.35224081712354,
+      "spring_pair_release_guide_loss_J": 0.05559356342646453
+    },
+    {
+      "friction_coefficient": 0.4,
+      "maximum_friction_feedback_factor": 0.19619868939625013,
+      "maximum_conrod_load_N": 141.79059818436045,
+      "maximum_total_guide_normal_N": 64.19216573124743,
+      "maximum_friction_force_N": 25.67686629249897,
+      "maximum_front_vertical_reaction_N": 50.01639579893028,
+      "maximum_rear_vertical_reaction_N": 4.546945072630026,
+      "nominal_curved_stem_peak_stress_MPa": 29.53970795507509,
+      "nominal_knee_shoulder_peak_bending_MPa": 104.65849767184095,
+      "spring_bush_projected_pressure_MPa": 8.861912386522528,
+      "spring_pair_release_guide_loss_J": 0.07314373020214002
+    }
+  ],
+  "strength_pass": null,
+  "guide_material_selected": false,
+  "dynamics_validated": false,
+  "hardware_release": false,
+  "source_sha256": {
+    "coaxial_load_screen.py": "52784accf7d6c05062194cd7aa4ed4b30e2a37d97daf537b2bc19e306ae16887",
+    "coaxial-spring/manifest.json": "dd348516b10ac12e0f4962f05077778814e0703d04c84761f9a14aeb6584d3fc",
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "spring_cartridge.py": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff",
+    "geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839"
+  },
+  "limitations": [
+    "Quasistatic planar force balance with proposed contact bands, not measured printed-guide behavior.",
+    "Zero nominal offset removes the previous systematic side couple; it does not prove zero torque under misalignment, clearances or inertia.",
+    "Coulomb friction is a sensitivity range, not selected material data. Binding, wear, edge pressure and thermal expansion need qualification.",
+    "Nominal link/pin/bush screens omit stress concentrations, clamp loads, fatigue and landing impacts. No strength pass is declared.",
+    "This spring energy is not a robot jump-height result."
+  ]
+}

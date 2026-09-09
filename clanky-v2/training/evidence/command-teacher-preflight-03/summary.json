@@ -1,0 +1,854 @@
+{
+  "task": "preflight",
+  "trial_cap": 8,
+  "jobs": [
+    {
+      "profile": "drive",
+      "seed": 88000,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "profile": "drive",
+      "seed": 88000,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "profile": "turn",
+      "seed": 88001,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "profile": "turn",
+      "seed": 88001,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "profile": "arc",
+      "seed": 88002,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "profile": "arc",
+      "seed": 88002,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "profile": "mixed",
+      "seed": 88003,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "profile": "mixed",
+      "seed": 88003,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.000125
+    }
+  ],
+  "duration_s": 17.0,
+  "source_sha256": {
+    "command_driving.py": "34d3a9ac92222b5414a8731ba8a891d09fa30ae02fc4ea43905e3e445ddb18cd",
+    "balance_dagger.py": "f2f0e5ce447cb04dcb60663a6d8ba1e07891ed98c1dde3fc5ac6ba8e1e03fe26",
+    "balance_teacher.py": "b6e2e919240228084437bf59ec49537d3a165f6d3ff47691f554d9bcf78e4e09",
+    "guided_balance.py": "84282cffce9fa6598b431726e03e168da5c40cddaef09dd6dbdfb900d20234bb",
+    "teacher_reference.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486",
+    "environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb",
+    "evaluate.py": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef"
+  },
+  "policy_sha256": null,
+  "plant_manifest_sha256": "e733063a55088781d85aaf4a3c2f3ce7b05fd2c696a2f44fad78ebcc39284d9d",
+  "runtime": {
+    "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "mujoco": "3.3.7",
+    "numpy": "2.4.6"
+  },
+  "status": "completed",
+  "cases": [
+    {
+      "profile": "drive",
+      "seed": 88000,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "teacher",
+      "targets": [
+        [
+          0.6,
+          0.0
+        ],
+        [
+          -0.6,
+          0.0
+        ],
+        [
+          0.35,
+          0.0
+        ]
+      ],
+      "steps": 1700,
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 2.48924999999998,
+      "peak_current_A": [
+        1.1206212102539603,
+        1.1088401844766325,
+        1.9523663930509438,
+        1.9742827292522387
+      ],
+      "minimum_branch_margin": 0.9668340057450212,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "no_fall_or_native_failure": true,
+        "final_two_seconds_standing": true,
+        "all_windows_measured": true,
+        "speed_tracking": true,
+        "yaw_tracking": true,
+        "roll_below_eight_degrees": true,
+        "no_sampled_body_contact": true
+      },
+      "tracking_windows": [
+        {
+          "end_s": 5.0,
+          "samples": 100,
+          "command_mean": [
+            0.600000000000001,
+            0.0
+          ],
+          "motion_mean": [
+            0.5848922239376089,
+            0.00014686929762433912
+          ],
+          "rmse": [
+            0.016223193318380857,
+            0.00014725240428901804
+          ]
+        },
+        {
+          "end_s": 9.0,
+          "samples": 100,
+          "command_mean": [
+            -0.600000000000001,
+            0.0
+          ],
+          "motion_mean": [
+            -0.5671818072967616,
+            -0.00017854043761342307
+          ],
+          "rmse": [
+            0.034851361873160645,
+            0.00017977903854403518
+          ]
+        },
+        {
+          "end_s": 13.0,
+          "samples": 100,
+          "command_mean": [
+            0.35000000000000064,
+            0.0
+          ],
+          "motion_mean": [
+            0.3239148203512427,
+            0.00011753527729228992
+          ],
+          "rmse": [
+            0.027678208590268826,
+            0.00011870629785657012
+          ]
+        }
+      ],
+      "recording": "drive-88000-250us.npz",
+      "sha256": "efe0ef2fb2f946b1c36352260d2f2b95be4fc328003ef4d9c54969ef7da2caa8"
+    },
+    {
+      "profile": "drive",
+      "seed": 88000,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "teacher",
+      "targets": [
+        [
+          0.6,
+          0.0
+        ],
+        [
+          -0.6,
+          0.0
+        ],
+        [
+          0.35,
+          0.0
+        ]
+      ],
+      "steps": 1700,
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 2.4895000000001697,
+      "peak_current_A": [
+        1.120670834704935,
+        1.1088900930941679,
+        1.9515502416415917,
+        1.9750657254119266
+      ],
+      "minimum_branch_margin": 0.9668339506744855,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "no_fall_or_native_failure": true,
+        "final_two_seconds_standing": true,
+        "all_windows_measured": true,
+        "speed_tracking": true,
+        "yaw_tracking": true,
+        "roll_below_eight_degrees": true,
+        "no_sampled_body_contact": true
+      },
+      "tracking_windows": [
+        {
+          "end_s": 5.0,
+          "samples": 100,
+          "command_mean": [
+            0.600000000000001,
+            0.0
+          ],
+          "motion_mean": [
+            0.5848937843718246,
+            0.0001468651347826956
+          ],
+          "rmse": [
+            0.01622153066379655,
+            0.00014724814565002467
+          ]
+        },
+        {
+          "end_s": 9.0,
+          "samples": 100,
+          "command_mean": [
+            -0.600000000000001,
+            0.0
+          ],
+          "motion_mean": [
+            -0.5671813350637811,
+            -0.00017853858220128556
+          ],
+          "rmse": [
+            0.03485181717677509,
+            0.0001797770985175702
+          ]
+        },
+        {
+          "end_s": 13.0,
+          "samples": 100,
+          "command_mean": [
+            0.35000000000000064,
+            0.0
+          ],
+          "motion_mean": [
+            0.32391463715962154,
+            0.00011753349524441576
+          ],
+          "rmse": [
+            0.027678369504449154,
+            0.00011870442770364162
+          ]
+        }
+      ],
+      "recording": "drive-88000-125us.npz",
+      "sha256": "54d1696ca38bfc2d7c8f8cf54f09e06e9e8305e511b7d4e34b87050a75c5b142"
+    },
+    {
+      "profile": "turn",
+      "seed": 88001,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "teacher",
+      "targets": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          0.6
+        ]
+      ],
+      "steps": 1700,
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 3.6739999999993236,
+      "peak_current_A": [
+        1.2830528054456367,
+        1.3163175436413002,
+        1.9564292394404916,
+        1.9810973098701994
+      ],
+      "minimum_branch_margin": 0.9670155972873383,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "no_fall_or_native_failure": true,
+        "final_two_seconds_standing": true,
+        "all_windows_measured": true,
+        "speed_tracking": true,
+        "yaw_tracking": true,
+        "roll_below_eight_degrees": true,
+        "no_sampled_body_contact": true
+      },
+      "tracking_windows": [
+        {
+          "end_s": 5.0,
+          "samples": 100,
+          "command_mean": [
+            0.0,
+            1.0
+          ],
+          "motion_mean": [
+            -0.004683788846428252,
+            0.9259629603152262
+          ],
+          "rmse": [
+            0.004988414878683713,
+            0.07647670497248298
+          ]
+        },
+        {
+          "end_s": 9.0,
+          "samples": 100,
+          "command_mean": [
+            0.0,
+            -1.0
+          ],
+          "motion_mean": [
+            -0.0047127772801861725,
+            -0.9308839652823715
+          ],
+          "rmse": [
+            0.0049429206738166665,
+            0.07247922077275068
+          ]
+        },
+        {
+          "end_s": 13.0,
+          "samples": 100,
+          "command_mean": [
+            0.0,
+            0.600000000000001
+          ],
+          "motion_mean": [
+            -0.0016580925815576524,
+            0.5262898228802141
+          ],
+          "rmse": [
+            0.0019267634416265701,
+            0.07472462243458042
+          ]
+        }
+      ],
+      "recording": "turn-88001-250us.npz",
+      "sha256": "936d0edcf4c1ad42daa654c5634c0bef92be40dfda60e513638cade9f3d01a03"
+    },
+    {
+      "profile": "turn",
+      "seed": 88001,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "teacher",
+      "targets": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          -1.0
+        ],
+        [
+          0.0,
+          0.6
+        ]
+      ],
+      "steps": 1700,
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 3.68450000000163,
+      "peak_current_A": [
+        1.2464523328468533,
+        1.250560185823913,
+        1.8684409053237958,
+        1.8920559957662069
+      ],
+      "minimum_branch_margin": 0.9670173880100725,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "no_fall_or_native_failure": true,
+        "final_two_seconds_standing": true,
+        "all_windows_measured": true,
+        "speed_tracking": true,
+        "yaw_tracking": true,
+        "roll_below_eight_degrees": true,
+        "no_sampled_body_contact": true
+      },
+      "tracking_windows": [
+        {
+          "end_s": 5.0,
+          "samples": 100,
+          "command_mean": [
+            0.0,
+            1.0
+          ],
+          "motion_mean": [
+            -0.00457014215564339,
+            0.8846775223037409
+          ],
+          "rmse": [
+            0.004644951648718601,
+            0.11632227837355866
+          ]
+        },
+        {
+          "end_s": 9.0,
+          "samples": 100,
+          "command_mean": [
+            0.0,
+            -1.0
+          ],
+          "motion_mean": [
+            -0.004782394779809288,
+            -0.9276307623704841
+          ],
+          "rmse": [
+            0.005151319685831728,
+            0.0760376822933872
+          ]
+        },
+        {
+          "end_s": 13.0,
+          "samples": 100,
+          "command_mean": [
+            0.0,
+            0.600000000000001
+          ],
+          "motion_mean": [
+            -0.0016403966345246359,
+            0.47955565625317254
+          ],
+          "rmse": [
+            0.0017477464893538312,
+            0.12325273084527
+          ]
+        }
+      ],
+      "recording": "turn-88001-125us.npz",
+      "sha256": "0aae31e690adb58974e98554d962c043367e5845250730ee4a9727c4f5fcbd10"
+    },
+    {
+      "profile": "arc",
+      "seed": 88002,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "teacher",
+      "targets": [
+        [
+          0.5,
+          0.8
+        ],
+        [
+          0.5,
+          -0.8
+        ],
+        [
+          -0.35,
+          0.6
+        ]
+      ],
+      "steps": 1700,
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 2.480749999999985,
+      "peak_current_A": [
+        1.5245834033440195,
+        1.8434345462025872,
+        2.0014782063274525,
+        2.0105199032225576
+      ],
+      "minimum_branch_margin": 0.9669136430998465,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "no_fall_or_native_failure": true,
+        "final_two_seconds_standing": true,
+        "all_windows_measured": true,
+        "speed_tracking": true,
+        "yaw_tracking": true,
+        "roll_below_eight_degrees": true,
+        "no_sampled_body_contact": true
+      },
+      "tracking_windows": [
+        {
+          "end_s": 5.0,
+          "samples": 100,
+          "command_mean": [
+            0.5,
+            0.7999999999999985
+          ],
+          "motion_mean": [
+            0.48459037512400777,
+            0.7449450237684426
+          ],
+          "rmse": [
+            0.016175632008296983,
+            0.05862269032718714
+          ]
+        },
+        {
+          "end_s": 9.0,
+          "samples": 100,
+          "command_mean": [
+            0.5,
+            -0.7999999999999985
+          ],
+          "motion_mean": [
+            0.4983667572630243,
+            -0.766096933673452
+          ],
+          "rmse": [
+            0.0016396355796271845,
+            0.03419614213849243
+          ]
+        },
+        {
+          "end_s": 13.0,
+          "samples": 100,
+          "command_mean": [
+            -0.35000000000000064,
+            0.600000000000001
+          ],
+          "motion_mean": [
+            -0.32852534171791364,
+            0.5310495814233743
+          ],
+          "rmse": [
+            0.02301042937489833,
+            0.0709077803310449
+          ]
+        }
+      ],
+      "recording": "arc-88002-250us.npz",
+      "sha256": "2cbd2f36552a11d1f767102d0acbf875a3e999ba6047f55b7f5056e2c270af92"
+    },
+    {
+      "profile": "arc",
+      "seed": 88002,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "teacher",
+      "targets": [
+        [
+          0.5,
+          0.8
+        ],
+        [
+          0.5,
+          -0.8
+        ],
+        [
+          -0.35,
+          0.6
+        ]
+      ],
+      "steps": 1700,
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 2.480750000000159,
+      "peak_current_A": [
+        1.4646366736220637,
+        1.6435734807172528,
+        1.9353018410196319,
+        1.9529642607702216
+      ],
+      "minimum_branch_margin": 0.9669371001229303,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "no_fall_or_native_failure": true,
+        "final_two_seconds_standing": true,
+        "all_windows_measured": true,
+        "speed_tracking": true,
+        "yaw_tracking": true,
+        "roll_below_eight_degrees": true,
+        "no_sampled_body_contact": true
+      },
+      "tracking_windows": [
+        {
+          "end_s": 5.0,
+          "samples": 100,
+          "command_mean": [
+            0.5,
+            0.7999999999999985
+          ],
+          "motion_mean": [
+            0.4845428076346404,
+            0.7495052444579368
+          ],
+          "rmse": [
+            0.01622233165238122,
+            0.05173346086435137
+          ]
+        },
+        {
+          "end_s": 9.0,
+          "samples": 100,
+          "command_mean": [
+            0.5,
+            -0.7999999999999985
+          ],
+          "motion_mean": [
+            0.498393869138769,
+            -0.7661631116868308
+          ],
+          "rmse": [
+            0.0016089592010713365,
+            0.03389301480081738
+          ]
+        },
+        {
+          "end_s": 13.0,
+          "samples": 100,
+          "command_mean": [
+            -0.35000000000000064,
+            0.600000000000001
+          ],
+          "motion_mean": [
+            -0.3285103612163956,
+            0.5342895374459323
+          ],
+          "rmse": [
+            0.0230393847498886,
+            0.06651221958764446
+          ]
+        }
+      ],
+      "recording": "arc-88002-125us.npz",
+      "sha256": "4ec4a2230bf5fcfc757224cbc218d159a558ad235b6502e2c4ac4dfad59cde97"
+    },
+    {
+      "profile": "mixed",
+      "seed": 88003,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "teacher",
+      "targets": [
+        [
+          0.6,
+          0.0
+        ],
+        [
+          0.35,
+          1.0
+        ],
+        [
+          -0.4,
+          -0.6
+        ]
+      ],
+      "steps": 1700,
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 2.3660000000000485,
+      "peak_current_A": [
+        1.1039529936635812,
+        1.663416405360812,
+        1.9319618187533707,
+        1.965951358851331
+      ],
+      "minimum_branch_margin": 0.9669074461989215,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "no_fall_or_native_failure": true,
+        "final_two_seconds_standing": true,
+        "all_windows_measured": true,
+        "speed_tracking": true,
+        "yaw_tracking": true,
+        "roll_below_eight_degrees": true,
+        "no_sampled_body_contact": true
+      },
+      "tracking_windows": [
+        {
+          "end_s": 5.0,
+          "samples": 100,
+          "command_mean": [
+            0.600000000000001,
+            0.0
+          ],
+          "motion_mean": [
+            0.5848922239376089,
+            0.00014686929762433912
+          ],
+          "rmse": [
+            0.016223193318380857,
+            0.00014725240428901804
+          ]
+        },
+        {
+          "end_s": 9.0,
+          "samples": 100,
+          "command_mean": [
+            0.35000000000000064,
+            1.0
+          ],
+          "motion_mean": [
+            0.3532241855185862,
+            0.9372621932242383
+          ],
+          "rmse": [
+            0.004351141155304943,
+            0.06696181139006001
+          ]
+        },
+        {
+          "end_s": 13.0,
+          "samples": 100,
+          "command_mean": [
+            -0.39999999999999925,
+            -0.600000000000001
+          ],
+          "motion_mean": [
+            -0.38166606447687024,
+            -0.5394025769373332
+          ],
+          "rmse": [
+            0.019765675809282717,
+            0.06203676380091586
+          ]
+        }
+      ],
+      "recording": "mixed-88003-250us.npz",
+      "sha256": "31b8ae46f4169f12a59810f57ce0bc3dae7549d6c5f2ffbd720e2d397dc4d6e0"
+    },
+    {
+      "profile": "mixed",
+      "seed": 88003,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "teacher",
+      "targets": [
+        [
+          0.6,
+          0.0
+        ],
+        [
+          0.35,
+          1.0
+        ],
+        [
+          -0.4,
+          -0.6
+        ]
+      ],
+      "steps": 1700,
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 2.3660000000000188,
+      "peak_current_A": [
+        1.1041677214486876,
+        1.6314068292548813,
+        1.897171794810173,
+        1.9190365377419007
+      ],
+      "minimum_branch_margin": 0.9669074582444587,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "no_fall_or_native_failure": true,
+        "final_two_seconds_standing": true,
+        "all_windows_measured": true,
+        "speed_tracking": true,
+        "yaw_tracking": true,
+        "roll_below_eight_degrees": true,
+        "no_sampled_body_contact": true
+      },
+      "tracking_windows": [
+        {
+          "end_s": 5.0,
+          "samples": 100,
+          "command_mean": [
+            0.600000000000001,
+            0.0
+          ],
+          "motion_mean": [
+            0.5848937843718246,
+            0.0001468651347826956
+          ],
+          "rmse": [
+            0.01622153066379655,
+            0.00014724814565002467
+          ]
+        },
+        {
+          "end_s": 9.0,
+          "samples": 100,
+          "command_mean": [
+            0.35000000000000064,
+            1.0
+          ],
+          "motion_mean": [
+            0.3532198655035332,
+            0.9420550566886193
+          ],
+          "rmse": [
+            0.004540688151579604,
+            0.05975360607714101
+          ]
+        },
+        {
+          "end_s": 13.0,
+          "samples": 100,
+          "command_mean": [
+            -0.39999999999999925,
+            -0.600000000000001
+          ],
+          "motion_mean": [
+            -0.3817400518655522,
+            -0.5421651764867412
+          ],
+          "rmse": [
+            0.019695247033746113,
+            0.0592112650705536
+          ]
+        }
+      ],
+      "recording": "mixed-88003-125us.npz",
+      "sha256": "69664a2b8984475ffa5d0110abc034afbf8e14f066f22859508293e959a3ad45"
+    }
+  ],
+  "passed": 8,
+  "plan_sha256": "6c5fcd7ea8d194c8689f3ce497194aabc1ce67d3c6f6a5a4a2c169d632c7222f",
+  "scope": "Full 17 s native command sequences, including a final four-second stop interval and the original continuous two-second standing gate. Teacher uses privileged state; a saved actor uses sensors and explicit speed/yaw commands only. Current/gear/linkage guards unchanged. Nominal flat ground, rigid tires, no hardware/sensor randomization or recovery claim."
+}

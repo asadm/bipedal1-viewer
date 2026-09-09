@@ -1,0 +1,24 @@
+{
+  "retrieved_utc": "2026-09-09T02:57:47.126777+00:00",
+  "files": [
+    {
+      "file": "RS05User-Manual260713.pdf",
+      "url": "https://raw.githubusercontent.com/RobStride/Product_Information/main/Product%20Literature/RS05/RS05User%20Manual260713.pdf",
+      "sha256": "1b2c61a6daa8331b9a348455005d10d6e425165c22e6f64c39cbca33f6360e82",
+      "bytes": 1964100
+    },
+    {
+      "file": "RS05.STEP",
+      "url": "https://raw.githubusercontent.com/RobStride/Product_Information/main/%E4%BA%A7%E5%93%81%E8%B5%84%E6%96%99/RS05/RS05.STEP",
+      "sha256": "35a143d7e04d84eeda8664591e33626a1802f614a5b76ac29f465620dec81792",
+      "bytes": 6809653
+    },
+    {
+      "file": "edulite05-product.png",
+      "url": "https://www.robstride.com/assets/eduLite05_parameters_img-8d5135e1.png",
+      "sha256": "8d5135e1669534ad4f1346dfe0d4412e3aebdde87968d3c84c5184140255e12b",
+      "bytes": 141171,
+      "description": "Official product photograph; not a dimension drawing"
+    }
+  ]
+}

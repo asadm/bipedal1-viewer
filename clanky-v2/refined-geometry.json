@@ -1,0 +1,777 @@
+{
+  "status": "geometry_and_force_screen_only",
+  "seed": 20260910,
+  "candidate_count": 12000,
+  "accepted_intervals": 165,
+  "source_sha256": "8c3ec0ef6293fe6fc12bc56e2556fc7d1b7f4136dbbbe7bdcff7d6b485e30478",
+  "parent_sha256": "331a82f27f7f9f89af8a44d540b7834d88ff0295814b24738903e85ddb6b7e79",
+  "working_screen_limits": {
+    "minimum_knee_lever_mm": 14,
+    "maximum_tie_force_N": 250,
+    "maximum_hip_torque_Nm": 4.5
+  },
+  "limits_status": "Engineering screening targets, not qualified component ratings.",
+  "top": [
+    {
+      "geometry": {
+        "upper_mm": 104.22865652867111,
+        "lower_mm": 112.83223894272054,
+        "tie_mm": 98.19735182313784,
+        "lever_mm": 14.501172785944334,
+        "ground_mm": [
+          11.61266289945004,
+          14.059250383875316
+        ],
+        "phase_rad": 2.7276054711798614
+      },
+      "continuous_branch_sample_range_rad": [
+        -2.8,
+        1.08
+      ],
+      "stance_stroke_mm": 153.07025300457195,
+      "stance_hip_rad": [
+        -0.3799999999999999,
+        1.0300000000000002
+      ],
+      "stance_height_mm": [
+        40.7317997376673,
+        193.80205274223925
+      ],
+      "wheel_x_alignment_mm": 15,
+      "stance_max_x_error_mm": 8.491699369610991,
+      "knee_range_rad": [
+        0.5940575319222816,
+        2.94842004786444
+      ],
+      "spring_compression_max_mm": 18.46584040349036,
+      "fold": {
+        "hip_rad": -0.49999999999999956,
+        "envelope_xz_mm": [
+          183.46925141882292,
+          153.76178859817202
+        ],
+        "wheel_mm": [
+          13.71242490143598,
+          -31.79190880392143
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 88.0079029253756,
+        "back_mm": 165.1493902276648,
+        "above_mm": 173.52338516990227
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false,
+      "preliminary_loads": {
+        "assumed_mass_kg": 2.2,
+        "assumed_COM_flight_m": 0.25,
+        "assumed_per_wheel_force_N": 28.415260410149212,
+        "maximum_hip_torque_Nm": 3.729814526372353,
+        "maximum_tie_force_N": 208.77425044738922,
+        "minimum_transmission_sine": 0.40062692948122935,
+        "spring_pair_energy_available_J": 1.5466429303780447,
+        "scope": "Force-only preliminary screen; omits link inertia/gravity, torque-speed, pitch and actual impact dynamics"
+      }
+    },
+    {
+      "geometry": {
+        "upper_mm": 87.72761092355552,
+        "lower_mm": 100.24334820614104,
+        "tie_mm": 80.14226417409168,
+        "lever_mm": 18.053990862358127,
+        "ground_mm": [
+          21.988967544275386,
+          12.518197718732946
+        ],
+        "phase_rad": 3.3727049471711608
+      },
+      "continuous_branch_sample_range_rad": [
+        -2.1799999999999997,
+        1.3399999999999999
+      ],
+      "stance_stroke_mm": 145.17275261868656,
+      "stance_hip_rad": [
+        -0.44999999999999973,
+        1.33
+      ],
+      "stance_height_mm": [
+        40.2596275816703,
+        185.43238020035687
+      ],
+      "wheel_x_alignment_mm": 15,
+      "stance_max_x_error_mm": 9.948216280770474,
+      "knee_range_rad": [
+        0.16624680016014004,
+        2.6981441258195087
+      ],
+      "spring_compression_max_mm": 16.28754143685787,
+      "fold": {
+        "hip_rad": -0.5099999999999998,
+        "envelope_xz_mm": [
+          168.5637906024165,
+          154.1713685087526
+        ],
+        "wheel_mm": [
+          18.900473375593762,
+          -39.171368508752614
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 124.21154888093464,
+        "back_mm": 93.16460289696059,
+        "above_mm": 180.85517921924412
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false,
+      "preliminary_loads": {
+        "assumed_mass_kg": 2.2,
+        "assumed_COM_flight_m": 0.25,
+        "assumed_per_wheel_force_N": 29.374032637577393,
+        "maximum_hip_torque_Nm": 2.7871216021835252,
+        "maximum_tie_force_N": 229.18484192252976,
+        "minimum_transmission_sine": 0.18881776221323543,
+        "spring_pair_energy_available_J": 1.4488442902238583,
+        "scope": "Force-only preliminary screen; omits link inertia/gravity, torque-speed, pitch and actual impact dynamics"
+      }
+    },
+    {
+      "geometry": {
+        "upper_mm": 99.24708822818384,
+        "lower_mm": 109.04881572542457,
+        "tie_mm": 89.51009650525998,
+        "lever_mm": 22.693871929978954,
+        "ground_mm": [
+          24.928224697315045,
+          18.3760402835025
+        ],
+        "phase_rad": 3.094167515373226
+      },
+      "continuous_branch_sample_range_rad": [
+        -2.42,
+        1.2200000000000006
+      ],
+      "stance_stroke_mm": 140.58876374775204,
+      "stance_hip_rad": [
+        -0.3999999999999999,
+        1.0000000000000004
+      ],
+      "stance_height_mm": [
+        40.53623111034963,
+        181.12499485810167
+      ],
+      "wheel_x_alignment_mm": 15,
+      "stance_max_x_error_mm": 9.993943655858232,
+      "knee_range_rad": [
+        0.16053325195383916,
+        2.7897299415083268
+      ],
+      "spring_compression_max_mm": 17.263548974219397,
+      "fold": {
+        "hip_rad": -0.44999999999999973,
+        "envelope_xz_mm": [
+          181.36675301200862,
+          152.69662937729277
+        ],
+        "wheel_mm": [
+          16.020326935058833,
+          -37.5275666371364
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 122.68268851663983,
+        "back_mm": 143.81195087918286,
+        "above_mm": 193.43116410009566
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false,
+      "preliminary_loads": {
+        "assumed_mass_kg": 2.2,
+        "assumed_COM_flight_m": 0.25,
+        "assumed_per_wheel_force_N": 29.97994460755323,
+        "maximum_hip_torque_Nm": 3.1904105371494142,
+        "maximum_tie_force_N": 131.64893018054454,
+        "minimum_transmission_sine": 0.4152051482953846,
+        "spring_pair_energy_available_J": 1.5222821365764816,
+        "scope": "Force-only preliminary screen; omits link inertia/gravity, torque-speed, pitch and actual impact dynamics"
+      }
+    },
+    {
+      "geometry": {
+        "upper_mm": 95.76405166791442,
+        "lower_mm": 113.07218427549691,
+        "tie_mm": 89.72100164002448,
+        "lever_mm": 15.846915261305499,
+        "ground_mm": [
+          15.78090761346643,
+          13.29529856536128
+        ],
+        "phase_rad": 3.0939180399823534
+      },
+      "continuous_branch_sample_range_rad": [
+        -2.6199999999999997,
+        1.2600000000000007
+      ],
+      "stance_stroke_mm": 135.10951204423571,
+      "stance_hip_rad": [
+        -0.6099999999999999,
+        0.9100000000000001
+      ],
+      "stance_height_mm": [
+        40.045265921676624,
+        175.15477796591233
+      ],
+      "wheel_x_alignment_mm": 15,
+      "stance_max_x_error_mm": 9.847743371862045,
+      "knee_range_rad": [
+        0.17964805485999502,
+        2.7574793410391853
+      ],
+      "spring_compression_max_mm": 16.94195910224913,
+      "fold": {
+        "hip_rad": -0.46999999999999975,
+        "envelope_xz_mm": [
+          177.3801916162115,
+          161.1993779674919
+        ],
+        "wheel_mm": [
+          15.890697251635416,
+          -45.82915233476098
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 114.52683106287361,
+        "back_mm": 169.4219249008787,
+        "above_mm": 186.90620099717813
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false,
+      "preliminary_loads": {
+        "assumed_mass_kg": 2.2,
+        "assumed_COM_flight_m": 0.25,
+        "assumed_per_wheel_force_N": 30.758135986078763,
+        "maximum_hip_torque_Nm": 3.1044434935606198,
+        "maximum_tie_force_N": 164.5923766295497,
+        "minimum_transmission_sine": 0.3710848757494593,
+        "spring_pair_energy_available_J": 1.5749076890044416,
+        "scope": "Force-only preliminary screen; omits link inertia/gravity, torque-speed, pitch and actual impact dynamics"
+      }
+    },
+    {
+      "geometry": {
+        "upper_mm": 86.2467393540042,
+        "lower_mm": 98.06301382639737,
+        "tie_mm": 76.77035568222519,
+        "lever_mm": 17.598815533074063,
+        "ground_mm": [
+          22.835146649338792,
+          13.924973262906004
+        ],
+        "phase_rad": 3.259068333983871
+      },
+      "continuous_branch_sample_range_rad": [
+        -2.1399999999999997,
+        1.1800000000000002
+      ],
+      "stance_stroke_mm": 133.6019541480909,
+      "stance_hip_rad": [
+        -0.33999999999999986,
+        1.1
+      ],
+      "stance_height_mm": [
+        40.15413643638563,
+        173.75609058447654
+      ],
+      "wheel_x_alignment_mm": 15,
+      "stance_max_x_error_mm": 9.014071355462256,
+      "knee_range_rad": [
+        0.16671438432228047,
+        2.811630927941766
+      ],
+      "spring_compression_max_mm": 17.46767078651824,
+      "fold": {
+        "hip_rad": -0.5199999999999996,
+        "envelope_xz_mm": [
+          166.84657459606404,
+          145.84106500230712
+        ],
+        "wheel_mm": [
+          10.152300695520296,
+          -30.841065002307104
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 119.21262953814225,
+        "back_mm": 84.89592297924328,
+        "above_mm": 177.40614208188515
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false,
+      "preliminary_loads": {
+        "assumed_mass_kg": 2.2,
+        "assumed_COM_flight_m": 0.25,
+        "assumed_per_wheel_force_N": 30.983444168965402,
+        "maximum_hip_torque_Nm": 3.059870476714894,
+        "maximum_tie_force_N": 201.50652795485985,
+        "minimum_transmission_sine": 0.3156260423535157,
+        "spring_pair_energy_available_J": 1.4677473449891196,
+        "scope": "Force-only preliminary screen; omits link inertia/gravity, torque-speed, pitch and actual impact dynamics"
+      }
+    },
+    {
+      "geometry": {
+        "upper_mm": 88.34412807399504,
+        "lower_mm": 100.1431366535603,
+        "tie_mm": 79.17431292980451,
+        "lever_mm": 22.192772958884788,
+        "ground_mm": [
+          14.15032855720115,
+          22.39328669237199
+        ],
+        "phase_rad": 2.6463071947980175
+      },
+      "continuous_branch_sample_range_rad": [
+        -2.8,
+        0.9400000000000004
+      ],
+      "stance_stroke_mm": 125.08201146166633,
+      "stance_hip_rad": [
+        -0.4299999999999997,
+        0.9200000000000004
+      ],
+      "stance_height_mm": [
+        40.522914362899,
+        165.60492582456533
+      ],
+      "wheel_x_alignment_mm": 15,
+      "stance_max_x_error_mm": 7.8108890420236925,
+      "knee_range_rad": [
+        0.7479314625856546,
+        2.886310063486164
+      ],
+      "spring_compression_max_mm": 18.073309884005667,
+      "fold": {
+        "hip_rad": -0.5099999999999998,
+        "envelope_xz_mm": [
+          169.101852559332,
+          150.7035141694879
+        ],
+        "wheel_mm": [
+          15.179282553017913,
+          -35.57592094805406
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 80.62818892093684,
+        "back_mm": 129.59679472208848,
+        "above_mm": 151.52134514135872
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false,
+      "preliminary_loads": {
+        "assumed_mass_kg": 2.2,
+        "assumed_COM_flight_m": 0.25,
+        "assumed_per_wheel_force_N": 32.358849513091464,
+        "maximum_hip_torque_Nm": 4.36204316784366,
+        "maximum_tie_force_N": 162.7175100846062,
+        "minimum_transmission_sine": 0.27518432855453706,
+        "spring_pair_energy_available_J": 1.43975751433148,
+        "scope": "Force-only preliminary screen; omits link inertia/gravity, torque-speed, pitch and actual impact dynamics"
+      }
+    },
+    {
+      "geometry": {
+        "upper_mm": 88.68665614748441,
+        "lower_mm": 99.45659870269688,
+        "tie_mm": 77.25744013705705,
+        "lever_mm": 18.095999416403846,
+        "ground_mm": [
+          22.890201951561856,
+          14.38965819777872
+        ],
+        "phase_rad": 3.1201127516196747
+      },
+      "continuous_branch_sample_range_rad": [
+        -2.15,
+        1.1
+      ],
+      "stance_stroke_mm": 124.98752647837439,
+      "stance_hip_rad": [
+        -0.3799999999999999,
+        1.0300000000000002
+      ],
+      "stance_height_mm": [
+        48.21089947478809,
+        173.19842595316248
+      ],
+      "wheel_x_alignment_mm": 15,
+      "stance_max_x_error_mm": 9.798583965328923,
+      "knee_range_rad": [
+        0.17390480406043096,
+        2.5829245545006705
+      ],
+      "spring_compression_max_mm": 14.803463550630113,
+      "fold": {
+        "hip_rad": -0.49999999999999956,
+        "envelope_xz_mm": [
+          169.82986290739996,
+          159.30074499954287
+        ],
+        "wheel_mm": [
+          29.311742130608494,
+          -44.300744999542886
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 119.9714228962241,
+        "back_mm": 87.75840491617913,
+        "above_mm": 180.24091249478965
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false,
+      "preliminary_loads": {
+        "assumed_mass_kg": 2.2,
+        "assumed_COM_flight_m": 0.25,
+        "assumed_per_wheel_force_N": 32.375153843277886,
+        "maximum_hip_torque_Nm": 3.194499327391958,
+        "maximum_tie_force_N": 105.77258844304905,
+        "minimum_transmission_sine": 0.502756877632067,
+        "spring_pair_energy_available_J": 1.1711681833111673,
+        "scope": "Force-only preliminary screen; omits link inertia/gravity, torque-speed, pitch and actual impact dynamics"
+      }
+    },
+    {
+      "geometry": {
+        "upper_mm": 97.77058878756935,
+        "lower_mm": 113.79987558232507,
+        "tie_mm": 93.91243859026042,
+        "lever_mm": 15.802774659761294,
+        "ground_mm": [
+          14.37983638717148,
+          12.095573232001893
+        ],
+        "phase_rad": 3.1738485766906113
+      },
+      "continuous_branch_sample_range_rad": [
+        -2.8,
+        1.4700000000000006
+      ],
+      "stance_stroke_mm": 120.41285841335039,
+      "stance_hip_rad": [
+        -0.6099999999999999,
+        0.7600000000000002
+      ],
+      "stance_height_mm": [
+        40.047777256742926,
+        160.46063567009332
+      ],
+      "wheel_x_alignment_mm": 15,
+      "stance_max_x_error_mm": 9.819906040486345,
+      "knee_range_rad": [
+        0.18554293463908555,
+        2.7503729540811825
+      ],
+      "spring_compression_max_mm": 16.8678040673314,
+      "fold": {
+        "hip_rad": -0.45999999999999996,
+        "envelope_xz_mm": [
+          179.60758026764262,
+          162.60301519942104
+        ],
+        "wheel_mm": [
+          18.748990975339055,
+          -47.19794739027535
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 114.03766427969644,
+        "back_mm": 190.47335581379042,
+        "above_mm": 186.27170143581242
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false,
+      "preliminary_loads": {
+        "assumed_mass_kg": 2.2,
+        "assumed_COM_flight_m": 0.25,
+        "assumed_per_wheel_force_N": 33.19516875363285,
+        "maximum_hip_torque_Nm": 3.1974800516057282,
+        "maximum_tie_force_N": 214.51191778035195,
+        "minimum_transmission_sine": 0.31528782519989174,
+        "spring_pair_energy_available_J": 1.5577389765428473,
+        "scope": "Force-only preliminary screen; omits link inertia/gravity, torque-speed, pitch and actual impact dynamics"
+      }
+    },
+    {
+      "geometry": {
+        "upper_mm": 85.95548636468057,
+        "lower_mm": 101.57522584082288,
+        "tie_mm": 77.59730677612747,
+        "lever_mm": 20.822736184081087,
+        "ground_mm": [
+          23.77969256662759,
+          14.976028346810638
+        ],
+        "phase_rad": 3.2860993857178125
+      },
+      "continuous_branch_sample_range_rad": [
+        -2.26,
+        1.3100000000000005
+      ],
+      "stance_stroke_mm": 118.74338491623413,
+      "stance_hip_rad": [
+        -0.5599999999999996,
+        0.9700000000000002
+      ],
+      "stance_height_mm": [
+        43.9153590193169,
+        162.65874393555103
+      ],
+      "wheel_x_alignment_mm": 15,
+      "stance_max_x_error_mm": 9.981103757580847,
+      "knee_range_rad": [
+        0.1624396018770211,
+        2.637337805142069
+      ],
+      "spring_compression_max_mm": 15.537543679122713,
+      "fold": {
+        "hip_rad": -0.5199999999999996,
+        "envelope_xz_mm": [
+          166.59381966579053,
+          159.19840007188822
+        ],
+        "wheel_mm": [
+          22.015016309279538,
+          -44.198400071888216
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 123.2316219398191,
+        "back_mm": 105.72685372547977,
+        "above_mm": 179.34163409559
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false,
+      "preliminary_loads": {
+        "assumed_mass_kg": 2.2,
+        "assumed_COM_flight_m": 0.25,
+        "assumed_per_wheel_force_N": 33.51016032967303,
+        "maximum_hip_torque_Nm": 3.0510746435868055,
+        "maximum_tie_force_N": 133.040177372367,
+        "minimum_transmission_sine": 0.27393811398043333,
+        "spring_pair_energy_available_J": 1.3278247374813015,
+        "scope": "Force-only preliminary screen; omits link inertia/gravity, torque-speed, pitch and actual impact dynamics"
+      }
+    },
+    {
+      "geometry": {
+        "upper_mm": 88.29179622716853,
+        "lower_mm": 96.57312203847667,
+        "tie_mm": 79.57994192445196,
+        "lever_mm": 20.79445123809715,
+        "ground_mm": [
+          23.518765060216463,
+          15.586658259180663
+        ],
+        "phase_rad": 3.189697134330322
+      },
+      "continuous_branch_sample_range_rad": [
+        -2.3299999999999996,
+        1.2700000000000005
+      ],
+      "stance_stroke_mm": 118.22044280160387,
+      "stance_hip_rad": [
+        -0.3899999999999997,
+        0.9700000000000002
+      ],
+      "stance_height_mm": [
+        40.11872196910317,
+        158.33916477070704
+      ],
+      "wheel_x_alignment_mm": 15,
+      "stance_max_x_error_mm": 9.973656585813714,
+      "knee_range_rad": [
+        0.15972996621856073,
+        2.7003666516747025
+      ],
+      "spring_compression_max_mm": 16.31346972218853,
+      "fold": {
+        "hip_rad": -0.5099999999999998,
+        "envelope_xz_mm": [
+          169.0561802274392,
+          150.62288635692656
+        ],
+        "wheel_mm": [
+          20.97757788069451,
+          -35.52084035240076
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 114.87875468123532,
+        "back_mm": 115.2624606152217,
+        "above_mm": 174.58045857912583
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false,
+      "preliminary_loads": {
+        "assumed_mass_kg": 2.2,
+        "assumed_COM_flight_m": 0.25,
+        "assumed_per_wheel_force_N": 33.610657379623696,
+        "maximum_hip_torque_Nm": 3.1274710825034444,
+        "maximum_tie_force_N": 128.28572258590157,
+        "minimum_transmission_sine": 0.37994966838469685,
+        "spring_pair_energy_available_J": 1.3854524116175224,
+        "scope": "Force-only preliminary screen; omits link inertia/gravity, torque-speed, pitch and actual impact dynamics"
+      }
+    },
+    {
+      "geometry": {
+        "upper_mm": 96.2699455709914,
+        "lower_mm": 111.34580820838428,
+        "tie_mm": 91.06500905671076,
+        "lever_mm": 16.842151202137305,
+        "ground_mm": [
+          15.892269050144298,
+          13.006709776385708
+        ],
+        "phase_rad": 3.130062617373619
+      },
+      "continuous_branch_sample_range_rad": [
+        -2.71,
+        1.3900000000000006
+      ],
+      "stance_stroke_mm": 117.59358743800792,
+      "stance_hip_rad": [
+        -0.6199999999999997,
+        0.7800000000000002
+      ],
+      "stance_height_mm": [
+        41.74448315790366,
+        159.33807059591157
+      ],
+      "wheel_x_alignment_mm": 15,
+      "stance_max_x_error_mm": 9.90702938781368,
+      "knee_range_rad": [
+        0.1622499457296822,
+        2.691440979830819
+      ],
+      "spring_compression_max_mm": 16.208692315011547,
+      "fold": {
+        "hip_rad": -0.45999999999999996,
+        "envelope_xz_mm": [
+          178.2629251655332,
+          163.05002709583098
+        ],
+        "wheel_mm": [
+          21.801564891134504,
+          -48.050027095830984
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 114.38747967885774,
+        "back_mm": 179.7250915785133,
+        "above_mm": 184.943433032923
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false,
+      "preliminary_loads": {
+        "assumed_mass_kg": 2.2,
+        "assumed_COM_flight_m": 0.25,
+        "assumed_per_wheel_force_N": 33.73230197722032,
+        "maximum_hip_torque_Nm": 3.22941124864533,
+        "maximum_tie_force_N": 142.62942083676245,
+        "minimum_transmission_sine": 0.3839686889383556,
+        "spring_pair_energy_available_J": 1.4449693860949282,
+        "scope": "Force-only preliminary screen; omits link inertia/gravity, torque-speed, pitch and actual impact dynamics"
+      }
+    },
+    {
+      "geometry": {
+        "upper_mm": 88.91949920434375,
+        "lower_mm": 107.28894217587471,
+        "tie_mm": 82.70857327021915,
+        "lever_mm": 19.753774514192262,
+        "ground_mm": [
+          19.695121071123342,
+          15.151074279115397
+        ],
+        "phase_rad": 3.222604707991738
+      },
+      "continuous_branch_sample_range_rad": [
+        -2.55,
+        1.3600000000000003
+      ],
+      "stance_stroke_mm": 116.48476746086926,
+      "stance_hip_rad": [
+        -0.6599999999999997,
+        0.8400000000000003
+      ],
+      "stance_height_mm": [
+        42.43867472769951,
+        158.92344218856877
+      ],
+      "wheel_x_alignment_mm": 15,
+      "stance_max_x_error_mm": 9.647182411576686,
+      "knee_range_rad": [
+        0.1676629814551167,
+        2.687751580154832
+      ],
+      "spring_compression_max_mm": 16.16488001890457,
+      "fold": {
+        "hip_rad": -0.5099999999999998,
+        "envelope_xz_mm": [
+          169.60400455320178,
+          161.05770997691275
+        ],
+        "wheel_mm": [
+          17.773900033100176,
+          -45.64923366112935
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 118.43512569140155,
+        "back_mm": 151.62983069275822,
+        "above_mm": 181.15445459428753
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false,
+      "preliminary_loads": {
+        "assumed_mass_kg": 2.2,
+        "assumed_COM_flight_m": 0.25,
+        "assumed_per_wheel_force_N": 33.95068052137166,
+        "maximum_hip_torque_Nm": 3.103463478360859,
+        "maximum_tie_force_N": 144.44806139990962,
+        "minimum_transmission_sine": 0.2913644667025197,
+        "spring_pair_energy_available_J": 1.4371684031406937,
+        "scope": "Force-only preliminary screen; omits link inertia/gravity, torque-speed, pitch and actual impact dynamics"
+      }
+    }
+  ],
+  "limitations": [
+    "Nominal 2.2 kg mass allowance, not CAD mass. Force screen is not a jump simulation.",
+    "Compactness covers XZ allocations only; lateral package and interference are untested.",
+    "No recovery, one-wheel balance, speed, terrain, strength or motor qualification."
+  ]
+}

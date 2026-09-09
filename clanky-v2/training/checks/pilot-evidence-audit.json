@@ -1,0 +1,186 @@
+{
+  "status": "passed",
+  "scope": "Archived identities, finite states, current ceilings, sampled forward kinematics and final-window gates; not a rerun of all dynamics",
+  "run": "design/clanky-v2/training/evidence/recovery-pilot-01",
+  "source_sha256": "31d2643b0f4836b3e36ad809fe04e6b09036476a1b7dd630f89532747cac6112",
+  "manifest_sha256": "108c492ae337b849bf9377a195e9e3ed167ccaed6921bb315afc036d8d56b4d1",
+  "summary_sha256": "1a5e9cfb6352d0c27509e72b5ce80521e39ad2f7635768cd6fb779697eb4bec9",
+  "recordings": [
+    {
+      "recording": "standing-250us.json",
+      "sha256": "6299595ccccdbbe76badda24cd088c4ae318f62875bb6bc417a5ca2fad25394c",
+      "sampled_closure_m": 4.313870419579337e-06,
+      "sampled_gear_error_rad": 5.748270242023068e-08,
+      "sampled_branch_margin": 0.38848318990462916,
+      "max_com_error_m": 1.1102230246251565e-16
+    },
+    {
+      "recording": "standing-125us.json",
+      "sha256": "bd47827081e384943b15c3ce5328ad3a98370839210414b4e29a9922a985647d",
+      "sampled_closure_m": 4.312744773663991e-06,
+      "sampled_gear_error_rad": 1.3209420558268902e-06,
+      "sampled_branch_margin": 0.35637996465266053,
+      "max_com_error_m": 1.1102230246251565e-16
+    },
+    {
+      "recording": "near-250us.json",
+      "sha256": "ec069ef17806f092b0db4c88cbc07abf1e46bba2dfe84a1ed7fbf5dc221b1c26",
+      "sampled_closure_m": 3.911849790055866e-06,
+      "sampled_gear_error_rad": 4.727637588075595e-08,
+      "sampled_branch_margin": 0.3773622714663893,
+      "max_com_error_m": 1.1102230246251565e-16
+    },
+    {
+      "recording": "near-125us.json",
+      "sha256": "08e65a1dcac99cb55e30f6ec4feef17547d988d97fda5e233eb39ae64f41f7e4",
+      "sampled_closure_m": 4.312063632020582e-06,
+      "sampled_gear_error_rad": 1.650086655757832e-07,
+      "sampled_branch_margin": 0.44258254960977417,
+      "max_com_error_m": 1.1102230246251565e-16
+    },
+    {
+      "recording": "front-250us.json",
+      "sha256": "2e108bd87b47b9eae709ccb68c63253c2c4bf3fc757ce3fff8302be8b4b632a1",
+      "sampled_closure_m": 5.309086296013179e-06,
+      "sampled_gear_error_rad": 9.506684278681732e-08,
+      "sampled_branch_margin": 0.4234560196571496,
+      "max_com_error_m": 1.1102230246251565e-16
+    },
+    {
+      "recording": "front-125us.json",
+      "sha256": "e243610e249776bfb46f0eb2c4561140255a8768f212b9e2220fc76ff138461c",
+      "sampled_closure_m": 7.965186401388632e-06,
+      "sampled_gear_error_rad": 1.3937756893067643e-07,
+      "sampled_branch_margin": 0.5189374277313478,
+      "max_com_error_m": 1.1102230246251565e-16
+    },
+    {
+      "recording": "back-250us.json",
+      "sha256": "f661b9ee8a0be4c187486d45153d793bace75228cbf3aec9fe02caf2c1384946",
+      "sampled_closure_m": 4.635456009054956e-06,
+      "sampled_gear_error_rad": 2.3277525212916927e-08,
+      "sampled_branch_margin": 0.9255723143425387,
+      "max_com_error_m": 5.898059818321144e-17
+    },
+    {
+      "recording": "back-125us.json",
+      "sha256": "093003c467febb2d79c5a35b10ced5f1a6b054e7644dbee198c047ddcf02fe13",
+      "sampled_closure_m": 4.644112766855487e-06,
+      "sampled_gear_error_rad": 2.3566553500331544e-08,
+      "sampled_branch_margin": 0.9246737964061513,
+      "max_com_error_m": 2.7755575615628914e-17
+    },
+    {
+      "recording": "left-250us.json",
+      "sha256": "20cdcfea284fa4bcef3923e1bc081ea006b3b92ddcabd8099e367a023e013671",
+      "sampled_closure_m": 2.7707972133364247e-06,
+      "sampled_gear_error_rad": 3.5514019183779943e-08,
+      "sampled_branch_margin": 0.7616043391747462,
+      "max_com_error_m": 5.551115123125783e-17
+    },
+    {
+      "recording": "left-125us.json",
+      "sha256": "ea0ba21fda3a8b497ca2476626a0d21a346d0fe4f2b60fac28749b0014533179",
+      "sampled_closure_m": 8.440623729764181e-06,
+      "sampled_gear_error_rad": 4.3776608151802063e-07,
+      "sampled_branch_margin": 0.756687369976253,
+      "max_com_error_m": 9.71445146547012e-17
+    },
+    {
+      "recording": "right-250us.json",
+      "sha256": "3cee2bc1da484a67e0569e29be79c1da8deb2b49893d486470c5f6982a24f753",
+      "sampled_closure_m": 3.4504309574040004e-06,
+      "sampled_gear_error_rad": 2.498709306131275e-08,
+      "sampled_branch_margin": 0.7580103012636321,
+      "max_com_error_m": 2.7755575615628914e-17
+    },
+    {
+      "recording": "right-125us.json",
+      "sha256": "626ba3dca6b2ab15808c00a65a1beeaaf3e9193f1067a5f7bbac7686fc6a9e31",
+      "sampled_closure_m": 3.5457109800724508e-06,
+      "sampled_gear_error_rad": 4.69308418793446e-08,
+      "sampled_branch_margin": 0.8123284553306885,
+      "max_com_error_m": 2.7755575615628914e-17
+    },
+    {
+      "recording": "inverted-250us.json",
+      "sha256": "a56d35f3083c74e8b5a09fdddbb0ad3cb1e67afbe2a8e35a5902d2d5674c7b2c",
+      "sampled_closure_m": 2.12876629426507e-06,
+      "sampled_gear_error_rad": 2.1011248158009366e-08,
+      "sampled_branch_margin": 0.8295579319073567,
+      "max_com_error_m": 3.0682921481339775e-17
+    },
+    {
+      "recording": "inverted-125us.json",
+      "sha256": "855613bf191113265d3cfb3fb378402fd00815b14a87f10cabd8022716f6f7bb",
+      "sampled_closure_m": 2.1320955546554685e-06,
+      "sampled_gear_error_rad": 2.1093386814996506e-08,
+      "sampled_branch_margin": 0.8274375348019515,
+      "max_com_error_m": 5.551115123125783e-17
+    },
+    {
+      "recording": "front_left-250us.json",
+      "sha256": "ed0517b6efcdc0fc967bfc3b8d2eaeb1721576897230817bf03e3bb24636503e",
+      "sampled_closure_m": 3.3145241348215172e-06,
+      "sampled_gear_error_rad": 4.882030907538137e-07,
+      "sampled_branch_margin": 0.5440692713941326,
+      "max_com_error_m": 2.7755575615628914e-17
+    },
+    {
+      "recording": "front_left-125us.json",
+      "sha256": "4bbcb112406b811c7b5c28d71a191cd76db51084f0f1d070ac0a0ccebcda6a0f",
+      "sampled_closure_m": 3.331238208612145e-06,
+      "sampled_gear_error_rad": 3.9287379003383196e-07,
+      "sampled_branch_margin": 0.5437138281413434,
+      "max_com_error_m": 2.7755575615628914e-17
+    },
+    {
+      "recording": "front_right-250us.json",
+      "sha256": "baa5872cf8472ea3a3b44fd7b73652b86fbba74ee7f1e2fdf9d0066699a0aacf",
+      "sampled_closure_m": 2.6664628381465146e-06,
+      "sampled_gear_error_rad": 2.8880112482032594e-08,
+      "sampled_branch_margin": 0.6862137873141362,
+      "max_com_error_m": 5.551115123125783e-17
+    },
+    {
+      "recording": "front_right-125us.json",
+      "sha256": "a9080f8fb012d42c03f246cb3b1563a861bbbd15adf06c4de72e7ed4a32b57bf",
+      "sampled_closure_m": 6.7787348335417475e-06,
+      "sampled_gear_error_rad": 1.0716773563013149e-07,
+      "sampled_branch_margin": 0.67469768641687,
+      "max_com_error_m": 2.7755575615628914e-17
+    },
+    {
+      "recording": "back_left-250us.json",
+      "sha256": "4bdb4516699a422f32ba8d3a647fabae7a9b94fcc6bc7ce6c4c086ef36969865",
+      "sampled_closure_m": 4.572358494241273e-06,
+      "sampled_gear_error_rad": 3.028647981295762e-08,
+      "sampled_branch_margin": 0.9365451289164627,
+      "max_com_error_m": 2.7755575615628914e-17
+    },
+    {
+      "recording": "back_left-125us.json",
+      "sha256": "7315a5b1f130b2fabd57c721aecb4d65c689bb2fc44461f2760e56f5b63df76d",
+      "sampled_closure_m": 4.5751019778999525e-06,
+      "sampled_gear_error_rad": 3.357686573224328e-08,
+      "sampled_branch_margin": 0.9360649333804101,
+      "max_com_error_m": 5.551115123125783e-17
+    },
+    {
+      "recording": "back_right-250us.json",
+      "sha256": "f19f33c85f9965765bac4530b703fd7a9a3db46d11b2f5f294a7f88ee1ee51b5",
+      "sampled_closure_m": 4.993444295780645e-06,
+      "sampled_gear_error_rad": 1.0763890259113396e-07,
+      "sampled_branch_margin": 0.8370441861950452,
+      "max_com_error_m": 2.7755575615628914e-17
+    },
+    {
+      "recording": "back_right-125us.json",
+      "sha256": "5e995d4c26e15b21cd1db2070974dc60cfce34b26f73fdb01a537d84b0de4042",
+      "sampled_closure_m": 4.996865445081361e-06,
+      "sampled_gear_error_rad": 4.3358568332929615e-08,
+      "sampled_branch_margin": 0.8367682548622732,
+      "max_com_error_m": 2.7755575615628914e-17
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+[
+  {
+    "title": "SunnySky V3508 High Efficiency Brushless Motors",
+    "source": "https://sunnyskyusa.com/products/sunnysky-v3508-motor",
+    "queried_at": "2026-09-08",
+    "variants": [
+      {
+        "id": 45705618895,
+        "title": "380",
+        "price": 4299,
+        "available": true,
+        "sku": "SS-V3508-380"
+      },
+      {
+        "id": 45680383759,
+        "title": "580",
+        "price": 4299,
+        "available": true,
+        "sku": "SS-V3508-580"
+      },
+      {
+        "id": 45705642191,
+        "title": "700",
+        "price": 4299,
+        "available": true,
+        "sku": "SS-V3508-700"
+      }
+    ],
+    "price_units": "US cents; motors only, shipping/tax excluded"
+  },
+  {
+    "title": "SunnySky V2806 High Efficiency Brushless Motors",
+    "source": "https://sunnyskyusa.com/products/sunnysky-v2806-motor",
+    "queried_at": "2026-09-08",
+    "variants": [
+      {
+        "id": 45679747343,
+        "title": "400",
+        "price": 2899,
+        "available": true,
+        "sku": "SS-V2806-400"
+      },
+      {
+        "id": 45703574095,
+        "title": "650",
+        "price": 2899,
+        "available": true,
+        "sku": "SS-V2806-650"
+      }
+    ],
+    "price_units": "US cents; motors only, shipping/tax excluded"
+  },
+  {
+    "title": "SunnySky X Series V3 X2216 V3 Brushless Motors Long Shaft Version",
+    "source": "https://sunnyskyusa.com/products/sunnysky-x2216-v3-brushless-motors-long-shaft-version",
+    "queried_at": "2026-09-08",
+    "variants": [
+      {
+        "id": 31960521408606,
+        "title": "880 Long",
+        "price": 2499,
+        "available": true,
+        "sku": "SS-XV3-X2216-L-880-V3"
+      },
+      {
+        "id": 42855283687663,
+        "title": "950 Long",
+        "price": 2499,
+        "available": true,
+        "sku": "SS-XV3-X2216-L-950-V3"
+      },
+      {
+        "id": 31960521441374,
+        "title": "1100 Long",
+        "price": 2499,
+        "available": true,
+        "sku": "SS-XV3-X2216-L-1100-V3"
+      },
+      {
+        "id": 31960521474142,
+        "title": "1250 Long",
+        "price": 2499,
+        "available": true,
+        "sku": "SS-XV3-X2216-L-1250-V3"
+      },
+      {
+        "id": 31960521539678,
+        "title": "1400 Long",
+        "price": 2499,
+        "available": true,
+        "sku": "SS-XV3-X2216-L-1400-V3"
+      }
+    ],
+    "price_units": "US cents; motors only, shipping/tax excluded"
+  }
+]

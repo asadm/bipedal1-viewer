@@ -1,0 +1,31 @@
+{
+  "checked_utc": "2026-09-09T02:56:17.092891+00:00",
+  "method": "Browser skill local Chromium UI interaction and screenshot inspection",
+  "url": "http://localhost:8765/viewer/v2.html",
+  "checks": [
+    "Short V2 URL loads the latest left output joint and body case overlay in whole-robot Exterior view",
+    "Exterior, Cutaway, Packaging and output-joint close-up visually inspected",
+    "Fold/Crouch/Ride/Extend presets update sliders and pressed state",
+    "Both-leg slider endpoints -2.8 and 1.08; independent left and right controls preserve the other leg and display Mixed",
+    "Side/Front/3D/Fit controls exercised",
+    "View selection updates the browser URL",
+    "Main viewer retains autoplaying programmed jump and its new latest-design link reaches V2",
+    "No error logs in the checked V2 tab",
+    "JavaScript syntax and scoped git diff whitespace checks pass"
+  ],
+  "source_sha256": {
+    "design/viewer/v2.html": "2a1b854be877956082410bc0dfbb154ead76b0623201750e990beb35e38b8f96",
+    "design/viewer/v2.mjs": "de5c9c66268019ba88b4cf0db52719e5ec1a3de20aaf6f12e6d39176b48ff368",
+    "design/clanky-v2/hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "design/clanky-v2/hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "design/clanky-v2/hip-output/contact-classification.json": "111d1f59035d187dc27b860a168bc4bf24931a270be2514c56239f5f6c61eed4",
+    "design/clanky-v2/hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "design/clanky-v2/hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "design/viewer/skills.html": "bf9c9def7d15666d9a28bcd5510e68bec4b44e17b432fa0a537ea5f1e247555d",
+    "design/viewer/wheel.html": "c8357bc4177351bae867d73eb65b265f9202cf1ca30f4e6398abcee464af0788"
+  },
+  "mechanical_fit_validated": false,
+  "changed_left_joint_nominal_clearance_pass": true,
+  "dynamics_validated": false,
+  "scope_note": "Viewer-only update. No new CAD clearance or physics checks; existing mechanical evidence is unchanged."
+}

@@ -1,0 +1,102 @@
+{
+  "status": "completed",
+  "cases": 4,
+  "tally": {
+    "zero": {
+      "passed": 2,
+      "paired_fresh_passes": 0
+    },
+    "trained": {
+      "passed": 1,
+      "paired_fresh_passes": 0
+    }
+  },
+  "results": [
+    {
+      "mode": "zero",
+      "seed": 78800,
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "steps": 800,
+      "failure": null,
+      "passed": true,
+      "stable_time_s": 6.058000000001658,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        31.999990173390362,
+        31.999990158409855
+      ],
+      "minimum_branch_margin": 0.5762718882424022,
+      "recording": "zero-78800-250us.json",
+      "sha256": "ad89d6bd0a0b5fd9fa232775f63bcb0a761583d431aadae53b42aac31382dc8d"
+    },
+    {
+      "mode": "zero",
+      "seed": 78800,
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "steps": 800,
+      "failure": null,
+      "passed": true,
+      "stable_time_s": 4.830750000000079,
+      "peak_current_A": [
+        7.9999999999999964,
+        7.9999999999999964,
+        31.999999936442055,
+        31.999990560776638
+      ],
+      "minimum_branch_margin": 0.5763460094275029,
+      "recording": "zero-78800-125us.json",
+      "sha256": "956a09825caa30abab55c656c7043be76da0e4be0e904236c680d62895f7134e"
+    },
+    {
+      "mode": "trained",
+      "seed": 78800,
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "steps": 800,
+      "failure": null,
+      "passed": false,
+      "stable_time_s": 0.0,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        31.99999014541874,
+        31.999990306178326
+      ],
+      "minimum_branch_margin": 0.5761548214963393,
+      "recording": "trained-78800-250us.json",
+      "sha256": "d5d9f826749b531489f3343275e64fac17e7aeac9827ebb7c4575ffe47b898a1"
+    },
+    {
+      "mode": "trained",
+      "seed": 78800,
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "steps": 800,
+      "failure": null,
+      "passed": true,
+      "stable_time_s": 3.282500000001139,
+      "peak_current_A": [
+        7.9999999999999964,
+        7.9999999999999964,
+        31.999989731518014,
+        31.999990221048687
+      ],
+      "minimum_branch_margin": 0.5761125138879071,
+      "recording": "trained-78800-125us.json",
+      "sha256": "c32bf3a50d67cc5e795872af9fea71f3844c9f55766b1d107ef74f89df0162f5"
+    }
+  ],
+  "source_sha256": {
+    "evaluate_residual.py": "cc5adc31ac914b1b67e9dfbcd560c32345a125836c9494f7607365fa209d2a0b",
+    "residual_recovery.py": "09dd5283d916b727bfebdf9ecdf545ec1381a74f58b0bae3bf1e0315802de98c",
+    "environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb",
+    "evaluate.py": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef"
+  },
+  "actor_sha256": "8081a1c2ea82125576aca34e8d59f12bd6a993c3b44745f89bf5c0b75212d26a",
+  "manifest_sha256": "76155f128b69c30d65a7302ce5ab4840b39ce80cdec747fd793263190d386de2",
+  "reference_manifest_sha256": "d6cf8f0361131af3e9a07a1038eb01f15282f62a64cfd67b8af8ad5362fb9020",
+  "scope": "Four nominal smoke rollouts; no generalization claim."
+}

@@ -1,0 +1,291 @@
+{
+  "checked_at": "2026-09-09",
+  "scope": "DC-equivalent comparative sizing using the same KV/R convention as the native plant. 8 A is the present experimental control ceiling, not a validated continuous motor rating. No-load current, driver modulation, iron/friction losses, winding heating and battery sag beyond the two assumed voltages are omitted. Does not prove loaded speed, balance or durability.",
+  "sources": {
+    "V2806_US_listing": "https://sunnyskyusa.com/products/sunnysky-v2806-motor",
+    "V2806_US_product_JSON": "https://sunnyskyusa.com/products/sunnysky-v2806-motor.js",
+    "V2806_new_revision_manufacturer_PDF": "https://akizukidenshi.com/goodsaffix/V2806-KV400%20SpecificationV1%2020231023.pdf",
+    "GBM5208_listing": "https://rctimer.com/rctimer-gimbal-motor-gbm5208-75t-p0448.html",
+    "smaller_stock_gear": "https://www.beltingonline.com/product/ss05-60b/"
+  },
+  "source_sha256": {
+    "compact_wheel_sizing.py": "86e165314318a42e9a0bc45398351dcd654b85120fb06a97b5ee31e8bcec8cc5",
+    "hardware-references/compact-wheel/sunnysky-v2806-product.json": "26c646e221f11fff0d8583b16dbbad978efe8a3dfa882bf419d20afcd25805ce",
+    "hardware-references/compact-wheel/rctimer-5208.html": "3c2f4673ab95e2848a1794bf7e5164790009bf29b541694aae43f126c620c9a2",
+    "hardware-references/compact-wheel/v2806-kv400-specification.pdf": "70822800fb3852e9569e3d5d3c39dd0afe7f344ceeddc243039b6420a9ecf7a2"
+  },
+  "motors": {
+    "V2806_650": {
+      "kv": 650,
+      "resistance_ohm": 0.227,
+      "mass_kg": 0.047,
+      "body_mm": [
+        35,
+        18
+      ],
+      "price_usd": 28.99
+    },
+    "V2806_400": {
+      "kv": 400,
+      "resistance_ohm": 0.61,
+      "mass_kg": 0.047,
+      "body_mm": [
+        35,
+        18
+      ],
+      "price_usd": 28.99
+    },
+    "GBM5208_80": {
+      "kv": 80,
+      "resistance_ohm": 15,
+      "mass_kg": 0.189,
+      "body_mm": [
+        63,
+        24
+      ],
+      "price_usd": 39.99
+    }
+  },
+  "supplier_availability": {
+    "400": true,
+    "650": true
+  },
+  "supplier_revision_conflict": {
+    "US_listing": {
+      "body_length_mm": 18,
+      "mass_g": 47,
+      "resistance_mohm": 610
+    },
+    "manufacturer_2023_10_23_revision": {
+      "body_length_mm": 19,
+      "body_length_tolerance_mm": 0.1,
+      "mass_g_max": 55,
+      "resistance_mohm": 640,
+      "resistance_tolerance_mohm": 5,
+      "overall_length_mm": 28.1,
+      "overall_length_tolerance_mm": 0.1
+    },
+    "implication": "The later drawing has a revised rear feature and is not the CAD's legacy 5.4 mm rear shaft. Exact supplied revision, thread depths and magnet/adapter interface require confirmation before motor release. The packing screen deliberately retains the currently modeled legacy 18 mm motor."
+  },
+  "gear_candidate": {
+    "sku": "SS05/60B",
+    "module": 0.5,
+    "teeth": 60,
+    "pitch_diameter_mm": 30,
+    "outer_diameter_mm": 31,
+    "stock_bore_mm": 5,
+    "required_bore_mm": 6,
+    "hub_diameter_mm": 20,
+    "overall_width_mm": 8,
+    "face_width_mm": 4,
+    "price_gbp_ex_VAT": 11.36,
+    "listed_lead_time": "3\u20134 weeks",
+    "source_capture": "Supplier table inspected via web; direct archival download returned HTTP 403.",
+    "machining": "6 mm rebore plus the existing matched cross-pin operation; shorter 20 mm hub pin needed. Machining, tax and freight not included."
+  },
+  "assumptions": {
+    "current_ceiling_A": 8,
+    "gear_efficiency": 0.8,
+    "gimbal_direct_efficiency": 1,
+    "matched_copper_loss_W": 14.528
+  },
+  "cases": [
+    {
+      "motor": "V2806_650",
+      "ratio": 5,
+      "diameter_mm": 120,
+      "voltage": 9.6,
+      "ideal_no_load_km_h": 28.229094948096446,
+      "low_speed_torque_Nm": 0.4701192165175986,
+      "low_speed_force_per_wheel_N": 7.83532027529331,
+      "model_copper_loss_at_low_speed_limit_W": 14.528,
+      "torque_at_20_km_h_Nm": 0.4701192165175986,
+      "back_emf_at_20_km_h_V": 6.801493294525441,
+      "same_copper_loss_low_speed_force_N": 7.83532027529331,
+      "copper_loss_at_point_15_Nm_W": 1.4790141939023085
+    },
+    {
+      "motor": "V2806_650",
+      "ratio": 5,
+      "diameter_mm": 120,
+      "voltage": 11.1,
+      "ideal_no_load_km_h": 32.63989103373651,
+      "low_speed_torque_Nm": 0.4701192165175986,
+      "low_speed_force_per_wheel_N": 7.83532027529331,
+      "model_copper_loss_at_low_speed_limit_W": 14.528,
+      "torque_at_20_km_h_Nm": 0.4701192165175986,
+      "back_emf_at_20_km_h_V": 6.801493294525441,
+      "same_copper_loss_low_speed_force_N": 7.83532027529331,
+      "copper_loss_at_point_15_Nm_W": 1.4790141939023085
+    },
+    {
+      "motor": "V2806_400",
+      "ratio": 3,
+      "diameter_mm": 120,
+      "voltage": 9.6,
+      "ideal_no_load_km_h": 28.95291789548353,
+      "low_speed_torque_Nm": 0.4583662361046586,
+      "low_speed_force_per_wheel_N": 7.639437268410977,
+      "model_copper_loss_at_low_speed_limit_W": 39.04,
+      "torque_at_20_km_h_Nm": 0.27882794207676,
+      "back_emf_at_20_km_h_V": 6.631455962162306,
+      "same_copper_loss_low_speed_force_N": 4.660251770375023,
+      "copper_loss_at_point_15_Nm_W": 4.180874086572574
+    },
+    {
+      "motor": "V2806_400",
+      "ratio": 3,
+      "diameter_mm": 120,
+      "voltage": 11.1,
+      "ideal_no_load_km_h": 33.47681131665284,
+      "low_speed_torque_Nm": 0.4583662361046586,
+      "low_speed_force_per_wheel_N": 7.639437268410977,
+      "model_copper_loss_at_low_speed_limit_W": 39.04,
+      "torque_at_20_km_h_Nm": 0.41971920317450345,
+      "back_emf_at_20_km_h_V": 6.631455962162306,
+      "same_copper_loss_low_speed_force_N": 4.660251770375023,
+      "copper_loss_at_point_15_Nm_W": 4.180874086572574
+    },
+    {
+      "motor": "V2806_400",
+      "ratio": 3.2,
+      "diameter_mm": 120,
+      "voltage": 9.6,
+      "ideal_no_load_km_h": 27.143360527015812,
+      "low_speed_torque_Nm": 0.48892398517830254,
+      "low_speed_force_per_wheel_N": 8.148733086305043,
+      "model_copper_loss_at_low_speed_limit_W": 39.04,
+      "torque_at_20_km_h_Nm": 0.2531230579344073,
+      "back_emf_at_20_km_h_V": 7.07355302630646,
+      "same_copper_loss_low_speed_force_N": 4.970935221733357,
+      "copper_loss_at_point_15_Nm_W": 3.6745963651516766
+    },
+    {
+      "motor": "V2806_400",
+      "ratio": 3.2,
+      "diameter_mm": 120,
+      "voltage": 11.1,
+      "ideal_no_load_km_h": 31.38451060936203,
+      "low_speed_torque_Nm": 0.48892398517830254,
+      "low_speed_force_per_wheel_N": 8.148733086305043,
+      "model_copper_loss_at_low_speed_limit_W": 39.04,
+      "torque_at_20_km_h_Nm": 0.4034070697720003,
+      "back_emf_at_20_km_h_V": 7.07355302630646,
+      "same_copper_loss_low_speed_force_N": 4.970935221733357,
+      "copper_loss_at_point_15_Nm_W": 3.6745963651516766
+    },
+    {
+      "motor": "V2806_650",
+      "ratio": 4,
+      "diameter_mm": 120,
+      "voltage": 9.6,
+      "ideal_no_load_km_h": 35.28636868512056,
+      "low_speed_torque_Nm": 0.3760953732140789,
+      "low_speed_force_per_wheel_N": 6.268256220234648,
+      "model_copper_loss_at_low_speed_limit_W": 14.528,
+      "torque_at_20_km_h_Nm": 0.3760953732140789,
+      "back_emf_at_20_km_h_V": 5.441194635620353,
+      "same_copper_loss_low_speed_force_N": 6.268256220234648,
+      "copper_loss_at_point_15_Nm_W": 2.3109596779723565
+    },
+    {
+      "motor": "V2806_650",
+      "ratio": 4,
+      "diameter_mm": 120,
+      "voltage": 11.1,
+      "ideal_no_load_km_h": 40.79986379217064,
+      "low_speed_torque_Nm": 0.3760953732140789,
+      "low_speed_force_per_wheel_N": 6.268256220234648,
+      "model_copper_loss_at_low_speed_limit_W": 14.528,
+      "torque_at_20_km_h_Nm": 0.3760953732140789,
+      "back_emf_at_20_km_h_V": 5.441194635620353,
+      "same_copper_loss_low_speed_force_N": 6.268256220234648,
+      "copper_loss_at_point_15_Nm_W": 2.3109596779723565
+    },
+    {
+      "motor": "GBM5208_80",
+      "ratio": 1,
+      "diameter_mm": 120,
+      "voltage": 9.6,
+      "ideal_no_load_km_h": 17.37175073729012,
+      "low_speed_torque_Nm": 0.07639437268410976,
+      "low_speed_force_per_wheel_N": 1.2732395447351628,
+      "model_copper_loss_at_low_speed_limit_W": 6.144,
+      "torque_at_20_km_h_Nm": 0.0,
+      "back_emf_at_20_km_h_V": 11.052426603603843,
+      "same_copper_loss_low_speed_force_N": 1.2732395447351628,
+      "copper_loss_at_point_15_Nm_W": 23.68705056261446
+    },
+    {
+      "motor": "GBM5208_80",
+      "ratio": 1,
+      "diameter_mm": 120,
+      "voltage": 11.1,
+      "ideal_no_load_km_h": 20.086086789991704,
+      "low_speed_torque_Nm": 0.08833099341600191,
+      "low_speed_force_per_wheel_N": 1.4721832236000318,
+      "model_copper_loss_at_low_speed_limit_W": 8.214,
+      "torque_at_20_km_h_Nm": 0.00037857705980592454,
+      "back_emf_at_20_km_h_V": 11.052426603603843,
+      "same_copper_loss_low_speed_force_N": 1.4721832236000318,
+      "copper_loss_at_point_15_Nm_W": 23.68705056261446
+    },
+    {
+      "motor": "V2806_650",
+      "ratio": 5,
+      "diameter_mm": 140,
+      "voltage": 9.6,
+      "ideal_no_load_km_h": 32.93394410611253,
+      "low_speed_torque_Nm": 0.4701192165175986,
+      "low_speed_force_per_wheel_N": 6.715988807394265,
+      "model_copper_loss_at_low_speed_limit_W": 14.528,
+      "torque_at_20_km_h_Nm": 0.4701192165175986,
+      "back_emf_at_20_km_h_V": 5.829851395307521,
+      "same_copper_loss_low_speed_force_N": 6.715988807394265,
+      "copper_loss_at_point_15_Nm_W": 1.4790141939023085
+    },
+    {
+      "motor": "V2806_650",
+      "ratio": 5,
+      "diameter_mm": 140,
+      "voltage": 11.1,
+      "ideal_no_load_km_h": 38.079872872692604,
+      "low_speed_torque_Nm": 0.4701192165175986,
+      "low_speed_force_per_wheel_N": 6.715988807394265,
+      "model_copper_loss_at_low_speed_limit_W": 14.528,
+      "torque_at_20_km_h_Nm": 0.4701192165175986,
+      "back_emf_at_20_km_h_V": 5.829851395307521,
+      "same_copper_loss_low_speed_force_N": 6.715988807394265,
+      "copper_loss_at_point_15_Nm_W": 1.4790141939023085
+    },
+    {
+      "motor": "V2806_650",
+      "ratio": 5,
+      "diameter_mm": 150,
+      "voltage": 9.6,
+      "ideal_no_load_km_h": 35.28636868512056,
+      "low_speed_torque_Nm": 0.4701192165175986,
+      "low_speed_force_per_wheel_N": 6.268256220234648,
+      "model_copper_loss_at_low_speed_limit_W": 14.528,
+      "torque_at_20_km_h_Nm": 0.4701192165175986,
+      "back_emf_at_20_km_h_V": 5.441194635620353,
+      "same_copper_loss_low_speed_force_N": 6.268256220234648,
+      "copper_loss_at_point_15_Nm_W": 1.4790141939023085
+    },
+    {
+      "motor": "V2806_650",
+      "ratio": 5,
+      "diameter_mm": 150,
+      "voltage": 11.1,
+      "ideal_no_load_km_h": 40.79986379217065,
+      "low_speed_torque_Nm": 0.4701192165175986,
+      "low_speed_force_per_wheel_N": 6.268256220234648,
+      "model_copper_loss_at_low_speed_limit_W": 14.528,
+      "torque_at_20_km_h_Nm": 0.4701192165175986,
+      "back_emf_at_20_km_h_V": 5.441194635620353,
+      "same_copper_loss_low_speed_force_N": 6.268256220234648,
+      "copper_loss_at_point_15_Nm_W": 1.4790141939023085
+    }
+  ],
+  "hardware_adopted": false
+}

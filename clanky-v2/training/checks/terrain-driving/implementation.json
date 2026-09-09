@@ -1,0 +1,156 @@
+{
+  "status": "passed",
+  "courses": [
+    {
+      "family": "flat",
+      "magnitude": 0,
+      "scene_sha256": "b7039feae5940edf96370f453f53885d55c263c4c93c3563e332b8772274488b",
+      "asset_sha256": "0f4d8b63989d4a772d06777450987115d1ab047405b823726d847b0bb5ad66ac",
+      "rays": 128,
+      "max_ray_error_m": 0.0,
+      "matched_legacy_surface": true
+    },
+    {
+      "family": "bumps",
+      "magnitude": 0.008,
+      "scene_sha256": "da22912b16298de193f1f529aa5ab0d732267928abbc27297d01f5e9b1d002f4",
+      "asset_sha256": "c822560eaeeb0a35d2d62f47990fc003ae421b32e7cb6f2b216d65ae06a1626e",
+      "rays": 128,
+      "max_ray_error_m": 2.007075061705166e-15,
+      "matched_legacy_surface": false
+    },
+    {
+      "family": "stones",
+      "magnitude": 0.01,
+      "scene_sha256": "ff712decf29f61b0d12cb37f3fb7fa49b253dc1abbea0def75f89ea13382ec93",
+      "asset_sha256": "ec212710d2450fcd58e37602fd621f7d58da45367ae5915e4d3ac8aeb6c4f916",
+      "rays": 128,
+      "max_ray_error_m": 9.071519577186216e-16,
+      "matched_legacy_surface": true
+    },
+    {
+      "family": "stones",
+      "magnitude": 0.02,
+      "scene_sha256": "5a0083eae7b3903de69bd5b97dd27b778b31cc4a36bb0e826a7a58ed1cf8f86f",
+      "asset_sha256": "179e8d3be87f57ce6f4553ee0c6a93efe6d0b6563af1a9ca2de535921ddeb04b",
+      "rays": 128,
+      "max_ray_error_m": 2.2863655413374318e-15,
+      "matched_legacy_surface": true
+    },
+    {
+      "family": "stones",
+      "magnitude": 0.03,
+      "scene_sha256": "4e4b303f71e18a06fc29f4e6d4bfb04efc28db1a2829fd1e3d4b20426f531f6a",
+      "asset_sha256": "a46e27cf774ff7ee8c316ef95cdf4513430bd6e2166b7d8d5f8a4ef52db92abf",
+      "rays": 128,
+      "max_ray_error_m": 1.824929096727601e-15,
+      "matched_legacy_surface": true
+    },
+    {
+      "family": "slope",
+      "magnitude": 5,
+      "scene_sha256": "647c8d5b3dfb103f9708ae3f94559b07f56c43ce9306c10ba07f8d65f8ab6c8f",
+      "asset_sha256": "a33bc15db70be37f9531a2acb399840e3fcc773c754bf7d20b37bf67475ed711",
+      "rays": 128,
+      "max_ray_error_m": 2.374836438612249e-15,
+      "matched_legacy_surface": true
+    },
+    {
+      "family": "slope",
+      "magnitude": -5,
+      "scene_sha256": "7a23acb65947dd3b3b75511d38052f42a89a9da804d349ec714de8db5438e9fb",
+      "asset_sha256": "0c3ccc7653184cb09d11b638f08dbc3bc58dfb5ef830b06a96c1d15b0b726db7",
+      "rays": 128,
+      "max_ray_error_m": 2.9559688030644793e-15,
+      "matched_legacy_surface": true
+    },
+    {
+      "family": "slope",
+      "magnitude": 10,
+      "scene_sha256": "cf188035934809396d1abe49dc168464fc2bba4df18c2ea7b82c1292942db0a8",
+      "asset_sha256": "28c38658ad8d13817c34b6ce28e17a1832f52f588979382ba183a53d663df060",
+      "rays": 128,
+      "max_ray_error_m": 1.915134717478395e-15,
+      "matched_legacy_surface": true
+    },
+    {
+      "family": "slope",
+      "magnitude": -10,
+      "scene_sha256": "28a69eb14ad29ce8083c3a538fe013bb84e180f3e358ecc49e7af22ebb16f12d",
+      "asset_sha256": "46f8fdd2692c3ab2db989cf89459669801593e82b8611dedca713df4da338f2d",
+      "rays": 128,
+      "max_ray_error_m": 2.0539125955565396e-15,
+      "matched_legacy_surface": true
+    },
+    {
+      "family": "cross_slope",
+      "magnitude": 5,
+      "scene_sha256": "4e93cae818d0b5fcdba04afbedb80e7a2fb5822d22fd81563c3b6f960e822ad7",
+      "asset_sha256": "435a0d783ebeabe822edc40365582e86cbf0ff9d88dca9f2287923d50c9636e9",
+      "rays": 128,
+      "max_ray_error_m": 2.7478019859472624e-15,
+      "matched_legacy_surface": true
+    },
+    {
+      "family": "cross_slope",
+      "magnitude": -5,
+      "scene_sha256": "be9b69ab147e1a89fa9de1b9bc9ca5b83f3803f2dde2f98fd0b7b2ab668e21e8",
+      "asset_sha256": "e7baf5f8a0f11ad97e7d5f366a3041e3c7af3db4de62927c96eb4a5c0c81bb00",
+      "rays": 128,
+      "max_ray_error_m": 2.8171909249863347e-15,
+      "matched_legacy_surface": true
+    },
+    {
+      "family": "cross_slope",
+      "magnitude": 10,
+      "scene_sha256": "6cc1c02f5bf3b20c9d8a107645e98dad71596ffdbca81405d06c388a7021d2d6",
+      "asset_sha256": "f2607480963dd4a4b5e801b68137a03e74befd1ba7f266c6476f1777b97f6bfc",
+      "rays": 128,
+      "max_ray_error_m": 2.6298407895808396e-15,
+      "matched_legacy_surface": true
+    },
+    {
+      "family": "cross_slope",
+      "magnitude": -10,
+      "scene_sha256": "57993e0c1637cce09e1a93c1f5405225b6f069daf6a99c5ea92ab4d5bd674056",
+      "asset_sha256": "63efad09814cd1363fe31fd10ad7594637ee87dc0e1d738e48e6a009bd8565ff",
+      "rays": 128,
+      "max_ray_error_m": 2.8449465006019636e-15,
+      "matched_legacy_surface": true
+    }
+  ],
+  "static_tire_contact": [
+    {
+      "height_m": 0.019496287265270085,
+      "normal_N": 14.642322503097235
+    },
+    {
+      "height_m": 0.019496531225942047,
+      "normal_N": 8.568465875030551
+    },
+    {
+      "height_m": 0.019496526167377518,
+      "normal_N": 8.730653678327393
+    },
+    {
+      "height_m": 0.019496223541210264,
+      "normal_N": 16.23863864720579
+    },
+    {
+      "height_m": 0.01949648942192417,
+      "normal_N": 9.614590876604844
+    },
+    {
+      "height_m": 0.01949644099509775,
+      "normal_N": 10.930236462627914
+    }
+  ],
+  "plant_manifest_sha256": "e733063a55088781d85aaf4a3c2f3ce7b05fd2c696a2f44fad78ebcc39284d9d",
+  "source_sha256": {
+    "check_terrain_driving.py": "c8ed9f4e5bee0edf9b7888193f2562c42b113e620dd2bbc5cec3f6a39d9b495c",
+    "terrain_driving.py": "f3db8b07d23c0aabb0c814b308109078ca46062f1b44ca10d6faeed108a81f9c",
+    "terrain_courses.py": "9bcc441dd4ca3052e93b19a1ca2c07a05d7bb4593a1778f0b260a9731b56565c",
+    "terrain_reference.py": "af2fe776105bfacc9701113f840a991bce3e6d195f030f42c032b2dba8846347"
+  },
+  "scope": "No terrain rollouts. Thirteen frozen courses: exact robot mesh/mass/inertia/actuator identity, original contact properties, no plane, 128 independent terrain rays each, legacy surface comparison where available. One static tire probe with deliberate 1 mm overlap verifies loaded contact on a 20 mm stone; that pose is never used to initialize a rollout."
+}

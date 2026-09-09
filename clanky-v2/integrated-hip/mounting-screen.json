@@ -1,0 +1,810 @@
+{
+  "status": "supplier_CAD_and_planar_mounting_route_screen",
+  "source_sha256": {
+    "integrated_hip_cad.py": "57b7965ed330893cbcd2e6830beb14e3b17ffc6bbb3495243e6caeb875428aca",
+    "hardware-references/integrated-hips/RS05.STEP": "35a143d7e04d84eeda8664591e33626a1802f614a5b76ac29f465620dec81792",
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839",
+    "hip_joint.py": "06a2cd6da1e6af89486ad5844111465c139dcc7a790a0a4c0a25e4d5a2636da2"
+  },
+  "supplier_CAD_native_axis": "Z",
+  "supplier_CAD_bounds": {
+    "min_mm": [
+      -23.00000010000001,
+      -23.0000001,
+      -13.500000100001225
+    ],
+    "max_mm": [
+      23.0000001,
+      23.000000100000022,
+      33.5
+    ],
+    "size_mm": [
+      46.00000020000001,
+      46.000000200000024,
+      47.00000010000122
+    ]
+  },
+  "supplier_solids": [
+    {
+      "source_solid_index": 0,
+      "bounds": {
+        "min_mm": [
+          -5.5,
+          -5.5000001,
+          25.4999999
+        ],
+        "max_mm": [
+          5.5,
+          5.5000001,
+          29.5000001
+        ],
+        "size_mm": [
+          11.0,
+          11.0000002,
+          4.000000200000002
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 241.33716312246037,
+      "through_spindle_overlap_mm3": 94.06939555321243
+    },
+    {
+      "source_solid_index": 1,
+      "bounds": {
+        "min_mm": [
+          -16.0,
+          -16.0,
+          22.499999999912998
+        ],
+        "max_mm": [
+          16.0,
+          16.0,
+          30.500000000009
+        ],
+        "size_mm": [
+          32.0,
+          32.0,
+          8.000000000096001
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 3021.9329680446917,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 2,
+      "bounds": {
+        "min_mm": [
+          6.2272413354869975,
+          2.749999899991708,
+          19.499999898400297
+        ],
+        "max_mm": [
+          10.227241336412998,
+          6.750000100008292,
+          33.5
+        ],
+        "size_mm": [
+          4.000000000926001,
+          4.000000200016585,
+          14.000000101599703
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 175.46003472267634,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 3,
+      "bounds": {
+        "min_mm": [
+          -18.5,
+          -18.5,
+          24.999999899999995
+        ],
+        "max_mm": [
+          18.5000001,
+          18.5000001,
+          29.000000100000097
+        ],
+        "size_mm": [
+          37.0000001,
+          37.0000001,
+          4.000000200000102
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 1254.7894896578612,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 4,
+      "bounds": {
+        "min_mm": [
+          -10.227241336413002,
+          2.749999899991708,
+          19.499999898400297
+        ],
+        "max_mm": [
+          -6.227241335487001,
+          6.750000100008292,
+          33.5
+        ],
+        "size_mm": [
+          4.000000000926001,
+          4.000000200016585,
+          14.000000101599703
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 175.4600347226763,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 5,
+      "bounds": {
+        "min_mm": [
+          -2.000000000463,
+          -11.500000100008291,
+          19.499999898400297
+        ],
+        "max_mm": [
+          2.000000000463,
+          -7.499999899991708,
+          33.5
+        ],
+        "size_mm": [
+          4.000000000926,
+          4.000000200016584,
+          14.000000101599703
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 175.46003472267634,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 6,
+      "bounds": {
+        "min_mm": [
+          -23.00000010000001,
+          -23.0000001,
+          -11.6000001
+        ],
+        "max_mm": [
+          23.0000001,
+          23.000000100000005,
+          23.5000001
+        ],
+        "size_mm": [
+          46.00000020000001,
+          46.0000002,
+          35.100000200000004
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 8147.02684040496,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 7,
+      "bounds": {
+        "min_mm": [
+          -23.000000000000004,
+          -23.000000000000004,
+          18.9999999
+        ],
+        "max_mm": [
+          23.000000000000004,
+          23.000000000000004,
+          28.0
+        ],
+        "size_mm": [
+          46.00000000000001,
+          46.00000000000001,
+          9.000000100000001
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 3746.164260887082,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 8,
+      "bounds": {
+        "min_mm": [
+          18.841728312089,
+          -1.9,
+          18.6
+        ],
+        "max_mm": [
+          22.841746924530003,
+          1.9,
+          22.4
+        ],
+        "size_mm": [
+          4.0000186124410035,
+          3.8,
+          3.799999999999997
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 13.981466751823897,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 9,
+      "bounds": {
+        "min_mm": [
+          12.769113176764302,
+          12.769113176764229,
+          18.6
+        ],
+        "max_mm": [
+          17.49505695802754,
+          17.495056958027536,
+          22.4
+        ],
+        "size_mm": [
+          4.725943781263238,
+          4.725943781263307,
+          3.799999999999997
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 13.981466751823902,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 10,
+      "bounds": {
+        "min_mm": [
+          -1.9,
+          18.841728312089,
+          18.6
+        ],
+        "max_mm": [
+          1.9,
+          22.841746924530003,
+          22.4
+        ],
+        "size_mm": [
+          3.8,
+          4.0000186124410035,
+          3.799999999999997
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 13.981466751823897,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 11,
+      "bounds": {
+        "min_mm": [
+          -17.49505695802754,
+          12.7691131767643,
+          18.6
+        ],
+        "max_mm": [
+          -12.769113176764233,
+          17.495056958027536,
+          22.4
+        ],
+        "size_mm": [
+          4.725943781263307,
+          4.725943781263236,
+          3.799999999999997
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 13.981466751823906,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 12,
+      "bounds": {
+        "min_mm": [
+          -22.841746924530003,
+          -1.9,
+          18.6
+        ],
+        "max_mm": [
+          -18.841728312089,
+          1.9,
+          22.4
+        ],
+        "size_mm": [
+          4.0000186124410035,
+          3.8,
+          3.799999999999997
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 13.981466751823897,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 13,
+      "bounds": {
+        "min_mm": [
+          -17.49505695802754,
+          -17.495056958027536,
+          18.6
+        ],
+        "max_mm": [
+          -12.769113176764302,
+          -12.769113176764229,
+          22.4
+        ],
+        "size_mm": [
+          4.725943781263238,
+          4.725943781263307,
+          3.799999999999997
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 13.981466751823902,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 14,
+      "bounds": {
+        "min_mm": [
+          -1.9,
+          -22.841746924530003,
+          18.6
+        ],
+        "max_mm": [
+          1.9,
+          -18.841728312089,
+          22.4
+        ],
+        "size_mm": [
+          3.8,
+          4.0000186124410035,
+          3.799999999999997
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 13.981466751823897,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 15,
+      "bounds": {
+        "min_mm": [
+          12.769113176764233,
+          -17.495056958027536,
+          18.6
+        ],
+        "max_mm": [
+          17.49505695802754,
+          -12.7691131767643,
+          22.4
+        ],
+        "size_mm": [
+          4.725943781263307,
+          4.725943781263236,
+          3.799999999999997
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 13.981466751823906,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 16,
+      "bounds": {
+        "min_mm": [
+          -22.503850835231933,
+          -20.500545732424676,
+          -10.089996899998573
+        ],
+        "max_mm": [
+          20.49945174680561,
+          20.49891787543147,
+          -3.3296577043946947
+        ],
+        "size_mm": [
+          43.00330258203755,
+          40.99946360785614,
+          6.760339195603878
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 2108.495625735559,
+      "through_spindle_overlap_mm3": 74.89540801203674
+    },
+    {
+      "source_solid_index": 17,
+      "bounds": {
+        "min_mm": [
+          -23.00000009966001,
+          -23.0000001,
+          -13.500000100001225
+        ],
+        "max_mm": [
+          23.000000099659992,
+          23.000000100000022,
+          -8.799999999998759
+        ],
+        "size_mm": [
+          46.00000019932,
+          46.000000200000024,
+          4.700000100002466
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 2377.4877304349284,
+      "through_spindle_overlap_mm3": 60.318578948924014
+    },
+    {
+      "source_solid_index": 18,
+      "bounds": {
+        "min_mm": [
+          13.822369078460001,
+          -14.53675421883,
+          -13.378215277592
+        ],
+        "max_mm": [
+          18.522369078460002,
+          -9.83675421883,
+          -3.3780573673385494
+        ],
+        "size_mm": [
+          4.700000000000001,
+          4.699999999999999,
+          10.000157910253451
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 46.686607274838835,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 19,
+      "bounds": {
+        "min_mm": [
+          9.83675421883,
+          13.822369078460001,
+          -13.378215277592
+        ],
+        "max_mm": [
+          14.53675421883,
+          18.522369078460002,
+          -3.3780573673385494
+        ],
+        "size_mm": [
+          4.699999999999999,
+          4.700000000000001,
+          10.000157910253451
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 46.686607274838835,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 20,
+      "bounds": {
+        "min_mm": [
+          -18.522369078460002,
+          9.83675421883,
+          -13.378215277592
+        ],
+        "max_mm": [
+          -13.822369078460001,
+          14.53675421883,
+          -3.3780573673385494
+        ],
+        "size_mm": [
+          4.700000000000001,
+          4.699999999999999,
+          10.000157910253451
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 46.686607274838835,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 21,
+      "bounds": {
+        "min_mm": [
+          -14.53675421883,
+          -18.522369078460002,
+          -13.378215277592
+        ],
+        "max_mm": [
+          -9.83675421883,
+          -13.822369078460001,
+          -3.3780573673385494
+        ],
+        "size_mm": [
+          4.699999999999999,
+          4.700000000000001,
+          10.000157910253451
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 46.686607274838835,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 22,
+      "bounds": {
+        "min_mm": [
+          -23.000000000000004,
+          -23.000000000000004,
+          28.0
+        ],
+        "max_mm": [
+          23.000000000000004,
+          23.000000000000004,
+          30.5000000000005
+        ],
+        "size_mm": [
+          46.00000000000001,
+          46.00000000000001,
+          2.500000000000501
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 1334.1437664041105,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 23,
+      "bounds": {
+        "min_mm": [
+          12.77246570962,
+          -16.57246570962,
+          24.32999518027
+        ],
+        "max_mm": [
+          16.57246570962,
+          -12.77246570962,
+          30.330000100000003
+        ],
+        "size_mm": [
+          3.8000000000000007,
+          3.8000000000000007,
+          6.000004919730003
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 18.87725453349851,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 24,
+      "bounds": {
+        "min_mm": [
+          18.850000000000005,
+          -1.9,
+          24.32999518027
+        ],
+        "max_mm": [
+          22.650000000000002,
+          1.9000000000000004,
+          30.330000100000003
+        ],
+        "size_mm": [
+          3.799999999999997,
+          3.8000000000000003,
+          6.000004919730003
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 18.877254533498515,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 25,
+      "bounds": {
+        "min_mm": [
+          12.77246570962,
+          12.77246570962,
+          24.32999518027
+        ],
+        "max_mm": [
+          16.57246570962,
+          16.57246570962,
+          30.330000100000003
+        ],
+        "size_mm": [
+          3.8000000000000007,
+          3.8000000000000007,
+          6.000004919730003
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 18.877254533498512,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 26,
+      "bounds": {
+        "min_mm": [
+          -1.9000000000000004,
+          18.850000000000005,
+          24.32999518027
+        ],
+        "max_mm": [
+          1.9,
+          22.650000000000002,
+          30.330000100000003
+        ],
+        "size_mm": [
+          3.8000000000000003,
+          3.799999999999997,
+          6.000004919730003
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 18.877254533498515,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 27,
+      "bounds": {
+        "min_mm": [
+          -16.57246570962,
+          12.77246570962,
+          24.32999518027
+        ],
+        "max_mm": [
+          -12.77246570962,
+          16.57246570962,
+          30.330000100000003
+        ],
+        "size_mm": [
+          3.8000000000000007,
+          3.8000000000000007,
+          6.000004919730003
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 18.87725453349851,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 28,
+      "bounds": {
+        "min_mm": [
+          -22.650000000000002,
+          -1.9000000000000004,
+          24.32999518027
+        ],
+        "max_mm": [
+          -18.850000000000005,
+          1.9,
+          30.330000100000003
+        ],
+        "size_mm": [
+          3.799999999999997,
+          3.8000000000000003,
+          6.000004919730003
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 18.877254533498515,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 29,
+      "bounds": {
+        "min_mm": [
+          -16.57246570962,
+          -16.57246570962,
+          24.32999518027
+        ],
+        "max_mm": [
+          -12.77246570962,
+          -12.77246570962,
+          30.330000100000003
+        ],
+        "size_mm": [
+          3.8000000000000007,
+          3.8000000000000007,
+          6.000004919730003
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 18.877254533498512,
+      "through_spindle_overlap_mm3": 0.0
+    },
+    {
+      "source_solid_index": 30,
+      "bounds": {
+        "min_mm": [
+          -1.9,
+          -22.650000000000002,
+          24.32999518027
+        ],
+        "max_mm": [
+          1.9000000000000004,
+          -18.850000000000005,
+          30.330000100000003
+        ],
+        "size_mm": [
+          3.8000000000000003,
+          3.799999999999997,
+          6.000004919730003
+        ]
+      },
+      "valid": true,
+      "volume_mm3": 18.877254533498515,
+      "through_spindle_overlap_mm3": 0.0
+    }
+  ],
+  "notes_on_dimensions": "46 mm diameter; 44 mm body from -13.5 to 30.5; three locating pins extend to 33.5, making the complete source envelope 47 mm long",
+  "fixed_8mm_through_spindle_compatible": false,
+  "spindle_intersected_supplier_solid_indices": [
+    0,
+    16,
+    17
+  ],
+  "proposed_mount_envelopes": {
+    "actuator_body_y_mm": [
+      14,
+      58
+    ],
+    "actuator_dowel_tip_y_mm": 61,
+    "rotor_flange_y_mm": [
+      58,
+      61.2
+    ],
+    "rotor_flange_radius_mm": 16,
+    "rotating_neck_y_mm": [
+      61.2,
+      71
+    ],
+    "rotating_neck_radius_mm": 11.5,
+    "proposed_fixed_anchor_y_mm": [
+      61.5,
+      64.5
+    ],
+    "proposed_tie_root_eye_y_mm": [
+      64.8,
+      69.8
+    ],
+    "proposed_tie_bar_y_mm": [
+      66.8,
+      69.8
+    ],
+    "existing_thigh_inboard_y_mm": 71
+  },
+  "inboard_tie_screen": {
+    "poses": 405,
+    "hip_range_rad": [
+      -2.8,
+      1.08
+    ],
+    "minimum_planar_tie_to_neck_gap_mm": 1.0350063685422946,
+    "worst_hip_rad": -2.8,
+    "minimum_tie_to_flange_axial_gap_mm": 3.5999999999999943,
+    "tie_to_thigh_axial_gap_mm": 1.2000000000000028,
+    "ground_point_mm": [
+      11.61266289945004,
+      14.059250383875316
+    ],
+    "pass_against_neck_and_flange_envelopes_only": true
+  },
+  "complete_mount_designed": false,
+  "actuator_bearing_loads_qualified": false,
+  "body_electronics_fit_validated": false,
+  "dynamics_validated": false,
+  "adopted": false,
+  "limitations": [
+    "The supplier assembly is a packaging model, not a complete internal gear/inertia model. Its material volumes are not used as physical masses.",
+    "Source solid indices are local to the bound STEP hash. The fixed shaft intersects source material and cannot be retained through this actuator as drawn.",
+    "Proposed fixed anchor lies in front of the rotor flange, inboard of the thigh. The existing tie cross section fits around the proposed neck in a 405-pose planar envelope screen.",
+    "No fixed support plate, mounting screw heads, rotating fasteners, joint hardware or revised knee lever is designed or clearance-checked here.",
+    "Relocating the tie also relocates its knee lever; the current spring and knee stack must be redesigned and swept together before adoption.",
+    "Actuator axes at the current hips extend below the original body bottom; a new mounting/cooling structure is required. The published 70x70 heat-sink condition is not modeled.",
+    "Electronics, cable access, bilateral housing, hardware loads and all robot skills are outside this local envelope screen."
+  ]
+}

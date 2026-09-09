@@ -1,0 +1,22 @@
+{
+  "name": "Clanky V2 — reference-led mechanical redesign",
+  "status": "in_development",
+  "checkpoint_before_redesign": "37fc29e",
+  "reference_directory": "ref/",
+  "wheel_selection": {"diameter_mm": 120, "width_mm": 20, "construction": "one-piece printed TPU tire", "status": "selected_by_user", "date": "2026-09-09", "larger_wheel_study": "closed_without_adoption"},
+  "architecture_preference": {"preferred_motors": 4, "fallback_motors": 6, "head_actuators_included": false, "rule": "Try four first. Adopt six only with comparative evidence of a required-motion benefit; a failed finite controller search is not an impossibility proof."},
+  "requirements": [
+    {"id": "reference_fidelity", "requirement": "Beni-like proportions, central shoulder, folding two-segment legs, internal knee transmission, spring hidden in thigh, slim wheel assembly and enclosed body", "evidence_needed": "Reference-linked CAD comparison and internal mechanism view"},
+    {"id": "fold", "requirement": "Foldable for storage near Beni size", "working_target_mm": [215,180,180], "target_status": "Published reference envelope; posture unreported. Use as folded-package design target, not a measured Beni drawing.", "evidence_needed": "Collision-checked transition and complete folded CAD bounds, including purchased hardware"},
+    {"id": "jump", "requirement": "Big jump comparable to prior Beni-height objective", "working_wheel_clearance_target_mm": 250, "report_also": ["COM rise above takeoff", "airtime", "stable landing", "peak current", "spring travel"], "target_status": "Engineering target; Beni marketing metric is not defined equivalently", "evidence_needed": "Free-body native dynamics, motor limits and stable landing at two timesteps and hardware variants; same CAD mass/inertia"},
+    {"id": "recovery", "requirement": "Get up from front, back, either side, inverted and diagonal falls", "target_success_per_family": 0.95, "evidence_needed": "Finite randomized start-bank evaluation per family, with stable finish, native validation and no external support. State coverage limits."},
+    {"id": "speed", "requirement": "Fast driving", "working_target_km_h": 20, "target_status": "Earlier user comparison target, not a guaranteed safe operating speed", "evidence_needed": "Loaded torque/speed, acceleration/braking, balance and thermal assumptions; no-load rpm is insufficient"},
+    {"id": "one_wheel", "requirement": "Enter, sustain and exit one-wheel balance on either wheel", "working_hold_s": 5, "evidence_needed": "Dynamic balance, transition and lateral-disturbance rejection; static COM alignment alone is insufficient"},
+    {"id": "offroad", "requirement": "Uneven ground, stones and outdoor suspension", "working_tests": {"stone_height_mm": [10,20,30], "slope_deg": [5,10], "cross_slope_deg": [5,10]}, "target_status": "Initial engineering test grid; report actual supported envelope", "evidence_needed": "Independent leg compliance, terrain contacts and repeated traversal with realistic actuator limits; tire/material uncertainty"},
+    {"id": "printing", "requirement": "Mostly 3D printed, easy assembly, A1 Mini sized parts, one-piece printed wheels", "maximum_plate_mm": [180,180,180], "working_part_envelope_mm": [170,170,180], "evidence_needed": "Connected valid CAD solids, print orientation/support review, actual BOM and plate plan"},
+    {"id": "cost", "requirement": "Low cost, low complexity and common buyable motors/hardware", "hard_total_budget_usd": null, "evidence_needed": "Dated sourced BOM including drivers, sensing, bearings, transmission and fasteners; incremental four/six motor costs"},
+    {"id": "robustness", "requirement": "Robust structure, protected internals and jumping load paths", "evidence_needed": "Bearing/shaft/fastener load paths, material assumptions, fatigue/landing calculations and a clearly stated physical qualification plan. Never claim unbreakable."},
+    {"id": "sim2real", "requirement": "Train skills using the actual robot design", "evidence_needed": "Versioned CAD/plant identity, realistic sensor/actuator interface, motor and spring identification, randomization, native policy tests"}
+  ],
+  "delivery": {"viewer": "local_only", "push_to_github": false, "url_format": "plain_text"}
+}

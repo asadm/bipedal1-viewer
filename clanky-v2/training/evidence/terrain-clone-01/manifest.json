@@ -1,0 +1,845 @@
+{
+  "method": "one terrain behavior-cloning adaptation with flat-driving replay",
+  "update_cap": 2500,
+  "batch_size": 512,
+  "learning_rate": 0.0002,
+  "seed": 89200,
+  "train_samples": 73696,
+  "validation_samples": 24800,
+  "validation_episode_ids": [
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "terrain_summary_sha256": "b1cd0395ff7f82b185471c2c65fba58f20fa9f22c813d01fd871daa72f07e222",
+  "flat_summary_sha256": "07a9cfd393451690cf30d04387a2a57b05141aecdb17380ee1cf622430764a6b",
+  "trajectory_selection": [
+    {
+      "recording": "flat-0-terrain740-start89100-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "bumps-0.008-terrain740-start89101-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "stones-0.01-terrain740-start89102-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "stones-0.02-terrain740-start89103-250us.npz",
+      "kept": 696,
+      "excluded": 1,
+      "passed": false
+    },
+    {
+      "recording": "slope-5-terrain740-start89104-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "slope--5-terrain740-start89105-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "cross_slope-5-terrain740-start89106-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "cross_slope--5-terrain740-start89107-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "flat-0-terrain741-start89108-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "bumps-0.008-terrain741-start89109-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "stones-0.01-terrain741-start89110-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "stones-0.02-terrain741-start89111-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "slope-5-terrain741-start89112-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "slope--5-terrain741-start89113-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "cross_slope-5-terrain741-start89114-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "cross_slope--5-terrain741-start89115-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "flat-0-terrain742-start89116-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "bumps-0.008-terrain742-start89117-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "stones-0.01-terrain742-start89118-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "stones-0.02-terrain742-start89119-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "slope-5-terrain742-start89120-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "slope--5-terrain742-start89121-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "cross_slope-5-terrain742-start89122-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "cross_slope--5-terrain742-start89123-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "flat-0-terrain743-start89124-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "bumps-0.008-terrain743-start89125-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "stones-0.01-terrain743-start89126-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "stones-0.02-terrain743-start89127-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "slope-5-terrain743-start89128-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "slope--5-terrain743-start89129-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "cross_slope-5-terrain743-start89130-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "cross_slope--5-terrain743-start89131-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    }
+  ],
+  "domain_samples": {
+    "0": {
+      "train": 32896,
+      "validation": 11200
+    },
+    "1": {
+      "train": 40800,
+      "validation": 13600
+    }
+  },
+  "initial_policy_sha256": "2b437707bbfe6c7fb421e000ff57664db13fd473754c25db451420770af5b570",
+  "plant_manifest_sha256": "e733063a55088781d85aaf4a3c2f3ce7b05fd2c696a2f44fad78ebcc39284d9d",
+  "source_sha256": {
+    "terrain_learning.py": "183b3eb8f0e5e4b1be77f32eec7453d6888a9b41d975af211ec6c76ac3532fa6",
+    "command_learning.py": "df99df64c0cd33943449d571f2adc34fea28da81c4867e7ffa31fb023c4a2e58",
+    "terrain_driving.py": "f3db8b07d23c0aabb0c814b308109078ca46062f1b44ca10d6faeed108a81f9c",
+    "command_driving.py": "34d3a9ac92222b5414a8731ba8a891d09fa30ae02fc4ea43905e3e445ddb18cd",
+    "balance_dagger.py": "f2f0e5ce447cb04dcb60663a6d8ba1e07891ed98c1dde3fc5ac6ba8e1e03fe26",
+    "evaluate.py": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef"
+  },
+  "policy_period_s": 0.01,
+  "sensor_mask": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_renormalization_max_error": 1.7881393432617188e-07,
+  "status": "completed",
+  "best_update": 2300,
+  "trace": [
+    {
+      "update": 0,
+      "training_loss": 0.000864895642735064,
+      "validation_mse": [
+        2.0514416974037886e-06,
+        1.5687845007050782e-05,
+        0.0017277974402531981,
+        0.0011338635813444853
+      ],
+      "terrain_validation_mse": [
+        3.579789336072281e-07,
+        1.644921394472476e-05,
+        0.0029993681237101555,
+        0.0018188449321314692
+      ],
+      "flat_validation_mse": [
+        3.7449046885740245e-06,
+        1.4926477888366207e-05,
+        0.00045622678590007126,
+        0.00044888228876516223
+      ]
+    },
+    {
+      "update": 100,
+      "training_loss": 0.00020952019258402288,
+      "validation_mse": [
+        8.192292177966465e-09,
+        2.0764765906733373e-08,
+        0.0006162544596008956,
+        0.0005615186528302729
+      ],
+      "terrain_validation_mse": [
+        5.49662493298797e-09,
+        1.8407922297569712e-08,
+        0.000747608719393611,
+        0.0007135148625820875
+      ],
+      "flat_validation_mse": [
+        1.088795986703417e-08,
+        2.3121609515897035e-08,
+        0.00048490019980818033,
+        0.00040952247218228877
+      ]
+    },
+    {
+      "update": 200,
+      "training_loss": 0.00018514334806241095,
+      "validation_mse": [
+        9.887211049885991e-09,
+        1.6730124841046745e-08,
+        0.00046355125959962606,
+        0.0004152249894104898
+      ],
+      "terrain_validation_mse": [
+        8.114254157476353e-09,
+        1.4169374118466749e-08,
+        0.0005438681109808385,
+        0.00046400268911384046
+      ],
+      "flat_validation_mse": [
+        1.166016705411721e-08,
+        1.929087645180516e-08,
+        0.00038323443732224405,
+        0.00036644728970713913
+      ]
+    },
+    {
+      "update": 300,
+      "training_loss": 0.00012992857955396175,
+      "validation_mse": [
+        2.4860408842641846e-08,
+        1.4548274585024501e-08,
+        0.0003384509473107755,
+        0.0003309856401756406
+      ],
+      "terrain_validation_mse": [
+        2.4287510669296353e-08,
+        8.990808098019443e-09,
+        0.00036034188815392554,
+        0.0003362265997566283
+      ],
+      "flat_validation_mse": [
+        2.543330701598734e-08,
+        2.010574107202956e-08,
+        0.00031655997736379504,
+        0.0003257446805946529
+      ]
+    },
+    {
+      "update": 400,
+      "training_loss": 7.970628212206066e-05,
+      "validation_mse": [
+        8.211866742158236e-09,
+        1.121008441629101e-08,
+        0.0002510949270799756,
+        0.0002787314879242331
+      ],
+      "terrain_validation_mse": [
+        5.728736152121883e-09,
+        7.648360167422652e-09,
+        0.00025829035439528525,
+        0.00025571134756319225
+      ],
+      "flat_validation_mse": [
+        1.0694997776283799e-08,
+        1.477180866515937e-08,
+        0.00024389952886849642,
+        0.0003017516282852739
+      ]
+    },
+    {
+      "update": 500,
+      "training_loss": 6.932796532055363e-05,
+      "validation_mse": [
+        8.366926707026323e-09,
+        1.1461400717394099e-08,
+        0.00019518865155987442,
+        0.00021791842300444841
+      ],
+      "terrain_validation_mse": [
+        6.385988626789185e-09,
+        8.108253624072859e-09,
+        0.00017601298168301582,
+        0.00020756380399689078
+      ],
+      "flat_validation_mse": [
+        1.034786567544188e-08,
+        1.4814548698893759e-08,
+        0.000214364321436733,
+        0.00022827302746009082
+      ]
+    },
+    {
+      "update": 600,
+      "training_loss": 6.689751171506941e-05,
+      "validation_mse": [
+        1.165000629299584e-08,
+        1.0500183833528354e-08,
+        0.00015655613970011473,
+        0.0001813570997910574
+      ],
+      "terrain_validation_mse": [
+        9.030930669950976e-09,
+        7.80611397743769e-09,
+        0.00012806222366634756,
+        0.00015935362898744643
+      ],
+      "flat_validation_mse": [
+        1.4269081916040705e-08,
+        1.3194254577797437e-08,
+        0.00018505007028579712,
+        0.0002033605705946684
+      ]
+    },
+    {
+      "update": 700,
+      "training_loss": 3.7236386560834944e-05,
+      "validation_mse": [
+        1.7526259554756507e-08,
+        9.148455326624116e-09,
+        0.0001304701145272702,
+        0.00015779829118400812
+      ],
+      "terrain_validation_mse": [
+        1.2521192971348682e-08,
+        6.143987540951912e-09,
+        0.00010545505210757256,
+        0.00012560356117319316
+      ],
+      "flat_validation_mse": [
+        2.253132613816433e-08,
+        1.2152923112296321e-08,
+        0.00015548519149888307,
+        0.00018999303574673831
+      ]
+    },
+    {
+      "update": 800,
+      "training_loss": 3.5509678127709776e-05,
+      "validation_mse": [
+        9.075394657998004e-09,
+        9.580919169138724e-09,
+        0.0001185431465273723,
+        0.00013287436740938574
+      ],
+      "terrain_validation_mse": [
+        5.898352917199645e-09,
+        7.322443984492111e-09,
+        9.6679970738478e-05,
+        0.00011315559822833166
+      ],
+      "flat_validation_mse": [
+        1.2252436398796362e-08,
+        1.1839394353785337e-08,
+        0.0001404063223162666,
+        0.00015259314386639744
+      ]
+    },
+    {
+      "update": 900,
+      "training_loss": 3.687384742079303e-05,
+      "validation_mse": [
+        1.010964556513727e-08,
+        9.226201136414147e-09,
+        0.0001065525648300536,
+        0.0001209933398058638
+      ],
+      "terrain_validation_mse": [
+        7.97941090979748e-09,
+        5.911981126871524e-09,
+        8.103775326162577e-05,
+        0.00010324027971364558
+      ],
+      "flat_validation_mse": [
+        1.2239880220477062e-08,
+        1.254042114595677e-08,
+        0.00013206737639848143,
+        0.00013874639989808202
+      ]
+    },
+    {
+      "update": 1000,
+      "training_loss": 5.770364805357531e-05,
+      "validation_mse": [
+        1.0506417957856229e-08,
+        1.0967919017446093e-08,
+        9.983725612983108e-05,
+        0.00011563473526621237
+      ],
+      "terrain_validation_mse": [
+        5.6878572962659746e-09,
+        6.265336693900281e-09,
+        6.78244250593707e-05,
+        8.479382086079568e-05
+      ],
+      "flat_validation_mse": [
+        1.5324978619446483e-08,
+        1.5670501340991905e-08,
+        0.00013185008720029145,
+        0.00014647564967162907
+      ]
+    },
+    {
+      "update": 1100,
+      "training_loss": 4.997567884856835e-05,
+      "validation_mse": [
+        8.895634451278056e-09,
+        1.1296670265892317e-08,
+        9.689522994449362e-05,
+        0.00010206193837802857
+      ],
+      "terrain_validation_mse": [
+        5.061915331339151e-09,
+        7.895629927645587e-09,
+        6.26849359832704e-05,
+        7.704083691351116e-05
+      ],
+      "flat_validation_mse": [
+        1.2729352683038542e-08,
+        1.4697709715960627e-08,
+        0.00013110552390571684,
+        0.00012708303984254599
+      ]
+    },
+    {
+      "update": 1200,
+      "training_loss": 3.8224759919103235e-05,
+      "validation_mse": [
+        1.1598133120571674e-08,
+        8.29715407490994e-09,
+        8.625369082437828e-05,
+        8.99194274097681e-05
+      ],
+      "terrain_validation_mse": [
+        7.508491606245116e-09,
+        4.116259333386552e-09,
+        5.725897426600568e-05,
+        6.479340663645416e-05
+      ],
+      "flat_validation_mse": [
+        1.5687774634898233e-08,
+        1.247804881643333e-08,
+        0.00011524840374477208,
+        0.00011504544818308204
+      ]
+    },
+    {
+      "update": 1300,
+      "training_loss": 2.81711618299596e-05,
+      "validation_mse": [
+        8.362869508005133e-09,
+        9.798741373856501e-09,
+        8.463124686386436e-05,
+        8.760256605455652e-05
+      ],
+      "terrain_validation_mse": [
+        4.639024719921281e-09,
+        7.562914738912241e-09,
+        5.798690108349547e-05,
+        6.062664760975167e-05
+      ],
+      "flat_validation_mse": [
+        1.2086713851999775e-08,
+        1.2034568008800761e-08,
+        0.00011127558536827564,
+        0.00011457848449936137
+      ]
+    },
+    {
+      "update": 1400,
+      "training_loss": 3.0576964491046965e-05,
+      "validation_mse": [
+        5.5650538399731886e-08,
+        8.84482709295753e-09,
+        8.612753299530596e-05,
+        9.273588511859998e-05
+      ],
+      "terrain_validation_mse": [
+        4.6647702589552864e-08,
+        4.964425759368396e-09,
+        5.5366468586726114e-05,
+        6.904921610839665e-05
+      ],
+      "flat_validation_mse": [
+        6.465337065719723e-08,
+        1.2725227982457454e-08,
+        0.00011688859376590699,
+        0.00011642255412880331
+      ]
+    },
+    {
+      "update": 1500,
+      "training_loss": 2.9259586881380528e-05,
+      "validation_mse": [
+        2.2991931913907138e-08,
+        8.957382391372448e-09,
+        7.547710265498608e-05,
+        7.964109681779519e-05
+      ],
+      "terrain_validation_mse": [
+        1.4942710180321228e-08,
+        4.730639435734929e-09,
+        4.491028084885329e-05,
+        5.302686258801259e-05
+      ],
+      "flat_validation_mse": [
+        3.104115364749305e-08,
+        1.3184124902920757e-08,
+        0.00010604393173707649,
+        0.00010625533468555659
+      ]
+    },
+    {
+      "update": 1600,
+      "training_loss": 1.9386961866985075e-05,
+      "validation_mse": [
+        7.060641848966043e-09,
+        9.20850862229372e-09,
+        7.166285649873316e-05,
+        7.703682058490813e-05
+      ],
+      "terrain_validation_mse": [
+        4.2199266303555305e-09,
+        6.783815731381537e-09,
+        4.6926663344493136e-05,
+        4.577788422466256e-05
+      ],
+      "flat_validation_mse": [
+        9.901357067576555e-09,
+        1.1633201957295114e-08,
+        9.639904601499438e-05,
+        0.0001082957605831325
+      ]
+    },
+    {
+      "update": 1700,
+      "training_loss": 2.9097449441906065e-05,
+      "validation_mse": [
+        8.171298304660013e-09,
+        7.837341442495926e-09,
+        7.295339310076088e-05,
+        7.468191324733198e-05
+      ],
+      "terrain_validation_mse": [
+        6.636467819731706e-09,
+        4.706334433279835e-09,
+        4.7052693844307214e-05,
+        4.816219734493643e-05
+      ],
+      "flat_validation_mse": [
+        9.70612834549911e-09,
+        1.0968348895801228e-08,
+        9.885409235721454e-05,
+        0.00010120162187376991
+      ]
+    },
+    {
+      "update": 1800,
+      "training_loss": 2.659996425791178e-05,
+      "validation_mse": [
+        2.4593282077489675e-08,
+        8.826363639968804e-09,
+        7.7567805419676e-05,
+        7.497148180846125e-05
+      ],
+      "terrain_validation_mse": [
+        2.0709995496304145e-08,
+        4.3130379268063734e-09,
+        5.430766395875253e-05,
+        4.940218786941841e-05
+      ],
+      "flat_validation_mse": [
+        2.8476568658675205e-08,
+        1.3339690241309654e-08,
+        0.00010082795051857829,
+        0.00010054077574750409
+      ]
+    },
+    {
+      "update": 1900,
+      "training_loss": 1.811299989640247e-05,
+      "validation_mse": [
+        1.1089345441916976e-08,
+        1.1470060456986175e-08,
+        6.956217112019658e-05,
+        7.024317164905369e-05
+      ],
+      "terrain_validation_mse": [
+        1.0366739466860508e-08,
+        9.536751832683876e-09,
+        4.3043030018452555e-05,
+        4.867901589022949e-05
+      ],
+      "flat_validation_mse": [
+        1.1811951416973443e-08,
+        1.3403369969466894e-08,
+        9.608131222194061e-05,
+        9.180732740787789e-05
+      ]
+    },
+    {
+      "update": 2000,
+      "training_loss": 2.560611756052822e-05,
+      "validation_mse": [
+        1.7112528283291795e-08,
+        1.0889601220753775e-08,
+        8.31243087304756e-05,
+        7.652985368622467e-05
+      ],
+      "terrain_validation_mse": [
+        1.111507241802201e-08,
+        5.693356452951548e-09,
+        4.448144682100974e-05,
+        4.4597236410481855e-05
+      ],
+      "flat_validation_mse": [
+        2.310998503674e-08,
+        1.6085845544466792e-08,
+        0.00012176716700196266,
+        0.00010846247459994629
+      ]
+    },
+    {
+      "update": 2100,
+      "training_loss": 1.0802603355841711e-05,
+      "validation_mse": [
+        1.280266381797901e-08,
+        7.531516743597422e-09,
+        6.97219802532345e-05,
+        6.393301009666175e-05
+      ],
+      "terrain_validation_mse": [
+        9.944929324490204e-09,
+        4.889387561490821e-09,
+        3.7463647458935156e-05,
+        3.727885996340774e-05
+      ],
+      "flat_validation_mse": [
+        1.5660397423289396e-08,
+        1.0173645037525603e-08,
+        0.00010198030940955505,
+        9.058716386789456e-05
+      ]
+    },
+    {
+      "update": 2200,
+      "training_loss": 4.736980554298498e-05,
+      "validation_mse": [
+        2.7612021114009622e-08,
+        9.6238164104534e-09,
+        7.690108031965792e-05,
+        6.897440471220762e-05
+      ],
+      "terrain_validation_mse": [
+        2.1496393998177155e-08,
+        5.7801661235146184e-09,
+        6.270639278227463e-05,
+        3.7827936466783285e-05
+      ],
+      "flat_validation_mse": [
+        3.372764822984209e-08,
+        1.3467467141481393e-08,
+        9.109576785704121e-05,
+        0.00010012087295763195
+      ]
+    },
+    {
+      "update": 2300,
+      "training_loss": 1.118191812565783e-05,
+      "validation_mse": [
+        8.812088836407383e-09,
+        9.383251509120782e-09,
+        6.480461161118001e-05,
+        6.437068077502772e-05
+      ],
+      "terrain_validation_mse": [
+        6.281590358980793e-09,
+        7.013917890930088e-09,
+        3.763845234061591e-05,
+        3.8081456295913085e-05
+      ],
+      "flat_validation_mse": [
+        1.1342586425655554e-08,
+        1.1752584683222267e-08,
+        9.19707672437653e-05,
+        9.065990889212117e-05
+      ]
+    },
+    {
+      "update": 2400,
+      "training_loss": 2.3218244677991606e-05,
+      "validation_mse": [
+        9.814757007120534e-09,
+        1.0732808419788853e-08,
+        6.396634125849232e-05,
+        6.525267235701904e-05
+      ],
+      "terrain_validation_mse": [
+        5.787987866767708e-09,
+        4.495048777641841e-09,
+        3.713324622367509e-05,
+        3.23432577715721e-05
+      ],
+      "flat_validation_mse": [
+        1.384152703565178e-08,
+        1.6970568950114284e-08,
+        9.079943993128836e-05,
+        9.816208330448717e-05
+      ]
+    },
+    {
+      "update": 2499,
+      "training_loss": 1.2307400538702495e-05,
+      "validation_mse": [
+        2.2620497475145385e-08,
+        8.373015170093367e-09,
+        6.670292350463569e-05,
+        7.400147296721116e-05
+      ],
+      "terrain_validation_mse": [
+        1.8830069947739503e-08,
+        4.856282931342548e-09,
+        3.718574589584023e-05,
+        4.516840635915287e-05
+      ],
+      "flat_validation_mse": [
+        2.6410925002551267e-08,
+        1.1889747852933397e-08,
+        9.622010111343116e-05,
+        0.00010283453593729064
+      ]
+    }
+  ],
+  "plan_sha256": "f984bd8a103b9bc667f5c4d2fe46fb985fdc0002b69b71527140a8451406f188",
+  "export_sha256": "a129c86958311c97d491ad2420183e5afe2de5905dd7505c9c97a0dcacf27159",
+  "numpy_actor_max_error": 2.384185791015625e-07,
+  "trained_inputs": "gyro, projected gravity, hip encoders/velocities, wheel velocities, commanded forward speed and yaw rate",
+  "scope": "Supervised labels from a privileged teacher. Student inputs contain no simulator velocity, pose, contacts or time. No RL update or teacher intervention in student rollouts. Whole-episode validation chooses one saved actor; closed-loop evaluation is separate."
+}

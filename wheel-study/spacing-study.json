@@ -1,0 +1,187 @@
+[
+  {
+    "wheel": "old",
+    "offset_mm": 0,
+    "hits": {}
+  },
+  {
+    "wheel": "120",
+    "offset_mm": 0,
+    "hits": {
+      "left_slim_lower_pod": [
+        -2.6,
+        2.6,
+        53
+      ],
+      "left_wheel_688_outer": [
+        -2.6,
+        2.6,
+        53
+      ],
+      "left_structural_thigh": [
+        -1.1,
+        -0.4,
+        8
+      ]
+    }
+  },
+  {
+    "wheel": "120",
+    "offset_mm": 3,
+    "hits": {
+      "left_slim_lower_pod": [
+        -2.6,
+        2.6,
+        53
+      ],
+      "left_wheel_688_outer": [
+        -2.6,
+        2.6,
+        53
+      ],
+      "left_structural_thigh": [
+        -1.1,
+        -0.4,
+        8
+      ],
+      "left_thigh_lid": [
+        -1.1,
+        -0.4,
+        8
+      ]
+    }
+  },
+  {
+    "wheel": "120",
+    "offset_mm": 6,
+    "hits": {
+      "left_slim_lower_pod": [
+        -2.6,
+        2.6,
+        53
+      ],
+      "left_thigh_lid": [
+        -1.1,
+        -0.4,
+        8
+      ],
+      "left_structural_thigh": [
+        -1.1,
+        -0.4,
+        8
+      ]
+    }
+  },
+  {
+    "wheel": "120",
+    "offset_mm": 9,
+    "hits": {
+      "left_thigh_lid": [
+        -1.1,
+        -0.4,
+        8
+      ],
+      "left_structural_thigh": [
+        -1.1,
+        -0.4,
+        8
+      ]
+    }
+  },
+  {
+    "wheel": "120",
+    "offset_mm": 12,
+    "hits": {
+      "left_thigh_lid": [
+        -1.1,
+        -0.4,
+        8
+      ],
+      "left_structural_thigh": [
+        -1.1,
+        -0.4,
+        8
+      ]
+    }
+  },
+  {
+    "wheel": "120",
+    "offset_mm": 15,
+    "hits": {
+      "left_thigh_lid": [
+        -1.1,
+        -0.4,
+        8
+      ],
+      "left_structural_thigh": [
+        -1.1,
+        -0.4,
+        8
+      ]
+    }
+  },
+  {
+    "wheel": "120",
+    "offset_mm": 18,
+    "hits": {
+      "left_thigh_lid": [
+        -1.1,
+        -0.4,
+        8
+      ],
+      "left_structural_thigh": [
+        -1.1,
+        -0.4,
+        8
+      ]
+    }
+  },
+  {
+    "wheel": "120",
+    "offset_mm": 21,
+    "hits": {
+      "left_thigh_lid": [
+        -1.1,
+        -0.4,
+        8
+      ],
+      "left_structural_thigh": [
+        -1.1,
+        -0.4,
+        8
+      ]
+    }
+  },
+  {
+    "wheel": "120",
+    "offset_mm": 24,
+    "hits": {
+      "left_thigh_lid": [
+        -1.1,
+        -0.4,
+        8
+      ],
+      "left_structural_thigh": [
+        -1.1,
+        -0.4,
+        8
+      ]
+    }
+  },
+  {
+    "wheel": "120",
+    "offset_mm": 27,
+    "hits": {
+      "left_thigh_lid": [
+        -1.1,
+        -0.4,
+        8
+      ]
+    }
+  },
+  {
+    "wheel": "120",
+    "offset_mm": 30,
+    "hits": {}
+  }
+]

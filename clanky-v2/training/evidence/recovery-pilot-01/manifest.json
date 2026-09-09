@@ -1,0 +1,215 @@
+{
+  "status": "completed",
+  "task": {
+    "output": "/home/asad/benirobot-v2-train/runs/recovery-pilot-01",
+    "iterations": 100,
+    "num_envs": 64,
+    "workers": 16,
+    "seed": 62000,
+    "skill": "recovery",
+    "curriculum": "mixed"
+  },
+  "configuration": {
+    "num_steps_per_env": 24,
+    "save_interval": 25,
+    "logger": "tensorboard",
+    "check_for_nan": true,
+    "obs_groups": {
+      "actor": [
+        "actor"
+      ],
+      "critic": [
+        "critic"
+      ]
+    },
+    "actor": {
+      "class_name": "rsl_rl.models:MLPModel",
+      "hidden_dims": [
+        128,
+        128,
+        64
+      ],
+      "activation": "elu",
+      "obs_normalization": true,
+      "distribution_cfg": {
+        "class_name": "rsl_rl.modules.distribution:GaussianDistribution",
+        "init_std": 0.1,
+        "std_type": "log"
+      }
+    },
+    "critic": {
+      "class_name": "rsl_rl.models:MLPModel",
+      "hidden_dims": [
+        128,
+        128,
+        64
+      ],
+      "activation": "elu",
+      "obs_normalization": true
+    },
+    "algorithm": {
+      "class_name": "rsl_rl.algorithms:PPO",
+      "rnd_cfg": null,
+      "symmetry_cfg": null,
+      "num_learning_epochs": 5,
+      "num_mini_batches": 4,
+      "learning_rate": 0.0003,
+      "gamma": 0.99,
+      "lam": 0.95,
+      "entropy_coef": 0.005,
+      "schedule": "adaptive",
+      "desired_kl": 0.01
+    }
+  },
+  "source_sha256": {
+    "check_adapter.py": "cf874e44cce193ad0001b4c15cd235816e02c9d74780340071eb7120ff208b27",
+    "environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb",
+    "train.py": "2cd8fb343f119666d309a0bc019262d8549d8ad4894f064a1b2ef39427cc7c61",
+    "evaluate.py": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef",
+    "worker.py": "3720f29acfb4c7e85cf2bdfbc4c29a16eaad3a4147d3a4c15880bf0c3cb61bc4",
+    "check_vector.py": "6824dc75fac2d5d7180791c56adfd35878fb64922389dbc9a002809a8e4f6400",
+    "vector.py": "48f396f9cd6e64038e635b4c2eb57f628351b660fe320bc3c73a667d73f7f7f5",
+    "plant/geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839",
+    "plant/manifest.json": "e733063a55088781d85aaf4a3c2f3ce7b05fd2c696a2f44fad78ebcc39284d9d",
+    "plant/native_recovery_support.py": "e7a7b6d71d68a0335a131097621c6e7aaf88f7ebd41e9b13e620e070e9890157",
+    "plant/native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "plant/native_drivetrain.py": "3994d8475929f8ae1e6fcf68a487f852c3812ec96937c796d41b499fc0304b77",
+    "plant/native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+    "plant/model.xml": "34a516ae9b9600fdec88010e3edffcd9e44f6851bb6d1745d1018b9ccd441444",
+    "plant/native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+    "plant/parameters.json": "6634e94e3e9a469bd8f88a45589ae7a783ccc0b0fb8cd27695ee8a3e5d8c9a1a"
+  },
+  "packages": {
+    "torch": "2.9.1+cpu",
+    "rsl-rl-lib": "5.0.1",
+    "tensordict": "0.14.1",
+    "mujoco": "3.3.7",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "trimesh": "5.1.0"
+  },
+  "model": {
+    "schema": 1,
+    "model": "current_v2_120mm_explicit_four_motor",
+    "files_sha256": {
+      "model.xml": "34a516ae9b9600fdec88010e3edffcd9e44f6851bb6d1745d1018b9ccd441444",
+      "parameters.json": "6634e94e3e9a469bd8f88a45589ae7a783ccc0b0fb8cd27695ee8a3e5d8c9a1a",
+      "native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+      "native_drivetrain.py": "3994d8475929f8ae1e6fcf68a487f852c3812ec96937c796d41b499fc0304b77",
+      "native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+      "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+      "geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839",
+      "native_recovery_support.py": "e7a7b6d71d68a0335a131097621c6e7aaf88f7ebd41e9b13e620e070e9890157"
+    },
+    "cad_source_sha256": {
+      "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+      "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+      "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+      "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+      "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+      "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+      "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+      "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+      "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+      "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+      "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+      "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+      "native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+      "native/mass-properties.json": "0d5c5d21f94f9282dd107cc92a867e4c4f888601783eda00580f5f71d0e970c7",
+      "native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+      "native_drivetrain.py": "3994d8475929f8ae1e6fcf68a487f852c3812ec96937c796d41b499fc0304b77"
+    },
+    "exporter_sha256": "50cde708c5cb0e9a2d789e07e16a4d344b37d2b89e64c0fcb64ffc5bd7912307",
+    "mujoco_version": "3.3.7",
+    "mass_kg": 2.4892471592111667,
+    "actuators": 4,
+    "nq": 25,
+    "nv": 24,
+    "nominal_root_height_m": 0.18618074849974597,
+    "nominal_qpos": [
+      0.0,
+      0.0,
+      0.18618074849974597,
+      0.9983547103099558,
+      0.0,
+      0.0573399721130395,
+      0.0,
+      0.41900000000000015,
+      1.9024499212659896,
+      -2.3214499212659896,
+      -1.7763568394002505e-15,
+      0.0684357541233239,
+      0.06735404323035533,
+      0.4507332812493155,
+      0.41900000000000015,
+      1.9024499212659896,
+      -2.3214499212659896,
+      -1.7763568394002505e-15,
+      0.0684357541233239,
+      0.06735404323035533,
+      0.4507332812493155,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "nominal_qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "limitations": [
+      "Unweighed CAD/component-prior masses; current more-detailed left hip and earlier right hip retained.",
+      "Ground contacts use outer CAD convex hulls and rigid 120x20 mm tire cylinders. No self-contact or TPU deformation; recovery is not qualified by this plant.",
+      "Hip and wheel currents, voltage, DC-equivalent conventions, efficiencies and rotor inertias require identification. 32 A hip propeller-cooled rating does not qualify sealed duty.",
+      "Guide friction uses preceding-step transverse joint reaction; coefficient, one-step delay and damping are explicit unmeasured priors.",
+      "No backlash, structural flex, thermal limits, real battery/regeneration model, estimator delay or learned policy yet.",
+      "Explicit rotor/gear bodies with ideal gear equalities and equivalent output torques. Unmeasured hip rotor split and illustrative wheel rotor CAD; no backlash, tooth compliance or identified internal inertia.",
+      "CPU native training bundle; no Warp/GPU equivalence or learned-skill qualification implied."
+    ]
+  },
+  "started_unix": 1788945375.4296644,
+  "scope": "Pipeline smoke/pilot, not independently qualified learned recovery",
+  "completed_updates": 100,
+  "transitions": 153600,
+  "episode_outcomes": {
+    "timeout": 384
+  },
+  "family_outcomes": {
+    "near:timeout": 91,
+    "standing:timeout": 136,
+    "back_right:timeout": 29,
+    "front_right:timeout": 8,
+    "front:timeout": 20,
+    "back:timeout": 14,
+    "back_left:timeout": 22,
+    "right:timeout": 12,
+    "inverted:timeout": 17,
+    "front_left:timeout": 18,
+    "left:timeout": 17
+  },
+  "checkpoint": "model_99.pt",
+  "checkpoint_sha256": "75a7861000922d130dc34c429b43a575651c129b34476309e5ccbbdf260ab489",
+  "elapsed_wall_s": 467.17781162261963
+}

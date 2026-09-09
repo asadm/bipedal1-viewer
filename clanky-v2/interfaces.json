@@ -1,0 +1,484 @@
+{
+  "status": "nominal_mating_interface_check",
+  "passed": true,
+  "cases": [
+    {
+      "pair": [
+        "body_lid_with_fixed_camera",
+        "body_lower"
+      ],
+      "hip_rad": -2.8,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "touching body split plane",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_knee_626_inner",
+        "left_thigh_frame"
+      ],
+      "hip_rad": -2.8,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d819 bearing seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_knee_626_inner",
+        "left_knee_shaft"
+      ],
+      "hip_rad": -2.8,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d86 circular journal",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_knee_626_outer",
+        "left_thigh_lid"
+      ],
+      "hip_rad": -2.8,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d819 bearing seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_knee_626_outer",
+        "left_knee_shaft"
+      ],
+      "hip_rad": -2.8,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d86 circular journal",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_spring_coil_envelope",
+        "left_thigh_frame"
+      ],
+      "hip_rad": -2.8,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "spring fixed end seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_spring_coil_envelope",
+        "left_spring_slider"
+      ],
+      "hip_rad": -2.8,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 4.476856079555575,
+      "reason": "spring moving seat, possibly unloaded",
+      "expected_gap_mm": 4.476856079555574,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_knee_626_inner",
+        "right_thigh_frame"
+      ],
+      "hip_rad": -2.8,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d819 bearing seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_knee_626_inner",
+        "right_knee_shaft"
+      ],
+      "hip_rad": -2.8,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d86 circular journal",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_knee_626_outer",
+        "right_thigh_lid"
+      ],
+      "hip_rad": -2.8,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d819 bearing seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_knee_626_outer",
+        "right_knee_shaft"
+      ],
+      "hip_rad": -2.8,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d86 circular journal",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_spring_coil_envelope",
+        "right_thigh_frame"
+      ],
+      "hip_rad": -2.8,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "spring fixed end seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_spring_coil_envelope",
+        "right_spring_slider"
+      ],
+      "hip_rad": -2.8,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 4.476856079555575,
+      "reason": "spring moving seat, possibly unloaded",
+      "expected_gap_mm": 4.476856079555574,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lid_with_fixed_camera",
+        "body_lower"
+      ],
+      "hip_rad": 1.08,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "touching body split plane",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_knee_626_inner",
+        "left_thigh_frame"
+      ],
+      "hip_rad": 1.08,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d819 bearing seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_knee_626_inner",
+        "left_knee_shaft"
+      ],
+      "hip_rad": 1.08,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d86 circular journal",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_knee_626_outer",
+        "left_thigh_lid"
+      ],
+      "hip_rad": 1.08,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d819 bearing seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_knee_626_outer",
+        "left_knee_shaft"
+      ],
+      "hip_rad": 1.08,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d86 circular journal",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_spring_coil_envelope",
+        "left_thigh_frame"
+      ],
+      "hip_rad": 1.08,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 4.440892098500626e-16,
+      "reason": "spring fixed end seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_spring_coil_envelope",
+        "left_spring_slider"
+      ],
+      "hip_rad": 1.08,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 2.8969254748403173,
+      "reason": "spring moving seat, possibly unloaded",
+      "expected_gap_mm": 2.896925474840316,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_knee_626_inner",
+        "right_thigh_frame"
+      ],
+      "hip_rad": 1.08,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d819 bearing seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_knee_626_inner",
+        "right_knee_shaft"
+      ],
+      "hip_rad": 1.08,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d86 circular journal",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_knee_626_outer",
+        "right_thigh_lid"
+      ],
+      "hip_rad": 1.08,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d819 bearing seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_knee_626_outer",
+        "right_knee_shaft"
+      ],
+      "hip_rad": 1.08,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d86 circular journal",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_spring_coil_envelope",
+        "right_thigh_frame"
+      ],
+      "hip_rad": 1.08,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 4.440892098500626e-16,
+      "reason": "spring fixed end seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_spring_coil_envelope",
+        "right_spring_slider"
+      ],
+      "hip_rad": 1.08,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 2.8969254748403173,
+      "reason": "spring moving seat, possibly unloaded",
+      "expected_gap_mm": 2.896925474840316,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lid_with_fixed_camera",
+        "body_lower"
+      ],
+      "hip_rad": 0.41900000000000015,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "touching body split plane",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_knee_626_inner",
+        "left_thigh_frame"
+      ],
+      "hip_rad": 0.41900000000000015,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d819 bearing seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_knee_626_inner",
+        "left_knee_shaft"
+      ],
+      "hip_rad": 0.41900000000000015,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d86 circular journal",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_knee_626_outer",
+        "left_thigh_lid"
+      ],
+      "hip_rad": 0.41900000000000015,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d819 bearing seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_knee_626_outer",
+        "left_knee_shaft"
+      ],
+      "hip_rad": 0.41900000000000015,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d86 circular journal",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_spring_coil_envelope",
+        "left_thigh_frame"
+      ],
+      "hip_rad": 0.41900000000000015,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "spring fixed end seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_spring_coil_envelope",
+        "left_spring_slider"
+      ],
+      "hip_rad": 0.41900000000000015,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "spring moving seat, possibly unloaded",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_knee_626_inner",
+        "right_thigh_frame"
+      ],
+      "hip_rad": 0.41900000000000015,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d819 bearing seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_knee_626_inner",
+        "right_knee_shaft"
+      ],
+      "hip_rad": 0.41900000000000015,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d86 circular journal",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_knee_626_outer",
+        "right_thigh_lid"
+      ],
+      "hip_rad": 0.41900000000000015,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d819 bearing seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_knee_626_outer",
+        "right_knee_shaft"
+      ],
+      "hip_rad": 0.41900000000000015,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "nominal \u00d86 circular journal",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_spring_coil_envelope",
+        "right_thigh_frame"
+      ],
+      "hip_rad": 0.41900000000000015,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "spring fixed end seat",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_spring_coil_envelope",
+        "right_spring_slider"
+      ],
+      "hip_rad": 0.41900000000000015,
+      "overlap_mm3": 0,
+      "nominal_surface_distance_mm": 0.0,
+      "reason": "spring moving seat, possibly unloaded",
+      "expected_gap_mm": 0.0,
+      "passed": true
+    }
+  ],
+  "hardware_release": false,
+  "input_sha256": {
+    "layout.py": "6452521c3837fdca61a1302092fd1ed716d272bf57a7bcac966e52951852b41f",
+    "layout.json": "a8b9323416680c1799ec8c2f154a8e47d099fff390aa619b2e7f032114d2a3c4",
+    "layout-parts.json": "3f844258189c1a0e24ed6795bcb8168582b947a1950163c9797c98f28b51733d"
+  },
+  "limitations": [
+    "Nominal surface contacts only: not chosen running/press fits or a bearing tolerance audit.",
+    "No spring/drive/fastener/thermal/impact qualification."
+  ]
+}

@@ -1,0 +1,619 @@
+{
+  "status": "integrated_actuator_prescribed_sizing_only",
+  "selected_actuator": null,
+  "adopted": false,
+  "robot_motor_count": 4,
+  "target_ballistic_COM_rise_m": 0.25,
+  "wheel_clearance_jump_validated": false,
+  "assumed_launch_stroke_m": 0.15307025300457197,
+  "launch_duration_s": 0.1382296759264627,
+  "peak_hip_speed_rpm": 177.9487579922316,
+  "source_sha256": {
+    "integrated_hip_screen.py": "cbddc99688e3d8df991f97deb6b1f8a2827b1c7f44f1924124e6c64c2d320d88",
+    "geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839",
+    "spring_cartridge.py": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff",
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/guide-probe.json": "6a829da95e39b2f249940eb0e270b806b106bb2c838f9e4db328025c942fabc6",
+    "hardware-references/integrated-hips/RS05User-Manual260713.pdf": "1b2c61a6daa8331b9a348455005d10d6e425165c22e6f64c39cbca33f6360e82",
+    "hardware-references/integrated-hips/eduLite05-source-extract.txt": "6f2ecc84a40873b1d7882e5965ca518016fa88f737487f241880adb1ae5e2411",
+    "hardware-references/integrated-hips/robStride05-source-extract.txt": "438bc6a0ab784b4f5a67989ddb4e13b8c6c2df0501181ccbb172e38181ae12cc"
+  },
+  "rs05": {
+    "source": "RS05 User Manual 260713, printed pages 8-12",
+    "price_USD": 110,
+    "mass_g": 191,
+    "supply_range_V": [
+      15,
+      60
+    ],
+    "rated_voltage_V": 48,
+    "rated_rotating_torque_Nm": 1.6,
+    "continuous_stall_torque_Nm": 1.2,
+    "heat_sink_mm": [
+      70,
+      70
+    ],
+    "peak_stall_Nm": 5.5,
+    "peak_stall_duration_s": 1,
+    "manufacturer_rotating_overload_table_Nm_s": [
+      [
+        5.5,
+        3
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        4.5,
+        8
+      ],
+      [
+        4,
+        13
+      ],
+      [
+        3.5,
+        21
+      ],
+      [
+        3,
+        42
+      ],
+      [
+        2.5,
+        90
+      ],
+      [
+        2,
+        278
+      ]
+    ],
+    "manufacturer_stall_overload_table_Nm_s": [
+      [
+        5.5,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        3,
+        12
+      ],
+      [
+        1.6,
+        175
+      ]
+    ],
+    "curve_48V_approximate_rpm_Nm": [
+      [
+        0.0,
+        5.5
+      ],
+      [
+        70.0,
+        5.5
+      ],
+      [
+        100.0,
+        5.3
+      ],
+      [
+        150.0,
+        4.95
+      ],
+      [
+        200.0,
+        4.6
+      ],
+      [
+        250.0,
+        4.2
+      ],
+      [
+        275.0,
+        3.98
+      ],
+      [
+        300.0,
+        3.65
+      ],
+      [
+        325.0,
+        3.2
+      ],
+      [
+        350.0,
+        2.85
+      ],
+      [
+        400.0,
+        2.25
+      ],
+      [
+        425.0,
+        1.94
+      ],
+      [
+        450.0,
+        1.56
+      ],
+      [
+        460.0,
+        1.3
+      ],
+      [
+        475.0,
+        0.6
+      ]
+    ],
+    "chosen_curve_reading_allowance_Nm": 0.15,
+    "line_resistance_ohm": null,
+    "output_inertia_kg_m2": null,
+    "discrepancy": "July README says 1.8 Nm; detailed July manual and website say 1.6 Nm. Use 1.6 with specified heat sink until resolved.",
+    "cases": [
+      {
+        "mass_kg": 2.2,
+        "guide_mu": 0.0,
+        "assumed_extra_output_inertia_kg_m2": 0,
+        "peak_torque_Nm": 3.752681984886787,
+        "minimum_curve_margin_Nm": 0.97633558416043,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.2,
+        "guide_mu": 0.0,
+        "assumed_extra_output_inertia_kg_m2": 0.0005,
+        "peak_torque_Nm": 3.43909489259928,
+        "minimum_curve_margin_Nm": 1.289922676447937,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.2,
+        "guide_mu": 0.0,
+        "assumed_extra_output_inertia_kg_m2": 0.002,
+        "peak_torque_Nm": 3.337898631271478,
+        "minimum_curve_margin_Nm": 1.2832849878603616,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.2,
+        "guide_mu": 0.2,
+        "assumed_extra_output_inertia_kg_m2": 0,
+        "peak_torque_Nm": 3.752681984886787,
+        "minimum_curve_margin_Nm": 0.97633558416043,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.2,
+        "guide_mu": 0.2,
+        "assumed_extra_output_inertia_kg_m2": 0.0005,
+        "peak_torque_Nm": 3.43909489259928,
+        "minimum_curve_margin_Nm": 1.289922676447937,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.2,
+        "guide_mu": 0.2,
+        "assumed_extra_output_inertia_kg_m2": 0.002,
+        "peak_torque_Nm": 3.337898631271478,
+        "minimum_curve_margin_Nm": 1.2832849878603616,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.2,
+        "guide_mu": 0.4,
+        "assumed_extra_output_inertia_kg_m2": 0,
+        "peak_torque_Nm": 3.752681984886787,
+        "minimum_curve_margin_Nm": 0.97633558416043,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.2,
+        "guide_mu": 0.4,
+        "assumed_extra_output_inertia_kg_m2": 0.0005,
+        "peak_torque_Nm": 3.43909489259928,
+        "minimum_curve_margin_Nm": 1.289922676447937,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.2,
+        "guide_mu": 0.4,
+        "assumed_extra_output_inertia_kg_m2": 0.002,
+        "peak_torque_Nm": 3.337898631271478,
+        "minimum_curve_margin_Nm": 1.2832849878603616,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.64,
+        "guide_mu": 0.0,
+        "assumed_extra_output_inertia_kg_m2": 0,
+        "peak_torque_Nm": 4.503218381864144,
+        "minimum_curve_margin_Nm": 0.2257991871830729,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.64,
+        "guide_mu": 0.0,
+        "assumed_extra_output_inertia_kg_m2": 0.0005,
+        "peak_torque_Nm": 4.189631289576637,
+        "minimum_curve_margin_Nm": 0.5393862794705804,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.64,
+        "guide_mu": 0.0,
+        "assumed_extra_output_inertia_kg_m2": 0.002,
+        "peak_torque_Nm": 3.96287979825576,
+        "minimum_curve_margin_Nm": 0.6583038208760792,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.64,
+        "guide_mu": 0.2,
+        "assumed_extra_output_inertia_kg_m2": 0,
+        "peak_torque_Nm": 4.503218381864144,
+        "minimum_curve_margin_Nm": 0.2257991871830729,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.64,
+        "guide_mu": 0.2,
+        "assumed_extra_output_inertia_kg_m2": 0.0005,
+        "peak_torque_Nm": 4.189631289576637,
+        "minimum_curve_margin_Nm": 0.5393862794705804,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.64,
+        "guide_mu": 0.2,
+        "assumed_extra_output_inertia_kg_m2": 0.002,
+        "peak_torque_Nm": 3.96287979825576,
+        "minimum_curve_margin_Nm": 0.6583038208760792,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.64,
+        "guide_mu": 0.4,
+        "assumed_extra_output_inertia_kg_m2": 0,
+        "peak_torque_Nm": 4.503218381864144,
+        "minimum_curve_margin_Nm": 0.2257991871830729,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.64,
+        "guide_mu": 0.4,
+        "assumed_extra_output_inertia_kg_m2": 0.0005,
+        "peak_torque_Nm": 4.189631289576637,
+        "minimum_curve_margin_Nm": 0.5393862794705804,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 2.64,
+        "guide_mu": 0.4,
+        "assumed_extra_output_inertia_kg_m2": 0.002,
+        "peak_torque_Nm": 3.96287979825576,
+        "minimum_curve_margin_Nm": 0.6583038208760792,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 3.0,
+        "guide_mu": 0.0,
+        "assumed_extra_output_inertia_kg_m2": 0,
+        "peak_torque_Nm": 5.1172936157547095,
+        "minimum_curve_margin_Nm": -0.3882760467074924,
+        "within_48V_prescribed_curve_screen": false,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 3.0,
+        "guide_mu": 0.0,
+        "assumed_extra_output_inertia_kg_m2": 0.0005,
+        "peak_torque_Nm": 4.803706523467202,
+        "minimum_curve_margin_Nm": -0.07468895441998491,
+        "within_48V_prescribed_curve_screen": false,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 3.0,
+        "guide_mu": 0.0,
+        "assumed_extra_output_inertia_kg_m2": 0.002,
+        "peak_torque_Nm": 4.474228025788355,
+        "minimum_curve_margin_Nm": 0.14695559334348474,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 3.0,
+        "guide_mu": 0.2,
+        "assumed_extra_output_inertia_kg_m2": 0,
+        "peak_torque_Nm": 5.1172936157547095,
+        "minimum_curve_margin_Nm": -0.3882760467074924,
+        "within_48V_prescribed_curve_screen": false,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 3.0,
+        "guide_mu": 0.2,
+        "assumed_extra_output_inertia_kg_m2": 0.0005,
+        "peak_torque_Nm": 4.803706523467202,
+        "minimum_curve_margin_Nm": -0.07468895441998491,
+        "within_48V_prescribed_curve_screen": false,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 3.0,
+        "guide_mu": 0.2,
+        "assumed_extra_output_inertia_kg_m2": 0.002,
+        "peak_torque_Nm": 4.474228025788355,
+        "minimum_curve_margin_Nm": 0.14695559334348474,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 3.0,
+        "guide_mu": 0.4,
+        "assumed_extra_output_inertia_kg_m2": 0,
+        "peak_torque_Nm": 5.1172936157547095,
+        "minimum_curve_margin_Nm": -0.3882760467074924,
+        "within_48V_prescribed_curve_screen": false,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 3.0,
+        "guide_mu": 0.4,
+        "assumed_extra_output_inertia_kg_m2": 0.0005,
+        "peak_torque_Nm": 4.803706523467202,
+        "minimum_curve_margin_Nm": -0.07468895441998491,
+        "within_48V_prescribed_curve_screen": false,
+        "lower_voltage_performance_known": false
+      },
+      {
+        "mass_kg": 3.0,
+        "guide_mu": 0.4,
+        "assumed_extra_output_inertia_kg_m2": 0.002,
+        "peak_torque_Nm": 4.474228025788355,
+        "minimum_curve_margin_Nm": 0.14695559334348474,
+        "within_48V_prescribed_curve_screen": true,
+        "lower_voltage_performance_known": false
+      }
+    ]
+  },
+  "edulite05": {
+    "price_USD": 80,
+    "mass_g": 242,
+    "ratio": 9,
+    "source": "Official English site object, archived exact extraction",
+    "supply_range_V": [
+      15,
+      60
+    ],
+    "line_resistance_ohm": 2.72,
+    "back_emf_Vrms_per_rotor_krpm": 7.4,
+    "torque_constant_Nm_per_Arms": 0.94,
+    "peak_phase_current_Apk": 11,
+    "cases": [
+      {
+        "mass_kg": 2.2,
+        "guide_mu": 0.0,
+        "nominal_minimum_bus_estimate_V": 28.38236813212186,
+        "favorable_constants_minimum_bus_estimate_V": 24.505025834930088,
+        "adverse_constants_minimum_bus_estimate_V": 32.846073671190005,
+        "nominal_peak_phase_current_Apk": 5.64584442372349,
+        "inertia_inductance_saturation_omitted": true,
+        "lower_voltage_performance_validated": false
+      },
+      {
+        "mass_kg": 2.2,
+        "guide_mu": 0.2,
+        "nominal_minimum_bus_estimate_V": 28.38236813212186,
+        "favorable_constants_minimum_bus_estimate_V": 24.505025834930088,
+        "adverse_constants_minimum_bus_estimate_V": 32.846073671190005,
+        "nominal_peak_phase_current_Apk": 5.64584442372349,
+        "inertia_inductance_saturation_omitted": true,
+        "lower_voltage_performance_validated": false
+      },
+      {
+        "mass_kg": 2.2,
+        "guide_mu": 0.4,
+        "nominal_minimum_bus_estimate_V": 28.38236813212186,
+        "favorable_constants_minimum_bus_estimate_V": 24.505025834930088,
+        "adverse_constants_minimum_bus_estimate_V": 32.846073671190005,
+        "nominal_peak_phase_current_Apk": 5.64584442372349,
+        "inertia_inductance_saturation_omitted": true,
+        "lower_voltage_performance_validated": false
+      },
+      {
+        "mass_kg": 2.64,
+        "guide_mu": 0.0,
+        "nominal_minimum_bus_estimate_V": 31.042226047158895,
+        "favorable_constants_minimum_bus_estimate_V": 26.63225501142482,
+        "adverse_constants_minimum_bus_estimate_V": 36.09701112290195,
+        "nominal_peak_phase_current_Apk": 6.775013308468188,
+        "inertia_inductance_saturation_omitted": true,
+        "lower_voltage_performance_validated": false
+      },
+      {
+        "mass_kg": 2.64,
+        "guide_mu": 0.2,
+        "nominal_minimum_bus_estimate_V": 31.042226047158895,
+        "favorable_constants_minimum_bus_estimate_V": 26.63225501142482,
+        "adverse_constants_minimum_bus_estimate_V": 36.09701112290195,
+        "nominal_peak_phase_current_Apk": 6.775013308468188,
+        "inertia_inductance_saturation_omitted": true,
+        "lower_voltage_performance_validated": false
+      },
+      {
+        "mass_kg": 2.64,
+        "guide_mu": 0.4,
+        "nominal_minimum_bus_estimate_V": 31.042226047158895,
+        "favorable_constants_minimum_bus_estimate_V": 26.63225501142482,
+        "adverse_constants_minimum_bus_estimate_V": 36.09701112290195,
+        "nominal_peak_phase_current_Apk": 6.775013308468188,
+        "inertia_inductance_saturation_omitted": true,
+        "lower_voltage_performance_validated": false
+      },
+      {
+        "mass_kg": 3.0,
+        "guide_mu": 0.0,
+        "nominal_minimum_bus_estimate_V": 33.2184734321892,
+        "favorable_constants_minimum_bus_estimate_V": 28.41282105372234,
+        "adverse_constants_minimum_bus_estimate_V": 38.75686903793898,
+        "nominal_peak_phase_current_Apk": 7.698878759622941,
+        "inertia_inductance_saturation_omitted": true,
+        "lower_voltage_performance_validated": false
+      },
+      {
+        "mass_kg": 3.0,
+        "guide_mu": 0.2,
+        "nominal_minimum_bus_estimate_V": 33.2184734321892,
+        "favorable_constants_minimum_bus_estimate_V": 28.41282105372234,
+        "adverse_constants_minimum_bus_estimate_V": 38.75686903793898,
+        "nominal_peak_phase_current_Apk": 7.698878759622941,
+        "inertia_inductance_saturation_omitted": true,
+        "lower_voltage_performance_validated": false
+      },
+      {
+        "mass_kg": 3.0,
+        "guide_mu": 0.4,
+        "nominal_minimum_bus_estimate_V": 33.2184734321892,
+        "favorable_constants_minimum_bus_estimate_V": 28.41282105372234,
+        "adverse_constants_minimum_bus_estimate_V": 38.75686903793898,
+        "nominal_peak_phase_current_Apk": 7.698878759622941,
+        "inertia_inductance_saturation_omitted": true,
+        "lower_voltage_performance_validated": false
+      }
+    ],
+    "convention_inferred_not_manufacturer_confirmed": true
+  },
+  "static_load_screen": [
+    {
+      "mass_kg": 2.2,
+      "loaded_legs": 2,
+      "ride_torque_per_loaded_hip_Nm": 0.12781418089216534,
+      "extend_torque_per_loaded_hip_Nm": 1.4251212452182727,
+      "interpretation": "Vertical static load only; one loaded leg does not establish roll equilibrium or one-wheel balance"
+    },
+    {
+      "mass_kg": 2.2,
+      "loaded_legs": 1,
+      "ride_torque_per_loaded_hip_Nm": 1.3458806251220072,
+      "extend_torque_per_loaded_hip_Nm": 2.8502424904365453,
+      "interpretation": "Vertical static load only; one loaded leg does not establish roll equilibrium or one-wheel balance"
+    },
+    {
+      "mass_kg": 2.64,
+      "loaded_legs": 2,
+      "ride_torque_per_loaded_hip_Nm": 0.3714274697381337,
+      "extend_torque_per_loaded_hip_Nm": 1.710145494261927,
+      "interpretation": "Vertical static load only; one loaded leg does not establish roll equilibrium or one-wheel balance"
+    },
+    {
+      "mass_kg": 2.64,
+      "loaded_legs": 1,
+      "ride_torque_per_loaded_hip_Nm": 1.833107202813944,
+      "extend_torque_per_loaded_hip_Nm": 3.420290988523854,
+      "interpretation": "Vertical static load only; one loaded leg does not establish roll equilibrium or one-wheel balance"
+    },
+    {
+      "mass_kg": 3.0,
+      "loaded_legs": 2,
+      "ride_torque_per_loaded_hip_Nm": 0.5707474333393803,
+      "extend_torque_per_loaded_hip_Nm": 1.9433471525703714,
+      "interpretation": "Vertical static load only; one loaded leg does not establish roll equilibrium or one-wheel balance"
+    },
+    {
+      "mass_kg": 3.0,
+      "loaded_legs": 1,
+      "ride_torque_per_loaded_hip_Nm": 2.231747130016437,
+      "extend_torque_per_loaded_hip_Nm": 3.8866943051407428,
+      "interpretation": "Vertical static load only; one loaded leg does not establish roll equilibrium or one-wheel balance"
+    }
+  ],
+  "numerical_checks": {
+    "energy_balance": [
+      {
+        "mass_kg": 2.2,
+        "guide_mu": 0.0,
+        "residual_J": 2.8029557164188645e-07
+      },
+      {
+        "mass_kg": 2.2,
+        "guide_mu": 0.2,
+        "residual_J": 2.7583004236220177e-07
+      },
+      {
+        "mass_kg": 2.2,
+        "guide_mu": 0.4,
+        "residual_J": 2.7189443008168723e-07
+      },
+      {
+        "mass_kg": 2.64,
+        "guide_mu": 0.0,
+        "residual_J": 3.2219563994573264e-07
+      },
+      {
+        "mass_kg": 2.64,
+        "guide_mu": 0.2,
+        "residual_J": 3.1773011066604795e-07
+      },
+      {
+        "mass_kg": 2.64,
+        "guide_mu": 0.4,
+        "residual_J": 3.137944979414442e-07
+      },
+      {
+        "mass_kg": 3.0,
+        "guide_mu": 0.0,
+        "residual_J": 3.5647751417400286e-07
+      },
+      {
+        "mass_kg": 3.0,
+        "guide_mu": 0.2,
+        "residual_J": 3.520119848943182e-07
+      },
+      {
+        "mass_kg": 3.0,
+        "guide_mu": 0.4,
+        "residual_J": 3.4807637216971443e-07
+      }
+    ],
+    "doubled_resolution_peak_load_difference_Nm": 6.252783643301285e-06,
+    "inferred_RS05_lossless_Kt_Nm_per_Arms": 0.9485613645731933
+  },
+  "limitations": [
+    "The 250 mm target here is ballistic COM rise, not the required wheel clearance or a demonstrated robot jump.",
+    "Equal translating leg loads, prescribed constant vertical acceleration, aligned springs on both sides; no free-body dynamics, landing, lateral stability or skill qualification.",
+    "RS05 curve points are read approximately from a 48 V graph. No translation/scaling to lower bus voltage is used; resistance, inductance and control behavior are not established.",
+    "EduLite voltage estimates assume sinusoidal line-line RMS back-EMF per rotor krpm, linear output torque constant, and ideal maximum linear SVPWM. Its advertised constants are not a measured low-voltage torque-speed curve.",
+    "Favorable/adverse constant sweeps vary Kt by 10% as an analyst assumption, not a published Kt tolerance. Omitted inductance, saturation, losses and inertia prevent a passing voltage qualification.",
+    "The 0/.0005/.002 kg m2 output inertia values are sensitivity assumptions; rotor and gear inertia require identification. Link inertia is omitted.",
+    "Overload durations require the stated heat sink and initial thermal state; repeated jumps, static standing and enclosed operation are not qualified.",
+    "Neither actuator is adopted. Battery, wheel driver, regenerative power handling, tie mounting, radial/moment loads and total cost remain open."
+  ]
+}

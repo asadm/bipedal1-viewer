@@ -1,0 +1,104 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "timestep_s": 0.00025,
+      "requested_per_wheel_Nm": 0.0,
+      "duration_s": 0.010000000000000007,
+      "gyro_change_rad_s": [
+        -0.009747473968592225,
+        -0.33421654554043817,
+        0.002678203508609833
+      ],
+      "peak_current_A": [
+        0.07134083443166582,
+        0.07156294564144175,
+        4.705411680702367,
+        4.7479571845204385
+      ]
+    },
+    {
+      "timestep_s": 0.00025,
+      "requested_per_wheel_Nm": 0.1,
+      "duration_s": 0.010000000000000007,
+      "gyro_change_rad_s": [
+        -0.009840623420371144,
+        -0.41897171496964736,
+        0.002181606787189882
+      ],
+      "peak_current_A": [
+        2.0606555072228403,
+        2.060695461806222,
+        4.858472948104918,
+        4.901016150214386
+      ]
+    },
+    {
+      "timestep_s": 0.00025,
+      "requested_per_wheel_Nm": -0.1,
+      "duration_s": 0.010000000000000007,
+      "gyro_change_rad_s": [
+        -0.009655153683440736,
+        -0.25250635600410126,
+        0.0031554447022157047
+      ],
+      "peak_current_A": [
+        2.0156424032921074,
+        2.0155649948949974,
+        4.558273462734711,
+        4.600802605082204
+      ]
+    },
+    {
+      "timestep_s": 0.000125,
+      "requested_per_wheel_Nm": 0.0,
+      "duration_s": 0.010000000000000007,
+      "gyro_change_rad_s": [
+        -0.009787006795890719,
+        -0.3357002009382375,
+        0.0026881470980283984
+      ],
+      "peak_current_A": [
+        0.07160039726753538,
+        0.07183506594085774,
+        4.7362684667617465,
+        4.77952614111761
+      ]
+    },
+    {
+      "timestep_s": 0.000125,
+      "requested_per_wheel_Nm": 0.1,
+      "duration_s": 0.010000000000000007,
+      "gyro_change_rad_s": [
+        -0.00988379490630565,
+        -0.4199513803362241,
+        0.0021964831150992747
+      ],
+      "peak_current_A": [
+        2.060687032551238,
+        2.060726621611809,
+        4.889657478087701,
+        4.932964136405003
+      ]
+    },
+    {
+      "timestep_s": 0.000125,
+      "requested_per_wheel_Nm": -0.1,
+      "duration_s": 0.010000000000000007,
+      "gyro_change_rad_s": [
+        -0.009689096347348087,
+        -0.25506891557063827,
+        0.003155854894095006
+      ],
+      "peak_current_A": [
+        2.0138036023928434,
+        2.0137259138090253,
+        4.5897350385856255,
+        4.632910675329297
+      ]
+    }
+  ],
+  "source_sha256": "c472d5bee17fcda29d512f44bb6f3ab0815669b6b6e461d01d0956f7ebf4754a",
+  "plant_manifest_sha256": "e733063a55088781d85aaf4a3c2f3ce7b05fd2c696a2f44fad78ebcc39284d9d",
+  "scope": "Six 10 ms floating-initial-state native drive probes establish torque/reaction sign at both timesteps. Negative paired wheel requests increase body pitch rate relative to zero wheel request. No recovery, ground-contact authority, damping gain or hardware performance is qualified."
+}

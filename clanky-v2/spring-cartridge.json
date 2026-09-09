@@ -1,0 +1,59 @@
+{
+  "status": "spring_slider_kinematics_only",
+  "config": {
+    "crank_radius_mm": 14.0,
+    "connecting_rod_mm": 40.0,
+    "axis_z_mm": -15.0,
+    "axis_y_mm": 47.0,
+    "fixed_seat_x_mm": 14.0,
+    "seat_to_pin_mm": 8.0,
+    "guide_rod_diameter_mm": 5.0,
+    "guide_rod_from_pin_mm": 63.0,
+    "free_spring_length_mm": 50.0,
+    "spring_od_mm": 12.0,
+    "spring_id_mm": 6.5,
+    "rate_N_mm": 5.5,
+    "maximum_design_compression_mm": 20.0,
+    "supplier_part": "MISUMI SWF12-50",
+    "source": "https://vn.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50"
+  },
+  "guide_shaft_screen": [
+    {
+      "diameter_mm": 4,
+      "assumed_E_MPa": 200000,
+      "maximum_bending_stress_MPa": 229.59981738361816,
+      "maximum_tip_deflection_mm": 0.41166585944541784
+    },
+    {
+      "diameter_mm": 5,
+      "assumed_E_MPa": 200000,
+      "maximum_bending_stress_MPa": 117.5551065004125,
+      "maximum_tip_deflection_mm": 0.16861833602884316
+    }
+  ],
+  "guide_selection": "5 mm replaces 4 mm after the simple bending screen; grade, fatigue, fits and guide wear remain unqualified.",
+  "angular_samples": 1201,
+  "maximum_rod_closure_error_mm": 1.4210854715202004e-14,
+  "slider_pin_range_x_mm": [
+    52.35381119594899,
+    76.47685607955557
+  ],
+  "maximum_compression_mm": 19.646188804051008,
+  "maximum_spring_force_N": 108.05403842228054,
+  "maximum_connecting_rod_force_N": 113.12101546697944,
+  "maximum_slider_side_force_N": 34.81966783780589,
+  "spring_pair_energy_release_stance_J": 2.0932550806170904,
+  "preliminary_load_screen": {
+    "assumed_mass_kg": 2.2,
+    "assumed_COM_flight_m": 0.25,
+    "assumed_per_wheel_force_N": 28.415260410149212,
+    "maximum_hip_torque_Nm": 3.7410753567901405,
+    "maximum_tie_force_N": 208.77425044738922,
+    "limitations": "Static constant-acceleration force allowance only; omits inertia, friction, motor limits, contact and landing."
+  },
+  "source_sha256": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff",
+  "geometry_sha256": "6a8d2a57e8122cc1bac4988e10243decd392112e5752e7b29881ebe77a131f11",
+  "mechanical_fit_pass": false,
+  "dynamics_validated": false,
+  "hardware_release": false
+}

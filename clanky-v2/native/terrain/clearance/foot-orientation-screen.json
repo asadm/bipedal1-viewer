@@ -1,0 +1,147 @@
+{
+  "scope": "Symmetric static wheel-supported clearance hypothesis using current CAD triangles and reflected lower/wheel aggregate COM. No rollout, self-collision, whole-robot packaging, interface fit, wiring, gear/key phase, thermal or manufacturing qualification. The existing viewer and physical model are unchanged.",
+  "source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+    "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+    "native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+    "native/mass-properties.json": "0d5c5d21f94f9282dd107cc92a867e4c4f888601783eda00580f5f71d0e970c7",
+    "native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+    "native_foot_orientation_screen.py": "43ab60d7f7c59cd3c2e8652e35591d69881b21b040ec1cad4ac4d00e47e0d2cd",
+    "terrain/case-contact-audit.json": "14a7c35c1923c66141fc9ae50bee8ff7f8c80f97d6bca875619b9004e620e76e"
+  },
+  "motors": 4,
+  "wheel_diameter_mm": 120,
+  "hardware_adopted": false,
+  "cases": [
+    {
+      "hip_rad": -0.38,
+      "module": "current",
+      "aligned_pitch_deg": 12.657056375562028,
+      "clearances_mm": {
+        "left_drive_shin_case": 14.084906243240834,
+        "left_drive_encoder_service_cap": 14.084824108594493
+      },
+      "minimum_sampled_case_clearance_mm": 14.084824108594493
+    },
+    {
+      "hip_rad": -0.38,
+      "module": "reflected_offset_proposal",
+      "aligned_pitch_deg": 15.364367945542151,
+      "clearances_mm": {
+        "left_drive_shin_case": 32.00100932621459,
+        "left_drive_encoder_service_cap": 65.64933958405564
+      },
+      "minimum_sampled_case_clearance_mm": 32.00100932621459
+    },
+    {
+      "hip_rad": 0,
+      "module": "current",
+      "aligned_pitch_deg": 11.449388551178531,
+      "clearances_mm": {
+        "left_drive_shin_case": 14.122954988552703,
+        "left_drive_encoder_service_cap": 14.12287968389679
+      },
+      "minimum_sampled_case_clearance_mm": 14.12287968389679
+    },
+    {
+      "hip_rad": 0,
+      "module": "reflected_offset_proposal",
+      "aligned_pitch_deg": 13.266424758747476,
+      "clearances_mm": {
+        "left_drive_shin_case": 32.00983431875895,
+        "left_drive_encoder_service_cap": 65.37936170206423
+      },
+      "minimum_sampled_case_clearance_mm": 32.00983431875895
+    },
+    {
+      "hip_rad": 0.419,
+      "module": "current",
+      "aligned_pitch_deg": 6.5742827277748495,
+      "clearances_mm": {
+        "left_drive_shin_case": 16.669512648108764,
+        "left_drive_encoder_service_cap": 16.669404791528084
+      },
+      "minimum_sampled_case_clearance_mm": 16.669404791528084
+    },
+    {
+      "hip_rad": 0.419,
+      "module": "reflected_offset_proposal",
+      "aligned_pitch_deg": 8.14039257349707,
+      "clearances_mm": {
+        "left_drive_shin_case": 32.00994353507438,
+        "left_drive_encoder_service_cap": 62.86433794098799
+      },
+      "minimum_sampled_case_clearance_mm": 32.00994353507438
+    },
+    {
+      "hip_rad": 0.7,
+      "module": "current",
+      "aligned_pitch_deg": 3.3742082977161894,
+      "clearances_mm": {
+        "left_drive_shin_case": 19.72822403337088,
+        "left_drive_encoder_service_cap": 19.728166572260204
+      },
+      "minimum_sampled_case_clearance_mm": 19.728166572260204
+    },
+    {
+      "hip_rad": 0.7,
+      "module": "reflected_offset_proposal",
+      "aligned_pitch_deg": 4.8919215647973235,
+      "clearances_mm": {
+        "left_drive_shin_case": 32.00892794875787,
+        "left_drive_encoder_service_cap": 59.874250207165765
+      },
+      "minimum_sampled_case_clearance_mm": 32.00892794875787
+    },
+    {
+      "hip_rad": 0.95,
+      "module": "current",
+      "aligned_pitch_deg": 2.5986963057744377,
+      "clearances_mm": {
+        "left_drive_shin_case": 23.463111879261632,
+        "left_drive_encoder_service_cap": 23.4632840115371
+      },
+      "minimum_sampled_case_clearance_mm": 23.463111879261632
+    },
+    {
+      "hip_rad": 0.95,
+      "module": "reflected_offset_proposal",
+      "aligned_pitch_deg": 4.100651236940218,
+      "clearances_mm": {
+        "left_drive_shin_case": 32.0004785750112,
+        "left_drive_encoder_service_cap": 55.36431114448644
+      },
+      "minimum_sampled_case_clearance_mm": 32.0004785750112
+    },
+    {
+      "hip_rad": 1.03,
+      "module": "current",
+      "aligned_pitch_deg": 3.9548384993900187,
+      "clearances_mm": {
+        "left_drive_shin_case": 24.866593701674088,
+        "left_drive_encoder_service_cap": 24.867074767541872
+      },
+      "minimum_sampled_case_clearance_mm": 24.866593701674088
+    },
+    {
+      "hip_rad": 1.03,
+      "module": "reflected_offset_proposal",
+      "aligned_pitch_deg": 5.454145889561295,
+      "clearances_mm": {
+        "left_drive_shin_case": 32.0002810567025,
+        "left_drive_encoder_service_cap": 52.283715320769446
+      },
+      "minimum_sampled_case_clearance_mm": 32.0002810567025
+    }
+  ]
+}

@@ -1,0 +1,4962 @@
+{
+  "commit": "cd21ba47d13f5c3165e8d789feed4cd98bcb4fcc",
+  "source_base": "https://github.com/asadm/bipedal1/blob/cd21ba47d13f5c3165e8d789feed4cd98bcb4fcc/design/",
+  "scope": "Development records excluded from Pages; retained in the source repository.",
+  "files": [
+    {
+      "path": "clanky-v2/geared-wheel-relief.step",
+      "bytes": 4564531,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "clanky-v2/geared-wheel-relief.stl",
+      "bytes": 1116684,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "clanky-v2/hardware-references/hip-gears/2302-0014-0060.step",
+      "bytes": 1781871,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "clanky-v2/hardware-references/hip-gears/2302-0014-0080.step",
+      "bytes": 2319174,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "clanky-v2/hardware-references/hip-gears/2303-1006-0015.step",
+      "bytes": 2607963,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "clanky-v2/hardware-references/hip-gears/2303-1006-0020.step",
+      "bytes": 1528853,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "clanky-v2/hip-joint/joint.step",
+      "bytes": 1292443,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "clanky-v2/hip-motor-pocket/allocations.step",
+      "bytes": 328163,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "clanky-v2/hip-tie-anchor.step",
+      "bytes": 29299,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "clanky-v2/large-wheel/README.md",
+      "bytes": 5839,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/geometry-screen.json",
+      "bytes": 12790,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/manifest.json",
+      "bytes": 6039,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/README.md",
+      "bytes": 2904,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/implementation-checks.json",
+      "bytes": 29613,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/models/wheel-120-plane-parameters.json",
+      "bytes": 129682,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/models/wheel-120-plane.xml",
+      "bytes": 266372,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/models/wheel-140-plane-parameters.json",
+      "bytes": 129677,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/models/wheel-140-plane.xml",
+      "bytes": 266403,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/models/wheel-150-plane-parameters.json",
+      "bytes": 129681,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/models/wheel-150-plane.xml",
+      "bytes": 266376,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/refinement-140.json",
+      "bytes": 8996,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/refinement-150.json",
+      "bytes": 9038,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain-refinement-140.json",
+      "bytes": 3229,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain-refinement-150.json",
+      "bytes": 3182,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/flat-140-250us/parameters.json",
+      "bytes": 129676,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/flat-140-250us/report.json",
+      "bytes": 8020,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/flat-140-250us/surface.json",
+      "bytes": 724934,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/flat-140-250us/trajectory.json",
+      "bytes": 1337492,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/flat-150-250us/parameters.json",
+      "bytes": 129680,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/flat-150-250us/report.json",
+      "bytes": 8021,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/flat-150-250us/surface.json",
+      "bytes": 724934,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/flat-150-250us/trajectory.json",
+      "bytes": 1337479,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones20-140-250us/parameters.json",
+      "bytes": 129681,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones20-140-250us/report.json",
+      "bytes": 10718,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones20-140-250us/surface.json",
+      "bytes": 781334,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones20-140-250us/trajectory.json",
+      "bytes": 1320384,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones20-150-250us/parameters.json",
+      "bytes": 129685,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones20-150-250us/report.json",
+      "bytes": 10726,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones20-150-250us/surface.json",
+      "bytes": 781334,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones20-150-250us/trajectory.json",
+      "bytes": 1319845,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-10A-140-250us/parameters.json",
+      "bytes": 129682,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-10A-140-250us/report.json",
+      "bytes": 10437,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-10A-140-250us/surface.json",
+      "bytes": 780912,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-10A-140-250us/trajectory.json",
+      "bytes": 1327815,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-10A-150-250us/parameters.json",
+      "bytes": 129686,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-10A-150-250us/report.json",
+      "bytes": 10446,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-10A-150-250us/surface.json",
+      "bytes": 780912,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-10A-150-250us/trajectory.json",
+      "bytes": 1328816,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-120-250us/parameters.json",
+      "bytes": 129686,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-120-250us/report.json",
+      "bytes": 10441,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-120-250us/surface.json",
+      "bytes": 780912,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-120-250us/trajectory.json",
+      "bytes": 671673,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-140-250us/parameters.json",
+      "bytes": 129681,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-140-250us/report.json",
+      "bytes": 10438,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-140-250us/surface.json",
+      "bytes": 780912,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-140-250us/trajectory.json",
+      "bytes": 1328408,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-150-250us/parameters.json",
+      "bytes": 129685,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-150-250us/report.json",
+      "bytes": 10435,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-150-250us/surface.json",
+      "bytes": 780912,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-150-250us/trajectory.json",
+      "bytes": 1329127,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-heading-140-250us/parameters.json",
+      "bytes": 129681,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-heading-140-250us/report.json",
+      "bytes": 10583,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-heading-140-250us/surface.json",
+      "bytes": 780912,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-heading-140-250us/trajectory.json",
+      "bytes": 821449,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-heading-150-250us/parameters.json",
+      "bytes": 129685,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-heading-150-250us/report.json",
+      "bytes": 10657,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-heading-150-250us/surface.json",
+      "bytes": 780912,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-heading-150-250us/trajectory.json",
+      "bytes": 1318648,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-raised-140-250us/parameters.json",
+      "bytes": 129681,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-raised-140-250us/report.json",
+      "bytes": 10574,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-raised-140-250us/surface.json",
+      "bytes": 780912,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-raised-140-250us/trajectory.json",
+      "bytes": 1302684,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-raised-150-250us/parameters.json",
+      "bytes": 129685,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-raised-150-250us/report.json",
+      "bytes": 10443,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-raised-150-250us/surface.json",
+      "bytes": 780912,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/terrain/stones30-raised-150-250us/trajectory.json",
+      "bytes": 1309509,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/balance-120-250us/parameters.json",
+      "bytes": 129783,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/balance-120-250us/report.json",
+      "bytes": 7718,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/balance-120-250us/trajectory.json",
+      "bytes": 1549783,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/balance-140-250us/parameters.json",
+      "bytes": 129778,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/balance-140-250us/report.json",
+      "bytes": 7710,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/balance-140-250us/trajectory.json",
+      "bytes": 1551631,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/balance-150-250us/parameters.json",
+      "bytes": 129782,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/balance-150-250us/report.json",
+      "bytes": 7709,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/balance-150-250us/trajectory.json",
+      "bytes": 1550199,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/jump-120-250us/parameters.json",
+      "bytes": 129783,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/jump-120-250us/report.json",
+      "bytes": 8260,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/jump-120-250us/trajectory.json",
+      "bytes": 1513263,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/jump-140-250us/parameters.json",
+      "bytes": 129778,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/jump-140-250us/report.json",
+      "bytes": 8292,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/jump-140-250us/trajectory.json",
+      "bytes": 1508121,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/jump-150-250us/parameters.json",
+      "bytes": 129782,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/jump-150-250us/report.json",
+      "bytes": 8290,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/jump-150-250us/trajectory.json",
+      "bytes": 1507778,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean240-tuck150-250us/parameters.json",
+      "bytes": 129882,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean240-tuck150-250us/report.json",
+      "bytes": 8380,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean240-tuck150-250us/trajectory.json",
+      "bytes": 1509031,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean240-tuck220-250us/parameters.json",
+      "bytes": 129882,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean240-tuck220-250us/report.json",
+      "bytes": 8383,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean240-tuck220-250us/trajectory.json",
+      "bytes": 1508702,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean240-tuck300-250us/parameters.json",
+      "bytes": 129882,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean240-tuck300-250us/report.json",
+      "bytes": 8381,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean240-tuck300-250us/trajectory.json",
+      "bytes": 1508791,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean280-tuck150-250us/parameters.json",
+      "bytes": 129882,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean280-tuck150-250us/report.json",
+      "bytes": 8389,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean280-tuck150-250us/trajectory.json",
+      "bytes": 1508391,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean280-tuck220-250us/parameters.json",
+      "bytes": 129882,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean280-tuck220-250us/report.json",
+      "bytes": 8385,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean280-tuck220-250us/trajectory.json",
+      "bytes": 1508485,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean280-tuck300-250us/parameters.json",
+      "bytes": 129882,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean280-tuck300-250us/report.json",
+      "bytes": 8386,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-140-lean280-tuck300-250us/trajectory.json",
+      "bytes": 1508403,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean240-tuck150-250us/parameters.json",
+      "bytes": 129886,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean240-tuck150-250us/report.json",
+      "bytes": 8389,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean240-tuck150-250us/trajectory.json",
+      "bytes": 1507720,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean240-tuck220-250us/parameters.json",
+      "bytes": 129886,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean240-tuck220-250us/report.json",
+      "bytes": 8390,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean240-tuck220-250us/trajectory.json",
+      "bytes": 1508146,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean240-tuck300-250us/parameters.json",
+      "bytes": 129886,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean240-tuck300-250us/report.json",
+      "bytes": 8385,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean240-tuck300-250us/trajectory.json",
+      "bytes": 1507341,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean280-tuck150-250us/parameters.json",
+      "bytes": 129886,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean280-tuck150-250us/report.json",
+      "bytes": 8394,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean280-tuck150-250us/trajectory.json",
+      "bytes": 1510082,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean280-tuck220-250us/parameters.json",
+      "bytes": 129886,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean280-tuck220-250us/report.json",
+      "bytes": 8394,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean280-tuck220-250us/trajectory.json",
+      "bytes": 1509251,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean280-tuck300-250us/parameters.json",
+      "bytes": 129886,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean280-tuck300-250us/report.json",
+      "bytes": 8387,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/native/trials/refine-150-lean280-tuck300-250us/trajectory.json",
+      "bytes": 1510414,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/tire-140x20.json",
+      "bytes": 1792401,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/tire-140x20.step",
+      "bytes": 6098378,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/tire-140x20.stl",
+      "bytes": 1724484,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/tire-150x20.json",
+      "bytes": 2161864,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/tire-150x20.step",
+      "bytes": 7203810,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/large-wheel/tire-150x20.stl",
+      "bytes": 2077284,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/native/deeper-tuck-0/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/deeper-tuck-0/trajectory.json",
+      "bytes": 1203123,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/deeper-tuck-1/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/deeper-tuck-1/trajectory.json",
+      "bytes": 1200397,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/deeper-tuck-2/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/deeper-tuck-2/trajectory.json",
+      "bytes": 1199016,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/deeper-tuck-3/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/deeper-tuck-3/trajectory.json",
+      "bytes": 1201855,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/baseline-125us/parameters.json",
+      "bytes": 127689,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/baseline-125us/trajectory.json",
+      "bytes": 1200296,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/baseline-250us/parameters.json",
+      "bytes": 127688,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/baseline-250us/trajectory.json",
+      "bytes": 1201945,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/cad_armature-125us/parameters.json",
+      "bytes": 127674,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/cad_armature-125us/trajectory.json",
+      "bytes": 1198661,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/cad_armature-250us/parameters.json",
+      "bytes": 127673,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/cad_armature-250us/trajectory.json",
+      "bytes": 1198503,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/explicit-125us/parameters.json",
+      "bytes": 127771,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/explicit-125us/trajectory.json",
+      "bytes": 1401320,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/explicit-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/explicit-250us/trajectory.json",
+      "bytes": 1401114,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/integrator_only-125us/parameters.json",
+      "bytes": 127696,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/integrator_only-125us/trajectory.json",
+      "bytes": 1199254,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/integrator_only-250us/parameters.json",
+      "bytes": 127695,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/integrator_only-250us/trajectory.json",
+      "bytes": 1200268,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/lean-240-250us/parameters.json",
+      "bytes": 127873,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/lean-240-250us/trajectory.json",
+      "bytes": 1381244,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/lean-260-125us/parameters.json",
+      "bytes": 127874,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/lean-260-125us/trajectory.json",
+      "bytes": 1406773,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/lean-260-250us/parameters.json",
+      "bytes": 127873,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/lean-260-250us/trajectory.json",
+      "bytes": 1404635,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/lean-270-250us/parameters.json",
+      "bytes": 127873,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/drivetrain/lean-270-250us/trajectory.json",
+      "bytes": 1400890,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/first-balance/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/first-balance/trajectory.json",
+      "bytes": 741977,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/first-jump/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/first-jump/trajectory.json",
+      "bytes": 700269,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-0/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-0/trajectory.json",
+      "bytes": 570565,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-1/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-1/trajectory.json",
+      "bytes": 560305,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-2/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-2/trajectory.json",
+      "bytes": 571012,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-3/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-3/trajectory.json",
+      "bytes": 572923,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-4/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-4/trajectory.json",
+      "bytes": 560113,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-5/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-5/trajectory.json",
+      "bytes": 563447,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-6/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-6/trajectory.json",
+      "bytes": 577007,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-7/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-posture-7/trajectory.json",
+      "bytes": 563233,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-0/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-0/trajectory.json",
+      "bytes": 1196673,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-1/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-1/trajectory.json",
+      "bytes": 1196771,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-2/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-2/trajectory.json",
+      "bytes": 1199267,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-3/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-3/trajectory.json",
+      "bytes": 1196631,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-4/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-4/trajectory.json",
+      "bytes": 1198355,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-5/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-5/trajectory.json",
+      "bytes": 1196453,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-6/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-6/trajectory.json",
+      "bytes": 1196413,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-7/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/flight-tuck-7/trajectory.json",
+      "bytes": 1196301,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-battery_9V6-125us/parameters.json",
+      "bytes": 120479,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-battery_9V6-125us/trajectory.json",
+      "bytes": 1187018,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-battery_9V6-250us/parameters.json",
+      "bytes": 120478,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-battery_9V6-250us/trajectory.json",
+      "bytes": 1189123,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-higher_friction-125us/parameters.json",
+      "bytes": 120481,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-higher_friction-125us/trajectory.json",
+      "bytes": 1200641,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-higher_friction-250us/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-higher_friction-250us/trajectory.json",
+      "bytes": 1200152,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-mass_minus_20pct-125us/parameters.json",
+      "bytes": 120481,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-mass_minus_20pct-125us/trajectory.json",
+      "bytes": 1188205,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-mass_minus_20pct-250us/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-mass_minus_20pct-250us/trajectory.json",
+      "bytes": 1188708,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-mass_plus_20pct-125us/parameters.json",
+      "bytes": 120481,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-mass_plus_20pct-125us/trajectory.json",
+      "bytes": 1197425,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-mass_plus_20pct-250us/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-mass_plus_20pct-250us/trajectory.json",
+      "bytes": 1197626,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-nominal-125us/parameters.json",
+      "bytes": 120481,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-nominal-125us/trajectory.json",
+      "bytes": 1200206,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-nominal-250us/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/jump-validation-nominal-250us/trajectory.json",
+      "bytes": 1201855,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/landing-anchor-baseline/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/landing-anchor-baseline/trajectory.json",
+      "bytes": 721014,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-0/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-0/trajectory.json",
+      "bytes": 575150,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-1/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-1/trajectory.json",
+      "bytes": 573615,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-2/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-2/trajectory.json",
+      "bytes": 573687,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-3/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-3/trajectory.json",
+      "bytes": 577185,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-4/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-4/trajectory.json",
+      "bytes": 573639,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-5/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-5/trajectory.json",
+      "bytes": 565522,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-6/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-6/trajectory.json",
+      "bytes": 561237,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-7/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-bias-7/trajectory.json",
+      "bytes": 572338,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-screen-0/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-screen-0/trajectory.json",
+      "bytes": 576211,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-screen-1/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-screen-1/trajectory.json",
+      "bytes": 577721,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-screen-2/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-screen-2/trajectory.json",
+      "bytes": 579280,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-screen-3/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-screen-3/trajectory.json",
+      "bytes": 566980,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-screen-4/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-screen-4/trajectory.json",
+      "bytes": 577583,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-screen-5/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-screen-5/trajectory.json",
+      "bytes": 572731,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-0/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-0/trajectory.json",
+      "bytes": 1196816,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-1/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-1/trajectory.json",
+      "bytes": 1176609,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-2/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-2/trajectory.json",
+      "bytes": 1176252,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-3/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-3/trajectory.json",
+      "bytes": 1176085,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-4/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-4/trajectory.json",
+      "bytes": 1176146,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-5/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-5/trajectory.json",
+      "bytes": 1177001,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-6/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-6/trajectory.json",
+      "bytes": 1176747,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-7/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-7/trajectory.json",
+      "bytes": 1178534,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-8/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/launch-tail-8/trajectory.json",
+      "bytes": 1176864,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-0/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-0/trajectory.json",
+      "bytes": 1196963,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-1/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-1/trajectory.json",
+      "bytes": 1196490,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-2/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-2/trajectory.json",
+      "bytes": 1195967,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-3/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-3/trajectory.json",
+      "bytes": 1197563,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-4/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-4/trajectory.json",
+      "bytes": 1200520,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-5/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-5/trajectory.json",
+      "bytes": 1200502,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-6/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-6/trajectory.json",
+      "bytes": 1200875,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-7/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-7/trajectory.json",
+      "bytes": 1200687,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-8/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/lean-powered-8/trajectory.json",
+      "bytes": 1200282,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/prelaunch-lean-0/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/prelaunch-lean-0/trajectory.json",
+      "bytes": 721221,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/prelaunch-lean-1/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/prelaunch-lean-1/trajectory.json",
+      "bytes": 718648,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/prelaunch-lean-2/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/prelaunch-lean-2/trajectory.json",
+      "bytes": 700418,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/prelaunch-lean-3/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/prelaunch-lean-3/trajectory.json",
+      "bytes": 714071,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/prelaunch-lean-4/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/prelaunch-lean-4/trajectory.json",
+      "bytes": 714024,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/back-reach240-wheel-35-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/back-reach240-wheel-35-250us/trajectory.json",
+      "bytes": 1361450,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/back-reach240-wheel0-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/back-reach240-wheel0-250us/trajectory.json",
+      "bytes": 1363047,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/back-reach240-wheel35-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/back-reach240-wheel35-250us/trajectory.json",
+      "bytes": 1372944,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/back-reach270-wheel-35-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/back-reach270-wheel-35-250us/trajectory.json",
+      "bytes": 1352618,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/back-reach270-wheel0-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/back-reach270-wheel0-250us/trajectory.json",
+      "bytes": 1362125,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/back-reach270-wheel35-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/back-reach270-wheel35-250us/trajectory.json",
+      "bytes": 1357341,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/front-reach180-wheel-35-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/front-reach180-wheel-35-250us/trajectory.json",
+      "bytes": 1367183,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/front-reach180-wheel0-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/front-reach180-wheel0-250us/trajectory.json",
+      "bytes": 1378301,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/front-reach180-wheel35-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/front-reach180-wheel35-250us/trajectory.json",
+      "bytes": 1363402,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/front-reach250-wheel-35-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/front-reach250-wheel-35-250us/trajectory.json",
+      "bytes": 1367902,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/front-reach250-wheel0-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/front-reach250-wheel0-250us/trajectory.json",
+      "bytes": 1365840,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/front-reach250-wheel35-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/active-seeds/front-reach250-wheel35-250us/trajectory.json",
+      "bytes": 1373296,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/back-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/back-250us/trajectory.json",
+      "bytes": 528143,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/back_left-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/back_left-250us/trajectory.json",
+      "bytes": 523166,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/back_right-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/back_right-250us/trajectory.json",
+      "bytes": 523312,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/front-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/front-250us/trajectory.json",
+      "bytes": 520439,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/front_left-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/front_left-250us/trajectory.json",
+      "bytes": 510718,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/front_right-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/front_right-250us/trajectory.json",
+      "bytes": 509726,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/inverted-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/inverted-250us/trajectory.json",
+      "bytes": 528380,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/left-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/left-250us/trajectory.json",
+      "bytes": 518645,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/right-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/held-starts/right-250us/trajectory.json",
+      "bytes": 514187,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/back-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/back-250us/trajectory.json",
+      "bytes": 343172,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/back_left-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/back_left-250us/trajectory.json",
+      "bytes": 335850,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/back_right-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/back_right-250us/trajectory.json",
+      "bytes": 336518,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/front-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/front-250us/trajectory.json",
+      "bytes": 341777,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/front_left-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/front_left-250us/trajectory.json",
+      "bytes": 337392,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/front_right-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/front_right-250us/trajectory.json",
+      "bytes": 337228,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/inverted-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/inverted-250us/trajectory.json",
+      "bytes": 337975,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/left-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/left-250us/trajectory.json",
+      "bytes": 333492,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/right-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/rest/right-250us/trajectory.json",
+      "bytes": 334655,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/standing-125us/parameters.json",
+      "bytes": 127771,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/standing-125us/trajectory.json",
+      "bytes": 1456977,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/standing-250us-recorded/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/standing-250us-recorded/trajectory.json",
+      "bytes": 1453112,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/turnaround/back-q-110-t300-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/turnaround/back-q-110-t300-250us/trajectory.json",
+      "bytes": 1377690,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/turnaround/back-q-110-t450-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/turnaround/back-q-110-t450-250us/trajectory.json",
+      "bytes": 1381434,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/turnaround/back-q-70-t300-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/turnaround/back-q-70-t300-250us/trajectory.json",
+      "bytes": 1380486,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/turnaround/back-q-70-t450-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/turnaround/back-q-70-t450-250us/trajectory.json",
+      "bytes": 1382082,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/turnaround/front-q95-t250-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/turnaround/front-q95-t250-250us/trajectory.json",
+      "bytes": 1367000,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/turnaround/front-q95-t500-250us/parameters.json",
+      "bytes": 127770,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/trials/turnaround/front-q95-t500-250us/trajectory.json",
+      "bytes": 1365701,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/cap-only-419-250us/parameters.json",
+      "bytes": 128443,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/cap-only-419-250us/surface.json",
+      "bytes": 780912,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/cap-only-419-250us/trajectory.json",
+      "bytes": 670581,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/flat-950-125us/parameters.json",
+      "bytes": 128441,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/flat-950-125us/surface.json",
+      "bytes": 724934,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/flat-950-125us/trajectory.json",
+      "bytes": 1289331,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/flat-950-250us/parameters.json",
+      "bytes": 128440,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/flat-950-250us/surface.json",
+      "bytes": 724934,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/flat-950-250us/trajectory.json",
+      "bytes": 1288273,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/raised-700-250us/parameters.json",
+      "bytes": 128443,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/raised-700-250us/surface.json",
+      "bytes": 780912,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/raised-700-250us/trajectory.json",
+      "bytes": 611848,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/raised-700-heading2-250us/parameters.json",
+      "bytes": 128443,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/raised-700-heading2-250us/surface.json",
+      "bytes": 780912,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/raised-700-heading2-250us/trajectory.json",
+      "bytes": 573653,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/raised-950-125us/parameters.json",
+      "bytes": 128444,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/raised-950-125us/surface.json",
+      "bytes": 780912,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/raised-950-125us/trajectory.json",
+      "bytes": 585220,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/raised-950-250us/parameters.json",
+      "bytes": 128443,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/raised-950-250us/surface.json",
+      "bytes": 780912,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/raised-950-250us/trajectory.json",
+      "bytes": 585065,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/raised-950-heading2-250us/parameters.json",
+      "bytes": 128443,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/raised-950-heading2-250us/surface.json",
+      "bytes": 780912,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/clearance/raised-950-heading2-250us/trajectory.json",
+      "bytes": 552785,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-cross_slope--10-250us/parameters.json",
+      "bytes": 128048,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-cross_slope--10-250us/surface.json",
+      "bytes": 3513140,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-cross_slope--10-250us/trajectory.json",
+      "bytes": 1305526,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-cross_slope--5-250us/parameters.json",
+      "bytes": 128047,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-cross_slope--5-250us/surface.json",
+      "bytes": 3421596,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-cross_slope--5-250us/trajectory.json",
+      "bytes": 1308812,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-cross_slope-10-250us/parameters.json",
+      "bytes": 128047,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-cross_slope-10-250us/surface.json",
+      "bytes": 3513140,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-cross_slope-10-250us/trajectory.json",
+      "bytes": 1306075,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-cross_slope-5-250us/parameters.json",
+      "bytes": 128046,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-cross_slope-5-250us/surface.json",
+      "bytes": 3421596,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-cross_slope-5-250us/trajectory.json",
+      "bytes": 1309855,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-flat-0-250us/parameters.json",
+      "bytes": 128039,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-flat-0-250us/surface.json",
+      "bytes": 724934,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-flat-0-250us/trajectory.json",
+      "bytes": 1315880,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-slope--10-250us/parameters.json",
+      "bytes": 128042,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-slope--10-250us/surface.json",
+      "bytes": 3447897,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-slope--10-250us/trajectory.json",
+      "bytes": 1308730,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-slope--5-250us/parameters.json",
+      "bytes": 128041,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-slope--5-250us/surface.json",
+      "bytes": 3481263,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-slope--5-250us/trajectory.json",
+      "bytes": 1311532,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-slope-10-250us/parameters.json",
+      "bytes": 128041,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-slope-10-250us/surface.json",
+      "bytes": 1933547,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-slope-10-250us/trajectory.json",
+      "bytes": 1303754,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-slope-5-250us/parameters.json",
+      "bytes": 128040,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-slope-5-250us/surface.json",
+      "bytes": 1966913,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-slope-5-250us/trajectory.json",
+      "bytes": 1311737,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-stones-0.01-250us/parameters.json",
+      "bytes": 128044,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-stones-0.01-250us/surface.json",
+      "bytes": 782262,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-stones-0.01-250us/trajectory.json",
+      "bytes": 1307925,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-stones-0.02-250us/parameters.json",
+      "bytes": 128044,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-stones-0.02-250us/surface.json",
+      "bytes": 781334,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-stones-0.02-250us/trajectory.json",
+      "bytes": 1299897,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-stones-0.03-250us/parameters.json",
+      "bytes": 128044,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-stones-0.03-250us/surface.json",
+      "bytes": 780912,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/coarse-stones-0.03-250us/trajectory.json",
+      "bytes": 658726,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-cross_slope--10-125us/parameters.json",
+      "bytes": 128049,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-cross_slope--10-125us/surface.json",
+      "bytes": 3513140,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-cross_slope--10-125us/trajectory.json",
+      "bytes": 1306241,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-cross_slope--5-125us/parameters.json",
+      "bytes": 128048,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-cross_slope--5-125us/surface.json",
+      "bytes": 3421596,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-cross_slope--5-125us/trajectory.json",
+      "bytes": 1310380,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-cross_slope-10-125us/parameters.json",
+      "bytes": 128048,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-cross_slope-10-125us/surface.json",
+      "bytes": 3513140,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-cross_slope-10-125us/trajectory.json",
+      "bytes": 1306817,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-cross_slope-5-125us/parameters.json",
+      "bytes": 128047,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-cross_slope-5-125us/surface.json",
+      "bytes": 3421596,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-cross_slope-5-125us/trajectory.json",
+      "bytes": 1310601,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-flat-0-125us/parameters.json",
+      "bytes": 128040,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-flat-0-125us/surface.json",
+      "bytes": 724934,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-flat-0-125us/trajectory.json",
+      "bytes": 1317576,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-slope--5-125us/parameters.json",
+      "bytes": 128042,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-slope--5-125us/surface.json",
+      "bytes": 3481263,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-slope--5-125us/trajectory.json",
+      "bytes": 1312763,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-slope-5-125us/parameters.json",
+      "bytes": 128041,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-slope-5-125us/surface.json",
+      "bytes": 1966913,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-slope-5-125us/trajectory.json",
+      "bytes": 1313175,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-stones-0.01-125us/parameters.json",
+      "bytes": 128045,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-stones-0.01-125us/surface.json",
+      "bytes": 782262,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-stones-0.01-125us/trajectory.json",
+      "bytes": 1308635,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-stones-0.02-125us/parameters.json",
+      "bytes": 128045,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-stones-0.02-125us/surface.json",
+      "bytes": 781334,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/terrain/fine-stones-0.02-125us/trajectory.json",
+      "bytes": 1300121,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/viewer-balance/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/viewer-balance/trajectory.json",
+      "bytes": 770799,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/viewer-jump-fine/parameters.json",
+      "bytes": 120481,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/viewer-jump-fine/trajectory.json",
+      "bytes": 1200206,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/viewer-jump/parameters.json",
+      "bytes": 120480,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/viewer-jump/trajectory.json",
+      "bytes": 1201855,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/actor.pt",
+      "bytes": 118166,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73008-125us.json",
+      "bytes": 1340941,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73008-250us.json",
+      "bytes": 1336299,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73009-125us.json",
+      "bytes": 1350286,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73009-250us.json",
+      "bytes": 1348010,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73010-125us.json",
+      "bytes": 1340313,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73010-250us.json",
+      "bytes": 1339250,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73011-125us.json",
+      "bytes": 1348991,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73011-250us.json",
+      "bytes": 1343802,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73012-125us.json",
+      "bytes": 1346683,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73012-250us.json",
+      "bytes": 1341510,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73013-125us.json",
+      "bytes": 1348979,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73013-250us.json",
+      "bytes": 1347420,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73014-125us.json",
+      "bytes": 1348258,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73014-250us.json",
+      "bytes": 1341365,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73015-125us.json",
+      "bytes": 65467,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/near-73015-250us.json",
+      "bytes": 65439,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73000-125us.json",
+      "bytes": 1354605,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73000-250us.json",
+      "bytes": 1347755,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73001-125us.json",
+      "bytes": 1351764,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73001-250us.json",
+      "bytes": 1344734,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73002-125us.json",
+      "bytes": 1357970,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73002-250us.json",
+      "bytes": 1357448,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73003-125us.json",
+      "bytes": 1358950,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73003-250us.json",
+      "bytes": 1353832,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73004-125us.json",
+      "bytes": 1347256,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73004-250us.json",
+      "bytes": 1344765,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73005-125us.json",
+      "bytes": 1349649,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73005-250us.json",
+      "bytes": 1344196,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73006-125us.json",
+      "bytes": 1355796,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73006-250us.json",
+      "bytes": 1349382,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73007-125us.json",
+      "bytes": 1362731,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/evaluation/standing-73007-250us.json",
+      "bytes": 1355753,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-01/failed-pose-teacher-check.json",
+      "bytes": 3148810,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/actor.pt",
+      "bytes": 118166,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-73015-125us.json",
+      "bytes": 1338210,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-73015-250us.json",
+      "bytes": 1333435,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75008-125us.json",
+      "bytes": 1342685,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75008-250us.json",
+      "bytes": 1339474,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75009-125us.json",
+      "bytes": 1341526,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75009-250us.json",
+      "bytes": 1339482,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75010-125us.json",
+      "bytes": 1349894,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75010-250us.json",
+      "bytes": 1345315,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75011-125us.json",
+      "bytes": 1344330,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75011-250us.json",
+      "bytes": 1343799,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75012-125us.json",
+      "bytes": 1340444,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75012-250us.json",
+      "bytes": 1336179,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75013-125us.json",
+      "bytes": 1344192,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75013-250us.json",
+      "bytes": 1339955,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75014-125us.json",
+      "bytes": 1350473,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75014-250us.json",
+      "bytes": 1345808,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75015-125us.json",
+      "bytes": 1345697,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/near-75015-250us.json",
+      "bytes": 1345001,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75000-125us.json",
+      "bytes": 1352402,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75000-250us.json",
+      "bytes": 1347175,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75001-125us.json",
+      "bytes": 1347799,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75001-250us.json",
+      "bytes": 1344524,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75002-125us.json",
+      "bytes": 1345581,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75002-250us.json",
+      "bytes": 1341659,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75003-125us.json",
+      "bytes": 1353294,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75003-250us.json",
+      "bytes": 1350798,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75004-125us.json",
+      "bytes": 1350185,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75004-250us.json",
+      "bytes": 1347683,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75005-125us.json",
+      "bytes": 1350349,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75005-250us.json",
+      "bytes": 1347513,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75006-125us.json",
+      "bytes": 1353945,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75006-250us.json",
+      "bytes": 1349398,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75007-125us.json",
+      "bytes": 1345311,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-clone-02/evaluation/standing-75007-250us.json",
+      "bytes": 1341860,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-01/near-70102-125us.json",
+      "bytes": 16603,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-01/near-70102-250us.json",
+      "bytes": 16615,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-01/nominal-0-125us.json",
+      "bytes": 60916,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-01/nominal-0-250us.json",
+      "bytes": 43186,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-01/standing-70100-125us.json",
+      "bytes": 16657,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-01/standing-70100-250us.json",
+      "bytes": 16688,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-01/standing-70101-125us.json",
+      "bytes": 16825,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-01/standing-70101-250us.json",
+      "bytes": 16824,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-frame-fixed/nominal-0-10ms-exact0.json",
+      "bytes": 1604270,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-frame-fixed/nominal-0-10ms-exact1.json",
+      "bytes": 1604501,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-frame-fixed/nominal-0-20ms-exact0.json",
+      "bytes": 752053,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-frame-fixed/nominal-0-20ms-exact1.json",
+      "bytes": 759436,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-frame-fixed/nominal-0-2ms-exact0.json",
+      "bytes": 8023951,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-frame-fixed/nominal-0-2ms-exact1.json",
+      "bytes": 8025100,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-frame-fixed/standing-70100-10ms-exact0.json",
+      "bytes": 1579110,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-frame-fixed/standing-70100-10ms-exact1.json",
+      "bytes": 1579180,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-frame-fixed/standing-70100-20ms-exact0.json",
+      "bytes": 737443,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-frame-fixed/standing-70100-20ms-exact1.json",
+      "bytes": 739638,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-frame-fixed/standing-70100-2ms-exact0.json",
+      "bytes": 7920921,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-frame-fixed/standing-70100-2ms-exact1.json",
+      "bytes": 7921335,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-rate-check/nominal-0-10ms-exact0.json",
+      "bytes": 65839,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-rate-check/nominal-0-10ms-exact1.json",
+      "bytes": 63934,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-rate-check/nominal-0-20ms-exact0.json",
+      "bytes": 43229,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-rate-check/nominal-0-20ms-exact1.json",
+      "bytes": 43232,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-rate-check/nominal-0-2ms-exact0.json",
+      "bytes": 187591,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-rate-check/nominal-0-2ms-exact1.json",
+      "bytes": 185762,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-rate-check/standing-70100-10ms-exact0.json",
+      "bytes": 32952,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-rate-check/standing-70100-10ms-exact1.json",
+      "bytes": 32995,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-rate-check/standing-70100-20ms-exact0.json",
+      "bytes": 16731,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-rate-check/standing-70100-20ms-exact1.json",
+      "bytes": 16730,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-rate-check/standing-70100-2ms-exact0.json",
+      "bytes": 152301,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/balance-teacher-rate-check/standing-70100-2ms-exact1.json",
+      "bytes": 152259,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/command-clone-01/evaluation/analysis.json",
+      "bytes": 1979,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/command-clone-01/evaluation/exterior-drive.json",
+      "bytes": 23006,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/command-clone-01/evaluation/progress.json",
+      "bytes": 33,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/command-clone-01/evaluation/viewer-drive-native.json",
+      "bytes": 2002357,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/command-demonstrations-01/progress.json",
+      "bytes": 33,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/command-teacher-preflight-01/progress.json",
+      "bytes": 31,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/command-teacher-preflight-02/progress.json",
+      "bytes": 31,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/command-teacher-preflight-02/superseded.json",
+      "bytes": 208,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/command-teacher-preflight-03/progress.json",
+      "bytes": 31,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/command-transfer-01.json",
+      "bytes": 27378,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/feedback-recovery-evaluation-01/progress.json",
+      "bytes": 253502,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/feedback-recovery-preflight-01/exterior-back.json",
+      "bytes": 15594,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/feedback-recovery-preflight-01/exterior-front.json",
+      "bytes": 15594,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/feedback-recovery-preflight-01/progress.json",
+      "bytes": 13411,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/feedback-recovery-preflight-01/viewer-back-native.json",
+      "bytes": 1401220,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/feedback-recovery-preflight-01/viewer-front-native.json",
+      "bytes": 1382081,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/front-slow-transfer-preflight-01/exterior-left-release.json",
+      "bytes": 31632,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/front-slow-transfer-preflight-01/progress.json",
+      "bytes": 56553,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/front-slow-transfer-preflight-01/viewer-left-release-native.json",
+      "bytes": 2832729,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/inverted-to-back-screen-01/exterior-screen.json",
+      "bytes": 20537,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/inverted-to-back-screen-01/nominal-slow-native.json",
+      "bytes": 1777779,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/inverted-transfer-01/static-reach.json",
+      "bytes": 43603,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/orientation-recovery-evaluation-01/cross-host-comparison.json",
+      "bytes": 4288,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/orientation-recovery-evaluation-01/progress.json",
+      "bytes": 601298,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/orientation-recovery-screen-01/progress.json",
+      "bytes": 65038,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/back-125us.json",
+      "bytes": 658872,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/back-250us.json",
+      "bytes": 659767,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/back_left-125us.json",
+      "bytes": 652832,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/back_left-250us.json",
+      "bytes": 652656,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/back_right-125us.json",
+      "bytes": 658679,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/back_right-250us.json",
+      "bytes": 647060,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/front-125us.json",
+      "bytes": 627530,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/front-250us.json",
+      "bytes": 626077,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/front_left-125us.json",
+      "bytes": 646676,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/front_left-250us.json",
+      "bytes": 641959,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/front_right-125us.json",
+      "bytes": 643842,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/front_right-250us.json",
+      "bytes": 640288,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/inverted-125us.json",
+      "bytes": 645441,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/inverted-250us.json",
+      "bytes": 658040,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/left-125us.json",
+      "bytes": 646081,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/left-250us.json",
+      "bytes": 646804,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/near-125us.json",
+      "bytes": 627576,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/near-250us.json",
+      "bytes": 626961,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/right-125us.json",
+      "bytes": 641010,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/right-250us.json",
+      "bytes": 640799,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/standing-125us.json",
+      "bytes": 627784,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/evaluation/standing-250us.json",
+      "bytes": 627323,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/model_0.pt",
+      "bytes": 719359,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/model_25.pt",
+      "bytes": 719697,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/model_50.pt",
+      "bytes": 719697,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/model_75.pt",
+      "bytes": 719697,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/model_99.pt",
+      "bytes": 719697,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-pilot-01/source/plant/parameters.json",
+      "bytes": 127770,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/best-8s.json",
+      "bytes": 1402919,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-76000-125us.json",
+      "bytes": 1403477,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-76000-250us.json",
+      "bytes": 1402830,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77000-125us.json",
+      "bytes": 1393837,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77000-250us.json",
+      "bytes": 1390713,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77001-125us.json",
+      "bytes": 1393912,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77001-250us.json",
+      "bytes": 1405147,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77002-125us.json",
+      "bytes": 1406843,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77002-250us.json",
+      "bytes": 1380810,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77003-125us.json",
+      "bytes": 1387764,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77003-250us.json",
+      "bytes": 1386679,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77004-125us.json",
+      "bytes": 1402682,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77004-250us.json",
+      "bytes": 1398676,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77005-125us.json",
+      "bytes": 1353415,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77005-250us.json",
+      "bytes": 1402490,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77006-125us.json",
+      "bytes": 1369801,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77006-250us.json",
+      "bytes": 1386036,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77007-125us.json",
+      "bytes": 1395010,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77007-250us.json",
+      "bytes": 1361940,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77008-125us.json",
+      "bytes": 1381534,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77008-250us.json",
+      "bytes": 1397177,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77009-125us.json",
+      "bytes": 1404639,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/evaluation/back-77009-250us.json",
+      "bytes": 1379075,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/exterior-screen.json",
+      "bytes": 11922,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-back-01/search.json",
+      "bytes": 190187,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/best-8s.json",
+      "bytes": 1387657,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-76000-125us.json",
+      "bytes": 1389340,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-76000-250us.json",
+      "bytes": 1385505,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77000-125us.json",
+      "bytes": 1389498,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77000-250us.json",
+      "bytes": 1394312,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77001-125us.json",
+      "bytes": 1389115,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77001-250us.json",
+      "bytes": 1389409,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77002-125us.json",
+      "bytes": 1385993,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77002-250us.json",
+      "bytes": 1384599,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77003-125us.json",
+      "bytes": 1386313,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77003-250us.json",
+      "bytes": 1386375,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77004-125us.json",
+      "bytes": 1386797,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77004-250us.json",
+      "bytes": 1384591,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77005-125us.json",
+      "bytes": 1385187,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77005-250us.json",
+      "bytes": 1384327,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77006-125us.json",
+      "bytes": 1386934,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77006-250us.json",
+      "bytes": 1382246,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77007-125us.json",
+      "bytes": 1385729,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77007-250us.json",
+      "bytes": 1382031,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77008-125us.json",
+      "bytes": 1387178,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77008-250us.json",
+      "bytes": 1383293,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77009-125us.json",
+      "bytes": 1385112,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/evaluation/front-77009-250us.json",
+      "bytes": 1384482,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/exterior-screen.json",
+      "bytes": 11922,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-front-01/search.json",
+      "bytes": 189438,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-shooting-preflight-01/standing.json",
+      "bytes": 1426635,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/back-125us.json",
+      "bytes": 669931,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/back-250us.json",
+      "bytes": 669806,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/back_left-125us.json",
+      "bytes": 667914,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/back_left-250us.json",
+      "bytes": 667900,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/back_right-125us.json",
+      "bytes": 667343,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/back_right-250us.json",
+      "bytes": 667102,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/front-125us.json",
+      "bytes": 652163,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/front-250us.json",
+      "bytes": 652163,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/front_left-125us.json",
+      "bytes": 657264,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/front_left-250us.json",
+      "bytes": 652952,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/front_right-125us.json",
+      "bytes": 652727,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/front_right-250us.json",
+      "bytes": 652836,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/inverted-125us.json",
+      "bytes": 661357,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/inverted-250us.json",
+      "bytes": 661243,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/left-125us.json",
+      "bytes": 658296,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/left-250us.json",
+      "bytes": 658304,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/near-125us.json",
+      "bytes": 649771,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/near-250us.json",
+      "bytes": 649706,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/right-125us.json",
+      "bytes": 653469,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/right-250us.json",
+      "bytes": 653948,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/standing-125us.json",
+      "bytes": 650859,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/evaluation/standing-250us.json",
+      "bytes": 650939,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/model_0.pt",
+      "bytes": 719359,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/model_4.pt",
+      "bytes": 719359,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/recovery-smoke-01/source/plant/parameters.json",
+      "bytes": 127770,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-78800-125us.json",
+      "bytes": 1777061,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-78800-250us.json",
+      "bytes": 1707922,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79000-125us.json",
+      "bytes": 1786468,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79000-250us.json",
+      "bytes": 1713995,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79001-125us.json",
+      "bytes": 1780728,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79001-250us.json",
+      "bytes": 1716331,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79002-125us.json",
+      "bytes": 1712641,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79002-250us.json",
+      "bytes": 1778732,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79003-125us.json",
+      "bytes": 1777027,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79003-250us.json",
+      "bytes": 1713165,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79004-125us.json",
+      "bytes": 1784701,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79004-250us.json",
+      "bytes": 1743083,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79005-125us.json",
+      "bytes": 1713124,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79005-250us.json",
+      "bytes": 1780380,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79006-125us.json",
+      "bytes": 1754021,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79006-250us.json",
+      "bytes": 1782230,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79007-125us.json",
+      "bytes": 1746103,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79007-250us.json",
+      "bytes": 1742370,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79008-125us.json",
+      "bytes": 1784997,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79008-250us.json",
+      "bytes": 1710222,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79009-125us.json",
+      "bytes": 1711931,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/trained-79009-250us.json",
+      "bytes": 1709629,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-78800-125us.json",
+      "bytes": 1743414,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-78800-250us.json",
+      "bytes": 1740617,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79000-125us.json",
+      "bytes": 1724626,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79000-250us.json",
+      "bytes": 1730064,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79001-125us.json",
+      "bytes": 1742551,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79001-250us.json",
+      "bytes": 1703342,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79002-125us.json",
+      "bytes": 1743771,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79002-250us.json",
+      "bytes": 1742974,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79003-125us.json",
+      "bytes": 1726368,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79003-250us.json",
+      "bytes": 1717463,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79004-125us.json",
+      "bytes": 1728818,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79004-250us.json",
+      "bytes": 1730329,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79005-125us.json",
+      "bytes": 1728103,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79005-250us.json",
+      "bytes": 1729744,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79006-125us.json",
+      "bytes": 1742597,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79006-250us.json",
+      "bytes": 1731840,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79007-125us.json",
+      "bytes": 1743864,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79007-250us.json",
+      "bytes": 1723590,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79008-125us.json",
+      "bytes": 1739963,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79008-250us.json",
+      "bytes": 1728142,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79009-125us.json",
+      "bytes": 1728252,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/evaluation/zero-79009-250us.json",
+      "bytes": 1742935,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/export.json",
+      "bytes": 357,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/model_0.pt",
+      "bytes": 719359,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/model_25.pt",
+      "bytes": 719697,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/model_50.pt",
+      "bytes": 719697,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/model_75.pt",
+      "bytes": 719697,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/model_99.pt",
+      "bytes": 719697,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-pilot-01/source/plant/parameters.json",
+      "bytes": 127770,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-smoke-01/evaluation/trained-78800-125us.json",
+      "bytes": 1783836,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-smoke-01/evaluation/trained-78800-250us.json",
+      "bytes": 1716861,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-smoke-01/evaluation/zero-78800-125us.json",
+      "bytes": 1743414,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-smoke-01/evaluation/zero-78800-250us.json",
+      "bytes": 1740617,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-smoke-01/export.json",
+      "bytes": 357,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-smoke-01/model_0.pt",
+      "bytes": 719359,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-smoke-01/model_4.pt",
+      "bytes": 719359,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/training/evidence/residual-back-smoke-01/source/plant/parameters.json",
+      "bytes": 127770,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/return-brake-evaluation-01/progress.json",
+      "bytes": 383607,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/return-brake-evaluation-01/viewer-front-left-release-native.json",
+      "bytes": 2843042,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/return-brake-preflight-01/progress.json",
+      "bytes": 34700,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/settled-recovery-01/progress.json",
+      "bytes": 28342,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/side-roof-transfer-screen-01/exterior-right-lower.json",
+      "bytes": 31632,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/side-roof-transfer-screen-01/progress.json",
+      "bytes": 60661,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/side-roof-transfer-screen-01/viewer-right-lower-native.json",
+      "bytes": 2816234,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/side-transfer-screen-01/exterior-front_left-upper.json",
+      "bytes": 31632,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/side-transfer-screen-01/progress.json",
+      "bytes": 81318,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/side-transfer-screen-01/viewer-front_left-upper-native.json",
+      "bytes": 2815263,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/standing-release-recovery-screen-01/impact-audit.json",
+      "bytes": 2971,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/standing-release-recovery-screen-01/progress.json",
+      "bytes": 67702,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/terrain-clone-01/evaluation/exterior-terrain.json",
+      "bytes": 19300,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/terrain-clone-01/evaluation/progress.json",
+      "bytes": 33,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/terrain-clone-01/evaluation/viewer-terrain-native.json",
+      "bytes": 1662035,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/terrain-clone-01/flat-regression/progress.json",
+      "bytes": 33,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/terrain-contact-continuation-01/progress.json",
+      "bytes": 31,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/terrain-demonstrations-01/progress.json",
+      "bytes": 33,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/terrain-demonstrations-01/requested-plan.json",
+      "bytes": 6483,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/terrain-driving-screen-01/progress.json",
+      "bytes": 33,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/terrain-teacher-screen-01/progress.json",
+      "bytes": 33,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/terrain-transfer-01.json",
+      "bytes": 129340,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/unified-recovery-evaluation-01/progress.json",
+      "bytes": 840331,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/training/evidence/unified-roof-preflight-01/progress.json",
+      "bytes": 27031,
+      "reason": "raw training record; summary, audits and exported replay remain"
+    },
+    {
+      "path": "clanky-v2/upward-foot/README.md",
+      "bytes": 6358,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/upward-foot/fit-screen.json",
+      "bytes": 877279,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/upward-foot/fold-exact.json",
+      "bytes": 7789,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/upward-foot/manifest.json",
+      "bytes": 5004,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/upward-foot/motor-angle-screen.json",
+      "bytes": 70128,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/upward-foot/parts-local.step",
+      "bytes": 34286209,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/upward-foot/parts.json",
+      "bytes": 10550125,
+      "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "concept03/sources/GM3865-3D.step",
+      "bytes": 157631,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept04/output/cad/left_body_half.stl",
+      "bytes": 456784,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept04/output/cad/left_crank.stl",
+      "bytes": 48284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept04/output/cad/left_first_gear.stl",
+      "bytes": 198284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept04/output/cad/left_lower_link.stl",
+      "bytes": 64284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept04/output/cad/left_output_gear.stl",
+      "bytes": 198284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept04/output/cad/left_rim.stl",
+      "bytes": 94884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept04/output/cad/left_tie_link.stl",
+      "bytes": 48284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept04/output/cad/right_body_half.stl",
+      "bytes": 456984,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept04/output/cad/right_crank.stl",
+      "bytes": 48284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept04/output/cad/right_first_gear.stl",
+      "bytes": 198284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept04/output/cad/right_lower_link.stl",
+      "bytes": 64284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept04/output/cad/right_output_gear.stl",
+      "bytes": 198284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept04/output/cad/right_rim.stl",
+      "bytes": 94884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept04/output/cad/right_tie_link.stl",
+      "bytes": 48284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/left_body_half.stl",
+      "bytes": 433084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/left_crank.stl",
+      "bytes": 80084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/left_first_gear.stl",
+      "bytes": 198284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/left_lower_with_motor_cover.stl",
+      "bytes": 297384,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/left_motor_service_lid.stl",
+      "bytes": 210684,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/left_output_gear.stl",
+      "bytes": 289484,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/left_rim.stl",
+      "bytes": 94884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/left_tie_link.stl",
+      "bytes": 48284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/right_body_half.stl",
+      "bytes": 442984,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/right_crank.stl",
+      "bytes": 80084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/right_first_gear.stl",
+      "bytes": 198284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/right_lower_with_motor_cover.stl",
+      "bytes": 287884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/right_motor_service_lid.stl",
+      "bytes": 210684,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/right_output_gear.stl",
+      "bytes": 289484,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/right_rim.stl",
+      "bytes": 94884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept05-study/output/cad/right_tie_link.stl",
+      "bytes": 48284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/left_body_half.stl",
+      "bytes": 433084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/left_crank.stl",
+      "bytes": 80084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/left_first_gear.stl",
+      "bytes": 198284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/left_lower_with_motor_cover.stl",
+      "bytes": 297384,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/left_motor_service_lid.stl",
+      "bytes": 210684,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/left_output_gear.stl",
+      "bytes": 243884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/left_rim.stl",
+      "bytes": 94884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/left_tie_link.stl",
+      "bytes": 48284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/right_body_half.stl",
+      "bytes": 442984,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/right_crank.stl",
+      "bytes": 80084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/right_first_gear.stl",
+      "bytes": 198284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/right_lower_with_motor_cover.stl",
+      "bytes": 287884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/right_motor_service_lid.stl",
+      "bytes": 210684,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/right_output_gear.stl",
+      "bytes": 243884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/right_rim.stl",
+      "bytes": 94884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/cad/right_tie_link.stl",
+      "bytes": 48284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/left_covered_thigh.stl",
+      "bytes": 178784,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/left_first_gear.stl",
+      "bytes": 198284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/left_lower_with_motor_cover.stl",
+      "bytes": 340784,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/left_motor_service_lid.stl",
+      "bytes": 210684,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/left_output_gear.stl",
+      "bytes": 243884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/left_rim.stl",
+      "bytes": 94884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/left_thigh_service_lid.stl",
+      "bytes": 146684,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/left_tie_link.stl",
+      "bytes": 48284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/right_covered_thigh.stl",
+      "bytes": 178784,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/right_first_gear.stl",
+      "bytes": 198284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/right_lower_with_motor_cover.stl",
+      "bytes": 331284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/right_motor_service_lid.stl",
+      "bytes": 210684,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/right_output_gear.stl",
+      "bytes": 243884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/right_rim.stl",
+      "bytes": 94884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/right_thigh_service_lid.stl",
+      "bytes": 146684,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/right_tie_link.stl",
+      "bytes": 48284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/streamlined_lower_tray.stl",
+      "bytes": 430284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/exterior/streamlined_upper_shell.stl",
+      "bytes": 435684,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/left_covered_thigh.stl",
+      "bytes": 173484,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/left_first_gear.stl",
+      "bytes": 196484,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/left_output_gear.stl",
+      "bytes": 242084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/left_rim.stl",
+      "bytes": 84084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/left_slim_lower_pod.stl",
+      "bytes": 333384,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/left_thigh_service_lid.stl",
+      "bytes": 130884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/left_wheel_motor_mount_lid.stl",
+      "bytes": 221984,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/right_covered_thigh.stl",
+      "bytes": 173484,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/right_first_gear.stl",
+      "bytes": 196484,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/right_output_gear.stl",
+      "bytes": 242084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/right_rim.stl",
+      "bytes": 84084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/right_slim_lower_pod.stl",
+      "bytes": 333384,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/right_thigh_service_lid.stl",
+      "bytes": 130884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/right_wheel_motor_mount_lid.stl",
+      "bytes": 221984,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/streamlined_lower_tray.stl",
+      "bytes": 400184,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-full/streamlined_upper_shell.stl",
+      "bytes": 368184,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/internal-validation/combined_adverse/loads.json",
+      "bytes": 3823323,
+      "reason": "raw development loads"
+    },
+    {
+      "path": "concept06/output/internal-validation/drop_250mm_roll_5deg/loads.json",
+      "bytes": 3852851,
+      "reason": "raw development loads"
+    },
+    {
+      "path": "concept06/output/internal-validation/jump/loads.json",
+      "bytes": 3833166,
+      "reason": "raw development loads"
+    },
+    {
+      "path": "concept06/output/internal-validation/old_controller/loads.json",
+      "bytes": 3834108,
+      "reason": "raw development loads"
+    },
+    {
+      "path": "concept06/output/internal-validation/reduced_bandwidth_delayed/loads.json",
+      "bytes": 3829657,
+      "reason": "raw development loads"
+    },
+    {
+      "path": "concept06/output/internal-validation/reduced_bandwidth_nominal/loads.json",
+      "bytes": 3847496,
+      "reason": "raw development loads"
+    },
+    {
+      "path": "concept06/output/internal-validation/short_launch_delayed/loads.json",
+      "bytes": 3832148,
+      "reason": "raw development loads"
+    },
+    {
+      "path": "concept06/output/internal-validation/short_launch_nominal/loads.json",
+      "bytes": 3852005,
+      "reason": "raw development loads"
+    },
+    {
+      "path": "concept06/output/internal-validation/stand/loads.json",
+      "bytes": 3839237,
+      "reason": "raw development loads"
+    },
+    {
+      "path": "concept06/output/internal-validation/state_delay_5ms_noise_0_2deg/loads.json",
+      "bytes": 3827301,
+      "reason": "raw development loads"
+    },
+    {
+      "path": "concept06/output/recovery-shell/crown-1400/left_covered_thigh.stl",
+      "bytes": 315084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/recovery-shell/crown-1400/right_covered_thigh.stl",
+      "bytes": 315084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/recovery-shell/crown-600/left_covered_thigh.stl",
+      "bytes": 321584,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/recovery-shell/crown-600/right_covered_thigh.stl",
+      "bytes": 321584,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/recovery-shell/crown-900/left_covered_thigh.stl",
+      "bytes": 323284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/recovery-shell/crown-900/right_covered_thigh.stl",
+      "bytes": 323284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/left_covered_thigh.stl",
+      "bytes": 164584,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/left_first_gear.stl",
+      "bytes": 196484,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/left_output_gear.stl",
+      "bytes": 242084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/left_rim.stl",
+      "bytes": 84084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/left_slim_lower_pod.stl",
+      "bytes": 327984,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/left_thigh_service_lid.stl",
+      "bytes": 139284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/left_tie_link.stl",
+      "bytes": 42684,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/left_wheel_motor_mount_lid.stl",
+      "bytes": 221984,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/right_covered_thigh.stl",
+      "bytes": 164584,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/right_first_gear.stl",
+      "bytes": 196484,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/right_output_gear.stl",
+      "bytes": 242084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/right_rim.stl",
+      "bytes": 84084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/right_slim_lower_pod.stl",
+      "bytes": 327984,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/right_thigh_service_lid.stl",
+      "bytes": 139284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/right_tie_link.stl",
+      "bytes": 42684,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/right_wheel_motor_mount_lid.stl",
+      "bytes": 221984,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/streamlined_lower_tray.stl",
+      "bytes": 343384,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept06/output/wheelpods/streamlined_upper_shell.stl",
+      "bytes": 380884,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "learned/balance-757765e27bf2/checkpoint.pt",
+      "bytes": 713699,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "learned/balance-95954210455f/checkpoint.pt",
+      "bytes": 239384,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "learned/drive-a3fd0a3aa370/checkpoint.pt",
+      "bytes": 239384,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "learned/drive-b825ae36ad43/checkpoint.pt",
+      "bytes": 713699,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "learned/height-8d58267240a0/checkpoint.pt",
+      "bytes": 713781,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "learned/height-dc946f89dd26/checkpoint.pt",
+      "bytes": 239448,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "learned/push-784d4f0ab341/checkpoint.pt",
+      "bytes": 713699,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "learned/push-9b3b76d7bf69/checkpoint.pt",
+      "bytes": 239384,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "output/beni_cross_articulation.step",
+      "bytes": 2813389,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/beni_left_bump.step",
+      "bytes": 2811883,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/beni_low.step",
+      "bytes": 2814105,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/beni_normal.step",
+      "bytes": 2810314,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/beni_raised.step",
+      "bytes": 2814767,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/concept02/beni_enclosed_low.step",
+      "bytes": 13015506,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/concept02/beni_enclosed_raised.step",
+      "bytes": 13016568,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/left_arm_carrier.step",
+      "bytes": 136209,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/left_arm_carrier.stl",
+      "bytes": 210784,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/left_chassis.step",
+      "bytes": 830013,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/left_chassis.stl",
+      "bytes": 301984,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/left_rim_hub.step",
+      "bytes": 40268,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/left_rim_hub.stl",
+      "bytes": 169284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/left_stop_sleeve.step",
+      "bytes": 9524,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/left_stop_sleeve.stl",
+      "bytes": 33684,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/right_arm_carrier.step",
+      "bytes": 136534,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/right_arm_carrier.stl",
+      "bytes": 210784,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/right_chassis.step",
+      "bytes": 829495,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/right_chassis.stl",
+      "bytes": 301984,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/right_rim_hub.step",
+      "bytes": 40240,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/right_rim_hub.stl",
+      "bytes": 169284,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/right_stop_sleeve.step",
+      "bytes": 9603,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/right_stop_sleeve.stl",
+      "bytes": 33684,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/shared_height_yoke.step",
+      "bytes": 130494,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "output/fit_prototype_stl/shared_height_yoke.stl",
+      "bytes": 174084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "wheel-study/revised/initial-motion-checks/back-wide_current-500us.json",
+      "bytes": 1035170,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/initial-motion-checks/balance-wide_current-250us.json",
+      "bytes": 1558549,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/initial-motion-checks/balance-wide_current-500us.json",
+      "bytes": 1556453,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/initial-motion-checks/drive-wide_current-250us.json",
+      "bytes": 1549982,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/initial-motion-checks/drive-wide_current-500us.json",
+      "bytes": 1549164,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/initial-motion-checks/front-wide_current-500us.json",
+      "bytes": 1007478,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/initial-motion-checks/height-wide_current-250us.json",
+      "bytes": 1560489,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/initial-motion-checks/height-wide_current-500us.json",
+      "bytes": 1558335,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/initial-motion-checks/jump-wide_current-250us.json",
+      "bytes": 1556814,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/initial-motion-checks/jump-wide_current-500us.json",
+      "bytes": 1555148,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/initial-motion-checks/turn-wide_current-500us.json",
+      "bytes": 1535109,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/jump-verification/jump-wide_current-250us.json",
+      "bytes": 1556814,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/jump-verification/jump-wide_current-500us.json",
+      "bytes": 1555148,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/jump-verification/jump-wide_heavy-250us.json",
+      "bytes": 1560702,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/jump-verification/jump-wide_heavy-500us.json",
+      "bytes": 1547511,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/jump-verification/jump-wide_low_battery-250us.json",
+      "bytes": 1558874,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/jump-verification/jump-wide_low_battery-500us.json",
+      "bytes": 1558171,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/back-wide_current-250us.json",
+      "bytes": 1032586,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/back-wide_current-500us.json",
+      "bytes": 1035170,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/back_left-wide_current-250us.json",
+      "bytes": 1013856,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/back_left-wide_current-500us.json",
+      "bytes": 1015405,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/back_right-wide_current-250us.json",
+      "bytes": 1005170,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/back_right-wide_current-500us.json",
+      "bytes": 1009028,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/drive-wide_current-250us.json",
+      "bytes": 1550212,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/drive-wide_current-500us.json",
+      "bytes": 1549387,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/front-wide_current-250us.json",
+      "bytes": 1009466,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/front-wide_current-500us.json",
+      "bytes": 1007478,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/front_left-wide_current-250us.json",
+      "bytes": 1008378,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/front_left-wide_current-500us.json",
+      "bytes": 1006677,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/front_right-wide_current-250us.json",
+      "bytes": 1004396,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/front_right-wide_current-500us.json",
+      "bytes": 1003079,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/inverted-wide_current-250us.json",
+      "bytes": 1009316,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/inverted-wide_current-500us.json",
+      "bytes": 1011876,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/left_side-wide_current-250us.json",
+      "bytes": 1007626,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/left_side-wide_current-500us.json",
+      "bytes": 1005908,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/right_side-wide_current-250us.json",
+      "bytes": 1001036,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/motion-checks/right_side-wide_current-500us.json",
+      "bytes": 997961,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/retuned-motion-checks/back_right-wide_current-250us.json",
+      "bytes": 1013779,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/retuned-motion-checks/back_right-wide_current-500us.json",
+      "bytes": 1018750,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/retuned-motion-checks/front_left-wide_current-250us.json",
+      "bytes": 1009398,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/retuned-motion-checks/front_left-wide_current-500us.json",
+      "bytes": 1008082,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/retuned-motion-checks/left_side-wide_current-250us.json",
+      "bytes": 1017030,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/retuned-motion-checks/left_side-wide_current-500us.json",
+      "bytes": 1015942,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/retuned-motion-checks/right_side-wide_current-250us.json",
+      "bytes": 1005107,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/retuned-motion-checks/right_side-wide_current-500us.json",
+      "bytes": 1011432,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/swept-envelope.stl",
+      "bytes": 189084,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "wheel-study/revised/turn-verification/turn-wide_current-250us.json",
+      "bytes": 1535610,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/turn-verification/turn-wide_current-500us.json",
+      "bytes": 1535109,
+      "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/tpu-wheel-120x25.step",
+      "bytes": 5197171,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "wheel-study/tpu-wheel-120x25.stl",
+      "bytes": 2024684,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "wheel-study/tpu-wheel-140x25.step",
+      "bytes": 6719593,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "wheel-study/tpu-wheel-140x25.stl",
+      "bytes": 2815484,
+      "reason": "CAD export without a viewer download link"
+    }
+  ]
+}

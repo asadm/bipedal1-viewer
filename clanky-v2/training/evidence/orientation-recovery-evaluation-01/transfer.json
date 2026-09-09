@@ -1,0 +1,9 @@
+{
+  "host": "100.113.140.68",
+  "remote_directory": "/dev/shm/clanky-orientation-20260909-01",
+  "archive_sha256": "1b87e490447040e859e01d62e155802794b7529c898d3a20cf9fa0cf04819f1b",
+  "archive_bytes": 132546560,
+  "verified_completed_cases": 108,
+  "remote_temporary_directory_removed_after_local_audit": true,
+  "local_transport_archives_removed": true
+}

@@ -1,0 +1,131 @@
+{
+  "files": [
+    {
+      "path": "front-87003-lower-125us.npz",
+      "bytes": 1337213,
+      "sha256": "ee5d5729366b2d41b705e6458d45353ff97e36f6dadeff4c4cba1cc953ade404"
+    },
+    {
+      "path": "front-87003-lower-250us.npz",
+      "bytes": 1289696,
+      "sha256": "842ee42f87d46edf85d34bd6d8cf5aa1471770cbebd73be875cdde92c1cc0ade"
+    },
+    {
+      "path": "front_left-84000-lower-125us.npz",
+      "bytes": 1327630,
+      "sha256": "b8a74ed11d95a6d2b6dde84fcf33e5340d72f4162ece956e1f3628a03843b1cd"
+    },
+    {
+      "path": "front_left-84000-lower-250us.npz",
+      "bytes": 1319067,
+      "sha256": "49fd8d4ecf85529539ce36c155f9a5815ed13c05fe5b60434c00fbdb83e545a9"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 3008,
+      "sha256": "792ae0997be9e9a7bef93e6b6d5898441e006dc51a2f183e11d6d19489e5ef47"
+    },
+    {
+      "path": "progress.json",
+      "bytes": 34700,
+      "sha256": "4f12a5ec254499f8e50498979f7d74c468a9889f8294daca640cdef5b582b7f7"
+    },
+    {
+      "path": "recording-audit.json",
+      "bytes": 2521,
+      "sha256": "b886bc014f05fbf91b17cb2a95e0747c9f8b93832d26927b72e82772d2ea170e"
+    },
+    {
+      "path": "source/balance_dagger.py",
+      "bytes": 6893,
+      "sha256": "f2f0e5ce447cb04dcb60663a6d8ba1e07891ed98c1dde3fc5ac6ba8e1e03fe26"
+    },
+    {
+      "path": "source/balance_teacher.py",
+      "bytes": 3798,
+      "sha256": "b6e2e919240228084437bf59ec49537d3a165f6d3ff47691f554d9bcf78e4e09"
+    },
+    {
+      "path": "source/environment.py",
+      "bytes": 14742,
+      "sha256": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb"
+    },
+    {
+      "path": "source/evaluate.py",
+      "bytes": 7410,
+      "sha256": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef"
+    },
+    {
+      "path": "source/feedback_recovery.py",
+      "bytes": 9682,
+      "sha256": "95e98bcec2e733cd179232f13efe356037538a8f97ece7530d77bd2d108bb0ef"
+    },
+    {
+      "path": "source/guided_balance.py",
+      "bytes": 11814,
+      "sha256": "84282cffce9fa6598b431726e03e168da5c40cddaef09dd6dbdfb900d20234bb"
+    },
+    {
+      "path": "source/inverted_contact.py",
+      "bytes": 10634,
+      "sha256": "cec8b4fbcdc5311f0c6d6ce4f7659064244b3338a0066a168b766d7196cba486"
+    },
+    {
+      "path": "source/inverted_to_back.py",
+      "bytes": 10914,
+      "sha256": "48ff5c9542be5010b84fddd86d2d497326259914364c290f48a6bb6a9e68380e"
+    },
+    {
+      "path": "source/orientation_recovery.py",
+      "bytes": 10181,
+      "sha256": "233500c3eafe58ffbd8f45ce83c9f127cb34a550e387de0a65814c7a43b1190c"
+    },
+    {
+      "path": "source/recovery_shooting.py",
+      "bytes": 8772,
+      "sha256": "0172608f37204abdc2216bfd4978240ad811da4b24b85b33a4801e12f1b2f7ce"
+    },
+    {
+      "path": "source/return_brake.py",
+      "bytes": 6559,
+      "sha256": "c472d5bee17fcda29d512f44bb6f3ab0815669b6b6e461d01d0956f7ebf4754a"
+    },
+    {
+      "path": "source/settled_recovery.py",
+      "bytes": 9145,
+      "sha256": "ea37b51af28e5458cda509a0ea88bb0f1dfdeeaa14bfb7d9777e3fc0d5df74f1"
+    },
+    {
+      "path": "source/side_roof_transfer.py",
+      "bytes": 3957,
+      "sha256": "ebb1389651468bc2729aa13c12d600974dfad5554d5ce52ba9e787f6796d10d2"
+    },
+    {
+      "path": "source/side_transfer.py",
+      "bytes": 5781,
+      "sha256": "044181b7d6c25389d7bdcabaee4cc2aaa30498e6dd4a231acfc819098acf9333"
+    },
+    {
+      "path": "source/standing_release_recovery.py",
+      "bytes": 4065,
+      "sha256": "d46cce68faedca0ca5e4a6c7c1e92296e2555a3994d647844c8ca2bbd0b0311f"
+    },
+    {
+      "path": "source/teacher_reference.py",
+      "bytes": 17551,
+      "sha256": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486"
+    },
+    {
+      "path": "source/unified_recovery.py",
+      "bytes": 6827,
+      "sha256": "10d89cdea7e1d4c1ad6fe25c9634ac0f1b7ea34e27887765b717b608a5bad31e"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 37740,
+      "sha256": "ac7366f1056821d019a53657d1fc6894e0f279741ed6ced6db904dc92ab3f0c1"
+    }
+  ],
+  "total_files": 25,
+  "total_bytes": 5500300
+}

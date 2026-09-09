@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "recordings": [
+    {
+      "recording": "zero-78800-250us.json",
+      "sha256": "ad89d6bd0a0b5fd9fa232775f63bcb0a761583d431aadae53b42aac31382dc8d",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.244381070452584e-06,
+      "sampled_gear_error_rad": 1.7246417911565003e-07,
+      "sampled_branch_margin": 0.5778188247673747
+    },
+    {
+      "recording": "zero-78800-125us.json",
+      "sha256": "956a09825caa30abab55c656c7043be76da0e4be0e904236c680d62895f7134e",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.248245438330803e-06,
+      "sampled_gear_error_rad": 1.6643724762843703e-07,
+      "sampled_branch_margin": 0.5777501477628227
+    },
+    {
+      "recording": "trained-78800-250us.json",
+      "sha256": "d5d9f826749b531489f3343275e64fac17e7aeac9827ebb7c4575ffe47b898a1",
+      "sampled_settled": false,
+      "sampled_closure_m": 5.24669644386022e-06,
+      "sampled_gear_error_rad": 1.4119142974777787e-07,
+      "sampled_branch_margin": 0.5778440883207058
+    },
+    {
+      "recording": "trained-78800-125us.json",
+      "sha256": "c32bf3a50d67cc5e795872af9fea71f3844c9f55766b1d107ef74f89df0162f5",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.244488391672215e-06,
+      "sampled_gear_error_rad": 5.99238223486509e-08,
+      "sampled_branch_margin": 0.5777703317515399
+    }
+  ],
+  "tally": {
+    "zero": {
+      "passed": 2,
+      "paired_fresh_passes": 0
+    },
+    "trained": {
+      "passed": 1,
+      "paired_fresh_passes": 0
+    }
+  },
+  "source_sha256": "6750e9ee209b9b0dacf3fac9e8661e75e39b2e04f469e3f35a017abb7262e5d4",
+  "checkpoint_sha256": "b016017a0329ae3f1c69189471eec4f753c2d610a8d65c43a21217e896e026cf",
+  "summary_sha256": "54f0492cbf093fab69b533b44e34d88e70cce38f1f8fd554bfea716c97ead79e",
+  "scope": "Source/checkpoint/recording identities, NumPy policy inference, sampled sensor reconstruction, current ceilings, linkage geometry and final-window gates. This audit preserves failed motion results and does not rerun dynamics or qualify hardware."
+}

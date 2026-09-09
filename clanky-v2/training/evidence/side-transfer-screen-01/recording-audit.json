@@ -1,0 +1,142 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "recording": "right-84000-lower-250us.npz",
+      "sha256": "4e15756b879fa6f58deacd3cc9f6ec7509c64a7824cb2676f8b5d0d01efb6a8d",
+      "passed": false,
+      "native_valid": true,
+      "selected_route": null,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.305758412737513e-06,
+      "sampled_gear_error_rad": 5.8914560664008464e-08,
+      "sampled_branch_margin": 0.5770994799701441
+    },
+    {
+      "recording": "right-84000-lower-125us.npz",
+      "sha256": "efbd781a301b6f147066e865c4acb5f7571977b89b08382c16334604895739ce",
+      "passed": false,
+      "native_valid": true,
+      "selected_route": null,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.3057322237919915e-06,
+      "sampled_gear_error_rad": 4.970657236508247e-08,
+      "sampled_branch_margin": 0.5771005078006693
+    },
+    {
+      "recording": "right-84000-upper-250us.npz",
+      "sha256": "f50fdcb5c84b5eec1f65f9a1fac15b9a4c60856799aba57514abba78f182bfa8",
+      "passed": false,
+      "native_valid": true,
+      "selected_route": null,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.306479235546973e-06,
+      "sampled_gear_error_rad": 2.537540773062119e-08,
+      "sampled_branch_margin": 0.5770922067830335
+    },
+    {
+      "recording": "right-84000-upper-125us.npz",
+      "sha256": "9559fce36591f49a7ef0fcb5a2e70e48941d5bb759374abf541cf1724936df85",
+      "passed": false,
+      "native_valid": true,
+      "selected_route": null,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.306456748313315e-06,
+      "sampled_gear_error_rad": 2.600628548066197e-08,
+      "sampled_branch_margin": 0.5770931788429067
+    },
+    {
+      "recording": "front_left-84000-lower-250us.npz",
+      "sha256": "b149871dfdb767bda1af1a85862c90495bdc76d061f4dcadc1a219b2735e04c9",
+      "passed": false,
+      "native_valid": true,
+      "selected_route": null,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.305785640495022e-06,
+      "sampled_gear_error_rad": 4.050840696212532e-08,
+      "sampled_branch_margin": 0.5770989720221129
+    },
+    {
+      "recording": "front_left-84000-lower-125us.npz",
+      "sha256": "6d18db144433fbb68253aceea4e687272be812e6a219191f55e28eacb1962f4d",
+      "passed": false,
+      "native_valid": true,
+      "selected_route": null,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.305759447280177e-06,
+      "sampled_gear_error_rad": 3.9086062303406166e-08,
+      "sampled_branch_margin": 0.5771000566304825
+    },
+    {
+      "recording": "front_left-84000-upper-250us.npz",
+      "sha256": "9fd0dae011766322d61e6856555efc56bad87b4b02dc0439b921b7dddd73ad18",
+      "passed": true,
+      "native_valid": true,
+      "selected_route": "inverted",
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.301707068936604e-06,
+      "sampled_gear_error_rad": 7.019684353792854e-08,
+      "sampled_branch_margin": 0.5765367431556071
+    },
+    {
+      "recording": "front_left-84000-upper-125us.npz",
+      "sha256": "04373fae2cac5f12be08a4e0664d21021d769fb0eaf509683172f136e42ac4e8",
+      "passed": true,
+      "native_valid": true,
+      "selected_route": "inverted",
+      "max_action_error": 8.940696716308594e-08,
+      "sampled_closure_m": 5.301694672052177e-06,
+      "sampled_gear_error_rad": 1.4517173223538294e-07,
+      "sampled_branch_margin": 0.5766959369535878
+    },
+    {
+      "recording": "front_right-84000-lower-250us.npz",
+      "sha256": "699ae8d25c8e951896a03376a5bc87aba2d126bbd1a0a5f8210283c11055d60d",
+      "passed": true,
+      "native_valid": true,
+      "selected_route": "inverted",
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.301707893645554e-06,
+      "sampled_gear_error_rad": 1.6511450322553857e-07,
+      "sampled_branch_margin": 0.5764714029380216
+    },
+    {
+      "recording": "front_right-84000-lower-125us.npz",
+      "sha256": "9747b72fad074544480cecec4b5ab96abf4cbca812574af463125e50baaeef05",
+      "passed": true,
+      "native_valid": true,
+      "selected_route": "inverted",
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.301689918460148e-06,
+      "sampled_gear_error_rad": 1.1281236425020325e-07,
+      "sampled_branch_margin": 0.5771387827835344
+    },
+    {
+      "recording": "front_right-84000-upper-250us.npz",
+      "sha256": "030039e577e371521de035f38c14fe20553fa1ea67aff2c08b03b5f2238b4f55",
+      "passed": false,
+      "native_valid": true,
+      "selected_route": null,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.3057835427476225e-06,
+      "sampled_gear_error_rad": 1.0968916441811416e-08,
+      "sampled_branch_margin": 0.5770990863394356
+    },
+    {
+      "recording": "front_right-84000-upper-125us.npz",
+      "sha256": "51ad7c100b8847ee14e4610801a8f6c4169207d8f924e852f6b6224a295d56a4",
+      "passed": false,
+      "native_valid": true,
+      "selected_route": null,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.305761393426014e-06,
+      "sampled_gear_error_rad": 4.350785136608692e-08,
+      "sampled_branch_margin": 0.5771000376258617
+    }
+  ],
+  "summary_sha256": "2523d58395cc8f088a75253403fa4cb6df8ed2cf2e3d0b25066c4095ebd5da03",
+  "source_sha256": {
+    "audit_orientation_recovery.py": "d50544c304287809edb50f89914884336a1f4dbe5690909fcae165d5d68cd181"
+  },
+  "scope": "Verifies source/reference/recording identities, every sensor-based controller selection/action/phase, continuous timing and native state/current at routing. Independently reconstructs sampled IMU, encoders, COM, velocity, linkage constraints and final-window posture gates. Recorded contacts and continuous guards rely on the hashed runner; no full dynamics rerun or mechanical qualification. Failed and unsupported recoveries remain failures."
+}

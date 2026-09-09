@@ -1,0 +1,99 @@
+{
+  "status": "completed",
+  "seed": 78200,
+  "requested_updates": 100,
+  "num_envs": 64,
+  "workers": 16,
+  "configuration": {
+    "num_steps_per_env": 24,
+    "save_interval": 25,
+    "logger": "tensorboard",
+    "check_for_nan": true,
+    "obs_groups": {
+      "actor": [
+        "actor"
+      ],
+      "critic": [
+        "critic"
+      ]
+    },
+    "actor": {
+      "class_name": "rsl_rl.models:MLPModel",
+      "hidden_dims": [
+        128,
+        128,
+        64
+      ],
+      "activation": "elu",
+      "obs_normalization": true,
+      "distribution_cfg": {
+        "class_name": "rsl_rl.modules.distribution:GaussianDistribution",
+        "init_std": 0.1,
+        "std_type": "log"
+      }
+    },
+    "critic": {
+      "class_name": "rsl_rl.models:MLPModel",
+      "hidden_dims": [
+        128,
+        128,
+        64
+      ],
+      "activation": "elu",
+      "obs_normalization": true
+    },
+    "algorithm": {
+      "class_name": "rsl_rl.algorithms:PPO",
+      "rnd_cfg": null,
+      "symmetry_cfg": null,
+      "num_learning_epochs": 5,
+      "num_mini_batches": 4,
+      "learning_rate": 0.0001,
+      "gamma": 0.9975,
+      "lam": 0.98,
+      "entropy_coef": 0.001,
+      "schedule": "fixed",
+      "desired_kl": 0.01
+    }
+  },
+  "started_unix": 1788950386.9459257,
+  "source_sha256": {
+    "train_residual.py": "7f2bbf3ae76449b62bb87838aa13cc3b7697e56b29a4595eec1ca3d19e04566d",
+    "residual_recovery.py": "09dd5283d916b727bfebdf9ecdf545ec1381a74f58b0bae3bf1e0315802de98c",
+    "residual_worker.py": "1b6c7f5144892a7068e5757c0b76506b0b9d501e227072ddfb95446639a8c4cd",
+    "residual_vector.py": "e306f2553bf252702b4a2ce1c11dffb651107c5f735101b0542cc4e2024d7f96",
+    "environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb",
+    "evaluate.py": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef",
+    "guided_balance.py": "84282cffce9fa6598b431726e03e168da5c40cddaef09dd6dbdfb900d20234bb",
+    "train.py": "2cd8fb343f119666d309a0bc019262d8549d8ad4894f064a1b2ef39427cc7c61",
+    "balance_teacher.py": "b6e2e919240228084437bf59ec49537d3a165f6d3ff47691f554d9bcf78e4e09",
+    "teacher_reference.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486",
+    "plant/geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839",
+    "plant/manifest.json": "e733063a55088781d85aaf4a3c2f3ce7b05fd2c696a2f44fad78ebcc39284d9d",
+    "plant/native_recovery_support.py": "e7a7b6d71d68a0335a131097621c6e7aaf88f7ebd41e9b13e620e070e9890157",
+    "plant/native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "plant/native_drivetrain.py": "3994d8475929f8ae1e6fcf68a487f852c3812ec96937c796d41b499fc0304b77",
+    "plant/native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+    "plant/model.xml": "34a516ae9b9600fdec88010e3edffcd9e44f6851bb6d1745d1018b9ccd441444",
+    "plant/native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+    "plant/parameters.json": "6634e94e3e9a469bd8f88a45589ae7a783ccc0b0fb8cd27695ee8a3e5d8c9a1a",
+    "recovery-reference/manifest.json": "d6cf8f0361131af3e9a07a1038eb01f15282f62a64cfd67b8af8ad5362fb9020",
+    "recovery-reference/balance.npz": "69c1cafa24b403839701fe15eee9b615497df3bc79a1e9f688a768b411b167d6"
+  },
+  "packages": {
+    "torch": "2.9.1+cpu",
+    "rsl-rl-lib": "5.0.1",
+    "mujoco": "3.3.7",
+    "numpy": "2.4.6"
+  },
+  "scope": "Residual PPO around programmed back get-up; frozen learned balance after 1.34 s. Mixed physics timesteps, nominal hardware; not end-to-end or all-family recovery.",
+  "completed_updates": 100,
+  "transitions": 153600,
+  "episode_outcomes": {
+    "success": 166,
+    "timeout": 58
+  },
+  "checkpoint": "model_99.pt",
+  "checkpoint_sha256": "61c002f6383944563b7a92b9ff38239bcbb5f80a37c9dd0d6a7d0c8b1098c307",
+  "elapsed_wall_s": 396.2813572883606
+}

@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "status": "appearance_concept_unqualified",
+  "units": "mm",
+  "printed_parts_per_wheel": 1,
+  "material_candidate": "TPU 95A",
+  "density_assumption_g_cm3": 1.2,
+  "mounting_qualified": false,
+  "strength_tested": false,
+  "simulated": false,
+  "variants": [
+    {
+      "id": "tpu-wheel-120x25",
+      "diameter_mm": 120,
+      "width_mm": 25.0,
+      "hub_diameter_mm": 44.0,
+      "bore_diameter_mm": 8,
+      "provisional_mount": {
+        "holes": 4,
+        "hole_diameter_mm": 3.2,
+        "pcd_mm": 30
+      },
+      "minimum_straight_web_mm": 1.732,
+      "minimum_tread_skin_mm": 2.6,
+      "cad_valid": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        120.0,
+        120.0,
+        25.0
+      ],
+      "volume_cm3": 122.162,
+      "estimated_mass_g": 146.6,
+      "fits_a1_mini_flat": true,
+      "print_plates_per_pair": 2,
+      "mesh": "tpu-wheel-120x25.json",
+      "mesh_sha256": "af51a95f0b3481c639a1e4ca935df8672a146e2af5fdfac09d41e37554010801",
+      "stl": "tpu-wheel-120x25.stl",
+      "step": "tpu-wheel-120x25.step"
+    },
+    {
+      "id": "tpu-wheel-140x25",
+      "diameter_mm": 140,
+      "width_mm": 25.0,
+      "hub_diameter_mm": 44.0,
+      "bore_diameter_mm": 8,
+      "provisional_mount": {
+        "holes": 4,
+        "hole_diameter_mm": 3.2,
+        "pcd_mm": 30
+      },
+      "minimum_straight_web_mm": 1.732,
+      "minimum_tread_skin_mm": 2.6,
+      "cad_valid": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        140.0,
+        140.0,
+        25.0
+      ],
+      "volume_cm3": 153.149,
+      "estimated_mass_g": 183.8,
+      "fits_a1_mini_flat": true,
+      "print_plates_per_pair": 2,
+      "mesh": "tpu-wheel-140x25.json",
+      "mesh_sha256": "73b6b2d40975f93f4985dd014c402bd480ed7603a8c09218f81b53d6d9ff8ac5",
+      "stl": "tpu-wheel-140x25.stl",
+      "step": "tpu-wheel-140x25.step"
+    }
+  ],
+  "sampled_mechanical_fit_pass": false,
+  "fit_audit": "initial-fit.json"
+}

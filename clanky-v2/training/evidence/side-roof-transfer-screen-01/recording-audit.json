@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "recording": "right-84000-lower-250us.npz",
+      "sha256": "416239d456c048b0fd47b1a3a3e4a8d0be03d6b499df5879406ab73624fab70a",
+      "passed": true,
+      "native_valid": true,
+      "selected_route": "inverted",
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.305758412737513e-06,
+      "sampled_gear_error_rad": 8.367815667043032e-08,
+      "sampled_branch_margin": 0.5765367755742186
+    },
+    {
+      "recording": "right-84000-lower-125us.npz",
+      "sha256": "0245374508167a489046088ec3f629a9be9a2cfbd92c0e65da4c739b325b1f11",
+      "passed": true,
+      "native_valid": true,
+      "selected_route": "inverted",
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.3057322237919915e-06,
+      "sampled_gear_error_rad": 6.632147346863348e-08,
+      "sampled_branch_margin": 0.5765992198847435
+    },
+    {
+      "recording": "front_left-84000-lower-250us.npz",
+      "sha256": "ae588ddc941e2b21f89d5a895f27da46351bddc37de98e52c0eb0f58188f1897",
+      "passed": true,
+      "native_valid": true,
+      "selected_route": "inverted",
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.305785640495022e-06,
+      "sampled_gear_error_rad": 1.971246014420558e-07,
+      "sampled_branch_margin": 0.57645833079162
+    },
+    {
+      "recording": "front_left-84000-lower-125us.npz",
+      "sha256": "7dd5849c3727094b72607bc294cc00386e8bd54605064a2c707ad8e679bef02b",
+      "passed": true,
+      "native_valid": true,
+      "selected_route": "inverted",
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 7.294609424262797e-06,
+      "sampled_gear_error_rad": 9.741835071963578e-08,
+      "sampled_branch_margin": 0.5762113438072706
+    },
+    {
+      "recording": "front_right-84000-lower-250us.npz",
+      "sha256": "699ae8d25c8e951896a03376a5bc87aba2d126bbd1a0a5f8210283c11055d60d",
+      "passed": true,
+      "native_valid": true,
+      "selected_route": "inverted",
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.301707893645554e-06,
+      "sampled_gear_error_rad": 1.6511450322553857e-07,
+      "sampled_branch_margin": 0.5764714029380216
+    },
+    {
+      "recording": "front_right-84000-lower-125us.npz",
+      "sha256": "9747b72fad074544480cecec4b5ab96abf4cbca812574af463125e50baaeef05",
+      "passed": true,
+      "native_valid": true,
+      "selected_route": "inverted",
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.301689918460148e-06,
+      "sampled_gear_error_rad": 1.1281236425020325e-07,
+      "sampled_branch_margin": 0.5771387827835344
+    }
+  ],
+  "summary_sha256": "c28297a6cefd012bbb12bfc231733ffaf649bf643e1c86a5d7637c88924bcd7d",
+  "source_sha256": {
+    "audit_orientation_recovery.py": "d50544c304287809edb50f89914884336a1f4dbe5690909fcae165d5d68cd181"
+  },
+  "scope": "Verifies source/reference/recording identities, every sensor-based controller selection/action/phase, continuous timing and native state/current at routing. Independently reconstructs sampled IMU, encoders, COM, velocity, linkage constraints and final-window posture gates. Recorded contacts and continuous guards rely on the hashed runner; no full dynamics rerun or mechanical qualification. Failed and unsupported recoveries remain failures."
+}

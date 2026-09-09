@@ -1,0 +1,1755 @@
+{
+  "status": "unadopted_body_motor_allocation_comparison",
+  "adopted": false,
+  "motor_sku": "SS-XV3-X2216-S-880-V3",
+  "motor_source": "https://sunnyskyusa.com/products/sunnysky-x2216",
+  "motor_axis_xz_mm": [
+    -60.0,
+    39.0
+  ],
+  "motor_allocation": {
+    "diameter_mm": 27.7,
+    "total_axial_mm": 36.5,
+    "absolute_y_range_mm": [
+      24,
+      60.5
+    ]
+  },
+  "cases": [
+    {
+      "case": "existing_pi",
+      "allocations": [
+        {
+          "name": "depth_camera_bay",
+          "dims": [
+            45,
+            120,
+            40
+          ],
+          "centre": [
+            57,
+            0,
+            34
+          ],
+          "label": "D435i bay \u00b7 120 \u00d7 45 \u00d7 40 mm",
+          "color": [
+            0.16,
+            0.62,
+            0.7
+          ],
+          "note": "90 \u00d7 25 \u00d7 25 mm camera plus side USB clearance; mount, actual plug and optical check pending."
+        },
+        {
+          "name": "pi_cooling_and_connectors",
+          "dims": [
+            110,
+            78,
+            32
+          ],
+          "centre": [
+            -23,
+            -18,
+            41
+          ],
+          "label": "Raspberry Pi + cooler / plugs",
+          "color": [
+            0.26,
+            0.62,
+            0.39
+          ],
+          "note": "Pi 5 85 \u00d7 56 mm PCB reference; 32 mm allocation includes components/cooling, not an exact cooler model."
+        },
+        {
+          "name": "battery_bay",
+          "dims": [
+            76,
+            42,
+            32
+          ],
+          "centre": [
+            -25,
+            30,
+            8
+          ],
+          "label": "Battery bay \u00b7 76 \u00d7 42 \u00d7 32 mm",
+          "color": [
+            0.85,
+            0.52,
+            0.15
+          ],
+          "note": "Unselected pack: voltage, discharge capability, padding, retention and thermal isolation remain open."
+        },
+        {
+          "name": "controller_bay",
+          "dims": [
+            70,
+            42,
+            24
+          ],
+          "centre": [
+            -15,
+            -25,
+            4
+          ],
+          "label": "Control / power electronics",
+          "color": [
+            0.5,
+            0.4,
+            0.73
+          ],
+          "note": "Unselected controller allocation. Hip motor/reduction packaging remains unresolved."
+        }
+      ],
+      "containment": [
+        {
+          "name": "depth_camera_bay",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "pi_cooling_and_connectors",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "battery_bay",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "controller_bay",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "left_X2216_short_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "left_mount_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "left_feedback_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "left_phase_lead_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "right_X2216_short_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "right_mount_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "right_feedback_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "right_phase_lead_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        }
+      ],
+      "pairs": [
+        {
+          "pair": [
+            "depth_camera_bay",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 21.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 14.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "left_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.65,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "left_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "left_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 81.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "left_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 108.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.65,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 81.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 108.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 1.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 9.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "left_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "left_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "left_feedback_allocation"
+          ],
+          "overlap_mm3": 4732.0,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "left_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 19886.729174176526,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 1765.7899620233604,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 4732.0,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 544.0,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 13.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "left_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 1.1499999999999986,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "left_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "left_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "left_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 11.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 33.02003179889444,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 30.004166377354995,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 23.08679276123039,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 34.785054261852174,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "left_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 30.168030003619084,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "left_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 27.14652280069957,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "left_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 20.591260281974,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "left_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 37.36308338453881,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 11.229872407968905,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 10.579872407968907,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 10.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 24.73863375370596,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_X2216_short_allocation",
+            "left_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_X2216_short_allocation",
+            "left_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_X2216_short_allocation",
+            "left_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.15000000000000568,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_X2216_short_allocation",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 48.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_X2216_short_allocation",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 45.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_X2216_short_allocation",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 38.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_X2216_short_allocation",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 48.0002343744278,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_mount_allocation",
+            "left_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_mount_allocation",
+            "left_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_mount_allocation",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 45.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_mount_allocation",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 42.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_mount_allocation",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 35.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_mount_allocation",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 45.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_feedback_allocation",
+            "left_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.1622776601683795,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_feedback_allocation",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 38.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_feedback_allocation",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 35.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_feedback_allocation",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 28.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_feedback_allocation",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 38.01315561749642,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_phase_lead_allocation",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 48.0002343744278,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_phase_lead_allocation",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 45.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_phase_lead_allocation",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 38.01315561749642,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_phase_lead_allocation",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 48.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "right_X2216_short_allocation",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "right_X2216_short_allocation",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "right_X2216_short_allocation",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.15000000000000568,
+          "passed": true
+        },
+        {
+          "pair": [
+            "right_mount_allocation",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "right_mount_allocation",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "right_feedback_allocation",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.1622776601683795,
+          "passed": true
+        }
+      ],
+      "body_walls": [
+        {
+          "part": "left_X2216_short_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 7.350000000000001,
+          "passed": true
+        },
+        {
+          "part": "left_X2216_short_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "part": "left_mount_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 15.69420474196994,
+          "passed": true
+        },
+        {
+          "part": "left_mount_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 7.0,
+          "passed": true
+        },
+        {
+          "part": "left_feedback_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 11.810588469674153,
+          "passed": true
+        },
+        {
+          "part": "left_feedback_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 8.5,
+          "passed": true
+        },
+        {
+          "part": "left_phase_lead_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 4.4598206241955545,
+          "passed": true
+        },
+        {
+          "part": "left_phase_lead_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 1.5,
+          "passed": true
+        },
+        {
+          "part": "right_X2216_short_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 7.350000000000001,
+          "passed": true
+        },
+        {
+          "part": "right_X2216_short_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "part": "right_mount_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 15.694204741969942,
+          "passed": true
+        },
+        {
+          "part": "right_mount_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 7.0,
+          "passed": true
+        },
+        {
+          "part": "right_feedback_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 11.810588469674153,
+          "passed": true
+        },
+        {
+          "part": "right_feedback_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 8.5,
+          "passed": true
+        },
+        {
+          "part": "right_phase_lead_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 4.4598206241955545,
+          "passed": true
+        },
+        {
+          "part": "right_phase_lead_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 1.5,
+          "passed": true
+        }
+      ],
+      "checks": 94,
+      "nominal_allocation_pass": false
+    },
+    {
+      "case": "rotated_pi",
+      "allocations": [
+        {
+          "name": "depth_camera_bay",
+          "dims": [
+            45,
+            120,
+            40
+          ],
+          "centre": [
+            57,
+            0,
+            34
+          ],
+          "label": "D435i bay \u00b7 120 \u00d7 45 \u00d7 40 mm",
+          "color": [
+            0.16,
+            0.62,
+            0.7
+          ],
+          "note": "90 \u00d7 25 \u00d7 25 mm camera plus side USB clearance; mount, actual plug and optical check pending."
+        },
+        {
+          "name": "pi_cooling_and_connectors",
+          "dims": [
+            78,
+            110,
+            32
+          ],
+          "centre": [
+            -6,
+            0,
+            41
+          ],
+          "label": "Raspberry Pi + cooler / plugs",
+          "color": [
+            0.26,
+            0.62,
+            0.39
+          ],
+          "note": "Pi 5 85 \u00d7 56 mm PCB reference; 32 mm allocation includes components/cooling, not an exact cooler model."
+        },
+        {
+          "name": "battery_bay",
+          "dims": [
+            76,
+            42,
+            32
+          ],
+          "centre": [
+            -25,
+            30,
+            8
+          ],
+          "label": "Battery bay \u00b7 76 \u00d7 42 \u00d7 32 mm",
+          "color": [
+            0.85,
+            0.52,
+            0.15
+          ],
+          "note": "Unselected pack: voltage, discharge capability, padding, retention and thermal isolation remain open."
+        },
+        {
+          "name": "controller_bay",
+          "dims": [
+            70,
+            42,
+            24
+          ],
+          "centre": [
+            -15,
+            -25,
+            4
+          ],
+          "label": "Control / power electronics",
+          "color": [
+            0.5,
+            0.4,
+            0.73
+          ],
+          "note": "Unselected controller allocation. Hip motor/reduction packaging remains unresolved."
+        }
+      ],
+      "containment": [
+        {
+          "name": "depth_camera_bay",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "pi_cooling_and_connectors",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "battery_bay",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "controller_bay",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "left_X2216_short_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "left_mount_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "left_feedback_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "left_phase_lead_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "right_X2216_short_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "right_mount_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "right_feedback_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        },
+        {
+          "name": "right_phase_lead_allocation",
+          "outside_body_cavity_mm3": 0,
+          "passed": true
+        }
+      ],
+      "pairs": [
+        {
+          "pair": [
+            "depth_camera_bay",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 1.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 21.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 14.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "left_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.65,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "left_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "left_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 81.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "left_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 108.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.65,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 81.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "depth_camera_bay",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 108.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 1.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 9.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "left_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 1.1499999999999986,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "left_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "left_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "left_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 29.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 1.1499999999999986,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "pi_cooling_and_connectors",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 29.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 13.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "left_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 1.1499999999999986,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "left_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.5,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "left_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "left_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 11.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 33.02003179889444,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 30.004166377354995,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 23.08679276123039,
+          "passed": true
+        },
+        {
+          "pair": [
+            "battery_bay",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 34.785054261852174,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "left_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 30.168030003619084,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "left_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 27.14652280069957,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "left_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 20.591260281974,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "left_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 37.36308338453881,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 11.229872407968905,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 10.579872407968907,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 10.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "controller_bay",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 24.73863375370596,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_X2216_short_allocation",
+            "left_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_X2216_short_allocation",
+            "left_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_X2216_short_allocation",
+            "left_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.15000000000000568,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_X2216_short_allocation",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 48.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_X2216_short_allocation",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 45.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_X2216_short_allocation",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 38.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_X2216_short_allocation",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 48.0002343744278,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_mount_allocation",
+            "left_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_mount_allocation",
+            "left_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_mount_allocation",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 45.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_mount_allocation",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 42.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_mount_allocation",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 35.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_mount_allocation",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 45.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_feedback_allocation",
+            "left_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.1622776601683795,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_feedback_allocation",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 38.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_feedback_allocation",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 35.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_feedback_allocation",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 28.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_feedback_allocation",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 38.01315561749642,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_phase_lead_allocation",
+            "right_X2216_short_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 48.0002343744278,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_phase_lead_allocation",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 45.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_phase_lead_allocation",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 38.01315561749642,
+          "passed": true
+        },
+        {
+          "pair": [
+            "left_phase_lead_allocation",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 48.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "right_X2216_short_allocation",
+            "right_mount_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "right_X2216_short_allocation",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "right_X2216_short_allocation",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.15000000000000568,
+          "passed": true
+        },
+        {
+          "pair": [
+            "right_mount_allocation",
+            "right_feedback_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "right_mount_allocation",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "pair": [
+            "right_feedback_allocation",
+            "right_phase_lead_allocation"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.1622776601683795,
+          "passed": true
+        }
+      ],
+      "body_walls": [
+        {
+          "part": "left_X2216_short_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 7.350000000000001,
+          "passed": true
+        },
+        {
+          "part": "left_X2216_short_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "part": "left_mount_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 15.69420474196994,
+          "passed": true
+        },
+        {
+          "part": "left_mount_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 7.0,
+          "passed": true
+        },
+        {
+          "part": "left_feedback_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 11.810588469674153,
+          "passed": true
+        },
+        {
+          "part": "left_feedback_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 8.5,
+          "passed": true
+        },
+        {
+          "part": "left_phase_lead_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 4.4598206241955545,
+          "passed": true
+        },
+        {
+          "part": "left_phase_lead_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 1.5,
+          "passed": true
+        },
+        {
+          "part": "right_X2216_short_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 7.350000000000001,
+          "passed": true
+        },
+        {
+          "part": "right_X2216_short_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "part": "right_mount_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 15.694204741969942,
+          "passed": true
+        },
+        {
+          "part": "right_mount_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 7.0,
+          "passed": true
+        },
+        {
+          "part": "right_feedback_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 11.810588469674153,
+          "passed": true
+        },
+        {
+          "part": "right_feedback_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 8.5,
+          "passed": true
+        },
+        {
+          "part": "right_phase_lead_allocation",
+          "shell": "body_lower",
+          "overlap_mm3": 0,
+          "clearance_mm": 4.4598206241955545,
+          "passed": true
+        },
+        {
+          "part": "right_phase_lead_allocation",
+          "shell": "body_upper",
+          "overlap_mm3": 0,
+          "clearance_mm": 1.5,
+          "passed": true
+        }
+      ],
+      "checks": 94,
+      "nominal_allocation_pass": true
+    }
+  ],
+  "complete_drivetrain_fit_pass": false,
+  "hardware_release": false,
+  "dynamics_validated": false,
+  "source_sha256": {
+    "hip_motor_pocket.py": "555c3180ef7035fcf17c6c850850a34f20bdb9e779017d4e4bebdf1f3b92ac4a",
+    "body_package.py": "ecd475279c8759a7a6bab9648b65d8028292409ec35c4fd2ac7fee3608b2b265",
+    "layout.py": "6452521c3837fdca61a1302092fd1ed716d272bf57a7bcac966e52951852b41f",
+    "hardware-references/x2216-short-source.json": "8c957b401f69802f6e325c2fc3eabb3604701dd9eef23ed5e6db8927c9bad1cd",
+    "hardware-references/x2216-drawing.jpg": "2aee555435fe930306615b1f1be0fa1bafb3bb7931dfcf4c989504c4106d9b5a"
+  },
+  "limitations": [
+    "This compares reserved volumes in the unchanged body cavity, not installed functional motors or a complete drive.",
+    "Motor allocation touches the nominal inner side wall; output apertures and running clearances must be designed.",
+    "Smaller mounting plates, actual screws, encoder/shaft access and wire bends remain unmodeled. The supplied 41 mm cross mount is not used.",
+    "Pi allocation is rotated and translated, not shrunk. Actual PCB/cooler models in the main viewer have not been moved.",
+    "Reductions, spindle connection, gear supports, tool access, thermal isolation and independent-leg interference remain unvalidated."
+  ]
+}

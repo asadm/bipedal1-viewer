@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "recording": "drive-88000-250us.npz",
+      "sha256": "b61c372541d7d2ca6875a43831ad25c70236279c7fa6ee8803616cd950f9f1c5",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.476382203528309e-06,
+      "sampled_gear_error_rad": 2.0351194507384205e-09,
+      "sampled_branch_margin": 0.9668360560331682
+    },
+    {
+      "recording": "drive-88000-125us.npz",
+      "sha256": "675fd9fc0ff1e25611ad6093121c73e6650b2e22b2a57137f9c5bee6e9dd64f6",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.476305277267532e-06,
+      "sampled_gear_error_rad": 2.0360232610983075e-09,
+      "sampled_branch_margin": 0.9668363260636316
+    },
+    {
+      "recording": "turn-88001-250us.npz",
+      "sha256": "d77d66f9ae64e7f70547165ecc92f0756e3ca5b61050b04532330c870b979f6d",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.4728614634374355e-06,
+      "sampled_gear_error_rad": 3.103658485770211e-09,
+      "sampled_branch_margin": 0.9670228450092554
+    },
+    {
+      "recording": "turn-88001-125us.npz",
+      "sha256": "0d7a1620fcddd3ff86646448c2250c277162f4305eeaec586f41f66f5b400e0d",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.4722324043823643e-06,
+      "sampled_gear_error_rad": 2.6860337065670593e-09,
+      "sampled_branch_margin": 0.9670319804149087
+    },
+    {
+      "recording": "arc-88002-250us.npz",
+      "sha256": "ac29904d67b143927c8a20d7f54a28062f347ec634bb7460b4a47d84cedb791b",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.4744617725328473e-06,
+      "sampled_gear_error_rad": 2.1115511117386633e-09,
+      "sampled_branch_margin": 0.9669318701804135
+    },
+    {
+      "recording": "arc-88002-125us.npz",
+      "sha256": "8e90c9b46841a0de9b018965d13b683dae94f9df864fbf3eb5bd90ae64cffb84",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.474601808120337e-06,
+      "sampled_gear_error_rad": 2.063796955553698e-09,
+      "sampled_branch_margin": 0.9669426490592736
+    },
+    {
+      "recording": "mixed-88003-250us.npz",
+      "sha256": "06611e22ada209f7905f62ab1a67f4aefae2c5e406d2f324816ec6008c3a163d",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.4740969762913317e-06,
+      "sampled_gear_error_rad": 4.073842774232617e-09,
+      "sampled_branch_margin": 0.9669096529114402
+    },
+    {
+      "recording": "mixed-88003-125us.npz",
+      "sha256": "bf34c7761d8a4e8544a672473a13b2c1faa7a4cd67d284dacd4a60ab0d382d3c",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.474025791747741e-06,
+      "sampled_gear_error_rad": 3.381353508302709e-09,
+      "sampled_branch_margin": 0.966909269479396
+    }
+  ],
+  "summary_sha256": "93683b806469d2e3fc11ba6a8193c4328bd7d6ad6f129a773857e234166b2200",
+  "source_sha256": {
+    "audit_command_driving.py": "7909f68fec4b2bb1e03edb73a260a5ab7960f5df82714c134949dc68444ba218"
+  },
+  "scope": "Verify source/plan/recording identity, every initial state, command, teacher label and actor action. Reconstruct sensor inputs and sampled forward/yaw motion, COM, roll and linkage constraints; recompute tracking and final standing gates. Continuous motor/contact/standing guards rely on the hashed runner; no independent dynamics rerun or hardware qualification. Failed motions remain failures."
+}

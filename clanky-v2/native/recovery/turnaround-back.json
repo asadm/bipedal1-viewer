@@ -1,0 +1,48 @@
+{
+  "source_sha256": {
+    "native/recovery/source-snapshots/native_recovery_turnaround.py.txt": "0ae720b90587de400cd2a307be1ef6dab0f2ec20b721ca519064ee4194bf455b"
+  },
+  "cases": [
+    {
+      "directory": "turnaround/back-q-70-t300-250us",
+      "report_sha256": "442d13be442150a3f3f4a3d47cc9000fdc8bb9562334bf145f51ad981be6751e",
+      "passed": false,
+      "score": 0.6326588682378789,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    },
+    {
+      "directory": "turnaround/back-q-70-t450-250us",
+      "report_sha256": "836c7f93db05bf5360c047333ea2a2a86088f1b209ddf42bdd8cf7f578a49797",
+      "passed": false,
+      "score": 0.6326588528425405,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    },
+    {
+      "directory": "turnaround/back-q-110-t300-250us",
+      "report_sha256": "554f2d07ae7e8c913f3ba9580eaf51b619efb58d1f4fe54a46b5de6a19b66462",
+      "passed": false,
+      "score": 0.6326588821861138,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    },
+    {
+      "directory": "turnaround/back-q-110-t450-250us",
+      "report_sha256": "e8e7592092a9afc8c170aa87d8924348d603a58fdd9d5fbcb1d8d7026472b1e6",
+      "passed": false,
+      "score": 0.6326587855410486,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    }
+  ],
+  "scope": "Finite controller diagnostic following failed nominal seeds; not an RL policy or a hardware verdict",
+  "source_note": "Exact executed wrapper archived. Current entrypoint removes one unused import; simulation sources and recorded outputs are unchanged.",
+  "current_entrypoint_sha256": {
+    "native_recovery_turnaround.py": "19eab173cf30f97708932ce19a079dfb56e90f8e32199c2ae84de72256fa7dda"
+  }
+}

@@ -1,9 +1,11 @@
+import {sha256} from './sha256.mjs';
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {compiledRobot} from './compiled-robot.mjs';
 import {cadRobot} from './cad-robot.mjs';
 import {inspectionPose, inspectionRange} from './cad-pose.mjs';
 import {interpolateBodies} from './replay-pose.mjs';
+import {terrainView} from './terrain-view.mjs';
 import {mainRecordings, initialRecordingId, validateRecording, programmedDetail, programmedPhase} from './skill-recordings.mjs';
 
 const $ = id => document.getElementById(id);
@@ -12,17 +14,18 @@ const json = async (url, expectedHash) => {
   if (!response.ok) throw Error(`Cannot load ${url} (${response.status})`);
   if (!expectedHash) return response.json();
   const bytes = await response.arrayBuffer();
-  const digest = Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256', bytes)), n => n.toString(16).padStart(2, '0')).join('');
+  const digest = await sha256(bytes);
   if (digest !== expectedHash) throw Error(`Recording asset checksum mismatch: ${url}`);
   return JSON.parse(new TextDecoder().decode(bytes));
 };
 
 try {
-  const [catalog, jumpCatalog, recoveryCatalog] = await Promise.all([
+  const [catalog, jumpCatalog, recoveryCatalog, terrainCatalog] = await Promise.all([
     json('../learned/catalog.json'), json('../programmed-jump/catalog.json'), json('../recovery/catalog.json'),
+    json('../terrain/catalog.json'),
   ]);
-  const {policies, demos, recordings} = mainRecordings(catalog, jumpCatalog, recoveryCatalog);
-  $('policy-count').textContent = `${policies.length} learned skills · ${demos.length} programmed demos`;
+  const {policies, demos, development, recordings} = mainRecordings(catalog, jumpCatalog, recoveryCatalog, terrainCatalog);
+  $('policy-count').textContent = `${policies.length} learned skills · ${demos.length} programmed demos · terrain in development`;
   const canvas = $('model-canvas'), viewport = canvas.parentElement;
   THREE.Object3D.DEFAULT_UP.set(0, 0, 1);
   const scene = new THREE.Scene(); scene.background = new THREE.Color('#edf1ef');
@@ -42,6 +45,12 @@ try {
   const floor = new THREE.Mesh(new THREE.PlaneGeometry(12000, 12000), new THREE.MeshStandardMaterial({color: '#e5ebe3', roughness: 1})); floor.position.z = -.3; scene.add(floor);
   floor.receiveShadow = true;
   const grid = new THREE.GridHelper(12000, 300, '#aebba8', '#c3cec0'); grid.rotation.x = Math.PI / 2; grid.position.z = .05; grid.material.transparent = true; grid.material.opacity = .28; scene.add(grid);
+  let terrain = null;
+  function setTerrain(fields = []) {
+    terrain?.dispose(); terrain = fields.length ? terrainView(THREE, fields) : null;
+    if (terrain) scene.add(terrain.root);
+    floor.visible = grid.visible = !terrain;
+  }
   const pushArrow = new THREE.ArrowHelper(new THREE.Vector3(1, 0, 0), new THREE.Vector3(), 150, '#e87924', 35, 20);
   for (const part of [pushArrow.line, pushArrow.cone]) {
     part.material.depthTest = false; part.material.depthWrite = false; part.renderOrder = 10;
@@ -81,7 +90,7 @@ try {
     const nextTarget = new THREE.Vector3(...bodies.chassis.pos.map(v => v * 1000));
     // Track driving horizontally; a fixed vertical frame makes jumping and
     // raising/lowering visible instead of flying the camera with the chassis.
-    nextTarget.z = 155;
+    nextTarget.z = 155 + (frame.terrain_height_m ? 500 * frame.terrain_height_m.reduce((a, b) => a + b, 0) : 0);
     const shift = nextTarget.clone().sub(target); camera.position.add(shift); controls.target.add(shift); target.copy(nextTarget);
     floor.position.x = nextTarget.x; floor.position.y = nextTarget.y;
     grid.position.x = Math.floor(nextTarget.x / 40) * 40; grid.position.y = Math.floor(nextTarget.y / 40) * 40;
@@ -102,8 +111,8 @@ try {
           : selected.skill === 'height'
             ? frame.command[2] < record.frames[0].command[2] - 1e-6 ? 'Lower'
               : frame.command[2] > record.frames[0].command[2] + 1e-6 ? 'Raise' : 'Ride height'
-            : frame.phase;
-      const height = frame.bodies.chassis.pos[2] * 1000;
+            : selected.skill === 'balance' ? 'Balancing' : frame.phase;
+      const height = (frame.body_height_m ?? frame.bodies.chassis.pos[2]) * 1000;
       $('height').textContent = programmed ? `${height.toFixed(0)} mm`
         : `${height.toFixed(0)} / ${(frame.command[2] * 1000).toFixed(0)} mm`;
       if (programmed) $('velocity').textContent = `${frame.speed_m_s.toFixed(2)} m/s`;
@@ -148,8 +157,9 @@ try {
     const ticket = ++selection;
     const entry = recordings.find(p => p.id === id); if (!entry) throw Error('Unknown recording');
     const programmed = entry.type === 'programmed';
+    const developing = entry.type === 'development';
     play(false); $('replay-controls').hidden = true; $('inspection-controls').hidden = true;
-    $('load-status').hidden = false; $('load-status').textContent = `Loading ${programmed ? 'programmed demonstration' : 'validated learned recording'}…`;
+    $('load-status').hidden = false; $('load-status').textContent = `Loading ${programmed ? 'programmed demonstration' : developing ? 'terrain development recording' : 'validated learned recording'}…`;
     const next = await json(entry.directory + entry.replay, entry.replay_sha256);
     validateRecording(entry, next);
     if (next.frames.some(frame => [...Object.keys(groups), ...Object.keys(cad.groups)].some(name => !frame.bodies[name]))) {
@@ -157,10 +167,11 @@ try {
     }
     if (ticket !== selection) return;
     record = next; selected = entry; $('replay-controls').hidden = false;
+    setTerrain(next.terrain_geometry);
     $('policy-select').value = entry.id;
     for (const id of ['controller-kind', 'viewport-kind']) {
-      $(id).textContent = programmed ? 'Programmed · demonstration' : 'Learned · validated in simulation';
-      $(id).classList.toggle('programmed', programmed); $(id).hidden = false;
+      $(id).textContent = programmed ? 'Programmed · demonstration' : developing ? 'Learned · terrain development · unqualified' : 'Learned · validated in simulation';
+      $(id).classList.toggle('programmed', programmed || developing); $(id).hidden = false;
     }
     $('height-label').textContent = programmed ? 'Body height' : 'Body / target height';
     $('velocity-label').textContent = programmed ? 'Body speed (3D)' : 'Speed / target';
@@ -168,10 +179,15 @@ try {
     $('action-start').hidden = !programmed;
     $('action-start').textContent = entry.skill === 'jump' ? 'Play jump' : 'Play get-up';
     $('peak-jump').hidden = !programmed || entry.skill !== 'jump';
-    $('replay-title').textContent = entry.label; $('replay-detail').textContent = programmed ? programmedDetail(entry, next) : `${entry.passed}/${entry.cases} campaign cases passed · recorded seed ${next.report.seed} · ${next.report.variant}`;
+    $('finish').textContent = developing ? 'Final state' : 'Stable finish';
+    $('replay-title').textContent = entry.label;
+    const failed = Object.entries(next.report?.checks ?? {}).filter(([, passed]) => !passed).map(([name]) => name.replaceAll('_', ' '));
+    $('replay-detail').textContent = programmed ? programmedDetail(entry, next) : developing
+      ? `${entry.catalog.updates} terrain PPO updates · ${entry.catalog.screen_passed}/${entry.catalog.screen_cases} development cases passed. This replay ${next.report.simulation_skill_pass ? 'passed its single test' : 'failed: ' + failed.join(', ')}. Fixed ground; loose stones are not simulated. Full terrain qualification pending.`
+      : `${entry.passed}/${entry.cases} campaign cases passed · recorded seed ${next.report.seed} · ${next.report.variant}`;
     $('timeline').min = record.frames[0].t; $('timeline').max = record.frames.at(-1).t;
     $('report-link').href = entry.directory + entry.evaluation; $('record-link').href = entry.directory + entry.replay;
-    $('report-link').textContent = programmed ? 'Programmed diagnostic evidence ↗' : 'Evaluation campaign ↗';
+    $('report-link').textContent = programmed ? 'Programmed diagnostic evidence ↗' : developing ? 'Terrain development tests ↗' : 'Evaluation campaign ↗';
     $('learned-downloads').hidden = programmed;
     $('download-separator').hidden = !entry.policy || !entry.checkpoint;
     $('policy-link').hidden = !entry.policy; $('checkpoint-link').hidden = !entry.checkpoint;
@@ -186,7 +202,7 @@ try {
       controller.startsWith('Posture transfer') ? 'Transferred PPO' : 'Learned PPO';
     $('caption').textContent = programmed
       ? `Programmed ${entry.skill === 'jump' ? 'jump and landing' : 'get-up from a selected fallen pose'} · recorded CPU MuJoCo · hardware unqualified`
-      : `${method} policy ${entry.policy_sha256.slice(0, 8)} · recorded CPU MuJoCo · hardware unqualified`;
+      : `${method} policy ${entry.policy_sha256.slice(0, 8)} · ${developing ? 'recorded terrain and CPU MuJoCo · skill unqualified' : 'recorded CPU MuJoCo · hardware unqualified'}`;
     const url = new URL(location.href); url.searchParams.delete('policy'); url.searchParams.delete('demo'); url.searchParams.delete('inspect');
     url.searchParams.set(programmed ? 'demo' : 'policy', entry.id); history.replaceState(null, '', url);
     show(record.frames[0].t); view(); $('load-status').hidden = true; last = performance.now(); play(true);
@@ -203,6 +219,7 @@ try {
   }
   function inspect() {
     ++selection; play(false); record = selected = null; pushArrow.visible = false;
+    setTerrain();
     $('replay-controls').hidden = true; $('inspection-controls').hidden = false; $('load-status').hidden = true;
     $('policy-select').value = 'inspect'; $('viewport-kind').hidden = false;
     $('viewport-kind').textContent = 'Inspection · prescribed pose'; $('viewport-kind').classList.remove('programmed');
@@ -234,11 +251,11 @@ try {
   new ResizeObserver(resize).observe(viewport); resize(); view();
   if (recordings.length) {
     $('policy-picker').hidden = false;
-    for (const [label, entries] of [['Programmed · demonstrations', demos], ['Learned · validated in simulation', policies]]) {
+    for (const [label, entries] of [['Programmed · demonstrations', demos], ['Learned · validated in simulation', policies], ['Development · uneven terrain', development]]) {
       const group = document.createElement('optgroup'); group.label = label;
       for (const entry of entries) {
         const option = document.createElement('option'); option.value = entry.id;
-        option.textContent = `${entry.type === 'programmed' ? 'Programmed' : 'Learned'} — ${entry.label}`; group.append(option);
+        option.textContent = `${entry.type === 'programmed' ? 'Programmed' : entry.type === 'development' ? 'Development' : 'Learned'} — ${entry.label}`; group.append(option);
       }
       $('policy-select').append(group);
     }

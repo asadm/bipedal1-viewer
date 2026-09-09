@@ -1,0 +1,273 @@
+{
+  "task": "terrain_screen",
+  "trial_cap": 26,
+  "jobs": [
+    {
+      "surface": "flat",
+      "magnitude": 0,
+      "terrain_seed": 731,
+      "seed": 89000,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "flat",
+      "magnitude": 0,
+      "terrain_seed": 731,
+      "seed": 89000,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "bumps",
+      "magnitude": 0.008,
+      "terrain_seed": 731,
+      "seed": 89001,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "bumps",
+      "magnitude": 0.008,
+      "terrain_seed": 731,
+      "seed": 89001,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.01,
+      "terrain_seed": 731,
+      "seed": 89002,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.01,
+      "terrain_seed": 731,
+      "seed": 89002,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.02,
+      "terrain_seed": 731,
+      "seed": 89003,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.02,
+      "terrain_seed": 731,
+      "seed": 89003,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.03,
+      "terrain_seed": 731,
+      "seed": 89004,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.03,
+      "terrain_seed": 731,
+      "seed": 89004,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "slope",
+      "magnitude": 5,
+      "terrain_seed": 731,
+      "seed": 89005,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": 5,
+      "terrain_seed": 731,
+      "seed": 89005,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "slope",
+      "magnitude": -5,
+      "terrain_seed": 731,
+      "seed": 89006,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": -5,
+      "terrain_seed": 731,
+      "seed": 89006,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "slope",
+      "magnitude": 10,
+      "terrain_seed": 731,
+      "seed": 89007,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": 10,
+      "terrain_seed": 731,
+      "seed": 89007,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "slope",
+      "magnitude": -10,
+      "terrain_seed": 731,
+      "seed": 89008,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": -10,
+      "terrain_seed": 731,
+      "seed": 89008,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 5,
+      "terrain_seed": 731,
+      "seed": 89009,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 5,
+      "terrain_seed": 731,
+      "seed": 89009,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -5,
+      "terrain_seed": 731,
+      "seed": 89010,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -5,
+      "terrain_seed": 731,
+      "seed": 89010,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 10,
+      "terrain_seed": 731,
+      "seed": 89011,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 10,
+      "terrain_seed": 731,
+      "seed": 89011,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -10,
+      "terrain_seed": 731,
+      "seed": 89012,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -10,
+      "terrain_seed": 731,
+      "seed": 89012,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    }
+  ],
+  "duration_s": 14.0,
+  "source_sha256": {
+    "terrain_driving.py": "f3db8b07d23c0aabb0c814b308109078ca46062f1b44ca10d6faeed108a81f9c",
+    "terrain_courses.py": "9bcc441dd4ca3052e93b19a1ca2c07a05d7bb4593a1778f0b260a9731b56565c",
+    "terrain_reference.py": "af2fe776105bfacc9701113f840a991bce3e6d195f030f42c032b2dba8846347",
+    "command_driving.py": "34d3a9ac92222b5414a8731ba8a891d09fa30ae02fc4ea43905e3e445ddb18cd",
+    "balance_teacher.py": "b6e2e919240228084437bf59ec49537d3a165f6d3ff47691f554d9bcf78e4e09",
+    "teacher_reference.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486",
+    "environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb",
+    "evaluate.py": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef",
+    "balance_dagger.py": "f2f0e5ce447cb04dcb60663a6d8ba1e07891ed98c1dde3fc5ac6ba8e1e03fe26",
+    "guided_balance.py": "84282cffce9fa6598b431726e03e168da5c40cddaef09dd6dbdfb900d20234bb",
+    "terrain-assets/bumps-0.008-731.npz": "c822560eaeeb0a35d2d62f47990fc003ae421b32e7cb6f2b216d65ae06a1626e",
+    "terrain-assets/cross_slope--10-731.npz": "63efad09814cd1363fe31fd10ad7594637ee87dc0e1d738e48e6a009bd8565ff",
+    "terrain-assets/cross_slope--5-731.npz": "e7baf5f8a0f11ad97e7d5f366a3041e3c7af3db4de62927c96eb4a5c0c81bb00",
+    "terrain-assets/cross_slope-10-731.npz": "f2607480963dd4a4b5e801b68137a03e74befd1ba7f266c6476f1777b97f6bfc",
+    "terrain-assets/cross_slope-5-731.npz": "435a0d783ebeabe822edc40365582e86cbf0ff9d88dca9f2287923d50c9636e9",
+    "terrain-assets/flat-0-731.npz": "0f4d8b63989d4a772d06777450987115d1ab047405b823726d847b0bb5ad66ac",
+    "terrain-assets/slope--10-731.npz": "46f8fdd2692c3ab2db989cf89459669801593e82b8611dedca713df4da338f2d",
+    "terrain-assets/slope--5-731.npz": "0c3ccc7653184cb09d11b638f08dbc3bc58dfb5ef830b06a96c1d15b0b726db7",
+    "terrain-assets/slope-10-731.npz": "28c38658ad8d13817c34b6ce28e17a1832f52f588979382ba183a53d663df060",
+    "terrain-assets/slope-5-731.npz": "a33bc15db70be37f9531a2acb399840e3fcc773c754bf7d20b37bf67475ed711",
+    "terrain-assets/stones-0.01-731.npz": "ec212710d2450fcd58e37602fd621f7d58da45367ae5915e4d3ac8aeb6c4f916",
+    "terrain-assets/stones-0.02-731.npz": "179e8d3be87f57ce6f4553ee0c6a93efe6d0b6563af1a9ca2de535921ddeb04b",
+    "terrain-assets/stones-0.03-731.npz": "a46e27cf774ff7ee8c316ef95cdf4513430bd6e2166b7d8d5f8a4ef52db92abf"
+  },
+  "plant_manifest_sha256": "e733063a55088781d85aaf4a3c2f3ce7b05fd2c696a2f44fad78ebcc39284d9d",
+  "policy_sha256": null,
+  "runtime": {
+    "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
+    "mujoco": "3.3.7",
+    "numpy": "2.4.6"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "symmetric_poses": 401,
+  "additions": 4,
+  "interferences": {},
+  "source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "wiring-additions.json": "ccce9710111ec163755d77089866bda17678105b209b5ee1eea533f5e2e38fce",
+    "wiring_package.py": "23db8ffbb5505ff04b003f04acb576de541a7a2a9aa70c8264430d525422b488",
+    "check_wiring_package.py": "cba0d6ff37bb87be38774d89291653ab911c769f6f2bc831a3ec80a55be54f2b",
+    "check_assembly.py": "45281fe027c219b051a2a53698a759d7e2b51ff92b7bd02dc4e92056d9f429e4"
+  },
+  "scope": "Added static passage walls versus all non-host assembly parts, including conservative gear/rotor/tire rotation envelopes. Host volumes intentionally unite with their duct.",
+  "flexible_harness_validated": false,
+  "limitations": [
+    "Nominal finite sampling; not cable bending, pinch, thermal, structural or fatigue validation.",
+    "Module source nominal interfaces are inherited; added ducts are checked here and wire exits only remove material.",
+    "The main assembly check separately covers independent leg poses."
+  ]
+}

@@ -1,0 +1,639 @@
+{
+  "status": "coaxial_spring_contact_diagnostic",
+  "adopted": false,
+  "poses": 405,
+  "new_meshes": [
+    {
+      "name": "left_hip_cover_M3_1",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0004754177631377532,
+      "passed": true
+    },
+    {
+      "name": "left_hip_cover_M3_2",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0004754177631377532,
+      "passed": true
+    },
+    {
+      "name": "left_hip_cover_M3_3",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.00047541776313697603,
+      "passed": true
+    },
+    {
+      "name": "left_supported_thigh_lid",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 6.0586741893131624e-05,
+      "passed": true
+    },
+    {
+      "name": "left_bushed_internal_tie",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 3.229376724778188e-05,
+      "passed": true
+    },
+    {
+      "name": "left_ground_pivot_bush",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0002635481502416548,
+      "passed": true
+    },
+    {
+      "name": "left_C_HCDG5_10",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.00026354815024198786,
+      "passed": true
+    },
+    {
+      "name": "left_pivot_neck_washer",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0002635481502422099,
+      "passed": true
+    },
+    {
+      "name": "left_pivot_thrust_shim",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.000263548150242765,
+      "passed": true
+    },
+    {
+      "name": "left_pivot_E4_envelope",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0002635481502423209,
+      "passed": true
+    },
+    {
+      "name": "left_fixed_tie_anchor",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 6.251655069910989e-05,
+      "passed": true
+    },
+    {
+      "name": "left_hip_F688_inner",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0002635481502420989,
+      "passed": true
+    },
+    {
+      "name": "left_hip_F688_outer",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0002635481502420989,
+      "passed": true
+    },
+    {
+      "name": "left_fixed_hip_spindle",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0002569373311523959,
+      "passed": true
+    },
+    {
+      "name": "left_spindle_spacer_0",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0002635481502417658,
+      "passed": true
+    },
+    {
+      "name": "left_spindle_spacer_1",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0002635481502417658,
+      "passed": true
+    },
+    {
+      "name": "left_spindle_spacer_2",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0002635481502417658,
+      "passed": true
+    },
+    {
+      "name": "left_spindle_cap_rear",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.00012674143176416575,
+      "passed": true
+    },
+    {
+      "name": "left_spindle_M3_rear",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0004754177631371981,
+      "passed": true
+    },
+    {
+      "name": "left_spindle_cap_front",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.00012674143176472086,
+      "passed": true
+    },
+    {
+      "name": "left_spindle_M3_front",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0004754177631374201,
+      "passed": true
+    },
+    {
+      "name": "left_spindle_mount_M3_-17",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0004754177631374201,
+      "passed": true
+    },
+    {
+      "name": "left_spindle_mount_M3_17",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0004754177631374201,
+      "passed": true
+    },
+    {
+      "name": "left_spindle_body_plate",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 1.689236020308016e-05,
+      "passed": true
+    },
+    {
+      "name": "body_lower_with_left_hip_mount",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 4.936589454407336e-05,
+      "passed": true
+    },
+    {
+      "name": "left_coaxial_thigh_frame",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 5.0623443443087446e-05,
+      "passed": true
+    },
+    {
+      "name": "left_coaxial_spring_piston",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.00014494442462176238,
+      "passed": true
+    },
+    {
+      "name": "left_spring_arbor_M5x60",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.00022628693686044254,
+      "passed": true
+    },
+    {
+      "name": "left_spring_arbor_M5_nut",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.00014458392578609036,
+      "passed": true
+    },
+    {
+      "name": "left_slider_shoulder_M3_4x8",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.00026354815024243194,
+      "passed": true
+    },
+    {
+      "name": "left_slider_pivot_M3_nut",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 9.742424116088166e-05,
+      "passed": true
+    },
+    {
+      "name": "left_spring_bush_0",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0002635481502422099,
+      "passed": true
+    },
+    {
+      "name": "left_spring_bush_30",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.00026354815024154377,
+      "passed": true
+    },
+    {
+      "name": "left_curved_spring_conrod",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 4.522797171513382e-05,
+      "passed": true
+    },
+    {
+      "name": "left_knee_lever_R18",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 2.4461970282385614e-05,
+      "passed": true
+    },
+    {
+      "name": "left_knee_spring_shoulder_M3_4x8",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0002635481502420989,
+      "passed": true
+    },
+    {
+      "name": "left_spring_crank_spacer",
+      "watertight": true,
+      "winding": true,
+      "volume_error": 0.0002635481502423209,
+      "passed": true
+    }
+  ],
+  "assembly_summary": {
+    "cad_solids": 204,
+    "connected_prints": 16,
+    "printed_volume_cm3": 569.1181978557098,
+    "original_printed_volume_cm3": 542.2583720706996,
+    "print_envelopes_fit_180mm": true,
+    "mesh_pose_bounds": {
+      "fold": {
+        "hip_rad": -0.49999999999999956,
+        "bounds_mm": [
+          200.4692378233459,
+          252.0,
+          166.75972683867252
+        ]
+      },
+      "crouch": {
+        "hip_rad": -0.3799999999999999,
+        "bounds_mm": [
+          205.7934594790798,
+          251.99999999999997,
+          170.7317994177597
+        ]
+      },
+      "ride": {
+        "hip_rad": 0.41900000000000015,
+        "bounds_mm": [
+          204.21248607996048,
+          252.0,
+          254.907420073952
+        ]
+      },
+      "extend": {
+        "hip_rad": 1.0300000000000002,
+        "bounds_mm": [
+          168.0,
+          252.0,
+          323.8020507308994
+        ]
+      }
+    }
+  },
+  "opposite_leg_separation": {
+    "left_y_interval_mm": [
+      63.5,
+      126.0
+    ],
+    "right_y_interval_mm": [
+      -126.0,
+      -63.5
+    ],
+    "gap_mm": 127.0,
+    "passed": true,
+    "basis": "Y coordinates are invariant under the modeled joints. Positive separation prevents left/right moving-part collisions for any independent hip angles; fixed-body and same-side checks remain the finite sweeps."
+  },
+  "inherited_contacts": {
+    "left_hip_cover_M3_2/left_supported_thigh_lid": 405,
+    "left_bushed_internal_tie/left_pivot_thrust_shim": 382,
+    "left_spindle_body_plate/left_spindle_spacer_0": 405,
+    "left_bushed_internal_tie/left_pivot_neck_washer": 402,
+    "body_lower_with_left_hip_mount/left_spindle_mount_M3_-17": 405,
+    "left_C_HCDG5_10/left_pivot_E4_envelope": 405,
+    "body_lower_with_left_hip_mount/left_spindle_body_plate": 405,
+    "left_fixed_hip_spindle/left_spindle_M3_rear": 405,
+    "body_lower_with_left_hip_mount/left_spindle_mount_M3_17": 405,
+    "left_fixed_tie_anchor/left_spindle_cap_front": 405,
+    "left_spindle_body_plate/left_spindle_cap_rear": 405,
+    "left_fixed_hip_spindle/left_hip_F688_outer": 405,
+    "left_fixed_hip_spindle/left_fixed_tie_anchor": 405,
+    "left_hip_F688_inner/left_spindle_spacer_1": 405,
+    "left_hip_F688_inner/left_spindle_spacer_0": 405,
+    "left_C_HCDG5_10/left_pivot_neck_washer": 405,
+    "left_hip_F688_outer/left_spindle_spacer_2": 405,
+    "left_ground_pivot_bush/left_pivot_thrust_shim": 391,
+    "left_ground_pivot_bush/left_pivot_neck_washer": 383,
+    "left_fixed_tie_anchor/left_spindle_spacer_2": 405,
+    "left_fixed_tie_anchor/left_pivot_thrust_shim": 405,
+    "left_hip_cover_M3_1/left_supported_thigh_lid": 405,
+    "left_fixed_hip_spindle/left_spindle_body_plate": 405,
+    "left_hip_cover_M3_3/left_supported_thigh_lid": 405,
+    "left_fixed_hip_spindle/left_hip_F688_inner": 405,
+    "left_spindle_M3_rear/left_spindle_cap_rear": 405,
+    "left_bushed_internal_tie/left_ground_pivot_bush": 405,
+    "left_fixed_hip_spindle/left_spindle_M3_front": 405,
+    "left_spindle_body_plate/left_spindle_mount_M3_-17": 405,
+    "left_spindle_M3_front/left_spindle_cap_front": 405,
+    "left_hip_F688_outer/left_spindle_spacer_1": 405,
+    "left_spindle_body_plate/left_spindle_mount_M3_17": 405
+  },
+  "unclassified_contacts": [
+    {
+      "pair": [
+        "left_coaxial_spring_piston",
+        "left_spring_arbor_M5x60"
+      ],
+      "count": 382,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_coaxial_thigh_frame",
+        "left_supported_thigh_lid"
+      ],
+      "count": 392,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_knee_626_outer",
+        "left_supported_thigh_lid"
+      ],
+      "count": 405,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_coaxial_thigh_frame",
+        "left_hip_F688_inner"
+      ],
+      "count": 404,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_coaxial_thigh_frame",
+        "left_hip_cover_M3_3"
+      ],
+      "count": 405,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_curved_spring_conrod",
+        "left_spring_bush_0"
+      ],
+      "count": 399,
+      "examples": [
+        -2.8,
+        -2.7805999999999997,
+        -2.7708999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_curved_spring_conrod",
+        "left_spring_crank_spacer"
+      ],
+      "count": 355,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7611999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_spring_bush_30",
+        "left_spring_crank_spacer"
+      ],
+      "count": 364,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_coaxial_thigh_frame",
+        "left_knee_626_inner"
+      ],
+      "count": 405,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_coaxial_spring_piston",
+        "left_slider_pivot_M3_nut"
+      ],
+      "count": 405,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_knee_lever_R18",
+        "left_knee_spring_shoulder_M3_4x8"
+      ],
+      "count": 405,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_coaxial_thigh_frame",
+        "left_hip_cover_M3_2"
+      ],
+      "count": 405,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_spring_arbor_M5_nut",
+        "left_spring_arbor_M5x60"
+      ],
+      "count": 405,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_coaxial_spring_piston",
+        "left_spring_arbor_M5_nut"
+      ],
+      "count": 405,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_slider_pivot_M3_nut",
+        "left_slider_shoulder_M3_4x8"
+      ],
+      "count": 405,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_knee_lever_R18",
+        "left_spring_crank_spacer"
+      ],
+      "count": 373,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_coaxial_thigh_frame",
+        "left_hip_cover_M3_1"
+      ],
+      "count": 405,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_coaxial_thigh_frame",
+        "left_hip_F688_outer"
+      ],
+      "count": 384,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_curved_spring_conrod",
+        "left_spring_bush_30"
+      ],
+      "count": 405,
+      "examples": [
+        -2.8,
+        -2.7903,
+        -2.7805999999999997
+      ]
+    },
+    {
+      "pair": [
+        "left_coaxial_thigh_frame",
+        "left_spring_coil_envelope"
+      ],
+      "count": 222,
+      "examples": [
+        -2.7805999999999997,
+        -2.7514999999999996,
+        -2.7418
+      ]
+    },
+    {
+      "pair": [
+        "left_coaxial_thigh_frame",
+        "left_curved_spring_conrod"
+      ],
+      "count": 79,
+      "examples": [
+        -2.5671999999999997,
+        -2.5574999999999997,
+        -2.5477999999999996
+      ]
+    },
+    {
+      "pair": [
+        "left_coaxial_spring_piston",
+        "left_spring_coil_envelope"
+      ],
+      "count": 164,
+      "examples": [
+        -2.3247,
+        -2.315,
+        -2.3053
+      ]
+    }
+  ],
+  "passed": false,
+  "source_sha256": {
+    "check_coaxial_spring.py": "a5edba09a7d3916dea1b94b27d717721e961c853cb96d20b5085989440bc8d57",
+    "coaxial-spring/parts.json": "caa71fa78fc801afb9cea08e2ea3cd3bfc3216bec2c8830b206417fee1f885d8",
+    "coaxial-spring/manifest.json": "213fe0581888c5744747e218b6f80d5578f58541a9f0fdfcf38c77389c688b46",
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "hip-joint/exact-diagnostic.json": "d8822bc59fba9bdf51f7f9659dce64cf996fc41c9b593f6ea7920673f9d92f1b",
+    "interfaces.json": "0420ecfc206f49e9e3db17bae526c55eddefaed076dba6c348ee64835260a2a4",
+    "check_layout.py": "32630e8eb58b6659780e8db7b68d2b0071d40b2672bfb67218043339092d05fa",
+    "check_assembly.py": "45281fe027c219b051a2a53698a759d7e2b51ff92b7bd02dc4e92056d9f429e4",
+    "check_direct_wheel.py": "e71e4319c6904d0af0af0610c9bda4566dffb373fd09336f6a9970ebb672357a",
+    "geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839",
+    "spring_cartridge.py": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff"
+  },
+  "limitations": [
+    "Finite symmetric sweep with only the left spring modified.",
+    "Nominal surface contacts require exact CAD classification. No load, wear, or dynamic proof."
+  ]
+}

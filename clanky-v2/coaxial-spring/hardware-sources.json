@@ -1,0 +1,59 @@
+{
+  "checked_at": "2026-09-08",
+  "status": "dimensional sources; not a purchase-ready BOM",
+  "purchased": false,
+  "spring": {
+    "part": "MISUMI SWF12-50",
+    "source": "https://vn.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+    "dimensions_mm": {
+      "OD": 12,
+      "ID": 6.5,
+      "free_length": 50
+    },
+    "rate_N_mm": 5.5,
+    "design_compression_limit_mm": 20,
+    "basis": "Retained from the existing spring-cartridge selection; supplier fatigue, finish and application limits still require qualification."
+  },
+  "shoulder_screw": {
+    "part": "Accu SKH-M3-8-A2-R360",
+    "source": "https://www.accu.co.uk/knurled-socket-shoulder-screws/264005-SKH-M3-8-A2-R360",
+    "quantity_per_studied_leg": 2,
+    "shoulder_diameter_mm": 4,
+    "shoulder_diameter_tolerance_mm": [
+      -0.04,
+      -0.01
+    ],
+    "shoulder_length_mm": 8,
+    "head_diameter_mm": 6,
+    "head_height_mm": 3,
+    "thread": "M3 x 0.5",
+    "thread_length_mm": 4.5,
+    "material": "303 stainless steel / ASTM A582",
+    "mass_g": 1.82,
+    "price_usd": null,
+    "stock_confirmed": false,
+    "note": "Specification is explicit but extracted page contains multiple stock-state templates and no usable price. Treat as dimensional allocation until current availability/cost is confirmed. ISO 7379 alternatives can have larger heads and different thread lengths."
+  },
+  "spring_link_bush": {
+    "part": "Igus GSM-0405-04",
+    "source": "https://www.igus.co.uk/iglidur-ibh/sleeve-bearings/product-details/iglidur-g-m?artnr=GSM-0405-04",
+    "quantity_per_studied_leg": 2,
+    "nominal_ID_mm": 4,
+    "nominal_OD_mm": 5.5,
+    "length_mm": 4,
+    "material": "iglidur G",
+    "method": "injection moulding",
+    "price_usd": null,
+    "note": "Installed-bore tolerance follows press fitting; current CAD is a nominal envelope, not a press-fit process specification."
+  },
+  "spring_arbor": {
+    "part": "DIN 933 M5 x 60 full-thread hex bolt",
+    "quantity_per_studied_leg": 1,
+    "note": "Dimensional allocation with captive M5 nut, not a smooth bearing shaft. Particular SKU, locking, tightening and free-spring retention remain unresolved."
+  },
+  "custom_metal": {
+    "curved_link": "4 mm steel plate, 30 mm pin centres, 4 mm centreline arch, 6 mm nominal stem width",
+    "knee_lever": "4.5 mm steel plate, original passive tie arm plus 18 mm spring crank",
+    "note": "Manufacturing quote, alloy, burr control, fatigue and actual fits not qualified."
+  }
+}

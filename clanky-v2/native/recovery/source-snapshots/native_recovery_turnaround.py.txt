@@ -1,0 +1,73 @@
+"""One bounded follow-up from measured wrong-way/over-rotation in seed bank.
+
+Back trials crossed near upright during the initial swing but continued folding
+above the body. Test four earlier reversals. Front trials first rotated farther
+onto their back, so test two initial extension moves instead. No new hardware,
+motor ceiling or gate changes. Keep all six results; do not loop tuning here.
+"""
+
+import argparse
+import json
+from pathlib import Path
+
+from native_cad import BASE, digest
+from native_drivetrain import build, parameters
+from native_recovery_support import OUT
+from native_recovery_trial import run
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--family", choices=["front", "back"], required=True)
+    args = parser.parse_args()
+    p = parameters("explicit")
+    m, xml = build(p)
+    sha = digest(Path(__file__))
+    rows = []
+    choices = (
+        [(q, t) for q in [-0.7, -1.1] for t in [0.3, 0.45]]
+        if args.family == "back"
+        else [(0.95, 0.25), (0.95, 0.5)]
+    )
+    for q, t in choices:
+        wheel = 0.25 if args.family == "back" else -0.25
+        config = dict(
+            family=args.family,
+            initial_hips=[0.419, 0.419],
+            duration_s=8.0,
+            passive_s=0.0,
+            knots=[
+                [0.0, 0.419, 0.419, 0.0, 0.0],
+                [t, q, q, wheel, wheel],
+                [t + 0.5, 0.65, 0.65, wheel, wheel],
+                [t + 1.2, 0.419, 0.419, 0.0, 0.0],
+                [8.0, 0.419, 0.419, 0.0, 0.0],
+            ],
+        )
+        name = f"turnaround/{args.family}-q{round(q * 100)}-t{round(t * 1000)}-250us"
+        report = run(p, m, xml, config, name)
+        rows.append(
+            dict(
+                directory=name,
+                report_sha256=digest(OUT / "trials" / name / "report.json"),
+                passed=report["trial_pass"],
+                score=report["diagnostic_score"],
+                failed_checks=[k for k, v in report["checks"].items() if not v],
+            )
+        )
+    assert sha == digest(Path(__file__))
+    (OUT / f"turnaround-{args.family}.json").write_text(
+        json.dumps(
+            dict(
+                source_sha256={Path(__file__).name: sha},
+                cases=rows,
+                scope="Finite controller diagnostic following failed nominal seeds; not an RL policy or a hardware verdict",
+            ),
+            indent=2,
+        )
+        + "\n"
+    )
+
+
+if __name__ == "__main__":
+    main()

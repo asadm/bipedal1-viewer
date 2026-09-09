@@ -1,0 +1,120 @@
+{
+  "scope": "One unchanged programmed controller, nominal start and hardware priors, four integration/inertia variants at two timesteps. Ideal transmission; not hardware qualification.",
+  "source_sha256": {
+    "native_drivetrain_trials.py": "9b0b40df9245e01e71294a155f58c6a5d3b0b3f8352ed430169a64259eacbbfc",
+    "native/selected-jump.json": "45892f85710fe877bcd0f93b49b64386fc96cdf46e99970ee2d96d47ee25e65d",
+    "native/drivetrain/implementation-checks.json": "ac48dfd06fb5f511c7b4e25126cac7b9bb03e1170bcb061057bedba9fb133e40"
+  },
+  "cases": [
+    {
+      "variant": "baseline",
+      "timestep_s": 0.00025,
+      "directory": "drivetrain/baseline-250us",
+      "report_sha256": "38474049efb1cc8e8879eaafba70c3d43a1623dfbd7c08e471f6f83efd10ec88",
+      "trajectory_sha256": "390a7c428667d63116a43a14f9ac4a888e6501deb4cde3fb1e2cc6c5df7f4488",
+      "clearance_mm": 264.3143320375357,
+      "COM_rise_mm": 195.01987233866197,
+      "stable_finish": true,
+      "failed_checks": [],
+      "sampled_gear_error_output_rad": 0.0,
+      "passed": true
+    },
+    {
+      "variant": "baseline",
+      "timestep_s": 0.000125,
+      "directory": "drivetrain/baseline-125us",
+      "report_sha256": "68c509e2a9944cc2a53a77aaf509b108e536df42a4f8525dbef72dc58248fa3f",
+      "trajectory_sha256": "ed2b44e212aefbe59ca7fec0c3d49e4eaba288b40f314a38d208167b4e021cd1",
+      "clearance_mm": 264.2543804780123,
+      "COM_rise_mm": 195.4181021126877,
+      "stable_finish": true,
+      "failed_checks": [],
+      "sampled_gear_error_output_rad": 0.0,
+      "passed": true
+    },
+    {
+      "variant": "integrator_only",
+      "timestep_s": 0.00025,
+      "directory": "drivetrain/integrator_only-250us",
+      "report_sha256": "aa44cc82c3947bef52e3e0530950d217f39bd18ed068ad6a355d73e43020036a",
+      "trajectory_sha256": "08fe4f197b3ee24e34f711a389ba53ede733f32e16e7bdfc487514dabfa5474f",
+      "clearance_mm": 264.21701453556744,
+      "COM_rise_mm": 196.1101693377469,
+      "stable_finish": true,
+      "failed_checks": [],
+      "sampled_gear_error_output_rad": 0.0,
+      "passed": true
+    },
+    {
+      "variant": "integrator_only",
+      "timestep_s": 0.000125,
+      "directory": "drivetrain/integrator_only-125us",
+      "report_sha256": "c1701183c90509add6e21dcba8fee296c718d698070114be3dc9325af044fb4d",
+      "trajectory_sha256": "9590759af82247a2646b31059bb2acedacd2725e7cbcf244f738a85cebd4ec8c",
+      "clearance_mm": 262.6461699970187,
+      "COM_rise_mm": 195.0337565543174,
+      "stable_finish": true,
+      "failed_checks": [],
+      "sampled_gear_error_output_rad": 0.0,
+      "passed": true
+    },
+    {
+      "variant": "cad_armature",
+      "timestep_s": 0.00025,
+      "directory": "drivetrain/cad_armature-250us",
+      "report_sha256": "e5aaa985dc9ec3a6f18f1399610984da0a03c520baa7b437f1f7983f2000222f",
+      "trajectory_sha256": "c08f282f2719e2b29687572f685568edf2112a8febed804b31c97b366b95240d",
+      "clearance_mm": 263.4731237275242,
+      "COM_rise_mm": 195.25476494899857,
+      "stable_finish": true,
+      "failed_checks": [],
+      "sampled_gear_error_output_rad": 0.0,
+      "passed": true
+    },
+    {
+      "variant": "cad_armature",
+      "timestep_s": 0.000125,
+      "directory": "drivetrain/cad_armature-125us",
+      "report_sha256": "782ad5fd7a422387d6def013afbcee3e5d8736ad1db2ec83bdc88e331de267b4",
+      "trajectory_sha256": "b75d550825e7af05cd3b37dac2355f01fecd1bfdc5ec959f6e31b64304ec34f2",
+      "clearance_mm": 261.6176575164392,
+      "COM_rise_mm": 195.03451454950525,
+      "stable_finish": true,
+      "failed_checks": [],
+      "sampled_gear_error_output_rad": 0.0,
+      "passed": true
+    },
+    {
+      "variant": "explicit",
+      "timestep_s": 0.00025,
+      "directory": "drivetrain/explicit-250us",
+      "report_sha256": "9884df5e83dff90883cfe136161bec745223aac73c2099dd3158fd7ec4e83827",
+      "trajectory_sha256": "3375420aeb105d49b2d8562e8d8d96505c92612092f2433327453ae8534766f9",
+      "clearance_mm": 262.32955022552494,
+      "COM_rise_mm": 194.49583855547388,
+      "stable_finish": false,
+      "failed_checks": [
+        "stable_finish"
+      ],
+      "sampled_gear_error_output_rad": 3.41763192182043e-06,
+      "passed": false
+    },
+    {
+      "variant": "explicit",
+      "timestep_s": 0.000125,
+      "directory": "drivetrain/explicit-125us",
+      "report_sha256": "e17f7eb6c2ba9d8682683d7f906f68e8a3989a2802578f3952cfba68457cb417",
+      "trajectory_sha256": "e08685312a3fdf9e5a6212e83c635f4f5905ee43ecb7881f9b7413242a504965",
+      "clearance_mm": 261.68275696125255,
+      "COM_rise_mm": 194.5081986065473,
+      "stable_finish": false,
+      "failed_checks": [
+        "stable_finish"
+      ],
+      "sampled_gear_error_output_rad": 3.592788578998807e-06,
+      "passed": false
+    }
+  ],
+  "explicit_nominal_jump_pass": false,
+  "original_viewer_updated": false
+}

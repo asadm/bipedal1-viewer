@@ -1,0 +1,81 @@
+{
+  "review_date": "2026-09-08",
+  "images": [
+    {
+      "file": "ref/IMG_3966.jpeg",
+      "sha256": "cfadd97e3049a2a026ed34861b745c155ef1fd9c13f294cbf2df7b804e3b1dff",
+      "reviewed": true
+    },
+    {
+      "file": "ref/IMG_3967.jpeg",
+      "sha256": "1f9b62c7b72202110d9675cc6768fb8b724617e5cfc4db2fabb17e9a6c372923",
+      "reviewed": true
+    },
+    {
+      "file": "ref/IMG_3968.jpeg",
+      "sha256": "09032697e1ecc320af502deb959b43ccbad8730a62c74e4e558d93d1e0edc8f9",
+      "reviewed": true
+    },
+    {
+      "file": "ref/IMG_3969.jpeg",
+      "sha256": "f62a684cb187c4f2bda8a70ce149e9e3f3c6eb3e8ed596d56b9c85efc02d800c",
+      "reviewed": true
+    },
+    {
+      "file": "ref/IMG_3970.jpeg",
+      "sha256": "06ebcff783cecdb43ecc58839076bf9aea81767a9732bc3be8c1a9dd2b7f25bb",
+      "reviewed": true
+    },
+    {
+      "file": "ref/IMG_3971.jpeg",
+      "sha256": "479edcadce6da7936dbc6fe06e4e43fb3585a1a044f054937bec03a582358a73",
+      "reviewed": true
+    },
+    {
+      "file": "ref/IMG_3972.jpeg",
+      "sha256": "d1465f6c9e85b42ecbe9dc3a0d6304e092454de4c5b40878e1f0b8f3b8bb9505",
+      "reviewed": true
+    },
+    {
+      "file": "ref/IMG_3973.jpeg",
+      "sha256": "bcb1e4eb95189ca1b1ee515ce365af162f597fbfccacefa9fe740020491836ff",
+      "reviewed": true
+    },
+    {
+      "file": "ref/IMG_3974.jpeg",
+      "sha256": "d6eb575db1bc9ea398c4f41baa464479e30dd84f06db0b25e3836cef994817de",
+      "reviewed": true
+    },
+    {
+      "file": "ref/Pic-1-Meet-Beni.avif",
+      "sha256": "776363fad4274c5f389f87808322ca9c0f398728ea901d2156ca26dd5399a23b",
+      "reviewed": true
+    },
+    {
+      "file": "ref/beni-camera-robot-4.webp",
+      "sha256": "01653402cdfbfe0805be72ebf6645d7a3929f8eae646da955035dbede85a9bff",
+      "reviewed": true
+    },
+    {
+      "file": "ref/camera-robot-4k-beni-mondo-robotics-designboom-1.jpg",
+      "sha256": "42adc8e01944f2d1ba716f58ab8278443bbc2fa555c67ab29945e4912dc6f231",
+      "reviewed": true
+    },
+    {
+      "file": "ref/camera-robot-4k-beni-mondo-robotics-designboom-600.jpg",
+      "sha256": "de4a92e65fe6a9d0886aa0d24da41cb8015fa83cffacc2c240c689ba57ccc526",
+      "reviewed": true
+    },
+    {
+      "file": "ref/images (2).jpeg",
+      "sha256": "f2d43a943dfafb1cb419479742f57ef4c35a302d73a7022acaedbe5b36dae305",
+      "reviewed": true
+    },
+    {
+      "file": "ref/maxresdefault.jpg",
+      "sha256": "28bffdd999e5424156e86d447f6cb22586103838405b29e4a921c3095ba93d60",
+      "reviewed": true
+    }
+  ],
+  "limits": "Still-image teardown supports architecture inference, not calibrated dimensions, material properties or motor performance."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "transitions": 24,
+  "physics_timesteps_s": [
+    0.00025,
+    0.000125
+  ],
+  "maximum_observation_error": 0.0,
+  "workers_closed": true,
+  "source_sha256": {
+    "check_residual_vector.py": "31ff029649129bb216f920624174b0e5405c4e355187641f97b79640facac3e9",
+    "residual_vector.py": "e306f2553bf252702b4a2ce1c11dffb651107c5f735101b0542cc4e2024d7f96",
+    "residual_worker.py": "1b6c7f5144892a7068e5757c0b76506b0b9d501e227072ddfb95446639a8c4cd",
+    "residual_recovery.py": "09dd5283d916b727bfebdf9ecdf545ec1381a74f58b0bae3bf1e0315802de98c"
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "status": "programmed_recovery_seed_experiment",
+  "wheel_diameter_mm": 120,
+  "actuators": 4,
+  "mass_kg": 2.4892471592111667,
+  "timestep_s": 0.00025,
+  "controller_period_s": 0.002,
+  "duration_s": 2.999999999999697,
+  "config": {
+    "family": "inverted",
+    "initial_hips": [
+      0.419,
+      0.419
+    ],
+    "duration_s": 3.0,
+    "passive_s": 0.0,
+    "disable_capture": true,
+    "knots": [
+      [
+        0.0,
+        0.419,
+        0.419,
+        0.0,
+        0.0
+      ],
+      [
+        3.0,
+        0.419,
+        0.419,
+        0.0,
+        0.0
+      ]
+    ]
+  },
+  "captured_balance_s": null,
+  "initial_settling_state": {
+    "t": 0.0,
+    "qpos": [
+      0.0,
+      0.0,
+      0.07300000127356959,
+      6.123233995736766e-17,
+      0.0,
+      1.0,
+      0.0,
+      0.419,
+      1.9024499212659904,
+      -2.3214499212659905,
+      3.552713678800501e-15,
+      0.06843575412332388,
+      0.06735404323035522,
+      0.4507332812493153,
+      0.419,
+      1.9024499212659904,
+      -2.3214499212659905,
+      3.552713678800501e-15,
+      0.06843575412332388,
+      0.06735404323035522,
+      0.4507332812493153,
+      -2.6645352591003757e-15,
+      6.661338147750939e-16,
+      -2.6645352591003757e-15,
+      6.661338147750939e-16
+    ],
+    "qvel": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "upright": -1.0,
+    "root_speed_m_s": 0.0,
+    "angular_speed_rad_s": 0.0,
+    "body_contact": false
+  },
+  "stable_finish": false,
+  "checks": {
+    "completed": true,
+    "stable_finish": false,
+    "closure": true,
+    "gear_constraints": true,
+    "spring_travel": true,
+    "hip_limits": true,
+    "motor_envelopes": true,
+    "no_external_force": true,
+    "no_warnings": true
+  },
+  "trial_pass": false,
+  "early_stop": null,
+  "diagnostic_score": -2.000003300084928,
+  "final_upright": -0.9999999999999265,
+  "final_height_over_axle_m": -0.09885153281619265,
+  "settling_window_s": 2.0,
+  "settling_metrics": {
+    "speed": 4.717313854419658e-05,
+    "lean": 3.0333176705399407,
+    "roll": 3.1415926535491536,
+    "angular_speed": 0.000957294283001426,
+    "hip_error": 0.03003761711190628
+  },
+  "motors": [
+    {
+      "peak_current_A": 0.1453951130883262,
+      "peak_voltage_V": 0.08955755108953327,
+      "copper_J": 4.803263319065879e-05,
+      "bus_J": 0.0001284253384790196,
+      "output_J": -7.2078449953180665e-06,
+      "envelope_errors": 0
+    },
+    {
+      "peak_current_A": 0.145824181070768,
+      "peak_voltage_V": 0.08982742806343896,
+      "copper_J": 4.833573916756864e-05,
+      "bus_J": 0.00012925744024338566,
+      "output_J": -7.261264407864007e-06,
+      "envelope_errors": 0
+    },
+    {
+      "peak_current_A": 5.0959039752152755,
+      "peak_voltage_V": 0.4857163553382153,
+      "copper_J": 3.4308658429721794,
+      "bus_J": 3.4105248755563102,
+      "output_J": -0.029667381175054616,
+      "envelope_errors": 0
+    },
+    {
+      "peak_current_A": 5.102839343487566,
+      "peak_voltage_V": 0.47499669317340576,
+      "copper_J": 3.215076976101546,
+      "bus_J": 3.194317576636135,
+      "output_J": -0.02998128147898156,
+      "envelope_errors": 0
+    }
+  ],
+  "hip_range_rad": [
+    0.41900839020983205,
+    0.44903806708763144
+  ],
+  "max_closure_mm": 0.0024277180328697873,
+  "max_gear_error_rad": 5.648604940386437e-08,
+  "max_spring_compression_mm": 9.56399168968914,
+  "source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+    "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+    "native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+    "native/mass-properties.json": "0d5c5d21f94f9282dd107cc92a867e4c4f888601783eda00580f5f71d0e970c7",
+    "native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+    "native_drivetrain.py": "3994d8475929f8ae1e6fcf68a487f852c3812ec96937c796d41b499fc0304b77",
+    "native_recovery_trial.py": "9a1795b1416be84d50835a018985d1084174d80348e2d472103aab6bf99cd633",
+    "native_recovery_support.py": "e7a7b6d71d68a0335a131097621c6e7aaf88f7ebd41e9b13e620e070e9890157",
+    "native_trial.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486"
+  },
+  "model_sha256": "34a516ae9b9600fdec88010e3edffcd9e44f6851bb6d1745d1018b9ccd441444",
+  "limitations": [
+    "Unweighed CAD/component-prior masses; current more-detailed left hip and earlier right hip retained.",
+    "Ground contacts use outer CAD convex hulls and rigid 120x20 mm tire cylinders. No self-contact or TPU deformation; recovery is not qualified by this plant.",
+    "Hip and wheel currents, voltage, DC-equivalent conventions, efficiencies and rotor inertias require identification. 32 A hip propeller-cooled rating does not qualify sealed duty.",
+    "Guide friction uses preceding-step transverse joint reaction; coefficient, one-step delay and damping are explicit unmeasured priors.",
+    "No backlash, structural flex, thermal limits, real battery/regeneration model, estimator delay or learned policy yet.",
+    "Explicit rotor/gear bodies with ideal gear equalities and equivalent output torques. Unmeasured hip rotor split and illustrative wheel rotor CAD; no backlash, tooth compliance or identified internal inertia.",
+    "Finite programmed seeds with perfect state; not PPO training or proof of all-family recovery. Initial floor placement is a reset, not a simulated impact fall. Body contacts are allowed during recovery but forbidden during the final two seconds."
+  ]
+}

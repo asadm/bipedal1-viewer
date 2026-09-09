@@ -1,0 +1,1201 @@
+{
+  "status": "kinematic_screen_only",
+  "seed": 20260908,
+  "candidate_count": 30000,
+  "valid_count": 21964,
+  "folding_and_reach_candidates": 10938,
+  "angular_samples": 561,
+  "hip_screen_range_rad": [
+    -2.8,
+    2.8
+  ],
+  "baseline_commit": "37fc29e",
+  "source_sha256": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839",
+  "top_stroke": [
+    {
+      "geometry": {
+        "upper_mm": 81.12224897902287,
+        "lower_mm": 113.48086900345506,
+        "tie_mm": 79.81191630956673,
+        "lever_mm": 37.81919887925001,
+        "ground_mm": [
+          3.0975738676642433,
+          26.810845230831077
+        ],
+        "phase_rad": 2.4122945880590954
+      },
+      "stance_stroke_mm": 51.678007821861115,
+      "stance_hip_rad": [
+        -0.6299999999999999,
+        0.3500000000000001
+      ],
+      "stance_height_mm": [
+        50.36419047892353,
+        102.04219830078465
+      ],
+      "stance_max_wheel_x_mm": 9.635790700584693,
+      "knee_range_rad": [
+        1.2824655988210543,
+        2.886471706531045
+      ],
+      "spring_compression_max_mm": 18.074464931849832,
+      "full_wheel_bounds_mm": [
+        [
+          -156.0194015159122,
+          -123.04663476239384
+        ],
+        [
+          71.95858795947339,
+          126.68733193746121
+        ]
+      ],
+      "fold": {
+        "hip_rad": -1.6999999999999997,
+        "envelope_xz_mm": [
+          195.77532955873855,
+          164.15111447772662
+        ],
+        "wheel_mm": [
+          55.77532955873855,
+          -11.70503482046594
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 71.95858795947339,
+        "back_mm": 156.0194015159122,
+        "above_mm": 126.68733193746121
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 101.40608522475962,
+        "lower_mm": 111.759433817688,
+        "tie_mm": 102.8604974637566,
+        "lever_mm": 32.46406677653924,
+        "ground_mm": [
+          25.531103092900306,
+          12.668217585749899
+        ],
+        "phase_rad": 3.1184043781688064
+      },
+      "stance_stroke_mm": 45.42010537913297,
+      "stance_hip_rad": [
+        -0.1299999999999999,
+        0.4800000000000004
+      ],
+      "stance_height_mm": [
+        52.35076466237572,
+        97.77087004150869
+      ],
+      "stance_max_wheel_x_mm": 9.994430781153639,
+      "knee_range_rad": [
+        0.5176332149345457,
+        2.7113485515868962
+      ],
+      "spring_compression_max_mm": 16.439999004973927,
+      "full_wheel_bounds_mm": [
+        [
+          -205.57925237606804,
+          -139.14878507525444
+        ],
+        [
+          126.89052082929994,
+          187.27506045310167
+        ]
+      ],
+      "fold": {
+        "hip_rad": -0.4299999999999997,
+        "envelope_xz_mm": [
+          184.17465827791892,
+          158.20582259280155
+        ],
+        "wheel_mm": [
+          20.17811968737182,
+          -43.20582259280154
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 126.89052082929994,
+        "back_mm": 205.57925237606804,
+        "above_mm": 187.27506045310167
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 80.13136749573765,
+        "lower_mm": 103.8667685753186,
+        "tie_mm": 83.06209974668072,
+        "lever_mm": 33.93963794638687,
+        "ground_mm": [
+          1.492627582234154,
+          23.122428309397883
+        ],
+        "phase_rad": 2.440636928833081
+      },
+      "stance_stroke_mm": 42.16601204452246,
+      "stance_hip_rad": [
+        -0.3799999999999999,
+        0.40000000000000036
+      ],
+      "stance_height_mm": [
+        50.48559132798306,
+        92.65160337250552
+      ],
+      "stance_max_wheel_x_mm": 9.935238214597604,
+      "knee_range_rad": [
+        1.4493113471825492,
+        3.0229665125377547
+      ],
+      "spring_compression_max_mm": 18.797429641482907,
+      "full_wheel_bounds_mm": [
+        [
+          -137.76558178719142,
+          -107.95115346760868
+        ],
+        [
+          54.658756206949775,
+          105.47241374176923
+        ]
+      ],
+      "fold": {
+        "hip_rad": -1.8499999999999996,
+        "envelope_xz_mm": [
+          182.64289598740973,
+          153.23305484689635
+        ],
+        "wheel_mm": [
+          42.64289598740972,
+          -4.204758292742781
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 54.658756206949775,
+        "back_mm": 137.76558178719142,
+        "above_mm": 105.47241374176923
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 78.46628419495343,
+        "lower_mm": 95.901008889824,
+        "tie_mm": 76.03860171623113,
+        "lever_mm": 34.27956616264919,
+        "ground_mm": [
+          14.269938455185084,
+          25.7364547295095
+        ],
+        "phase_rad": 2.607974414941608
+      },
+      "stance_stroke_mm": 41.91985429762501,
+      "stance_hip_rad": [
+        -0.17999999999999972,
+        0.5000000000000004
+      ],
+      "stance_height_mm": [
+        50.40486127100611,
+        92.32471556863112
+      ],
+      "stance_max_wheel_x_mm": 9.906481176589395,
+      "knee_range_rad": [
+        0.820663732282644,
+        2.886444577629521
+      ],
+      "spring_compression_max_mm": 18.074271125621465,
+      "full_wheel_bounds_mm": [
+        [
+          -158.23214156282933,
+          -121.29841166276682
+        ],
+        [
+          77.09252170213817,
+          132.6537409279062
+        ]
+      ],
+      "fold": {
+        "hip_rad": -0.5799999999999996,
+        "envelope_xz_mm": [
+          160.0,
+          146.82818389231684
+        ],
+        "wheel_mm": [
+          5.652898934497749,
+          -31.826781922368525
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 77.09252170213817,
+        "back_mm": 158.23214156282933,
+        "above_mm": 132.6537409279062
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 79.04692557933474,
+        "lower_mm": 95.21005567816118,
+        "tie_mm": 80.21476718159825,
+        "lever_mm": 15.747944375537926,
+        "ground_mm": [
+          4.756288852978191,
+          10.701309948630424
+        ],
+        "phase_rad": 2.66829661452465
+      },
+      "stance_stroke_mm": 40.525247068183546,
+      "stance_hip_rad": [
+        -0.20999999999999996,
+        0.5000000000000004
+      ],
+      "stance_height_mm": [
+        50.39497678837202,
+        90.92022385655557
+      ],
+      "stance_max_wheel_x_mm": 9.708900074469838,
+      "knee_range_rad": [
+        1.2338710968992768,
+        2.9464515819171178
+      ],
+      "spring_compression_max_mm": 18.45499856765808,
+      "full_wheel_bounds_mm": [
+        [
+          -141.08821418199705,
+          -108.97112521214103
+        ],
+        [
+          55.11616455803266,
+          108.36258242877813
+        ]
+      ],
+      "fold": {
+        "hip_rad": -0.5799999999999996,
+        "envelope_xz_mm": [
+          160.0,
+          147.5973455641764
+        ],
+        "wheel_mm": [
+          8.240650482113878,
+          -32.27773821689516
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 55.11616455803266,
+        "back_mm": 141.08821418199705,
+        "above_mm": 108.36258242877813
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 99.73840250559704,
+        "lower_mm": 113.57435767297211,
+        "tie_mm": 97.86979511952983,
+        "lever_mm": 28.753968428404157,
+        "ground_mm": [
+          13.283856698415345,
+          18.06047232179856
+        ],
+        "phase_rad": 2.5455257485204736
+      },
+      "stance_stroke_mm": 39.81930188968856,
+      "stance_hip_rad": [
+        -0.18999999999999995,
+        0.40000000000000036
+      ],
+      "stance_height_mm": [
+        50.128603417058926,
+        89.94790530674749
+      ],
+      "stance_max_wheel_x_mm": 9.560253894145148,
+      "knee_range_rad": [
+        1.078241552398823,
+        2.866844669103262
+      ],
+      "spring_compression_max_mm": 17.929221439989675,
+      "full_wheel_bounds_mm": [
+        [
+          -182.57331543735447,
+          -125.48105278748548
+        ],
+        [
+          81.51387690060085,
+          147.84890639854297
+        ]
+      ],
+      "fold": {
+        "hip_rad": -0.44999999999999973,
+        "envelope_xz_mm": [
+          181.8091555294498,
+          152.39020956581618
+        ],
+        "wheel_mm": [
+          9.581049938002906,
+          -37.00744204856833
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 81.51387690060085,
+        "back_mm": 182.57331543735447,
+        "above_mm": 147.84890639854297
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 80.06934061902099,
+        "lower_mm": 107.98017383034669,
+        "tie_mm": 79.08232760821326,
+        "lever_mm": 35.54800775727676,
+        "ground_mm": [
+          8.915674744933943,
+          26.879481065630923
+        ],
+        "phase_rad": 2.5026237572823073
+      },
+      "stance_stroke_mm": 39.787797098420015,
+      "stance_hip_rad": [
+        -0.36999999999999966,
+        0.31000000000000005
+      ],
+      "stance_height_mm": [
+        50.04571864857252,
+        89.83351574699253
+      ],
+      "stance_max_wheel_x_mm": 9.663251914149697,
+      "knee_range_rad": [
+        1.1001481052146849,
+        2.954974000418513
+      ],
+      "spring_compression_max_mm": 18.50117326110761,
+      "full_wheel_bounds_mm": [
+        [
+          -159.91184955578126,
+          -121.2657877141209
+        ],
+        [
+          75.47591977161412,
+          132.08204812815973
+        ]
+      ],
+      "fold": {
+        "hip_rad": -0.5699999999999998,
+        "envelope_xz_mm": [
+          160.0,
+          156.42951394908366
+        ],
+        "wheel_mm": [
+          0.09496653592972848,
+          -41.22153163006335
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 75.47591977161412,
+        "back_mm": 159.91184955578126,
+        "above_mm": 132.08204812815973
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 85.56412818608493,
+        "lower_mm": 110.56496887874778,
+        "tie_mm": 86.16787293186526,
+        "lever_mm": 45.34705470439548,
+        "ground_mm": [
+          0.5643933594991379,
+          28.871647989115232
+        ],
+        "phase_rad": 2.2790982778989957
+      },
+      "stance_stroke_mm": 39.4104239810365,
+      "stance_hip_rad": [
+        -0.4299999999999997,
+        0.3200000000000003
+      ],
+      "stance_height_mm": [
+        50.0495974111528,
+        89.4600213921893
+      ],
+      "stance_max_wheel_x_mm": 9.954108338689991,
+      "knee_range_rad": [
+        1.529841874549497,
+        2.953571847854072
+      ],
+      "spring_compression_max_mm": 18.49371318036026,
+      "full_wheel_bounds_mm": [
+        [
+          -142.2700776619742,
+          -106.81301804205414
+        ],
+        [
+          60.88213245344125,
+          113.71557845895815
+        ]
+      ],
+      "fold": {
+        "hip_rad": -1.7999999999999998,
+        "envelope_xz_mm": [
+          189.20226722672015,
+          158.67643024204295
+        ],
+        "wheel_mm": [
+          49.20226722672015,
+          -3.350006719865931
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 60.88213245344125,
+        "back_mm": 142.2700776619742,
+        "above_mm": 113.71557845895815
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 94.22563838194009,
+        "lower_mm": 109.4511713744189,
+        "tie_mm": 91.20310984837239,
+        "lever_mm": 33.077764790552635,
+        "ground_mm": [
+          11.284981475292208,
+          23.11781663017843
+        ],
+        "phase_rad": 2.4122317946636396
+      },
+      "stance_stroke_mm": 39.395640994877354,
+      "stance_hip_rad": [
+        -0.17999999999999972,
+        0.41000000000000014
+      ],
+      "stance_height_mm": [
+        50.388841377040805,
+        89.78448237191816
+      ],
+      "stance_max_wheel_x_mm": 9.771441833108938,
+      "knee_range_rad": [
+        1.1519303927111242,
+        2.9355512887319746
+      ],
+      "spring_compression_max_mm": 18.393048902735643,
+      "full_wheel_bounds_mm": [
+        [
+          -169.63416571385403,
+          -122.37911314534892
+        ],
+        [
+          71.19119163429252,
+          134.75380472101972
+        ]
+      ],
+      "fold": {
+        "hip_rad": -0.46999999999999975,
+        "envelope_xz_mm": [
+          176.00859111629842,
+          149.85779985114988
+        ],
+        "wheel_mm": [
+          6.752804544984841,
+          -34.85779985114989
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 71.19119163429252,
+        "back_mm": 169.63416571385403,
+        "above_mm": 134.75380472101972
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 97.77103827009427,
+        "lower_mm": 113.70539340110672,
+        "tie_mm": 100.31761495231476,
+        "lever_mm": 37.60572411048064,
+        "ground_mm": [
+          19.778951882931864,
+          20.245497573274747
+        ],
+        "phase_rad": 2.7901913230519035
+      },
+      "stance_stroke_mm": 39.16508020440672,
+      "stance_hip_rad": [
+        -0.23999999999999977,
+        0.38000000000000034
+      ],
+      "stance_height_mm": [
+        50.291581284697955,
+        89.45666148910468
+      ],
+      "stance_max_wheel_x_mm": 9.700227461319685,
+      "knee_range_rad": [
+        1.016240892114343,
+        2.781595071186981
+      ],
+      "spring_compression_max_mm": 17.184766964846027,
+      "full_wheel_bounds_mm": [
+        [
+          -184.8251754007852,
+          -122.73909939374182
+        ],
+        [
+          100.69782121670684,
+          162.89240853468306
+        ]
+      ],
+      "fold": {
+        "hip_rad": -0.44999999999999973,
+        "envelope_xz_mm": [
+          180.0376481043191,
+          156.4842071570234
+        ],
+        "wheel_mm": [
+          11.415013043466075,
+          -41.48420715702341
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 100.69782121670684,
+        "back_mm": 184.8251754007852,
+        "above_mm": 162.89240853468306
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    }
+  ],
+  "top_combined": [
+    {
+      "geometry": {
+        "upper_mm": 81.12224897902287,
+        "lower_mm": 113.48086900345506,
+        "tie_mm": 79.81191630956673,
+        "lever_mm": 37.81919887925001,
+        "ground_mm": [
+          3.0975738676642433,
+          26.810845230831077
+        ],
+        "phase_rad": 2.4122945880590954
+      },
+      "stance_stroke_mm": 51.678007821861115,
+      "stance_hip_rad": [
+        -0.6299999999999999,
+        0.3500000000000001
+      ],
+      "stance_height_mm": [
+        50.36419047892353,
+        102.04219830078465
+      ],
+      "stance_max_wheel_x_mm": 9.635790700584693,
+      "knee_range_rad": [
+        1.2824655988210543,
+        2.886471706531045
+      ],
+      "spring_compression_max_mm": 18.074464931849832,
+      "full_wheel_bounds_mm": [
+        [
+          -156.0194015159122,
+          -123.04663476239384
+        ],
+        [
+          71.95858795947339,
+          126.68733193746121
+        ]
+      ],
+      "fold": {
+        "hip_rad": -1.6999999999999997,
+        "envelope_xz_mm": [
+          195.77532955873855,
+          164.15111447772662
+        ],
+        "wheel_mm": [
+          55.77532955873855,
+          -11.70503482046594
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 71.95858795947339,
+        "back_mm": 156.0194015159122,
+        "above_mm": 126.68733193746121
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 101.40608522475962,
+        "lower_mm": 111.759433817688,
+        "tie_mm": 102.8604974637566,
+        "lever_mm": 32.46406677653924,
+        "ground_mm": [
+          25.531103092900306,
+          12.668217585749899
+        ],
+        "phase_rad": 3.1184043781688064
+      },
+      "stance_stroke_mm": 45.42010537913297,
+      "stance_hip_rad": [
+        -0.1299999999999999,
+        0.4800000000000004
+      ],
+      "stance_height_mm": [
+        52.35076466237572,
+        97.77087004150869
+      ],
+      "stance_max_wheel_x_mm": 9.994430781153639,
+      "knee_range_rad": [
+        0.5176332149345457,
+        2.7113485515868962
+      ],
+      "spring_compression_max_mm": 16.439999004973927,
+      "full_wheel_bounds_mm": [
+        [
+          -205.57925237606804,
+          -139.14878507525444
+        ],
+        [
+          126.89052082929994,
+          187.27506045310167
+        ]
+      ],
+      "fold": {
+        "hip_rad": -0.4299999999999997,
+        "envelope_xz_mm": [
+          184.17465827791892,
+          158.20582259280155
+        ],
+        "wheel_mm": [
+          20.17811968737182,
+          -43.20582259280154
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 126.89052082929994,
+        "back_mm": 205.57925237606804,
+        "above_mm": 187.27506045310167
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 78.46628419495343,
+        "lower_mm": 95.901008889824,
+        "tie_mm": 76.03860171623113,
+        "lever_mm": 34.27956616264919,
+        "ground_mm": [
+          14.269938455185084,
+          25.7364547295095
+        ],
+        "phase_rad": 2.607974414941608
+      },
+      "stance_stroke_mm": 41.91985429762501,
+      "stance_hip_rad": [
+        -0.17999999999999972,
+        0.5000000000000004
+      ],
+      "stance_height_mm": [
+        50.40486127100611,
+        92.32471556863112
+      ],
+      "stance_max_wheel_x_mm": 9.906481176589395,
+      "knee_range_rad": [
+        0.820663732282644,
+        2.886444577629521
+      ],
+      "spring_compression_max_mm": 18.074271125621465,
+      "full_wheel_bounds_mm": [
+        [
+          -158.23214156282933,
+          -121.29841166276682
+        ],
+        [
+          77.09252170213817,
+          132.6537409279062
+        ]
+      ],
+      "fold": {
+        "hip_rad": -0.5799999999999996,
+        "envelope_xz_mm": [
+          160.0,
+          146.82818389231684
+        ],
+        "wheel_mm": [
+          5.652898934497749,
+          -31.826781922368525
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 77.09252170213817,
+        "back_mm": 158.23214156282933,
+        "above_mm": 132.6537409279062
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 99.73840250559704,
+        "lower_mm": 113.57435767297211,
+        "tie_mm": 97.86979511952983,
+        "lever_mm": 28.753968428404157,
+        "ground_mm": [
+          13.283856698415345,
+          18.06047232179856
+        ],
+        "phase_rad": 2.5455257485204736
+      },
+      "stance_stroke_mm": 39.81930188968856,
+      "stance_hip_rad": [
+        -0.18999999999999995,
+        0.40000000000000036
+      ],
+      "stance_height_mm": [
+        50.128603417058926,
+        89.94790530674749
+      ],
+      "stance_max_wheel_x_mm": 9.560253894145148,
+      "knee_range_rad": [
+        1.078241552398823,
+        2.866844669103262
+      ],
+      "spring_compression_max_mm": 17.929221439989675,
+      "full_wheel_bounds_mm": [
+        [
+          -182.57331543735447,
+          -125.48105278748548
+        ],
+        [
+          81.51387690060085,
+          147.84890639854297
+        ]
+      ],
+      "fold": {
+        "hip_rad": -0.44999999999999973,
+        "envelope_xz_mm": [
+          181.8091555294498,
+          152.39020956581618
+        ],
+        "wheel_mm": [
+          9.581049938002906,
+          -37.00744204856833
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 81.51387690060085,
+        "back_mm": 182.57331543735447,
+        "above_mm": 147.84890639854297
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 80.06934061902099,
+        "lower_mm": 107.98017383034669,
+        "tie_mm": 79.08232760821326,
+        "lever_mm": 35.54800775727676,
+        "ground_mm": [
+          8.915674744933943,
+          26.879481065630923
+        ],
+        "phase_rad": 2.5026237572823073
+      },
+      "stance_stroke_mm": 39.787797098420015,
+      "stance_hip_rad": [
+        -0.36999999999999966,
+        0.31000000000000005
+      ],
+      "stance_height_mm": [
+        50.04571864857252,
+        89.83351574699253
+      ],
+      "stance_max_wheel_x_mm": 9.663251914149697,
+      "knee_range_rad": [
+        1.1001481052146849,
+        2.954974000418513
+      ],
+      "spring_compression_max_mm": 18.50117326110761,
+      "full_wheel_bounds_mm": [
+        [
+          -159.91184955578126,
+          -121.2657877141209
+        ],
+        [
+          75.47591977161412,
+          132.08204812815973
+        ]
+      ],
+      "fold": {
+        "hip_rad": -0.5699999999999998,
+        "envelope_xz_mm": [
+          160.0,
+          156.42951394908366
+        ],
+        "wheel_mm": [
+          0.09496653592972848,
+          -41.22153163006335
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 75.47591977161412,
+        "back_mm": 159.91184955578126,
+        "above_mm": 132.08204812815973
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 85.56412818608493,
+        "lower_mm": 110.56496887874778,
+        "tie_mm": 86.16787293186526,
+        "lever_mm": 45.34705470439548,
+        "ground_mm": [
+          0.5643933594991379,
+          28.871647989115232
+        ],
+        "phase_rad": 2.2790982778989957
+      },
+      "stance_stroke_mm": 39.4104239810365,
+      "stance_hip_rad": [
+        -0.4299999999999997,
+        0.3200000000000003
+      ],
+      "stance_height_mm": [
+        50.0495974111528,
+        89.4600213921893
+      ],
+      "stance_max_wheel_x_mm": 9.954108338689991,
+      "knee_range_rad": [
+        1.529841874549497,
+        2.953571847854072
+      ],
+      "spring_compression_max_mm": 18.49371318036026,
+      "full_wheel_bounds_mm": [
+        [
+          -142.2700776619742,
+          -106.81301804205414
+        ],
+        [
+          60.88213245344125,
+          113.71557845895815
+        ]
+      ],
+      "fold": {
+        "hip_rad": -1.7999999999999998,
+        "envelope_xz_mm": [
+          189.20226722672015,
+          158.67643024204295
+        ],
+        "wheel_mm": [
+          49.20226722672015,
+          -3.350006719865931
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 60.88213245344125,
+        "back_mm": 142.2700776619742,
+        "above_mm": 113.71557845895815
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 94.22563838194009,
+        "lower_mm": 109.4511713744189,
+        "tie_mm": 91.20310984837239,
+        "lever_mm": 33.077764790552635,
+        "ground_mm": [
+          11.284981475292208,
+          23.11781663017843
+        ],
+        "phase_rad": 2.4122317946636396
+      },
+      "stance_stroke_mm": 39.395640994877354,
+      "stance_hip_rad": [
+        -0.17999999999999972,
+        0.41000000000000014
+      ],
+      "stance_height_mm": [
+        50.388841377040805,
+        89.78448237191816
+      ],
+      "stance_max_wheel_x_mm": 9.771441833108938,
+      "knee_range_rad": [
+        1.1519303927111242,
+        2.9355512887319746
+      ],
+      "spring_compression_max_mm": 18.393048902735643,
+      "full_wheel_bounds_mm": [
+        [
+          -169.63416571385403,
+          -122.37911314534892
+        ],
+        [
+          71.19119163429252,
+          134.75380472101972
+        ]
+      ],
+      "fold": {
+        "hip_rad": -0.46999999999999975,
+        "envelope_xz_mm": [
+          176.00859111629842,
+          149.85779985114988
+        ],
+        "wheel_mm": [
+          6.752804544984841,
+          -34.85779985114989
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 71.19119163429252,
+        "back_mm": 169.63416571385403,
+        "above_mm": 134.75380472101972
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 97.77103827009427,
+        "lower_mm": 113.70539340110672,
+        "tie_mm": 100.31761495231476,
+        "lever_mm": 37.60572411048064,
+        "ground_mm": [
+          19.778951882931864,
+          20.245497573274747
+        ],
+        "phase_rad": 2.7901913230519035
+      },
+      "stance_stroke_mm": 39.16508020440672,
+      "stance_hip_rad": [
+        -0.23999999999999977,
+        0.38000000000000034
+      ],
+      "stance_height_mm": [
+        50.291581284697955,
+        89.45666148910468
+      ],
+      "stance_max_wheel_x_mm": 9.700227461319685,
+      "knee_range_rad": [
+        1.016240892114343,
+        2.781595071186981
+      ],
+      "spring_compression_max_mm": 17.184766964846027,
+      "full_wheel_bounds_mm": [
+        [
+          -184.8251754007852,
+          -122.73909939374182
+        ],
+        [
+          100.69782121670684,
+          162.89240853468306
+        ]
+      ],
+      "fold": {
+        "hip_rad": -0.44999999999999973,
+        "envelope_xz_mm": [
+          180.0376481043191,
+          156.4842071570234
+        ],
+        "wheel_mm": [
+          11.415013043466075,
+          -41.48420715702341
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 100.69782121670684,
+        "back_mm": 184.8251754007852,
+        "above_mm": 162.89240853468306
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 96.43152555445414,
+        "lower_mm": 113.31767616383345,
+        "tie_mm": 96.09653183126869,
+        "lever_mm": 16.389211962467837,
+        "ground_mm": [
+          10.082530957447574,
+          9.594860068153745
+        ],
+        "phase_rad": 2.7862223364190224
+      },
+      "stance_stroke_mm": 39.12235730429023,
+      "stance_hip_rad": [
+        -0.18999999999999995,
+        0.3700000000000001
+      ],
+      "stance_height_mm": [
+        50.04642376131409,
+        89.16878106560432
+      ],
+      "stance_max_wheel_x_mm": 9.556106634210664,
+      "knee_range_rad": [
+        0.8279874931460434,
+        2.857115568959798
+      ],
+      "spring_compression_max_mm": 17.853518138381666,
+      "full_wheel_bounds_mm": [
+        [
+          -191.20908417815969,
+          -132.15929094627128
+        ],
+        [
+          88.57914386491765,
+          155.05350265796557
+        ]
+      ],
+      "fold": {
+        "hip_rad": -0.45999999999999996,
+        "envelope_xz_mm": [
+          178.40770931326514,
+          152.11899511884755
+        ],
+        "wheel_mm": [
+          6.082391767160743,
+          -37.11899511884754
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 88.57914386491765,
+        "back_mm": 191.20908417815969,
+        "above_mm": 155.05350265796557
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    },
+    {
+      "geometry": {
+        "upper_mm": 94.73819531099105,
+        "lower_mm": 105.43507652870139,
+        "tie_mm": 92.02828499484113,
+        "lever_mm": 35.62429132450408,
+        "ground_mm": [
+          8.587952143918098,
+          24.620377903593234
+        ],
+        "phase_rad": 2.3329619216315787
+      },
+      "stance_stroke_mm": 37.472701558231975,
+      "stance_hip_rad": [
+        -0.08999999999999986,
+        0.4800000000000004
+      ],
+      "stance_height_mm": [
+        54.735587618131476,
+        92.20828917636345
+      ],
+      "stance_max_wheel_x_mm": 9.998809280742904,
+      "knee_range_rad": [
+        1.3175357788779358,
+        2.960290860861729
+      ],
+      "spring_compression_max_mm": 18.52897053638084,
+      "full_wheel_bounds_mm": [
+        [
+          -157.27411134014534,
+          -116.23909888040501
+        ],
+        [
+          60.329923691936024,
+          122.91710272631876
+        ]
+      ],
+      "fold": {
+        "hip_rad": -0.46999999999999975,
+        "envelope_xz_mm": [
+          176.46557062013505,
+          147.58078130833093
+        ],
+        "wheel_mm": [
+          10.856079606132383,
+          -32.58078130833093
+        ],
+        "geometric_size_pass": true
+      },
+      "reach": {
+        "front_mm": 60.329923691936024,
+        "back_mm": 157.27411134014534,
+        "above_mm": 122.91710272631876
+      },
+      "geometry_only": true,
+      "cad_clearance_pass": false,
+      "motion_pass": false
+    }
+  ],
+  "internal_belt_comparison": {
+    "upper_mm": 100,
+    "lower_mm": 100,
+    "hip_range_rad": [
+      0.1,
+      1.45
+    ],
+    "relative_knee": "pi - 2 * hip",
+    "fixed_to_knee_pulley_ratio": 2,
+    "height_from_hip_mm": [
+      19.96668332936563,
+      198.5425982075177
+    ],
+    "vertical_stroke_mm": 178.57591487815208,
+    "wheel_fore_aft_reach_mm": 0,
+    "note": "Exact straight axle path with equal links. Loss of independent fore/aft reach; folding, suspension and dynamics require CAD/tests."
+  },
+  "limitations": [
+    "No CAD, motor force/speed, actual mass, COM or contact dynamics in this screen.",
+    "Body dimensions are allocations. XZ bounds do not check lateral hardware or interference.",
+    "Sampled single-leg geometry does not prove independent leg packaging, continuous clearance, or any skill.",
+    "Search failure does not establish four-motor impossibility."
+  ]
+}

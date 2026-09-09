@@ -1,0 +1,150 @@
+{
+  "status": "electrical_and_load_screen_only",
+  "mass_allowance_kg": 2.2,
+  "wheel_diameter_mm": 120,
+  "assumed_Crr": 0.03,
+  "assumed_CdA_m2": 0.03,
+  "battery_voltage_V": 9.6,
+  "loaded_wheel_rpm_at_20kmh": 884.1941282883075,
+  "motor_only_pair_price_delta_usd": 28,
+  "bare_motor_pair_mass_delta_g": 100,
+  "drives": {
+    "V2806_650_geared": {
+      "kv": 650,
+      "resistance_ohm": 0.227,
+      "ratio": 5,
+      "efficiency": 0.8,
+      "current_A": 8,
+      "idle_A": 0.4,
+      "mass_g": 47,
+      "price_usd": 28.99,
+      "torque_constant_Nm_A": 0.014691225516174956,
+      "peak_equivalent_torque_Nm": 0.4701192165175986,
+      "operating_points": {
+        "flat_20kmh": {
+          "wheel_torque_Nm": 0.03643768888888889,
+          "speed_m_s": 5.555555555555555,
+          "current_equivalent_A": 0.6200587018552537,
+          "winding_loss_equivalent_W": 0.08727532418043789,
+          "winding_loss_with_idle_estimate_W": 0.2361979844373519,
+          "required_equivalent_voltage": 6.9422466198465855,
+          "within_screen_envelope": true
+        },
+        "grade_10deg_1mps": {
+          "wheel_torque_Nm": 0.13211020794518924,
+          "speed_m_s": 1,
+          "current_equivalent_A": 2.2481141515344762,
+          "winding_loss_equivalent_W": 1.1472619131008144,
+          "winding_loss_with_idle_estimate_W": 1.5918394430194749,
+          "required_equivalent_voltage": 1.7345907054129057,
+          "within_screen_envelope": true
+        },
+        "crawl_0.1Nm": {
+          "wheel_torque_Nm": 0.1,
+          "speed_m_s": 0.1,
+          "current_equivalent_A": 1.7016960206944713,
+          "winding_loss_equivalent_W": 0.6573396417343595,
+          "winding_loss_with_idle_estimate_W": 1.0026876390924757,
+          "required_equivalent_voltage": 0.508711875999103,
+          "within_screen_envelope": true
+        },
+        "crawl_0.2Nm": {
+          "wheel_torque_Nm": 0.2,
+          "speed_m_s": 0.1,
+          "current_equivalent_A": 3.4033920413889427,
+          "winding_loss_equivalent_W": 2.629358566937438,
+          "winding_loss_with_idle_estimate_W": 3.28373456165367,
+          "required_equivalent_voltage": 0.894996872696748,
+          "within_screen_envelope": true
+        },
+        "crawl_0.4Nm": {
+          "wheel_torque_Nm": 0.4,
+          "speed_m_s": 0.1,
+          "current_equivalent_A": 6.806784082777885,
+          "winding_loss_equivalent_W": 10.517434267749753,
+          "winding_loss_with_idle_estimate_W": 11.789866257182217,
+          "required_equivalent_voltage": 1.667566866092038,
+          "within_screen_envelope": true
+        }
+      }
+    },
+    "V3508_580_direct": {
+      "kv": 580,
+      "resistance_ohm": 0.125,
+      "ratio": 1,
+      "efficiency": 1,
+      "current_A": 25,
+      "idle_A": 0.6,
+      "mass_g": 97,
+      "price_usd": 42.99,
+      "torque_constant_Nm_A": 0.016464304457782276,
+      "peak_equivalent_torque_Nm": 0.41160761144455693,
+      "operating_points": {
+        "flat_20kmh": {
+          "wheel_torque_Nm": 0.03643768888888889,
+          "speed_m_s": 5.555555555555555,
+          "current_equivalent_A": 2.2131325973910596,
+          "winding_loss_equivalent_W": 0.6122444867043623,
+          "winding_loss_with_idle_estimate_W": 0.9892143763130212,
+          "required_equivalent_voltage": 1.801114209653723,
+          "within_screen_envelope": true
+        },
+        "grade_10deg_1mps": {
+          "wheel_torque_Nm": 0.13211020794518924,
+          "speed_m_s": 1,
+          "current_equivalent_A": 8.024038202399979,
+          "winding_loss_equivalent_W": 8.048148634196785,
+          "winding_loss_with_idle_estimate_W": 9.296754364556781,
+          "required_equivalent_voltage": 1.2774098495963686,
+          "within_screen_envelope": true
+        },
+        "crawl_0.1Nm": {
+          "wheel_torque_Nm": 0.1,
+          "speed_m_s": 0.1,
+          "current_equivalent_A": 6.073745796940267,
+          "winding_loss_equivalent_W": 4.611298500731196,
+          "winding_loss_with_idle_estimate_W": 5.567360370272235,
+          "required_equivalent_voltage": 0.7866587320471705,
+          "within_screen_envelope": true
+        },
+        "crawl_0.2Nm": {
+          "wheel_torque_Nm": 0.2,
+          "speed_m_s": 0.1,
+          "current_equivalent_A": 12.147491593880535,
+          "winding_loss_equivalent_W": 18.445194002924783,
+          "winding_loss_with_idle_estimate_W": 20.31231774200686,
+          "required_equivalent_voltage": 1.545876956664704,
+          "within_screen_envelope": true
+        },
+        "crawl_0.4Nm": {
+          "wheel_torque_Nm": 0.4,
+          "speed_m_s": 0.1,
+          "current_equivalent_A": 24.29498318776107,
+          "winding_loss_equivalent_W": 73.78077601169913,
+          "winding_loss_with_idle_estimate_W": 77.4700234898633,
+          "required_equivalent_voltage": 3.064313405899771,
+          "within_screen_envelope": true
+        }
+      }
+    }
+  },
+  "static_step_torque_per_wheel_Nm": {
+    "10": 0.35789698112725127,
+    "20": 0.4825881909040046,
+    "30": 0.5607168079342727
+  },
+  "sources": [
+    "https://sunnyskyusa.com/products/sunnysky-v2806-motor",
+    "https://sunnyskyusa.com/products/sunnysky-v3508-motor",
+    "https://www.minircflying.com/images/V3508KV580.pdf"
+  ],
+  "checked_at": "2026-09-08",
+  "hardware_release": false,
+  "limitations": [
+    "Mass, rolling resistance and drag are allowances, not measurements of completed V2.",
+    "The existing geared 8 A limit is a simulation setting. The direct 25 A/30s datum comes from propeller use; neither is a sealed continuous rating.",
+    "Kv/Kt and resistance use a provisional DC-equivalent convention. Identify winding connection, phase resistance and controller current convention before hardware use.",
+    "No thermal impedance, cogging, motor torque ripple, controller loss or bearing loss measurement.",
+    "Price delta excludes removed gears/supports and added sensing, mounts, wiring and driver capacity."
+  ]
+}

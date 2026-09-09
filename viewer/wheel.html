@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#eff2f0"><link rel="icon" href="data:,">
+  <title>Clanky / One-piece wheel</title>
+  <link rel="stylesheet" href="viewer.css"><link rel="stylesheet" href="wheel.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/controls/OrbitControls.js":"./vendor/OrbitControls.js"}}</script>
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="skills.html"><span class="brand-mark">c.</span><span>Clanky <span class="brand-secondary">/ wheel study</span></span></a>
+  <span class="header-meta">One material <span class="header-separator">/</span> One printed part</span>
+  <a class="back-link" href="skills.html">Motion viewer ↗</a>
+</header>
+<main class="workspace">
+  <aside class="sidebar" aria-label="Wheel controls">
+    <section class="control-section">
+      <div class="eyebrow">SINGLE-PIECE TPU CONCEPT</div>
+      <h1>120 mm wheel, revised.</h1>
+      <p class="intro">A larger, slimmer wheel. The centre, honeycomb and tread are all connected in one print.</p>
+      <p class="small-note"><a href="v2.html"><strong>Inspect the latest V2 robot design ↗</strong></a><br>This wheel replay uses the earlier R2 robot.</p>
+      <p class="small-note" id="fit-note">Checking the revised fit evidence…</p>
+      <h2>See it</h2>
+      <div class="segmented" role="group" aria-label="Preview scene">
+        <button data-scene="wheel" aria-pressed="false">Close-up</button>
+        <button data-scene="robot" aria-pressed="true">On Clanky</button>
+        <button data-scene="plate" aria-pressed="false">Print plate</button>
+      </div>
+      <div id="robot-controls">
+        <label class="motion-label" for="motion">Programmed motion</label><select id="motion"><option value="manual">Manual inspection</option></select>
+        <p id="motion-note" class="small-note" role="status"></p>
+        <div class="segmented" role="group" aria-label="Model view"><button data-display="enclosed" aria-pressed="true">Enclosed</button><button data-display="cutaway" aria-pressed="false">Cutaway</button><button data-display="physics" aria-pressed="false">Physics</button></div>
+        <div id="playback" hidden>
+          <div class="play-row"><button id="play">Pause</button><button id="restart">Restart</button><button id="peak">Peak jump</button><select id="speed" aria-label="Playback speed"><option value=".25">0.25×</option><option value=".5">0.5×</option><option value="1" selected>1×</option></select></div>
+          <div class="slider-heading"><label for="timeline">Time</label><output id="time">0.00 s</output></div><input id="timeline" type="range" min="0" value="0" max="12" step=".005">
+        </div>
+        <div id="manual" hidden><div class="slider-heading"><label for="leg-height">Leg extension</label><output id="leg-output"></output></div><input id="leg-height" type="range" min="0" step=".1"></div>
+      </div>
+      <p class="small-note">20 mm tread width. Original wheels: 100 × 30 mm.</p>
+      <label id="compare-control" class="check-row" for="compare" hidden>Compare current wheels<input id="compare" type="checkbox"></label>
+      <dl class="measurements">
+        <div><dt>Selected wheel</dt><dd id="dimensions">—</dd></div>
+        <div><dt>Extra ground clearance*</dt><dd id="clearance">—</dd></div>
+        <div><dt>Estimated TPU / wheel</dt><dd id="mass">—</dd></div>
+        <div><dt>Track / overall tire width</dt><dd>206 / 226 mm</dd></div>
+        <div id="jump-metric" hidden><dt>Peak wheel clearance</dt><dd id="jump-height">—</dd></div>
+        <div><dt>A1 Mini plates / pair</dt><dd>2</dd></div>
+      </dl>
+      <p class="fine-print">*At the same leg pose. Mass is CAD volume × assumed TPU density, before slicing.</p>
+    </section>
+    <section class="control-section">
+      <h2>One continuous part</h2>
+      <ol class="anatomy">
+        <li><span>01</span><div><strong>Recessed centre</strong><p>Integrated hub with a pocket for the metal shaft coupling. Three recessed mounting screws.</p></div></li>
+        <li><span>02</span><div><strong>Open honeycomb</strong><p>Through-cells leave flexible TPU webs.</p></div></li>
+        <li><span>03</span><div><strong>Continuous tread</strong><p>Shallow staggered grooves around the outside.</p></div></li>
+      </ol>
+      <details><summary>Prototype details &amp; files</summary>
+        <p class="small-note">One TPU 95A print per wheel, 120 × 120 × 20 mm. Two 80 mm steel axles replace the shorter ones. Pololu 2693 metal couplings use the same supplier part as the hips; a pair is listed at $14.95.</p>
+        <p class="small-note">These are new MuJoCo recordings with the revised CAD mass, inertia and tire positions. Programmed exact-start checks are not learned skills or autonomous recovery. TPU deflection, grip, creep, strength and motor/gear retention remain untested.</p>
+        <p class="small-note"><a href="../wheel-study/revised/fit-report.json">Revised fit audit ↗</a> · <a href="../wheel-study/revised/replays.json">Motion results ↗</a> · <a href="https://www.pololu.com/product/2693/specs">Coupling specs ↗</a></p>
+        <p class="downloads"><a id="stl" download>Concept STL ↓</a><a id="step" download>STEP ↓</a></p>
+      </details>
+    </section>
+    <div class="sidebar-footer">Rigid-wheel simulation · TPU &amp; hardware unqualified</div>
+  </aside>
+  <section class="viewport" aria-label="Interactive wheel design">
+    <div class="view-toolbar"><button data-camera="iso" aria-pressed="true">3D</button><button data-camera="face" aria-pressed="false">Face</button><button data-camera="edge" aria-pressed="false">Edge</button><button id="fit">Fit</button></div>
+    <div class="canvas-caption"><span class="caption-mark"></span><span id="caption">One connected TPU part</span></div>
+    <canvas id="model-canvas" tabindex="0" aria-label="One-piece TPU wheel. Drag to orbit; scroll to zoom."></canvas>
+    <div id="load-status" role="status">Loading wheel CAD…</div>
+    <div class="object-label"><span id="object-kicker">ONE-PIECE WHEEL</span><strong id="object-size">120 × 20 <small>mm</small></strong><span id="scene-note">Revised wheel · programmed motion</span></div>
+    <div class="interaction-hint">Drag to orbit <span>·</span> Scroll to zoom</div>
+  </section>
+</main>
+<script type="module" src="wheel.mjs?v=ios-sha256-2"></script>
+</body>
+</html>

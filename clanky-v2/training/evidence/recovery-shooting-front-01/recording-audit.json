@@ -1,0 +1,186 @@
+{
+  "status": "passed",
+  "recordings": [
+    {
+      "recording": "front-76000-250us.json",
+      "sha256": "0de8b937e536e62fe96e131a5fd91f7b064797b37b65333eed8c95e39c7c444f",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.311880771849449e-06,
+      "sampled_gear_error_rad": 1.479033379325756e-07,
+      "sampled_branch_margin": 0.5776293237183597
+    },
+    {
+      "recording": "front-76000-125us.json",
+      "sha256": "993e600fce9be5dfe25a979b0e8bce14e1422c2f3a16632a9976bdd1ecbfa59e",
+      "sampled_settled": false,
+      "sampled_closure_m": 5.316921517982467e-06,
+      "sampled_gear_error_rad": 9.471989415033022e-08,
+      "sampled_branch_margin": 0.5775626145222751
+    },
+    {
+      "recording": "front-77000-250us.json",
+      "sha256": "3094c1069c41a9f89bc48d2179abaa988369038fac33a85ba7b5fc0445c3841d",
+      "sampled_settled": false,
+      "sampled_closure_m": 1.1194297285369126e-05,
+      "sampled_gear_error_rad": 1.886051762767238e-07,
+      "sampled_branch_margin": 0.5766581047469821
+    },
+    {
+      "recording": "front-77000-125us.json",
+      "sha256": "60e342d5529fb23f13291cdb3ab7e08de62cdcabb696bde79d6dfaaf01121092",
+      "sampled_settled": false,
+      "sampled_closure_m": 5.3056392399441785e-06,
+      "sampled_gear_error_rad": 9.467938753005e-08,
+      "sampled_branch_margin": 0.5766304865499163
+    },
+    {
+      "recording": "front-77001-250us.json",
+      "sha256": "2b45b27968f12da6a46f818ca79fab6ae9968edbdff45d767abbb001f90c87bd",
+      "sampled_settled": false,
+      "sampled_closure_m": 5.301268468207055e-06,
+      "sampled_gear_error_rad": 9.485162308919825e-08,
+      "sampled_branch_margin": 0.5767142467497264
+    },
+    {
+      "recording": "front-77001-125us.json",
+      "sha256": "dd63836295c2dbe5a85b8c27a1b7764b7f5f515cc1e34fbb1c0bbe8df0e18e19",
+      "sampled_settled": false,
+      "sampled_closure_m": 5.300561816466146e-06,
+      "sampled_gear_error_rad": 9.485362397754216e-08,
+      "sampled_branch_margin": 0.576716332754096
+    },
+    {
+      "recording": "front-77002-250us.json",
+      "sha256": "2b44929228e5998177d856a53bca6fc3893c9f1bf2009d6ef893b4677626aeb2",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.313974986377079e-06,
+      "sampled_gear_error_rad": 1.515323077683206e-07,
+      "sampled_branch_margin": 0.5777383696271098
+    },
+    {
+      "recording": "front-77002-125us.json",
+      "sha256": "6d45d4392c8610beaf8333904307369cbb40a805b0f4be51ba9c904501271c40",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.313399606320587e-06,
+      "sampled_gear_error_rad": 1.3921186194920666e-07,
+      "sampled_branch_margin": 0.5777679502223118
+    },
+    {
+      "recording": "front-77003-250us.json",
+      "sha256": "55292beecb1103c20c3bc0a7ce06cd07a3df092a92788dd638080c0815f22cde",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.312489350219385e-06,
+      "sampled_gear_error_rad": 1.8485487984776228e-07,
+      "sampled_branch_margin": 0.5777001370977266
+    },
+    {
+      "recording": "front-77003-125us.json",
+      "sha256": "c8e78b78b4afe4ed8c43168beec03e410dd6eef59261e075e800c7e840a2e404",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.31346024599813e-06,
+      "sampled_gear_error_rad": 1.3952644764003708e-07,
+      "sampled_branch_margin": 0.5778486396124752
+    },
+    {
+      "recording": "front-77004-250us.json",
+      "sha256": "a292b91fbfa41cdc6c43b4ed9e23cdeec6e21c7c843885ba86f0a7d92952b944",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.31201712065268e-06,
+      "sampled_gear_error_rad": 5.246581089579649e-07,
+      "sampled_branch_margin": 0.5774977076645511
+    },
+    {
+      "recording": "front-77004-125us.json",
+      "sha256": "c2b5f236039241212e8e484b655b7049aaa1285f1a14b0f687cbff60bc9a9d63",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.310705115437329e-06,
+      "sampled_gear_error_rad": 1.3726264000979426e-07,
+      "sampled_branch_margin": 0.5774640884393833
+    },
+    {
+      "recording": "front-77005-250us.json",
+      "sha256": "735bbec047db51b13a40612f728caa8e9c2da89bbb81dae0bf24f013c2ca530a",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.313117888760568e-06,
+      "sampled_gear_error_rad": 2.2513602857543446e-07,
+      "sampled_branch_margin": 0.5777275811685423
+    },
+    {
+      "recording": "front-77005-125us.json",
+      "sha256": "08a11a491e948d463fb828222eda0a829cfc8269fe2caacd71fcb9ae97933361",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.313901386935304e-06,
+      "sampled_gear_error_rad": 2.1313894933427945e-07,
+      "sampled_branch_margin": 0.5776932903264599
+    },
+    {
+      "recording": "front-77006-250us.json",
+      "sha256": "25fe0b1fbec3bfa0e59befa53d2bebe4048b7cc8886fb47633da89d5e20130b0",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.313649172871225e-06,
+      "sampled_gear_error_rad": 1.3940594669747953e-07,
+      "sampled_branch_margin": 0.5771235378870789
+    },
+    {
+      "recording": "front-77006-125us.json",
+      "sha256": "b6848cf013ea54ae9680545c56d9be751eeb06d2e69dc5b871cc8aa8b3528bd0",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.312811010119154e-06,
+      "sampled_gear_error_rad": 1.2546406651381404e-07,
+      "sampled_branch_margin": 0.5771178430792635
+    },
+    {
+      "recording": "front-77007-250us.json",
+      "sha256": "9470d32a6e42d9ef5d48bf7acd822d96855d31559fd76d345a2ecf43a2b575c4",
+      "sampled_settled": true,
+      "sampled_closure_m": 2.152956917614683e-05,
+      "sampled_gear_error_rad": 1.858111584596145e-07,
+      "sampled_branch_margin": 0.5746446250925162
+    },
+    {
+      "recording": "front-77007-125us.json",
+      "sha256": "cc97bdc9f7424d53a8ace1dcd05e0c038c4502a0fb39f31a98d418bb73578334",
+      "sampled_settled": true,
+      "sampled_closure_m": 2.0497355732173594e-05,
+      "sampled_gear_error_rad": 1.8684651226230642e-07,
+      "sampled_branch_margin": 0.5747409872514487
+    },
+    {
+      "recording": "front-77008-250us.json",
+      "sha256": "c382059956283ecab4d7197f83849c1c7d15a085e651a827840ac24557081845",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.2983419131177906e-06,
+      "sampled_gear_error_rad": 9.40735262133785e-07,
+      "sampled_branch_margin": 0.5767319964858026
+    },
+    {
+      "recording": "front-77008-125us.json",
+      "sha256": "53c101cc7a66a118b551624bff2e888b8391ae2b52c979b43863c2ed068c5c5b",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.29961857384294e-06,
+      "sampled_gear_error_rad": 1.654034452513997e-07,
+      "sampled_branch_margin": 0.576732707772073
+    },
+    {
+      "recording": "front-77009-250us.json",
+      "sha256": "a353cfc19239cf9a29fce963172ab2f60943a5bafd3ce62b603a715d2669aae0",
+      "sampled_settled": false,
+      "sampled_closure_m": 5.3133955920088895e-06,
+      "sampled_gear_error_rad": 1.412877310258409e-07,
+      "sampled_branch_margin": 0.577836564390481
+    },
+    {
+      "recording": "front-77009-125us.json",
+      "sha256": "295ba9a2ce005f93ae10f39ac827199804707b5728379dbb0e3cb921fa0c305f",
+      "sampled_settled": false,
+      "sampled_closure_m": 5.313317889946755e-06,
+      "sampled_gear_error_rad": 1.4327157771276688e-07,
+      "sampled_branch_margin": 0.5777818854030907
+    }
+  ],
+  "passed_motion_cases": 15,
+  "paired_fresh_passes": 7,
+  "source_sha256": "70057c7107506f57873f51fb80bb5fbe4a0a48c69d3fe64e635f69a1014cc8ef",
+  "summary_sha256": "339ef6166deffdce614ebe96ed460173d9982249a611e3fdd6b553a52509875f",
+  "scope": "All 22 source/report identities, current ceilings, sampled geometry and sampled final-window criteria. Continuous physics-step guards rely on the hashed evaluator. Passing this audit preserves the 7 failed motions; it does not qualify recovery."
+}

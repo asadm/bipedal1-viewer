@@ -1,0 +1,192 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "recording": "front-250us.npz",
+      "sha256": "a676b9c176189e62f94599dd29e16da037772f665423c601616e27514bb0a309",
+      "settled": true,
+      "recovery_passed": true,
+      "max_action_error": 4.76837158203125e-07,
+      "sampled_closure_m": 1.0912637550966027e-05,
+      "sampled_gear_error_rad": 3.2912974461396517e-07,
+      "sampled_branch_margin": 0.5778627361394304
+    },
+    {
+      "recording": "front-125us.npz",
+      "sha256": "d91b688896c5055e19287a56844c2f59dbefcc352372564a2f19a986e523a6ed",
+      "settled": true,
+      "recovery_passed": true,
+      "max_action_error": 4.76837158203125e-07,
+      "sampled_closure_m": 8.75979485464883e-06,
+      "sampled_gear_error_rad": 1.340084766354721e-06,
+      "sampled_branch_margin": 0.5778390966221751
+    },
+    {
+      "recording": "back-250us.npz",
+      "sha256": "b811ea8ef7c2cffdfb4ae971c065575562c43592bd925a5a157fcd4325fa4405",
+      "settled": true,
+      "recovery_passed": false,
+      "max_action_error": 4.76837158203125e-07,
+      "sampled_closure_m": 5.244381396968232e-06,
+      "sampled_gear_error_rad": 2.3861700583438506e-06,
+      "sampled_branch_margin": 0.5778188164846322
+    },
+    {
+      "recording": "back-125us.npz",
+      "sha256": "5ea02f35624b17e8e885d69bad3a6e05d8dbd22f2ea4eb6a80f01d5d77187c02",
+      "settled": true,
+      "recovery_passed": true,
+      "max_action_error": 1.7881393432617188e-07,
+      "sampled_closure_m": 5.248245777685816e-06,
+      "sampled_gear_error_rad": 1.666430016200593e-07,
+      "sampled_branch_margin": 0.5777501402833449
+    },
+    {
+      "recording": "left-250us.npz",
+      "sha256": "31253d88f8af38412f2e944c0d8eaa8272b257f03461947223e0ed2bb73f3fb9",
+      "settled": true,
+      "recovery_passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.4016833439269573e-06,
+      "sampled_gear_error_rad": 4.7425921606558674e-08,
+      "sampled_branch_margin": 0.9549826534686034
+    },
+    {
+      "recording": "left-125us.npz",
+      "sha256": "a835b238f7009229e527932358da8d2d0155480fb84e2daba324812c500cbff2",
+      "settled": true,
+      "recovery_passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.403275829865661e-06,
+      "sampled_gear_error_rad": 2.860966034912149e-08,
+      "sampled_branch_margin": 0.9549835077473866
+    },
+    {
+      "recording": "right-250us.npz",
+      "sha256": "e6692e9014336273e426c5512b47a66fab9332c378a7262b0df9757a29365baa",
+      "settled": false,
+      "recovery_passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.380611803882888e-06,
+      "sampled_gear_error_rad": 1.483340277275147e-08,
+      "sampled_branch_margin": 0.9513306474514512
+    },
+    {
+      "recording": "right-125us.npz",
+      "sha256": "34f8edb37f1a1f80ee361326d53c649b25e36c8fec0f73e6c3b3c7760663b93e",
+      "settled": false,
+      "recovery_passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.380254636776775e-06,
+      "sampled_gear_error_rad": 1.4566489170420028e-08,
+      "sampled_branch_margin": 0.9513025953177833
+    },
+    {
+      "recording": "inverted-250us.npz",
+      "sha256": "fd83387216109062684bad79b234653a76e5330d3e37a8799d2ba57c517f9ba5",
+      "settled": true,
+      "recovery_passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.3806118038727995e-06,
+      "sampled_gear_error_rad": 1.7790598404177072e-09,
+      "sampled_branch_margin": 0.961159360048689
+    },
+    {
+      "recording": "inverted-125us.npz",
+      "sha256": "c84c68fbe38c71377d9e3fed129b913d487d225fe9c8da906414e90f2beebfb1",
+      "settled": true,
+      "recovery_passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.380254636790956e-06,
+      "sampled_gear_error_rad": 1.7057342951293242e-09,
+      "sampled_branch_margin": 0.9611594478267704
+    },
+    {
+      "recording": "front_left-250us.npz",
+      "sha256": "8202d947fb7631314895c1e381904af01d1ad07356820b736d03409c34a69f1e",
+      "settled": false,
+      "recovery_passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.3806118038623124e-06,
+      "sampled_gear_error_rad": 4.050840696212532e-08,
+      "sampled_branch_margin": 0.9505987655270177
+    },
+    {
+      "recording": "front_left-125us.npz",
+      "sha256": "3954375b6ca91c40a15d4292ab60418abcd609bca1cd7ee070b70aeaf647fd98",
+      "settled": false,
+      "recovery_passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.38025463680841e-06,
+      "sampled_gear_error_rad": 3.9086062303406166e-08,
+      "sampled_branch_margin": 0.950666129242573
+    },
+    {
+      "recording": "front_right-250us.npz",
+      "sha256": "dfbac5929cc72bdfffc106936127670c7ae70292b7bb4c3416ed73f4f29dc3e1",
+      "settled": true,
+      "recovery_passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.3806118038699683e-06,
+      "sampled_gear_error_rad": 1.3991876948726834e-08,
+      "sampled_branch_margin": 0.9512954724545155
+    },
+    {
+      "recording": "front_right-125us.npz",
+      "sha256": "aa9d5ae9d4d1455f0a7d91031d972a1a6dfff3b7aed8ebac6c86c0bdb820c27a",
+      "settled": true,
+      "recovery_passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.380254636804119e-06,
+      "sampled_gear_error_rad": 2.7908000177490067e-08,
+      "sampled_branch_margin": 0.9512976157031904
+    },
+    {
+      "recording": "back_left-250us.npz",
+      "sha256": "971a843bb146f07e58a5e03c421ffce8273a7ba93112afb95fef1b8df1f02f63",
+      "settled": true,
+      "recovery_passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.3806118038904987e-06,
+      "sampled_gear_error_rad": 3.038549927225631e-08,
+      "sampled_branch_margin": 0.9552525081701434
+    },
+    {
+      "recording": "back_left-125us.npz",
+      "sha256": "75a9508b538f8251f91109e730be9d5d844570828e7c62f6ed024e575020f62b",
+      "settled": true,
+      "recovery_passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.3802546367535515e-06,
+      "sampled_gear_error_rad": 3.492080367095696e-08,
+      "sampled_branch_margin": 0.9552890424238707
+    },
+    {
+      "recording": "back_right-250us.npz",
+      "sha256": "2c2e5399894fa2eee06b18a839e571a829b7e04233309cfc39fa9def6aec6ce7",
+      "settled": true,
+      "recovery_passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.3806118038727534e-06,
+      "sampled_gear_error_rad": 3.8132796476020305e-09,
+      "sampled_branch_margin": 0.9556067754568072
+    },
+    {
+      "recording": "back_right-125us.npz",
+      "sha256": "5f87e6f4f794646834270c3ecba16c89d49506835795b395a62c766ac72f5638",
+      "settled": true,
+      "recovery_passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 2.3802546367826628e-06,
+      "sampled_gear_error_rad": 4.473469772392491e-09,
+      "sampled_branch_margin": 0.9556145404328786
+    }
+  ],
+  "summary_sha256": "0f84d095b313ee1163e5ccf1ab8a222150759ebcf1900dc0457ece7f68a89f18",
+  "source_sha256": {
+    "audit_settled_recovery.py": "bc2365555ef1da3d588445c152d87ab6e10573ef170a6d401522bbf741f22f30",
+    "feedback_recovery.py": "95e98bcec2e733cd179232f13efe356037538a8f97ece7530d77bd2d108bb0ef",
+    "settled_recovery.py": "ea37b51af28e5458cda509a0ea88bb0f1dfdeeaa14bfb7d9777e3fc0d5df74f1"
+  },
+  "scope": "Recorded source/reference identity, continuous timestamps and handoff qpos/qvel/current preservation; all action decisions, sampled IMU/encoder reconstruction, geometry, current ceilings, settling and final-window posture gates. Contact flags and continuous physics guards rely on the retained simulator runner; no dynamics rerun or hardware qualification."
+}

@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "zero_residual_identity": [
+    {
+      "dt": 0.00025,
+      "max_qpos_error": 1.4352286683561033e-06,
+      "max_root_state_error": 2.5954896254801185e-08,
+      "stable_time_s": 6.058000000001658
+    },
+    {
+      "dt": 0.000125,
+      "max_qpos_error": 5.186664537859542e-07,
+      "max_root_state_error": 5.392045032692749e-09,
+      "stable_time_s": 4.830750000000079
+    }
+  ],
+  "policy_period_s": 0.01,
+  "episode_steps": 800,
+  "source_sha256": {
+    "check_residual.py": "bd31ae95dd528d62101850d3c4919bc0a7c29d98023bef373e75016c5586b78d",
+    "residual_recovery.py": "09dd5283d916b727bfebdf9ecdf545ec1381a74f58b0bae3bf1e0315802de98c",
+    "environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb",
+    "evaluate.py": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef"
+  }
+}

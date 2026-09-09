@@ -1,0 +1,97 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "family": "front_left",
+      "seed": 84000,
+      "perturbed": true,
+      "timestep_s": 0.00025,
+      "case_kind": "near_floor",
+      "recording": "front_left-84000-lower-250us.npz",
+      "recording_sha256": "49fd8d4ecf85529539ce36c155f9a5815ed13c05fe5b60434c00fbdb83e545a9",
+      "passed": true,
+      "cohort": "preflight",
+      "original_recording": null,
+      "original_passed": null,
+      "minimum_return_pitch_deg": -98.03326010499262
+    },
+    {
+      "family": "front_left",
+      "seed": 84000,
+      "perturbed": true,
+      "timestep_s": 0.000125,
+      "case_kind": "near_floor",
+      "recording": "front_left-84000-lower-125us.npz",
+      "recording_sha256": "b8a74ed11d95a6d2b6dde84fcf33e5340d72f4162ece956e1f3628a03843b1cd",
+      "passed": true,
+      "cohort": "preflight",
+      "original_recording": null,
+      "original_passed": null,
+      "minimum_return_pitch_deg": -91.86763085638681
+    },
+    {
+      "family": "front",
+      "seed": 87003,
+      "perturbed": true,
+      "timestep_s": 0.00025,
+      "case_kind": "near_floor",
+      "recording": "front-87003-lower-250us.npz",
+      "recording_sha256": "842ee42f87d46edf85d34bd6d8cf5aa1471770cbebd73be875cdde92c1cc0ade",
+      "passed": true,
+      "cohort": "preflight",
+      "original_recording": "front-87003-lower-250us.npz",
+      "original_passed": true,
+      "minimum_return_pitch_deg": -104.23970420943328,
+      "original_sha256": "346865775a5908e78195a944759dd708f5f454a20e7339fe80f91d910c2b46e3",
+      "unchanged_prefix_steps": 461,
+      "prefix_max_error": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "action": 0.0,
+        "observation": 0.0,
+        "time": 0.0,
+        "current_A": 0.0
+      }
+    },
+    {
+      "family": "front",
+      "seed": 87003,
+      "perturbed": true,
+      "timestep_s": 0.000125,
+      "case_kind": "near_floor",
+      "recording": "front-87003-lower-125us.npz",
+      "recording_sha256": "ee5d5729366b2d41b705e6458d45353ff97e36f6dadeff4c4cba1cc953ade404",
+      "passed": true,
+      "cohort": "preflight",
+      "original_recording": "front-87003-lower-125us.npz",
+      "original_passed": false,
+      "minimum_return_pitch_deg": -105.87992004902532,
+      "original_sha256": "a039793b84cf9ab1bf048ddfc77fd0e6d4237426f030d6020387d96e0a720881",
+      "unchanged_prefix_steps": 461,
+      "prefix_max_error": {
+        "qpos": 0.0,
+        "qvel": 0.0,
+        "action": 0.0,
+        "observation": 0.0,
+        "time": 0.0,
+        "current_A": 0.0
+      }
+    }
+  ],
+  "cohorts": {
+    "preflight": {
+      "trials": 4,
+      "passed": 4,
+      "paired_starts": 2,
+      "paired_passes": 2,
+      "matched_trials": 2,
+      "prior_passed": 1
+    }
+  },
+  "source_sha256": {
+    "compare_return_brake.py": "87abae69e28c3a93b0dda8d6b66bb0a48e1d0edb3e35aca28b6b7a445e3156d2"
+  },
+  "summary_sha256": "ac7366f1056821d019a53657d1fc6894e0f279741ed6ced6db904dc92ab3f0c1",
+  "original_summary_sha256": "b4237e7f80b8317dc64cc7a0fcda7ff87a09fd13fc65038c1cf555178b879ad9",
+  "scope": "Exact initial-state and pre-braking prefix comparison for matching family/seed/perturbation/kind/timestep only. Unmatched starts are explicit. Read-only recorded-state pitch diagnostic and separate paired cohort scores; no independent dynamics rerun or hardware qualification."
+}

@@ -1,0 +1,3177 @@
+{
+  "task": "terrain_screen",
+  "trial_cap": 26,
+  "jobs": [
+    {
+      "surface": "flat",
+      "magnitude": 0,
+      "terrain_seed": 731,
+      "seed": 89000,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "flat",
+      "magnitude": 0,
+      "terrain_seed": 731,
+      "seed": 89000,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "bumps",
+      "magnitude": 0.008,
+      "terrain_seed": 731,
+      "seed": 89001,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "bumps",
+      "magnitude": 0.008,
+      "terrain_seed": 731,
+      "seed": 89001,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.01,
+      "terrain_seed": 731,
+      "seed": 89002,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.01,
+      "terrain_seed": 731,
+      "seed": 89002,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.02,
+      "terrain_seed": 731,
+      "seed": 89003,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.02,
+      "terrain_seed": 731,
+      "seed": 89003,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.03,
+      "terrain_seed": 731,
+      "seed": 89004,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.03,
+      "terrain_seed": 731,
+      "seed": 89004,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "slope",
+      "magnitude": 5,
+      "terrain_seed": 731,
+      "seed": 89005,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": 5,
+      "terrain_seed": 731,
+      "seed": 89005,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "slope",
+      "magnitude": -5,
+      "terrain_seed": 731,
+      "seed": 89006,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": -5,
+      "terrain_seed": 731,
+      "seed": 89006,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "slope",
+      "magnitude": 10,
+      "terrain_seed": 731,
+      "seed": 89007,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": 10,
+      "terrain_seed": 731,
+      "seed": 89007,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "slope",
+      "magnitude": -10,
+      "terrain_seed": 731,
+      "seed": 89008,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": -10,
+      "terrain_seed": 731,
+      "seed": 89008,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 5,
+      "terrain_seed": 731,
+      "seed": 89009,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 5,
+      "terrain_seed": 731,
+      "seed": 89009,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -5,
+      "terrain_seed": 731,
+      "seed": 89010,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -5,
+      "terrain_seed": 731,
+      "seed": 89010,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 10,
+      "terrain_seed": 731,
+      "seed": 89011,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 10,
+      "terrain_seed": 731,
+      "seed": 89011,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -10,
+      "terrain_seed": 731,
+      "seed": 89012,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -10,
+      "terrain_seed": 731,
+      "seed": 89012,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125
+    }
+  ],
+  "duration_s": 14.0,
+  "source_sha256": {
+    "terrain_driving.py": "f3db8b07d23c0aabb0c814b308109078ca46062f1b44ca10d6faeed108a81f9c",
+    "terrain_courses.py": "9bcc441dd4ca3052e93b19a1ca2c07a05d7bb4593a1778f0b260a9731b56565c",
+    "terrain_reference.py": "af2fe776105bfacc9701113f840a991bce3e6d195f030f42c032b2dba8846347",
+    "command_driving.py": "34d3a9ac92222b5414a8731ba8a891d09fa30ae02fc4ea43905e3e445ddb18cd",
+    "balance_teacher.py": "b6e2e919240228084437bf59ec49537d3a165f6d3ff47691f554d9bcf78e4e09",
+    "teacher_reference.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486",
+    "environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb",
+    "evaluate.py": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef",
+    "balance_dagger.py": "f2f0e5ce447cb04dcb60663a6d8ba1e07891ed98c1dde3fc5ac6ba8e1e03fe26",
+    "guided_balance.py": "84282cffce9fa6598b431726e03e168da5c40cddaef09dd6dbdfb900d20234bb",
+    "terrain-assets/bumps-0.008-731.npz": "c822560eaeeb0a35d2d62f47990fc003ae421b32e7cb6f2b216d65ae06a1626e",
+    "terrain-assets/bumps-0.008-740.npz": "2d70a4ed558818499c361850309dc0b89855700c9b02071c02cd59862201eafa",
+    "terrain-assets/bumps-0.008-741.npz": "bdac69c0ba5a9eeea8777cc45c4db4f113b140d09122665c8c079a1fc06cdaf3",
+    "terrain-assets/bumps-0.008-742.npz": "ab45ec115e65d7ed24c8bb2e4d43b449a4f619694c8e84093255ea7b248e6e43",
+    "terrain-assets/bumps-0.008-743.npz": "919895ef280a63ff5cd74d8dad05a03a5e9d37719830864e827c215c0100eff4",
+    "terrain-assets/cross_slope--10-731.npz": "63efad09814cd1363fe31fd10ad7594637ee87dc0e1d738e48e6a009bd8565ff",
+    "terrain-assets/cross_slope--5-731.npz": "e7baf5f8a0f11ad97e7d5f366a3041e3c7af3db4de62927c96eb4a5c0c81bb00",
+    "terrain-assets/cross_slope--5-740.npz": "c92e1256754df42b3dd1509cd76d9e9b7148ee461372b542765ffab21583b9fa",
+    "terrain-assets/cross_slope--5-741.npz": "d12925ed94e96a9164687246f43643664ac8cd5932fee0bed19a01ddae0a688d",
+    "terrain-assets/cross_slope--5-742.npz": "09805fec27ef96c199b706101d3a098c8658b91b6420e45086d1e341b56f9d42",
+    "terrain-assets/cross_slope--5-743.npz": "1037943bbee84fbb1d2ee162a9428a61547eeb3336f3a1fe8512f993adebf608",
+    "terrain-assets/cross_slope-10-731.npz": "f2607480963dd4a4b5e801b68137a03e74befd1ba7f266c6476f1777b97f6bfc",
+    "terrain-assets/cross_slope-5-731.npz": "435a0d783ebeabe822edc40365582e86cbf0ff9d88dca9f2287923d50c9636e9",
+    "terrain-assets/cross_slope-5-740.npz": "d60e73df7255cd953d3373d22d097d99e2640e49adef52aed4e1c3d9a0440a28",
+    "terrain-assets/cross_slope-5-741.npz": "9ee43174bd46d7c9efa9ba25c6fe382ad89df3b0b26fb167bfa08a42768aa0f8",
+    "terrain-assets/cross_slope-5-742.npz": "b941d3efd7e1cb8149d57a4218fe0575dd847945fd4b817fc7dc7a12e6759b9b",
+    "terrain-assets/cross_slope-5-743.npz": "a2bb96aa871074e4469b54914bd7cdfb0187c58a4e41d174aaff208d1b0d1309",
+    "terrain-assets/flat-0-731.npz": "0f4d8b63989d4a772d06777450987115d1ab047405b823726d847b0bb5ad66ac",
+    "terrain-assets/flat-0-740.npz": "673c1b6f596cf8a8a7ac01abdd4af81382bc5c5c35aeb02f6de905c172067368",
+    "terrain-assets/flat-0-741.npz": "90ca18029abc330d462bc38a58b0b562e01469c8d2c42a93845cddf7a9bd6e0e",
+    "terrain-assets/flat-0-742.npz": "140107487cb40abc7646f66473c86ff495e78c31447844f0d8898e8c79cd385c",
+    "terrain-assets/flat-0-743.npz": "20da9ee016a9c2c0f53e97061843c8b44d38a590d8e89d8e28fcb2fccbd3f4fe",
+    "terrain-assets/slope--10-731.npz": "46f8fdd2692c3ab2db989cf89459669801593e82b8611dedca713df4da338f2d",
+    "terrain-assets/slope--5-731.npz": "0c3ccc7653184cb09d11b638f08dbc3bc58dfb5ef830b06a96c1d15b0b726db7",
+    "terrain-assets/slope--5-740.npz": "d88244f86bd0afcef063b403516319bc6b580f1222754480819b275b4052396f",
+    "terrain-assets/slope--5-741.npz": "71f3d19985e15497375eaaf3a0f5aeb9148c24715abff059b5354eae591d9751",
+    "terrain-assets/slope--5-742.npz": "333712b142ce6440058734b885f48d8670553cc6cefd835dca2093e412f5cadc",
+    "terrain-assets/slope--5-743.npz": "e9edbd2d016406acfea3542bfd662dfeff007f961033c78a8e366562add55d55",
+    "terrain-assets/slope-10-731.npz": "28c38658ad8d13817c34b6ce28e17a1832f52f588979382ba183a53d663df060",
+    "terrain-assets/slope-5-731.npz": "a33bc15db70be37f9531a2acb399840e3fcc773c754bf7d20b37bf67475ed711",
+    "terrain-assets/slope-5-740.npz": "10358e83673b05a16d97627ddd1239fec32a7f978a40fe2320fe6c406521906d",
+    "terrain-assets/slope-5-741.npz": "4822c750234697ed536ba7af7c80cf9741f81d4158debcdb39f63dd1f6d19c1d",
+    "terrain-assets/slope-5-742.npz": "1f32cdc9e480cde84f9b2ad8030bebe2d33e65cca4102d9653d2167a93721a44",
+    "terrain-assets/slope-5-743.npz": "eccadf38c41fc9908996dc368bc2566190decc403fc5743b41fa960dc81d0667",
+    "terrain-assets/stones-0.01-731.npz": "ec212710d2450fcd58e37602fd621f7d58da45367ae5915e4d3ac8aeb6c4f916",
+    "terrain-assets/stones-0.01-740.npz": "cec8281704a2aa127deada1f5cb2351d91f0c623737bb4b2b3416aff9af0770b",
+    "terrain-assets/stones-0.01-741.npz": "2cd2c16039339ea2a4551ded55e85e1ccccbcbc6bcf2d961bfaa2cb83d89f732",
+    "terrain-assets/stones-0.01-742.npz": "9ecce81942c5bd47fb66a8a14f35a6afef4e500727310c33d17ed7dc15e3317e",
+    "terrain-assets/stones-0.01-743.npz": "c98ca44b24a1f02e32ea6fd69806e93f8c41b7b434cf936fe7e7a6757e1f5416",
+    "terrain-assets/stones-0.02-731.npz": "179e8d3be87f57ce6f4553ee0c6a93efe6d0b6563af1a9ca2de535921ddeb04b",
+    "terrain-assets/stones-0.02-740.npz": "e2ad6c29becfdf6ef78ad7ab37df90e953f91ac90bfd87a3cda73e69cb8baee5",
+    "terrain-assets/stones-0.02-741.npz": "938f6680fd27f4935a58282b498ba5a4110d0917a2fcc2ffcbb4e871d5038222",
+    "terrain-assets/stones-0.02-742.npz": "d636c1abc1b231f0bc935f0697df290d82e1315f9b7dc85e34b559a853a98ec6",
+    "terrain-assets/stones-0.02-743.npz": "223a0a0848683ea0720a212f121ead78e9636d984531934a6c246a6ba08b4649",
+    "terrain-assets/stones-0.03-731.npz": "a46e27cf774ff7ee8c316ef95cdf4513430bd6e2166b7d8d5f8a4ef52db92abf"
+  },
+  "plant_manifest_sha256": "e733063a55088781d85aaf4a3c2f3ce7b05fd2c696a2f44fad78ebcc39284d9d",
+  "policy_sha256": "a129c86958311c97d491ad2420183e5afe2de5905dd7505c9c97a0dcacf27159",
+  "runtime": {
+    "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
+    "mujoco": "3.3.7",
+    "numpy": "2.4.6"
+  },
+  "status": "completed",
+  "cases": [
+    {
+      "surface": "flat",
+      "magnitude": 0,
+      "terrain_seed": 731,
+      "seed": 89000,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": true,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 4.166499999999346,
+      "displacement_m": 2.775132546701465,
+      "max_lateral_m": 0.031265927917237625,
+      "elevated_contact_time_s": [
+        0.0,
+        0.0
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        2.8258733652522423,
+        7.99955249766128,
+        6.68501504834358,
+        13.314038397795997
+      ],
+      "minimum_branch_margin": 0.962606149064462,
+      "terrain": {
+        "actual_max_height_m": 0.0,
+        "actual_min_height_m": 0.0,
+        "family": "flat",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 0.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          0.0
+        ],
+        "scale_m": 0.001,
+        "seed": 731,
+        "sha256": "6c4cca80ba04526c1fb1540be45f298b4ef7a5a9b89723bc68e6fcf11dfdc1fd",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "0f4d8b63989d4a772d06777450987115d1ab047405b823726d847b0bb5ad66ac",
+        "scene_sha256": "b7039feae5940edf96370f453f53885d55c263c4c93c3563e332b8772274488b"
+      },
+      "recording": "flat-0-250us.npz",
+      "sha256": "a4368ece0b37ba4b915caac455d6be21ef96d0eb875af564fb336a328ea30d36",
+      "surface_recording": "flat-0-surface.npz",
+      "surface_sha256": "d8bf59e9c791a8747f7686c8efc3171ade0484ea918aa1f14e7059fa04de3e17"
+    },
+    {
+      "surface": "flat",
+      "magnitude": 0,
+      "terrain_seed": 731,
+      "seed": 89000,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": true,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 4.160000000001642,
+      "displacement_m": 2.797093589494486,
+      "max_lateral_m": 0.002274497026130591,
+      "elevated_contact_time_s": [
+        0.0,
+        0.0
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        3.39111829254779,
+        4.960686224611757,
+        2.186268068077515,
+        5.538785982508878
+      ],
+      "minimum_branch_margin": 0.966267836538526,
+      "terrain": {
+        "actual_max_height_m": 0.0,
+        "actual_min_height_m": 0.0,
+        "family": "flat",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 0.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          0.0
+        ],
+        "scale_m": 0.001,
+        "seed": 731,
+        "sha256": "6c4cca80ba04526c1fb1540be45f298b4ef7a5a9b89723bc68e6fcf11dfdc1fd",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "0f4d8b63989d4a772d06777450987115d1ab047405b823726d847b0bb5ad66ac",
+        "scene_sha256": "b7039feae5940edf96370f453f53885d55c263c4c93c3563e332b8772274488b"
+      },
+      "recording": "flat-0-125us.npz",
+      "sha256": "eb45a8fc27484ebedae5192ae5482f561c0e7837fdd0bc0f3e4418e609cca4e3",
+      "surface_recording": "flat-0-surface.npz",
+      "surface_sha256": "d8bf59e9c791a8747f7686c8efc3171ade0484ea918aa1f14e7059fa04de3e17"
+    },
+    {
+      "surface": "bumps",
+      "magnitude": 0.008,
+      "terrain_seed": 731,
+      "seed": 89001,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": true,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 4.109999999999277,
+      "displacement_m": 2.7320197038707597,
+      "max_lateral_m": 0.002266945563302876,
+      "elevated_contact_time_s": [
+        4.3285000000037455,
+        4.340250000003737
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        4.003791664614702,
+        5.227767315956077,
+        2.0815348116866756,
+        4.802029272668191
+      ],
+      "minimum_branch_margin": 0.9663541146598925,
+      "terrain": {
+        "actual_max_height_m": 0.00799857914345352,
+        "actual_min_height_m": 0,
+        "family": "bumps",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 0.008,
+        "magnitude_unit": "m",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          0
+        ],
+        "scale_m": 0.00799857914345352,
+        "seed": 731,
+        "sha256": "32b8d0c1d3e4bb0fd981c7a46992e6b0801bb567856d36509379daf215ce8980",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "c822560eaeeb0a35d2d62f47990fc003ae421b32e7cb6f2b216d65ae06a1626e",
+        "scene_sha256": "da22912b16298de193f1f529aa5ab0d732267928abbc27297d01f5e9b1d002f4"
+      },
+      "recording": "bumps-0.008-250us.npz",
+      "sha256": "fe06377d4e0d7996695b201999747b97a1c6e2f4673132b62c39f21d20408c7e",
+      "surface_recording": "bumps-0.008-surface.npz",
+      "surface_sha256": "2cc98038dc473eb1950a221d2c83f8101360af0a57de27c423387acffd369a9e"
+    },
+    {
+      "surface": "bumps",
+      "magnitude": 0.008,
+      "terrain_seed": 731,
+      "seed": 89001,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": true,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 4.109875000001759,
+      "displacement_m": 2.735679387600476,
+      "max_lateral_m": 0.0036084257770375577,
+      "elevated_contact_time_s": [
+        4.329124999992929,
+        4.344999999992936
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        2.691551969929901,
+        2.454115138275373,
+        2.006783900162026,
+        2.4603214008550367
+      ],
+      "minimum_branch_margin": 0.9663061308125831,
+      "terrain": {
+        "actual_max_height_m": 0.00799857914345352,
+        "actual_min_height_m": 0,
+        "family": "bumps",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 0.008,
+        "magnitude_unit": "m",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          0
+        ],
+        "scale_m": 0.00799857914345352,
+        "seed": 731,
+        "sha256": "32b8d0c1d3e4bb0fd981c7a46992e6b0801bb567856d36509379daf215ce8980",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "c822560eaeeb0a35d2d62f47990fc003ae421b32e7cb6f2b216d65ae06a1626e",
+        "scene_sha256": "da22912b16298de193f1f529aa5ab0d732267928abbc27297d01f5e9b1d002f4"
+      },
+      "recording": "bumps-0.008-125us.npz",
+      "sha256": "5604d60138b6916e7b01e6ae203d9c6a2391c610c6182215c8da63f512130272",
+      "surface_recording": "bumps-0.008-surface.npz",
+      "surface_sha256": "2cc98038dc473eb1950a221d2c83f8101360af0a57de27c423387acffd369a9e"
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.01,
+      "terrain_seed": 731,
+      "seed": 89002,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": false,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 4.190999999999376,
+      "displacement_m": 2.6146680766167614,
+      "max_lateral_m": 0.006391737401312901,
+      "elevated_contact_time_s": [
+        1.8235000000010588,
+        1.831500000001557
+      ],
+      "stones_contacted": [
+        [
+          0,
+          "left"
+        ],
+        [
+          0,
+          "right"
+        ],
+        [
+          1,
+          "left"
+        ],
+        [
+          1,
+          "right"
+        ],
+        [
+          2,
+          "left"
+        ],
+        [
+          2,
+          "right"
+        ],
+        [
+          3,
+          "left"
+        ],
+        [
+          3,
+          "right"
+        ],
+        [
+          4,
+          "left"
+        ],
+        [
+          4,
+          "right"
+        ]
+      ],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        6.343473492331098,
+        4.995220838371132,
+        5.158805725920166,
+        3.874361241214993
+      ],
+      "minimum_branch_margin": 0.9646013327121093,
+      "terrain": {
+        "actual_max_height_m": 0.01,
+        "actual_min_height_m": 0.0,
+        "family": "stones",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 0.01,
+        "magnitude_unit": "m",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          0.0
+        ],
+        "scale_m": 0.01,
+        "seed": 731,
+        "sha256": "9b7ed5b9f3047fa7c7ded1682cecb81a099b2239d2b3f20d5c2202e87b934ae2",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [
+          {
+            "center_m": [
+              0.73,
+              0.1123690315509602
+            ],
+            "index": 0,
+            "radius_m": [
+              0.07995495900044254,
+              0.04956331143428672
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              0.65,
+              -0.11235446634563548
+            ],
+            "index": 0,
+            "radius_m": [
+              0.07387300284018836,
+              0.035705548433072075
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1,
+              0.11006740670080845
+            ],
+            "index": 1,
+            "radius_m": [
+              0.05674898204061609,
+              0.04013722707339781
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1,
+              -0.12929862894064842
+            ],
+            "index": 1,
+            "radius_m": [
+              0.07618903126596524,
+              0.041635824239062647
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1.4300000000000002,
+              0.12124917990426713
+            ],
+            "index": 2,
+            "radius_m": [
+              0.05588688741704944,
+              0.04199270611365558
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1.35,
+              -0.12140395802971411
+            ],
+            "index": 2,
+            "radius_m": [
+              0.05445489889455847,
+              0.03680008801213549
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1.7,
+              0.1271399121564124
+            ],
+            "index": 3,
+            "radius_m": [
+              0.06631310132572969,
+              0.040283475326164116
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1.7,
+              -0.1049435703099457
+            ],
+            "index": 3,
+            "radius_m": [
+              0.0554199131950997,
+              0.03637791808140815
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              2.13,
+              0.11204217688845884
+            ],
+            "index": 4,
+            "radius_m": [
+              0.054393457115143894,
+              0.045255125255737556
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              2.05,
+              -0.12835817148103412
+            ],
+            "index": 4,
+            "radius_m": [
+              0.06244915105786886,
+              0.041901783152656004
+            ],
+            "side": "right"
+          }
+        ],
+        "asset_sha256": "ec212710d2450fcd58e37602fd621f7d58da45367ae5915e4d3ac8aeb6c4f916",
+        "scene_sha256": "ff712decf29f61b0d12cb37f3fb7fa49b253dc1abbea0def75f89ea13382ec93"
+      },
+      "recording": "stones-0.01-250us.npz",
+      "sha256": "84a524a7f3e41ae4ab36e1a8215df50ccbbe34bac7c16a6d99ed9a8c8fdee340",
+      "surface_recording": "stones-0.01-surface.npz",
+      "surface_sha256": "8b9c9d3dd881586569b046d5a078defcdf00eaa913b238a24734c49488725768"
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.01,
+      "terrain_seed": 731,
+      "seed": 89002,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": false,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 4.188500000001576,
+      "displacement_m": 2.6212225955030455,
+      "max_lateral_m": 0.008151801768139538,
+      "elevated_contact_time_s": [
+        1.8144999999980325,
+        1.8236249999970355
+      ],
+      "stones_contacted": [
+        [
+          0,
+          "left"
+        ],
+        [
+          0,
+          "right"
+        ],
+        [
+          1,
+          "left"
+        ],
+        [
+          1,
+          "right"
+        ],
+        [
+          2,
+          "left"
+        ],
+        [
+          2,
+          "right"
+        ],
+        [
+          3,
+          "left"
+        ],
+        [
+          3,
+          "right"
+        ],
+        [
+          4,
+          "left"
+        ],
+        [
+          4,
+          "right"
+        ]
+      ],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        5.243965747428777,
+        5.940642027165926,
+        4.773553410558428,
+        4.046473702281087
+      ],
+      "minimum_branch_margin": 0.9645892339646773,
+      "terrain": {
+        "actual_max_height_m": 0.01,
+        "actual_min_height_m": 0.0,
+        "family": "stones",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 0.01,
+        "magnitude_unit": "m",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          0.0
+        ],
+        "scale_m": 0.01,
+        "seed": 731,
+        "sha256": "9b7ed5b9f3047fa7c7ded1682cecb81a099b2239d2b3f20d5c2202e87b934ae2",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [
+          {
+            "center_m": [
+              0.73,
+              0.1123690315509602
+            ],
+            "index": 0,
+            "radius_m": [
+              0.07995495900044254,
+              0.04956331143428672
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              0.65,
+              -0.11235446634563548
+            ],
+            "index": 0,
+            "radius_m": [
+              0.07387300284018836,
+              0.035705548433072075
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1,
+              0.11006740670080845
+            ],
+            "index": 1,
+            "radius_m": [
+              0.05674898204061609,
+              0.04013722707339781
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1,
+              -0.12929862894064842
+            ],
+            "index": 1,
+            "radius_m": [
+              0.07618903126596524,
+              0.041635824239062647
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1.4300000000000002,
+              0.12124917990426713
+            ],
+            "index": 2,
+            "radius_m": [
+              0.05588688741704944,
+              0.04199270611365558
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1.35,
+              -0.12140395802971411
+            ],
+            "index": 2,
+            "radius_m": [
+              0.05445489889455847,
+              0.03680008801213549
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1.7,
+              0.1271399121564124
+            ],
+            "index": 3,
+            "radius_m": [
+              0.06631310132572969,
+              0.040283475326164116
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1.7,
+              -0.1049435703099457
+            ],
+            "index": 3,
+            "radius_m": [
+              0.0554199131950997,
+              0.03637791808140815
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              2.13,
+              0.11204217688845884
+            ],
+            "index": 4,
+            "radius_m": [
+              0.054393457115143894,
+              0.045255125255737556
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              2.05,
+              -0.12835817148103412
+            ],
+            "index": 4,
+            "radius_m": [
+              0.06244915105786886,
+              0.041901783152656004
+            ],
+            "side": "right"
+          }
+        ],
+        "asset_sha256": "ec212710d2450fcd58e37602fd621f7d58da45367ae5915e4d3ac8aeb6c4f916",
+        "scene_sha256": "ff712decf29f61b0d12cb37f3fb7fa49b253dc1abbea0def75f89ea13382ec93"
+      },
+      "recording": "stones-0.01-125us.npz",
+      "sha256": "d9ec1b0f18412a3b46af1162ab3875da366da1d1e5c29795390ac5de2d4d47c2",
+      "surface_recording": "stones-0.01-surface.npz",
+      "surface_sha256": "8b9c9d3dd881586569b046d5a078defcdf00eaa913b238a24734c49488725768"
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.02,
+      "terrain_seed": 731,
+      "seed": 89003,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "learned_actor",
+      "steps": 667,
+      "passed": false,
+      "gates": {
+        "full_duration": false,
+        "valid_native": true,
+        "no_fall": false,
+        "no_body_contact": false,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": false,
+        "final_two_seconds_standing": false
+      },
+      "failure": "fall",
+      "valid_native": true,
+      "stable_time_s": 0.0,
+      "displacement_m": 1.3915835346666872,
+      "max_lateral_m": 0.05095075087035235,
+      "elevated_contact_time_s": [
+        1.3207500000016141,
+        1.243000000001195
+      ],
+      "stones_contacted": [
+        [
+          0,
+          "left"
+        ],
+        [
+          0,
+          "right"
+        ],
+        [
+          1,
+          "left"
+        ],
+        [
+          1,
+          "right"
+        ]
+      ],
+      "body_contact_geoms": [
+        "left_drive_encoder_service_cap_outer"
+      ],
+      "peak_current_A": [
+        7.437603494799334,
+        7.7387711217845885,
+        6.094380225497195,
+        4.970907557810723
+      ],
+      "minimum_branch_margin": 0.9635371616946545,
+      "terrain": {
+        "actual_max_height_m": 0.02,
+        "actual_min_height_m": 0.0,
+        "family": "stones",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 0.02,
+        "magnitude_unit": "m",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          0.0
+        ],
+        "scale_m": 0.02,
+        "seed": 731,
+        "sha256": "83d941d36464c6a5a7e650716968bd56c5f13e58a5ea044f4b1079bd4927d292",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [
+          {
+            "center_m": [
+              0.73,
+              0.1123690315509602
+            ],
+            "index": 0,
+            "radius_m": [
+              0.07995495900044254,
+              0.04956331143428672
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              0.65,
+              -0.11235446634563548
+            ],
+            "index": 0,
+            "radius_m": [
+              0.07387300284018836,
+              0.035705548433072075
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1,
+              0.11006740670080845
+            ],
+            "index": 1,
+            "radius_m": [
+              0.05674898204061609,
+              0.04013722707339781
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1,
+              -0.12929862894064842
+            ],
+            "index": 1,
+            "radius_m": [
+              0.07618903126596524,
+              0.041635824239062647
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1.4300000000000002,
+              0.12124917990426713
+            ],
+            "index": 2,
+            "radius_m": [
+              0.05588688741704944,
+              0.04199270611365558
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1.35,
+              -0.12140395802971411
+            ],
+            "index": 2,
+            "radius_m": [
+              0.05445489889455847,
+              0.03680008801213549
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1.7,
+              0.1271399121564124
+            ],
+            "index": 3,
+            "radius_m": [
+              0.06631310132572969,
+              0.040283475326164116
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1.7,
+              -0.1049435703099457
+            ],
+            "index": 3,
+            "radius_m": [
+              0.0554199131950997,
+              0.03637791808140815
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              2.13,
+              0.11204217688845884
+            ],
+            "index": 4,
+            "radius_m": [
+              0.054393457115143894,
+              0.045255125255737556
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              2.05,
+              -0.12835817148103412
+            ],
+            "index": 4,
+            "radius_m": [
+              0.06244915105786886,
+              0.041901783152656004
+            ],
+            "side": "right"
+          }
+        ],
+        "asset_sha256": "179e8d3be87f57ce6f4553ee0c6a93efe6d0b6563af1a9ca2de535921ddeb04b",
+        "scene_sha256": "5a0083eae7b3903de69bd5b97dd27b778b31cc4a36bb0e826a7a58ed1cf8f86f"
+      },
+      "recording": "stones-0.02-250us.npz",
+      "sha256": "445e1099f0c0bdc38da7016450053a6c84e45769cf8ca8ec71017733c3ded96f",
+      "surface_recording": "stones-0.02-surface.npz",
+      "surface_sha256": "8b9c9d3dd881586569b046d5a078defcdf00eaa913b238a24734c49488725768"
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.02,
+      "terrain_seed": 731,
+      "seed": 89003,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "learned_actor",
+      "steps": 672,
+      "passed": false,
+      "gates": {
+        "full_duration": false,
+        "valid_native": true,
+        "no_fall": false,
+        "no_body_contact": false,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": false,
+        "final_two_seconds_standing": false
+      },
+      "failure": "fall",
+      "valid_native": true,
+      "stable_time_s": 0.0,
+      "displacement_m": 1.401789998991135,
+      "max_lateral_m": 0.058323808190983095,
+      "elevated_contact_time_s": [
+        1.3328749999968936,
+        1.246374999997748
+      ],
+      "stones_contacted": [
+        [
+          0,
+          "left"
+        ],
+        [
+          0,
+          "right"
+        ],
+        [
+          1,
+          "left"
+        ],
+        [
+          1,
+          "right"
+        ]
+      ],
+      "body_contact_geoms": [
+        "left_drive_encoder_service_cap_outer"
+      ],
+      "peak_current_A": [
+        7.9996524787487475,
+        7.913694620527641,
+        6.461121792286353,
+        5.04580860263059
+      ],
+      "minimum_branch_margin": 0.9635624843391282,
+      "terrain": {
+        "actual_max_height_m": 0.02,
+        "actual_min_height_m": 0.0,
+        "family": "stones",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 0.02,
+        "magnitude_unit": "m",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          0.0
+        ],
+        "scale_m": 0.02,
+        "seed": 731,
+        "sha256": "83d941d36464c6a5a7e650716968bd56c5f13e58a5ea044f4b1079bd4927d292",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [
+          {
+            "center_m": [
+              0.73,
+              0.1123690315509602
+            ],
+            "index": 0,
+            "radius_m": [
+              0.07995495900044254,
+              0.04956331143428672
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              0.65,
+              -0.11235446634563548
+            ],
+            "index": 0,
+            "radius_m": [
+              0.07387300284018836,
+              0.035705548433072075
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1,
+              0.11006740670080845
+            ],
+            "index": 1,
+            "radius_m": [
+              0.05674898204061609,
+              0.04013722707339781
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1,
+              -0.12929862894064842
+            ],
+            "index": 1,
+            "radius_m": [
+              0.07618903126596524,
+              0.041635824239062647
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1.4300000000000002,
+              0.12124917990426713
+            ],
+            "index": 2,
+            "radius_m": [
+              0.05588688741704944,
+              0.04199270611365558
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1.35,
+              -0.12140395802971411
+            ],
+            "index": 2,
+            "radius_m": [
+              0.05445489889455847,
+              0.03680008801213549
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1.7,
+              0.1271399121564124
+            ],
+            "index": 3,
+            "radius_m": [
+              0.06631310132572969,
+              0.040283475326164116
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1.7,
+              -0.1049435703099457
+            ],
+            "index": 3,
+            "radius_m": [
+              0.0554199131950997,
+              0.03637791808140815
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              2.13,
+              0.11204217688845884
+            ],
+            "index": 4,
+            "radius_m": [
+              0.054393457115143894,
+              0.045255125255737556
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              2.05,
+              -0.12835817148103412
+            ],
+            "index": 4,
+            "radius_m": [
+              0.06244915105786886,
+              0.041901783152656004
+            ],
+            "side": "right"
+          }
+        ],
+        "asset_sha256": "179e8d3be87f57ce6f4553ee0c6a93efe6d0b6563af1a9ca2de535921ddeb04b",
+        "scene_sha256": "5a0083eae7b3903de69bd5b97dd27b778b31cc4a36bb0e826a7a58ed1cf8f86f"
+      },
+      "recording": "stones-0.02-125us.npz",
+      "sha256": "5e7cdb108b7dfb32538aea8f15926cf6d9a7dc0f961721aa066643029146a8f3",
+      "surface_recording": "stones-0.02-surface.npz",
+      "surface_sha256": "8b9c9d3dd881586569b046d5a078defcdf00eaa913b238a24734c49488725768"
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.03,
+      "terrain_seed": 731,
+      "seed": 89004,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": false,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": false,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 8.15450000000367,
+      "displacement_m": 0.5935251156450231,
+      "max_lateral_m": 0.003780321041498745,
+      "elevated_contact_time_s": [
+        3.9992500000014344,
+        4.9067500000023045
+      ],
+      "stones_contacted": [
+        [
+          0,
+          "left"
+        ],
+        [
+          0,
+          "right"
+        ]
+      ],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        7.683300994598732,
+        7.999762388806284,
+        3.356908999818491,
+        4.629619961364126
+      ],
+      "minimum_branch_margin": 0.9624894116061824,
+      "terrain": {
+        "actual_max_height_m": 0.03,
+        "actual_min_height_m": 0.0,
+        "family": "stones",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 0.03,
+        "magnitude_unit": "m",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          0.0
+        ],
+        "scale_m": 0.03,
+        "seed": 731,
+        "sha256": "110180258e183cb84a23b21ef1007dbf60a4da1af157136841b23c80a9855ae6",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [
+          {
+            "center_m": [
+              0.73,
+              0.1123690315509602
+            ],
+            "index": 0,
+            "radius_m": [
+              0.07995495900044254,
+              0.04956331143428672
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              0.65,
+              -0.11235446634563548
+            ],
+            "index": 0,
+            "radius_m": [
+              0.07387300284018836,
+              0.035705548433072075
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1,
+              0.11006740670080845
+            ],
+            "index": 1,
+            "radius_m": [
+              0.05674898204061609,
+              0.04013722707339781
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1,
+              -0.12929862894064842
+            ],
+            "index": 1,
+            "radius_m": [
+              0.07618903126596524,
+              0.041635824239062647
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1.4300000000000002,
+              0.12124917990426713
+            ],
+            "index": 2,
+            "radius_m": [
+              0.05588688741704944,
+              0.04199270611365558
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1.35,
+              -0.12140395802971411
+            ],
+            "index": 2,
+            "radius_m": [
+              0.05445489889455847,
+              0.03680008801213549
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1.7,
+              0.1271399121564124
+            ],
+            "index": 3,
+            "radius_m": [
+              0.06631310132572969,
+              0.040283475326164116
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1.7,
+              -0.1049435703099457
+            ],
+            "index": 3,
+            "radius_m": [
+              0.0554199131950997,
+              0.03637791808140815
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              2.13,
+              0.11204217688845884
+            ],
+            "index": 4,
+            "radius_m": [
+              0.054393457115143894,
+              0.045255125255737556
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              2.05,
+              -0.12835817148103412
+            ],
+            "index": 4,
+            "radius_m": [
+              0.06244915105786886,
+              0.041901783152656004
+            ],
+            "side": "right"
+          }
+        ],
+        "asset_sha256": "a46e27cf774ff7ee8c316ef95cdf4513430bd6e2166b7d8d5f8a4ef52db92abf",
+        "scene_sha256": "4e4b303f71e18a06fc29f4e6d4bfb04efc28db1a2829fd1e3d4b20426f531f6a"
+      },
+      "recording": "stones-0.03-250us.npz",
+      "sha256": "bd1f42b994be3dcf64743106d44f5b99ab189c9a43077abc5159b7f468d0a750",
+      "surface_recording": "stones-0.03-surface.npz",
+      "surface_sha256": "8b9c9d3dd881586569b046d5a078defcdf00eaa913b238a24734c49488725768"
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.03,
+      "terrain_seed": 731,
+      "seed": 89004,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": false,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": false,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 5.345999999998878,
+      "displacement_m": 0.7033349676152559,
+      "max_lateral_m": 0.02421719773612646,
+      "elevated_contact_time_s": [
+        3.3663749999921704,
+        3.5302499999924097
+      ],
+      "stones_contacted": [
+        [
+          0,
+          "left"
+        ],
+        [
+          0,
+          "right"
+        ]
+      ],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        5.964773344098034,
+        7.9998988853923105,
+        3.336353953841366,
+        5.1040931043353615
+      ],
+      "minimum_branch_margin": 0.9624403075933311,
+      "terrain": {
+        "actual_max_height_m": 0.03,
+        "actual_min_height_m": 0.0,
+        "family": "stones",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 0.03,
+        "magnitude_unit": "m",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          0.0
+        ],
+        "scale_m": 0.03,
+        "seed": 731,
+        "sha256": "110180258e183cb84a23b21ef1007dbf60a4da1af157136841b23c80a9855ae6",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [
+          {
+            "center_m": [
+              0.73,
+              0.1123690315509602
+            ],
+            "index": 0,
+            "radius_m": [
+              0.07995495900044254,
+              0.04956331143428672
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              0.65,
+              -0.11235446634563548
+            ],
+            "index": 0,
+            "radius_m": [
+              0.07387300284018836,
+              0.035705548433072075
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1,
+              0.11006740670080845
+            ],
+            "index": 1,
+            "radius_m": [
+              0.05674898204061609,
+              0.04013722707339781
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1,
+              -0.12929862894064842
+            ],
+            "index": 1,
+            "radius_m": [
+              0.07618903126596524,
+              0.041635824239062647
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1.4300000000000002,
+              0.12124917990426713
+            ],
+            "index": 2,
+            "radius_m": [
+              0.05588688741704944,
+              0.04199270611365558
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1.35,
+              -0.12140395802971411
+            ],
+            "index": 2,
+            "radius_m": [
+              0.05445489889455847,
+              0.03680008801213549
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              1.7,
+              0.1271399121564124
+            ],
+            "index": 3,
+            "radius_m": [
+              0.06631310132572969,
+              0.040283475326164116
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              1.7,
+              -0.1049435703099457
+            ],
+            "index": 3,
+            "radius_m": [
+              0.0554199131950997,
+              0.03637791808140815
+            ],
+            "side": "right"
+          },
+          {
+            "center_m": [
+              2.13,
+              0.11204217688845884
+            ],
+            "index": 4,
+            "radius_m": [
+              0.054393457115143894,
+              0.045255125255737556
+            ],
+            "side": "left"
+          },
+          {
+            "center_m": [
+              2.05,
+              -0.12835817148103412
+            ],
+            "index": 4,
+            "radius_m": [
+              0.06244915105786886,
+              0.041901783152656004
+            ],
+            "side": "right"
+          }
+        ],
+        "asset_sha256": "a46e27cf774ff7ee8c316ef95cdf4513430bd6e2166b7d8d5f8a4ef52db92abf",
+        "scene_sha256": "4e4b303f71e18a06fc29f4e6d4bfb04efc28db1a2829fd1e3d4b20426f531f6a"
+      },
+      "recording": "stones-0.03-125us.npz",
+      "sha256": "386441be1470e29fe619236626516b506a590bff97df4b062da99c75c04493ea",
+      "surface_recording": "stones-0.03-surface.npz",
+      "surface_sha256": "8b9c9d3dd881586569b046d5a078defcdf00eaa913b238a24734c49488725768"
+    },
+    {
+      "surface": "slope",
+      "magnitude": 5,
+      "terrain_seed": 731,
+      "seed": 89005,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": false,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": false
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 0.33999999999999025,
+      "displacement_m": 0.37773478079859735,
+      "max_lateral_m": 0.001482545909820783,
+      "elevated_contact_time_s": [
+        8.835249999993884,
+        8.831499999993898
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        2.419886992953064,
+        2.177391622864801,
+        2.0319457267786634,
+        2.0744972440842013
+      ],
+      "minimum_branch_margin": 0.9667803822547706,
+      "terrain": {
+        "actual_max_height_m": 0.0787397971733316,
+        "actual_min_height_m": 0.0,
+        "family": "slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 5.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          0.0
+        ],
+        "scale_m": 0.0787397971733316,
+        "seed": 731,
+        "sha256": "60b0dd0861ff2f09bfb9443314636ff99318c39e112bdb9e651370f33ac31317",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "a33bc15db70be37f9531a2acb399840e3fcc773c754bf7d20b37bf67475ed711",
+        "scene_sha256": "647c8d5b3dfb103f9708ae3f94559b07f56c43ce9306c10ba07f8d65f8ab6c8f"
+      },
+      "recording": "slope-5-250us.npz",
+      "sha256": "1e2178f814d0fa0582340109174747e244b6dc6d67a50e89b3b86007e3ff8971",
+      "surface_recording": "slope-5-surface.npz",
+      "surface_sha256": "39efc8c4bacc04c229c8f6133ff7d162ab0b9fb3e7ca8a6713b4e49451dfef0a"
+    },
+    {
+      "surface": "slope",
+      "magnitude": 5,
+      "terrain_seed": 731,
+      "seed": 89005,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": false,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": false
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 0.3568749999999746,
+      "displacement_m": 0.37615835509331474,
+      "max_lateral_m": 0.008662521468940636,
+      "elevated_contact_time_s": [
+        8.826500000013189,
+        8.812125000013168
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        2.587820157197206,
+        6.098775832383605,
+        2.210110476383946,
+        4.390610902687583
+      ],
+      "minimum_branch_margin": 0.96642645048603,
+      "terrain": {
+        "actual_max_height_m": 0.0787397971733316,
+        "actual_min_height_m": 0.0,
+        "family": "slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 5.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          0.0
+        ],
+        "scale_m": 0.0787397971733316,
+        "seed": 731,
+        "sha256": "60b0dd0861ff2f09bfb9443314636ff99318c39e112bdb9e651370f33ac31317",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "a33bc15db70be37f9531a2acb399840e3fcc773c754bf7d20b37bf67475ed711",
+        "scene_sha256": "647c8d5b3dfb103f9708ae3f94559b07f56c43ce9306c10ba07f8d65f8ab6c8f"
+      },
+      "recording": "slope-5-125us.npz",
+      "sha256": "283abd430afbc9e6a48a791e46092d52f0a0c3d335370cc7b3b4723e3f048005",
+      "surface_recording": "slope-5-surface.npz",
+      "surface_sha256": "39efc8c4bacc04c229c8f6133ff7d162ab0b9fb3e7ca8a6713b4e49451dfef0a"
+    },
+    {
+      "surface": "slope",
+      "magnitude": -5,
+      "terrain_seed": 731,
+      "seed": 89006,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": false,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": false
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 0.7642499999999436,
+      "displacement_m": 1.4589088658544536,
+      "max_lateral_m": 0.002335063798872973,
+      "elevated_contact_time_s": [
+        10.09999999999083,
+        10.115999999990816
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        1.454773524477701,
+        1.452094011610195,
+        2.487106940185992,
+        2.337441618153509
+      ],
+      "minimum_branch_margin": 0.9664398294369073,
+      "terrain": {
+        "actual_max_height_m": -0.0,
+        "actual_min_height_m": -0.0787397971733316,
+        "family": "slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": -5.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          -0.0787397971733316
+        ],
+        "scale_m": 0.0787397971733316,
+        "seed": 731,
+        "sha256": "cf5e5a7535242602f3718225c2a2530f7c57d03e1c90e416797abe7965059964",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "0c3ccc7653184cb09d11b638f08dbc3bc58dfb5ef830b06a96c1d15b0b726db7",
+        "scene_sha256": "7a23acb65947dd3b3b75511d38052f42a89a9da804d349ec714de8db5438e9fb"
+      },
+      "recording": "slope--5-250us.npz",
+      "sha256": "55200c747a33fb1fcb37b431b5cea5d078073d0fab97e0c29dee8e70e8c5115b",
+      "surface_recording": "slope--5-surface.npz",
+      "surface_sha256": "c1b55388e205239f394f39be3662a586a092407c6bb5618fd7dacbfc9f47c5ff"
+    },
+    {
+      "surface": "slope",
+      "magnitude": -5,
+      "terrain_seed": 731,
+      "seed": 89006,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": false,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": false
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 0.7612500000000461,
+      "displacement_m": 1.4585977418052938,
+      "max_lateral_m": 0.0021841770325863943,
+      "elevated_contact_time_s": [
+        10.115875000019482,
+        10.124875000019479
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        2.599935434439886,
+        1.973481763169879,
+        2.431679998051784,
+        2.354498468076088
+      ],
+      "minimum_branch_margin": 0.9664358406672862,
+      "terrain": {
+        "actual_max_height_m": -0.0,
+        "actual_min_height_m": -0.0787397971733316,
+        "family": "slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": -5.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          -0.0787397971733316
+        ],
+        "scale_m": 0.0787397971733316,
+        "seed": 731,
+        "sha256": "cf5e5a7535242602f3718225c2a2530f7c57d03e1c90e416797abe7965059964",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "0c3ccc7653184cb09d11b638f08dbc3bc58dfb5ef830b06a96c1d15b0b726db7",
+        "scene_sha256": "7a23acb65947dd3b3b75511d38052f42a89a9da804d349ec714de8db5438e9fb"
+      },
+      "recording": "slope--5-125us.npz",
+      "sha256": "47d03b89d3945a663dbb6486bb7767a630077294880ca882340dc6d4e462886a",
+      "surface_recording": "slope--5-surface.npz",
+      "surface_sha256": "c1b55388e205239f394f39be3662a586a092407c6bb5618fd7dacbfc9f47c5ff"
+    },
+    {
+      "surface": "slope",
+      "magnitude": 10,
+      "terrain_seed": 731,
+      "seed": 89007,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": false,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 6.3480000000020125,
+      "displacement_m": 0.5409202006733347,
+      "max_lateral_m": 0.0002815798660389182,
+      "elevated_contact_time_s": [
+        2.7500000000029767,
+        2.7567500000029845
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        3.0134972642686852,
+        2.7466284502048772,
+        2.202814710890681,
+        2.2890490974116555
+      ],
+      "minimum_branch_margin": 0.966511596083662,
+      "terrain": {
+        "actual_max_height_m": 0.15869428263761848,
+        "actual_min_height_m": 0.0,
+        "family": "slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 10.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          0.0
+        ],
+        "scale_m": 0.15869428263761848,
+        "seed": 731,
+        "sha256": "45664d41326ca00d15e4a900cb9ab112aa53856ab095c8b98c4b132572224ef9",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "28c38658ad8d13817c34b6ce28e17a1832f52f588979382ba183a53d663df060",
+        "scene_sha256": "cf188035934809396d1abe49dc168464fc2bba4df18c2ea7b82c1292942db0a8"
+      },
+      "recording": "slope-10-250us.npz",
+      "sha256": "ccaac57207b7063f4c912140923e42697ed48f2ff8153b92dfde8d88d5266c62",
+      "surface_recording": "slope-10-surface.npz",
+      "surface_sha256": "39efc8c4bacc04c229c8f6133ff7d162ab0b9fb3e7ca8a6713b4e49451dfef0a"
+    },
+    {
+      "surface": "slope",
+      "magnitude": 10,
+      "terrain_seed": 731,
+      "seed": 89007,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": false,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 6.343499999996554,
+      "displacement_m": 0.5409201696382339,
+      "max_lateral_m": 0.0002993378029009855,
+      "elevated_contact_time_s": [
+        2.754999999994351,
+        2.761749999994336
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        3.5051034519150215,
+        3.145714449193189,
+        2.1970055862765796,
+        2.3972397209027325
+      ],
+      "minimum_branch_margin": 0.9665307498997242,
+      "terrain": {
+        "actual_max_height_m": 0.15869428263761848,
+        "actual_min_height_m": 0.0,
+        "family": "slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 10.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          0.0
+        ],
+        "scale_m": 0.15869428263761848,
+        "seed": 731,
+        "sha256": "45664d41326ca00d15e4a900cb9ab112aa53856ab095c8b98c4b132572224ef9",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "28c38658ad8d13817c34b6ce28e17a1832f52f588979382ba183a53d663df060",
+        "scene_sha256": "cf188035934809396d1abe49dc168464fc2bba4df18c2ea7b82c1292942db0a8"
+      },
+      "recording": "slope-10-125us.npz",
+      "sha256": "3dfb5e6372a71df9890b1a73f7feb6e18267e1d6c575656d570803fb4eb8e530",
+      "surface_recording": "slope-10-surface.npz",
+      "surface_sha256": "39efc8c4bacc04c229c8f6133ff7d162ab0b9fb3e7ca8a6713b4e49451dfef0a"
+    },
+    {
+      "surface": "slope",
+      "magnitude": -10,
+      "terrain_seed": 731,
+      "seed": 89008,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": false,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 3.178749999999598,
+      "displacement_m": 1.5355964484044367,
+      "max_lateral_m": 0.01233075437257359,
+      "elevated_contact_time_s": [
+        10.13099999999078,
+        10.112499999990751
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        4.781041941836195,
+        7.999999995505363,
+        8.076359396702223,
+        9.152027880123908
+      ],
+      "minimum_branch_margin": 0.9638256893590899,
+      "terrain": {
+        "actual_max_height_m": -0.0,
+        "actual_min_height_m": -0.15869428263761848,
+        "family": "slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": -10.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          -0.15869428263761848
+        ],
+        "scale_m": 0.15869428263761848,
+        "seed": 731,
+        "sha256": "f688fa61f2c93a1d24678aeb8f28660062b35867f29ed1c28becd4c841c4d5a1",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "46f8fdd2692c3ab2db989cf89459669801593e82b8611dedca713df4da338f2d",
+        "scene_sha256": "28a69eb14ad29ce8083c3a538fe013bb84e180f3e358ecc49e7af22ebb16f12d"
+      },
+      "recording": "slope--10-250us.npz",
+      "sha256": "5751a130d4ebe44f6d7f1d6358a7fe0b7ee603dd1db1cd3402d2c2266f9c1d9c",
+      "surface_recording": "slope--10-surface.npz",
+      "surface_sha256": "23ab834ceb705f55d337ec5f50b480200b0ce70321241fd460ba68803de2aa7d"
+    },
+    {
+      "surface": "slope",
+      "magnitude": -10,
+      "terrain_seed": 731,
+      "seed": 89008,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": false,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 3.147625000000974,
+      "displacement_m": 1.5301020257452604,
+      "max_lateral_m": 0.006800471275080336,
+      "elevated_contact_time_s": [
+        10.143500000019563,
+        10.148750000019557
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        5.72000295456298,
+        6.161051131632146,
+        6.418891734325464,
+        5.516398007129068
+      ],
+      "minimum_branch_margin": 0.9659086759703299,
+      "terrain": {
+        "actual_max_height_m": -0.0,
+        "actual_min_height_m": -0.15869428263761848,
+        "family": "slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": -10.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          -0.15869428263761848
+        ],
+        "scale_m": 0.15869428263761848,
+        "seed": 731,
+        "sha256": "f688fa61f2c93a1d24678aeb8f28660062b35867f29ed1c28becd4c841c4d5a1",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "46f8fdd2692c3ab2db989cf89459669801593e82b8611dedca713df4da338f2d",
+        "scene_sha256": "28a69eb14ad29ce8083c3a538fe013bb84e180f3e358ecc49e7af22ebb16f12d"
+      },
+      "recording": "slope--10-125us.npz",
+      "sha256": "3c6f0705cc74ef4eabf3a072339c9f7822d24ab35119e3c07e1740e9fd19da29",
+      "surface_recording": "slope--10-surface.npz",
+      "surface_sha256": "23ab834ceb705f55d337ec5f50b480200b0ce70321241fd460ba68803de2aa7d"
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 5,
+      "terrain_seed": 731,
+      "seed": 89009,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": true,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 4.11199999999928,
+      "displacement_m": 2.817877650649922,
+      "max_lateral_m": 0.06347620023249997,
+      "elevated_contact_time_s": [
+        4.322250000004126,
+        4.131500000004528
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        1.0754257823879074,
+        0.9954841366155781,
+        3.773119991958176,
+        1.89006478751596
+      ],
+      "minimum_branch_margin": 0.9659506508591104,
+      "terrain": {
+        "actual_max_height_m": 0.043744331762962,
+        "actual_min_height_m": -0.043744331762962,
+        "family": "cross_slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 5.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          -0.043744331762962
+        ],
+        "scale_m": 0.087488663525924,
+        "seed": 731,
+        "sha256": "e16e55d4a4637f752a112b74e075f4e6bad2a96bb67edfc852c35992c5c5a380",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "435a0d783ebeabe822edc40365582e86cbf0ff9d88dca9f2287923d50c9636e9",
+        "scene_sha256": "4e93cae818d0b5fcdba04afbedb80e7a2fb5822d22fd81563c3b6f960e822ad7"
+      },
+      "recording": "cross_slope-5-250us.npz",
+      "sha256": "94368e00cfb55c54b98f7f1382410663f29061cc1ea2a0f9cb1193637114e9f2",
+      "surface_recording": "cross_slope-5-surface.npz",
+      "surface_sha256": "f163dac4be5d9bbb7cafd76332ca352d30ef3581ff929ebc2d06560efdcee24c"
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 5,
+      "terrain_seed": 731,
+      "seed": 89009,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": true,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 4.109250000001761,
+      "displacement_m": 2.8191757592685724,
+      "max_lateral_m": 0.06473733556180658,
+      "elevated_contact_time_s": [
+        4.32662499999223,
+        4.134124999991378
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        1.0803225600914264,
+        0.964738347786005,
+        3.802353348430061,
+        1.8885800748076533
+      ],
+      "minimum_branch_margin": 0.965925022980483,
+      "terrain": {
+        "actual_max_height_m": 0.043744331762962,
+        "actual_min_height_m": -0.043744331762962,
+        "family": "cross_slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 5.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          -0.043744331762962
+        ],
+        "scale_m": 0.087488663525924,
+        "seed": 731,
+        "sha256": "e16e55d4a4637f752a112b74e075f4e6bad2a96bb67edfc852c35992c5c5a380",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "435a0d783ebeabe822edc40365582e86cbf0ff9d88dca9f2287923d50c9636e9",
+        "scene_sha256": "4e93cae818d0b5fcdba04afbedb80e7a2fb5822d22fd81563c3b6f960e822ad7"
+      },
+      "recording": "cross_slope-5-125us.npz",
+      "sha256": "e777b69b06ff8b6b5d657991df7c6cc45c998e9841c29a9bed5f00ae316e237a",
+      "surface_recording": "cross_slope-5-surface.npz",
+      "surface_sha256": "f163dac4be5d9bbb7cafd76332ca352d30ef3581ff929ebc2d06560efdcee24c"
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -5,
+      "terrain_seed": 731,
+      "seed": 89010,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": true,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 4.118749999999288,
+      "displacement_m": 2.8031267490780487,
+      "max_lateral_m": 0.0692148767410934,
+      "elevated_contact_time_s": [
+        4.146750000004538,
+        4.356750000004062
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        0.9265662809277277,
+        1.068606569083365,
+        1.8737300446984966,
+        3.793176764892964
+      ],
+      "minimum_branch_margin": 0.9663889185930377,
+      "terrain": {
+        "actual_max_height_m": 0.043744331762962,
+        "actual_min_height_m": -0.043744331762962,
+        "family": "cross_slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": -5.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          -0.043744331762962
+        ],
+        "scale_m": 0.087488663525924,
+        "seed": 731,
+        "sha256": "049fdd642b97c91b82bd5b45946e0fe076bddb5f157de6968ce809235714d917",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "e7baf5f8a0f11ad97e7d5f366a3041e3c7af3db4de62927c96eb4a5c0c81bb00",
+        "scene_sha256": "be9b69ab147e1a89fa9de1b9bc9ca5b83f3803f2dde2f98fd0b7b2ab668e21e8"
+      },
+      "recording": "cross_slope--5-250us.npz",
+      "sha256": "241b93ed6f11079fb0c952b066a6b5cf2f4ab83874810f80816c302cb73b320b",
+      "surface_recording": "cross_slope--5-surface.npz",
+      "surface_sha256": "670c6cd67a070040bc08901db5330c5a25d8bc7b52f086391b5e8e483705c060"
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -5,
+      "terrain_seed": 731,
+      "seed": 89010,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": true,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 4.116250000001744,
+      "displacement_m": 2.803479974708329,
+      "max_lateral_m": 0.0695812188975978,
+      "elevated_contact_time_s": [
+        4.14624999999138,
+        4.357249999992365
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        0.9352787266265258,
+        1.0727114164053424,
+        1.8757138338846144,
+        3.7747997444411467
+      ],
+      "minimum_branch_margin": 0.9663907278164379,
+      "terrain": {
+        "actual_max_height_m": 0.043744331762962,
+        "actual_min_height_m": -0.043744331762962,
+        "family": "cross_slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": -5.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          -0.043744331762962
+        ],
+        "scale_m": 0.087488663525924,
+        "seed": 731,
+        "sha256": "049fdd642b97c91b82bd5b45946e0fe076bddb5f157de6968ce809235714d917",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "e7baf5f8a0f11ad97e7d5f366a3041e3c7af3db4de62927c96eb4a5c0c81bb00",
+        "scene_sha256": "be9b69ab147e1a89fa9de1b9bc9ca5b83f3803f2dde2f98fd0b7b2ab668e21e8"
+      },
+      "recording": "cross_slope--5-125us.npz",
+      "sha256": "d59419358d8e899eee8e824b1694bc26f8c1337b8f5d368ed59530115622c356",
+      "surface_recording": "cross_slope--5-surface.npz",
+      "surface_sha256": "670c6cd67a070040bc08901db5330c5a25d8bc7b52f086391b5e8e483705c060"
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 10,
+      "terrain_seed": 731,
+      "seed": 89011,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": true,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 4.02249999999917,
+      "displacement_m": 2.850405398956942,
+      "max_lateral_m": 0.10369884960090228,
+      "elevated_contact_time_s": [
+        4.490000000003853,
+        3.530750000003808
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        1.6503656270841622,
+        1.0438003748626865,
+        5.022715593298263,
+        2.082627666441138
+      ],
+      "minimum_branch_margin": 0.9652538262001674,
+      "terrain": {
+        "actual_max_height_m": 0.08816349035423249,
+        "actual_min_height_m": -0.08816349035423249,
+        "family": "cross_slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 10.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          -0.08816349035423249
+        ],
+        "scale_m": 0.17632698070846498,
+        "seed": 731,
+        "sha256": "8bfc9b22f8aee25242fc8c76b8082c77e443a5e30be3c51cd46e01c7ee382a9d",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "f2607480963dd4a4b5e801b68137a03e74befd1ba7f266c6476f1777b97f6bfc",
+        "scene_sha256": "6cc1c02f5bf3b20c9d8a107645e98dad71596ffdbca81405d06c388a7021d2d6"
+      },
+      "recording": "cross_slope-10-250us.npz",
+      "sha256": "4687702f1f66ec80fdd3da8d908a547f5b85f74322b1d07720ffb9ae730b4164",
+      "surface_recording": "cross_slope-10-surface.npz",
+      "surface_sha256": "f163dac4be5d9bbb7cafd76332ca352d30ef3581ff929ebc2d06560efdcee24c"
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 10,
+      "terrain_seed": 731,
+      "seed": 89011,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": true,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": true,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 4.020750000001967,
+      "displacement_m": 2.8512671961591667,
+      "max_lateral_m": 0.10387035843410614,
+      "elevated_contact_time_s": [
+        4.492999999992795,
+        3.5156249999927818
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        1.5915412169271803,
+        1.0154688337264268,
+        5.031396609317194,
+        2.0834278812005107
+      ],
+      "minimum_branch_margin": 0.9652632734717782,
+      "terrain": {
+        "actual_max_height_m": 0.08816349035423249,
+        "actual_min_height_m": -0.08816349035423249,
+        "family": "cross_slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": 10.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          -0.08816349035423249
+        ],
+        "scale_m": 0.17632698070846498,
+        "seed": 731,
+        "sha256": "8bfc9b22f8aee25242fc8c76b8082c77e443a5e30be3c51cd46e01c7ee382a9d",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "f2607480963dd4a4b5e801b68137a03e74befd1ba7f266c6476f1777b97f6bfc",
+        "scene_sha256": "6cc1c02f5bf3b20c9d8a107645e98dad71596ffdbca81405d06c388a7021d2d6"
+      },
+      "recording": "cross_slope-10-125us.npz",
+      "sha256": "5ffe9bc3f31657e2c42f55769aba5ed99040219117c6b9cdc659d860b8a35a20",
+      "surface_recording": "cross_slope-10-surface.npz",
+      "surface_sha256": "f163dac4be5d9bbb7cafd76332ca352d30ef3581ff929ebc2d06560efdcee24c"
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -10,
+      "terrain_seed": 731,
+      "seed": 89012,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.00025,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": false,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 4.015749999999162,
+      "displacement_m": 2.972156498058967,
+      "max_lateral_m": 0.13396026570227867,
+      "elevated_contact_time_s": [
+        2.7630000000032546,
+        4.258250000004345
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        0.8578247916906945,
+        1.5759336791025251,
+        2.1491197448543264,
+        5.136686006453325
+      ],
+      "minimum_branch_margin": 0.965552632296007,
+      "terrain": {
+        "actual_max_height_m": 0.08816349035423249,
+        "actual_min_height_m": -0.08816349035423249,
+        "family": "cross_slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": -10.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          -0.08816349035423249
+        ],
+        "scale_m": 0.17632698070846498,
+        "seed": 731,
+        "sha256": "1d9566d0430448b41b69bbb41df11a9368b633ef6fde53b769b3c1cfb6fc1279",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "63efad09814cd1363fe31fd10ad7594637ee87dc0e1d738e48e6a009bd8565ff",
+        "scene_sha256": "57993e0c1637cce09e1a93c1f5405225b6f069daf6a99c5ea92ab4d5bd674056"
+      },
+      "recording": "cross_slope--10-250us.npz",
+      "sha256": "76bbce60e51d4865c7af6aaa987b4d3428d65430a8b81fa65caceeb856c16f9e",
+      "surface_recording": "cross_slope--10-surface.npz",
+      "surface_sha256": "670c6cd67a070040bc08901db5330c5a25d8bc7b52f086391b5e8e483705c060"
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -10,
+      "terrain_seed": 731,
+      "seed": 89012,
+      "speed_m_s": 0.4,
+      "perturbed": false,
+      "timestep_s": 0.000125,
+      "controller": "learned_actor",
+      "steps": 1400,
+      "passed": false,
+      "gates": {
+        "full_duration": true,
+        "valid_native": true,
+        "no_fall": true,
+        "no_body_contact": true,
+        "on_course": true,
+        "commanded_distance": false,
+        "lateral_corridor": true,
+        "loaded_terrain_exposure": true,
+        "stone_exposure": true,
+        "final_two_seconds_standing": true
+      },
+      "failure": null,
+      "valid_native": true,
+      "stable_time_s": 4.01525000000198,
+      "displacement_m": 2.972833499865109,
+      "max_lateral_m": 0.1338577858237071,
+      "elevated_contact_time_s": [
+        2.754374999993825,
+        4.262499999991776
+      ],
+      "stones_contacted": [],
+      "body_contact_geoms": [],
+      "peak_current_A": [
+        0.8639101382466355,
+        1.5402763273891535,
+        2.1709397210525396,
+        5.121993506576302
+      ],
+      "minimum_branch_margin": 0.9655579122953873,
+      "terrain": {
+        "actual_max_height_m": 0.08816349035423249,
+        "actual_min_height_m": -0.08816349035423249,
+        "family": "cross_slope",
+        "fixed_surface": true,
+        "grid_spacing_m": 0.005,
+        "loose_stones": false,
+        "magnitude": -10.0,
+        "magnitude_unit": "deg",
+        "ncol": 901,
+        "nrow": 201,
+        "obstacle_interval_x_m": [
+          0.55,
+          2.4
+        ],
+        "position_m": [
+          1.25,
+          0,
+          -0.08816349035423249
+        ],
+        "scale_m": 0.17632698070846498,
+        "seed": 731,
+        "sha256": "1d9566d0430448b41b69bbb41df11a9368b633ef6fde53b769b3c1cfb6fc1279",
+        "size_m": [
+          4.5,
+          1
+        ],
+        "stones": [],
+        "asset_sha256": "63efad09814cd1363fe31fd10ad7594637ee87dc0e1d738e48e6a009bd8565ff",
+        "scene_sha256": "57993e0c1637cce09e1a93c1f5405225b6f069daf6a99c5ea92ab4d5bd674056"
+      },
+      "recording": "cross_slope--10-125us.npz",
+      "sha256": "d5d3e9c8642168645e82c0ddf5a6a591c3bc0daa25c96e642eb4d52b7d8c4956",
+      "surface_recording": "cross_slope--10-surface.npz",
+      "surface_sha256": "670c6cd67a070040bc08901db5330c5a25d8bc7b52f086391b5e8e483705c060"
+    }
+  ],
+  "passed": 10,
+  "plan_sha256": "f108866a596eadf44d5f0d851166da583bf2b604a769aae1c1abfcf0769d7129",
+  "scope": "First fixed course screen of the existing actor, without terrain training. Exact current 120 mm robot on a heightfield with no support plane. Straight 0.4 m/s speed/zero-yaw command, no heading/position navigation correction or terrain observations. Exposure, distance, corridor, motor/mechanism and final standing checks are separate; failed and avoided courses remain failures."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "compared_transitions": 320,
+  "matched_automatic_resets": 19,
+  "time_limit_bootstrapped": true,
+  "workers_joined": true,
+  "source_sha256": {
+    "check_vector.py": "6824dc75fac2d5d7180791c56adfd35878fb64922389dbc9a002809a8e4f6400",
+    "vector.py": "48f396f9cd6e64038e635b4c2eb57f628351b660fe320bc3c73a667d73f7f7f5",
+    "worker.py": "3720f29acfb4c7e85cf2bdfbc4c29a16eaad3a4147d3a4c15880bf0c3cb61bc4",
+    "environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb"
+  }
+}

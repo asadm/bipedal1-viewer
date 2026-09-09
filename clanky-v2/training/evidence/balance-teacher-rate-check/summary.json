@@ -1,0 +1,265 @@
+{
+  "status": "completed",
+  "passed": 0,
+  "cases": 12,
+  "results": [
+    {
+      "family": "nominal",
+      "seed": 0,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "period_s": 0.002,
+      "exact_velocity": false,
+      "passed": false,
+      "steps": 101,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 77,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        11.031163843449507,
+        7.2015438062978685
+      ],
+      "max_linear_speed_final_s": 1.6438234367719113,
+      "recording": "nominal-0-2ms-exact0.json"
+    },
+    {
+      "family": "nominal",
+      "seed": 0,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "period_s": 0.002,
+      "exact_velocity": true,
+      "passed": false,
+      "steps": 100,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 76,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        11.002642811186863,
+        7.743478799004293
+      ],
+      "max_linear_speed_final_s": 1.6318670359192378,
+      "recording": "nominal-0-2ms-exact1.json"
+    },
+    {
+      "family": "nominal",
+      "seed": 0,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "period_s": 0.01,
+      "exact_velocity": false,
+      "passed": false,
+      "steps": 34,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 13,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        6.171323055456147,
+        6.0651119239176925
+      ],
+      "max_linear_speed_final_s": 1.2920494543113996,
+      "recording": "nominal-0-10ms-exact0.json"
+    },
+    {
+      "family": "nominal",
+      "seed": 0,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "period_s": 0.01,
+      "exact_velocity": true,
+      "passed": false,
+      "steps": 33,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 13,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        5.949830095485959,
+        5.853570863126401
+      ],
+      "max_linear_speed_final_s": 1.1998103355361482,
+      "recording": "nominal-0-10ms-exact1.json"
+    },
+    {
+      "family": "nominal",
+      "seed": 0,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "period_s": 0.02,
+      "exact_velocity": false,
+      "passed": false,
+      "steps": 22,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 6,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        5.968722839944985,
+        5.917094053562153
+      ],
+      "max_linear_speed_final_s": 1.2010443044104402,
+      "recording": "nominal-0-20ms-exact0.json"
+    },
+    {
+      "family": "nominal",
+      "seed": 0,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "period_s": 0.02,
+      "exact_velocity": true,
+      "passed": false,
+      "steps": 22,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 6,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        6.158149736599806,
+        6.064236119320714
+      ],
+      "max_linear_speed_final_s": 1.2914415199457794,
+      "recording": "nominal-0-20ms-exact1.json"
+    },
+    {
+      "family": "standing",
+      "seed": 70100,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "period_s": 0.002,
+      "exact_velocity": false,
+      "passed": false,
+      "steps": 84,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 81,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        11.12756317215678,
+        7.200800827976465
+      ],
+      "max_linear_speed_final_s": 1.6428090241708722,
+      "recording": "standing-70100-2ms-exact0.json"
+    },
+    {
+      "family": "standing",
+      "seed": 70100,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "period_s": 0.002,
+      "exact_velocity": true,
+      "passed": false,
+      "steps": 84,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 81,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        11.047166077797026,
+        7.129040881116595
+      ],
+      "max_linear_speed_final_s": 1.6382705228808074,
+      "recording": "standing-70100-2ms-exact1.json"
+    },
+    {
+      "family": "standing",
+      "seed": 70100,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "period_s": 0.01,
+      "exact_velocity": false,
+      "passed": false,
+      "steps": 18,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 17,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        10.91884241394324,
+        10.672625785458374
+      ],
+      "max_linear_speed_final_s": 1.7334720772068934,
+      "recording": "standing-70100-10ms-exact0.json"
+    },
+    {
+      "family": "standing",
+      "seed": 70100,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "period_s": 0.01,
+      "exact_velocity": true,
+      "passed": false,
+      "steps": 18,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 17,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        11.086336732169944,
+        7.211803568300122
+      ],
+      "max_linear_speed_final_s": 1.7320427389908268,
+      "recording": "standing-70100-10ms-exact1.json"
+    },
+    {
+      "family": "standing",
+      "seed": 70100,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "period_s": 0.02,
+      "exact_velocity": false,
+      "passed": false,
+      "steps": 9,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 8,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        11.788741594468316,
+        7.349045090277363
+      ],
+      "max_linear_speed_final_s": 1.6731244747239822,
+      "recording": "standing-70100-20ms-exact0.json"
+    },
+    {
+      "family": "standing",
+      "seed": 70100,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "period_s": 0.02,
+      "exact_velocity": true,
+      "passed": false,
+      "steps": 9,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 8,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        11.783482539486975,
+        7.166781845794813
+      ],
+      "max_linear_speed_final_s": 1.6684681155063954,
+      "recording": "standing-70100-20ms-exact1.json"
+    }
+  ],
+  "source_sha256": {
+    "balance_teacher.py": "147f6043c813056d2d78bc13611dcbcc30ffca5c5b959d7e2d89be596b2c245d",
+    "teacher_reference.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486",
+    "environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb",
+    "check_teacher.py": "432f3a3dfbd2dee60622c920d664f13e92e27dd12ac52c2d8372264711c408ff"
+  }
+}

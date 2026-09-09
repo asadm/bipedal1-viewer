@@ -1,0 +1,1098 @@
+{
+  "status": "offset_geared_motor_allocation_search",
+  "search_uses_relieved_tire": true,
+  "trials": [
+    {
+      "offset_angle_deg": 0,
+      "motor_offset_lower_frame_mm": [
+        30.0,
+        0.3,
+        0.0
+      ],
+      "poses": 205,
+      "interferences": {
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 19,
+          "first_q_rad": -0.9763999999999997
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 19,
+          "first_q_rad": -0.9763999999999997
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 6,
+          "first_q_rad": -0.8599999999999999
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 6,
+          "first_q_rad": -0.8599999999999999
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 15,
+      "motor_offset_lower_frame_mm": [
+        28.97777478867205,
+        0.3,
+        7.764571353075622
+      ],
+      "poses": 205,
+      "interferences": {
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 4,
+          "first_q_rad": -0.8405999999999998
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 4,
+          "first_q_rad": -0.8405999999999998
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 30,
+      "motor_offset_lower_frame_mm": [
+        25.98076211353316,
+        0.3,
+        14.999999999999998
+      ],
+      "poses": 205,
+      "interferences": {},
+      "allocation_clear": true
+    },
+    {
+      "offset_angle_deg": 45,
+      "motor_offset_lower_frame_mm": [
+        21.213203435596427,
+        0.3,
+        21.213203435596423
+      ],
+      "poses": 205,
+      "interferences": {},
+      "allocation_clear": true
+    },
+    {
+      "offset_angle_deg": 60,
+      "motor_offset_lower_frame_mm": [
+        15.000000000000004,
+        0.3,
+        25.980762113533157
+      ],
+      "poses": 205,
+      "interferences": {},
+      "allocation_clear": true
+    },
+    {
+      "offset_angle_deg": 75,
+      "motor_offset_lower_frame_mm": [
+        7.764571353075622,
+        0.3,
+        28.97777478867205
+      ],
+      "poses": 205,
+      "interferences": {},
+      "allocation_clear": true
+    },
+    {
+      "offset_angle_deg": 90,
+      "motor_offset_lower_frame_mm": [
+        1.83697019872103e-15,
+        0.3,
+        30.0
+      ],
+      "poses": 205,
+      "interferences": {},
+      "allocation_clear": true
+    },
+    {
+      "offset_angle_deg": 105,
+      "motor_offset_lower_frame_mm": [
+        -7.764571353075626,
+        0.3,
+        28.97777478867205
+      ],
+      "poses": 205,
+      "interferences": {},
+      "allocation_clear": true
+    },
+    {
+      "offset_angle_deg": 120,
+      "motor_offset_lower_frame_mm": [
+        -14.999999999999995,
+        0.3,
+        25.98076211353316
+      ],
+      "poses": 205,
+      "interferences": {
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 17,
+          "first_q_rad": -0.9569999999999999
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 17,
+          "first_q_rad": -0.9569999999999999
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 8,
+          "first_q_rad": -0.8793999999999997
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 8,
+          "first_q_rad": -0.8793999999999997
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 135,
+      "motor_offset_lower_frame_mm": [
+        -21.213203435596423,
+        0.3,
+        21.213203435596427
+      ],
+      "poses": 205,
+      "interferences": {
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 30,
+          "first_q_rad": -1.0733999999999997
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 30,
+          "first_q_rad": -1.0733999999999997
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 25,
+          "first_q_rad": -1.0345999999999997
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 25,
+          "first_q_rad": -1.0345999999999997
+        },
+        "motor_case_allocation/left_full_length_spring_envelope": {
+          "count": 17,
+          "first_q_rad": -0.9569999999999999
+        },
+        "V2806_body/left_full_length_spring_envelope": {
+          "count": 3,
+          "first_q_rad": -0.8211999999999997
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 150,
+      "motor_offset_lower_frame_mm": [
+        -25.98076211353316,
+        0.3,
+        14.999999999999998
+      ],
+      "poses": 205,
+      "interferences": {
+        "encoder_allocation/body_lower": {
+          "count": 22,
+          "first_q_rad": -1.2673999999999999
+        },
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 43,
+          "first_q_rad": -1.1897999999999997
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 43,
+          "first_q_rad": -1.1897999999999997
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 37,
+          "first_q_rad": -1.1315999999999997
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 37,
+          "first_q_rad": -1.1315999999999997
+        },
+        "motor_case_allocation/left_full_length_spring_envelope": {
+          "count": 33,
+          "first_q_rad": -1.0927999999999998
+        },
+        "V2806_body/left_full_length_spring_envelope": {
+          "count": 27,
+          "first_q_rad": -1.0539999999999998
+        },
+        "motor_case_allocation/left_spring_guide_rod": {
+          "count": 25,
+          "first_q_rad": -1.0345999999999997
+        },
+        "rotor_adapter_allocation/left_thigh_lid": {
+          "count": 21,
+          "first_q_rad": -0.9957999999999998
+        },
+        "V2806_body/left_spring_guide_rod": {
+          "count": 18,
+          "first_q_rad": -0.9763999999999997
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 165,
+      "motor_offset_lower_frame_mm": [
+        -28.977774788672047,
+        0.3,
+        7.76457135307563
+      ],
+      "poses": 205,
+      "interferences": {
+        "encoder_allocation/body_lid_with_fixed_camera": {
+          "count": 14,
+          "first_q_rad": -1.3449999999999998
+        },
+        "encoder_allocation/body_lower": {
+          "count": 35,
+          "first_q_rad": -1.3449999999999998
+        },
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 55,
+          "first_q_rad": -1.2867999999999997
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 55,
+          "first_q_rad": -1.2867999999999997
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 51,
+          "first_q_rad": -1.2479999999999998
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 51,
+          "first_q_rad": -1.2479999999999998
+        },
+        "motor_case_allocation/left_full_length_spring_envelope": {
+          "count": 47,
+          "first_q_rad": -1.2091999999999998
+        },
+        "V2806_body/left_full_length_spring_envelope": {
+          "count": 41,
+          "first_q_rad": -1.1703999999999999
+        },
+        "motor_case_allocation/left_spring_guide_rod": {
+          "count": 41,
+          "first_q_rad": -1.1703999999999999
+        },
+        "rotor_adapter_allocation/left_thigh_lid": {
+          "count": 37,
+          "first_q_rad": -1.1315999999999997
+        },
+        "V2806_body/left_spring_guide_rod": {
+          "count": 35,
+          "first_q_rad": -1.1121999999999999
+        },
+        "rear_shaft_allocation/left_thigh_frame": {
+          "count": 23,
+          "first_q_rad": -1.0151999999999997
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 180,
+      "motor_offset_lower_frame_mm": [
+        -30.0,
+        0.3,
+        3.67394039744206e-15
+      ],
+      "poses": 205,
+      "interferences": {
+        "encoder_allocation/body_lid_with_fixed_camera": {
+          "count": 26,
+          "first_q_rad": -1.4225999999999999
+        },
+        "encoder_allocation/body_lower": {
+          "count": 45,
+          "first_q_rad": -1.4225999999999999
+        },
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 66,
+          "first_q_rad": -1.3837999999999997
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 66,
+          "first_q_rad": -1.3837999999999997
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 62,
+          "first_q_rad": -1.3449999999999998
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 62,
+          "first_q_rad": -1.3449999999999998
+        },
+        "motor_case_allocation/left_full_length_spring_envelope": {
+          "count": 58,
+          "first_q_rad": -1.3061999999999998
+        },
+        "V2806_body/left_full_length_spring_envelope": {
+          "count": 53,
+          "first_q_rad": -1.2673999999999999
+        },
+        "motor_case_allocation/left_spring_guide_rod": {
+          "count": 53,
+          "first_q_rad": -1.2673999999999999
+        },
+        "V2806_body/left_spring_guide_rod": {
+          "count": 48,
+          "first_q_rad": -1.2285999999999997
+        },
+        "rotor_adapter_allocation/left_thigh_lid": {
+          "count": 49,
+          "first_q_rad": -1.2285999999999997
+        },
+        "motor_case_allocation/left_spring_slider": {
+          "count": 28,
+          "first_q_rad": -1.2091999999999998
+        },
+        "rear_shaft_allocation/left_thigh_frame": {
+          "count": 37,
+          "first_q_rad": -1.1315999999999997
+        },
+        "motor_case_allocation/left_internal_tie": {
+          "count": 25,
+          "first_q_rad": -1.1121999999999999
+        },
+        "V2806_body/left_internal_tie": {
+          "count": 19,
+          "first_q_rad": -1.0539999999999998
+        },
+        "rear_shaft_allocation/left_full_length_spring_envelope": {
+          "count": 25,
+          "first_q_rad": -1.0345999999999997
+        },
+        "rear_shaft_allocation/left_spring_guide_rod": {
+          "count": 15,
+          "first_q_rad": -0.9375999999999998
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 195,
+      "motor_offset_lower_frame_mm": [
+        -28.97777478867205,
+        0.3,
+        -7.764571353075624
+      ],
+      "poses": 205,
+      "interferences": {
+        "encoder_allocation/body_lid_with_fixed_camera": {
+          "count": 38,
+          "first_q_rad": -1.5001999999999998
+        },
+        "encoder_allocation/body_lower": {
+          "count": 53,
+          "first_q_rad": -1.4808
+        },
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 73,
+          "first_q_rad": -1.4419999999999997
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 73,
+          "first_q_rad": -1.4419999999999997
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 69,
+          "first_q_rad": -1.4031999999999998
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 69,
+          "first_q_rad": -1.4031999999999998
+        },
+        "motor_case_allocation/left_full_length_spring_envelope": {
+          "count": 66,
+          "first_q_rad": -1.3837999999999997
+        },
+        "V2806_body/left_full_length_spring_envelope": {
+          "count": 62,
+          "first_q_rad": -1.3449999999999998
+        },
+        "motor_case_allocation/left_spring_guide_rod": {
+          "count": 62,
+          "first_q_rad": -1.3449999999999998
+        },
+        "V2806_body/left_spring_guide_rod": {
+          "count": 57,
+          "first_q_rad": -1.3061999999999998
+        },
+        "rotor_adapter_allocation/left_thigh_lid": {
+          "count": 58,
+          "first_q_rad": -1.3061999999999998
+        },
+        "motor_case_allocation/left_internal_tie": {
+          "count": 37,
+          "first_q_rad": -1.2285999999999997
+        },
+        "rear_shaft_allocation/left_thigh_frame": {
+          "count": 49,
+          "first_q_rad": -1.2285999999999997
+        },
+        "V2806_body/left_internal_tie": {
+          "count": 33,
+          "first_q_rad": -1.1897999999999997
+        },
+        "rear_shaft_allocation/left_full_length_spring_envelope": {
+          "count": 39,
+          "first_q_rad": -1.1509999999999998
+        },
+        "rear_shaft_allocation/left_spring_guide_rod": {
+          "count": 15,
+          "first_q_rad": -1.0927999999999998
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 210,
+      "motor_offset_lower_frame_mm": [
+        -25.980762113533157,
+        0.3,
+        -15.000000000000004
+      ],
+      "poses": 205,
+      "interferences": {
+        "encoder_allocation/body_lid_with_fixed_camera": {
+          "count": 44,
+          "first_q_rad": -1.5583999999999998
+        },
+        "encoder_allocation/body_lower": {
+          "count": 59,
+          "first_q_rad": -1.5583999999999998
+        },
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 78,
+          "first_q_rad": -1.4808
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 78,
+          "first_q_rad": -1.4808
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 75,
+          "first_q_rad": -1.4613999999999998
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 75,
+          "first_q_rad": -1.4613999999999998
+        },
+        "motor_case_allocation/left_full_length_spring_envelope": {
+          "count": 71,
+          "first_q_rad": -1.4225999999999999
+        },
+        "V2806_body/left_full_length_spring_envelope": {
+          "count": 67,
+          "first_q_rad": -1.3837999999999997
+        },
+        "motor_case_allocation/left_spring_guide_rod": {
+          "count": 67,
+          "first_q_rad": -1.3837999999999997
+        },
+        "V2806_body/left_spring_guide_rod": {
+          "count": 64,
+          "first_q_rad": -1.3643999999999998
+        },
+        "rotor_adapter_allocation/left_thigh_lid": {
+          "count": 64,
+          "first_q_rad": -1.3643999999999998
+        },
+        "motor_case_allocation/left_internal_tie": {
+          "count": 48,
+          "first_q_rad": -1.3255999999999997
+        },
+        "V2806_body/left_internal_tie": {
+          "count": 44,
+          "first_q_rad": -1.2867999999999997
+        },
+        "rear_shaft_allocation/left_thigh_frame": {
+          "count": 56,
+          "first_q_rad": -1.2867999999999997
+        },
+        "rear_shaft_allocation/left_full_length_spring_envelope": {
+          "count": 26,
+          "first_q_rad": -1.2091999999999998
+        },
+        "rear_shaft_allocation/left_spring_guide_rod": {
+          "count": 12,
+          "first_q_rad": -1.1703999999999999
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 225,
+      "motor_offset_lower_frame_mm": [
+        -21.21320343559643,
+        0.3,
+        -21.213203435596423
+      ],
+      "poses": 205,
+      "interferences": {
+        "encoder_allocation/body_lid_with_fixed_camera": {
+          "count": 28,
+          "first_q_rad": -1.5971999999999997
+        },
+        "encoder_allocation/body_lower": {
+          "count": 62,
+          "first_q_rad": -1.5971999999999997
+        },
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 80,
+          "first_q_rad": -1.5001999999999998
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 80,
+          "first_q_rad": -1.5001999999999998
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 77,
+          "first_q_rad": -1.4808
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 77,
+          "first_q_rad": -1.4808
+        },
+        "motor_case_allocation/left_full_length_spring_envelope": {
+          "count": 73,
+          "first_q_rad": -1.4419999999999997
+        },
+        "V2806_body/left_full_length_spring_envelope": {
+          "count": 70,
+          "first_q_rad": -1.4225999999999999
+        },
+        "motor_case_allocation/left_spring_guide_rod": {
+          "count": 69,
+          "first_q_rad": -1.4031999999999998
+        },
+        "rotor_adapter_allocation/left_thigh_lid": {
+          "count": 68,
+          "first_q_rad": -1.4031999999999998
+        },
+        "V2806_body/left_spring_guide_rod": {
+          "count": 66,
+          "first_q_rad": -1.3837999999999997
+        },
+        "motor_case_allocation/left_internal_tie": {
+          "count": 52,
+          "first_q_rad": -1.3643999999999998
+        },
+        "V2806_body/left_internal_tie": {
+          "count": 48,
+          "first_q_rad": -1.3255999999999997
+        },
+        "rear_shaft_allocation/left_thigh_frame": {
+          "count": 59,
+          "first_q_rad": -1.3255999999999997
+        },
+        "rear_shaft_allocation/left_full_length_spring_envelope": {
+          "count": 4,
+          "first_q_rad": -1.2479999999999998
+        },
+        "rear_shaft_allocation/left_spring_guide_rod": {
+          "count": 10,
+          "first_q_rad": -1.2091999999999998
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 240,
+      "motor_offset_lower_frame_mm": [
+        -15.000000000000014,
+        0.3,
+        -25.980762113533153
+      ],
+      "poses": 205,
+      "interferences": {
+        "encoder_allocation/body_lid_with_fixed_camera": {
+          "count": 8,
+          "first_q_rad": -1.6165999999999998
+        },
+        "encoder_allocation/body_lower": {
+          "count": 63,
+          "first_q_rad": -1.6165999999999998
+        },
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 79,
+          "first_q_rad": -1.5001999999999998
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 79,
+          "first_q_rad": -1.5001999999999998
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 77,
+          "first_q_rad": -1.4808
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 77,
+          "first_q_rad": -1.4808
+        },
+        "motor_case_allocation/left_full_length_spring_envelope": {
+          "count": 73,
+          "first_q_rad": -1.4419999999999997
+        },
+        "V2806_body/left_full_length_spring_envelope": {
+          "count": 57,
+          "first_q_rad": -1.4031999999999998
+        },
+        "motor_case_allocation/left_spring_guide_rod": {
+          "count": 69,
+          "first_q_rad": -1.4031999999999998
+        },
+        "rotor_adapter_allocation/left_thigh_lid": {
+          "count": 68,
+          "first_q_rad": -1.4031999999999998
+        },
+        "V2806_body/left_spring_guide_rod": {
+          "count": 55,
+          "first_q_rad": -1.3837999999999997
+        },
+        "motor_case_allocation/left_internal_tie": {
+          "count": 50,
+          "first_q_rad": -1.3449999999999998
+        },
+        "rear_shaft_allocation/left_thigh_frame": {
+          "count": 39,
+          "first_q_rad": -1.3449999999999998
+        },
+        "V2806_body/left_internal_tie": {
+          "count": 46,
+          "first_q_rad": -1.3061999999999998
+        },
+        "rear_shaft_allocation/left_spring_guide_rod": {
+          "count": 10,
+          "first_q_rad": -1.2285999999999997
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 255,
+      "motor_offset_lower_frame_mm": [
+        -7.764571353075619,
+        0.3,
+        -28.97777478867205
+      ],
+      "poses": 205,
+      "interferences": {
+        "encoder_allocation/body_lower": {
+          "count": 47,
+          "first_q_rad": -1.5971999999999997
+        },
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 77,
+          "first_q_rad": -1.4808
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 77,
+          "first_q_rad": -1.4808
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 75,
+          "first_q_rad": -1.4613999999999998
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 75,
+          "first_q_rad": -1.4613999999999998
+        },
+        "motor_case_allocation/left_spring_guide_rod": {
+          "count": 64,
+          "first_q_rad": -1.4031999999999998
+        },
+        "motor_case_allocation/left_full_length_spring_envelope": {
+          "count": 42,
+          "first_q_rad": -1.3837999999999997
+        },
+        "rotor_adapter_allocation/left_thigh_lid": {
+          "count": 66,
+          "first_q_rad": -1.3837999999999997
+        },
+        "V2806_body/left_spring_guide_rod": {
+          "count": 49,
+          "first_q_rad": -1.3643999999999998
+        },
+        "V2806_body/left_full_length_spring_envelope": {
+          "count": 14,
+          "first_q_rad": -1.3449999999999998
+        },
+        "rear_shaft_allocation/left_thigh_frame": {
+          "count": 47,
+          "first_q_rad": -1.3255999999999997
+        },
+        "motor_case_allocation/left_internal_tie": {
+          "count": 40,
+          "first_q_rad": -1.2479999999999998
+        },
+        "rear_shaft_allocation/left_spring_guide_rod": {
+          "count": 9,
+          "first_q_rad": -1.2285999999999997
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 270,
+      "motor_offset_lower_frame_mm": [
+        -5.510910596163089e-15,
+        0.3,
+        -30.0
+      ],
+      "poses": 205,
+      "interferences": {
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 73,
+          "first_q_rad": -1.4419999999999997
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 73,
+          "first_q_rad": -1.4419999999999997
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 71,
+          "first_q_rad": -1.4225999999999999
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 71,
+          "first_q_rad": -1.4225999999999999
+        },
+        "motor_case_allocation/left_spring_guide_rod": {
+          "count": 64,
+          "first_q_rad": -1.3643999999999998
+        },
+        "V2806_body/left_spring_guide_rod": {
+          "count": 48,
+          "first_q_rad": -1.3449999999999998
+        },
+        "rotor_adapter_allocation/left_thigh_lid": {
+          "count": 62,
+          "first_q_rad": -1.3449999999999998
+        },
+        "rear_shaft_allocation/left_thigh_frame": {
+          "count": 56,
+          "first_q_rad": -1.2867999999999997
+        },
+        "rear_shaft_allocation/left_spring_guide_rod": {
+          "count": 7,
+          "first_q_rad": -1.2091999999999998
+        },
+        "encoder_allocation/body_lower": {
+          "count": 21,
+          "first_q_rad": -0.9569999999999999
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 285,
+      "motor_offset_lower_frame_mm": [
+        7.764571353075609,
+        0.3,
+        -28.977774788672054
+      ],
+      "poses": 205,
+      "interferences": {
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 68,
+          "first_q_rad": -1.4031999999999998
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 68,
+          "first_q_rad": -1.4031999999999998
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 65,
+          "first_q_rad": -1.3643999999999998
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 65,
+          "first_q_rad": -1.3643999999999998
+        },
+        "motor_case_allocation/left_spring_guide_rod": {
+          "count": 60,
+          "first_q_rad": -1.3255999999999997
+        },
+        "V2806_body/left_spring_guide_rod": {
+          "count": 44,
+          "first_q_rad": -1.3061999999999998
+        },
+        "rotor_adapter_allocation/left_thigh_lid": {
+          "count": 56,
+          "first_q_rad": -1.2867999999999997
+        },
+        "rear_shaft_allocation/left_thigh_frame": {
+          "count": 48,
+          "first_q_rad": -1.2285999999999997
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 300,
+      "motor_offset_lower_frame_mm": [
+        15.000000000000004,
+        0.3,
+        -25.980762113533157
+      ],
+      "poses": 205,
+      "interferences": {
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 60,
+          "first_q_rad": -1.3255999999999997
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 60,
+          "first_q_rad": -1.3255999999999997
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 57,
+          "first_q_rad": -1.3061999999999998
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 57,
+          "first_q_rad": -1.3061999999999998
+        },
+        "motor_case_allocation/left_spring_guide_rod": {
+          "count": 47,
+          "first_q_rad": -1.2479999999999998
+        },
+        "V2806_body/left_spring_guide_rod": {
+          "count": 30,
+          "first_q_rad": -1.2091999999999998
+        },
+        "rotor_adapter_allocation/left_thigh_lid": {
+          "count": 47,
+          "first_q_rad": -1.2091999999999998
+        },
+        "rear_shaft_allocation/left_thigh_frame": {
+          "count": 34,
+          "first_q_rad": -1.1121999999999999
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 315,
+      "motor_offset_lower_frame_mm": [
+        21.21320343559642,
+        0.3,
+        -21.21320343559643
+      ],
+      "poses": 205,
+      "interferences": {
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 51,
+          "first_q_rad": -1.2479999999999998
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 51,
+          "first_q_rad": -1.2479999999999998
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 48,
+          "first_q_rad": -1.2285999999999997
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 48,
+          "first_q_rad": -1.2285999999999997
+        },
+        "motor_case_allocation/left_spring_guide_rod": {
+          "count": 19,
+          "first_q_rad": -1.1315999999999997
+        },
+        "rotor_adapter_allocation/left_thigh_lid": {
+          "count": 33,
+          "first_q_rad": -1.0927999999999998
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 330,
+      "motor_offset_lower_frame_mm": [
+        25.980762113533153,
+        0.3,
+        -15.000000000000014
+      ],
+      "poses": 205,
+      "interferences": {
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 41,
+          "first_q_rad": -1.1703999999999999
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 41,
+          "first_q_rad": -1.1703999999999999
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 37,
+          "first_q_rad": -1.1315999999999997
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 37,
+          "first_q_rad": -1.1315999999999997
+        },
+        "rotor_adapter_allocation/left_thigh_lid": {
+          "count": 6,
+          "first_q_rad": -0.8599999999999999
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "offset_angle_deg": 345,
+      "motor_offset_lower_frame_mm": [
+        28.97777478867205,
+        0.3,
+        -7.76457135307562
+      ],
+      "poses": 205,
+      "interferences": {
+        "motor_case_allocation/left_thigh_frame": {
+          "count": 30,
+          "first_q_rad": -1.0733999999999997
+        },
+        "motor_case_allocation/left_thigh_lid": {
+          "count": 30,
+          "first_q_rad": -1.0733999999999997
+        },
+        "V2806_body/left_thigh_frame": {
+          "count": 23,
+          "first_q_rad": -1.0151999999999997
+        },
+        "V2806_body/left_thigh_lid": {
+          "count": 23,
+          "first_q_rad": -1.0151999999999997
+        }
+      },
+      "allocation_clear": false
+    }
+  ],
+  "cover_checks": [
+    {
+      "rear_tire_relief": false,
+      "interferences": {
+        "pinion_20T/left_tire": 205,
+        "pinion_cover_allocation/left_tire": 205
+      },
+      "nearest": {
+        "V2806_body": {
+          "distance_mm": 5.6209472606467275,
+          "other": "left_thigh_lid",
+          "q_rad": -0.8017999999999998
+        },
+        "motor_case_allocation": {
+          "distance_mm": 2.6193649007988578,
+          "other": "left_thigh_lid",
+          "q_rad": -0.8017999999999998
+        },
+        "rotor_adapter_allocation": {
+          "distance_mm": 5.0,
+          "other": "left_tire",
+          "q_rad": -2.8
+        },
+        "pinion_20T": {
+          "distance_mm": -7.045220234776629e-14,
+          "other": "left_tire",
+          "q_rad": -2.8
+        },
+        "encoder_allocation": {
+          "distance_mm": 9.131558380394177,
+          "other": "left_thigh_frame",
+          "q_rad": -0.8017999999999998
+        },
+        "rear_shaft_allocation": {
+          "distance_mm": 21.129122786527372,
+          "other": "left_thigh_frame",
+          "q_rad": -0.8017999999999998
+        },
+        "pinion_cover_allocation": {
+          "distance_mm": -3.3889150841970426,
+          "other": "left_tire",
+          "q_rad": -1.2673999999999999
+        },
+        "driven_100T_face": {
+          "distance_mm": 1.4999999999999858,
+          "other": "left_thigh_lid",
+          "q_rad": -1.1315999999999997
+        }
+      },
+      "allocation_clear": false
+    },
+    {
+      "rear_tire_relief": true,
+      "interferences": {},
+      "nearest": {
+        "V2806_body": {
+          "distance_mm": 5.6209472606467275,
+          "other": "left_thigh_lid",
+          "q_rad": -0.8017999999999998
+        },
+        "motor_case_allocation": {
+          "distance_mm": 2.6193649007988578,
+          "other": "left_thigh_lid",
+          "q_rad": -0.8017999999999998
+        },
+        "rotor_adapter_allocation": {
+          "distance_mm": 5.212598800090431,
+          "other": "left_tire",
+          "q_rad": -0.8793999999999997
+        },
+        "pinion_20T": {
+          "distance_mm": 4.0,
+          "other": "left_tire",
+          "q_rad": -2.8
+        },
+        "encoder_allocation": {
+          "distance_mm": 9.131558380394177,
+          "other": "left_thigh_frame",
+          "q_rad": -0.8017999999999998
+        },
+        "rear_shaft_allocation": {
+          "distance_mm": 21.129122786527372,
+          "other": "left_thigh_frame",
+          "q_rad": -0.8017999999999998
+        },
+        "pinion_cover_allocation": {
+          "distance_mm": 1.5,
+          "other": "left_tire",
+          "q_rad": -2.8
+        },
+        "driven_100T_face": {
+          "distance_mm": 1.4999999999999858,
+          "other": "left_thigh_lid",
+          "q_rad": -1.1315999999999997
+        }
+      },
+      "allocation_clear": true
+    }
+  ],
+  "rear_relief_allocation_mm": {
+    "radius": 40.5,
+    "depth": 4.0
+  },
+  "axial_shift_mm": 0.3,
+  "selected_for_next_detailing_angle_deg": 90,
+  "candidate_to_opposite_candidate_lateral_gap_mm": 65.0,
+  "complete_drive_fit": false,
+  "hardware_release": false,
+  "input_sha256": {
+    "layout.json": "a8b9323416680c1799ec8c2f154a8e47d099fff390aa619b2e7f032114d2a3c4",
+    "layout-parts.json": "3f844258189c1a0e24ed6795bcb8168582b947a1950163c9797c98f28b51733d",
+    "geared_wheel_screen.py": "388ceb35ceaf044e6c25be14d117bb2f1cb59c78b2e317828116148f5fe2799b",
+    "check_direct_wheel.py": "e71e4319c6904d0af0af0610c9bda4566dffb373fd09336f6a9970ebb672357a",
+    "check_layout.py": "32630e8eb58b6659780e8db7b68d2b0071d40b2672bfb67218043339092d05fa",
+    "spring_cartridge.py": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff"
+  },
+  "limitations": [
+    "Exact motor rear projection, PCB, cable exit and mounting pattern still need supplier confirmation.",
+    "Only gear faces and one cover thickness: actual hubs, shaft support, rotor attachment, output coupling and complete housing are absent.",
+    "Old shin removed for this comparison. A clear allocation is not a complete mechanism or strength pass.",
+    "Finite sweep. Candidate-to-opposite-candidate lateral separation is positive; complete rebuilt independent-leg fit still needs validation."
+  ]
+}

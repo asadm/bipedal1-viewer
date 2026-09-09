@@ -1,0 +1,37 @@
+{
+  "status": "left_supported_hip_packaging_study",
+  "adopted": false,
+  "replacement_names": [
+    "left_thigh_frame",
+    "left_thigh_lid",
+    "left_spring_slider",
+    "left_spring_guide_rod",
+    "left_internal_tie",
+    "body_lower"
+  ],
+  "parts": 28,
+  "left_spring_axis_y_mm": 74.5,
+  "baseline_left_spring_axis_y_mm": 80.0,
+  "spring_XZ_kinematics_unchanged": true,
+  "new_motors": 0,
+  "source_sha256": {
+    "hip_joint.py": "f992dc7eb2cda96b7931a6590cb2420deebc8d9903013e8dd2a0ec5d3fa1aacd",
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "layout.py": "6452521c3837fdca61a1302092fd1ed716d272bf57a7bcac966e52951852b41f",
+    "body_package.py": "ecd475279c8759a7a6bab9648b65d8028292409ec35c4fd2ac7fee3608b2b265",
+    "wiring_package.py": "23db8ffbb5505ff04b003f04acb576de541a7a2a9aa70c8264430d525422b488",
+    "hardware-references/f688.pdf": "928bdd4a1b7dcf5e8cd3e5aee176e9c2cd0a784c2a422c5833fdc931dc15877b",
+    "hardware-references/misumi-economy-pivots.pdf": "b3b8bd3fa04e1b8dee9167e622514c49f766e26f0b2fe3e5be622a49b2a3ac9c"
+  },
+  "parts_sha256": "5c630c4080967da3f2364984b2ef7deb29011a10923f7a42437814aef173d143",
+  "complete_hip_drive": false,
+  "complete_robot_fit": false,
+  "hardware_release": false,
+  "limitations": [
+    "Development left joint only. No input motor/gearing is integrated.",
+    "Stock pin/bush/bearing dimensions are used; E-clip, neck relief and fasteners contain explicit envelope assumptions.",
+    "Static spring offsets increase slider eccentricity; guide, plate, spindle and printed retention loads/tolerances remain open.",
+    "No V2 dynamics or complete mass. No right-side support or whole-robot purchase/print plan yet."
+  ]
+}

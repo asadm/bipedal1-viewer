@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "recording": "fold800-wheel-1-250us.npz",
+      "sha256": "fb181542edd45beef139830318986c5ed4550cf21bdeff05e7b25ebfb280525c",
+      "passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.255921118297761e-06,
+      "sampled_gear_error_rad": 1.2097983042025363e-07,
+      "sampled_branch_margin": 0.5778562501602605,
+      "sampled_minimum_tire_clearance_m": 0.02437770365775938
+    },
+    {
+      "recording": "fold800-wheel-1-125us.npz",
+      "sha256": "a0d61fb34e6aed47748617785e65ffa18156819f5151ba54ce3f7da4e82d0431",
+      "passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.251347465530914e-06,
+      "sampled_gear_error_rad": 1.2055895304285968e-07,
+      "sampled_branch_margin": 0.5778622677527957,
+      "sampled_minimum_tire_clearance_m": 0.024378053633282635
+    },
+    {
+      "recording": "fold800-wheel1-250us.npz",
+      "sha256": "8267ada81ca70fa005939a077d2c6a430c13cec8854de6d530489c3c484fba52",
+      "passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.255921118297761e-06,
+      "sampled_gear_error_rad": 1.1431496957925446e-07,
+      "sampled_branch_margin": 0.5778562501602605,
+      "sampled_minimum_tire_clearance_m": 0.018997134671361954
+    },
+    {
+      "recording": "fold800-wheel1-125us.npz",
+      "sha256": "c28be3db5dc82ebca8fc46a0cb341bd4bfe1973a02a52d5510188c76430b19fc",
+      "passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.251347465530914e-06,
+      "sampled_gear_error_rad": 1.1441602776329773e-07,
+      "sampled_branch_margin": 0.5778622677527957,
+      "sampled_minimum_tire_clearance_m": 0.018982196016396266
+    },
+    {
+      "recording": "fold1400-wheel-1-250us.npz",
+      "sha256": "6b489d7be3fe9a7e24647ed71f68f8c50e061bff2788506b52f1cf2f717372a6",
+      "passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.263141401235239e-06,
+      "sampled_gear_error_rad": 1.162604036153425e-07,
+      "sampled_branch_margin": 0.5826642365108605,
+      "sampled_minimum_tire_clearance_m": 0.0243782441525125
+    },
+    {
+      "recording": "fold1400-wheel-1-125us.npz",
+      "sha256": "d11aaa354e7a92f3c9abc133cd617fb2d3f207613402bff977863e8d621b0c0e",
+      "passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.260660614812893e-06,
+      "sampled_gear_error_rad": 1.1624311540003873e-07,
+      "sampled_branch_margin": 0.5827533101694281,
+      "sampled_minimum_tire_clearance_m": 0.024378244244438303
+    },
+    {
+      "recording": "fold1400-wheel1-250us.npz",
+      "sha256": "88ccec9646ec2c51910e81ecd7a5da353d23f67a20408d7892219aa79fdf2606",
+      "passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.263141401235239e-06,
+      "sampled_gear_error_rad": 1.1650089639658746e-07,
+      "sampled_branch_margin": 0.5826642365108605,
+      "sampled_minimum_tire_clearance_m": 0.020423836655444706
+    },
+    {
+      "recording": "fold1400-wheel1-125us.npz",
+      "sha256": "cc23fcba60eaa5c470bf8630fb6ffd912b1ef3a1be761505970d72962ebeee5a",
+      "passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.260660614812893e-06,
+      "sampled_gear_error_rad": 1.1647897366628967e-07,
+      "sampled_branch_margin": 0.5827533101694281,
+      "sampled_minimum_tire_clearance_m": 0.02035810510059359
+    }
+  ],
+  "summary_sha256": "6976a4d47cfd12da55d6476dba82750a6e27e08890177862297682f9de584110",
+  "source_sha256": {
+    "audit_inverted.py": "c7bd6c15ce73bff2f19fdb20e1735abb5746e889d02f4d09d1538c439e6aec52",
+    "inverted_contact.py": "cec8b4fbcdc5311f0c6d6ce4f7659064244b3338a0066a168b766d7196cba486",
+    "inverted_to_back.py": "48ff5c9542be5010b84fddd86d2d497326259914364c290f48a6bb6a9e68380e"
+  },
+  "scope": "All source/reference identities and sensor-based action/transition decisions; continuous timestamps and settling handoff state/current preservation. Sampled IMU/encoder reconstruction, currents, linkage geometry and final-window posture gates. Contact flags and continuous guards rely on the hashed runner; this audit preserves failed recoveries and does not rerun dynamics or qualify hardware."
+}

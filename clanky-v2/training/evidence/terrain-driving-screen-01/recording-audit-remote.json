@@ -1,0 +1,406 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "recording": "flat-0-250us.npz",
+      "sha256": "e30c445dfc5046a6f33a1f1937765823370783a8fe2839f99dcc1fdcbeb8357d",
+      "passed": true,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.4726327543161765e-06,
+      "max_gear_error_rad": 9.568920645815823e-10,
+      "minimum_branch_margin": 0.9669030990119466,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "flat-0-125us.npz",
+      "sha256": "8cff62647c80b9de4636320d86d85a06a59fa1cd135b31501d450202d5d99cff",
+      "passed": true,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.4730849524632242e-06,
+      "max_gear_error_rad": 7.819039637979585e-10,
+      "minimum_branch_margin": 0.9669068629513011,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "bumps-0.008-250us.npz",
+      "sha256": "99e06d222dfe39e34eaa8fc8f218f7763e61ae4c1d568bcfe73afd573b66196c",
+      "passed": true,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.508432203673432e-06,
+      "max_gear_error_rad": 1.0831950097512158e-08,
+      "minimum_branch_margin": 0.9658779008509889,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "bumps-0.008-125us.npz",
+      "sha256": "17998f34dca465b5cf769d1c8eedcc53f097d37826e50ac773687c96129f9010",
+      "passed": true,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.502807665213556e-06,
+      "max_gear_error_rad": 1.0483264671276582e-08,
+      "minimum_branch_margin": 0.9659522298506485,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "stones-0.01-250us.npz",
+      "sha256": "718255fad7f6fb80bd3eeea6c15ddf6f58f12489eda513eebf67ab52312bc660",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.5382843836099168e-06,
+      "max_gear_error_rad": 4.3629788137877766e-08,
+      "minimum_branch_margin": 0.9632714350790849,
+      "sampled_stone_intersections": [
+        [
+          0,
+          "left"
+        ],
+        [
+          0,
+          "right"
+        ],
+        [
+          1,
+          "left"
+        ],
+        [
+          1,
+          "right"
+        ],
+        [
+          2,
+          "left"
+        ],
+        [
+          2,
+          "right"
+        ],
+        [
+          3,
+          "left"
+        ],
+        [
+          3,
+          "right"
+        ],
+        [
+          4,
+          "left"
+        ]
+      ]
+    },
+    {
+      "recording": "stones-0.01-125us.npz",
+      "sha256": "414876e6b246c4310dce24583fcc49dd2383e4c30f20adfff140d93fa28ee7c1",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.543245961071347e-06,
+      "max_gear_error_rad": 2.774607669705012e-08,
+      "minimum_branch_margin": 0.9643011078582677,
+      "sampled_stone_intersections": [
+        [
+          0,
+          "left"
+        ],
+        [
+          0,
+          "right"
+        ],
+        [
+          1,
+          "left"
+        ],
+        [
+          1,
+          "right"
+        ],
+        [
+          2,
+          "left"
+        ],
+        [
+          2,
+          "right"
+        ],
+        [
+          3,
+          "left"
+        ],
+        [
+          3,
+          "right"
+        ],
+        [
+          4,
+          "right"
+        ]
+      ]
+    },
+    {
+      "recording": "stones-0.02-250us.npz",
+      "sha256": "aedcefa0bce52caf77cce02ab25658f5569e55a8fd5a989950ff20039a89b065",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.5360691417146518e-06,
+      "max_gear_error_rad": 5.7999179148282563e-08,
+      "minimum_branch_margin": 0.9615325945997809,
+      "sampled_stone_intersections": [
+        [
+          0,
+          "left"
+        ],
+        [
+          0,
+          "right"
+        ]
+      ]
+    },
+    {
+      "recording": "stones-0.02-125us.npz",
+      "sha256": "9d3442995d5505c375b4b4ab0dd02dee909ae1347d2d233a00f1a9c63a8a9691",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.5369563208020563e-06,
+      "max_gear_error_rad": 5.098094533195763e-08,
+      "minimum_branch_margin": 0.9621326611418236,
+      "sampled_stone_intersections": [
+        [
+          0,
+          "left"
+        ],
+        [
+          0,
+          "right"
+        ]
+      ]
+    },
+    {
+      "recording": "stones-0.03-250us.npz",
+      "sha256": "8dbbe25c4a416f6e6df1e3fe6848c933e38ba454175c81fb187ff2f0837724d2",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.547703662365128e-06,
+      "max_gear_error_rad": 1.4853206664611207e-07,
+      "minimum_branch_margin": 0.9574841738503019,
+      "sampled_stone_intersections": [
+        [
+          0,
+          "left"
+        ],
+        [
+          0,
+          "right"
+        ]
+      ]
+    },
+    {
+      "recording": "stones-0.03-125us.npz",
+      "sha256": "da9e1d0ca0c0e02b56fff9d1aa19ed1f7875ef5cd35a897dc13ba28fab53b060",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.5382821986014043e-06,
+      "max_gear_error_rad": 1.5327140090448665e-07,
+      "minimum_branch_margin": 0.9570983432698528,
+      "sampled_stone_intersections": [
+        [
+          0,
+          "left"
+        ],
+        [
+          0,
+          "right"
+        ]
+      ]
+    },
+    {
+      "recording": "slope-5-250us.npz",
+      "sha256": "1665f225247790700578bf38bf57a482dc20e396d6eacb202228c1a164c34a45",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.507191866142811e-06,
+      "max_gear_error_rad": 9.263439094357034e-09,
+      "minimum_branch_margin": 0.9653530832134658,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "slope-5-125us.npz",
+      "sha256": "733e4e72fa960f3bda2dcc99c894141919cd545df3067540ed40418e5f88ff29",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.496710275077662e-06,
+      "max_gear_error_rad": 9.22863989671896e-09,
+      "minimum_branch_margin": 0.9653549677712541,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "slope--5-250us.npz",
+      "sha256": "02229219e784ebe3da1382a3e9d4aafec4e49542b5c4d00ce00e7d5535375f10",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.5080187102921246e-06,
+      "max_gear_error_rad": 2.4623030391544842e-08,
+      "minimum_branch_margin": 0.9658703136317086,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "slope--5-125us.npz",
+      "sha256": "0f1594947af8f59f110766bf5368784bec1c2c546e93ab904d4dcd86991709cd",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.4982130151174953e-06,
+      "max_gear_error_rad": 9.126729736113476e-09,
+      "minimum_branch_margin": 0.9659303596993761,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "slope-10-250us.npz",
+      "sha256": "e8156204aabb9fc8ad041518b018d79c28f570b50d63ea9cb61a302a7b966e40",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.518931326287928e-06,
+      "max_gear_error_rad": 2.0245764176252123e-08,
+      "minimum_branch_margin": 0.959430737580159,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "slope-10-125us.npz",
+      "sha256": "a73ca96972af0081481670831f29936196a70c4c6cfe7f93c323c4cf2d6bad8f",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 3.4757015004731945e-06,
+      "max_gear_error_rad": 1.5099733730039588e-07,
+      "minimum_branch_margin": 0.9587189143580586,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "slope--10-250us.npz",
+      "sha256": "b5530b859f11568a7c6974f67d7ce841c6f84f604c23e40f8396b5af6d7ee615",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 3.478585532186635e-06,
+      "max_gear_error_rad": 1.7242462035937933e-07,
+      "minimum_branch_margin": 0.957484837343117,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "slope--10-125us.npz",
+      "sha256": "de06edd9aef26b6f05e151570538ba89ad69f838fdfb15f9adb844967bf475aa",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 3.0372119186749948e-06,
+      "max_gear_error_rad": 1.0720507361838827e-07,
+      "minimum_branch_margin": 0.9591356834598387,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "cross_slope-5-250us.npz",
+      "sha256": "356ffe5e8c7903869ebf7f22fa6368ecdbba5a4cadb0d2a3358df205a35eea32",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.488497118672565e-06,
+      "max_gear_error_rad": 8.368272119696486e-09,
+      "minimum_branch_margin": 0.9658804990583991,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "cross_slope-5-125us.npz",
+      "sha256": "0a7a03311fb343842b5604905ad38d293509289b924ffd19d2c4081e0880798b",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.4888813938306744e-06,
+      "max_gear_error_rad": 1.2047905784129399e-09,
+      "minimum_branch_margin": 0.9658831209972338,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "cross_slope--5-250us.npz",
+      "sha256": "d1ff460c66aae2fe83c968027d9ee928cf8d466b1fe23190c83e9b990c09b968",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.486130609783424e-06,
+      "max_gear_error_rad": 1.2775213144300412e-09,
+      "minimum_branch_margin": 0.9660715301157051,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "cross_slope--5-125us.npz",
+      "sha256": "d7f0b71aa2928faa4025f032f7b45312ee9f4520afcf6aa4050525709441d6de",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.4862415806003203e-06,
+      "max_gear_error_rad": 8.895938208297593e-10,
+      "minimum_branch_margin": 0.966063176840578,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "cross_slope-10-250us.npz",
+      "sha256": "6f25703d90bdb21f30c46f62ac2609d950414a091109f57ac0d80b8db0ed350b",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.489577658419292e-06,
+      "max_gear_error_rad": 1.5648737416995572e-09,
+      "minimum_branch_margin": 0.9652609422743195,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "cross_slope-10-125us.npz",
+      "sha256": "955526388cdec909ece7850753cf1609c00041f6a7046e492d47ea0e730bb901",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.489290825220386e-06,
+      "max_gear_error_rad": 1.941154437190562e-09,
+      "minimum_branch_margin": 0.9652482654248941,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "cross_slope--10-250us.npz",
+      "sha256": "61f99d492bcc314596f3f69415e13852b20b93c8bbd021320c0319374b753685",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.5037521523927227e-06,
+      "max_gear_error_rad": 2.041072377778619e-09,
+      "minimum_branch_margin": 0.9644865883959931,
+      "sampled_stone_intersections": []
+    },
+    {
+      "recording": "cross_slope--10-125us.npz",
+      "sha256": "9920919913857a54553d0965a5652cd73010645c0325e7655b358c455c655533",
+      "passed": false,
+      "max_label_error": 0.0,
+      "max_action_error": 0.0,
+      "max_closure_m": 2.5043016956380185e-06,
+      "max_gear_error_rad": 2.4938074716374104e-09,
+      "minimum_branch_margin": 0.9644685593001837,
+      "sampled_stone_intersections": []
+    }
+  ],
+  "summary_sha256": "692af5b5026666fd55915e2254ba7cfdf2e952a5b9e4a2975bf172a303768c3d",
+  "source_sha256": {
+    "audit_terrain_driving.py": "4c3a846a339fbad0bb4ae5363e02fbd63f6fe8e39525f4fdbe9dabbf8f0a3516"
+  },
+  "scope": "Source, plant, terrain asset, plan and recording identity verified. Reconstruct every saved initial state, command, actor sensor input (excluding unused accelerometer), label/action, body kinematics, linkage constraints and standing posture. Recompute distance, corridor and sampled contact gates; stone exposure cross-checked against tire/stone intersections. Continuous motor/contact/exposure/standing guards rely on the hashed runner. No second integration, tire compliance, internal collision or hardware qualification. Failed cases remain failures."
+}

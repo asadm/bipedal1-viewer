@@ -1,0 +1,116 @@
+{
+  "status": "fixed_internal_tie_anchor_space_screen",
+  "samples": 405,
+  "cases": {
+    "plate_y44": {
+      "interferences": {
+        "left_thigh_frame": {
+          "count": 172,
+          "first_hip_rad": -2.8
+        },
+        "left_spring_guide_rod": {
+          "count": 113,
+          "first_hip_rad": -2.4217
+        },
+        "left_full_length_spring_envelope": {
+          "count": 80,
+          "first_hip_rad": -1.8979
+        }
+      },
+      "minimum_clearance_mm": -8.607280098024498,
+      "nearest": "left_spring_guide_rod",
+      "nearest_hip_rad": -2.1597999999999997,
+      "passed": false
+    },
+    "plate_y48": {
+      "interferences": {
+        "left_thigh_frame": {
+          "count": 172,
+          "first_hip_rad": -2.8
+        },
+        "left_internal_tie": {
+          "count": 405,
+          "first_hip_rad": -2.8
+        },
+        "left_full_length_spring_envelope": {
+          "count": 71,
+          "first_hip_rad": -1.8979
+        }
+      },
+      "minimum_clearance_mm": 0.0,
+      "nearest": "left_thigh_frame",
+      "nearest_hip_rad": -2.8,
+      "passed": false
+    },
+    "plate_y51": {
+      "interferences": {
+        "left_internal_tie": {
+          "count": 405,
+          "first_hip_rad": -2.8
+        }
+      },
+      "minimum_clearance_mm": 0.0,
+      "nearest": "left_internal_tie",
+      "nearest_hip_rad": -2.8,
+      "passed": false
+    },
+    "plate_y54": {
+      "interferences": {},
+      "minimum_clearance_mm": 0.4999999999999929,
+      "nearest": "left_internal_tie",
+      "nearest_hip_rad": -2.7127,
+      "passed": true
+    },
+    "plate_y55.5": {
+      "interferences": {
+        "left_thigh_lid": {
+          "count": 405,
+          "first_hip_rad": -2.8
+        }
+      },
+      "minimum_clearance_mm": 0.0,
+      "nearest": "left_thigh_lid",
+      "nearest_hip_rad": -2.8,
+      "passed": false
+    },
+    "pivot_access_envelope": {
+      "interferences": {
+        "left_internal_tie": {
+          "count": 379,
+          "first_hip_rad": -2.8
+        },
+        "left_thigh_frame": {
+          "count": 145,
+          "first_hip_rad": -2.7127
+        },
+        "left_full_length_spring_envelope": {
+          "count": 44,
+          "first_hip_rad": -1.7912
+        }
+      },
+      "minimum_clearance_mm": 0.0,
+      "nearest": "left_internal_tie",
+      "nearest_hip_rad": -2.8,
+      "passed": false
+    }
+  },
+  "adopted": false,
+  "complete_hip_fit": false,
+  "hardware_release": false,
+  "source_sha256": {
+    "check_hip_support.py": "ac9c137fc425300390a4ed7d5378efa5d262baee3da0f6358a4ac0086660b3b8",
+    "hip-tie-anchor-parts.json": "d321aa6f202f0e0b84f5b9415a1cd08bf945c2c54acfa7a1fe3ecd91446814a5",
+    "assembly.json": "6d2212a4f11d1da3271e88872c5ba66706bd312406709b2bf564325c6a1dabd3",
+    "assembly-parts.json": "3e4f4f3fad3f771a211fc5c9aa51193e3fc6d75d1d0fd8842624a494aa7bc367",
+    "check_assembly.py": "276d0a13e95d0d866ba30677cdb1324047f3e6592af67d53eb767d3892cf4837",
+    "check_direct_wheel.py": "e71e4319c6904d0af0af0610c9bda4566dffb373fd09336f6a9970ebb672357a",
+    "check_layout.py": "32630e8eb58b6659780e8db7b68d2b0071d40b2672bfb67218043339092d05fa",
+    "spring_cartridge.py": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff",
+    "geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839"
+  },
+  "limitations": [
+    "Positive-Y bracket and pivot envelope against the assembly, including conservative spring and rotating drive envelopes.",
+    "No fixed spindle, added hip bearings, output gear or unmodeled hardware; a clear plate is not a complete supported joint.",
+    "Nominal mesh screen. Pivot surface contacts can appear as collisions and require exact CAD interpretation."
+  ]
+}

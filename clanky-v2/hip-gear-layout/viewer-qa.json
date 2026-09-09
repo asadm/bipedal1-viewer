@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-09-09T02:45:37.813133+00:00",
+  "method": "Browser skill local Chromium UI interaction and screenshot inspection",
+  "url": "http://localhost:8765/viewer/v2.html?study=drive",
+  "checks": [
+    "New 80T output joint and reordered 15/60/20/80 drive load",
+    "Matching 405-pose and 987-exact-material-check evidence displays",
+    "Output joint focus, Cutaway, Body envelope and Packaging render",
+    "Both-leg slider endpoints; independent left and right controls show Mixed",
+    "Fold/Crouch/Ride/Extend presets",
+    "3D/Side/Front/Fit controls",
+    "No error logs in checked output and hip-drive tabs",
+    "JavaScript syntax and Ruff checks pass"
+  ],
+  "source_sha256": {
+    "design/viewer/v2.html": "02d89a1db641a24b461fdf501c8c9f34d925e77650e4186a85196730faabef13",
+    "design/viewer/v2.mjs": "f8b0c15a97d581ce730ef7d092a4cc844705e71e5b9d1d17f7d2c5830f6234d6",
+    "design/clanky-v2/hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "design/clanky-v2/hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "design/clanky-v2/hip-output/contact-classification.json": "111d1f59035d187dc27b860a168bc4bf24931a270be2514c56239f5f6c61eed4",
+    "design/clanky-v2/hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "design/clanky-v2/hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e"
+  },
+  "mechanical_fit_validated": false,
+  "changed_left_joint_nominal_clearance_pass": true,
+  "dynamics_validated": false,
+  "scope": "Current shared viewer with reordered gear layout; full drive fit remains unvalidated"
+}

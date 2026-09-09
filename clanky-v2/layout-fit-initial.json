@@ -1,0 +1,512 @@
+{
+  "status": "initial_layout_interference_diagnostic",
+  "cases": 289,
+  "angles_per_leg": 17,
+  "interferences": [
+    {
+      "pair": [
+        "right_internal_knee_lever",
+        "right_internal_tie"
+      ],
+      "same_rigid_body": false,
+      "sample_count": 289,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.4766666666666666
+        ],
+        [
+          -2.8,
+          -2.1533333333333333
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_internal_knee_lever",
+        "left_internal_tie"
+      ],
+      "same_rigid_body": false,
+      "sample_count": 289,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.4766666666666666
+        ],
+        [
+          -2.8,
+          -2.1533333333333333
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_shin_case",
+        "left_wheel_service_lid"
+      ],
+      "same_rigid_body": true,
+      "sample_count": 289,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.4766666666666666
+        ],
+        [
+          -2.8,
+          -2.1533333333333333
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_thigh_frame",
+        "left_thigh_lid"
+      ],
+      "same_rigid_body": true,
+      "sample_count": 289,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.4766666666666666
+        ],
+        [
+          -2.8,
+          -2.1533333333333333
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_shin_case",
+        "right_wheel_drive_envelope"
+      ],
+      "same_rigid_body": true,
+      "sample_count": 289,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.4766666666666666
+        ],
+        [
+          -2.8,
+          -2.1533333333333333
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_shin_case",
+        "left_wheel_drive_envelope"
+      ],
+      "same_rigid_body": true,
+      "sample_count": 289,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.4766666666666666
+        ],
+        [
+          -2.8,
+          -2.1533333333333333
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_internal_tie",
+        "right_thigh_lid"
+      ],
+      "same_rigid_body": false,
+      "sample_count": 283,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.4766666666666666
+        ],
+        [
+          -2.8,
+          -2.1533333333333333
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_thigh_frame",
+        "right_thigh_lid"
+      ],
+      "same_rigid_body": true,
+      "sample_count": 289,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.4766666666666666
+        ],
+        [
+          -2.8,
+          -2.1533333333333333
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_lid_with_fixed_camera",
+        "body_lower"
+      ],
+      "same_rigid_body": true,
+      "sample_count": 289,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.4766666666666666
+        ],
+        [
+          -2.8,
+          -2.1533333333333333
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_internal_tie",
+        "left_thigh_lid"
+      ],
+      "same_rigid_body": false,
+      "sample_count": 281,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.4766666666666666
+        ],
+        [
+          -2.8,
+          -2.1533333333333333
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_shin_case",
+        "right_wheel_service_lid"
+      ],
+      "same_rigid_body": true,
+      "sample_count": 289,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.4766666666666666
+        ],
+        [
+          -2.8,
+          -2.1533333333333333
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_shin_case",
+        "right_tire"
+      ],
+      "same_rigid_body": false,
+      "sample_count": 268,
+      "examples": [
+        [
+          -2.8,
+          -2.4766666666666666
+        ],
+        [
+          -2.8,
+          -2.1533333333333333
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.5066666666666666
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_shin_case",
+        "left_tire"
+      ],
+      "same_rigid_body": false,
+      "sample_count": 282,
+      "examples": [
+        [
+          -2.8,
+          -2.4766666666666666
+        ],
+        [
+          -2.8,
+          -2.1533333333333333
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.5066666666666666
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_internal_knee_lever",
+        "right_thigh_frame"
+      ],
+      "same_rigid_body": false,
+      "sample_count": 136,
+      "examples": [
+        [
+          -2.8,
+          -1.5066666666666666
+        ],
+        [
+          -2.8,
+          -1.1833333333333333
+        ],
+        [
+          -2.8,
+          -0.8599999999999999
+        ],
+        [
+          -2.8,
+          -0.5366666666666666
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_thigh_lid",
+        "right_wheel_service_lid"
+      ],
+      "same_rigid_body": false,
+      "sample_count": 81,
+      "examples": [
+        [
+          -2.8,
+          -1.1833333333333333
+        ],
+        [
+          -2.8,
+          -0.8599999999999999
+        ],
+        [
+          -2.8,
+          -0.5366666666666666
+        ],
+        [
+          -2.8,
+          -0.49999999999999956
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_thigh_frame",
+        "right_wheel_service_lid"
+      ],
+      "same_rigid_body": false,
+      "sample_count": 81,
+      "examples": [
+        [
+          -2.8,
+          -1.1833333333333333
+        ],
+        [
+          -2.8,
+          -0.8599999999999999
+        ],
+        [
+          -2.8,
+          -0.5366666666666666
+        ],
+        [
+          -2.8,
+          -0.49999999999999956
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_internal_knee_lever",
+        "left_thigh_frame"
+      ],
+      "same_rigid_body": false,
+      "sample_count": 136,
+      "examples": [
+        [
+          -1.5066666666666666,
+          -2.8
+        ],
+        [
+          -1.5066666666666666,
+          -2.4766666666666666
+        ],
+        [
+          -1.5066666666666666,
+          -2.1533333333333333
+        ],
+        [
+          -1.5066666666666666,
+          -1.8299999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_thigh_frame",
+        "left_wheel_service_lid"
+      ],
+      "same_rigid_body": false,
+      "sample_count": 85,
+      "examples": [
+        [
+          -1.1833333333333333,
+          -2.8
+        ],
+        [
+          -1.1833333333333333,
+          -2.4766666666666666
+        ],
+        [
+          -1.1833333333333333,
+          -2.1533333333333333
+        ],
+        [
+          -1.1833333333333333,
+          -1.8299999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_thigh_lid",
+        "left_wheel_service_lid"
+      ],
+      "same_rigid_body": false,
+      "sample_count": 85,
+      "examples": [
+        [
+          -1.1833333333333333,
+          -2.8
+        ],
+        [
+          -1.1833333333333333,
+          -2.4766666666666666
+        ],
+        [
+          -1.1833333333333333,
+          -2.1533333333333333
+        ],
+        [
+          -1.1833333333333333,
+          -1.8299999999999998
+        ]
+      ]
+    }
+  ],
+  "passed": false,
+  "hardware_release": false,
+  "input_sha256": {
+    "layout.json": "b7163bd66326c737de66c1f56ac56803696662df3d371de8b360b12a1f19ffa9",
+    "layout-parts.json": "58b5a7757717d7b158b8edd9704c46b51fb27197c1ae02d8bba57a3e88405297"
+  },
+  "limitations": [
+    "Triangle-mesh intersection, not tolerance/load certification. Touching interfaces can be flagged.",
+    "Springs and fittings, actual motors/transmissions, bearings, mounts and cables are missing.",
+    "Finite angle samples; preserve failures and resolve interfaces before dynamics qualification."
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "status": "completed",
+  "passed": 0,
+  "cases": 8,
+  "results": [
+    {
+      "family": "nominal",
+      "seed": 0,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "passed": false,
+      "steps": 22,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 6,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        5.968722839944985,
+        5.917094053562153
+      ],
+      "max_linear_speed_final_s": 1.2010443044104402,
+      "recording": "nominal-0-250us.json"
+    },
+    {
+      "family": "nominal",
+      "seed": 0,
+      "timestep_s": 0.000125,
+      "position_hold": false,
+      "passed": false,
+      "steps": 31,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 8,
+      "peak_current_A": [
+        7.9999999999999964,
+        7.9999999999999964,
+        11.174928646330223,
+        8.345826824316934
+      ],
+      "max_linear_speed_final_s": 1.605511072904204,
+      "recording": "nominal-0-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 70100,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "passed": false,
+      "steps": 9,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 8,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        11.788741594468316,
+        7.349045090277363
+      ],
+      "max_linear_speed_final_s": 1.6731244747239822,
+      "recording": "standing-70100-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 70100,
+      "timestep_s": 0.000125,
+      "position_hold": false,
+      "passed": false,
+      "steps": 9,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 8,
+      "peak_current_A": [
+        7.9999999999999964,
+        7.9999999999999964,
+        11.804260557299747,
+        7.130714111257567
+      ],
+      "max_linear_speed_final_s": 1.6637350914679314,
+      "recording": "standing-70100-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 70101,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "passed": false,
+      "steps": 9,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 7,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        10.328679453480735,
+        10.350455484024751
+      ],
+      "max_linear_speed_final_s": 1.1154626248150812,
+      "recording": "standing-70101-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 70101,
+      "timestep_s": 0.000125,
+      "position_hold": false,
+      "passed": false,
+      "steps": 9,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 7,
+      "peak_current_A": [
+        7.9999999999999964,
+        7.9999999999999964,
+        10.28766227543544,
+        10.241678314381135
+      ],
+      "max_linear_speed_final_s": 1.1163025236465902,
+      "recording": "standing-70101-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 70102,
+      "timestep_s": 0.00025,
+      "position_hold": false,
+      "passed": false,
+      "steps": 9,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 9,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        8.404078279621428,
+        10.686030360820151
+      ],
+      "max_linear_speed_final_s": 1.1655582482763132,
+      "recording": "near-70102-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 70102,
+      "timestep_s": 0.000125,
+      "position_hold": false,
+      "passed": false,
+      "steps": 9,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "clipped_action_steps": 9,
+      "peak_current_A": [
+        7.9999999999999964,
+        7.9999999999999964,
+        8.987603971840283,
+        10.742498192227837
+      ],
+      "max_linear_speed_final_s": 1.164002984048465,
+      "recording": "near-70102-125us.json"
+    }
+  ],
+  "source_sha256": {
+    "balance_teacher.py": "bc3e22cc0df382317ee2f87a7b00e489a9ff2c94e89d1b7b59c27f8f081ee23f",
+    "teacher_reference.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486",
+    "environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb",
+    "check_teacher.py": "39e25f9a10a81a777616b8cca9db4cc0a23875a9a2a80be7a3df7916e4ec966f"
+  }
+}

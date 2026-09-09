@@ -1,5 +1,7 @@
 {
-  "commit": "b5f961f5ae33c951c2a43588e24dc88a5794edd6",
-  "built_at": "2026-09-08T18:38:11.661808+00:00",
-  "viewer": "viewer/skills.html"
+  "commit": "cd21ba47d13f5c3165e8d789feed4cd98bcb4fcc",
+  "built_at": "2026-09-09T16:29:07.343569+00:00",
+  "viewer": "viewer/v2.html",
+  "asset_bytes": 934813606,
+  "source_repository": "https://github.com/asadm/bipedal1"
 }

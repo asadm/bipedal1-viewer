@@ -1,0 +1,81 @@
+{
+  "status": "native_implementation_checks_only",
+  "mass_kg": 2.489247159211167,
+  "nq": 19,
+  "nv": 18,
+  "motors": 4,
+  "independent_pose_cases": 289,
+  "maximum_closure_error_m": 4.36177811088148e-13,
+  "maximum_wheel_position_error_m": 5.916928115388356e-13,
+  "maximum_lower_orientation_matrix_error": 1.2549059014155262e-12,
+  "maximum_potential_energy_error_J": 5.094591415399918e-12,
+  "minimum_mass_matrix_eigenvalue": 2.0934390930333163e-06,
+  "passive_free_flights": [
+    {
+      "timestep_s": 0.00025,
+      "initial_energy_J": 19.233155489860835,
+      "final_energy_J": 19.018857338709697,
+      "maximum_energy_increase_J": 0.0,
+      "maximum_closure_error_m": 2.9712681333048058e-05,
+      "finite": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "timestep_s": 0.000125,
+      "initial_energy_J": 19.233155489860835,
+      "final_energy_J": 19.022374030887388,
+      "maximum_energy_increase_J": 0.0,
+      "maximum_closure_error_m": 3.381201337522001e-05,
+      "finite": true,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "model_sha256": "b29bd75d1898b63c4af7ae3d0317c0cdc217c23c0284edc071db950afa62f92d",
+  "source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+    "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+    "native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+    "native/mass-properties.json": "0d5c5d21f94f9282dd107cc92a867e4c4f888601783eda00580f5f71d0e970c7",
+    "native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+    "check_native_plant.py": "7c17261526219a55062a05390a3b9169536b6764b37e98aca7d474ce356f6e22"
+  },
+  "checks": {
+    "four_motors": true,
+    "mass_matches": true,
+    "kinematics": true,
+    "spring_energy": true,
+    "positive_mass_matrix": true,
+    "passive_energy": true,
+    "passive_closure": true,
+    "passive_finite": true
+  },
+  "passed": true
+}

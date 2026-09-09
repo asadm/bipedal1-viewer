@@ -1,0 +1,632 @@
+{
+  "status": "completed",
+  "passed": 34,
+  "cases": 34,
+  "results": [
+    {
+      "family": "standing",
+      "seed": 75000,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.941000000003959,
+      "passed": true,
+      "peak_current_A": [
+        5.202915776481497,
+        5.4911790026384715,
+        9.640926317260554,
+        8.045881257992303
+      ],
+      "minimum_branch_margin": 0.9626725760348788,
+      "recording": "standing-75000-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 75000,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.940374999992832,
+      "passed": true,
+      "peak_current_A": [
+        5.197487010283241,
+        5.482125923113981,
+        9.706627599222752,
+        7.84198900629886
+      ],
+      "minimum_branch_margin": 0.9626437310069568,
+      "recording": "standing-75000-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 75001,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.937750000003955,
+      "passed": true,
+      "peak_current_A": [
+        4.047410298009232,
+        4.034773995887174,
+        5.284975444392721,
+        7.800872656528077
+      ],
+      "minimum_branch_margin": 0.9632275756611061,
+      "recording": "standing-75001-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 75001,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.936624999992841,
+      "passed": true,
+      "peak_current_A": [
+        4.046891233044429,
+        4.034780299217715,
+        5.36948112456408,
+        7.592220621808383
+      ],
+      "minimum_branch_margin": 0.9632134917714673,
+      "recording": "standing-75001-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 75002,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.846750000003844,
+      "passed": true,
+      "peak_current_A": [
+        5.023757244976661,
+        5.0318125053183165,
+        9.33302125281093,
+        6.553739896968406
+      ],
+      "minimum_branch_margin": 0.9589884368601054,
+      "recording": "standing-75002-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 75002,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.84662499999305,
+      "passed": true,
+      "peak_current_A": [
+        5.023762212299352,
+        5.031817460628819,
+        9.431834876425782,
+        6.597945915128341
+      ],
+      "minimum_branch_margin": 0.9589803143225256,
+      "recording": "standing-75002-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 75003,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.943000000003962,
+      "passed": true,
+      "peak_current_A": [
+        4.541580902674405,
+        4.559645919792955,
+        7.147106869992714,
+        6.75073826733243
+      ],
+      "minimum_branch_margin": 0.963497625702138,
+      "recording": "standing-75003-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 75003,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.942624999992827,
+      "passed": true,
+      "peak_current_A": [
+        4.535292374899473,
+        4.553981549580106,
+        6.907179809247189,
+        6.43358539660652
+      ],
+      "minimum_branch_margin": 0.9634827014283576,
+      "recording": "standing-75003-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 75004,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.842250000003839,
+      "passed": true,
+      "peak_current_A": [
+        5.094726983619438,
+        5.03838109970838,
+        8.642891258369502,
+        9.986598438699238
+      ],
+      "minimum_branch_margin": 0.9586208590361361,
+      "recording": "standing-75004-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 75004,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.842124999993061,
+      "passed": true,
+      "peak_current_A": [
+        5.0916881091847275,
+        5.037425660051706,
+        8.959890830490307,
+        10.033616703095742
+      ],
+      "minimum_branch_margin": 0.958616662448431,
+      "recording": "standing-75004-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 75005,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.8470000000038445,
+      "passed": true,
+      "peak_current_A": [
+        5.397577668150387,
+        5.995611725873147,
+        9.186566159042716,
+        4.631100286610437
+      ],
+      "minimum_branch_margin": 0.9592062664378428,
+      "recording": "standing-75005-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 75005,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.8469999999930495,
+      "passed": true,
+      "peak_current_A": [
+        5.403623037164179,
+        5.947391015983742,
+        9.225452179869107,
+        4.68400563751017
+      ],
+      "minimum_branch_margin": 0.9591790517339,
+      "recording": "standing-75005-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 75006,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.938000000003956,
+      "passed": true,
+      "peak_current_A": [
+        4.858624715832014,
+        4.478048527047149,
+        5.23230797981788,
+        9.343429088650373
+      ],
+      "minimum_branch_margin": 0.9621424430703654,
+      "recording": "standing-75006-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 75006,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.937499999992839,
+      "passed": true,
+      "peak_current_A": [
+        4.867034221053597,
+        4.495433106904094,
+        5.56909289238745,
+        9.129765411853084
+      ],
+      "minimum_branch_margin": 0.9621214104384104,
+      "recording": "standing-75006-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 75007,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.838750000003834,
+      "passed": true,
+      "peak_current_A": [
+        4.2705693069797555,
+        4.2384855576549665,
+        8.272033837819029,
+        7.161975685748027
+      ],
+      "minimum_branch_margin": 0.958496766206676,
+      "recording": "standing-75007-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 75007,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.838624999993069,
+      "passed": true,
+      "peak_current_A": [
+        4.270577383731107,
+        4.23837471558825,
+        8.779891882007833,
+        7.385665612116333
+      ],
+      "minimum_branch_margin": 0.9584784727417511,
+      "recording": "standing-75007-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75008,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.755000000003732,
+      "passed": true,
+      "peak_current_A": [
+        7.9996368005619,
+        7.9996368005619,
+        7.499866613218713,
+        19.64736775641695
+      ],
+      "minimum_branch_margin": 0.9576916083495607,
+      "recording": "near-75008-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75008,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.755374999993263,
+      "passed": true,
+      "peak_current_A": [
+        7.9996368005619,
+        7.9996368005619,
+        8.919557951331315,
+        19.695143284616748
+      ],
+      "minimum_branch_margin": 0.9576888837582065,
+      "recording": "near-75008-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75009,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.752250000003729,
+      "passed": true,
+      "peak_current_A": [
+        7.9996368005619,
+        7.9996368005619,
+        8.816894875320662,
+        19.00800978565546
+      ],
+      "minimum_branch_margin": 0.9576692422268674,
+      "recording": "near-75009-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75009,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.752124999993271,
+      "passed": true,
+      "peak_current_A": [
+        7.9996368005619,
+        7.9996368005619,
+        8.335581143460686,
+        18.983303605033356
+      ],
+      "minimum_branch_margin": 0.9576828236066196,
+      "recording": "near-75009-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75010,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.796000000003782,
+      "passed": true,
+      "peak_current_A": [
+        4.916657728948671,
+        6.220050090421259,
+        13.56643687944787,
+        6.860693448288224
+      ],
+      "minimum_branch_margin": 0.9579139891255136,
+      "recording": "near-75010-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75010,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.795874999993169,
+      "passed": true,
+      "peak_current_A": [
+        4.932339545510281,
+        6.212999456495559,
+        13.674285953433762,
+        7.487454066081238
+      ],
+      "minimum_branch_margin": 0.9579071491221814,
+      "recording": "near-75010-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75011,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.686250000003648,
+      "passed": true,
+      "peak_current_A": [
+        7.999999983510771,
+        7.999999983510771,
+        20.33764729123816,
+        9.21064262878182
+      ],
+      "minimum_branch_margin": 0.9561380593386131,
+      "recording": "near-75011-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75011,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.685999999993425,
+      "passed": true,
+      "peak_current_A": [
+        7.999999983510771,
+        7.999999983510771,
+        20.356274026767395,
+        9.155437511626292
+      ],
+      "minimum_branch_margin": 0.9561278712096067,
+      "recording": "near-75011-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75012,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.759750000003738,
+      "passed": true,
+      "peak_current_A": [
+        7.9996368005619,
+        7.999999983510771,
+        7.345071340288594,
+        10.189647805526105
+      ],
+      "minimum_branch_margin": 0.960549963413639,
+      "recording": "near-75012-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75012,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.759749999993253,
+      "passed": true,
+      "peak_current_A": [
+        7.9996368005619,
+        7.999999983510771,
+        7.428056998677342,
+        10.195710397987334
+      ],
+      "minimum_branch_margin": 0.9605457751462153,
+      "recording": "near-75012-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75013,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.791000000003776,
+      "passed": true,
+      "peak_current_A": [
+        6.046233384078701,
+        6.078062085984971,
+        13.827429052854818,
+        9.18059916537911
+      ],
+      "minimum_branch_margin": 0.9575451114798985,
+      "recording": "near-75013-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75013,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.790499999993181,
+      "passed": true,
+      "peak_current_A": [
+        6.046236200795555,
+        6.07806483446421,
+        13.900416928566823,
+        9.256844861165165
+      ],
+      "minimum_branch_margin": 0.9575423193044178,
+      "recording": "near-75013-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75014,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.815750000003806,
+      "passed": true,
+      "peak_current_A": [
+        7.128738098475281,
+        6.308105178371159,
+        6.227470393747286,
+        11.808866312808165
+      ],
+      "minimum_branch_margin": 0.9582132196832256,
+      "recording": "near-75014-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75014,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.815749999993122,
+      "passed": true,
+      "peak_current_A": [
+        6.981626765315262,
+        6.308105336174036,
+        6.248881416958566,
+        11.907715425462506
+      ],
+      "minimum_branch_margin": 0.9582145380579447,
+      "recording": "near-75014-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75015,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.77775000000376,
+      "passed": true,
+      "peak_current_A": [
+        7.999999983510771,
+        7.999999983510771,
+        11.507022332806985,
+        7.592821166915556
+      ],
+      "minimum_branch_margin": 0.9596538194617261,
+      "recording": "near-75015-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 75015,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.777874999993211,
+      "passed": true,
+      "peak_current_A": [
+        7.999999983510771,
+        7.999999983510771,
+        11.616911324923624,
+        7.6544192286234685
+      ],
+      "minimum_branch_margin": 0.9596714665597345,
+      "recording": "near-75015-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73015,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.6400000000035915,
+      "passed": true,
+      "peak_current_A": [
+        7.999999983510771,
+        7.999999983510771,
+        23.488103864242365,
+        9.253951626177468
+      ],
+      "minimum_branch_margin": 0.9554526514559041,
+      "recording": "near-73015-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73015,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.6397499999935325,
+      "passed": true,
+      "peak_current_A": [
+        7.999999983510771,
+        7.999999983510771,
+        23.48541276289422,
+        8.789119048285935
+      ],
+      "minimum_branch_margin": 0.9554446577498866,
+      "recording": "near-73015-125us.json"
+    }
+  ],
+  "fresh_cases": 32,
+  "fresh_passed": 32,
+  "regression_cases": 2,
+  "regression_passed": 2,
+  "policy_sha256": "69c1cafa24b403839701fe15eee9b615497df3bc79a1e9f688a768b411b167d6",
+  "source_sha256": {
+    "balance_dagger.py": "f2f0e5ce447cb04dcb60663a6d8ba1e07891ed98c1dde3fc5ac6ba8e1e03fe26",
+    "guided_balance.py": "84282cffce9fa6598b431726e03e168da5c40cddaef09dd6dbdfb900d20234bb",
+    "balance_teacher.py": "b6e2e919240228084437bf59ec49537d3a165f6d3ff47691f554d9bcf78e4e09",
+    "environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb",
+    "evaluate.py": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef"
+  },
+  "scope": "16 fresh starts x two physics steps, plus the earlier failed-pose regression. Learned 100 Hz actor only, nominal flat floor."
+}

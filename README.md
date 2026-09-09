@@ -8,3 +8,6 @@ robot project on each push. `deployment.json` identifies the source revision.
 
 The robot and policies are simulation prototypes. Physical hardware remains
 unqualified; see the validation reports linked from the viewer.
+
+Raw development records and unlinked CAD exports remain in the source robot
+repository. `source-files.json` lists the files omitted from this static site.

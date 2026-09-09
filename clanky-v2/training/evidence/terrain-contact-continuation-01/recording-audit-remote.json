@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "recording": "command-clone-01-0.02-250us.npz",
+      "sha256": "b0df3863d9db6d91582dd64f7a28ad077c915094a94e349b8d8c0f3a27cb85a3",
+      "passed": false,
+      "max_closure_m": 2.556697107306181e-06,
+      "max_gear_error_rad": 1.4352604722489558e-07,
+      "minimum_branch_margin": 0.9527148120448595
+    },
+    {
+      "recording": "command-clone-01-0.02-125us.npz",
+      "sha256": "ab9da223f2b9cd29f7554776584766ddb861d7d116783e436021461ad5670fdb",
+      "passed": false,
+      "max_closure_m": 2.568511295600143e-06,
+      "max_gear_error_rad": 1.449623212579354e-07,
+      "minimum_branch_margin": 0.9527744234367311
+    },
+    {
+      "recording": "command-clone-01-0.03-250us.npz",
+      "sha256": "6ffce20b489f45d608d81e6b526cb7d33539b6373fefad0fc3491ad1bd36a70a",
+      "passed": false,
+      "max_closure_m": 2.547703662365128e-06,
+      "max_gear_error_rad": 1.5051154633738406e-07,
+      "minimum_branch_margin": 0.9554203127682696
+    },
+    {
+      "recording": "command-clone-01-0.03-125us.npz",
+      "sha256": "8210cdaeef1a11f3c3a7ac0756e6d78f4a3ea9838f9c719598a796ada36fa074",
+      "passed": false,
+      "max_closure_m": 2.5382821986014043e-06,
+      "max_gear_error_rad": 1.5327140090448665e-07,
+      "minimum_branch_margin": 0.9554585992648108
+    },
+    {
+      "recording": "terrain-clone-01-0.02-250us.npz",
+      "sha256": "03b023c66d0f5333f435c23553d7d611c804710a910def35117c494b0a264318",
+      "passed": false,
+      "max_closure_m": 2.6052155216107196e-06,
+      "max_gear_error_rad": 3.800416152444086e-07,
+      "minimum_branch_margin": 0.9605047211615855
+    },
+    {
+      "recording": "terrain-clone-01-0.02-125us.npz",
+      "sha256": "46c511c87f382b2d024e21eb0d656dbbfdbc594e1c32ca97dea52a88ac1245da",
+      "passed": false,
+      "max_closure_m": 2.5576015635465575e-06,
+      "max_gear_error_rad": 3.040655940367287e-07,
+      "minimum_branch_margin": 0.9619477376623372
+    },
+    {
+      "recording": "terrain-clone-01-0.03-250us.npz",
+      "sha256": "69828ace70650f7133da077a7b965c08951dc03a20c7d337a41976a44b2944e8",
+      "passed": false,
+      "max_closure_m": 2.5320456172376184e-06,
+      "max_gear_error_rad": 2.5146970017431158e-08,
+      "minimum_branch_margin": 0.9624910633640736
+    },
+    {
+      "recording": "terrain-clone-01-0.03-125us.npz",
+      "sha256": "ba3e6d836ef582acb8704ab9678bfbb8f67dbbcba4c8e40a181f581f897e12eb",
+      "passed": false,
+      "max_closure_m": 2.5359460453513533e-06,
+      "max_gear_error_rad": 3.678940885265547e-08,
+      "minimum_branch_margin": 0.962442386500263
+    }
+  ],
+  "summary_sha256": "00d29a32101a8b47e760cfc242939ed81943ca9277a40d5c097ca8c9ba22b09e",
+  "source_sha256": {
+    "audit_terrain_contact_continuation.py": "d77a9aa24fbbbc0c20245bd0ce1936ee00687faf6b205c0d6b8c2faaf7f2f117",
+    "audit_terrain_driving.py": "160748b13ba4100111a4f26ba3617a91485acc8c639fe29006bd9fe3d5e63423"
+  },
+  "scope": "Every saved used sensor input, actor action, command and body state reconstructed; exact original-trajectory prefixes and all case/source hashes verified. Route/contact/tip/settling gates recomputed. Recorded contact flags and continuous force/exposure/current/standing metrics rely on the hashed runner. No independent integration or hardware qualification; failed routes remain failed."
+}

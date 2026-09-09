@@ -1,0 +1,120 @@
+{
+  "status": "unadopted_output_gear_connection",
+  "removed_spring_parts": [
+    "body_lower_with_left_hip_mount",
+    "left_coaxial_thigh_frame",
+    "left_fixed_hip_spindle",
+    "left_hip_F688_inner",
+    "left_spindle_M3_rear",
+    "left_spindle_body_plate",
+    "left_spindle_cap_rear",
+    "left_spindle_mount_M3_-17",
+    "left_spindle_mount_M3_17",
+    "left_spindle_spacer_0",
+    "left_spindle_spacer_1"
+  ],
+  "spring": {
+    "crank_radius_mm": 18.0,
+    "connecting_rod_mm": 30.0,
+    "axis_z_mm": -15.0,
+    "axis_y_mm": 74.5,
+    "fixed_seat_x_mm": 14.0,
+    "seat_to_pin_mm": 14.0,
+    "guide_rod_diameter_mm": 5.0,
+    "guide_rod_from_pin_mm": 63.0,
+    "free_spring_length_mm": 50.0,
+    "spring_od_mm": 12.0,
+    "spring_id_mm": 6.5,
+    "rate_N_mm": 5.5,
+    "maximum_design_compression_mm": 20.0,
+    "supplier_part": "MISUMI SWF12-50",
+    "source": "https://vn.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50"
+  },
+  "parts_sha256": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+  "source_sha256": {
+    "hip_output.py": "3c1479f0be33d39e7419fef61280b752be1c24ffc8f48b030a4cc86a63fd3a91",
+    "coaxial_spring.py": "b7dacbff8fcdb1025cfce4d7dc7a847e25bc1035baafb47e8d0a3b46a424c7aa",
+    "hip_joint.py": "06a2cd6da1e6af89486ad5844111465c139dcc7a790a0a4c0a25e4d5a2636da2",
+    "body_package.py": "ecd475279c8759a7a6bab9648b65d8028292409ec35c4fd2ac7fee3608b2b265",
+    "layout.py": "6452521c3837fdca61a1302092fd1ed716d272bf57a7bcac966e52951852b41f",
+    "wiring_package.py": "23db8ffbb5505ff04b003f04acb576de541a7a2a9aa70c8264430d525422b488",
+    "spring_cartridge.py": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff",
+    "geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839",
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "hip_stock_gears.py": "580af351bd824a0d9514632ff080fb9a0f535cc9ff77679f4706c287b86c01f5",
+    "hip_gear_layout.py": "3c755de0a291d5552184f707ce2337c2d9370a638a86e5a591133674ed6c3359",
+    "hardware-references/hip-gears/2302-0014-0080.step": "dd2ae620f2d89e71a8eb9177a3792f4c0ea7f2323838b2277d2b9634900b9a04"
+  },
+  "bolt_centres_xz_mm": [
+    [
+      16,
+      0
+    ],
+    [
+      0,
+      16
+    ],
+    [
+      -16,
+      0
+    ],
+    [
+      0,
+      -16
+    ]
+  ],
+  "output_gear_sku": "2302-0014-0080",
+  "output_gear_teeth": 80,
+  "output_gear_y_mm": [
+    40,
+    46
+  ],
+  "bearing_y_mm": [
+    [
+      46.5,
+      51.5
+    ],
+    [
+      80.5,
+      85.5
+    ]
+  ],
+  "intermediate_bearing_y_mm": [
+    [
+      34.5,
+      39.5
+    ],
+    [
+      58.5,
+      63.5
+    ]
+  ],
+  "case_outer_y_mm": 64.5,
+  "fixed_spindle_y_mm": [
+    30.2,
+    92.3
+  ],
+  "structural_fit_pass": false,
+  "hardware_release": false,
+  "motion_validated": false,
+  "dimensions_only": true,
+  "source_spacer": {
+    "sku": "1502-0006-0040",
+    "url": "https://www.servocity.com/1502-series-4mm-id-spacer-6mm-od-4mm-length-4-pack/",
+    "material": "aluminum",
+    "dimensions_mm": [
+      4,
+      6,
+      4
+    ],
+    "price_usd_per_four": 1.89,
+    "checked_utc": "2026-09-09"
+  },
+  "notes": [
+    "Four bolts use stock gear holes; no gear machining and no separate printed output adapter.",
+    "This output-bearing move does not establish complete gearbox fit, tooth contact, motor transmission, strength or dynamics.",
+    "Button-head screws and nuts are dimensional allocations. Spacer clamp pressure and print bearing stresses are not qualified.",
+    "Left case and intermediate bearing supports are modeled; bilateral adoption, closure and transmission mounts remain open."
+  ]
+}

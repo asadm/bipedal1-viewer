@@ -1,0 +1,69 @@
+{
+  "scope": "Six predefined powered-fall seeds; no RL, no hardware changes, no randomized validation",
+  "source_sha256": {
+    "native_recovery_active_seeds.py": "1a72a479b47e4b92dbeada576b84a3572f16ac54c503995ea02e143b6ca8aee0",
+    "native_recovery_screen.py": "9eae1d6ce93dcd20ea4867339ec0451b09b9cb6cbe9eccb95acb9eaae1241174"
+  },
+  "cases": [
+    {
+      "directory": "active-seeds/back-reach240-wheel-35-250us",
+      "report_sha256": "460c21a49310744dc534fc826858b81733643d16fef3404125c5860b41549106",
+      "passed": false,
+      "captured_balance_s": null,
+      "score": -2.000005334583668,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    },
+    {
+      "directory": "active-seeds/back-reach240-wheel0-250us",
+      "report_sha256": "c9f370993026979dc880effa4e5991602d4e1c2aeb63096daa17018100d9f390",
+      "passed": false,
+      "captured_balance_s": null,
+      "score": -1.2891368821746105,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    },
+    {
+      "directory": "active-seeds/back-reach240-wheel35-250us",
+      "report_sha256": "ee99a8153cd7b258e6f86e2f06433f9453b6d2220df0fa4b627bedfe9dbcffa0",
+      "passed": false,
+      "captured_balance_s": null,
+      "score": 0.6322117161947044,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    },
+    {
+      "directory": "active-seeds/back-reach270-wheel-35-250us",
+      "report_sha256": "524f37283a945a6def1abc66679cd19d9a219434993fdcbb70e5bebff392c30a",
+      "passed": false,
+      "captured_balance_s": null,
+      "score": -1.2903959618677039,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    },
+    {
+      "directory": "active-seeds/back-reach270-wheel0-250us",
+      "report_sha256": "c114e6011e8cf2ba511cfa4756822afb42ae431a305034d1fd180362fc4d899c",
+      "passed": false,
+      "captured_balance_s": null,
+      "score": -1.289136865588737,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    },
+    {
+      "directory": "active-seeds/back-reach270-wheel35-250us",
+      "report_sha256": "5cf1419fb6034056b889ee6bc768020eac09daee9e06413dce6e2476b71f4ad8",
+      "passed": false,
+      "captured_balance_s": null,
+      "score": -2.000022731856678,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "method": "one terrain behavior-cloning adaptation with flat-driving replay",
+  "update_cap": 2500,
+  "batch_size": 512,
+  "learning_rate": 0.0002,
+  "seed": 89200,
+  "train_samples": 73696,
+  "validation_samples": 24800,
+  "validation_episode_ids": [
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "terrain_summary_sha256": "b1cd0395ff7f82b185471c2c65fba58f20fa9f22c813d01fd871daa72f07e222",
+  "flat_summary_sha256": "07a9cfd393451690cf30d04387a2a57b05141aecdb17380ee1cf622430764a6b",
+  "trajectory_selection": [
+    {
+      "recording": "flat-0-terrain740-start89100-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "bumps-0.008-terrain740-start89101-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "stones-0.01-terrain740-start89102-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "stones-0.02-terrain740-start89103-250us.npz",
+      "kept": 696,
+      "excluded": 1,
+      "passed": false
+    },
+    {
+      "recording": "slope-5-terrain740-start89104-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "slope--5-terrain740-start89105-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "cross_slope-5-terrain740-start89106-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "cross_slope--5-terrain740-start89107-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "flat-0-terrain741-start89108-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "bumps-0.008-terrain741-start89109-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "stones-0.01-terrain741-start89110-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "stones-0.02-terrain741-start89111-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "slope-5-terrain741-start89112-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "slope--5-terrain741-start89113-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "cross_slope-5-terrain741-start89114-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "cross_slope--5-terrain741-start89115-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "flat-0-terrain742-start89116-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "bumps-0.008-terrain742-start89117-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "stones-0.01-terrain742-start89118-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "stones-0.02-terrain742-start89119-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "slope-5-terrain742-start89120-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "slope--5-terrain742-start89121-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "cross_slope-5-terrain742-start89122-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "cross_slope--5-terrain742-start89123-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "flat-0-terrain743-start89124-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "bumps-0.008-terrain743-start89125-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "stones-0.01-terrain743-start89126-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "stones-0.02-terrain743-start89127-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "slope-5-terrain743-start89128-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "slope--5-terrain743-start89129-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": false
+    },
+    {
+      "recording": "cross_slope-5-terrain743-start89130-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    },
+    {
+      "recording": "cross_slope--5-terrain743-start89131-250us.npz",
+      "kept": 1400,
+      "excluded": 0,
+      "passed": true
+    }
+  ],
+  "domain_samples": {
+    "0": {
+      "train": 32896,
+      "validation": 11200
+    },
+    "1": {
+      "train": 40800,
+      "validation": 13600
+    }
+  },
+  "initial_policy_sha256": "2b437707bbfe6c7fb421e000ff57664db13fd473754c25db451420770af5b570",
+  "plant_manifest_sha256": "e733063a55088781d85aaf4a3c2f3ce7b05fd2c696a2f44fad78ebcc39284d9d",
+  "source_sha256": {
+    "terrain_learning.py": "183b3eb8f0e5e4b1be77f32eec7453d6888a9b41d975af211ec6c76ac3532fa6",
+    "command_learning.py": "df99df64c0cd33943449d571f2adc34fea28da81c4867e7ffa31fb023c4a2e58",
+    "terrain_driving.py": "f3db8b07d23c0aabb0c814b308109078ca46062f1b44ca10d6faeed108a81f9c",
+    "command_driving.py": "34d3a9ac92222b5414a8731ba8a891d09fa30ae02fc4ea43905e3e445ddb18cd",
+    "balance_dagger.py": "f2f0e5ce447cb04dcb60663a6d8ba1e07891ed98c1dde3fc5ac6ba8e1e03fe26",
+    "evaluate.py": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef"
+  },
+  "policy_period_s": 0.01,
+  "sensor_mask": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "initial_renormalization_max_error": 1.7881393432617188e-07
+}

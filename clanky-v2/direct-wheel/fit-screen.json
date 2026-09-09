@@ -1,0 +1,175 @@
+{
+  "status": "direct_drive_package_screen_not_complete_fit",
+  "cases": [
+    {
+      "motor_rear_y_mm": 64.0,
+      "overall_tire_width_mm": 180.0,
+      "poses": 405,
+      "interference_pairs": {
+        "case_wall/left_thigh_lid": {
+          "count": 118,
+          "first_q_rad": -1.3352999999999997
+        },
+        "motor_mount/left_thigh_lid": {
+          "count": 112,
+          "first_q_rad": -1.3061999999999998
+        },
+        "base_screws_swept/left_thigh_lid": {
+          "count": 84,
+          "first_q_rad": -1.1897999999999997
+        },
+        "base_screws_swept/left_thigh_frame": {
+          "count": 84,
+          "first_q_rad": -1.1897999999999997
+        },
+        "encoder_rear_cover_allocation/left_thigh_frame": {
+          "count": 81,
+          "first_q_rad": -1.1703999999999999
+        },
+        "encoder_PCB/left_thigh_frame": {
+          "count": 74,
+          "first_q_rad": -1.1412999999999998
+        },
+        "encoder_chip/left_thigh_frame": {
+          "count": 54,
+          "first_q_rad": -1.0539999999999998
+        },
+        "encoder_magnet/left_thigh_frame": {
+          "count": 51,
+          "first_q_rad": -1.0442999999999998
+        },
+        "shaft/left_thigh_lid": {
+          "count": 47,
+          "first_q_rad": -1.0248999999999997
+        },
+        "shaft/left_thigh_frame": {
+          "count": 31,
+          "first_q_rad": -1.0248999999999997
+        }
+      },
+      "retained_parts_clear": false,
+      "minimum_noncolliding_sample_distance_mm": 0.04732484873893655,
+      "within_180mm_width_target": true,
+      "combined_screen_pass": false
+    },
+    {
+      "motor_rear_y_mm": 68.0,
+      "overall_tire_width_mm": 188.0,
+      "poses": 405,
+      "interference_pairs": {
+        "base_screws_swept/left_thigh_lid": {
+          "count": 84,
+          "first_q_rad": -1.1897999999999997
+        },
+        "encoder_rear_cover_allocation/left_thigh_frame": {
+          "count": 81,
+          "first_q_rad": -1.1703999999999999
+        },
+        "encoder_PCB/left_thigh_frame": {
+          "count": 74,
+          "first_q_rad": -1.1412999999999998
+        },
+        "encoder_chip/left_thigh_frame": {
+          "count": 54,
+          "first_q_rad": -1.0539999999999998
+        },
+        "encoder_magnet/left_thigh_lid": {
+          "count": 51,
+          "first_q_rad": -1.0442999999999998
+        },
+        "shaft/left_thigh_lid": {
+          "count": 47,
+          "first_q_rad": -1.0248999999999997
+        }
+      },
+      "retained_parts_clear": false,
+      "minimum_noncolliding_sample_distance_mm": 0.04732484873893659,
+      "within_180mm_width_target": false,
+      "combined_screen_pass": false
+    },
+    {
+      "motor_rear_y_mm": 72.0,
+      "overall_tire_width_mm": 196.0,
+      "poses": 405,
+      "interference_pairs": {
+        "encoder_rear_cover_allocation/left_thigh_lid": {
+          "count": 81,
+          "first_q_rad": -1.1703999999999999
+        },
+        "encoder_rear_cover_allocation/left_thigh_frame": {
+          "count": 81,
+          "first_q_rad": -1.1703999999999999
+        },
+        "encoder_PCB/left_thigh_lid": {
+          "count": 74,
+          "first_q_rad": -1.1412999999999998
+        },
+        "encoder_chip/left_thigh_lid": {
+          "count": 54,
+          "first_q_rad": -1.0539999999999998
+        }
+      },
+      "retained_parts_clear": false,
+      "minimum_noncolliding_sample_distance_mm": 0.04732484873893657,
+      "within_180mm_width_target": false,
+      "combined_screen_pass": false
+    },
+    {
+      "motor_rear_y_mm": 74.0,
+      "overall_tire_width_mm": 200.0,
+      "poses": 405,
+      "interference_pairs": {
+        "encoder_rear_cover_allocation/left_thigh_lid": {
+          "count": 81,
+          "first_q_rad": -1.1703999999999999
+        }
+      },
+      "retained_parts_clear": false,
+      "minimum_noncolliding_sample_distance_mm": 0.19999999999999574,
+      "within_180mm_width_target": false,
+      "combined_screen_pass": false
+    },
+    {
+      "motor_rear_y_mm": 76.0,
+      "overall_tire_width_mm": 204.0,
+      "poses": 405,
+      "interference_pairs": {
+        "encoder_rear_cover_allocation/left_thigh_lid": {
+          "count": 81,
+          "first_q_rad": -1.1703999999999999
+        }
+      },
+      "retained_parts_clear": false,
+      "minimum_noncolliding_sample_distance_mm": 0.36473260146842984,
+      "within_180mm_width_target": false,
+      "combined_screen_pass": false
+    },
+    {
+      "motor_rear_y_mm": 78.0,
+      "overall_tire_width_mm": 208.0,
+      "poses": 405,
+      "interference_pairs": {},
+      "retained_parts_clear": true,
+      "minimum_noncolliding_sample_distance_mm": 2.0,
+      "within_180mm_width_target": false,
+      "combined_screen_pass": false
+    }
+  ],
+  "pass_count": 0,
+  "adopted": false,
+  "hardware_release": false,
+  "input_sha256": {
+    "layout.json": "a8b9323416680c1799ec8c2f154a8e47d099fff390aa619b2e7f032114d2a3c4",
+    "layout-parts.json": "3f844258189c1a0e24ed6795bcb8168582b947a1950163c9797c98f28b51733d",
+    "check_direct_wheel.py": "e71e4319c6904d0af0af0610c9bda4566dffb373fd09336f6a9970ebb672357a",
+    "direct_wheel_module.py": "5d80093a207dc0b72b47df00a3b48e0d1af3829408b09e6fada2bcab4f1192e2",
+    "spring_cartridge.py": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff"
+  },
+  "limitations": [
+    "Rigid envelope collision screen; folded width target is still 180 mm.",
+    "Removes obsolete shin/drive/wheel allocations. No new shin, supports, cable/connector or electronics completeness claim.",
+    "Encoder PCB/rear cover are explicit allocations, not a finished purchased module.",
+    "Base screw annulus over-approximates their four discrete positions; reported collisions can be conservative.",
+    "A different motor orientation, sensor construction or leg placement may fit; this is not a topology impossibility proof."
+  ]
+}

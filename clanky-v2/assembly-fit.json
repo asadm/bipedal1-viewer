@@ -1,0 +1,53 @@
+{
+  "status": "integrated_wheel_and_linkage_interference_screen",
+  "passed": true,
+  "cases": 1242,
+  "independent_grid_cases": 841,
+  "symmetric_sweep_cases": 401,
+  "angles_per_leg": 29,
+  "nominal_mating_contacts": {
+    "right_spring_coil_envelope/right_thigh_frame": 598,
+    "left_knee_626_inner/left_knee_shaft": 1242,
+    "right_knee_626_outer/right_thigh_lid": 1242,
+    "right_knee_626_outer/right_knee_shaft": 1242,
+    "right_knee_626_inner/right_knee_shaft": 1242,
+    "left_knee_626_outer/left_knee_shaft": 1242,
+    "left_knee_626_inner/left_thigh_frame": 1242,
+    "left_knee_626_outer/left_thigh_lid": 1242,
+    "right_knee_626_inner/right_thigh_frame": 1242,
+    "left_spring_coil_envelope/left_thigh_frame": 619,
+    "right_spring_coil_envelope/right_spring_slider": 621,
+    "left_spring_coil_envelope/left_spring_slider": 601
+  },
+  "interferences": [],
+  "complete_robot_fit_pass": false,
+  "dynamics_validated": false,
+  "hardware_release": false,
+  "inherited_module_checks": {
+    "nominal_solid_intersections": true,
+    "rotation_envelopes": true,
+    "rear_insertion_paths": true,
+    "added_passage_material_checked": true,
+    "flexible_wiring_validated": false
+  },
+  "source_sha256": {
+    "check_assembly.py": "45281fe027c219b051a2a53698a759d7e2b51ff92b7bd02dc4e92056d9f429e4",
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "interfaces.json": "0420ecfc206f49e9e3db17bae526c55eddefaed076dba6c348ee64835260a2a4",
+    "geared-wheel/fit-screen.json": "fe7430a1e3deab3a74466f5c35f362f33ab2d090a0d4499642b9312a15f8b93f",
+    "geared-wheel/interfaces.json": "ff8fed3e6570d7c024c18ffcbd4c78cd25a417eb6f820e580dc8db0db98d90ef",
+    "wiring-fit.json": "2502a1d842f3eef119c4b4553551bfb9df4ae41e611eb7ce5cf2b99d390db828",
+    "check_layout.py": "32630e8eb58b6659780e8db7b68d2b0071d40b2672bfb67218043339092d05fa",
+    "check_direct_wheel.py": "e71e4319c6904d0af0af0610c9bda4566dffb373fd09336f6a9970ebb672357a",
+    "check_geared_wheel.py": "661b52196732d1b665cef07a98c963c0a66279984462e80c9d883276ea1df986",
+    "spring_cartridge.py": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff",
+    "geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839"
+  },
+  "limitations": [
+    "Finite pose grid, not continuous collision or tolerance/deflection validation.",
+    "Internal wheel-module mates reuse exact CAD evidence. Added ducts have a matching separate all-part/rotation audit; wire exits remove material. Each rigid module is a compound for external checks.",
+    "Retained leg and module nominal mates preserve their previously checked geometry under shared translation. The new body has a 0.4 mm noncontact seam.",
+    "Hip drives, fixed tie support, joint retention, pivot screws and flexible wiring remain incomplete. Electronics are envelopes, not detailed mounted parts; full robot fit remains unproven."
+  ]
+}

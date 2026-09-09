@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "recording": "return1200-82000-250us.npz",
+      "sha256": "d3237b90a3ca6c0a0c9174547e3642e0e50eeaf55f373dadac3f56e3702a6703",
+      "passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.303558124878908e-06,
+      "sampled_gear_error_rad": 3.365331574523012e-08,
+      "sampled_branch_margin": 0.5826642365108605,
+      "sampled_minimum_tire_clearance_m": 0.024778986709735093
+    },
+    {
+      "recording": "return1200-82000-125us.npz",
+      "sha256": "8d50b77bf1979bd8905f5f9d7f901578b520a756d60fa572227abf8d3ebf6e9b",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.303935302515694e-06,
+      "sampled_gear_error_rad": 8.100133754851413e-08,
+      "sampled_branch_margin": 0.5797398074534841,
+      "sampled_minimum_tire_clearance_m": -4.7568685951921155e-05
+    },
+    {
+      "recording": "return2000-82000-250us.npz",
+      "sha256": "5a4dcf972a762436bfd36e68d88dc9fcbf44792f494976e5932c9f0c9e2fbaf8",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.2832443045474334e-06,
+      "sampled_gear_error_rad": 1.646704337332494e-07,
+      "sampled_branch_margin": 0.5764580271228209,
+      "sampled_minimum_tire_clearance_m": -0.00026091743399718953
+    },
+    {
+      "recording": "return2000-82000-125us.npz",
+      "sha256": "7c8d631bde5655b764286ca14ba78b21d006e5311b4824a2caef445d58a73bd8",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.283192676550987e-06,
+      "sampled_gear_error_rad": 1.5962181336703908e-07,
+      "sampled_branch_margin": 0.5764579243709342,
+      "sampled_minimum_tire_clearance_m": -0.0002558840154287778
+    }
+  ],
+  "summary_sha256": "b2d40b282f1e50db376487d785307c4371788a669f43d299133329a851060c7a",
+  "source_sha256": {
+    "audit_inverted.py": "c7bd6c15ce73bff2f19fdb20e1735abb5746e889d02f4d09d1538c439e6aec52",
+    "inverted_contact.py": "cec8b4fbcdc5311f0c6d6ce4f7659064244b3338a0066a168b766d7196cba486",
+    "inverted_to_back.py": "48ff5c9542be5010b84fddd86d2d497326259914364c290f48a6bb6a9e68380e"
+  },
+  "scope": "All source/reference identities and sensor-based action/transition decisions; continuous timestamps and settling handoff state/current preservation. Sampled IMU/encoder reconstruction, currents, linkage geometry and final-window posture gates. Contact flags and continuous guards rely on the hashed runner; this audit preserves failed recoveries and does not rerun dynamics or qualify hardware."
+}

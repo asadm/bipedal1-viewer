@@ -1,0 +1,119 @@
+{
+  "status": "conditional_spring_guide_load_screen",
+  "adopted": false,
+  "samples": 12001,
+  "shaft_diameter_mm": 5.0,
+  "assumed_E_MPa": 200000.0,
+  "guide_centres_x_mm": [
+    0.5,
+    11
+  ],
+  "cases": [
+    {
+      "design": "current_assembly",
+      "spring_axis_y_mm": 80.0,
+      "conrod_plane_y_mm": 88.0,
+      "lateral_offset_mm": 8.0,
+      "maximum_planar_bending_stress_MPa": {
+        "value": 117.55532097520815,
+        "hip_rad": -0.8092366666666664
+      },
+      "maximum_combined_bending_stress_MPa": {
+        "value": 136.90181449730582,
+        "hip_rad": -0.8092366666666664
+      },
+      "maximum_von_mises_if_torsion_reacted_MPa": {
+        "value": 138.30595802696024,
+        "hip_rad": -0.8092366666666664
+      },
+      "maximum_unresolved_roll_moment_Nmm": {
+        "value": 278.5578327332999,
+        "hip_rad": -0.8092366666666664
+      },
+      "maximum_planar_deflection_mm": {
+        "value": 0.1686186634580937,
+        "hip_rad": -0.8092366666666664
+      },
+      "maximum_lateral_deflection_mm": {
+        "value": 0.1408534030638257,
+        "hip_rad": -1.0549699999999997
+      },
+      "maximum_combined_deflection_mm": {
+        "value": 0.21966563168209657,
+        "hip_rad": -0.8092366666666664
+      },
+      "maximum_rear_guide_reaction_N": {
+        "value": 160.00362153565794,
+        "hip_rad": -0.8092366666666664
+      },
+      "maximum_front_guide_reaction_N": {
+        "value": 190.7393743274556,
+        "hip_rad": -0.8092366666666664
+      }
+    },
+    {
+      "design": "supported_left_hip_study",
+      "spring_axis_y_mm": 74.5,
+      "conrod_plane_y_mm": 88.0,
+      "lateral_offset_mm": 13.5,
+      "maximum_planar_bending_stress_MPa": {
+        "value": 117.55532097520815,
+        "hip_rad": -0.8092366666666664
+      },
+      "maximum_combined_bending_stress_MPa": {
+        "value": 166.84677858100605,
+        "hip_rad": -0.8092366666666664
+      },
+      "maximum_von_mises_if_torsion_reacted_MPa": {
+        "value": 170.11252388357573,
+        "hip_rad": -0.8092366666666664
+      },
+      "maximum_unresolved_roll_moment_Nmm": {
+        "value": 470.06634273744356,
+        "hip_rad": -0.8092366666666664
+      },
+      "maximum_planar_deflection_mm": {
+        "value": 0.1686186634580937,
+        "hip_rad": -0.8092366666666664
+      },
+      "maximum_lateral_deflection_mm": {
+        "value": 0.23769011767020587,
+        "hip_rad": -1.0549699999999997
+      },
+      "maximum_combined_deflection_mm": {
+        "value": 0.2913329652348543,
+        "hip_rad": -0.8092366666666664
+      },
+      "maximum_rear_guide_reaction_N": {
+        "value": 195.00171646771258,
+        "hip_rad": -0.8092366666666664
+      },
+      "maximum_front_guide_reaction_N": {
+        "value": 220.92084428513604,
+        "hip_rad": -0.8092366666666664
+      }
+    }
+  ],
+  "strength_pass": null,
+  "dynamics_validated": false,
+  "hardware_release": false,
+  "required_design_work": [
+    "Explicit slider anti-rotation support: current round guide bores do not react the roll couple by themselves.",
+    "A defined slider-to-shaft bending/retention interface: nominal clearance bore is not a qualified clamp.",
+    "Printed guide pressure, creep, wear and clearances under combined load.",
+    "Selected shaft grade/fatigue margin and impact/inertial load cases."
+  ],
+  "assumptions": [
+    "Quasistatic spring force only; no friction, impact, inertia or bent printed-guide compliance.",
+    "Two ideal radial supports; y and z bending superposed on a uniform elastic 5 mm round steel shaft.",
+    "Conditional stress/deflection calculations assume moments reach the shaft and an additional constraint reacts torsion. Neither interface is released.",
+    "A planar force calculation for the existing assembly also omitted its 8 mm eccentricity; this is not solely a new-study issue."
+  ],
+  "source_sha256": {
+    "hip_spring_load_screen.py": "16e7b5af5688f9b1c1b7cd0bb1141255162dc2aa0845f7ef71ef5912a67dc254",
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "hip-joint/manifest.json": "34d08de6ab7b9990682ac6060773a608fc3a3ce2b5e87f61f3dff4467aa0fb0c",
+    "spring_cartridge.py": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff",
+    "geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839"
+  }
+}

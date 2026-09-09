@@ -1,0 +1,85 @@
+{
+  "kind": "sampled_mesh_surface_fit_diagnostic",
+  "hardware_release": false,
+  "variants": [
+    {
+      "diameter_mm": 120,
+      "stl_watertight": true,
+      "mesh_connected_components": 1,
+      "pose_samples": 105,
+      "hip_range_rad": [
+        -2.6,
+        2.600000000000001
+      ],
+      "surface_intersections": {
+        "left_slim_lower_pod": {
+          "samples": 105,
+          "hip_range_rad": [
+            -2.6,
+            2.6
+          ]
+        },
+        "left_wheel_688_outer": {
+          "samples": 105,
+          "hip_range_rad": [
+            -2.6,
+            2.6
+          ]
+        },
+        "left_structural_thigh": {
+          "samples": 15,
+          "hip_range_rad": [
+            -1.1,
+            -0.4
+          ]
+        }
+      },
+      "sampled_no_intersections": false
+    },
+    {
+      "diameter_mm": 140,
+      "stl_watertight": true,
+      "mesh_connected_components": 1,
+      "pose_samples": 105,
+      "hip_range_rad": [
+        -2.6,
+        2.600000000000001
+      ],
+      "surface_intersections": {
+        "left_slim_lower_pod": {
+          "samples": 105,
+          "hip_range_rad": [
+            -2.6,
+            2.6
+          ]
+        },
+        "left_wheel_688_outer": {
+          "samples": 105,
+          "hip_range_rad": [
+            -2.6,
+            2.6
+          ]
+        },
+        "left_structural_thigh": {
+          "samples": 23,
+          "hip_range_rad": [
+            -1.25,
+            -0.15
+          ]
+        }
+      },
+      "sampled_no_intersections": false
+    }
+  ],
+  "limitations": [
+    "Left wheel only; symmetric geometry",
+    "Fixed wheel angle; no tire deformation or bolt/drive attachment",
+    "Surface intersection check does not establish continuous clearance or strength"
+  ],
+  "input_sha256": {
+    "design/current-cad/parts.json": "362ee48b56b13e8aa6605a51a35632a393da30a786cf2fcd1c1c2613a165665a",
+    "design/wheel-study/fit-poses.json": "fa5ae455924d07f56fa4bbe064a6305ced8cdf22ce23def4ff45644200cbfeda",
+    "design/wheel-study/tpu-wheel-120x25.stl": "afdb73c1f8c1e373bdc6a5d2691b9c37a9f10ba5d2bf7a993af501eacf2247f0",
+    "design/wheel-study/tpu-wheel-140x25.stl": "f63cd46b3fbfe05b837bbd3b0157ecf43a849055115769965829b92977a546d2"
+  }
+}

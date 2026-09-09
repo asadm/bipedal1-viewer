@@ -1,0 +1,142 @@
+{
+  "scope": "One nominal initial state, five hardware priors, two timesteps, unchanged controller.",
+  "selected_trial": "deeper-tuck-3",
+  "selected_trial_sha256": "868eacd72f338ce6ae6317d197a49cdf55743975efa99cf44c61e12518ee522e",
+  "source_sha256": {
+    "native_jump_validation.py": "6454aa56ac10e5f6a4fd78b969c55d7830f96d11a90bb4ddbccae329b16c526f",
+    "native_trial.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486"
+  },
+  "all_cases_meet_jump_target": false,
+  "cases": [
+    {
+      "variant": "nominal",
+      "timestep_s": 0.00025,
+      "directory": "jump-validation-nominal-250us",
+      "report_sha256": "9866d84bfad46ea07e7b378a0d59ff2c039fef02352dcc48bc01b30e586426c1",
+      "clearance_mm": 264.3143320375357,
+      "COM_rise_mm": 195.01987233866197,
+      "all_checks_except_height_pass": true,
+      "target_jump_pass": true,
+      "failed_checks": []
+    },
+    {
+      "variant": "nominal",
+      "timestep_s": 0.000125,
+      "directory": "jump-validation-nominal-125us",
+      "report_sha256": "7c6fb7c64aba0bc6a3da1386b5e77e3285f9523065206041100a97dcb10da9b0",
+      "clearance_mm": 264.2543804780123,
+      "COM_rise_mm": 195.4181021126877,
+      "all_checks_except_height_pass": true,
+      "target_jump_pass": true,
+      "failed_checks": []
+    },
+    {
+      "variant": "mass_plus_20pct",
+      "timestep_s": 0.00025,
+      "directory": "jump-validation-mass_plus_20pct-250us",
+      "report_sha256": "038a8b72393b57cff25d907b2e1f4bade025d8fef83957037d37eb65462eb1e6",
+      "clearance_mm": 213.8636859395183,
+      "COM_rise_mm": 157.79237571374702,
+      "all_checks_except_height_pass": false,
+      "target_jump_pass": false,
+      "failed_checks": [
+        "stable_finish",
+        "wheel_clearance_250mm"
+      ]
+    },
+    {
+      "variant": "mass_plus_20pct",
+      "timestep_s": 0.000125,
+      "directory": "jump-validation-mass_plus_20pct-125us",
+      "report_sha256": "8f3aed44b63b6ad1d8bec85969fe5e85110521ec5b4c6806834edc159ac6b60c",
+      "clearance_mm": 215.46651036911433,
+      "COM_rise_mm": 157.72249885578108,
+      "all_checks_except_height_pass": false,
+      "target_jump_pass": false,
+      "failed_checks": [
+        "stable_finish",
+        "wheel_clearance_250mm"
+      ]
+    },
+    {
+      "variant": "mass_minus_20pct",
+      "timestep_s": 0.00025,
+      "directory": "jump-validation-mass_minus_20pct-250us",
+      "report_sha256": "e663d9ce06005d36d97a3393fd2e2f1e0e606e9dc3a2639b39be8ddaf4359c82",
+      "clearance_mm": 285.01221882251684,
+      "COM_rise_mm": 209.58547619245223,
+      "all_checks_except_height_pass": false,
+      "target_jump_pass": false,
+      "failed_checks": [
+        "body_clear",
+        "stable_finish",
+        "hip_limits"
+      ]
+    },
+    {
+      "variant": "mass_minus_20pct",
+      "timestep_s": 0.000125,
+      "directory": "jump-validation-mass_minus_20pct-125us",
+      "report_sha256": "be6623b4e80149b649abf51e9a9b124b44d08a93105f030a91e57a4ac0ba2ef8",
+      "clearance_mm": 283.53417824399753,
+      "COM_rise_mm": 208.10170249271656,
+      "all_checks_except_height_pass": false,
+      "target_jump_pass": false,
+      "failed_checks": [
+        "body_clear",
+        "stable_finish"
+      ]
+    },
+    {
+      "variant": "battery_9V6",
+      "timestep_s": 0.00025,
+      "directory": "jump-validation-battery_9V6-250us",
+      "report_sha256": "4404ea0a66840bfe76c8856ce82d440ac71e9ef4931c54904d170e35e3ba8331",
+      "clearance_mm": 265.29192133057046,
+      "COM_rise_mm": 195.0200115234063,
+      "all_checks_except_height_pass": false,
+      "target_jump_pass": false,
+      "failed_checks": [
+        "body_clear",
+        "stable_finish"
+      ]
+    },
+    {
+      "variant": "battery_9V6",
+      "timestep_s": 0.000125,
+      "directory": "jump-validation-battery_9V6-125us",
+      "report_sha256": "cf27dff2178d0f55e053a2505fe1a0c4333d7f40055b7432d78ea75f30a34cac",
+      "clearance_mm": 265.2570936141893,
+      "COM_rise_mm": 195.41817753024557,
+      "all_checks_except_height_pass": false,
+      "target_jump_pass": false,
+      "failed_checks": [
+        "body_clear",
+        "stable_finish",
+        "hip_limits"
+      ]
+    },
+    {
+      "variant": "higher_friction",
+      "timestep_s": 0.00025,
+      "directory": "jump-validation-higher_friction-250us",
+      "report_sha256": "722217992732f30151dfa89d977025252678209ac4be544fc4da68cba9e98f08",
+      "clearance_mm": 262.8159115906252,
+      "COM_rise_mm": 195.10414972749766,
+      "all_checks_except_height_pass": true,
+      "target_jump_pass": true,
+      "failed_checks": []
+    },
+    {
+      "variant": "higher_friction",
+      "timestep_s": 0.000125,
+      "directory": "jump-validation-higher_friction-125us",
+      "report_sha256": "38b23bf8a4107d50ecf83e189e5aa14e83f0807c98de15f2db857fa0a9f2ffbc",
+      "clearance_mm": 263.3677158656055,
+      "COM_rise_mm": 195.41467126112488,
+      "all_checks_except_height_pass": true,
+      "target_jump_pass": true,
+      "failed_checks": []
+    }
+  ]
+}

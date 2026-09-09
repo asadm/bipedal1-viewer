@@ -1,0 +1,248 @@
+{
+  "status": "passed",
+  "cases": 34,
+  "scope": "Source, dataset and checkpoint identities; separate validation episodes; current ceilings; sampled forward kinematics and final-window gates. Continuous substep guards rely on the hashed evaluator; dynamics were not rerun.",
+  "source_sha256": "ec828eab926c8e3ecc0301a640dd859b264cb7f7693ac20f3b8c1d827efa5f2d",
+  "manifest_sha256": "5a55e14c3a86b9ed94e5ab3b69427d04b7e6f50715fd3279415403c282b3399c",
+  "summary_sha256": "b29015b32fdb1329c2b530a2f3f93391674a928111ca8d48145bdbe45febaf75",
+  "recordings": [
+    {
+      "recording": "standing-75000-250us.json",
+      "sha256": "52e7ac99bafc95a031855d950def446466e4f2409fb8f48fc52013c9483b80ef",
+      "sampled_closure_m": 2.4724466916567897e-06,
+      "sampled_gear_error_rad": 4.162875981705838e-08,
+      "sampled_branch_margin": 0.9648320453142423
+    },
+    {
+      "recording": "standing-75000-125us.json",
+      "sha256": "037f00c9327ae5e7acb9e9e187f9bf31ae28c55f62aeb43006c590adeb30b22b",
+      "sampled_closure_m": 2.4723753256000665e-06,
+      "sampled_gear_error_rad": 4.187042215164638e-08,
+      "sampled_branch_margin": 0.96481849516887
+    },
+    {
+      "recording": "standing-75001-250us.json",
+      "sha256": "e9fdc3160f4112d2dbd995915dda98786cb7fee40f135386e4cfd355b1dac389",
+      "sampled_closure_m": 2.470395187327302e-06,
+      "sampled_gear_error_rad": 7.102437251660377e-08,
+      "sampled_branch_margin": 0.9648004026867453
+    },
+    {
+      "recording": "standing-75001-125us.json",
+      "sha256": "03d909943babac920b816dd3f1e4b09e33c449308d86df2e111c2066e4e6a62d",
+      "sampled_closure_m": 2.4707010473183874e-06,
+      "sampled_gear_error_rad": 7.087044870957015e-08,
+      "sampled_branch_margin": 0.9647803751454321
+    },
+    {
+      "recording": "standing-75002-250us.json",
+      "sha256": "8d2b7de521d7c7f085816027a651ed563d30955315e786b630b9c939790796a2",
+      "sampled_closure_m": 2.516364050070699e-06,
+      "sampled_gear_error_rad": 9.185412537249249e-08,
+      "sampled_branch_margin": 0.9643726633733423
+    },
+    {
+      "recording": "standing-75002-125us.json",
+      "sha256": "0793a84bd3a073b7209ea947305d5c3881820b8aebb2e382e092ac66662f72fd",
+      "sampled_closure_m": 2.5163476360503218e-06,
+      "sampled_gear_error_rad": 9.179967612737982e-08,
+      "sampled_branch_margin": 0.9643624728848361
+    },
+    {
+      "recording": "standing-75003-250us.json",
+      "sha256": "d5e42dd0e7c04da79a0ed4cabc39d3b6020e8e187fc0ef1094640903839b69a2",
+      "sampled_closure_m": 2.470389999847251e-06,
+      "sampled_gear_error_rad": 5.883335667533629e-08,
+      "sampled_branch_margin": 0.9649358242465276
+    },
+    {
+      "recording": "standing-75003-125us.json",
+      "sha256": "41b7260cfbecedb3df7a79b6e6e28d03d2267a66941264bee7a22a91d0d14829",
+      "sampled_closure_m": 2.4707407326952475e-06,
+      "sampled_gear_error_rad": 5.8841918004759464e-08,
+      "sampled_branch_margin": 0.964915256349033
+    },
+    {
+      "recording": "standing-75004-250us.json",
+      "sha256": "68daad7bb01e06a0159a6c31301736220c3c4bce920a9ebcb8e20af7a02e307a",
+      "sampled_closure_m": 2.5260669676671985e-06,
+      "sampled_gear_error_rad": 7.633830776399008e-08,
+      "sampled_branch_margin": 0.9644085989394081
+    },
+    {
+      "recording": "standing-75004-125us.json",
+      "sha256": "ca08085342c24b00a5886fcb82ffd11eea8f49c72256a101bc57b66d357fb435",
+      "sampled_closure_m": 2.526212537078895e-06,
+      "sampled_gear_error_rad": 7.63586406549166e-08,
+      "sampled_branch_margin": 0.9643859562331732
+    },
+    {
+      "recording": "standing-75005-250us.json",
+      "sha256": "efe581eb5f239d6bc3e687a97872fe08540a6875d01c4d46f37d3e8f2b1efbdb",
+      "sampled_closure_m": 2.5211864737204744e-06,
+      "sampled_gear_error_rad": 6.537205976542282e-08,
+      "sampled_branch_margin": 0.9639263936757854
+    },
+    {
+      "recording": "standing-75005-125us.json",
+      "sha256": "39322d1497f2fbbcad50ee3c97846cf6ba09baabb0d27ab3d40f409d4aa72339",
+      "sampled_closure_m": 2.5210634095847543e-06,
+      "sampled_gear_error_rad": 6.525681151003937e-08,
+      "sampled_branch_margin": 0.9639221007428037
+    },
+    {
+      "recording": "standing-75006-250us.json",
+      "sha256": "d83349c3cec2a0075bb035b818c4cbf412d0ae266a4571425f04a77776ff19c3",
+      "sampled_closure_m": 2.4708268355709016e-06,
+      "sampled_gear_error_rad": 3.329732400914054e-08,
+      "sampled_branch_margin": 0.964963663026263
+    },
+    {
+      "recording": "standing-75006-125us.json",
+      "sha256": "730ee15d5962c30b6c96fc393f50d61d82284f2d395e4f41fa47b502a8cb4689",
+      "sampled_closure_m": 2.4708097474352873e-06,
+      "sampled_gear_error_rad": 3.301965847413157e-08,
+      "sampled_branch_margin": 0.9649319756395063
+    },
+    {
+      "recording": "standing-75007-250us.json",
+      "sha256": "6418711d28912ecbedc25297ae83208b5e7c7d94b5716a5bebd9ba6ca5067c11",
+      "sampled_closure_m": 2.53065969097796e-06,
+      "sampled_gear_error_rad": 7.662563490384855e-08,
+      "sampled_branch_margin": 0.9637099764139455
+    },
+    {
+      "recording": "standing-75007-125us.json",
+      "sha256": "481086c9b2e7ce9b111c0c905c80a280509d96daf8623e85af3666c8f4f7e0f4",
+      "sampled_closure_m": 2.5306640170001677e-06,
+      "sampled_gear_error_rad": 7.655664333583445e-08,
+      "sampled_branch_margin": 0.9636962601251289
+    },
+    {
+      "recording": "near-75008-250us.json",
+      "sha256": "074afe72043e8163ae096228d8f61e26b7eaaaa2c5378d99dee475e7a40cb482",
+      "sampled_closure_m": 2.5257030963098913e-06,
+      "sampled_gear_error_rad": 1.5215427566772633e-07,
+      "sampled_branch_margin": 0.9579383327605255
+    },
+    {
+      "recording": "near-75008-125us.json",
+      "sha256": "d2180c57d1799be039dd00ff3518eef538ba01383ed4a754ebc7671cbece38be",
+      "sampled_closure_m": 2.527911245514705e-06,
+      "sampled_gear_error_rad": 1.5205606160861861e-07,
+      "sampled_branch_margin": 0.9579367620031701
+    },
+    {
+      "recording": "near-75009-250us.json",
+      "sha256": "f496316f27316b2206bf3d4cd24ff376ebf7e386e6432dccfad91553b83e785a",
+      "sampled_closure_m": 2.528064593435251e-06,
+      "sampled_gear_error_rad": 1.5076699853011632e-07,
+      "sampled_branch_margin": 0.9580406693831417
+    },
+    {
+      "recording": "near-75009-125us.json",
+      "sha256": "7deec2a17ef1656698875aab7c2f68a3e5636ab6ef077c419fccd1de21f2b421",
+      "sampled_closure_m": 2.5286658301648135e-06,
+      "sampled_gear_error_rad": 1.5081654538562362e-07,
+      "sampled_branch_margin": 0.9580560249087681
+    },
+    {
+      "recording": "near-75010-250us.json",
+      "sha256": "c3e225366379ea8e72585515105e416115df545c179740a86643f523f02cbbd1",
+      "sampled_closure_m": 2.627185638913586e-06,
+      "sampled_gear_error_rad": 1.1664351724505196e-07,
+      "sampled_branch_margin": 0.964055493380111
+    },
+    {
+      "recording": "near-75010-125us.json",
+      "sha256": "e0ac9bf67513f9ecbd3b80c5a7c7973f8186d1da3e787f54de7a0457ababf525",
+      "sampled_closure_m": 2.6266681567028365e-06,
+      "sampled_gear_error_rad": 1.1648220841209422e-07,
+      "sampled_branch_margin": 0.9640403611797265
+    },
+    {
+      "recording": "near-75011-250us.json",
+      "sha256": "a825076dccbea1e42475ee96505247950313c3afead0d42965990e81e334cd4f",
+      "sampled_closure_m": 2.535486957505639e-06,
+      "sampled_gear_error_rad": 1.5008795770654614e-07,
+      "sampled_branch_margin": 0.956390145802053
+    },
+    {
+      "recording": "near-75011-125us.json",
+      "sha256": "178baf58dfb084ad5bdee5f444cf73f5e9dbe5675d2487dc0042e3fe5aaf5b51",
+      "sampled_closure_m": 2.537554901552068e-06,
+      "sampled_gear_error_rad": 1.502864360958256e-07,
+      "sampled_branch_margin": 0.9563765903174585
+    },
+    {
+      "recording": "near-75012-250us.json",
+      "sha256": "9e69f55431adb372eb0c4b249eafa2147663761f625cd432b391e2f2c6768b7e",
+      "sampled_closure_m": 2.470748396752842e-06,
+      "sampled_gear_error_rad": 1.512498279510055e-07,
+      "sampled_branch_margin": 0.964511048047593
+    },
+    {
+      "recording": "near-75012-125us.json",
+      "sha256": "ceff4c043f87b02d3f9ba489c6a31d46eabcec960d2103c372731bcca1b3a030",
+      "sampled_closure_m": 2.4708757026598625e-06,
+      "sampled_gear_error_rad": 1.511408129317715e-07,
+      "sampled_branch_margin": 0.9644919354494671
+    },
+    {
+      "recording": "near-75013-250us.json",
+      "sha256": "273655fbff632040f5dbfcf801ad399be1f3bab668340aefec4b07b79a457735",
+      "sampled_closure_m": 2.6207781260846673e-06,
+      "sampled_gear_error_rad": 1.1271267794654704e-07,
+      "sampled_branch_margin": 0.9638631865698905
+    },
+    {
+      "recording": "near-75013-125us.json",
+      "sha256": "0411a1f2c8234fb9dd444b8c22e2bcb7c7e9da46977e1cdf0aa7c9ba37ae3b35",
+      "sampled_closure_m": 2.6184490528671706e-06,
+      "sampled_gear_error_rad": 1.1266012940325254e-07,
+      "sampled_branch_margin": 0.9638460747577174
+    },
+    {
+      "recording": "near-75014-250us.json",
+      "sha256": "15599ef2bea69a7965835ee366635f32e7a31677fb878dde450bec9e5335ce7b",
+      "sampled_closure_m": 2.5889870406325004e-06,
+      "sampled_gear_error_rad": 1.2278432848233933e-07,
+      "sampled_branch_margin": 0.9633212220548183
+    },
+    {
+      "recording": "near-75014-125us.json",
+      "sha256": "3e7a76c028c3e0fcf0c754687b113b29c6ccfba398f9d58fb198775393345991",
+      "sampled_closure_m": 2.588726149715784e-06,
+      "sampled_gear_error_rad": 1.2330499821189278e-07,
+      "sampled_branch_margin": 0.9632956903687775
+    },
+    {
+      "recording": "near-75015-250us.json",
+      "sha256": "ab94253b6002d339c63c897fed52f58499faa96f104030a33102fb243ad11439",
+      "sampled_closure_m": 2.509792486403112e-06,
+      "sampled_gear_error_rad": 1.4982960720999473e-07,
+      "sampled_branch_margin": 0.9634112141892669
+    },
+    {
+      "recording": "near-75015-125us.json",
+      "sha256": "a3b17e1e69a2cb4a9dc903321710b586e22d13994c89fc004215014f9f4e35c9",
+      "sampled_closure_m": 2.5099394886124247e-06,
+      "sampled_gear_error_rad": 1.4986929599558608e-07,
+      "sampled_branch_margin": 0.9634003139293903
+    },
+    {
+      "recording": "near-73015-250us.json",
+      "sha256": "71b73adddcdc3d4537aaf4fc6e58dc1a59940fc6abf69b12359e6e879b6c3ae6",
+      "sampled_closure_m": 2.667785487798161e-06,
+      "sampled_gear_error_rad": 1.5112919271587089e-07,
+      "sampled_branch_margin": 0.9580772025896631
+    },
+    {
+      "recording": "near-73015-125us.json",
+      "sha256": "ad9ac44c05f63fb30ceec895b248b354ad5a83fea8a383e698239ccf83ef71e7",
+      "sampled_closure_m": 2.667749795587205e-06,
+      "sampled_gear_error_rad": 1.509883468031603e-07,
+      "sampled_branch_margin": 0.9580718122545018
+    }
+  ]
+}

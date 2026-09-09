@@ -1,0 +1,160 @@
+{
+  "scope": "12 terrain geometries, independent ray and static tire-contact probes, XML/sample identity and integrated driving-command check. No skill qualification.",
+  "source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+    "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+    "native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+    "native/mass-properties.json": "0d5c5d21f94f9282dd107cc92a867e4c4f888601783eda00580f5f71d0e970c7",
+    "native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+    "native_drivetrain.py": "3994d8475929f8ae1e6fcf68a487f852c3812ec96937c796d41b499fc0304b77",
+    "native_terrain.py": "fb769fb7fc56e9e023847051c42acc8bd9d219909b1a7a34ac48b9130d70597f",
+    "shared_terrain_helpers": "af2fe776105bfacc9701113f840a991bce3e6d195f030f42c032b2dba8846347",
+    "check_native_terrain.py": "22117e213b980d1cb12f6d0888a11443314e37885f790f2555562e8c30cbb42a",
+    "native_terrain_trial.py": "3c554028a09ab2b98a9fdf3d0366b802b475db32957c32a917f0c70e4126fe0e"
+  },
+  "cases": [
+    {
+      "family": "flat",
+      "magnitude": 0,
+      "surface_sha256": "6c4cca80ba04526c1fb1540be45f298b4ef7a5a9b89723bc68e6fcf11dfdc1fd",
+      "scene_sha256": "09a0ca4e63cb36bbbd3d99aeb8623d1e6a388c718b8ac9d031a16254f56c7a61",
+      "ray_cases": 120,
+      "maximum_ray_error_m": 1.7763568394002505e-15,
+      "real_stone_contact": null,
+      "four_motors": true,
+      "no_plane": true
+    },
+    {
+      "family": "stones",
+      "magnitude": 0.01,
+      "surface_sha256": "9b7ed5b9f3047fa7c7ded1682cecb81a099b2239d2b3f20d5c2202e87b934ae2",
+      "scene_sha256": "0dc2918a0e299bf76b6b7bb232846180d3fe8f4b573cccb4b3cb39aecab35433",
+      "ray_cases": 130,
+      "maximum_ray_error_m": 2.3804742899091735e-15,
+      "real_stone_contact": true,
+      "four_motors": true,
+      "no_plane": true
+    },
+    {
+      "family": "stones",
+      "magnitude": 0.02,
+      "surface_sha256": "83d941d36464c6a5a7e650716968bd56c5f13e58a5ea044f4b1079bd4927d292",
+      "scene_sha256": "4e31f67028b0be9938508285ae74358106e3fef049a66fd4ada0a90dee94f360",
+      "ray_cases": 130,
+      "maximum_ray_error_m": 1.8596235662471372e-15,
+      "real_stone_contact": true,
+      "four_motors": true,
+      "no_plane": true
+    },
+    {
+      "family": "stones",
+      "magnitude": 0.03,
+      "surface_sha256": "110180258e183cb84a23b21ef1007dbf60a4da1af157136841b23c80a9855ae6",
+      "scene_sha256": "a13133cac0b00f9fffa1074a9553ef66c3c26618409bf2a7b18074daf3060854",
+      "ray_cases": 130,
+      "maximum_ray_error_m": 1.8145207558717402e-15,
+      "real_stone_contact": true,
+      "four_motors": true,
+      "no_plane": true
+    },
+    {
+      "family": "slope",
+      "magnitude": -10,
+      "surface_sha256": "f688fa61f2c93a1d24678aeb8f28660062b35867f29ed1c28becd4c841c4d5a1",
+      "scene_sha256": "b5bb755ebb4fe34ce3e60a807905de6b0ce49994217bc42d6ab73aa9ba088bd7",
+      "ray_cases": 120,
+      "maximum_ray_error_m": 1.9567680809018384e-15,
+      "real_stone_contact": null,
+      "four_motors": true,
+      "no_plane": true
+    },
+    {
+      "family": "slope",
+      "magnitude": -5,
+      "surface_sha256": "cf5e5a7535242602f3718225c2a2530f7c57d03e1c90e416797abe7965059964",
+      "scene_sha256": "1f43dec18373c7010447b7f2222935bcee13823fd1337a92b118f3b218341d7b",
+      "ray_cases": 120,
+      "maximum_ray_error_m": 2.581268532253489e-15,
+      "real_stone_contact": null,
+      "four_motors": true,
+      "no_plane": true
+    },
+    {
+      "family": "slope",
+      "magnitude": 5,
+      "surface_sha256": "60b0dd0861ff2f09bfb9443314636ff99318c39e112bdb9e651370f33ac31317",
+      "scene_sha256": "a799a1e0c5410ab63b60b99a94e1e7137921139fef9b5fa2b827595d99fb97d1",
+      "ray_cases": 120,
+      "maximum_ray_error_m": 2.525757381022231e-15,
+      "real_stone_contact": null,
+      "four_motors": true,
+      "no_plane": true
+    },
+    {
+      "family": "slope",
+      "magnitude": 10,
+      "surface_sha256": "45664d41326ca00d15e4a900cb9ab112aa53856ab095c8b98c4b132572224ef9",
+      "scene_sha256": "7885c8917171bb515f186f1b232486b58b95153aa5db96541248a6f287c5fb24",
+      "ray_cases": 120,
+      "maximum_ray_error_m": 1.7763568394002505e-15,
+      "real_stone_contact": null,
+      "four_motors": true,
+      "no_plane": true
+    },
+    {
+      "family": "cross_slope",
+      "magnitude": -10,
+      "surface_sha256": "1d9566d0430448b41b69bbb41df11a9368b633ef6fde53b769b3c1cfb6fc1279",
+      "scene_sha256": "9f016aefbca4436aba7b94d113f0881e89fd7a472fe945857764fb52d5369a4b",
+      "ray_cases": 120,
+      "maximum_ray_error_m": 3.0253577421035516e-15,
+      "real_stone_contact": null,
+      "four_motors": true,
+      "no_plane": true
+    },
+    {
+      "family": "cross_slope",
+      "magnitude": -5,
+      "surface_sha256": "049fdd642b97c91b82bd5b45946e0fe076bddb5f157de6968ce809235714d917",
+      "scene_sha256": "3c35ee904d544a190bb7541cef95d7acbb6b8d62bfd009db83354455fb688a19",
+      "ray_cases": 120,
+      "maximum_ray_error_m": 2.5118795932144167e-15,
+      "real_stone_contact": null,
+      "four_motors": true,
+      "no_plane": true
+    },
+    {
+      "family": "cross_slope",
+      "magnitude": 5,
+      "surface_sha256": "e16e55d4a4637f752a112b74e075f4e6bad2a96bb67edfc852c35992c5c5a380",
+      "scene_sha256": "067a3671ca880439b08ce2142d83fb73f1e1c05a08c7f0c22b7e629829216e53",
+      "ray_cases": 120,
+      "maximum_ray_error_m": 2.5604518505417673e-15,
+      "real_stone_contact": null,
+      "four_motors": true,
+      "no_plane": true
+    },
+    {
+      "family": "cross_slope",
+      "magnitude": 10,
+      "surface_sha256": "8bfc9b22f8aee25242fc8c76b8082c77e443a5e30be3c51cd46e01c7ee382a9d",
+      "scene_sha256": "337454cbc72f9d7ad37d9cb0b8ddc5c8ad25276add4b3099e5b45c5d2b222ac7",
+      "ray_cases": 120,
+      "maximum_ray_error_m": 3.164135620181696e-15,
+      "real_stone_contact": null,
+      "four_motors": true,
+      "no_plane": true
+    }
+  ],
+  "passed": true
+}

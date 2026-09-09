@@ -1,0 +1,425 @@
+{
+  "status": "passed",
+  "scope": "Report/recording/parameter/source identity, rebuilt model, sampled forward kinematics and current/voltage envelope audit. Does not re-run dynamics or turn failed recoveries into passes.",
+  "source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+    "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+    "native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+    "native/mass-properties.json": "0d5c5d21f94f9282dd107cc92a867e4c4f888601783eda00580f5f71d0e970c7",
+    "native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+    "native_drivetrain.py": "3994d8475929f8ae1e6fcf68a487f852c3812ec96937c796d41b499fc0304b77",
+    "native_recovery_trial.py": "9a1795b1416be84d50835a018985d1084174d80348e2d472103aab6bf99cd633",
+    "native_recovery_support.py": "e7a7b6d71d68a0335a131097621c6e7aaf88f7ebd41e9b13e620e070e9890157",
+    "native_trial.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486",
+    "check_native_recovery.py": "4e24551e3e53d10f3c5f80763791b7e859919acadebd15908eca8f0604f79c9c"
+  },
+  "checked_trials": 38,
+  "checked_models": 2,
+  "cases": [
+    {
+      "directory": "trials/active-seeds/back-reach240-wheel-35-250us",
+      "report_sha256": "460c21a49310744dc534fc826858b81733643d16fef3404125c5860b41549106",
+      "trajectory_sha256": "08915809f58dff87f6939d58f6edf2f7aff8ae85ddf4e9d6bc1398512f399aa3",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.005299596018178718,
+      "sampled_max_branch_error_rad": 0.0004399950614764059,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/active-seeds/back-reach240-wheel0-250us",
+      "report_sha256": "c9f370993026979dc880effa4e5991602d4e1c2aeb63096daa17018100d9f390",
+      "trajectory_sha256": "a1864bc93e0260732b22f6378b39ef8e27399136afd4d24c39baf7bc1a52f75c",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.005299858502245437,
+      "sampled_max_branch_error_rad": 0.0003409754196592729,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/active-seeds/back-reach240-wheel35-250us",
+      "report_sha256": "ee99a8153cd7b258e6f86e2f06433f9453b6d2220df0fa4b627bedfe9dbcffa0",
+      "trajectory_sha256": "2b914ddfc000919e7d65a828616ae3bd052e96fa00925e2ee9b69d90b89ac1dd",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.005815784632408127,
+      "sampled_max_branch_error_rad": 0.0004704631951764071,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/active-seeds/back-reach270-wheel-35-250us",
+      "report_sha256": "524f37283a945a6def1abc66679cd19d9a219434993fdcbb70e5bebff392c30a",
+      "trajectory_sha256": "7044e7944b045d6f5da04d1f4f4754446e2b9792e9f9df8b1b074946e15a9ce4",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.005279140867241109,
+      "sampled_max_branch_error_rad": 0.0004233993011384385,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/active-seeds/back-reach270-wheel0-250us",
+      "report_sha256": "c114e6011e8cf2ba511cfa4756822afb42ae431a305034d1fd180362fc4d899c",
+      "trajectory_sha256": "c6cdbfaad49d404a499be12f3c9a94be8a50870e89a84d43730ab3c5273deb02",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.005274610677172283,
+      "sampled_max_branch_error_rad": 0.000420674141919708,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/active-seeds/back-reach270-wheel35-250us",
+      "report_sha256": "5cf1419fb6034056b889ee6bc768020eac09daee9e06413dce6e2476b71f4ad8",
+      "trajectory_sha256": "f9ac285ec30f3b3f96f3b8fe91733f4f4c26e5d56e3c76db804547c1cc12b525",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.006074837423944562,
+      "sampled_max_branch_error_rad": 0.0007863434570141159,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/active-seeds/front-reach180-wheel-35-250us",
+      "report_sha256": "5f37e69e19663bb0890d3c93cd1eb6eaab9e7f9e71b38cacf9cbd9e64dd37073",
+      "trajectory_sha256": "d0ff1e28e3fbb0098a2a73c826315b3933e4ad6e7e6525d7b1d73687cf50383d",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.005298610441328914,
+      "sampled_max_branch_error_rad": 0.00030709606829892877,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/active-seeds/front-reach180-wheel0-250us",
+      "report_sha256": "e299779c901904e4b4df4312d09dfcbbd6018fd5f0667a541d1610db5751ffda",
+      "trajectory_sha256": "ad40618894a5c057cba7c6f3e5ef6ebd8996d55d2460e8304b358b9181c1cf9e",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.005298831044711566,
+      "sampled_max_branch_error_rad": 0.00028540159585821456,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/active-seeds/front-reach180-wheel35-250us",
+      "report_sha256": "d29cb03aedcfae4d79fee42c03e24e7e602d7cdc9ea1820dd8215bb421b07845",
+      "trajectory_sha256": "bb0998a5d5713e0c0f8fa3c805ecd48f4c83638d20d2712bffc3cc79485f5a1a",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.0055059846710509034,
+      "sampled_max_branch_error_rad": 0.0001575033176162144,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/active-seeds/front-reach250-wheel-35-250us",
+      "report_sha256": "76594dcca5b1b0caafe71be48291faadb51df0c9a51b300abf34f047cce63a98",
+      "trajectory_sha256": "adfd277c766badbdaf86f5e3f55833d548aaa48c2cdac68deeddaae2f54bfc18",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.005305327653580135,
+      "sampled_max_branch_error_rad": 0.0003553436056367154,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/active-seeds/front-reach250-wheel0-250us",
+      "report_sha256": "19806a41fd2c7445a109a4406f165c088232ab3c15c6ab9085e7a891011fe6e9",
+      "trajectory_sha256": "5dfe8cc3946c8934728eeaf73d7192957e966171d2af042aed87d0baf5a44db4",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.005302835857215171,
+      "sampled_max_branch_error_rad": 0.0003385638789286105,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/active-seeds/front-reach250-wheel35-250us",
+      "report_sha256": "c8f59b3656afc2e072e417fd438900b5842184be483014b2b257488c4e6e2ca0",
+      "trajectory_sha256": "8635b8eea17659c3fd15c2f69ec9d8542aa5e03c0d8fc94d83ff7ba814093908",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.005302168707441276,
+      "sampled_max_branch_error_rad": 0.00032101705384457446,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/held-starts/back-250us",
+      "report_sha256": "92670128091c32fb58144af88648e5eff8d6acb0dc9bad2628bc00353057964b",
+      "trajectory_sha256": "b48d69e1b33e3026966a91e1a793e1ea29e38dbbdbe822813e6f3340564c27e1",
+      "sampled_states": 32,
+      "sampled_max_closure_mm": 0.0021788778554859773,
+      "sampled_max_branch_error_rad": 8.240095927192215e-05,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/held-starts/back_left-250us",
+      "report_sha256": "189b0972d8a4a7f11c5be8a29df0f5abce89ba24532b7b44d8ef10949b255528",
+      "trajectory_sha256": "5738c5b2efd8be461177031fc45fc76554333368ca4d5b411a2b8c3ef3e98a1c",
+      "sampled_states": 32,
+      "sampled_max_closure_mm": 0.0021977702780190084,
+      "sampled_max_branch_error_rad": 0.00010657966613081271,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/held-starts/back_right-250us",
+      "report_sha256": "2e916e5a49b7c9267416f1857a65881bf306b1b47ead357115dabfbaf3abcdfb",
+      "trajectory_sha256": "3b3e3ad2f006aa56e91a2b885c8de9bd88c7534688506415358701df8dba487b",
+      "sampled_states": 32,
+      "sampled_max_closure_mm": 0.0021968888955321403,
+      "sampled_max_branch_error_rad": 0.00011263626353752443,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/held-starts/front-250us",
+      "report_sha256": "5fc53157801fae603df99de27a34fd9a9f8f441c561341f2e4f6d9df683bf04a",
+      "trajectory_sha256": "72fd66bf7a4b9594fa63f89862694ef31aea6e6759f1e5cf1bce53105266a7b8",
+      "sampled_states": 32,
+      "sampled_max_closure_mm": 0.002221810159817914,
+      "sampled_max_branch_error_rad": 0.00010747605503613755,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/held-starts/front_left-250us",
+      "report_sha256": "7e6f152a102a4d54b962bd8c9856df5dc4a8b3a185b67c8fdfbb768038b228ad",
+      "trajectory_sha256": "fb0ed9702cf2f06b0db93a9ebb82427683f65b6186e86cfb297a0a6e2ca62eff",
+      "sampled_states": 32,
+      "sampled_max_closure_mm": 0.0023911672610646543,
+      "sampled_max_branch_error_rad": 0.00016736224229951802,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/held-starts/front_right-250us",
+      "report_sha256": "38c6811cf9e5b2faf1b7c1704b3c3cee0bf0882d939b5bd3b472e06c827ca8e5",
+      "trajectory_sha256": "1b54e209d74ec36969c97fb0ac95ce32a6132ba7f5d1a4f3a1c2405e24572a0c",
+      "sampled_states": 32,
+      "sampled_max_closure_mm": 0.0024636340607643577,
+      "sampled_max_branch_error_rad": 0.0001723008416512073,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/held-starts/inverted-250us",
+      "report_sha256": "6345c03d3dc771ada59852076fad2d0b0b0e5c5752818fa16159714307cbd617",
+      "trajectory_sha256": "2e5aa69ce037aa3a6e6def801edd989ee98731da613f6658c391335b8fe3b4a1",
+      "sampled_states": 32,
+      "sampled_max_closure_mm": 0.0023007468055650866,
+      "sampled_max_branch_error_rad": 5.292491364716767e-05,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/held-starts/left-250us",
+      "report_sha256": "fbef875ef4ed171f1ffe393f3bdf83ef6c3987d5255c076cc4de1d03c27df2ea",
+      "trajectory_sha256": "361d4170649ea6eb4b67ea59eeac248df243a188f400ed84ebf189406118d381",
+      "sampled_states": 32,
+      "sampled_max_closure_mm": 0.0023324874523646035,
+      "sampled_max_branch_error_rad": 7.501871580473107e-05,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/held-starts/right-250us",
+      "report_sha256": "518be7c08bc1df2c5be3e49058b8be236b768669018d5bc2447fde86c8714d4c",
+      "trajectory_sha256": "e05041fdde09c6c3a4de4b48fd7ddd387563d126e690f0d4c215b5a9dd4d5267",
+      "sampled_states": 32,
+      "sampled_max_closure_mm": 0.0023374345728875505,
+      "sampled_max_branch_error_rad": 9.371853563155952e-05,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/rest/back-250us",
+      "report_sha256": "f4c9edbe3f240f8a9e51ac63d7108d6bf4b1b911f77666833368449c1a0dc695",
+      "trajectory_sha256": "940e3fd81e8307fdaabfb25d03d7e0dbcce232f8b7e9f1502de9791da07a015b",
+      "sampled_states": 22,
+      "sampled_max_closure_mm": 0.003604325036526413,
+      "sampled_max_branch_error_rad": 2.259798706673975,
+      "selected_linkage_branch": false,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/rest/back_left-250us",
+      "report_sha256": "0dfa9362d2ab1a1f4e03a72998ccc3eb59384514caccceab4721193a93386f1b",
+      "trajectory_sha256": "f7231bc5544869d381b9c2e992319c09acf483c2fd0e40a20751e86187342c2e",
+      "sampled_states": 22,
+      "sampled_max_closure_mm": 0.002277047415546653,
+      "sampled_max_branch_error_rad": 2.8671528853386308,
+      "selected_linkage_branch": false,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/rest/back_right-250us",
+      "report_sha256": "ab4f461d7a962e4ab2a5f590512cca2dd42f0d162f02f00e8c4ae9662bad90de",
+      "trajectory_sha256": "738d8ef1dff7e1384a5e9ed94a1a174b640c7d970b89eda71a3118ad2f67e387",
+      "sampled_states": 22,
+      "sampled_max_closure_mm": 0.0022248307323045648,
+      "sampled_max_branch_error_rad": 2.774291374731004,
+      "selected_linkage_branch": false,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/rest/front-250us",
+      "report_sha256": "f790eee45c05579e723db82fe6abf3618ea0d628b5971856398ce672d73a8b5e",
+      "trajectory_sha256": "77c15e74360591c67bf5b0d7caff2354b34f20d4262706f741d05c55234e5041",
+      "sampled_states": 22,
+      "sampled_max_closure_mm": 0.002205890301599903,
+      "sampled_max_branch_error_rad": 0.5021703401051036,
+      "selected_linkage_branch": false,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/rest/front_left-250us",
+      "report_sha256": "ddca166b0eaf0de091876be93fc1e04571fada1a22a631774a6d0e6072cedfad",
+      "trajectory_sha256": "ea65caae08c0f31082478dac71819abf534453da0d2059e426e60fe68a5776b5",
+      "sampled_states": 22,
+      "sampled_max_closure_mm": 0.006727484482567854,
+      "sampled_max_branch_error_rad": 3.13312517044974,
+      "selected_linkage_branch": false,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/rest/front_right-250us",
+      "report_sha256": "ca219f4e4a043a8c39d1aea3620ce1161a56904a5d29eb3e31ce40205a693b4c",
+      "trajectory_sha256": "e28220add5fb21745ee38bcb50b5969376b4ac2f81319a7431162522e3ef701c",
+      "sampled_states": 22,
+      "sampled_max_closure_mm": 0.006820886159840718,
+      "sampled_max_branch_error_rad": 3.1329345853299158,
+      "selected_linkage_branch": false,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/rest/inverted-250us",
+      "report_sha256": "4bc31535526c774e73a1526ce09edc998030240662abff022368747bf63fdbf2",
+      "trajectory_sha256": "9d73766ed89634ff39d2b361d2aa0a534d351aa48f00cd94f2f1744a632658af",
+      "sampled_states": 22,
+      "sampled_max_closure_mm": 0.0018605605888674334,
+      "sampled_max_branch_error_rad": 3.793197649537561e-05,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/rest/left-250us",
+      "report_sha256": "75219b619675ac3fcef534ccd4da44f39bdc19fe86575273ca7d1d6ca3c94b75",
+      "trajectory_sha256": "6f395e8da926bd977db0f386e537a3772cb9575c058629c974f8ebe175cca353",
+      "sampled_states": 22,
+      "sampled_max_closure_mm": 0.004513742896669623,
+      "sampled_max_branch_error_rad": 3.132978643408386,
+      "selected_linkage_branch": false,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/rest/right-250us",
+      "report_sha256": "aa60d79d4db53b69f6a587850b255d590c253f8120b3ff165cc0f2c20df59fa1",
+      "trajectory_sha256": "9f78faf1c938534b063dae21e216302695d531b9b2c90bb1bd86e598d6e84985",
+      "sampled_states": 22,
+      "sampled_max_closure_mm": 0.00444997718343323,
+      "sampled_max_branch_error_rad": 3.1332428246225987,
+      "selected_linkage_branch": false,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/standing-125us",
+      "report_sha256": "6e3e20c3d2087572f3c09a8ae15f3b9f023fa11814e340a56ec162c13dc7021a",
+      "trajectory_sha256": "94abfba2dd25dbb3b1c56f922bee6261a3e95aae2bdd4a8c60171671a1e6865c",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.0024722246160006635,
+      "sampled_max_branch_error_rad": 1.0462947713119064e-05,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": true
+    },
+    {
+      "directory": "trials/standing-250us-recorded",
+      "report_sha256": "256c83f4bda6a2768feaa9c1bcec42e9b2e82b106af156c687a20f092f1cd381",
+      "trajectory_sha256": "04fa7d6c1d7aa6ea297438737a58c2943512e6fbccb6c1c6a1c12df00d606e45",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.0024718994056643485,
+      "sampled_max_branch_error_rad": 1.0386875700874043e-05,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": true
+    },
+    {
+      "directory": "trials/turnaround/back-q-110-t300-250us",
+      "report_sha256": "554f2d07ae7e8c913f3ba9580eaf51b619efb58d1f4fe54a46b5de6a19b66462",
+      "trajectory_sha256": "c489ef591d0273e63a4fa7dcd302d8127a493ef6ade96bb99f6c8b070634ef38",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.005149416764518319,
+      "sampled_max_branch_error_rad": 0.00037591768219691346,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/turnaround/back-q-110-t450-250us",
+      "report_sha256": "e8e7592092a9afc8c170aa87d8924348d603a58fdd9d5fbcb1d8d7026472b1e6",
+      "trajectory_sha256": "ff4f629d31fdceaf65e13c939d5a9de1d8a253b334e77d2a75c25477250c6b55",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.0052840863451879775,
+      "sampled_max_branch_error_rad": 0.00026347647903435245,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/turnaround/back-q-70-t300-250us",
+      "report_sha256": "442d13be442150a3f3f4a3d47cc9000fdc8bb9562334bf145f51ad981be6751e",
+      "trajectory_sha256": "9c8d6ff8896479a2d9f0d9fc690cce7e732d0de34bcdc1732ac2f53a5c33b013",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.005283446850677625,
+      "sampled_max_branch_error_rad": 0.00015119907814620248,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/turnaround/back-q-70-t450-250us",
+      "report_sha256": "836c7f93db05bf5360c047333ea2a2a86088f1b209ddf42bdd8cf7f578a49797",
+      "trajectory_sha256": "8d477c40397f9b4c463253c40c757aa891f1497019d8ec9cd1532ccea888e03e",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.005275283080929606,
+      "sampled_max_branch_error_rad": 0.00018067032963786644,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/turnaround/front-q95-t250-250us",
+      "report_sha256": "be7c98f2bd27471dbe87790fe0de25907f7043b75446d3d3875ed1f77e8757ba",
+      "trajectory_sha256": "b83609b522321cc4b9efb7691e32547b5522ab8a788950e2297eb74d2452556d",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.002099507472548975,
+      "sampled_max_branch_error_rad": 8.42547868007415e-05,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    },
+    {
+      "directory": "trials/turnaround/front-q95-t500-250us",
+      "report_sha256": "4c759e26065ec0eda0e70953dc1051e33a55b43d31798a8cae697d6eb01c92ca",
+      "trajectory_sha256": "3e4c5408f9af817639021b5c8f437cb6dfbdb1405a29b3fe535155476a71a96e",
+      "sampled_states": 82,
+      "sampled_max_closure_mm": 0.0020988202559401098,
+      "sampled_max_branch_error_rad": 0.00017227536552155698,
+      "selected_linkage_branch": true,
+      "recorded_trial_pass": false
+    }
+  ],
+  "accepted_reset_families": [
+    "front",
+    "back",
+    "inverted"
+  ],
+  "quarantined_wrong_branch_trials": [
+    "trials/rest/back-250us",
+    "trials/rest/back_left-250us",
+    "trials/rest/back_right-250us",
+    "trials/rest/front-250us",
+    "trials/rest/front_left-250us",
+    "trials/rest/front_right-250us",
+    "trials/rest/left-250us",
+    "trials/rest/right-250us"
+  ]
+}

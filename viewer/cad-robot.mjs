@@ -3,7 +3,7 @@ import {leg} from '../concept06/internal-kinematics.mjs';
 import {springSeats} from './cad-pose.mjs';
 
 // Join normals across CAD face boundaries without rounding sharp design edges.
-function shellNormals(source) {
+export function shellNormals(source) {
   const g = source.toNonIndexed(), pos = g.getAttribute('position'), normals = [], at = new Map(), keys = [];
   const a = new THREE.Vector3(), b = new THREE.Vector3(), c = new THREE.Vector3();
   for (let i = 0; i < pos.count; i += 3) {
@@ -72,10 +72,11 @@ export function cadRobot(parts, parameters) {
         : relative(groups.chassis.quaternion, groups[gear.side + '_upper'].quaternion) - parameters.nominal_q_rad;
       gear.pivot.rotation.y = angle * gear.ratio;
     }
-    springSeats(parameters, frame.bodies).forEach(([a, b], i) => {
+    const explicitSpringSegments = frame.spring_segments_m;
+    (explicitSpringSegments ?? springSeats(parameters, frame.bodies)).forEach(([a, b], i) => {
       const start = new THREE.Vector3(...a).multiplyScalar(1000), end = new THREE.Vector3(...b).multiplyScalar(1000);
       const direction = end.sub(start), length = direction.length(); direction.normalize();
-      const fitting = (parameters.spring.free_pin_span_m - parameters.spring.free_length_m) * 500;
+      const fitting = explicitSpringSegments ? 0 : (parameters.spring.free_pin_span_m - parameters.spring.free_length_m) * 500;
       springs[i].position.copy(start).addScaledVector(direction, fitting);
       springs[i].quaternion.setFromUnitVectors(new THREE.Vector3(1, 0, 0), direction);
       // A compression spring becomes unloaded beyond its free length; it

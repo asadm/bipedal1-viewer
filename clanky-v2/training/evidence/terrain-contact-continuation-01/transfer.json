@@ -1,0 +1,349 @@
+{
+  "files": [
+    {
+      "path": "command-clone-01-0.02-125us.npz",
+      "bytes": 319902,
+      "sha256": "ab9da223f2b9cd29f7554776584766ddb861d7d116783e436021461ad5670fdb"
+    },
+    {
+      "path": "command-clone-01-0.02-250us.npz",
+      "bytes": 319767,
+      "sha256": "b0df3863d9db6d91582dd64f7a28ad077c915094a94e349b8d8c0f3a27cb85a3"
+    },
+    {
+      "path": "command-clone-01-0.03-125us.npz",
+      "bytes": 273256,
+      "sha256": "8210cdaeef1a11f3c3a7ac0756e6d78f4a3ea9838f9c719598a796ada36fa074"
+    },
+    {
+      "path": "command-clone-01-0.03-250us.npz",
+      "bytes": 276239,
+      "sha256": "6ffce20b489f45d608d81e6b526cb7d33539b6373fefad0fc3491ad1bd36a70a"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 10287,
+      "sha256": "a80499c5ced557ef2b0661c434eee2a9f52d4830efb302f7a58e9d91f92c8ff6"
+    },
+    {
+      "path": "progress.json",
+      "bytes": 31,
+      "sha256": "f75d712282c61c78663f876cf5f32005766a0b42d71f9e7902dd31e155eaa3e5"
+    },
+    {
+      "path": "recording-audit.json",
+      "bytes": 3346,
+      "sha256": "8588128c8359f8ff196c23bdb12b4cbb59f17fac8c0a48769d69b67df1e3db77",
+      "local_path": "recording-audit-remote.json"
+    },
+    {
+      "path": "source/balance_dagger.py",
+      "bytes": 6893,
+      "sha256": "f2f0e5ce447cb04dcb60663a6d8ba1e07891ed98c1dde3fc5ac6ba8e1e03fe26"
+    },
+    {
+      "path": "source/balance_teacher.py",
+      "bytes": 3798,
+      "sha256": "b6e2e919240228084437bf59ec49537d3a165f6d3ff47691f554d9bcf78e4e09"
+    },
+    {
+      "path": "source/command_driving.py",
+      "bytes": 11773,
+      "sha256": "34d3a9ac92222b5414a8731ba8a891d09fa30ae02fc4ea43905e3e445ddb18cd"
+    },
+    {
+      "path": "source/environment.py",
+      "bytes": 14742,
+      "sha256": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb"
+    },
+    {
+      "path": "source/evaluate.py",
+      "bytes": 7410,
+      "sha256": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef"
+    },
+    {
+      "path": "source/guided_balance.py",
+      "bytes": 11814,
+      "sha256": "84282cffce9fa6598b431726e03e168da5c40cddaef09dd6dbdfb900d20234bb"
+    },
+    {
+      "path": "source/teacher_reference.py",
+      "bytes": 17551,
+      "sha256": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486"
+    },
+    {
+      "path": "source/terrain-assets/bumps-0.008-731.npz",
+      "bytes": 90380,
+      "sha256": "c822560eaeeb0a35d2d62f47990fc003ae421b32e7cb6f2b216d65ae06a1626e"
+    },
+    {
+      "path": "source/terrain-assets/bumps-0.008-740.npz",
+      "bytes": 90474,
+      "sha256": "2d70a4ed558818499c361850309dc0b89855700c9b02071c02cd59862201eafa"
+    },
+    {
+      "path": "source/terrain-assets/bumps-0.008-741.npz",
+      "bytes": 90458,
+      "sha256": "bdac69c0ba5a9eeea8777cc45c4db4f113b140d09122665c8c079a1fc06cdaf3"
+    },
+    {
+      "path": "source/terrain-assets/bumps-0.008-742.npz",
+      "bytes": 90524,
+      "sha256": "ab45ec115e65d7ed24c8bb2e4d43b449a4f619694c8e84093255ea7b248e6e43"
+    },
+    {
+      "path": "source/terrain-assets/bumps-0.008-743.npz",
+      "bytes": 90390,
+      "sha256": "919895ef280a63ff5cd74d8dad05a03a5e9d37719830864e827c215c0100eff4"
+    },
+    {
+      "path": "source/terrain-assets/cross_slope--10-731.npz",
+      "bytes": 55514,
+      "sha256": "63efad09814cd1363fe31fd10ad7594637ee87dc0e1d738e48e6a009bd8565ff"
+    },
+    {
+      "path": "source/terrain-assets/cross_slope--5-731.npz",
+      "bytes": 55508,
+      "sha256": "e7baf5f8a0f11ad97e7d5f366a3041e3c7af3db4de62927c96eb4a5c0c81bb00"
+    },
+    {
+      "path": "source/terrain-assets/cross_slope--5-740.npz",
+      "bytes": 55513,
+      "sha256": "c92e1256754df42b3dd1509cd76d9e9b7148ee461372b542765ffab21583b9fa"
+    },
+    {
+      "path": "source/terrain-assets/cross_slope--5-741.npz",
+      "bytes": 55506,
+      "sha256": "d12925ed94e96a9164687246f43643664ac8cd5932fee0bed19a01ddae0a688d"
+    },
+    {
+      "path": "source/terrain-assets/cross_slope--5-742.npz",
+      "bytes": 55512,
+      "sha256": "09805fec27ef96c199b706101d3a098c8658b91b6420e45086d1e341b56f9d42"
+    },
+    {
+      "path": "source/terrain-assets/cross_slope--5-743.npz",
+      "bytes": 55516,
+      "sha256": "1037943bbee84fbb1d2ee162a9428a61547eeb3336f3a1fe8512f993adebf608"
+    },
+    {
+      "path": "source/terrain-assets/cross_slope-10-731.npz",
+      "bytes": 55523,
+      "sha256": "f2607480963dd4a4b5e801b68137a03e74befd1ba7f266c6476f1777b97f6bfc"
+    },
+    {
+      "path": "source/terrain-assets/cross_slope-5-731.npz",
+      "bytes": 55515,
+      "sha256": "435a0d783ebeabe822edc40365582e86cbf0ff9d88dca9f2287923d50c9636e9"
+    },
+    {
+      "path": "source/terrain-assets/cross_slope-5-740.npz",
+      "bytes": 55521,
+      "sha256": "d60e73df7255cd953d3373d22d097d99e2640e49adef52aed4e1c3d9a0440a28"
+    },
+    {
+      "path": "source/terrain-assets/cross_slope-5-741.npz",
+      "bytes": 55518,
+      "sha256": "9ee43174bd46d7c9efa9ba25c6fe382ad89df3b0b26fb167bfa08a42768aa0f8"
+    },
+    {
+      "path": "source/terrain-assets/cross_slope-5-742.npz",
+      "bytes": 55521,
+      "sha256": "b941d3efd7e1cb8149d57a4218fe0575dd847945fd4b817fc7dc7a12e6759b9b"
+    },
+    {
+      "path": "source/terrain-assets/cross_slope-5-743.npz",
+      "bytes": 55525,
+      "sha256": "a2bb96aa871074e4469b54914bd7cdfb0187c58a4e41d174aaff208d1b0d1309"
+    },
+    {
+      "path": "source/terrain-assets/flat-0-731.npz",
+      "bytes": 1539,
+      "sha256": "0f4d8b63989d4a772d06777450987115d1ab047405b823726d847b0bb5ad66ac"
+    },
+    {
+      "path": "source/terrain-assets/flat-0-740.npz",
+      "bytes": 1540,
+      "sha256": "673c1b6f596cf8a8a7ac01abdd4af81382bc5c5c35aeb02f6de905c172067368"
+    },
+    {
+      "path": "source/terrain-assets/flat-0-741.npz",
+      "bytes": 1535,
+      "sha256": "90ca18029abc330d462bc38a58b0b562e01469c8d2c42a93845cddf7a9bd6e0e"
+    },
+    {
+      "path": "source/terrain-assets/flat-0-742.npz",
+      "bytes": 1538,
+      "sha256": "140107487cb40abc7646f66473c86ff495e78c31447844f0d8898e8c79cd385c"
+    },
+    {
+      "path": "source/terrain-assets/flat-0-743.npz",
+      "bytes": 1539,
+      "sha256": "20da9ee016a9c2c0f53e97061843c8b44d38a590d8e89d8e28fcb2fccbd3f4fe"
+    },
+    {
+      "path": "source/terrain-assets/slope--10-731.npz",
+      "bytes": 4527,
+      "sha256": "46f8fdd2692c3ab2db989cf89459669801593e82b8611dedca713df4da338f2d"
+    },
+    {
+      "path": "source/terrain-assets/slope--5-731.npz",
+      "bytes": 4521,
+      "sha256": "0c3ccc7653184cb09d11b638f08dbc3bc58dfb5ef830b06a96c1d15b0b726db7"
+    },
+    {
+      "path": "source/terrain-assets/slope--5-740.npz",
+      "bytes": 4523,
+      "sha256": "d88244f86bd0afcef063b403516319bc6b580f1222754480819b275b4052396f"
+    },
+    {
+      "path": "source/terrain-assets/slope--5-741.npz",
+      "bytes": 4517,
+      "sha256": "71f3d19985e15497375eaaf3a0f5aeb9148c24715abff059b5354eae591d9751"
+    },
+    {
+      "path": "source/terrain-assets/slope--5-742.npz",
+      "bytes": 4518,
+      "sha256": "333712b142ce6440058734b885f48d8670553cc6cefd835dca2093e412f5cadc"
+    },
+    {
+      "path": "source/terrain-assets/slope--5-743.npz",
+      "bytes": 4522,
+      "sha256": "e9edbd2d016406acfea3542bfd662dfeff007f961033c78a8e366562add55d55"
+    },
+    {
+      "path": "source/terrain-assets/slope-10-731.npz",
+      "bytes": 4511,
+      "sha256": "28c38658ad8d13817c34b6ce28e17a1832f52f588979382ba183a53d663df060"
+    },
+    {
+      "path": "source/terrain-assets/slope-5-731.npz",
+      "bytes": 4502,
+      "sha256": "a33bc15db70be37f9531a2acb399840e3fcc773c754bf7d20b37bf67475ed711"
+    },
+    {
+      "path": "source/terrain-assets/slope-5-740.npz",
+      "bytes": 4506,
+      "sha256": "10358e83673b05a16d97627ddd1239fec32a7f978a40fe2320fe6c406521906d"
+    },
+    {
+      "path": "source/terrain-assets/slope-5-741.npz",
+      "bytes": 4503,
+      "sha256": "4822c750234697ed536ba7af7c80cf9741f81d4158debcdb39f63dd1f6d19c1d"
+    },
+    {
+      "path": "source/terrain-assets/slope-5-742.npz",
+      "bytes": 4506,
+      "sha256": "1f32cdc9e480cde84f9b2ad8030bebe2d33e65cca4102d9653d2167a93721a44"
+    },
+    {
+      "path": "source/terrain-assets/slope-5-743.npz",
+      "bytes": 4508,
+      "sha256": "eccadf38c41fc9908996dc368bc2566190decc403fc5743b41fa960dc81d0667"
+    },
+    {
+      "path": "source/terrain-assets/stones-0.01-731.npz",
+      "bytes": 12218,
+      "sha256": "ec212710d2450fcd58e37602fd621f7d58da45367ae5915e4d3ac8aeb6c4f916"
+    },
+    {
+      "path": "source/terrain-assets/stones-0.01-740.npz",
+      "bytes": 12763,
+      "sha256": "cec8281704a2aa127deada1f5cb2351d91f0c623737bb4b2b3416aff9af0770b"
+    },
+    {
+      "path": "source/terrain-assets/stones-0.01-741.npz",
+      "bytes": 12563,
+      "sha256": "2cd2c16039339ea2a4551ded55e85e1ccccbcbc6bcf2d961bfaa2cb83d89f732"
+    },
+    {
+      "path": "source/terrain-assets/stones-0.01-742.npz",
+      "bytes": 12545,
+      "sha256": "9ecce81942c5bd47fb66a8a14f35a6afef4e500727310c33d17ed7dc15e3317e"
+    },
+    {
+      "path": "source/terrain-assets/stones-0.01-743.npz",
+      "bytes": 12687,
+      "sha256": "c98ca44b24a1f02e32ea6fd69806e93f8c41b7b434cf936fe7e7a6757e1f5416"
+    },
+    {
+      "path": "source/terrain-assets/stones-0.02-731.npz",
+      "bytes": 12222,
+      "sha256": "179e8d3be87f57ce6f4553ee0c6a93efe6d0b6563af1a9ca2de535921ddeb04b"
+    },
+    {
+      "path": "source/terrain-assets/stones-0.02-740.npz",
+      "bytes": 12769,
+      "sha256": "e2ad6c29becfdf6ef78ad7ab37df90e953f91ac90bfd87a3cda73e69cb8baee5"
+    },
+    {
+      "path": "source/terrain-assets/stones-0.02-741.npz",
+      "bytes": 12571,
+      "sha256": "938f6680fd27f4935a58282b498ba5a4110d0917a2fcc2ffcbb4e871d5038222"
+    },
+    {
+      "path": "source/terrain-assets/stones-0.02-742.npz",
+      "bytes": 12553,
+      "sha256": "d636c1abc1b231f0bc935f0697df290d82e1315f9b7dc85e34b559a853a98ec6"
+    },
+    {
+      "path": "source/terrain-assets/stones-0.02-743.npz",
+      "bytes": 12688,
+      "sha256": "223a0a0848683ea0720a212f121ead78e9636d984531934a6c246a6ba08b4649"
+    },
+    {
+      "path": "source/terrain-assets/stones-0.03-731.npz",
+      "bytes": 12213,
+      "sha256": "a46e27cf774ff7ee8c316ef95cdf4513430bd6e2166b7d8d5f8a4ef52db92abf"
+    },
+    {
+      "path": "source/terrain_contact_continuation.py",
+      "bytes": 11179,
+      "sha256": "54f49b5beb28c995b7b0328d965d2dc5b2c93d467b9c5e3c4661f0d7e35b901e"
+    },
+    {
+      "path": "source/terrain_courses.py",
+      "bytes": 2797,
+      "sha256": "9bcc441dd4ca3052e93b19a1ca2c07a05d7bb4593a1778f0b260a9731b56565c"
+    },
+    {
+      "path": "source/terrain_driving.py",
+      "bytes": 16748,
+      "sha256": "f3db8b07d23c0aabb0c814b308109078ca46062f1b44ca10d6faeed108a81f9c"
+    },
+    {
+      "path": "source/terrain_reference.py",
+      "bytes": 7557,
+      "sha256": "af2fe776105bfacc9701113f840a991bce3e6d195f030f42c032b2dba8846347"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 58003,
+      "sha256": "00d29a32101a8b47e760cfc242939ed81943ca9277a40d5c097ca8c9ba22b09e"
+    },
+    {
+      "path": "terrain-clone-01-0.02-125us.npz",
+      "bytes": 647878,
+      "sha256": "46c511c87f382b2d024e21eb0d656dbbfdbc594e1c32ca97dea52a88ac1245da"
+    },
+    {
+      "path": "terrain-clone-01-0.02-250us.npz",
+      "bytes": 831274,
+      "sha256": "03b023c66d0f5333f435c23553d7d611c804710a910def35117c494b0a264318"
+    },
+    {
+      "path": "terrain-clone-01-0.03-125us.npz",
+      "bytes": 831618,
+      "sha256": "ba3e6d836ef582acb8704ab9678bfbb8f67dbbcba4c8e40a181f581f897e12eb"
+    },
+    {
+      "path": "terrain-clone-01-0.03-250us.npz",
+      "bytes": 828782,
+      "sha256": "69828ace70650f7133da077a7b965c08951dc03a20c7d337a41976a44b2944e8"
+    }
+  ],
+  "files_count": 68,
+  "bytes": 5830710,
+  "status": "verified_local_copy",
+  "remote_root": "/dev/shm/clanky-contact-20260909-01/training/evidence/terrain-contact-continuation-01"
+}

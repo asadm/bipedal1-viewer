@@ -1,0 +1,18 @@
+{
+  "retrieved_utc": "2026-09-09T03:16:47.197991+00:00",
+  "files": [
+    {
+      "file": "cnhl-450-6s-product.json",
+      "url": "https://chinahobbyline.com/products/cnhl-ministar-series-450mah-22-2v-6s-70c-lipo-battery-with-xt30-plug.js",
+      "bytes": 10602,
+      "sha256": "db17c4b11d8fc00930d358856b644b557a2182a40b7c6b918642f3dd508302a9"
+    },
+    {
+      "file": "flipsky-dual-420-product.json",
+      "url": "https://flipsky.net/products/dual-fsesc4-20-plus-based-on-vesc-with-anodized-aluminum-heatsink.js",
+      "bytes": 10755,
+      "sha256": "bbde8fb811c05a7dbb411366fa3090c307efcdbd1ea37986604c24a9788d91cc"
+    }
+  ],
+  "adopted": false
+}

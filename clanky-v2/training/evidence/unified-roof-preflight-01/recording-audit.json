@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "recording": "left-85000-lower-250us.npz",
+      "sha256": "d30a75c3defb624319634f013214803aec3238894c5bb1e4efe57f2bcccb8735",
+      "passed": true,
+      "native_valid": true,
+      "selected_route": "inverted",
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.28323298166281e-06,
+      "sampled_gear_error_rad": 1.7405882921650572e-07,
+      "sampled_branch_margin": 0.5764577123664978
+    },
+    {
+      "recording": "left-85000-lower-125us.npz",
+      "sha256": "934c98d4b4ce0c772fd3c366c08d6d9cdc41e18d13a3636c24dbac8e9c152e05",
+      "passed": true,
+      "native_valid": true,
+      "selected_route": "inverted",
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.283179875678236e-06,
+      "sampled_gear_error_rad": 2.033504642895423e-07,
+      "sampled_branch_margin": 0.576457564819642
+    },
+    {
+      "recording": "right-85001-lower-250us.npz",
+      "sha256": "738d6f37604ec2160f11243591fe38bb0a067328bdfe8b26e567ad148a74ddeb",
+      "passed": true,
+      "native_valid": true,
+      "selected_route": "inverted",
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.3938069930622715e-06,
+      "sampled_gear_error_rad": 1.63959682097925e-07,
+      "sampled_branch_margin": 0.5764585531245745
+    },
+    {
+      "recording": "right-85001-lower-125us.npz",
+      "sha256": "8196b5b0816f263e348693247d50679860deee77e106be5429e872144ef79d2a",
+      "passed": true,
+      "native_valid": true,
+      "selected_route": "inverted",
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.442352519920655e-06,
+      "sampled_gear_error_rad": 1.6611547906109081e-07,
+      "sampled_branch_margin": 0.5764584514829947
+    }
+  ],
+  "summary_sha256": "f38cf511c37bd698a3b36f79b615b158344f3df99dd48b10ac056f48aa6b202e",
+  "source_sha256": {
+    "audit_unified_recovery.py": "116b0538c83f8b1fe666dc771ba00fbc39d08787fd4c6d9c65dc5aca259d786b"
+  },
+  "scope": "Verifies source/reference/recording identities, every declared trial and initial seeded state, every sensor-based controller selection/action/phase, continuous timing and native state/current at routing. Standing-release cases additionally check recorded body contact before recovery. Independently reconstructs sampled IMU, encoders, COM, velocity, linkage constraints and final-window posture gates. Recorded contacts and continuous guards rely on the hashed runner; no full dynamics rerun or mechanical qualification. Failed and unsupported recoveries remain failures."
+}

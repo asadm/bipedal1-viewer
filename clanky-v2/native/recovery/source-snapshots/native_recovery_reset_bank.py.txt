@@ -1,0 +1,116 @@
+"""Create physically settled, motor-held fallen starts for future V2 training.
+
+These are reset states, not successful get-ups. The initial CAD-supported pose
+is released onto the plane while the existing motors hold their hip targets.
+No body support force, root pose prescription or velocity zeroing follows reset.
+"""
+
+import json
+import math
+from pathlib import Path
+
+import mujoco
+import numpy as np
+from native_cad import BASE, digest
+from native_drivetrain import build, parameters
+from native_recovery_support import FAMILIES, OUT
+from native_recovery_trial import run
+
+
+def main():
+    p = parameters("explicit")
+    m, xml = build(p)
+    source = digest(Path(__file__))
+    rows = []
+    for family in FAMILIES:
+        config = dict(
+            family=family,
+            initial_hips=[0.419, 0.419],
+            duration_s=3.0,
+            passive_s=0.0,
+            disable_capture=True,
+            knots=[[0.0, 0.419, 0.419, 0.0, 0.0], [3.0, 0.419, 0.419, 0.0, 0.0]],
+        )
+        name = "held-starts/" + family + "-250us"
+        report = run(p, m, xml, config, name)
+        folder = OUT / "trials" / name
+        record = json.loads((folder / "trajectory.json").read_text())
+        frames = [r for r in record["frames"] if r["t"] > 2.5]
+        data = mujoco.MjData(m)
+        metrics = []
+        initial = mujoco.MjData(m)
+        initial.qpos[:] = record["frames"][0]["qpos"]
+        mujoco.mj_forward(m, initial)
+        intended = -initial.body("chassis").xmat.reshape(3, 3)[2]
+        for row in frames:
+            data.qpos[:] = row["qpos"]
+            data.qvel[:] = row["qvel"]
+            mujoco.mj_forward(m, data)
+            velocity = np.zeros(6)
+            mujoco.mj_objectVelocity(
+                m, data, mujoco.mjtObj.mjOBJ_BODY, m.body("chassis").id, velocity, 0
+            )
+            projected = -data.body("chassis").xmat.reshape(3, 3)[2]
+            metrics.append(
+                dict(
+                    speed=float(np.linalg.norm(velocity[3:])),
+                    angular=float(np.linalg.norm(velocity[:3])),
+                    direction_match=float(projected @ intended),
+                    upright=float(-projected[2]),
+                )
+            )
+        checks = {k: v for k, v in report["checks"].items() if k != "stable_finish"}
+        checks.update(
+            settled=max(r["speed"] for r in metrics) < 0.01
+            and max(r["angular"] for r in metrics) < 0.05,
+            remains_fallen=max(r["upright"] for r in metrics) < 0.7,
+            family_retained=min(r["direction_match"] for r in metrics) > math.cos(math.radians(40)),
+        )
+        last = record["frames"][-1]
+        row = dict(
+            family=family,
+            accepted=all(checks.values()),
+            checks=checks,
+            max_tail_speed_m_s=max(r["speed"] for r in metrics),
+            max_tail_angular_speed_rad_s=max(r["angular"] for r in metrics),
+            min_family_direction_match=min(r["direction_match"] for r in metrics),
+            qpos=last["qpos"],
+            qvel=last["qvel"],
+            current_A=last["current_A"],
+            ctrl_Nm=last["ctrl"],
+            model_sha256=report["model_sha256"],
+            source_sha256=report["source_sha256"],
+            directory=name,
+            report_sha256=digest(folder / "report.json"),
+            trajectory_sha256=digest(folder / "trajectory.json"),
+        )
+        rows.append(row)
+        print(
+            json.dumps(
+                dict(
+                    family=family,
+                    reset_accepted=row["accepted"],
+                    failed=[k for k, v in checks.items() if not v],
+                )
+            ),
+            flush=True,
+        )
+    assert digest(Path(__file__)) == source
+    result = dict(
+        schema=1,
+        wheel_diameter_mm=120,
+        source_sha256={Path(__file__).name: source},
+        purpose="Nominal motor-held fallen reset candidates, not recovery successes or a randomized evaluation bank",
+        limitations=[
+            "Only one initial leg pose per family; failed candidates retained and excluded from accepted starts.",
+            "Positions, velocities, actual motor currents and commanded torques retained; this is not a complete integrator/warm-start checkpoint.",
+            "Training engine import, current/guide-state reset handling, CPU/GPU agreement and perturbation validation remain to be implemented.",
+        ],
+        accepted_families=[r["family"] for r in rows if r["accepted"]],
+        cases=rows,
+    )
+    (OUT / "held-reset-bank.json").write_text(json.dumps(result, indent=2, allow_nan=False) + "\n")
+
+
+if __name__ == "__main__":
+    main()

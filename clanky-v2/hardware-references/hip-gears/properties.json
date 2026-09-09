@@ -1,0 +1,89 @@
+{
+  "status": "supplier_cad_properties_for_unadopted_16_to_1_hip_drive",
+  "parts": {
+    "2302-0014-0080": {
+      "teeth": 80,
+      "mass_g": 25,
+      "price_usd": 13.79,
+      "axis": "X",
+      "bore_radius": 7,
+      "solids": 1,
+      "volume_mm3": 9154.628373188249,
+      "normalized_bounds_mm": [
+        -32.8000001,
+        32.8000001,
+        3.148429935273707e-16,
+        6.000000200000032,
+        -32.8000001,
+        32.8000001
+      ],
+      "inertia_about_shaft_kg_m2": 1.5619729665202466e-05,
+      "step_sha256": "dd2ae620f2d89e71a8eb9177a3792f4c0ea7f2323838b2277d2b9634900b9a04"
+    },
+    "2302-0014-0060": {
+      "teeth": 60,
+      "mass_g": 14,
+      "price_usd": 11.39,
+      "axis": "X",
+      "bore_radius": 7,
+      "solids": 1,
+      "volume_mm3": 5114.598779457758,
+      "normalized_bounds_mm": [
+        -24.800000100007296,
+        24.800000100011175,
+        7.738637795809709e-16,
+        6.000000200000008,
+        -24.80000010000731,
+        24.800000100011495
+      ],
+      "inertia_about_shaft_kg_m2": 5.181356473276863e-06,
+      "step_sha256": "0ff5026d07e04967b1f2edb536bbf63a42f4df5e326c717b156aecc888d293f5"
+    },
+    "2303-1006-0020": {
+      "teeth": 20,
+      "mass_g": 15,
+      "price_usd": 10.59,
+      "axis": "Z",
+      "bore_radius": 3,
+      "solids": 2,
+      "volume_mm3": 1930.8283671234717,
+      "normalized_bounds_mm": [
+        -8.8000001,
+        8.8000001,
+        4.1920920521124365e-16,
+        14.000000200000008,
+        -8.800000099999997,
+        8.800000100000004
+      ],
+      "inertia_about_shaft_kg_m2": 4.854261172709814e-07,
+      "step_sha256": "435d078a198b5dbdfd7e2b11870d60daf6a4b405be38f9629d66b1c0bf38ef4c"
+    },
+    "2303-1006-0015": {
+      "teeth": 15,
+      "mass_g": 9.1,
+      "price_usd": 9.99,
+      "axis": "Z",
+      "bore_radius": 3,
+      "solids": 2,
+      "volume_mm3": 1137.4548510037441,
+      "normalized_bounds_mm": [
+        -6.785146845986641,
+        6.785146845986634,
+        -1.9442410459470985e-17,
+        14.000000200000002,
+        -6.800000100000001,
+        6.701022567955299
+      ],
+      "inertia_about_shaft_kg_m2": 2.1151714525349446e-07,
+      "step_sha256": "222d32c757ac7b33ddfa17d63090af5297277b88a6a8105d40edb6ab669803f6"
+    }
+  },
+  "per_hip_gear_mass_g": 63.1,
+  "per_hip_gear_price_usd": 45.76,
+  "price_basis": "Displayed single quantities, retrieved 2026-09-09 UTC; excludes tax, shipping, hubs, shafts, bearings and modification.",
+  "source_sha256": "580af351bd824a0d9514632ff080fb9a0f535cc9ff77679f4706c287b86c01f5",
+  "limitations": [
+    "CAD inertia assumes uniform density normalized to catalog mass, not measured inertia.",
+    "Catalog pages do not provide a qualified torque/fatigue rating for this duty."
+  ]
+}

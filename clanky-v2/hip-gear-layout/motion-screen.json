@@ -1,0 +1,29 @@
+{
+  "status": "fixed_drive_envelope_vs_moving_legs_mesh_diagnostic",
+  "poses": 405,
+  "contacts": [],
+  "left_new_spring_clear": true,
+  "right_original_spring_clear": true,
+  "mirrored_revised_right_clear": true,
+  "mirrored_revised_right_contacts": [],
+  "complete_drive_validated": false,
+  "source_sha256": {
+    "check_hip_gear_motion.py": "ba379972b4e618f47aa2d7ca25ae4e65966c0599e608ace903d61726d4d4ce21",
+    "hip-gear-layout/envelopes.json": "e8c701d96a555394bc5ae63fb12db479b744cabe1c12ab5543e5c2ead215c06f",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "check_coaxial_spring.py": "a5edba09a7d3916dea1b94b27d717721e961c853cb96d20b5085989440bc8d57",
+    "check_layout.py": "32630e8eb58b6659780e8db7b68d2b0071d40b2672bfb67218043339092d05fa",
+    "geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839",
+    "spring_cartridge.py": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff"
+  },
+  "limitations": [
+    "Stationary body and hip anchoring parts are excluded because they require redesign for the drive. This does not prove fit with the existing fixed spindle plate or enclosure.",
+    "The right leg retains the previous mechanism. The left uses the new spring study; no complete bilateral drive has been adopted.",
+    "Full tooth-tip cylinders conservatively cover gear rotation. Bearing and shaft support reservations are not finished parts.",
+    "Finite 405-pose mesh diagnostic; any reported contact requires geometric review. No tolerance, loaded deflection or continuous collision proof."
+  ]
+}

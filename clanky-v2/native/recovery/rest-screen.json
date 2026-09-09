@@ -1,0 +1,97 @@
+{
+  "scope": "Predefined nominal-start seed screen; not randomized evaluation or an RL policy",
+  "source_sha256": {
+    "native_recovery_screen.py": "9eae1d6ce93dcd20ea4867339ec0451b09b9cb6cbe9eccb95acb9eaae1241174"
+  },
+  "cases": [
+    {
+      "directory": "rest/front-250us",
+      "report_sha256": "f790eee45c05579e723db82fe6abf3618ea0d628b5971856398ce672d73a8b5e",
+      "trial_pass": false,
+      "score": 0.3206748946320552,
+      "failed_checks": [
+        "stable_finish",
+        "hip_limits"
+      ]
+    },
+    {
+      "directory": "rest/back-250us",
+      "report_sha256": "f4c9edbe3f240f8a9e51ac63d7108d6bf4b1b911f77666833368449c1a0dc695",
+      "trial_pass": false,
+      "score": 0.9174630714812771,
+      "failed_checks": [
+        "stable_finish",
+        "hip_limits"
+      ]
+    },
+    {
+      "directory": "rest/left-250us",
+      "report_sha256": "75219b619675ac3fcef534ccd4da44f39bdc19fe86575273ca7d1d6ca3c94b75",
+      "trial_pass": false,
+      "score": 0.5209476197189846,
+      "failed_checks": [
+        "stable_finish",
+        "hip_limits"
+      ]
+    },
+    {
+      "directory": "rest/right-250us",
+      "report_sha256": "aa60d79d4db53b69f6a587850b255d590c253f8120b3ff165cc0f2c20df59fa1",
+      "trial_pass": false,
+      "score": 0.5630761253164276,
+      "failed_checks": [
+        "stable_finish",
+        "hip_limits"
+      ]
+    },
+    {
+      "directory": "rest/inverted-250us",
+      "report_sha256": "4bc31535526c774e73a1526ce09edc998030240662abff022368747bf63fdbf2",
+      "trial_pass": false,
+      "score": -2.0000514100699647,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    },
+    {
+      "directory": "rest/front_left-250us",
+      "report_sha256": "ddca166b0eaf0de091876be93fc1e04571fada1a22a631774a6d0e6072cedfad",
+      "trial_pass": false,
+      "score": -0.5340446238315425,
+      "failed_checks": [
+        "stable_finish",
+        "hip_limits"
+      ]
+    },
+    {
+      "directory": "rest/front_right-250us",
+      "report_sha256": "ca219f4e4a043a8c39d1aea3620ce1161a56904a5d29eb3e31ce40205a693b4c",
+      "trial_pass": false,
+      "score": -0.47992306123723955,
+      "failed_checks": [
+        "stable_finish",
+        "hip_limits"
+      ]
+    },
+    {
+      "directory": "rest/back_left-250us",
+      "report_sha256": "0dfa9362d2ab1a1f4e03a72998ccc3eb59384514caccceab4721193a93386f1b",
+      "trial_pass": false,
+      "score": 0.917463071468136,
+      "failed_checks": [
+        "stable_finish",
+        "hip_limits"
+      ]
+    },
+    {
+      "directory": "rest/back_right-250us",
+      "report_sha256": "ab4f461d7a962e4ab2a5f590512cca2dd42f0d162f02f00e8c4ae9662bad90de",
+      "trial_pass": false,
+      "score": 0.917463071466842,
+      "failed_checks": [
+        "stable_finish",
+        "hip_limits"
+      ]
+    }
+  ]
+}

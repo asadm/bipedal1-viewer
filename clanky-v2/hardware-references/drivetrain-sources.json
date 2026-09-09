@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-09-08",
+  "motor_drawing": {
+    "source": "https://www.minircflying.com/images/V3508KV580.pdf",
+    "local": "V3508KV580.pdf",
+    "author": "SunnySky",
+    "body_mm": [
+      41.8,
+      20
+    ],
+    "shaft_mm": 4,
+    "rear_projection_mm": 5.4,
+    "front_projection_mm": 2.1,
+    "front_mount": "4 M3 on 12 mm PCD, thread depth 2.6 mm",
+    "rear_mount": "4 M3, opposing 19/25 mm spans, thread depth 3 mm",
+    "note": "Manufacturer-authored sheet hosted by retailer; matching current product revision still requires confirmation."
+  },
+  "replacement_bearing": {
+    "source": "https://www.buddyrc.com/products/japanese-nmb-bearing-for-sunnysky-v3508-motors",
+    "sku": "sns-8021",
+    "price_usd": 7.49,
+    "image": "v3508-bearing.jpg",
+    "image_source": "https://cdn.shopify.com/s/files/1/0262/4746/2998/products/sns-8021.jpg?v=1574456687",
+    "observation": "Photo is marked EZO 694Z JAPAN; title/description says NMB. Treat bearing identity as a photo-supported lead, not a confirmed motor BOM."
+  },
+  "bearing_manufacturer": {
+    "source": "https://www.ezo-brg.co.jp/english/product/result.php?page=4&product_category=1",
+    "part": "694ZZ",
+    "dimensions_mm": [
+      4,
+      11,
+      4
+    ],
+    "dynamic_rating_N": 959,
+    "note": "Does not establish installed bearing count/spacing, static rating, shaft grade, bell strength or motor radial-load capacity."
+  },
+  "compression_limiter": {
+    "source": "https://www.harwin.com/products/R30-6200314",
+    "part": "R30-6200314",
+    "dimensions_mm": {
+      "OD": 5,
+      "ID": 3.2,
+      "length": 3
+    },
+    "nominal_mass_g": 0.092,
+    "material": "aluminum",
+    "price_usd": null
+  },
+  "qualification": "No parts purchased; no complete motor load or thermal qualification."
+}

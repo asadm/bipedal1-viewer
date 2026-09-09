@@ -1,0 +1,29 @@
+{
+  "kind": "swept_wheel_and_mounting_mesh_audit",
+  "revision": "tpu120-r2",
+  "wheel_pose_checks": 210,
+  "full_wheel_rotation_envelope": true,
+  "hip_range_rad": [
+    -2.6,
+    2.600000000000001
+  ],
+  "stl_watertight": true,
+  "connected_solids": 1,
+  "minimum_wheel_clearance_mm": 2.3328454870283015,
+  "nearest_part": "left_thigh_lid",
+  "wheel_intersections": {},
+  "mounting_intersections": {},
+  "passed": true,
+  "limitations": [
+    "Finite hip samples; CAD mesh approximation",
+    "Does not qualify load, creep, flexible tire deflection or fastener preload",
+    "Shaft/bearing/gear seating excluded from interference failures"
+  ],
+  "input_sha256": {
+    "design/wheel-study/revised/wheel.stl": "0ecc606391bf77766a76a71b9369dc531eef400ae0b8a138c17dc4c8d4b583c8",
+    "design/wheel-study/revised/swept-envelope.stl": "30bb6ecf078a3813ec54d84d372bcb68114465f26bdd0e3b43baa775c48e964d",
+    "design/wheel-study/revised/replacements.json": "07ff4da66b9f4884a6232fc35b807ffcb582862021b5651ef1c2584cc41a4e69",
+    "design/current-cad/parts.json": "362ee48b56b13e8aa6605a51a35632a393da30a786cf2fcd1c1c2613a165665a",
+    "design/wheel-study/fit-poses.json": "fa5ae455924d07f56fa4bbe064a6305ced8cdf22ce23def4ff45644200cbfeda"
+  }
+}

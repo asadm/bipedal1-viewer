@@ -1,0 +1,39 @@
+{
+  "status": "layout_interference_diagnostic",
+  "cases": 1242,
+  "angles_per_leg": 29,
+  "independent_grid_cases": 841,
+  "symmetric_sweep_cases": 401,
+  "wheel_phase_coverage": "Filled conservative annular rotation envelopes, both tires",
+  "nominal_mating_contacts": {
+    "left_knee_626_outer/left_knee_shaft": 1242,
+    "left_knee_626_inner/left_thigh_frame": 1242,
+    "body_lid_with_fixed_camera/body_lower": 1242,
+    "left_knee_626_inner/left_knee_shaft": 1242,
+    "right_knee_626_inner/right_knee_shaft": 1242,
+    "right_knee_626_outer/right_knee_shaft": 1242,
+    "left_knee_626_outer/left_thigh_lid": 1242,
+    "right_knee_626_outer/right_thigh_lid": 1242,
+    "right_spring_coil_envelope/right_thigh_frame": 628,
+    "right_knee_626_inner/right_thigh_frame": 1242,
+    "right_spring_coil_envelope/right_spring_slider": 578,
+    "left_spring_coil_envelope/left_thigh_frame": 643,
+    "left_spring_coil_envelope/left_spring_slider": 548
+  },
+  "interferences": [],
+  "passed": true,
+  "complete_robot_fit_pass": false,
+  "hardware_release": false,
+  "input_sha256": {
+    "layout.json": "a8b9323416680c1799ec8c2f154a8e47d099fff390aa619b2e7f032114d2a3c4",
+    "layout-parts.json": "3f844258189c1a0e24ed6795bcb8168582b947a1950163c9797c98f28b51733d",
+    "interfaces.json": "0420ecfc206f49e9e3db17bae526c55eddefaed076dba6c348ee64835260a2a4",
+    "check_layout.py": "32630e8eb58b6659780e8db7b68d2b0071d40b2672bfb67218043339092d05fa",
+    "spring_cartridge.py": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff"
+  },
+  "limitations": [
+    "Triangle mesh plus conservative spring annuli; intended nominal surface contacts separately proven zero-volume in exact CAD.",
+    "Spring axial retainers/pivots, actual drives, hip/wheel bearings, fasteners and cables remain missing.",
+    "Finite angle samples; preserve failures and resolve interfaces before dynamics qualification."
+  ]
+}

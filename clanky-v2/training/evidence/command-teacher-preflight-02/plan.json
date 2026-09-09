@@ -1,0 +1,80 @@
+{
+  "task": "preflight",
+  "trial_cap": 8,
+  "jobs": [
+    {
+      "profile": "drive",
+      "seed": 88000,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "profile": "drive",
+      "seed": 88000,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "profile": "turn",
+      "seed": 88001,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "profile": "turn",
+      "seed": 88001,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "profile": "arc",
+      "seed": 88002,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "profile": "arc",
+      "seed": 88002,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.000125
+    },
+    {
+      "profile": "mixed",
+      "seed": 88003,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.00025
+    },
+    {
+      "profile": "mixed",
+      "seed": 88003,
+      "family": "standing",
+      "perturbed": false,
+      "timestep_s": 0.000125
+    }
+  ],
+  "duration_s": 16.0,
+  "source_sha256": {
+    "command_driving.py": "c2984123d6bd2d7de6b8566e7d6a558750d375169315ed22db24cf8e0da01d8a",
+    "balance_dagger.py": "f2f0e5ce447cb04dcb60663a6d8ba1e07891ed98c1dde3fc5ac6ba8e1e03fe26",
+    "balance_teacher.py": "b6e2e919240228084437bf59ec49537d3a165f6d3ff47691f554d9bcf78e4e09",
+    "guided_balance.py": "84282cffce9fa6598b431726e03e168da5c40cddaef09dd6dbdfb900d20234bb",
+    "teacher_reference.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486",
+    "environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb",
+    "evaluate.py": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef"
+  },
+  "policy_sha256": null,
+  "plant_manifest_sha256": "e733063a55088781d85aaf4a3c2f3ce7b05fd2c696a2f44fad78ebcc39284d9d",
+  "runtime": {
+    "platform": "Linux-7.0.0-30-generic-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "mujoco": "3.3.7",
+    "numpy": "2.4.6"
+  }
+}

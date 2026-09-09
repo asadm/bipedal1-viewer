@@ -1,0 +1,1962 @@
+{
+  "revision": "tpu120-r2",
+  "kind": "programmed-rigid-wheel-development",
+  "fit_passed": true,
+  "entries": [
+    {
+      "id": "jump",
+      "label": "Jump",
+      "file": "jump-verification/jump-wide_current-500us.json",
+      "sha256": "f63c282def42585f61425c6a00698061c8611a95a9119658434ca9a6dcd6b8f4",
+      "nominal_pair_passed": true,
+      "timestep_checks": 2,
+      "result": {
+        "controller": "Programmed jump / perfect-state feedback / same four-action interface",
+        "duration_s": 12.000000000003174,
+        "requested_duration_s": 12.0,
+        "controller_settings": {
+          "crouch": -0.5,
+          "extend": 1.1,
+          "pulse": 0.1,
+          "retract": -0.25,
+          "landing_angle": 0.3,
+          "push_wheel": 0.0,
+          "command_time_s": 1.0,
+          "push_time_s": 1.6
+        },
+        "learned_policy": false,
+        "hardware_release": false,
+        "variant": "wide_current",
+        "physics_timestep_s": 0.0005,
+        "mujoco_version": "3.10.0",
+        "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+        "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78",
+        "policy_interface": {
+          "version": 2,
+          "hip_offset_rad": 0.0,
+          "hip_scale_rad": 2.35,
+          "hip_target_range_rad": [
+            -2.35,
+            2.35
+          ],
+          "hip_observation_offset_rad": 0.4101523742186677,
+          "wheel_scale_Nm": 0.55,
+          "wheel_target_range_Nm": [
+            -0.55,
+            0.55
+          ]
+        },
+        "checks": {
+          "complete": true,
+          "no_body_contact": true,
+          "spring_travel": true,
+          "hip_travel": true,
+          "linkage_closure": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "settled": true,
+          "passive_knee_travel": true,
+          "finite_velocity": true,
+          "jump_height": true,
+          "flight_and_landing": true,
+          "ballistic_jump": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "diagnostic_pass": true,
+        "tracking_metrics": {
+          "velocity_error": 0.062258163974972774,
+          "yaw_error": 0.00047730245283180003,
+          "height_error": 0.0011960063761182313
+        },
+        "hip_range_rad": [
+          -0.500454087739317,
+          1.1280915645825906
+        ],
+        "max_spring_compression_mm": 16.151154368002636,
+        "max_closure_error_mm": 0.010249410672456702,
+        "stable_hold_s": 9.417000000000018,
+        "final_linear_velocity_m_s": [
+          0.005216576986566378,
+          -4.699039807582556e-06,
+          8.094733184154125e-05
+        ],
+        "final_angular_velocity_rad_s": [
+          -2.3690521596434055e-06,
+          0.0010712374836441103,
+          8.965221185665962e-05
+        ],
+        "final_wheel_contact": [
+          true,
+          true
+        ],
+        "peak_current_A": [
+          32.0,
+          32.0,
+          7.999999993097101,
+          7.999999993097101
+        ],
+        "max_both_wheel_clearance_mm": 96.64805124665199,
+        "takeoff_s": 1.6425,
+        "landing_s": 1.8880000000000001,
+        "launch_com_speed_m_s": 1.129786108640093,
+        "ballistic_com_rise_mm": 64.56455185921736
+      },
+      "settings": {},
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78"
+    },
+    {
+      "id": "height",
+      "label": "Lower and raise",
+      "file": "initial-motion-checks/height-wide_current-500us.json",
+      "sha256": "c34b71d057fe2b311ea108f14e82c6f81005aeff67659df70b46478cb099dbdd",
+      "nominal_pair_passed": true,
+      "timestep_checks": 2,
+      "result": {
+        "controller": "Programmed height / perfect-state feedback / same four-action interface",
+        "duration_s": 12.000000000003174,
+        "requested_duration_s": 12.0,
+        "controller_settings": {
+          "lower_offset_m": -0.035,
+          "raise_offset_m": 0.015,
+          "transition_s": 0.6,
+          "nominal_height_m": 0.19282185580743322,
+          "perfect_state_balance": true
+        },
+        "learned_policy": false,
+        "hardware_release": false,
+        "variant": "wide_current",
+        "physics_timestep_s": 0.0005,
+        "mujoco_version": "3.10.0",
+        "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+        "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78",
+        "policy_interface": {
+          "version": 2,
+          "hip_offset_rad": 0.0,
+          "hip_scale_rad": 2.35,
+          "hip_target_range_rad": [
+            -2.35,
+            2.35
+          ],
+          "hip_observation_offset_rad": 0.4101523742186677,
+          "wheel_scale_Nm": 0.55,
+          "wheel_target_range_Nm": [
+            -0.55,
+            0.55
+          ]
+        },
+        "checks": {
+          "velocity_tracking": true,
+          "yaw_tracking": true,
+          "height_tracking": true,
+          "height_lower": true,
+          "height_raise": true,
+          "height_return": true,
+          "complete": true,
+          "no_body_contact": true,
+          "spring_travel": true,
+          "hip_travel": true,
+          "linkage_closure": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "settled": true,
+          "passive_knee_travel": true,
+          "finite_velocity": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "diagnostic_pass": true,
+        "tracking_metrics": {
+          "velocity_error": 0.0038926529108396024,
+          "yaw_error": 1.9807425164120875e-05,
+          "height_error": 0.010035960661967241,
+          "height_intervals": {
+            "lower": 1.9870245008027438e-05,
+            "raise": 3.282987010264915e-05,
+            "return": 2.2024068940376734e-05
+          }
+        },
+        "hip_range_rad": [
+          -0.3610096094772115,
+          0.7560654538549528
+        ],
+        "max_spring_compression_mm": 14.334258627404264,
+        "max_closure_error_mm": 0.001496331395158038,
+        "stable_hold_s": 5.4479999999997,
+        "final_linear_velocity_m_s": [
+          -0.001669608471794155,
+          3.025728252512423e-08,
+          -7.899240017648695e-05
+        ],
+        "final_angular_velocity_rad_s": [
+          1.487504646067588e-07,
+          -0.0008401360677117572,
+          2.0009541302814514e-07
+        ],
+        "final_wheel_contact": [
+          true,
+          true
+        ],
+        "peak_current_A": [
+          9.438743948129016,
+          9.438060452515867,
+          0.09064450077423285,
+          0.09074148996240025
+        ],
+        "max_both_wheel_clearance_mm": 0.0,
+        "takeoff_s": null,
+        "landing_s": null,
+        "launch_com_speed_m_s": 0.0,
+        "ballistic_com_rise_mm": 0.0
+      },
+      "settings": {},
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78"
+    },
+    {
+      "id": "balance",
+      "label": "Catch a balance disturbance",
+      "file": "initial-motion-checks/balance-wide_current-500us.json",
+      "sha256": "86827496905ee1f86121d944428df19577f2a670e8239db9fc8b0962a74255a6",
+      "nominal_pair_passed": true,
+      "timestep_checks": 2,
+      "result": {
+        "duration_s": 12.000000000003174,
+        "hip_range_rad": [
+          0.4092479748480816,
+          0.4108521654224502
+        ],
+        "knee_range_rad": [
+          1.6172040444826605,
+          1.618526384257828
+        ],
+        "maximum_closure_error_mm": 0.000418652228164475,
+        "maximum_spring_compression_mm": 0.1105314646021871,
+        "minimum_tilt_deg": 4.8016703506840825e-05,
+        "peak_tilt_deg": 6.520851621205669,
+        "final_tilt_deg": 1.468193159184453,
+        "mean_tilt_deg": 1.3175223265753515,
+        "tail_mean_tilt_deg": 1.4723695955145186,
+        "final_stable_hold_s": 11.356500000002388,
+        "longest_stable_hold_s": 11.356500000002388,
+        "final_root_speed_m_s": 0.0012379493354077544,
+        "final_angular_speed_rad_s": 0.0006982659677825054,
+        "final_qpos": [
+          -0.029456009231053806,
+          -4.071522041876455e-07,
+          0.192850712252731,
+          0.9999179222959304,
+          1.5196146399565897e-07,
+          0.012812051801205199,
+          1.0811345579867113e-07,
+          0.4101436082322181,
+          1.6177897407635202,
+          -0.21444638677753666,
+          0.34668161689816324,
+          0.4101423122336043,
+          1.6177908108064138,
+          -0.21444457511590298,
+          0.34668030474849193
+        ],
+        "final_qvel": [
+          -0.001235369415644485,
+          3.038341044448362e-08,
+          -7.988093016204237e-05,
+          -1.4516272920142966e-07,
+          0.0006982658724273181,
+          -3.348049191776592e-07,
+          -0.002019429452497396,
+          0.0014485462868672008,
+          -0.02034051670835301,
+          -0.0018835051905528358,
+          -0.0020190972153007083,
+          0.0014480046803108516,
+          -0.020341224282863453,
+          -0.0018832229851794308
+        ],
+        "checks": {
+          "complete": true,
+          "finite": true,
+          "hip_travel": true,
+          "knee_travel": true,
+          "linkage_closure": true,
+          "spring_travel": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "physical_checks_pass": true,
+        "stable_finish": true,
+        "peak_current_A": [
+          1.6790925322609327,
+          1.679453737972371,
+          3.7873279326224094,
+          3.787329741685572
+        ]
+      },
+      "settings": {},
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78"
+    },
+    {
+      "id": "drive",
+      "label": "Drive and stop",
+      "file": "motion-checks/drive-wide_current-500us.json",
+      "sha256": "6eb2e388ff8ffff387860ea41ca8292f33d73f29c18a70931ff31656a9a58a24",
+      "nominal_pair_passed": true,
+      "timestep_checks": 2,
+      "result": {
+        "duration_s": 12.000000000003174,
+        "hip_range_rad": [
+          0.4099316448035708,
+          0.4102316148894404
+        ],
+        "knee_range_rad": [
+          1.6177170994072576,
+          1.6179645628245807
+        ],
+        "maximum_closure_error_mm": 0.00028476993086234937,
+        "maximum_spring_compression_mm": 0.09735719843954882,
+        "minimum_tilt_deg": 7.764178295743836e-05,
+        "peak_tilt_deg": 4.520323744229894,
+        "final_tilt_deg": 1.8112527671460243,
+        "mean_tilt_deg": 1.7203730216282334,
+        "tail_mean_tilt_deg": 1.8234614923783565,
+        "final_stable_hold_s": 4.270500000000353,
+        "longest_stable_hold_s": 4.270500000000353,
+        "final_root_speed_m_s": 0.03992906585069501,
+        "final_angular_speed_rad_s": 0.000681008089679354,
+        "final_qpos": [
+          1.5943554479480204,
+          -1.2736915730683303e-05,
+          0.19289762277279843,
+          0.9998750852189792,
+          1.4295502263346418e-07,
+          0.015805504039074,
+          6.250506107270608e-07,
+          0.41015306758094644,
+          1.617781922301817,
+          26.55297057329781,
+          0.34669119327448983,
+          0.4101517687801234,
+          1.6177829947308302,
+          26.55297631487105,
+          0.3466898782943826
+        ],
+        "final_qvel": [
+          -0.0399289647731186,
+          -1.353460206558614e-08,
+          -8.984350844069767e-05,
+          -1.1694259911560031e-07,
+          -0.0006810071158667641,
+          -1.1457189800352765e-06,
+          -0.002018218395909419,
+          0.0014476332975868937,
+          -0.6607313291060684,
+          -0.0018824987271464854,
+          -0.0020178882505078838,
+          0.0014470937211075365,
+          -0.6607348429438091,
+          -0.0018822185577281262
+        ],
+        "checks": {
+          "complete": true,
+          "finite": true,
+          "hip_travel": true,
+          "knee_travel": true,
+          "linkage_closure": true,
+          "spring_travel": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "drive_distance": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "physical_checks_pass": true,
+        "stable_finish": true,
+        "peak_current_A": [
+          1.6148375041093377,
+          1.616215694993512,
+          0.7686567527315955,
+          0.7686840696613866
+        ],
+        "final_position_error_m": 0.005685164193297121,
+        "commanded_distance_m": 1.6
+      },
+      "settings": {},
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78"
+    },
+    {
+      "id": "turn",
+      "label": "Turn 90\u00b0",
+      "file": "turn-verification/turn-wide_current-500us.json",
+      "sha256": "8d3f94fa1d42b970b82966f446d686e948dfd237b49b2cd4ca79dc411d1683a8",
+      "nominal_pair_passed": true,
+      "timestep_checks": 2,
+      "result": {
+        "duration_s": 12.000000000003174,
+        "hip_range_rad": [
+          0.40963422232431607,
+          0.41044336749218696
+        ],
+        "knee_range_rad": [
+          1.6175459403491812,
+          1.6182065649815935
+        ],
+        "maximum_closure_error_mm": 0.0004254952718848835,
+        "maximum_spring_compression_mm": 0.10303166677427811,
+        "minimum_tilt_deg": 1.4199322585094223,
+        "peak_tilt_deg": 1.5039985859297567,
+        "final_tilt_deg": 1.4338662838135103,
+        "mean_tilt_deg": 1.4452763794855017,
+        "tail_mean_tilt_deg": 1.4337237151324385,
+        "final_stable_hold_s": 6.031499999999377,
+        "longest_stable_hold_s": 6.031499999999377,
+        "final_root_speed_m_s": 0.00011184509974273473,
+        "final_angular_speed_rad_s": 0.008554386437272273,
+        "final_qpos": [
+          0.00016265587152328133,
+          -0.005209805446318854,
+          0.19284575751897562,
+          0.7209111138450831,
+          -0.008665411633712197,
+          0.009026280014883214,
+          0.6929145711016281,
+          0.41017469886037977,
+          1.6177648953584323,
+          -2.6257415566584497,
+          0.3467130736026489,
+          0.41010966574230945,
+          1.6178171629507787,
+          2.7259457844512416,
+          0.34664711193927483
+        ],
+        "final_qvel": [
+          6.789504682405143e-05,
+          -4.0892552553555503e-05,
+          7.891380170082318e-05,
+          -0.00021656217622514535,
+          -0.0008192352445458045,
+          0.008512313537230067,
+          0.002011060453946896,
+          -0.001442429312688958,
+          -0.015292482447325728,
+          0.0018752250961614932,
+          0.002028230325421245,
+          -0.0014546892787043798,
+          0.014304861439474344,
+          0.0018921924098522357
+        ],
+        "checks": {
+          "complete": true,
+          "finite": true,
+          "hip_travel": true,
+          "knee_travel": true,
+          "linkage_closure": true,
+          "spring_travel": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "turn_heading": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "physical_checks_pass": true,
+        "stable_finish": true,
+        "peak_current_A": [
+          1.615213803241044,
+          1.6678841358990524,
+          0.8769290384027885,
+          0.8981912036392733
+        ],
+        "heading_error_deg": 2.278378030972671
+      },
+      "settings": {},
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78"
+    },
+    {
+      "id": "front",
+      "label": "Get up: front",
+      "file": "motion-checks/front-wide_current-500us.json",
+      "sha256": "5cc70e23f761bc86b28d1e5c33ad7fe5ad20d62ad6a67c2ad5355b271052de78",
+      "nominal_pair_passed": false,
+      "timestep_checks": 2,
+      "result": {
+        "duration_s": 7.999999999998286,
+        "hip_range_rad": [
+          -2.333629121285891,
+          1.3392033212267356
+        ],
+        "knee_range_rad": [
+          0.8589330424567382,
+          2.34568803441804
+        ],
+        "maximum_closure_error_mm": 0.03169139263950484,
+        "maximum_spring_compression_mm": 17.890522825289786,
+        "minimum_tilt_deg": 61.661530743497124,
+        "peak_tilt_deg": 179.89915652262698,
+        "final_tilt_deg": 77.73093665996478,
+        "mean_tilt_deg": 78.75065411710403,
+        "tail_mean_tilt_deg": 77.73093749559723,
+        "final_stable_hold_s": 0.0,
+        "longest_stable_hold_s": 0.0,
+        "final_root_speed_m_s": 5.122310903733752e-08,
+        "final_angular_speed_rad_s": 1.529095410121284e-07,
+        "final_qpos": [
+          -0.2869668283000486,
+          -0.01769490056352784,
+          0.09904639530201234,
+          0.7702157527122667,
+          -0.09195456414677736,
+          0.6207197086570942,
+          0.1141012519261111,
+          0.4230111362619261,
+          1.6071481267071133,
+          219.54801789524802,
+          0.35970363338649236,
+          0.42301179316365006,
+          1.6071475548524816,
+          226.08433122272257,
+          0.35970429569995177
+        ],
+        "final_qvel": [
+          -5.0738201674057353e-08,
+          -7.031426193404936e-09,
+          -2.891401652484223e-11,
+          -1.4941833974912457e-07,
+          -7.287661021622352e-11,
+          3.248818505479351e-08,
+          1.1607840851982867e-09,
+          -9.593325759773706e-10,
+          -4.175603038790403e-06,
+          1.1745332486918795e-09,
+          1.1264612793894863e-09,
+          -9.310568397033618e-10,
+          -2.3682237779603297e-06,
+          1.1398216322224092e-09
+        ],
+        "checks": {
+          "complete": true,
+          "finite": true,
+          "hip_travel": true,
+          "knee_travel": true,
+          "linkage_closure": true,
+          "spring_travel": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "physical_checks_pass": true,
+        "stable_finish": false,
+        "peak_current_A": [
+          32.0,
+          32.0,
+          7.999999975850447,
+          7.99999922876316
+        ],
+        "free_knots": [
+          [
+            -2.09282764812645,
+            0.005795286128698374
+          ],
+          [
+            -2.35,
+            0.02215334796276066
+          ],
+          [
+            1.3397882067938114,
+            0.07692687970312362
+          ],
+          [
+            0.4934420820939537,
+            0.55
+          ]
+        ],
+        "command_knots": [
+          [
+            1.3377457973173024,
+            1.337745927181817,
+            0.0,
+            0.0
+          ],
+          [
+            -2.09282764812645,
+            -2.09282764812645,
+            0.005795286128698374,
+            0.005795286128698374
+          ],
+          [
+            -2.35,
+            -2.35,
+            0.02215334796276066,
+            0.02215334796276066
+          ],
+          [
+            1.3397882067938114,
+            1.3397882067938114,
+            0.07692687970312362,
+            0.07692687970312362
+          ],
+          [
+            0.4934420820939537,
+            0.4934420820939537,
+            0.55,
+            0.55
+          ],
+          [
+            0.4181463657646874,
+            0.4181463657646874,
+            0.0,
+            0.0
+          ]
+        ],
+        "knot_times_s": [
+          0.0,
+          0.1,
+          0.25,
+          0.55,
+          1.2,
+          2.5
+        ],
+        "capture_time_s": null,
+        "capture_hip_rad": null,
+        "minimum_capture_cost": 2.8402052484159976,
+        "score": 3.3722930578105466,
+        "start_adjustment_z_mm": 4.259970123228346,
+        "reference_file": "docs/results/wide-getup-front-rapid.json",
+        "reference_sha256": "99a3455c98c872667f2adb3c701004c9c0c99a0444b34e8ead0c6bdfabe7878e"
+      },
+      "settings": {},
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78"
+    },
+    {
+      "id": "back",
+      "label": "Get up: back",
+      "file": "motion-checks/back-wide_current-500us.json",
+      "sha256": "947ea696528f79958726cd9a9faa0e805d362dafebf339bd16296d74bbd9736f",
+      "nominal_pair_passed": true,
+      "timestep_checks": 2,
+      "result": {
+        "duration_s": 7.999999999998286,
+        "hip_range_rad": [
+          -0.5615543449792724,
+          2.35498142720987
+        ],
+        "knee_range_rad": [
+          0.3610776812160333,
+          2.298428447323711
+        ],
+        "maximum_closure_error_mm": 0.01602203142022352,
+        "maximum_spring_compression_mm": 16.78040504080481,
+        "minimum_tilt_deg": 0.14668931767810517,
+        "peak_tilt_deg": 143.56641501777122,
+        "final_tilt_deg": 1.4162125142619097,
+        "mean_tilt_deg": 5.447136903670952,
+        "tail_mean_tilt_deg": 1.408793193548579,
+        "final_stable_hold_s": 7.297999999998675,
+        "longest_stable_hold_s": 7.297999999998675,
+        "final_root_speed_m_s": 0.007472418363464846,
+        "final_angular_speed_rad_s": 0.00133739913748371,
+        "final_qpos": [
+          0.1103945506206438,
+          -0.003953064638314863,
+          0.19284318246231144,
+          0.9999236262631798,
+          -3.9919145331470884e-07,
+          0.012358471024262654,
+          9.916893199098277e-05,
+          0.4101449930840651,
+          1.617788664130154,
+          -12.540563978326889,
+          0.3466830245492224,
+          0.41013782095552714,
+          1.6177944549753982,
+          -13.383420519511173,
+          0.3466757522407636
+        ],
+        "final_qvel": [
+          0.007472022444890978,
+          -5.020385559907891e-06,
+          -7.675661157795002e-05,
+          -1.9850794265288463e-05,
+          0.0010781456681780153,
+          0.0007911032278395667,
+          -0.0020196398711623646,
+          0.001448778091979985,
+          0.12217576725328909,
+          -0.001883703899628071,
+          -0.0020189000833469874,
+          0.001447756410534951,
+          0.12492884738000096,
+          -0.0018829645192082291
+        ],
+        "checks": {
+          "complete": true,
+          "finite": true,
+          "hip_travel": true,
+          "knee_travel": true,
+          "linkage_closure": true,
+          "spring_travel": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "physical_checks_pass": true,
+        "stable_finish": true,
+        "peak_current_A": [
+          31.9999999999634,
+          31.9999999999634,
+          7.999999999999999,
+          7.999999999999999
+        ],
+        "free_knots": [
+          [
+            -0.5805906844329247,
+            -0.55
+          ],
+          [
+            -0.526115694531703,
+            -0.41568956617516994
+          ],
+          [
+            0.4737508160802221,
+            0.3939008285971987
+          ],
+          [
+            0.7683629851346849,
+            -0.533800000475108
+          ]
+        ],
+        "command_knots": [
+          [
+            2.35,
+            2.35,
+            0.0,
+            0.0
+          ],
+          [
+            -0.5805906844329247,
+            -0.5805906844329247,
+            -0.55,
+            -0.55
+          ],
+          [
+            -0.526115694531703,
+            -0.526115694531703,
+            -0.41568956617516994,
+            -0.41568956617516994
+          ],
+          [
+            0.4737508160802221,
+            0.4737508160802221,
+            0.3939008285971987,
+            0.3939008285971987
+          ],
+          [
+            0.7683629851346849,
+            0.7683629851346849,
+            -0.533800000475108,
+            -0.533800000475108
+          ],
+          [
+            0.4181463657646874,
+            0.4181463657646874,
+            0.0,
+            0.0
+          ]
+        ],
+        "knot_times_s": [
+          0.0,
+          0.1,
+          0.25,
+          0.55,
+          1.2,
+          2.5
+        ],
+        "capture_time_s": 0.2800000000000002,
+        "capture_hip_rad": -0.4688459129131741,
+        "minimum_capture_cost": 4.010425243831497e-05,
+        "score": -1.963561585197207,
+        "start_adjustment_z_mm": 9.970488652560935,
+        "reference_file": "docs/results/wide-getup-back-rapid.json",
+        "reference_sha256": "a97c324da23a655ca42ed4b706b2ab99562aaed11eb9ffa1d89c64f5bf0251a4"
+      },
+      "settings": {},
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78"
+    },
+    {
+      "id": "left_side",
+      "label": "Get up: left side",
+      "file": "retuned-motion-checks/left_side-wide_current-500us.json",
+      "sha256": "690e813c4453afab5448c15c9b7de2c47c05b126ab5611f0fea024df42612fb9",
+      "nominal_pair_passed": true,
+      "timestep_checks": 2,
+      "result": {
+        "duration_s": 7.999999999998286,
+        "hip_range_rad": [
+          -2.515313321960507,
+          0.4544661554706726
+        ],
+        "knee_range_rad": [
+          0.859746792488143,
+          2.345218323721927
+        ],
+        "maximum_closure_error_mm": 0.014533655415203491,
+        "maximum_spring_compression_mm": 17.8796038915394,
+        "minimum_tilt_deg": 0.0019564459227774627,
+        "peak_tilt_deg": 107.41250285274924,
+        "final_tilt_deg": 1.6384305888696757,
+        "mean_tilt_deg": 6.960956336609209,
+        "tail_mean_tilt_deg": 1.6681971180387836,
+        "final_stable_hold_s": 6.107999999999334,
+        "longest_stable_hold_s": 6.107999999999334,
+        "final_root_speed_m_s": 0.0430534113004969,
+        "final_angular_speed_rad_s": 0.00554659576690685,
+        "final_qpos": [
+          -0.1994880264880186,
+          0.1251507824810297,
+          0.19287455782636034,
+          0.3038744859690881,
+          0.01362276434959209,
+          0.004340424423698641,
+          -0.9526047857240281,
+          0.4101685232167696,
+          1.6177696314464292,
+          3.871094403466149,
+          0.346706880393952,
+          0.4101255934637039,
+          1.6178041457449097,
+          -27.6189322040524,
+          0.34666333883094347
+        ],
+        "final_qvel": [
+          0.035076068997231175,
+          0.024965134781182303,
+          -8.748524809148845e-05,
+          -0.00015937465599574944,
+          -0.0002891058661322032,
+          0.005536762783311473,
+          -0.0020207532537200885,
+          0.0014501598980200669,
+          -0.7237343454895853,
+          -0.0018850994391132155,
+          -0.0020180357376521855,
+          0.0014466515914338257,
+          -0.7044666155611206,
+          -0.0018820874083879282
+        ],
+        "checks": {
+          "complete": true,
+          "finite": true,
+          "hip_travel": true,
+          "knee_travel": true,
+          "linkage_closure": true,
+          "spring_travel": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "physical_checks_pass": true,
+        "stable_finish": true,
+        "peak_current_A": [
+          32.0,
+          32.0,
+          7.999999999999999,
+          7.999999999999999
+        ],
+        "free_knots": [
+          [
+            -0.2444133537704484,
+            -1.05300820626934,
+            0.55,
+            -0.21302913581361607
+          ],
+          [
+            -2.35,
+            -0.5548331069231882,
+            0.010235024623315365,
+            -0.43570348936681635
+          ],
+          [
+            -0.20387943186739776,
+            -0.17670424472164684,
+            -0.02920178576341712,
+            -0.55
+          ],
+          [
+            -0.4630663132838906,
+            -1.1628662171910558,
+            -0.49366538820828487,
+            0.33146012961263893
+          ]
+        ],
+        "command_knots": [
+          [
+            0.4193111482284239,
+            0.450401869495871,
+            0.0,
+            0.0
+          ],
+          [
+            -0.2444133537704484,
+            -1.05300820626934,
+            0.55,
+            -0.21302913581361607
+          ],
+          [
+            -2.35,
+            -0.5548331069231882,
+            0.010235024623315365,
+            -0.43570348936681635
+          ],
+          [
+            -0.20387943186739776,
+            -0.17670424472164684,
+            -0.02920178576341712,
+            -0.55
+          ],
+          [
+            -0.4630663132838906,
+            -1.1628662171910558,
+            -0.49366538820828487,
+            0.33146012961263893
+          ],
+          [
+            0.4181463657646874,
+            0.4181463657646874,
+            0.0,
+            0.0
+          ]
+        ],
+        "knot_times_s": [
+          0.0,
+          0.08000000000000002,
+          0.2,
+          0.44000000000000006,
+          0.96,
+          2.0
+        ],
+        "capture_time_s": 0.36000000000000026,
+        "capture_hip_rad": -0.7462298319382703,
+        "minimum_capture_cost": 0.00010271830660342252,
+        "score": -1.945646958413472,
+        "start_adjustment_z_mm": 23.025287198062294,
+        "reference_file": "docs/results/wide-getup-left-side-rapid.json",
+        "reference_sha256": "461e2241064a5b919c083f0572ab4ba5378e578a21165f654509d035bf24a990"
+      },
+      "settings": {
+        "time_scale": 0.8,
+        "wheel_scale": 1.3
+      },
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78"
+    },
+    {
+      "id": "back_left",
+      "label": "Get up: back left",
+      "file": "motion-checks/back_left-wide_current-500us.json",
+      "sha256": "bffa2637529349d9ed0f232fe87c9627ad2ee935696d59ccdb0f127f16b57a37",
+      "nominal_pair_passed": false,
+      "timestep_checks": 2,
+      "result": {
+        "duration_s": 7.999999999998286,
+        "hip_range_rad": [
+          -2.441204880897166,
+          2.35510298195185
+        ],
+        "knee_range_rad": [
+          0.3610695196441304,
+          2.3451917830753346
+        ],
+        "maximum_closure_error_mm": 0.036518656525417185,
+        "maximum_spring_compression_mm": 17.878986852830486,
+        "minimum_tilt_deg": 14.810660623263425,
+        "peak_tilt_deg": 143.56828597916092,
+        "final_tilt_deg": 76.05389715943834,
+        "mean_tilt_deg": 74.800213850614,
+        "tail_mean_tilt_deg": 76.05389716509916,
+        "final_stable_hold_s": 0.0,
+        "longest_stable_hold_s": 0.0,
+        "final_root_speed_m_s": 0.00021350370626339917,
+        "final_angular_speed_rad_s": 0.002776062880299624,
+        "final_qpos": [
+          -0.12150477668543944,
+          -0.15128182707861212,
+          0.08124112205337079,
+          -0.7849664805758769,
+          -0.0514740767968205,
+          0.6138777527837351,
+          -0.065819058238702,
+          0.4192079646191905,
+          1.6102956941298716,
+          -187.63042179394245,
+          0.3558557788837713,
+          0.41920540967513964,
+          1.6102968240492506,
+          24.319284457665677,
+          0.3558532932150257
+        ],
+        "final_qvel": [
+          3.571008201269687e-05,
+          -0.00021049304462915198,
+          -1.1405233904366417e-06,
+          0.0006478356727018542,
+          1.0760528358371781e-05,
+          -0.0026993922033638935,
+          0.003932995284693682,
+          -0.0025890592219046478,
+          0.00026576227965839107,
+          0.003960146736725693,
+          -0.004025124564541631,
+          0.0026649717789182952,
+          -0.0003325071680148032,
+          -0.0040439306908091775
+        ],
+        "checks": {
+          "complete": true,
+          "finite": true,
+          "hip_travel": true,
+          "knee_travel": true,
+          "linkage_closure": true,
+          "spring_travel": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "physical_checks_pass": true,
+        "stable_finish": false,
+        "peak_current_A": [
+          32.0,
+          32.0,
+          5.975853121803114,
+          7.999999999999999
+        ],
+        "free_knots": [
+          [
+            -1.3007538767308662,
+            -2.35,
+            0.0812170145776366,
+            0.02063478335637036
+          ],
+          [
+            -0.5965321398099583,
+            -2.0623464245670355,
+            -0.3372063647793457,
+            -0.23795312934150992
+          ],
+          [
+            0.8387347477663081,
+            0.5984053372617043,
+            -0.05094930143115418,
+            -0.5081354010914886
+          ],
+          [
+            -0.26960357373455207,
+            -1.4725660459337275,
+            -0.17916975276354496,
+            0.55
+          ]
+        ],
+        "command_knots": [
+          [
+            2.35,
+            2.35,
+            0.0,
+            0.0
+          ],
+          [
+            -1.3007538767308662,
+            -2.35,
+            0.0812170145776366,
+            0.02063478335637036
+          ],
+          [
+            -0.5965321398099583,
+            -2.0623464245670355,
+            -0.3372063647793457,
+            -0.23795312934150992
+          ],
+          [
+            0.8387347477663081,
+            0.5984053372617043,
+            -0.05094930143115418,
+            -0.5081354010914886
+          ],
+          [
+            -0.26960357373455207,
+            -1.4725660459337275,
+            -0.17916975276354496,
+            0.55
+          ],
+          [
+            0.4181463657646874,
+            0.4181463657646874,
+            0.0,
+            0.0
+          ]
+        ],
+        "knot_times_s": [
+          0.0,
+          0.1,
+          0.25,
+          0.55,
+          1.2,
+          2.5
+        ],
+        "capture_time_s": null,
+        "capture_hip_rad": null,
+        "minimum_capture_cost": 3.5080602100706164,
+        "score": 3.8051283212564453,
+        "start_adjustment_z_mm": 9.970488546375112,
+        "reference_file": "docs/results/wide-getup-back-left-rapid.json",
+        "reference_sha256": "423dbb788fcedcb36b3e696cf2be8bd5938d5a3f97199a6d6b1fca9a8c9387f3"
+      },
+      "settings": {},
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78"
+    },
+    {
+      "id": "inverted",
+      "label": "Get up: inverted",
+      "file": "motion-checks/inverted-wide_current-500us.json",
+      "sha256": "4eb70d220e86d5c7929710e15c9e1a7c0cf12a8dae057e5d643112b0d8aee252",
+      "nominal_pair_passed": false,
+      "timestep_checks": 2,
+      "result": {
+        "duration_s": 7.999999999998286,
+        "hip_range_rad": [
+          -2.0815501321465772,
+          2.237271521318832
+        ],
+        "knee_range_rad": [
+          0.3757002139819579,
+          2.345131908348178
+        ],
+        "maximum_closure_error_mm": 0.012185095117376716,
+        "maximum_spring_compression_mm": 17.877594807573885,
+        "minimum_tilt_deg": 0.1129939153434864,
+        "peak_tilt_deg": 179.95185865824402,
+        "final_tilt_deg": 76.05384971352417,
+        "mean_tilt_deg": 79.43592478975783,
+        "tail_mean_tilt_deg": 76.05385082956066,
+        "final_stable_hold_s": 0.0,
+        "longest_stable_hold_s": 0.0,
+        "final_root_speed_m_s": 2.6507262792749163e-05,
+        "final_angular_speed_rad_s": 0.00042013182088726546,
+        "final_qpos": [
+          -0.37733158988879134,
+          0.01955977389779124,
+          0.08124110013009278,
+          -0.052118821898854396,
+          0.6146818462835473,
+          0.04075907206370353,
+          0.7859952635339666,
+          0.4192042031013182,
+          1.6102982645926873,
+          -49.26174163403182,
+          0.35585201378081904,
+          0.4192044150622882,
+          1.6102981981846394,
+          -48.2582612382123,
+          0.35585225257628716
+        ],
+        "final_qvel": [
+          -7.1585772430170255e-06,
+          2.5521628843414622e-05,
+          1.9029923439112877e-07,
+          5.504157080671306e-05,
+          7.73045130876921e-05,
+          -0.0004092739726166992,
+          -0.00012038700363492146,
+          0.0005263903210981881,
+          -0.0009830435590526118,
+          -0.00020926293261264669,
+          -0.00024857532534139473,
+          -0.00021719975918595873,
+          0.0007129333842080085,
+          -0.0001312565381162595
+        ],
+        "checks": {
+          "complete": true,
+          "finite": true,
+          "hip_travel": true,
+          "knee_travel": true,
+          "linkage_closure": true,
+          "spring_travel": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "physical_checks_pass": true,
+        "stable_finish": false,
+        "peak_current_A": [
+          32.0,
+          32.0,
+          5.578351226318818,
+          5.578351226318818
+        ],
+        "free_knots": [
+          [
+            0.8509072721568993,
+            -0.3043053027966878
+          ],
+          [
+            2.35,
+            0.11969933922231113
+          ],
+          [
+            -2.187492586609228,
+            -0.2118276561413071
+          ],
+          [
+            0.889907257932918,
+            -0.0909882696832028
+          ]
+        ],
+        "command_knots": [
+          [
+            0.26314545908796494,
+            0.26314116475962007,
+            0.0,
+            0.0
+          ],
+          [
+            0.8509072721568993,
+            0.8509072721568993,
+            -0.3043053027966878,
+            -0.3043053027966878
+          ],
+          [
+            2.35,
+            2.35,
+            0.11969933922231113,
+            0.11969933922231113
+          ],
+          [
+            -2.187492586609228,
+            -2.187492586609228,
+            -0.2118276561413071,
+            -0.2118276561413071
+          ],
+          [
+            0.889907257932918,
+            0.889907257932918,
+            -0.0909882696832028,
+            -0.0909882696832028
+          ],
+          [
+            0.4181463657646874,
+            0.4181463657646874,
+            0.0,
+            0.0
+          ]
+        ],
+        "knot_times_s": [
+          0.0,
+          0.1,
+          0.25,
+          0.55,
+          1.2,
+          2.5
+        ],
+        "capture_time_s": null,
+        "capture_hip_rad": null,
+        "minimum_capture_cost": 2.7338666501881765,
+        "score": 3.273319780604939,
+        "start_adjustment_z_mm": -0.02827714912655155,
+        "reference_file": "docs/results/wide-getup-inverted-rapid.json",
+        "reference_sha256": "fc64b5194ca83d08370f0afabec7838733d928fb387be5c2e771edf9519ef7c0"
+      },
+      "settings": {},
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78"
+    },
+    {
+      "id": "front_left",
+      "label": "Get up: front left",
+      "file": "retuned-motion-checks/front_left-wide_current-500us.json",
+      "sha256": "2434de8b24b7446da529c41bbd40c5e57c153f57977c3e427442224e7ddb769d",
+      "nominal_pair_passed": true,
+      "timestep_checks": 2,
+      "result": {
+        "duration_s": 7.999999999998286,
+        "hip_range_rad": [
+          -2.324212113606397,
+          2.3284403992146148
+        ],
+        "knee_range_rad": [
+          0.3632439886879078,
+          2.3454089889251426
+        ],
+        "maximum_closure_error_mm": 0.01614403382690124,
+        "maximum_spring_compression_mm": 17.8840364041557,
+        "minimum_tilt_deg": 1.0915398286527258,
+        "peak_tilt_deg": 114.53739771667034,
+        "final_tilt_deg": 1.4867462108068261,
+        "mean_tilt_deg": 21.48751415236219,
+        "tail_mean_tilt_deg": 1.4843865251930577,
+        "final_stable_hold_s": 5.788999999999511,
+        "longest_stable_hold_s": 5.788999999999511,
+        "final_root_speed_m_s": 0.013950069064703864,
+        "final_angular_speed_rad_s": 0.006647213064937699,
+        "final_qpos": [
+          0.27972881930684745,
+          0.12832458099251437,
+          0.19285334243959773,
+          -0.7582312918270057,
+          -0.008453672442576821,
+          -0.009841679327062062,
+          0.6518565677084246,
+          0.41011870631093045,
+          1.6178097433501564,
+          -17.530992713715015,
+          0.3466563585917554,
+          0.410167061144901,
+          1.6177709345816687,
+          -27.998122406217863,
+          0.3467054081081676
+        ],
+        "final_qvel": [
+          -0.00204020103370675,
+          0.013799846887176923,
+          -7.894645364453462e-05,
+          0.0001720692570087525,
+          0.0008121289121794325,
+          -0.0065951709857647355,
+          -0.002017874855137727,
+          0.0014466627462724464,
+          -0.22113461698374487,
+          -0.0018817414490987497,
+          -0.0020205024540876594,
+          0.0014497499783208175,
+          -0.2440828988031178,
+          -0.0018848312742318339
+        ],
+        "checks": {
+          "complete": true,
+          "finite": true,
+          "hip_travel": true,
+          "knee_travel": true,
+          "linkage_closure": true,
+          "spring_travel": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "physical_checks_pass": true,
+        "stable_finish": true,
+        "peak_current_A": [
+          32.0,
+          32.0,
+          7.999999994599973,
+          7.999999999999999
+        ],
+        "free_knots": [
+          [
+            0.3145957284367286,
+            1.1816101041213851,
+            -0.18523714549498282,
+            0.03035748229633339
+          ],
+          [
+            2.35,
+            2.132782416885976,
+            -0.13516131784672467,
+            -0.1246126572718485
+          ],
+          [
+            1.3336964932286346,
+            2.0600918975726104,
+            0.04326576033565478,
+            -0.11486851103731546
+          ],
+          [
+            -2.294224467933963,
+            0.9933097055996212,
+            -0.03594357674588874,
+            0.09934642725993946
+          ]
+        ],
+        "command_knots": [
+          [
+            1.3395701076916062,
+            0.5907971718083336,
+            0.0,
+            0.0
+          ],
+          [
+            0.3145957284367286,
+            1.1816101041213851,
+            -0.18523714549498282,
+            0.03035748229633339
+          ],
+          [
+            2.35,
+            2.132782416885976,
+            -0.13516131784672467,
+            -0.1246126572718485
+          ],
+          [
+            1.3336964932286346,
+            2.0600918975726104,
+            0.04326576033565478,
+            -0.11486851103731546
+          ],
+          [
+            -2.294224467933963,
+            0.9933097055996212,
+            -0.03594357674588874,
+            0.09934642725993946
+          ],
+          [
+            0.4181463657646874,
+            0.4181463657646874,
+            0.0,
+            0.0
+          ]
+        ],
+        "knot_times_s": [
+          0.0,
+          0.12,
+          0.3,
+          0.66,
+          1.44,
+          3.0
+        ],
+        "capture_time_s": 1.8999999999998463,
+        "capture_hip_rad": -0.3654038109729334,
+        "minimum_capture_cost": 5.793273341365502e-05,
+        "score": -1.924575358476658,
+        "start_adjustment_z_mm": -0.028171908296764636,
+        "reference_file": "docs/results/wide-getup-front-left-rapid.json",
+        "reference_sha256": "2cf9344b5877cfb0cbc10e74b722914c50e6ecffc35978c4f19ad7f6190188ac"
+      },
+      "settings": {
+        "time_scale": 1.2,
+        "wheel_scale": 0.7
+      },
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78"
+    },
+    {
+      "id": "front_right",
+      "label": "Get up: front right",
+      "file": "motion-checks/front_right-wide_current-500us.json",
+      "sha256": "5f6938474110b32e931fed09f96e337e8b572e4c3f4190bb1c22397396088fdc",
+      "nominal_pair_passed": false,
+      "timestep_checks": 2,
+      "result": {
+        "duration_s": 7.999999999998286,
+        "hip_range_rad": [
+          -2.0945771927712804,
+          2.298752800084372
+        ],
+        "knee_range_rad": [
+          0.36649726478130806,
+          2.3454642417967038
+        ],
+        "maximum_closure_error_mm": 0.007663524623210875,
+        "maximum_spring_compression_mm": 17.885320827102806,
+        "minimum_tilt_deg": 74.65233819899092,
+        "peak_tilt_deg": 102.6568274838206,
+        "final_tilt_deg": 77.73093733014713,
+        "mean_tilt_deg": 79.89926816589632,
+        "tail_mean_tilt_deg": 77.73107880478544,
+        "final_stable_hold_s": 0.0,
+        "longest_stable_hold_s": 0.0,
+        "final_root_speed_m_s": 1.1019624071120305e-07,
+        "final_angular_speed_rad_s": 2.899628811038206e-07,
+        "final_qpos": [
+          -0.027665405181142428,
+          0.2909083914335715,
+          0.09904639995551767,
+          0.6597642092061103,
+          -0.33322197203763465,
+          0.5317064243066749,
+          0.41347621933189427,
+          0.42301101728500845,
+          1.6071482255673128,
+          -320.45838287199786,
+          0.359703513057257,
+          0.4230115441660538,
+          1.6071477601028514,
+          100.04621449583708,
+          0.35970404374138587
+        ],
+        "final_qvel": [
+          5.65239208722283e-08,
+          8.398074356133158e-08,
+          -4.353725470212084e-08,
+          2.6279217296557296e-07,
+          -1.0971054594542125e-07,
+          -5.4610826348061617e-08,
+          1.7143066429104416e-06,
+          -1.4167141074559163e-06,
+          -9.251065018965825e-07,
+          1.7344061148817168e-06,
+          1.7294126353271695e-06,
+          -1.4291593637542897e-06,
+          -4.2071909283582495e-06,
+          1.7496918691898487e-06
+        ],
+        "checks": {
+          "complete": true,
+          "finite": true,
+          "hip_travel": true,
+          "knee_travel": true,
+          "linkage_closure": true,
+          "spring_travel": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "physical_checks_pass": true,
+        "stable_finish": false,
+        "peak_current_A": [
+          31.7134359060969,
+          31.994928863544022,
+          7.999999999999999,
+          7.913925893654512
+        ],
+        "free_knots": [
+          [
+            -0.05126854288240451,
+            2.306666863985318,
+            -0.36776719883721826,
+            0.25257904810630516
+          ],
+          [
+            -0.5058240788121964,
+            1.5405757270218006,
+            0.25211591245316534,
+            0.5360432325634362
+          ],
+          [
+            -2.0776941932648256,
+            1.0517757783097232,
+            -0.55,
+            -0.07996714710568165
+          ],
+          [
+            0.22562202207246324,
+            -1.215869434467546,
+            -0.392617894997108,
+            0.09112758227222345
+          ]
+        ],
+        "command_knots": [
+          [
+            0.6300599002567095,
+            1.3445679609557106,
+            0.0,
+            0.0
+          ],
+          [
+            -0.05126854288240451,
+            2.306666863985318,
+            -0.36776719883721826,
+            0.25257904810630516
+          ],
+          [
+            -0.5058240788121964,
+            1.5405757270218006,
+            0.25211591245316534,
+            0.5360432325634362
+          ],
+          [
+            -2.0776941932648256,
+            1.0517757783097232,
+            -0.55,
+            -0.07996714710568165
+          ],
+          [
+            0.22562202207246324,
+            -1.215869434467546,
+            -0.392617894997108,
+            0.09112758227222345
+          ],
+          [
+            0.4181463657646874,
+            0.4181463657646874,
+            0.0,
+            0.0
+          ]
+        ],
+        "knot_times_s": [
+          0.0,
+          0.1,
+          0.25,
+          0.55,
+          1.2,
+          2.5
+        ],
+        "capture_time_s": null,
+        "capture_hip_rad": null,
+        "minimum_capture_cost": 2.205191922746132,
+        "score": 2.9303368655375372,
+        "start_adjustment_z_mm": -0.028182403229062847,
+        "reference_file": "docs/results/wide-getup-front-right-rapid.json",
+        "reference_sha256": "aa3f823de611d64a50b7f7daa3d2bdf08e7cce8c52d93c11af1d410fd2464518"
+      },
+      "settings": {},
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78"
+    },
+    {
+      "id": "right_side",
+      "label": "Get up: right side",
+      "file": "retuned-motion-checks/right_side-wide_current-500us.json",
+      "sha256": "f18b588e7f1c3220cfdde8a189aadfbba5ba4895361349626fa010e8b345c251",
+      "nominal_pair_passed": false,
+      "timestep_checks": 2,
+      "result": {
+        "duration_s": 7.999999999998286,
+        "hip_range_rad": [
+          -2.1602457964629824,
+          0.8717353106997974
+        ],
+        "knee_range_rad": [
+          1.1268746564719974,
+          2.3454427325272946
+        ],
+        "maximum_closure_error_mm": 0.013810736754877654,
+        "maximum_spring_compression_mm": 17.884820820909518,
+        "minimum_tilt_deg": 1.0738973021177962,
+        "peak_tilt_deg": 109.17515294908215,
+        "final_tilt_deg": 1.1721843777368801,
+        "mean_tilt_deg": 11.25373054169433,
+        "tail_mean_tilt_deg": 1.1315844257096737,
+        "final_stable_hold_s": 2.7905000000000992,
+        "longest_stable_hold_s": 2.7905000000000992,
+        "final_root_speed_m_s": 0.05942532581557762,
+        "final_angular_speed_rad_s": 0.005080609481366346,
+        "final_qpos": [
+          -0.208241124857106,
+          -0.06439531354313056,
+          0.19280637672969303,
+          0.5637238246210718,
+          -0.008446343506853958,
+          0.00577000436130339,
+          0.8259000035631584,
+          0.4101518050377229,
+          1.6177833612486632,
+          -51.62956455607866,
+          0.3466899480543602,
+          0.4101167013164132,
+          1.6178115834913385,
+          -49.76573126908145,
+          0.3466543440132853
+        ],
+        "final_qvel": [
+          -0.021614961034714292,
+          0.055354841686584326,
+          -6.564760867630637e-05,
+          -9.303262096437824e-05,
+          0.0023235072821721223,
+          0.004517217234457438,
+          -0.002020384861093164,
+          0.001449696930432336,
+          0.9775388680599689,
+          -0.0018843927443620433,
+          -0.0020192732279206782,
+          0.001447640720729433,
+          0.9932570471210677,
+          -0.001883067248988032
+        ],
+        "checks": {
+          "complete": true,
+          "finite": true,
+          "hip_travel": true,
+          "knee_travel": true,
+          "linkage_closure": true,
+          "spring_travel": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "physical_checks_pass": true,
+        "stable_finish": true,
+        "peak_current_A": [
+          32.0,
+          31.99999999999746,
+          7.999999997025789,
+          7.999999999999999
+        ],
+        "free_knots": [
+          [
+            0.9040946001653041,
+            -1.7250777399962487,
+            -0.18501078827616144,
+            -0.5034681818864255
+          ],
+          [
+            -1.0703451345036255,
+            -2.154341370782981,
+            -0.41828980872304455,
+            -0.55
+          ],
+          [
+            -1.8518738381181092,
+            1.2749167786619506,
+            0.39790723786566257,
+            -0.05936631378902024
+          ],
+          [
+            1.60970017161256,
+            0.27301030118906044,
+            -0.01980027487518987,
+            -0.55
+          ]
+        ],
+        "command_knots": [
+          [
+            0.45019885250233,
+            0.4192510303903725,
+            0.0,
+            0.0
+          ],
+          [
+            0.9040946001653041,
+            -1.7250777399962487,
+            -0.18501078827616144,
+            -0.5034681818864255
+          ],
+          [
+            -1.0703451345036255,
+            -2.154341370782981,
+            -0.41828980872304455,
+            -0.55
+          ],
+          [
+            -1.8518738381181092,
+            1.2749167786619506,
+            0.39790723786566257,
+            -0.05936631378902024
+          ],
+          [
+            1.60970017161256,
+            0.27301030118906044,
+            -0.01980027487518987,
+            -0.55
+          ],
+          [
+            0.4181463657646874,
+            0.4181463657646874,
+            0.0,
+            0.0
+          ]
+        ],
+        "knot_times_s": [
+          0.0,
+          0.15000000000000002,
+          0.375,
+          0.8250000000000001,
+          1.7999999999999998,
+          3.75
+        ],
+        "capture_time_s": 0.5799999999999915,
+        "capture_hip_rad": -1.0878486923145088,
+        "minimum_capture_cost": 0.00023072252894369103,
+        "score": -1.9386950409403354,
+        "start_adjustment_z_mm": 23.025287672266913,
+        "reference_file": "docs/results/wide-getup-right-side-rapid.json",
+        "reference_sha256": "9a17575287a2f18b45bf7d66a3793bec10fbcd15abfc5a1f12333d09209aedce"
+      },
+      "settings": {
+        "time_scale": 1.5,
+        "wheel_scale": 1.3
+      },
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78"
+    },
+    {
+      "id": "back_right",
+      "label": "Get up: back right",
+      "file": "retuned-motion-checks/back_right-wide_current-500us.json",
+      "sha256": "932e9927edddad7c49fea3e6b3d01b54d0a613f9c3ed125b24a55fd228768a7d",
+      "nominal_pair_passed": true,
+      "timestep_checks": 2,
+      "result": {
+        "duration_s": 7.999999999998286,
+        "hip_range_rad": [
+          -2.381276615915785,
+          2.354981521330406
+        ],
+        "knee_range_rad": [
+          0.36107767459053697,
+          2.3452307106797985
+        ],
+        "maximum_closure_error_mm": 0.012205752994524536,
+        "maximum_spring_compression_mm": 17.87989187103236,
+        "minimum_tilt_deg": 1.317392223380977,
+        "peak_tilt_deg": 143.56637979590212,
+        "final_tilt_deg": 1.3467558832859958,
+        "mean_tilt_deg": 9.131916892429272,
+        "tail_mean_tilt_deg": 1.3340051629839875,
+        "final_stable_hold_s": 6.570999999999078,
+        "longest_stable_hold_s": 6.570999999999078,
+        "final_root_speed_m_s": 0.021527096732307377,
+        "final_angular_speed_rad_s": 0.0063208768090983695,
+        "final_qpos": [
+          -0.19605342029103867,
+          0.11182795810094819,
+          0.19283293584520017,
+          0.04343380278641719,
+          -0.01174106285139399,
+          0.0005158995283495412,
+          0.9989871801311095,
+          0.4101626420019077,
+          1.6177745409422832,
+          -19.046973112261245,
+          0.34670093047151307,
+          0.4101154330503918,
+          1.6178124950298005,
+          -22.309568359117552,
+          0.34665304865786833
+        ],
+        "final_qvel": [
+          -0.02144114354549035,
+          0.0019203287039595337,
+          -7.47987469516778e-05,
+          -0.0001464271840273863,
+          0.0013084230713762417,
+          0.006182238411923784,
+          -0.002021093289907029,
+          0.0014504597837278212,
+          0.3462949461689816,
+          -0.001885270540203327,
+          -0.0020182781483121634,
+          0.0014467129678821548,
+          0.367806478244949,
+          -0.0018821269484356644
+        ],
+        "checks": {
+          "complete": true,
+          "finite": true,
+          "hip_travel": true,
+          "knee_travel": true,
+          "linkage_closure": true,
+          "spring_travel": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "physical_checks_pass": true,
+        "stable_finish": true,
+        "peak_current_A": [
+          32.0,
+          31.999999999999982,
+          7.999999991849206,
+          7.999999987709449
+        ],
+        "free_knots": [
+          [
+            -0.5322965214216797,
+            -0.9299496847203539,
+            -0.35034298524403723,
+            0.2187368887234028
+          ],
+          [
+            -2.35,
+            -0.3439445959391822,
+            0.296416744596872,
+            -0.2275647403273939
+          ],
+          [
+            -0.4296995436422529,
+            -0.3515717646318887,
+            -0.18133231769862884,
+            -0.3421936976495947
+          ],
+          [
+            -0.457898309176124,
+            1.4752419210885315,
+            -0.26119156303108787,
+            -0.1785790515002645
+          ]
+        ],
+        "command_knots": [
+          [
+            2.35,
+            2.35,
+            0.0,
+            0.0
+          ],
+          [
+            -0.5322965214216797,
+            -0.9299496847203539,
+            -0.35034298524403723,
+            0.2187368887234028
+          ],
+          [
+            -2.35,
+            -0.3439445959391822,
+            0.296416744596872,
+            -0.2275647403273939
+          ],
+          [
+            -0.4296995436422529,
+            -0.3515717646318887,
+            -0.18133231769862884,
+            -0.3421936976495947
+          ],
+          [
+            -0.457898309176124,
+            1.4752419210885315,
+            -0.26119156303108787,
+            -0.1785790515002645
+          ],
+          [
+            0.4181463657646874,
+            0.4181463657646874,
+            0.0,
+            0.0
+          ]
+        ],
+        "knot_times_s": [
+          0.0,
+          0.15000000000000002,
+          0.375,
+          0.8250000000000001,
+          1.7999999999999998,
+          3.75
+        ],
+        "capture_time_s": 0.6399999999999849,
+        "capture_hip_rad": -0.8615559207132149,
+        "minimum_capture_cost": 0.00010362046028403532,
+        "score": -1.9519672780735935,
+        "start_adjustment_z_mm": 9.97048865309455,
+        "reference_file": "docs/results/wide-getup-back-right-rapid.json",
+        "reference_sha256": "83f6883cdc1580d0f7f0fcad284ae8eee6fb90cd91022526477d47aa155bdd8c"
+      },
+      "settings": {
+        "time_scale": 1.5,
+        "wheel_scale": 0.7
+      },
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78"
+    }
+  ],
+  "jump_cases": 6,
+  "jump_passed": 6,
+  "learned_policy": false,
+  "hardware_release": false,
+  "limits": "Programmed exact-start rigid-wheel checks; TPU behavior and real hardware are untested",
+  "geometry_sha256": "8769cff18dfa59407a9ddfb08b20f9ee2e6db1534322a11494c218c08cf0b7cb",
+  "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78",
+  "cad_parts_sha256": "362ee48b56b13e8aa6605a51a35632a393da30a786cf2fcd1c1c2613a165665a"
+}

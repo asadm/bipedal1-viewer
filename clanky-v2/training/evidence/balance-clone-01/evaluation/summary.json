@@ -1,0 +1,592 @@
+{
+  "status": "completed",
+  "passed": 30,
+  "cases": 32,
+  "results": [
+    {
+      "family": "standing",
+      "seed": 73000,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.841750000003838,
+      "passed": true,
+      "peak_current_A": [
+        3.7840200397204016,
+        3.846131088794104,
+        8.217641433259871,
+        7.905589495058683
+      ],
+      "minimum_branch_margin": 0.9587516025376036,
+      "recording": "standing-73000-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 73000,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.841624999993062,
+      "passed": true,
+      "peak_current_A": [
+        3.746709962189569,
+        3.8300340162177684,
+        8.163614667513764,
+        8.507830522226783
+      ],
+      "minimum_branch_margin": 0.9587480353608019,
+      "recording": "standing-73000-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 73001,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.8650000000038665,
+      "passed": true,
+      "peak_current_A": [
+        5.9272467003605955,
+        6.328314909136661,
+        10.908369221849783,
+        5.4048248856538414
+      ],
+      "minimum_branch_margin": 0.9603016508553552,
+      "recording": "standing-73001-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 73001,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.864499999993009,
+      "passed": true,
+      "peak_current_A": [
+        5.863798179356588,
+        6.267862050426693,
+        10.945060372839366,
+        5.02715407552182
+      ],
+      "minimum_branch_margin": 0.9602928613448202,
+      "recording": "standing-73001-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 73002,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.850250000003848,
+      "passed": true,
+      "peak_current_A": [
+        5.993674392961262,
+        5.927240083758794,
+        4.6897058012663875,
+        9.468368027991803
+      ],
+      "minimum_branch_margin": 0.9591741396771126,
+      "recording": "standing-73002-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 73002,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.850249999993042,
+      "passed": true,
+      "peak_current_A": [
+        5.954932946808477,
+        5.950497806777518,
+        4.773426479279766,
+        9.486628122619038
+      ],
+      "minimum_branch_margin": 0.959162601846385,
+      "recording": "standing-73002-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 73003,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.932750000003949,
+      "passed": true,
+      "peak_current_A": [
+        3.5505099598237937,
+        3.3239408023226895,
+        6.355652222219953,
+        10.0302268059632
+      ],
+      "minimum_branch_margin": 0.9608332236337003,
+      "recording": "standing-73003-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 73003,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.93262499999285,
+      "passed": true,
+      "peak_current_A": [
+        3.533868552229862,
+        3.2955582091124507,
+        5.984050934898026,
+        10.268720803725703
+      ],
+      "minimum_branch_margin": 0.9608177695019879,
+      "recording": "standing-73003-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 73004,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.873000000003876,
+      "passed": true,
+      "peak_current_A": [
+        4.531184137537893,
+        3.876435920130743,
+        10.54431281745936,
+        4.836938322185643
+      ],
+      "minimum_branch_margin": 0.9602650459286516,
+      "recording": "standing-73004-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 73004,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.871874999992992,
+      "passed": true,
+      "peak_current_A": [
+        4.456505565287731,
+        3.8388780289846003,
+        10.638483357716785,
+        4.912903830946767
+      ],
+      "minimum_branch_margin": 0.9602552523609293,
+      "recording": "standing-73004-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 73005,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.908250000003919,
+      "passed": true,
+      "peak_current_A": [
+        4.796372392576087,
+        4.910439112230211,
+        8.783275365168143,
+        9.948627489478685
+      ],
+      "minimum_branch_margin": 0.9633469870703977,
+      "recording": "standing-73005-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 73005,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.907749999992908,
+      "passed": true,
+      "peak_current_A": [
+        4.796357883343478,
+        4.910444482416624,
+        8.949579570322927,
+        9.984792448504214
+      ],
+      "minimum_branch_margin": 0.9633295078450144,
+      "recording": "standing-73005-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 73006,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.943500000003962,
+      "passed": true,
+      "peak_current_A": [
+        5.298113748967037,
+        5.285221434612798,
+        7.472467438482177,
+        7.8889596746796
+      ],
+      "minimum_branch_margin": 0.9649483385249089,
+      "recording": "standing-73006-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 73006,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.942999999992826,
+      "passed": true,
+      "peak_current_A": [
+        5.303108069421902,
+        5.271139922651041,
+        8.000273312245044,
+        7.889847753518578
+      ],
+      "minimum_branch_margin": 0.9649288402237853,
+      "recording": "standing-73006-125us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 73007,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.857500000003857,
+      "passed": true,
+      "peak_current_A": [
+        3.586486428864538,
+        3.1246188338183147,
+        7.793997691959791,
+        9.593175059628773
+      ],
+      "minimum_branch_margin": 0.9597459964681537,
+      "recording": "standing-73007-250us.json"
+    },
+    {
+      "family": "standing",
+      "seed": 73007,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.857249999993026,
+      "passed": true,
+      "peak_current_A": [
+        3.533245935418655,
+        3.1101338969428682,
+        7.936878389716813,
+        9.651683063596547
+      ],
+      "minimum_branch_margin": 0.9597360465976608,
+      "recording": "standing-73007-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73008,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.5885000000035285,
+      "passed": true,
+      "peak_current_A": [
+        7.999999999999251,
+        7.9996368005619,
+        9.294411769911099,
+        5.6250144783787634
+      ],
+      "minimum_branch_margin": 0.9613493309991401,
+      "recording": "near-73008-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73008,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.587749999993654,
+      "passed": true,
+      "peak_current_A": [
+        7.999999999999251,
+        7.999999983510771,
+        9.292268088654826,
+        5.700590080524983
+      ],
+      "minimum_branch_margin": 0.9613033741859071,
+      "recording": "near-73008-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73009,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.788750000003773,
+      "passed": true,
+      "peak_current_A": [
+        7.999566098110119,
+        7.999489736879118,
+        10.015153506099834,
+        16.17035279078523
+      ],
+      "minimum_branch_margin": 0.9577441863118835,
+      "recording": "near-73009-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73009,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.788624999993186,
+      "passed": true,
+      "peak_current_A": [
+        7.999566129440462,
+        7.999489622490642,
+        8.454309908536674,
+        16.081540799012433
+      ],
+      "minimum_branch_margin": 0.9577606527877149,
+      "recording": "near-73009-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73010,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.529000000003456,
+      "passed": true,
+      "peak_current_A": [
+        7.9996368005619,
+        7.9996368005619,
+        7.302794301840127,
+        13.062232578503625
+      ],
+      "minimum_branch_margin": 0.9570784950903675,
+      "recording": "near-73010-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73010,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.528249999993792,
+      "passed": true,
+      "peak_current_A": [
+        7.9996368005619,
+        7.9996368005619,
+        7.8746861595515565,
+        13.139494421298776
+      ],
+      "minimum_branch_margin": 0.9570934946813993,
+      "recording": "near-73010-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73011,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.680250000003641,
+      "passed": true,
+      "peak_current_A": [
+        7.984282793912863,
+        7.867395139871933,
+        9.017673004781683,
+        23.814849553767374
+      ],
+      "minimum_branch_margin": 0.9578153805057666,
+      "recording": "near-73011-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73011,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.6801249999934385,
+      "passed": true,
+      "peak_current_A": [
+        7.984561797835806,
+        7.867395970653757,
+        9.27700629219007,
+        23.9934258505633
+      ],
+      "minimum_branch_margin": 0.9578225110513994,
+      "recording": "near-73011-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73012,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.792500000003778,
+      "passed": true,
+      "peak_current_A": [
+        7.999631690544825,
+        7.999634004307012,
+        10.152415865983116,
+        8.81989068509399
+      ],
+      "minimum_branch_margin": 0.9625948421975917,
+      "recording": "near-73012-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73012,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.7924999999931766,
+      "passed": true,
+      "peak_current_A": [
+        7.999631949893004,
+        7.999634180497156,
+        10.070741353500173,
+        8.87855179960544
+      ],
+      "minimum_branch_margin": 0.9625701657885519,
+      "recording": "near-73012-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73013,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.781000000003764,
+      "passed": true,
+      "peak_current_A": [
+        7.934544748633133,
+        6.587061375512606,
+        9.794394971880697,
+        16.57336938960556
+      ],
+      "minimum_branch_margin": 0.9578450303271242,
+      "recording": "near-73013-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73013,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.780874999993204,
+      "passed": true,
+      "peak_current_A": [
+        7.935293933551945,
+        6.585409172334277,
+        9.724121847371404,
+        16.49993463195675
+      ],
+      "minimum_branch_margin": 0.9578536293524192,
+      "recording": "near-73013-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73014,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.7285000000037,
+      "passed": true,
+      "peak_current_A": [
+        7.999999983510771,
+        7.9999997402290575,
+        15.38331452319302,
+        9.9968721517192
+      ],
+      "minimum_branch_margin": 0.9570805264694991,
+      "recording": "near-73014-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73014,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.728624999993325,
+      "passed": true,
+      "peak_current_A": [
+        7.999999983510771,
+        7.999999740193286,
+        15.443640226458106,
+        9.667099122266052
+      ],
+      "minimum_branch_margin": 0.9570863564777319,
+      "recording": "near-73014-125us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73015,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 41,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "passed": false,
+      "peak_current_A": [
+        7.999999999999998,
+        7.999999999999998,
+        21.40261467989123,
+        10.113548063028567
+      ],
+      "minimum_branch_margin": 0.9339389365546389,
+      "recording": "near-73015-250us.json"
+    },
+    {
+      "family": "near",
+      "seed": 73015,
+      "timestep_s": 0.000125,
+      "policy_period_s": 0.01,
+      "steps": 41,
+      "failure": "fall",
+      "stable_time_s": 0.0,
+      "passed": false,
+      "peak_current_A": [
+        7.9999999999999964,
+        7.9999999999999964,
+        21.281166831631896,
+        10.17673688972063
+      ],
+      "minimum_branch_margin": 0.9339487023963652,
+      "recording": "near-73015-125us.json"
+    }
+  ],
+  "source_sha256": {
+    "guided_balance.py": "84282cffce9fa6598b431726e03e168da5c40cddaef09dd6dbdfb900d20234bb",
+    "balance_teacher.py": "b6e2e919240228084437bf59ec49537d3a165f6d3ff47691f554d9bcf78e4e09",
+    "teacher_reference.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486",
+    "environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb",
+    "evaluate.py": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef"
+  },
+  "policy_sha256": "f6dc286c506f902ede054802fc4183cc89c4bfae264a65af7b3fe8e35c367d5c",
+  "scope": "100 Hz learned actor alone; two physics timesteps, held-out nominal flat-floor starts; no teacher assistance or hardware uncertainty"
+}

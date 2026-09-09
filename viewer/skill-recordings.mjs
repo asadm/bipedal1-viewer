@@ -22,7 +22,7 @@ export function programmedEntries(catalog, skill) {
 
 // Select by physical identity, never by a cosmetic label or list position.
 // Old-design policies remain archived without appearing as a second robot.
-export function mainRecordings(catalog, jumpCatalog, recoveryCatalog) {
+export function mainRecordings(catalog, jumpCatalog, recoveryCatalog, terrainCatalog = null) {
   if (catalog.schema_version !== 1) throw Error('Unsupported policy catalog version');
   const demos = [...programmedEntries(jumpCatalog, 'jump'), ...programmedEntries(recoveryCatalog, 'recovery')];
   const model = jumpCatalog.model_sha256;
@@ -31,7 +31,20 @@ export function mainRecordings(catalog, jumpCatalog, recoveryCatalog) {
   const policies = catalog.policies.filter(entry => entry.model_sha256 === model).map(entry => ({
     ...entry, type: 'learned', directory: '../learned/', label: labels[entry.skill] ?? entry.label,
   }));
-  return {policies, demos, recordings: [...demos, ...policies]};
+  const development = terrainCatalog ? terrainEntries(terrainCatalog, model) : [];
+  return {policies, demos, development, recordings: [...demos, ...policies, ...development]};
+}
+
+export function terrainEntries(catalog, model) {
+  if (catalog.kind !== 'terrain-development' || catalog.qualification !== false ||
+      catalog.hardware_release !== false || catalog.model_sha256 !== model ||
+      !catalog.policy_sha256 || !catalog.replays?.length ||
+      catalog.replays.some(row => !row.replay_sha256 || !row.terrain_sha256)) {
+    throw Error('Unexpected terrain replay classification');
+  }
+  return catalog.replays.map(row => ({...row, type: 'development', skill: row.motion,
+    directory: '../terrain/', replay: row.file, evaluation: catalog.evaluation,
+    policy_sha256: catalog.policy_sha256, model_sha256: model, catalog}));
 }
 
 export function initialRecordingId(recordings, requested) {
@@ -47,10 +60,20 @@ export function validateRecording(entry, record) {
     throw Error('Recording has missing or invalid frames');
   }
   if (entry.type === 'learned') {
-    if (!record.report?.simulation_skill_pass || !entry.policy_sha256 ||
+    if (record.report?.terrain || entry.catalog?.qualification === false ||
+        !record.report?.simulation_skill_pass || !entry.policy_sha256 ||
         record.report.policy_sha256 !== entry.policy_sha256 ||
         record.report.model_sha256 !== entry.model_sha256) {
       throw Error('Recording does not match the evaluated policy');
+    }
+  } else if (entry.type === 'development') {
+    if (entry.catalog.qualification !== false || !record.terrain_geometry?.length ||
+        record.report?.terrain?.sha256 !== entry.terrain_sha256 ||
+        record.report.policy_sha256 !== entry.policy_sha256 ||
+        record.report.model_sha256 !== entry.model_sha256 ||
+        record.report.terrain_motion !== entry.motion ||
+        record.report.terrain.loose_stones !== false) {
+      throw Error('Terrain recording does not match its development evidence');
     }
   } else if (entry.type === 'programmed') {
     if (record.source_sha256 !== entry.source_sha256 ||

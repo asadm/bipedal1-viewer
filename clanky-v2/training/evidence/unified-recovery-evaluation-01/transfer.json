@@ -1,0 +1,10 @@
+{
+  "host": "100.113.140.68",
+  "remote_directory": "/dev/shm/clanky-unified-20260909-01",
+  "archive_sha256": "15884ac994d7bc054487e9e2dc778293bc08136ba1072be219d3135b7892beeb",
+  "archive_bytes": 165898240,
+  "verified_completed_cases": 128,
+  "local_recording_audit": "passed",
+  "remote_temporary_directory_removed": true,
+  "local_transport_archives_removed": true
+}

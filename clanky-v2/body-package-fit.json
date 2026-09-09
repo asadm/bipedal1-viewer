@@ -1,0 +1,457 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "allocation_inside_cavity",
+      "name": "depth_camera_bay",
+      "outside_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "allocation_inside_cavity",
+      "name": "pi_cooling_and_connectors",
+      "outside_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "allocation_inside_cavity",
+      "name": "battery_bay",
+      "outside_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "allocation_inside_cavity",
+      "name": "controller_bay",
+      "outside_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "allocations_do_not_overlap",
+      "pair": [
+        "depth_camera_bay",
+        "pi_cooling_and_connectors"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "allocations_do_not_overlap",
+      "pair": [
+        "depth_camera_bay",
+        "battery_bay"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "allocations_do_not_overlap",
+      "pair": [
+        "depth_camera_bay",
+        "controller_bay"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "allocations_do_not_overlap",
+      "pair": [
+        "pi_cooling_and_connectors",
+        "battery_bay"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "allocations_do_not_overlap",
+      "pair": [
+        "pi_cooling_and_connectors",
+        "controller_bay"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "allocations_do_not_overlap",
+      "pair": [
+        "battery_bay",
+        "controller_bay"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "body_lower",
+        "body_upper"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "body_lower",
+        "D435i_housing_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "body_lower",
+        "D435i_native_front_face"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "body_lower",
+        "sensor_surround"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "body_lower",
+        "raspberry_pi_5_PCB_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "body_lower",
+        "pi_cooler_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "body_lower",
+        "battery_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "body_lower",
+        "control_electronics_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "body_upper",
+        "D435i_housing_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "body_upper",
+        "D435i_native_front_face"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "body_upper",
+        "sensor_surround"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "body_upper",
+        "raspberry_pi_5_PCB_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "body_upper",
+        "pi_cooler_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "body_upper",
+        "battery_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "body_upper",
+        "control_electronics_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "D435i_housing_envelope",
+        "D435i_native_front_face"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "D435i_housing_envelope",
+        "sensor_surround"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "D435i_housing_envelope",
+        "raspberry_pi_5_PCB_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "D435i_housing_envelope",
+        "pi_cooler_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "D435i_housing_envelope",
+        "battery_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "D435i_housing_envelope",
+        "control_electronics_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "D435i_native_front_face",
+        "sensor_surround"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "D435i_native_front_face",
+        "raspberry_pi_5_PCB_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "D435i_native_front_face",
+        "pi_cooler_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "D435i_native_front_face",
+        "battery_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "D435i_native_front_face",
+        "control_electronics_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "sensor_surround",
+        "raspberry_pi_5_PCB_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "sensor_surround",
+        "pi_cooler_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "sensor_surround",
+        "battery_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "sensor_surround",
+        "control_electronics_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "raspberry_pi_5_PCB_envelope",
+        "pi_cooler_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "raspberry_pi_5_PCB_envelope",
+        "battery_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "raspberry_pi_5_PCB_envelope",
+        "control_electronics_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "pi_cooler_envelope",
+        "battery_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "pi_cooler_envelope",
+        "control_electronics_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "nominal_solids_do_not_overlap",
+      "pair": [
+        "battery_envelope",
+        "control_electronics_envelope"
+      ],
+      "overlap_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "component_inside_own_allocation",
+      "name": "D435i_housing_envelope",
+      "outside_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "component_inside_own_allocation",
+      "name": "D435i_native_front_face",
+      "outside_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "component_inside_own_allocation",
+      "name": "raspberry_pi_5_PCB_envelope",
+      "outside_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "component_inside_own_allocation",
+      "name": "pi_cooler_envelope",
+      "outside_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "component_inside_own_allocation",
+      "name": "battery_envelope",
+      "outside_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "component_inside_own_allocation",
+      "name": "control_electronics_envelope",
+      "outside_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "check": "side_USB_allocation_inside_camera_bay",
+      "outside_mm3": 0.0,
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "body_package.py": "ecd475279c8759a7a6bab9648b65d8028292409ec35c4fd2ac7fee3608b2b265",
+    "check_body_package.py": "16b298dc713e182a1a65cf2d635df9d0a1ec6cce5762de7aa5c69789d126a1d3"
+  },
+  "limitations": [
+    "Nominal exact CAD volumes and space reservations only. Electronics are simplified envelopes.",
+    "Actual camera mounts, USB cable, cooling, optical apertures and flexing leg wiring are not qualified.",
+    "Hip drives and their support still have to be fitted; no complete mass or motion claim."
+  ]
+}

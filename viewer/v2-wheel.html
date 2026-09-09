@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Clanky V2 / Wheel drive</title><link rel="icon" href="data:,"><link rel="stylesheet" href="viewer.css"><link rel="stylesheet" href="wheel.css"><script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/controls/OrbitControls.js":"./vendor/OrbitControls.js"}}</script></head>
+<body>
+<header class="header"><a class="brand" href="v2.html"><span class="brand-mark">c.</span><span>Clanky <span class="brand-secondary">/ wheel drive</span></span></a><span class="header-meta">V2 component development</span><a class="back-link" href="v2.html">Robot layout ↗</a></header>
+<main class="workspace">
+<aside class="sidebar" aria-label="Wheel drive controls">
+<section class="control-section"><div class="eyebrow">INSIDE THE SHIN</div><h1>Small motor.<br>Supported wheel.</h1><p class="intro">A 5:1 steel gear pair turns a separate wheel shaft. Two sealed bearings carry the wheel loads; a metal plate connects the shaft to the one-piece TPU wheel.</p>
+<p id="evidence" class="fit-warning" role="status">Checking the module CAD…</p>
+<div class="segmented" role="group" aria-label="Model view"><button data-view="enclosed" aria-pressed="false">Enclosed</button><button data-view="cutaway" aria-pressed="true">Cutaway</button></div>
+<div class="slider-heading" style="margin-top:24px"><label for="explode">Separate parts</label><output id="explode-value">0%</output></div><input id="explode" type="range" min="0" max="1" step=".01" value="0">
+<div class="slider-heading"><label for="rotation">Wheel rotation</label><output id="rotation-value">0°</output></div><input id="rotation" type="range" min="0" max="360" step="1" value="0">
+<button id="spin">Play gear motion</button><p class="small-note">Prescribed 5:1 rotation for inspection. This is not a motor simulation or jump replay.</p>
+<dl class="measurements"><div><dt>Wheel print</dt><dd>120 × 120 × 20 mm</dd></div><div><dt>Wheel support</dt><dd>2 × F696-2RS</dd></div><div><dt>Wheel shaft</dt><dd>6 mm steel</dd></div><div><dt>Reduction</dt><dd>20 : 100 teeth</dd></div><div><dt>Printed pieces shown</dt><dd id="prints">—</dd></div></dl>
+<p class="fine-print">Printed count includes the wheel, structural shin, bearing lid and rear sensor cap. Small bought fasteners are shown individually.</p></section>
+<section class="control-section"><h2>Follow the load path</h2><ol class="anatomy">
+<li><span>01</span><div><strong>Motor and reduction</strong><p>SunnySky V2806, a metal flange/shaft adapter and stock steel gears. The motor is offset from the wheel axis.</p></div></li>
+<li><span>02</span><div><strong>Supported shaft</strong><p>A cross-pin locks the output gear to the shaft. Opposed bearing flanges seat in the service lid.</p></div></li>
+<li><span>03</span><div><strong>One TPU wheel</strong><p>A D-bore steel plate transmits torque. Three metal sleeves keep screw tightening loads off the TPU centre.</p></div></li></ol>
+<details><summary>Open work and files</summary><p class="small-note">Development CAD. Assembly access, bearing fits and end float, shaft/gear fatigue, printed support strength, motor thread depths, wiring, sealing and temperature still require checks. Custom metal parts are not yet quoted. The new module has no V2 motion validation.</p><p class="downloads"><a href="../clanky-v2/geared-wheel/module.step">Module STEP ↓</a><a href="../clanky-v2/geared-wheel/wheel.stl">Wheel STL ↓</a><a href="../clanky-v2/geared-wheel/interfaces.json">Internal fit check ↗</a><a href="../clanky-v2/geared-wheel/manifest.json">Parts and sources ↗</a></p></details></section>
+<div class="sidebar-footer">Component CAD · Full robot integration pending</div></aside>
+<section class="viewport" aria-label="Wheel drive three-dimensional assembly"><div class="view-toolbar"><button data-camera="iso" aria-pressed="true">3D</button><button data-camera="face" aria-pressed="false">Wheel face</button><button data-camera="edge" aria-pressed="false">Axial stack</button><button id="fit">Fit</button></div><div class="canvas-caption"><span class="caption-mark"></span><span>V2 wheel module · development CAD</span></div><canvas id="model-canvas" aria-label="Wheel drive assembly; drag to orbit and scroll to zoom"></canvas><div id="load-status" role="status">Loading the detailed wheel drive…</div><div class="object-label"><span>GEARED WHEEL DRIVE</span><strong>5:1</strong><span>Separate motor and wheel shafts</span></div><div class="interaction-hint">Drag to orbit <span>·</span> Scroll to zoom</div></section>
+</main><script type="module" src="v2-wheel.mjs?v=ios-sha256-2"></script></body></html>

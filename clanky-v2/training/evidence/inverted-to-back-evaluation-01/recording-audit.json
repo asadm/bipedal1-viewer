@@ -1,0 +1,212 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "recording": "return2000-83000-250us.npz",
+      "sha256": "ae6db42cba8323e8c30c5d5e40f89ec94c61f25df1fd259f57bcfc569f9a321d",
+      "passed": false,
+      "max_action_error": 0.0,
+      "sampled_closure_m": 5.305239135416361e-06,
+      "sampled_gear_error_rad": 1.4682250082387327e-08,
+      "sampled_branch_margin": 0.5765543368868721,
+      "sampled_minimum_tire_clearance_m": 0.024597903759817682
+    },
+    {
+      "recording": "return2000-83000-125us.npz",
+      "sha256": "bfd7bb0e03af10653cb9247a750218cf7b80cd924a5b2e3046c22bd8cbba8b00",
+      "passed": true,
+      "max_action_error": 2.384185791015625e-07,
+      "sampled_closure_m": 5.283918005287015e-06,
+      "sampled_gear_error_rad": 1.5566727160631899e-07,
+      "sampled_branch_margin": 0.5764780932479985,
+      "sampled_minimum_tire_clearance_m": -0.0002543154052546614
+    },
+    {
+      "recording": "return2000-83001-250us.npz",
+      "sha256": "9d630bd5713c95cc4fe9df2344d7554212b5d418b3fdf4c01324dc8f07fc98e7",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.282901991648053e-06,
+      "sampled_gear_error_rad": 1.5002500433070055e-07,
+      "sampled_branch_margin": 0.5764586922367401,
+      "sampled_minimum_tire_clearance_m": -0.0002455576183704125
+    },
+    {
+      "recording": "return2000-83001-125us.npz",
+      "sha256": "9df7644191c529ab731b3e414f98d5990f0ed256fb23457860575c25e5c1a035",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.2831964496021504e-06,
+      "sampled_gear_error_rad": 1.695811931767821e-07,
+      "sampled_branch_margin": 0.5764581524107812,
+      "sampled_minimum_tire_clearance_m": -0.00026565752433107995
+    },
+    {
+      "recording": "return2000-83002-250us.npz",
+      "sha256": "794302af66ed28fb4d59305cdd819439937d615e0f00f9cf482e528933ba1023",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.283245811320435e-06,
+      "sampled_gear_error_rad": 1.647958086437029e-07,
+      "sampled_branch_margin": 0.5764580634918901,
+      "sampled_minimum_tire_clearance_m": -0.00026152389314624603
+    },
+    {
+      "recording": "return2000-83002-125us.npz",
+      "sha256": "4a5dccd5bc40c9aa26328c21ba01b406cf86854254838ccd753c1b6b1126c297",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.283196200738225e-06,
+      "sampled_gear_error_rad": 1.6982462476278214e-07,
+      "sampled_branch_margin": 0.5764580192456,
+      "sampled_minimum_tire_clearance_m": -0.0002663399198922448
+    },
+    {
+      "recording": "return2000-83003-250us.npz",
+      "sha256": "e05980b5e7381d734c61e64b090a744e0b1f495ff1456c33122245ec04ba79aa",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.283243941630085e-06,
+      "sampled_gear_error_rad": 1.6479177844530568e-07,
+      "sampled_branch_margin": 0.5764580108563303,
+      "sampled_minimum_tire_clearance_m": -0.0002667103503962581
+    },
+    {
+      "recording": "return2000-83003-125us.npz",
+      "sha256": "2ffd9870c18df82e649faa134afc29e6858dc27e3cf4a803cab45456a999d749",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.283190200248873e-06,
+      "sampled_gear_error_rad": 1.546162209820068e-07,
+      "sampled_branch_margin": 0.5764579767460335,
+      "sampled_minimum_tire_clearance_m": -0.00026062845558593145
+    },
+    {
+      "recording": "return2000-83004-250us.npz",
+      "sha256": "b3e73414ceb8d9e9976bf79b55ccea9d4928641b45426f981be2c5a270e87087",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.283229839060079e-06,
+      "sampled_gear_error_rad": 1.8901852207875436e-07,
+      "sampled_branch_margin": 0.5764580872981175,
+      "sampled_minimum_tire_clearance_m": -0.0002715126643742016
+    },
+    {
+      "recording": "return2000-83004-125us.npz",
+      "sha256": "1fb6745bb3793b1986a5139317e0d0a35b1a9ac49fa5f7d35ae4d966536544f7",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.283197061718516e-06,
+      "sampled_gear_error_rad": 1.3839812460503253e-07,
+      "sampled_branch_margin": 0.576458177774354,
+      "sampled_minimum_tire_clearance_m": -0.00024314272709676676
+    },
+    {
+      "recording": "return2000-83005-250us.npz",
+      "sha256": "83c6cc9243b79cb68f50e5c1d0c7b87058a0a7031c7fe5c83271af73ace887e2",
+      "passed": true,
+      "max_action_error": 2.384185791015625e-07,
+      "sampled_closure_m": 5.283246072366923e-06,
+      "sampled_gear_error_rad": 1.7320503573614587e-07,
+      "sampled_branch_margin": 0.5764580716885235,
+      "sampled_minimum_tire_clearance_m": -0.000259019645975341
+    },
+    {
+      "recording": "return2000-83005-125us.npz",
+      "sha256": "7de921f9c437fb8536a0fd5451630418d6b193d7a99d6e768e2c65c2223774e5",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.283193577838001e-06,
+      "sampled_gear_error_rad": 1.4827148966389814e-07,
+      "sampled_branch_margin": 0.5764579420392153,
+      "sampled_minimum_tire_clearance_m": -0.00024849555525126966
+    },
+    {
+      "recording": "return2000-83006-250us.npz",
+      "sha256": "e6bc6d69bacd2b64fc6f0e398643acfb61f7567b7d5000344a44136237c30450",
+      "passed": true,
+      "max_action_error": 5.960464477539063e-08,
+      "sampled_closure_m": 5.283244187056518e-06,
+      "sampled_gear_error_rad": 1.6495786816506098e-07,
+      "sampled_branch_margin": 0.5764580195642,
+      "sampled_minimum_tire_clearance_m": -0.0002664701286862428
+    },
+    {
+      "recording": "return2000-83006-125us.npz",
+      "sha256": "6652491075ccbf438ebfba1bcf03a4c54d3dbc1268795980b8a81f3f065af257",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.283193315001039e-06,
+      "sampled_gear_error_rad": 1.5902648939913888e-07,
+      "sampled_branch_margin": 0.5764580636163436,
+      "sampled_minimum_tire_clearance_m": -0.00025694731245188955
+    },
+    {
+      "recording": "return2000-83007-250us.npz",
+      "sha256": "46b5830713ce8e65cfd94181d182ed74704eaa31295209765e334a6ebf0a55d7",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.283238037055481e-06,
+      "sampled_gear_error_rad": 1.8852463909979633e-07,
+      "sampled_branch_margin": 0.5764578492201702,
+      "sampled_minimum_tire_clearance_m": -0.00028374260319562
+    },
+    {
+      "recording": "return2000-83007-125us.npz",
+      "sha256": "57ea1fa5283031293c6d1a0071e7cfd83158dfb0807dc4fd2be1be71e83cae44",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.283192896318069e-06,
+      "sampled_gear_error_rad": 1.586374644091393e-07,
+      "sampled_branch_margin": 0.5764580537397928,
+      "sampled_minimum_tire_clearance_m": -0.0002579144189115398
+    },
+    {
+      "recording": "return2000-83008-250us.npz",
+      "sha256": "248b44f93edcdf25fd9c1bb727889abcf3e5616b63b2a79fb255c8e908005cce",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.283245854155708e-06,
+      "sampled_gear_error_rad": 1.6446841080153263e-07,
+      "sampled_branch_margin": 0.5764580645028032,
+      "sampled_minimum_tire_clearance_m": -0.0002647910738099665
+    },
+    {
+      "recording": "return2000-83008-125us.npz",
+      "sha256": "7bb2a6a0d47ce856cebb1122fd119d5d888ad8201d74cd6c5e6a6b6f3b36c753",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.2831955011026385e-06,
+      "sampled_gear_error_rad": 1.6686682222655235e-07,
+      "sampled_branch_margin": 0.5764579987577455,
+      "sampled_minimum_tire_clearance_m": -0.0002652457753065004
+    },
+    {
+      "recording": "return2000-83009-250us.npz",
+      "sha256": "bb41468998ce2789e7856894d4cca164a275496f3e68dff70e057df5974b1704",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.28321563914268e-06,
+      "sampled_gear_error_rad": 1.656309166264691e-07,
+      "sampled_branch_margin": 0.5764581873341084,
+      "sampled_minimum_tire_clearance_m": -0.0002712054420629834
+    },
+    {
+      "recording": "return2000-83009-125us.npz",
+      "sha256": "d3d0d2e46b27c815cf4b008c197cd25ccd9075120a9d336d4ca6675c4e872abe",
+      "passed": true,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 5.283189290233363e-06,
+      "sampled_gear_error_rad": 1.482514832673587e-07,
+      "sampled_branch_margin": 0.5764579556498046,
+      "sampled_minimum_tire_clearance_m": -0.00024920208879610856
+    }
+  ],
+  "summary_sha256": "402af0727e6431d9a5b70cef0d23dcf6e3efc53b312f0aeb2f6c45ee8560957f",
+  "source_sha256": {
+    "audit_inverted.py": "c7bd6c15ce73bff2f19fdb20e1735abb5746e889d02f4d09d1538c439e6aec52",
+    "inverted_contact.py": "cec8b4fbcdc5311f0c6d6ce4f7659064244b3338a0066a168b766d7196cba486",
+    "inverted_to_back.py": "48ff5c9542be5010b84fddd86d2d497326259914364c290f48a6bb6a9e68380e"
+  },
+  "scope": "All source/reference identities and sensor-based action/transition decisions; continuous timestamps and settling handoff state/current preservation. Sampled IMU/encoder reconstruction, currents, linkage geometry and final-window posture gates. Contact flags and continuous guards rely on the hashed runner; this audit preserves failed recoveries and does not rerun dynamics or qualify hardware."
+}

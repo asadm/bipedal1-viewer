@@ -1,0 +1,34 @@
+{
+  "checked_utc": "2026-09-09T02:32:22.451584+00:00",
+  "status": "alternatives_only_not_selected",
+  "files": [
+    {
+      "name": "edulite05",
+      "url": "https://www.robstride.com/products/eduLite05",
+      "file": "edulite05.html",
+      "sha256": "c3f0555489decf6f41b4f6bb1fb14ca958997cd46c015ba7df04101c57560234",
+      "bytes": 1875
+    },
+    {
+      "name": "rs05",
+      "url": "https://www.robstride.com/products/robStride05",
+      "file": "rs05.html",
+      "sha256": "c3f0555489decf6f41b4f6bb1fb14ca958997cd46c015ba7df04101c57560234",
+      "bytes": 1875
+    },
+    {
+      "name": "rs-specs",
+      "url": "https://raw.githubusercontent.com/RobStride/Product_Information/main/README.md",
+      "file": "rs-specs.md",
+      "sha256": "0f3ab39fdd9507152083143e9ca008c4d1efe674d852109b200d43dda60de329",
+      "bytes": 10618
+    },
+    {
+      "name": "website_app",
+      "url": "https://www.robstride.com/assets/index-f063c142.js",
+      "file": "site-index.js",
+      "sha256": "6e548d3b7948a8f72aa40eafce7cf53d07e42d249df55efa12cb4e6fbd0d2a94",
+      "bytes": 1173150
+    }
+  ]
+}

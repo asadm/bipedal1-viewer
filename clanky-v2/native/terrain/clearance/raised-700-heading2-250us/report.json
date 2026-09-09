@@ -1,0 +1,301 @@
+{
+  "scope": "Programmed 500 Hz feedback with perfect robot state; no terrain-map input. Single course and nominal initial state; not learned or hardware-qualified.",
+  "family": "stones",
+  "terrain": {
+    "family": "stones",
+    "magnitude": 0.03,
+    "magnitude_unit": "m",
+    "seed": 731,
+    "fixed_surface": true,
+    "loose_stones": false,
+    "grid_spacing_m": 0.005,
+    "size_m": [
+      4.5,
+      1
+    ],
+    "position_m": [
+      1.25,
+      0,
+      0.0
+    ],
+    "scale_m": 0.03,
+    "nrow": 201,
+    "ncol": 901,
+    "stones": [
+      {
+        "index": 0,
+        "side": "left",
+        "center_m": [
+          0.73,
+          0.1123690315509602
+        ],
+        "radius_m": [
+          0.07995495900044254,
+          0.04956331143428672
+        ]
+      },
+      {
+        "index": 0,
+        "side": "right",
+        "center_m": [
+          0.65,
+          -0.11235446634563548
+        ],
+        "radius_m": [
+          0.07387300284018836,
+          0.035705548433072075
+        ]
+      },
+      {
+        "index": 1,
+        "side": "left",
+        "center_m": [
+          1,
+          0.11006740670080845
+        ],
+        "radius_m": [
+          0.05674898204061609,
+          0.04013722707339781
+        ]
+      },
+      {
+        "index": 1,
+        "side": "right",
+        "center_m": [
+          1,
+          -0.12929862894064842
+        ],
+        "radius_m": [
+          0.07618903126596524,
+          0.041635824239062647
+        ]
+      },
+      {
+        "index": 2,
+        "side": "left",
+        "center_m": [
+          1.4300000000000002,
+          0.12124917990426713
+        ],
+        "radius_m": [
+          0.05588688741704944,
+          0.04199270611365558
+        ]
+      },
+      {
+        "index": 2,
+        "side": "right",
+        "center_m": [
+          1.35,
+          -0.12140395802971411
+        ],
+        "radius_m": [
+          0.05445489889455847,
+          0.03680008801213549
+        ]
+      },
+      {
+        "index": 3,
+        "side": "left",
+        "center_m": [
+          1.7,
+          0.1271399121564124
+        ],
+        "radius_m": [
+          0.06631310132572969,
+          0.040283475326164116
+        ]
+      },
+      {
+        "index": 3,
+        "side": "right",
+        "center_m": [
+          1.7,
+          -0.1049435703099457
+        ],
+        "radius_m": [
+          0.0554199131950997,
+          0.03637791808140815
+        ]
+      },
+      {
+        "index": 4,
+        "side": "left",
+        "center_m": [
+          2.13,
+          0.11204217688845884
+        ],
+        "radius_m": [
+          0.054393457115143894,
+          0.045255125255737556
+        ]
+      },
+      {
+        "index": 4,
+        "side": "right",
+        "center_m": [
+          2.05,
+          -0.12835817148103412
+        ],
+        "radius_m": [
+          0.06244915105786886,
+          0.041901783152656004
+        ]
+      }
+    ],
+    "obstacle_interval_x_m": [
+      0.55,
+      2.4
+    ],
+    "actual_min_height_m": 0.0,
+    "actual_max_height_m": 0.03,
+    "sha256": "110180258e183cb84a23b21ef1007dbf60a4da1af157136841b23c80a9855ae6",
+    "scene_sha256": "842fda0b4279743420e3b90aec85a6d3b5deeb5531687cf67beb3e28a3f0b612"
+  },
+  "timestep_s": 0.00025,
+  "duration_s": 6.1255000000017406,
+  "requested_speed_m_s": 0.4,
+  "controller_period_s": 0.002,
+  "mass_kg": 2.4892471592111667,
+  "motors": 4,
+  "displacement_m": 1.3075946554524172,
+  "final_position_m": [
+    1.3114209386624909,
+    0.1676841316713074,
+    0.06000830929987427
+  ],
+  "peak_lateral_error_m": 0.16851975482222692,
+  "peak_cruise_speed_error_m_s": 0.3757502720284748,
+  "maximum_pitch_deg": 11.048916340445249,
+  "maximum_roll_deg": 6.172396417650454,
+  "maximum_yaw_deg": 54.01034550118992,
+  "maximum_closure_error_m": 2.654565315317547e-06,
+  "maximum_output_gear_error_rad": 4.3038068042733357e-07,
+  "maximum_spring_compression_mm": 9.564069172519694,
+  "hip_range_rad": [
+    0.41894447371222426,
+    0.7171140932603178
+  ],
+  "body_ground_contact": true,
+  "first_body_contact_s": 5.125500000000518,
+  "peak_wheel_normal_N": [
+    521.0234316421025,
+    569.6538033785808
+  ],
+  "elevated_contact_s": [
+    0.7275,
+    0.75425
+  ],
+  "distinct_stones_contacted": [
+    [
+      0,
+      "left"
+    ],
+    [
+      0,
+      "right"
+    ],
+    [
+      1,
+      "left"
+    ],
+    [
+      1,
+      "right"
+    ]
+  ],
+  "settling_metrics": {
+    "speed": null,
+    "lean": null,
+    "roll": null,
+    "yaw": null,
+    "pitch_rate": null
+  },
+  "drives": [
+    {
+      "peak_current_A": 7.999999999999998,
+      "peak_voltage_V": 11.1,
+      "copper_J": 8.948469800888903,
+      "envelope_errors": 0
+    },
+    {
+      "peak_current_A": 7.994459540943378,
+      "peak_voltage_V": 2.1336886209595054,
+      "copper_J": 2.8002895585881515,
+      "envelope_errors": 0
+    },
+    {
+      "peak_current_A": 12.99276749666163,
+      "peak_voltage_V": 1.1734403857467275,
+      "copper_J": 4.627959456306596,
+      "envelope_errors": 0
+    },
+    {
+      "peak_current_A": 9.863276797585474,
+      "peak_voltage_V": 0.8964544801866153,
+      "copper_J": 3.640630863340706,
+      "envelope_errors": 0
+    }
+  ],
+  "source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+    "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+    "native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+    "native/mass-properties.json": "0d5c5d21f94f9282dd107cc92a867e4c4f888601783eda00580f5f71d0e970c7",
+    "native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+    "native_drivetrain.py": "3994d8475929f8ae1e6fcf68a487f852c3812ec96937c796d41b499fc0304b77",
+    "native_terrain.py": "fb769fb7fc56e9e023847051c42acc8bd9d219909b1a7a34ac48b9130d70597f",
+    "shared_terrain_helpers": "af2fe776105bfacc9701113f840a991bce3e6d195f030f42c032b2dba8846347",
+    "native_terrain_clearance.py": "e4ff3028b845715c98ae48954c3d1c530445cc4360c3161a9c36eb53be1a27c4",
+    "native_terrain_posture_trial.py": "0d8f0b231d6ad8c051fb39a136b57e6c1d94a13e223ca0d63ea7f0041ad7e56d",
+    "native_terrain_trial.py": "3c554028a09ab2b98a9fdf3d0366b802b475db32957c32a917f0c70e4126fe0e",
+    "native_trial.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486"
+  },
+  "model_sha256": "842fda0b4279743420e3b90aec85a6d3b5deeb5531687cf67beb3e28a3f0b612",
+  "controller": {
+    "heading_kp": 0.6,
+    "heading_kd": 0.14,
+    "roll_kp": 3.0,
+    "ride_q": 0.7,
+    "initial_hip_rad": 0.41900000000000015,
+    "raise_interval_s": [
+      0.25,
+      1.0
+    ]
+  },
+  "checks": {
+    "completed": false,
+    "no_warnings": true,
+    "motor_envelopes": true,
+    "closure": true,
+    "gear_constraints": true,
+    "spring_travel": true,
+    "body_clear": false,
+    "hip_limits": true,
+    "route_completed": false,
+    "stayed_on_course": true,
+    "terrain_exposure": false,
+    "stable_finish": false
+  },
+  "passed": false,
+  "limitations": [
+    "Unweighed CAD/component-prior masses; current more-detailed left hip and earlier right hip retained.",
+    "Ground contacts use outer CAD convex hulls and rigid 120x20 mm tire cylinders. No self-contact or TPU deformation; recovery is not qualified by this plant.",
+    "Hip and wheel currents, voltage, DC-equivalent conventions, efficiencies and rotor inertias require identification. 32 A hip propeller-cooled rating does not qualify sealed duty.",
+    "Guide friction uses preceding-step transverse joint reaction; coefficient, one-step delay and damping are explicit unmeasured priors.",
+    "No backlash, structural flex, thermal limits, real battery/regeneration model, estimator delay or learned policy yet.",
+    "Explicit rotor/gear bodies with ideal gear equalities and equivalent output torques. Unmeasured hip rotor split and illustrative wheel rotor CAD; no backlash, tooth compliance or identified internal inertia.",
+    "Encoder cap contacts use CAD surface patches split at axial shoulders and eight radial sectors. Conservative local hulls still fill some small holes; all other exterior hulls and rigid tires are unchanged.",
+    "Fixed heightfield stones and grades; no loose material. Turning/reversing, random starts, hardware variations and general off-road qualification are separate tests."
+  ]
+}

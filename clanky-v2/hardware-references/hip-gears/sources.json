@@ -1,0 +1,63 @@
+{
+  "retrieved_utc": "2026-09-09T01:16:24.953031+00:00",
+  "parts": [
+    {
+      "sku": "2302-0014-0080",
+      "page": "https://www.gobilda.com/2302-series-aluminum-mod-0-8-hub-mount-gear-14mm-bore-80-tooth/",
+      "page_sha256": "79ad0d3f28346bd9f82a0819f1f346b873dba08adf91005263af516563c3e394",
+      "files": [
+        {
+          "path": "2302-0014-0080.step",
+          "url": "https://www.gobilda.com/content/step_files/2302-0014-0080.zip",
+          "sha256": "dd2ae620f2d89e71a8eb9177a3792f4c0ea7f2323838b2277d2b9634900b9a04"
+        },
+        {
+          "path": "2302-0014-0080.pdf",
+          "url": "https://www.gobilda.com/content/spec_sheets/2302-0014-0080_spec_sheet.pdf",
+          "sha256": "474145f3230dcdea143634372edda63c64d56f1a8a8b6d96e12916f0ae271979"
+        }
+      ]
+    },
+    {
+      "sku": "2302-0014-0060",
+      "page": "https://www.gobilda.com/2302-series-aluminum-mod-0-8-hub-mount-gear-14mm-bore-60-tooth/",
+      "page_sha256": "f4d106563d23ed03dea992f67e38508befcda6a5208f83ddaf7b0653a89e0397",
+      "files": [
+        {
+          "path": "2302-0014-0060.step",
+          "url": "https://www.gobilda.com/content/step_files/2302-0014-0060.zip",
+          "sha256": "0ff5026d07e04967b1f2edb536bbf63a42f4df5e326c717b156aecc888d293f5"
+        },
+        {
+          "path": "2302-0014-0060.pdf",
+          "url": "https://www.gobilda.com/content/spec_sheets/2302-0014-0060_spec_sheet.pdf",
+          "sha256": "94140e2f345398d37b6fc212842efbc4e8b156394796a8b39ddd2fd6a862a304"
+        }
+      ]
+    },
+    {
+      "sku": "2303-1006-0020",
+      "page": "https://www.servocity.com/2303-series-steel-mod-0-8-pinion-gear-6mm-d-bore-20-tooth/",
+      "page_sha256": "9cab6794eb06fb635bcb0677692175ef3bd5e0adcf36a6db8fef7c98c163433f",
+      "files": [
+        {
+          "path": "2303-1006-0020.step",
+          "url": "https://www.servocity.com/content/step_files/2303-1006-0020.zip",
+          "sha256": "435d078a198b5dbdfd7e2b11870d60daf6a4b405be38f9629d66b1c0bf38ef4c"
+        }
+      ]
+    },
+    {
+      "sku": "2303-1006-0015",
+      "page": "https://www.servocity.com/2303-series-steel-mod-0-8-pinion-gear-6mm-d-bore-15-tooth/",
+      "page_sha256": "aa9beb7a52af75faf61b71a03db4fced490cea7db301ffb95dd6ac9888d54f94",
+      "files": [
+        {
+          "path": "2303-1006-0015.step",
+          "url": "https://www.servocity.com/content/step_files/2303-1006-0015.zip",
+          "sha256": "222d32c757ac7b33ddfa17d63090af5297277b88a6a8105d40edb6ab669803f6"
+        }
+      ]
+    }
+  ]
+}

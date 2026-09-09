@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "Same source and 0.4-second asymmetric action sequence; macOS arm64 vs Linux x86_64, native MuJoCo 3.3.7",
+  "maximum_absolute_errors": {
+    "qpos": 2.993827408204197e-12,
+    "qvel": 3.2953195727714046e-11,
+    "current_A": 6.779465877571056e-12,
+    "guide_normal_N": 1.1181722214814727e-11,
+    "actor": 7.450580596923828e-09,
+    "reward": 1.3138101717657946e-13
+  },
+  "inputs_sha256": {
+    "local.json": "bddb918edffa952c53c3cf44bf471dcc6e466f586856d3fbf3200d8c62dbe6af",
+    "remote.json": "fac6158978705b578c7862790ac9f7d96430b04024ef3df03b11cdc87773a4f0"
+  }
+}

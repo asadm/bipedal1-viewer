@@ -1,0 +1,2716 @@
+{
+  "status": "unadopted_stock_gear_layout",
+  "motor_axis_xz_mm": [
+    -60.0,
+    34.0
+  ],
+  "intermediate_axis_xz_mm": [
+    -37.34228705658818,
+    14.337140488373795
+  ],
+  "ratio": 16,
+  "stages_teeth": [
+    [
+      15,
+      60
+    ],
+    [
+      20,
+      80
+    ]
+  ],
+  "neck_to_intermediate_tip_clearance_mm": 3.6999999999999993,
+  "tooth_face_overlap_mm": [
+    5.5,
+    6.0
+  ],
+  "viewer_parts_sha256": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+  "mesh_centres_mm": [
+    30.000000000000014,
+    40.0
+  ],
+  "cases": [
+    {
+      "case": "original_battery_control",
+      "allocations": [
+        {
+          "name": "depth_camera_bay",
+          "dims": [
+            45,
+            120,
+            40
+          ],
+          "centre": [
+            57,
+            0,
+            34
+          ],
+          "label": "D435i bay \u00b7 120 \u00d7 45 \u00d7 40 mm",
+          "color": [
+            0.16,
+            0.62,
+            0.7
+          ],
+          "note": "90 \u00d7 25 \u00d7 25 mm camera plus side USB clearance; mount, actual plug and optical check pending."
+        },
+        {
+          "name": "pi_cooling_and_connectors",
+          "dims": [
+            78,
+            104,
+            32
+          ],
+          "centre": [
+            -6,
+            0,
+            49.5
+          ],
+          "label": "Raspberry Pi + cooler / plugs",
+          "color": [
+            0.26,
+            0.62,
+            0.39
+          ],
+          "note": "Pi 5 85 \u00d7 56 mm PCB reference; 32 mm allocation includes components/cooling, not an exact cooler model."
+        },
+        {
+          "name": "battery_bay",
+          "dims": [
+            76,
+            42,
+            32
+          ],
+          "centre": [
+            -25,
+            30,
+            8
+          ],
+          "label": "Battery bay \u00b7 76 \u00d7 42 \u00d7 32 mm",
+          "color": [
+            0.85,
+            0.52,
+            0.15
+          ],
+          "note": "Unselected pack: voltage, discharge capability, padding, retention and thermal isolation remain open."
+        },
+        {
+          "name": "controller_bay",
+          "dims": [
+            70,
+            42,
+            24
+          ],
+          "centre": [
+            -15,
+            -25,
+            4
+          ],
+          "label": "Control / power electronics",
+          "color": [
+            0.5,
+            0.4,
+            0.73
+          ],
+          "note": "Unselected controller allocation. Hip motor/reduction packaging remains unresolved."
+        }
+      ],
+      "checks": [
+        {
+          "kind": "bay_containment",
+          "name": "depth_camera_bay",
+          "outside_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_containment",
+          "name": "pi_cooling_and_connectors",
+          "outside_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_containment",
+          "name": "battery_bay",
+          "outside_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_containment",
+          "name": "controller_bay",
+          "outside_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_pair",
+          "pair": [
+            "depth_camera_bay",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_pair",
+          "pair": [
+            "depth_camera_bay",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_pair",
+          "pair": [
+            "depth_camera_bay",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_pair",
+          "pair": [
+            "pi_cooling_and_connectors",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_pair",
+          "pair": [
+            "pi_cooling_and_connectors",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_pair",
+          "pair": [
+            "battery_bay",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "input_pinion",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 87.7,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "input_pinion",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 8.200000000000003,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "input_pinion",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 56.09135405746593,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "input_pinion",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 13.82746759768952,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_60T",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 47.04228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_60T",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_60T",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 64.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_60T",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 9.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_20T",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 63.04228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_20T",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 10.362859511626205,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_20T",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 49.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_20T",
+            "controller_bay"
+          ],
+          "overlap_mm3": 904.4021056365383,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_80T",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 4.432378382262933,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_80T",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.7000000000000028,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_80T",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 49.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_80T",
+            "controller_bay"
+          ],
+          "overlap_mm3": 3512.921559036512,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.65,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 1.1499999999999986,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 19.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 6.741260281974004,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor_mount",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor_mount",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor_mount",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 16.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor_mount",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 6.091260281974004,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "feedback",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 81.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "feedback",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "feedback",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 9.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "feedback",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 5.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "phase_leads",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 108.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "phase_leads",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 29.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "phase_leads",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 24.596747752497688,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "phase_leads",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 24.020824298928627,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 64.34228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 11.662859511626209,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 43.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "controller_bay"
+          ],
+          "overlap_mm3": 447.58728987735,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 64.34228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 13.351864738227764,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 67.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 12.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_shaft",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 68.84228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_shaft",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 16.16285951162621,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_shaft",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 43.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_shaft",
+            "controller_bay"
+          ],
+          "overlap_mm3": 271.1336561969827,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "compound_hub",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 54.84228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "compound_hub",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.162859511626209,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "compound_hub",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 60.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "compound_hub",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 5.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_neck",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 25.73237838226293,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_neck",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 22.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_neck",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 55.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_neck",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "input_pinion",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 87.7,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "input_pinion",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 8.200000000000003,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "input_pinion",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.1999999999999993,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "input_pinion",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 52.83179781310829,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_60T",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 47.04228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_60T",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_60T",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 4.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_60T",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 59.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_20T",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 63.04228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_20T",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 10.362859511626205,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_20T",
+            "battery_bay"
+          ],
+          "overlap_mm3": 2676.1342860339296,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_20T",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 44.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_80T",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 4.432378382262933,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_80T",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.7000000000000028,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_80T",
+            "battery_bay"
+          ],
+          "overlap_mm3": 4047.2029356341923,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_80T",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 44.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.65,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 1.1499999999999986,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor",
+            "battery_bay"
+          ],
+          "overlap_mm3": 1335.6905084299926,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 15.990453095185272,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor_mount",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor_mount",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor_mount",
+            "battery_bay"
+          ],
+          "overlap_mm3": 68.72419413459436,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor_mount",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 13.013587200413037,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "feedback",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 81.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "feedback",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "feedback",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 1.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "feedback",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 6.726812023536855,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "phase_leads",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 108.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "phase_leads",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 29.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "phase_leads",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 11.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "phase_leads",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 29.427877939124322,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 64.34228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 11.662859511626209,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "battery_bay"
+          ],
+          "overlap_mm3": 742.2012644105886,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 38.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 64.34228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 13.351864738227764,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 7.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 62.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_shaft",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 68.84228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_shaft",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 16.16285951162621,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_shaft",
+            "battery_bay"
+          ],
+          "overlap_mm3": 466.52650905808423,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_shaft",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 38.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "compound_hub",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 54.84228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "compound_hub",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.162859511626209,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "compound_hub",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "compound_hub",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 55.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_neck",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 25.73237838226293,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_neck",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 22.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_neck",
+            "battery_bay"
+          ],
+          "overlap_mm3": 1587.420769010596,
+          "clearance_mm": 0.0,
+          "passed": false
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_neck",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 50.0,
+          "passed": true
+        }
+      ],
+      "nominal_electronics_clearance_pass": false
+    },
+    {
+      "case": "central_battery_rear_control",
+      "allocations": [
+        {
+          "name": "depth_camera_bay",
+          "dims": [
+            45,
+            120,
+            40
+          ],
+          "centre": [
+            57,
+            0,
+            34
+          ],
+          "label": "D435i bay \u00b7 120 \u00d7 45 \u00d7 40 mm",
+          "color": [
+            0.16,
+            0.62,
+            0.7
+          ],
+          "note": "90 \u00d7 25 \u00d7 25 mm camera plus side USB clearance; mount, actual plug and optical check pending."
+        },
+        {
+          "name": "pi_cooling_and_connectors",
+          "dims": [
+            78,
+            104,
+            32
+          ],
+          "centre": [
+            -6,
+            0,
+            49.5
+          ],
+          "label": "Raspberry Pi + cooler / plugs",
+          "color": [
+            0.26,
+            0.62,
+            0.39
+          ],
+          "note": "Pi 5 85 \u00d7 56 mm PCB reference; 32 mm allocation includes components/cooling, not an exact cooler model."
+        },
+        {
+          "name": "battery_bay",
+          "dims": [
+            76,
+            42,
+            32
+          ],
+          "centre": [
+            -8.5,
+            0,
+            8
+          ],
+          "label": "Battery bay \u00b7 76 \u00d7 42 \u00d7 32 mm",
+          "color": [
+            0.85,
+            0.52,
+            0.15
+          ],
+          "note": "Unselected pack: voltage, discharge capability, padding, retention and thermal isolation remain open."
+        },
+        {
+          "name": "controller_bay",
+          "dims": [
+            32,
+            92,
+            24
+          ],
+          "centre": [
+            -65,
+            0,
+            4
+          ],
+          "label": "Control / power electronics",
+          "color": [
+            0.5,
+            0.4,
+            0.73
+          ],
+          "note": "Same reserved volume, different aspect ratio. Requires actual controllers arranged in this compartment; old controller placeholder is not reused as fit proof."
+        }
+      ],
+      "checks": [
+        {
+          "kind": "bay_containment",
+          "name": "depth_camera_bay",
+          "outside_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_containment",
+          "name": "pi_cooling_and_connectors",
+          "outside_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_containment",
+          "name": "battery_bay",
+          "outside_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_containment",
+          "name": "controller_bay",
+          "outside_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_pair",
+          "pair": [
+            "depth_camera_bay",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_pair",
+          "pair": [
+            "depth_camera_bay",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_pair",
+          "pair": [
+            "depth_camera_bay",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_pair",
+          "pair": [
+            "pi_cooling_and_connectors",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_pair",
+          "pair": [
+            "pi_cooling_and_connectors",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "bay_pair",
+          "pair": [
+            "battery_bay",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "input_pinion",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 87.7,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "input_pinion",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 8.200000000000003,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "input_pinion",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 27.856883393818563,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "input_pinion",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 11.244554237496477,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_60T",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 47.04228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_60T",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_60T",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 34.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_60T",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 9.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_20T",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 63.04228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_20T",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 10.362859511626205,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_20T",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 19.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_20T",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.8577129434118262,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_80T",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 4.432378382262933,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_80T",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.7000000000000028,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_80T",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 19.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_80T",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 16.200000000000003,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.65,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 1.1499999999999986,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.9502976164114427,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 4.149999999999999,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor_mount",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor_mount",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor_mount",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.3002976164114424,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "motor_mount",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "feedback",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 81.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "feedback",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "feedback",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "feedback",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 5.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "phase_leads",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 108.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "phase_leads",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 29.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "phase_leads",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 27.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "phase_leads",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 1.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 64.34228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 11.662859511626209,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 13.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 4.157712943411823,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 64.34228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 13.351864738227764,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 37.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 13.173328240039197,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_shaft",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 68.84228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_shaft",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 16.16285951162621,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_shaft",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 13.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "intermediate_shaft",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 8.657712943411823,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "compound_hub",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 54.84228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "compound_hub",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.162859511626209,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "compound_hub",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 30.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "compound_hub",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 5.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_neck",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 25.73237838226293,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_neck",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 22.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_neck",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 25.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": -1,
+          "pair": [
+            "output_neck",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 37.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "input_pinion",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 87.7,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "input_pinion",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 8.200000000000003,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "input_pinion",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 27.856883393818563,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "input_pinion",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 11.244554237496477,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_60T",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 47.04228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_60T",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_60T",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 34.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_60T",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 9.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_20T",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 63.04228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_20T",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 10.362859511626205,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_20T",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 19.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_20T",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.8577129434118262,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_80T",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 4.432378382262933,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_80T",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.7000000000000028,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_80T",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 19.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_80T",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 16.200000000000003,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.65,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 1.1499999999999986,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.950297616411445,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 4.149999999999999,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor_mount",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 80.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor_mount",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor_mount",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.3002976164114424,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "motor_mount",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 3.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "feedback",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 81.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "feedback",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "feedback",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 0.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "feedback",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 5.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "phase_leads",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 108.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "phase_leads",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 29.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "phase_leads",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 27.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "phase_leads",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 1.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 64.34228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 11.662859511626209,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 13.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_inner_bearing",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 4.157712943411823,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 64.34228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 13.351864738227764,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 37.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_outer_bearing",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 13.173328240039197,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_shaft",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 68.84228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_shaft",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 16.16285951162621,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_shaft",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 13.5,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "intermediate_shaft",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 8.657712943411823,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "compound_hub",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 54.84228705658818,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "compound_hub",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 2.162859511626209,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "compound_hub",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 30.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "compound_hub",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 5.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_neck",
+            "depth_camera_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 25.73237838226293,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_neck",
+            "pi_cooling_and_connectors"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 22.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_neck",
+            "battery_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 25.0,
+          "passed": true
+        },
+        {
+          "kind": "drive_vs_bay",
+          "side": 1,
+          "pair": [
+            "output_neck",
+            "controller_bay"
+          ],
+          "overlap_mm3": 0,
+          "clearance_mm": 37.5,
+          "passed": true
+        }
+      ],
+      "nominal_electronics_clearance_pass": true
+    }
+  ],
+  "existing_shell_intersections": [
+    {
+      "part": "input_pinion",
+      "shell": "body_upper",
+      "overlap_mm3": 72.633622150996
+    },
+    {
+      "part": "intermediate_60T",
+      "shell": "body_lower",
+      "overlap_mm3": 423.0480425451925
+    },
+    {
+      "part": "intermediate_60T",
+      "shell": "body_upper",
+      "overlap_mm3": 104.96529278417667
+    },
+    {
+      "part": "output_80T",
+      "shell": "body_lower",
+      "overlap_mm3": 508.05711911031096
+    },
+    {
+      "part": "intermediate_outer_bearing",
+      "shell": "body_lower",
+      "overlap_mm3": 275.2906964899807
+    },
+    {
+      "part": "intermediate_outer_bearing",
+      "shell": "body_upper",
+      "overlap_mm3": 82.72315673605816
+    },
+    {
+      "part": "intermediate_shaft",
+      "shell": "body_lower",
+      "overlap_mm3": 70.68583470577033
+    },
+    {
+      "part": "output_neck",
+      "shell": "body_lower",
+      "overlap_mm3": 1020.3283637902175
+    }
+  ],
+  "complete_gearbox_fit_pass": false,
+  "hardware_release": false,
+  "dynamics_validated": false,
+  "input_sha256": {
+    "hip_gear_layout.py": "3c755de0a291d5552184f707ce2337c2d9370a638a86e5a591133674ed6c3359",
+    "body_package.py": "ecd475279c8759a7a6bab9648b65d8028292409ec35c4fd2ac7fee3608b2b265",
+    "hip_stock_gears.py": "580af351bd824a0d9514632ff080fb9a0f535cc9ff77679f4706c287b86c01f5",
+    "layout.py": "6452521c3837fdca61a1302092fd1ed716d272bf57a7bcac966e52951852b41f",
+    "hardware-references/hip-gears/2302-0014-0060.step": "0ff5026d07e04967b1f2edb536bbf63a42f4df5e326c717b156aecc888d293f5",
+    "hardware-references/hip-gears/2302-0014-0080.step": "dd2ae620f2d89e71a8eb9177a3792f4c0ea7f2323838b2277d2b9634900b9a04",
+    "hardware-references/hip-gears/2303-1006-0015.step": "222d32c757ac7b33ddfa17d63090af5297277b88a6a8105d40edb6ab669803f6",
+    "hardware-references/hip-gears/2303-1006-0020.step": "435d078a198b5dbdfd7e2b11870d60daf6a4b405be38f9629d66b1c0bf38ef4c"
+  },
+  "limitations": [
+    "Actual supplier gears are exported but their meshing phases/backlash are not set or validated.",
+    "Rotation envelopes fill tooth gaps and web holes but preserve the large gears' continuous bores and face recesses. Small pinions conservatively include hubs and set-screw axial bounds.",
+    "The body shells intersect the gearbox. A lower side housing and new inner fixed-spindle supports must be designed; no enclosure fit is declared.",
+    "Motor flange-to-pinion transmission, output-to-thigh coupling, compound hub, shaft constraints and bearing seats remain unfinished.",
+    "The rear controller allocation changes aspect ratio at the same volume; it requires actual driver selection and layout."
+  ]
+}

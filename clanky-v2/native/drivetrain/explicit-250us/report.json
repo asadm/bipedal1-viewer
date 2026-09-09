@@ -1,0 +1,171 @@
+{
+  "status": "programmed_native_experiment",
+  "mass_kg": 2.4892471592111667,
+  "timestep_s": 0.00025,
+  "duration_s": 8.00000000000403,
+  "jump_requested": true,
+  "initial_pitch_deg": 6.5742827277785905,
+  "prelaunch_hip_angles": [
+    -0.3798275724598556,
+    -0.3797400927394499
+  ],
+  "takeoff_s": 1.48650000000008,
+  "landing_s": 1.8985000000002177,
+  "takeoff_state": {
+    "com_velocity_m_s": [
+      -0.8976399997332141,
+      0.0014083903493416464,
+      1.953460970149234
+    ],
+    "rigid_body_angular_momentum_Nms": [
+      0.005559822811891113,
+      0.07308649846011137,
+      0.0003974369631148721
+    ],
+    "root_angular_velocity_rad_s": [
+      0.0962583758704887,
+      2.752301222183181,
+      -0.01038324623146396
+    ],
+    "wheel_rpm": [
+      -26.55028266947814,
+      -28.332151713846432
+    ]
+  },
+  "maximum_wheel_rpm": 1438.5024768381377,
+  "airtime_s": 0.4120000000001376,
+  "first_flight_both_wheel_clearance_mm": 262.32955022552494,
+  "COM_rise_from_detected_takeoff_mm": 194.49583855547388,
+  "maximum_pitch_deg": 38.433787672442634,
+  "maximum_roll_deg": 5.15192403920425,
+  "hip_range_rad": [
+    -0.3813326699228828,
+    1.0331406472326166
+  ],
+  "maximum_spring_compression_mm": 19.26314077980204,
+  "maximum_closure_error_mm": 0.03291457550266937,
+  "body_ground_contact": false,
+  "peak_wheel_normal_N": [
+    611.1066209565827,
+    790.5593021470936
+  ],
+  "peak_guide_transverse_reaction_N": 29.748924746139213,
+  "motors": [
+    {
+      "peak_current_A": 7.999999999999998,
+      "peak_voltage_V": 11.1,
+      "copper_J": 4.7432770648871685,
+      "bus_J": 12.660999826348883,
+      "output_J": 4.674275539125355,
+      "envelope_errors": 0
+    },
+    {
+      "peak_current_A": 7.999999999999998,
+      "peak_voltage_V": 11.1,
+      "copper_J": 4.864252506455964,
+      "bus_J": 13.003440005357346,
+      "output_J": 4.828939377361703,
+      "envelope_errors": 0
+    },
+    {
+      "peak_current_A": 31.999999999999996,
+      "peak_voltage_V": 7.730634033091718,
+      "copper_J": 16.990312054335273,
+      "bus_J": 22.58313202284865,
+      "output_J": 2.3920332406704885,
+      "envelope_errors": 0
+    },
+    {
+      "peak_current_A": 31.999999999999996,
+      "peak_voltage_V": 7.750053568419165,
+      "copper_J": 17.42804394027818,
+      "bus_J": 22.23654091521347,
+      "output_J": 1.3909185957313812,
+      "envelope_errors": 0
+    }
+  ],
+  "final_half_second": {
+    "speed": 0.06995292405223973,
+    "lean": 0.0037117884298124297,
+    "roll": 4.591829771096655e-05,
+    "pitch_rate": 0.0008713940416348254
+  },
+  "settling_window_s": 2,
+  "settling_metrics": {
+    "speed": 0.1023568105796023,
+    "lean": 0.0037945073622121547,
+    "roll": 4.591829771096655e-05,
+    "pitch_rate": 0.002789757924723507
+  },
+  "stable_finish": false,
+  "warnings": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "controller": {
+    "pulse": 0.075,
+    "push": 6.0,
+    "crouch": -0.38,
+    "extend": 0.75,
+    "retract": -0.1,
+    "push_wheel": 0.0,
+    "hip_kp": 55.0,
+    "hip_kd": 0.7,
+    "flight_kd": 1.3,
+    "landing_q": 0.7,
+    "launch_lean": -0.25,
+    "landing_anchor": true,
+    "push_tail_s": 0.005,
+    "lean_start_s": 1.0,
+    "lean_ramp_s": 0.25,
+    "landing_clearance_m": 0.18
+  },
+  "source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+    "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+    "native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+    "native/mass-properties.json": "0d5c5d21f94f9282dd107cc92a867e4c4f888601783eda00580f5f71d0e970c7",
+    "native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+    "native_drivetrain.py": "3994d8475929f8ae1e6fcf68a487f852c3812ec96937c796d41b499fc0304b77",
+    "native_trial.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486"
+  },
+  "model_sha256": "34a516ae9b9600fdec88010e3edffcd9e44f6851bb6d1745d1018b9ccd441444",
+  "limitations": [
+    "Unweighed CAD/component-prior masses; current more-detailed left hip and earlier right hip retained.",
+    "Ground contacts use outer CAD convex hulls and rigid 120x20 mm tire cylinders. No self-contact or TPU deformation; recovery is not qualified by this plant.",
+    "Hip and wheel currents, voltage, DC-equivalent conventions, efficiencies and rotor inertias require identification. 32 A hip propeller-cooled rating does not qualify sealed duty.",
+    "Guide friction uses preceding-step transverse joint reaction; coefficient, one-step delay and damping are explicit unmeasured priors.",
+    "No backlash, structural flex, thermal limits, real battery/regeneration model, estimator delay or learned policy yet.",
+    "Explicit rotor/gear bodies with ideal gear equalities and equivalent output torques. Unmeasured hip rotor split and illustrative wheel rotor CAD; no backlash, tooth compliance or identified internal inertia."
+  ],
+  "checks": {
+    "completed": true,
+    "no_warnings": true,
+    "motor_envelopes": true,
+    "closure": true,
+    "spring_travel": true,
+    "body_clear": true,
+    "stable_finish": false,
+    "hip_limits": true,
+    "jumped_and_landed": true,
+    "wheel_clearance_250mm": true
+  },
+  "trial_pass": false,
+  "jump_requirement_pass": false
+}

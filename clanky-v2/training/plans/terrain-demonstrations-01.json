@@ -1,0 +1,294 @@
+{
+  "task": "terrain_collection",
+  "scope": "One bounded 32-episode programmed-reference dataset for supervised terrain adaptation. Eight mild course types, four initial-state/terrain seeds and three cruise speeds. First 24 episodes for training, final eight for validation. Save all failures; no terrain map or navigation correction. Current 120 mm hardware and motor/control limits unchanged.",
+  "jobs": [
+    {
+      "surface": "flat",
+      "magnitude": 0,
+      "terrain_seed": 740,
+      "seed": 89100,
+      "speed_m_s": 0.35,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "bumps",
+      "magnitude": 0.008,
+      "terrain_seed": 740,
+      "seed": 89101,
+      "speed_m_s": 0.35,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.01,
+      "terrain_seed": 740,
+      "seed": 89102,
+      "speed_m_s": 0.35,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.02,
+      "terrain_seed": 740,
+      "seed": 89103,
+      "speed_m_s": 0.35,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": 5,
+      "terrain_seed": 740,
+      "seed": 89104,
+      "speed_m_s": 0.35,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": -5,
+      "terrain_seed": 740,
+      "seed": 89105,
+      "speed_m_s": 0.35,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 5,
+      "terrain_seed": 740,
+      "seed": 89106,
+      "speed_m_s": 0.35,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -5,
+      "terrain_seed": 740,
+      "seed": 89107,
+      "speed_m_s": 0.35,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "flat",
+      "magnitude": 0,
+      "terrain_seed": 741,
+      "seed": 89108,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "bumps",
+      "magnitude": 0.008,
+      "terrain_seed": 741,
+      "seed": 89109,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.01,
+      "terrain_seed": 741,
+      "seed": 89110,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.02,
+      "terrain_seed": 741,
+      "seed": 89111,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": 5,
+      "terrain_seed": 741,
+      "seed": 89112,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": -5,
+      "terrain_seed": 741,
+      "seed": 89113,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 5,
+      "terrain_seed": 741,
+      "seed": 89114,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -5,
+      "terrain_seed": 741,
+      "seed": 89115,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "flat",
+      "magnitude": 0,
+      "terrain_seed": 742,
+      "seed": 89116,
+      "speed_m_s": 0.45,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "bumps",
+      "magnitude": 0.008,
+      "terrain_seed": 742,
+      "seed": 89117,
+      "speed_m_s": 0.45,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.01,
+      "terrain_seed": 742,
+      "seed": 89118,
+      "speed_m_s": 0.45,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.02,
+      "terrain_seed": 742,
+      "seed": 89119,
+      "speed_m_s": 0.45,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": 5,
+      "terrain_seed": 742,
+      "seed": 89120,
+      "speed_m_s": 0.45,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": -5,
+      "terrain_seed": 742,
+      "seed": 89121,
+      "speed_m_s": 0.45,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 5,
+      "terrain_seed": 742,
+      "seed": 89122,
+      "speed_m_s": 0.45,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -5,
+      "terrain_seed": 742,
+      "seed": 89123,
+      "speed_m_s": 0.45,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "flat",
+      "magnitude": 0,
+      "terrain_seed": 743,
+      "seed": 89124,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "bumps",
+      "magnitude": 0.008,
+      "terrain_seed": 743,
+      "seed": 89125,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.01,
+      "terrain_seed": 743,
+      "seed": 89126,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "stones",
+      "magnitude": 0.02,
+      "terrain_seed": 743,
+      "seed": 89127,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": 5,
+      "terrain_seed": 743,
+      "seed": 89128,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "slope",
+      "magnitude": -5,
+      "terrain_seed": 743,
+      "seed": 89129,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": 5,
+      "terrain_seed": 743,
+      "seed": 89130,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    },
+    {
+      "surface": "cross_slope",
+      "magnitude": -5,
+      "terrain_seed": 743,
+      "seed": 89131,
+      "speed_m_s": 0.4,
+      "perturbed": true,
+      "timestep_s": 0.00025
+    }
+  ]
+}

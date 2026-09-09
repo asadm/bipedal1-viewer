@@ -1,0 +1,131 @@
+{
+  "scope": "Finite independent rays against displayed CAD triangles and three saved contact states. Every clipped CAD surface patch is enclosed by its hull; small holes remain conservatively filled. No mechanical design change or off-road qualification.",
+  "source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+    "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+    "native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+    "native/mass-properties.json": "0d5c5d21f94f9282dd107cc92a867e4c4f888601783eda00580f5f71d0e970c7",
+    "native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+    "native_drivetrain.py": "3994d8475929f8ae1e6fcf68a487f852c3812ec96937c796d41b499fc0304b77",
+    "native_terrain.py": "fb769fb7fc56e9e023847051c42acc8bd9d219909b1a7a34ac48b9130d70597f",
+    "shared_terrain_helpers": "af2fe776105bfacc9701113f840a991bce3e6d195f030f42c032b2dba8846347",
+    "native_terrain_clearance.py": "e4ff3028b845715c98ae48954c3d1c530445cc4360c3161a9c36eb53be1a27c4",
+    "check_native_terrain_clearance.py": "d191c8cb0f97c7e456a6684eafc33d39396b235615c93557e0dc6481d2c86911"
+  },
+  "recording_sha256": "3ac2b7f3ab2aef1170066bbe5a9c7f4b888e54dc165cfbcd9c4570a654665722",
+  "probes": 1088,
+  "rays": [
+    {
+      "model": "original_single_hull",
+      "mesh_hit_rays": 990,
+      "missed_mesh_hits": 0,
+      "outward_error_mm": {
+        "minimum": -5.064620372391415e-06,
+        "median": 0.7650200466405126,
+        "percentile_95": 6.883186387003291,
+        "maximum": 9.000001901975308
+      }
+    },
+    {
+      "model": "segmented_hulls",
+      "mesh_hit_rays": 990,
+      "missed_mesh_hits": 0,
+      "outward_error_mm": {
+        "minimum": -6.786686462811886e-06,
+        "median": 0.000737854190448195,
+        "percentile_95": 2.489363803686864,
+        "maximum": 4.539940952861206
+      }
+    }
+  ],
+  "recorded_contacts": [
+    {
+      "time_s": 6.080250000001685,
+      "original": [
+        {
+          "geom": "left_drive_shin_case_outer",
+          "penetration_mm": 0.023876159136658
+        },
+        {
+          "geom": "left_drive_shin_case_outer",
+          "penetration_mm": 0.023876159136658
+        },
+        {
+          "geom": "left_drive_shin_case_outer",
+          "penetration_mm": 0.003416036064321892
+        },
+        {
+          "geom": "left_drive_shin_case_outer",
+          "penetration_mm": 0.023876159136658
+        },
+        {
+          "geom": "left_drive_shin_case_outer",
+          "penetration_mm": 0.023876159136658
+        },
+        {
+          "geom": "left_drive_shin_case_outer",
+          "penetration_mm": 0.024628234318125376
+        }
+      ],
+      "refined": [
+        {
+          "geom": "left_drive_shin_case_outer",
+          "penetration_mm": 0.023876159136658
+        },
+        {
+          "geom": "left_drive_shin_case_outer",
+          "penetration_mm": 0.023876159136658
+        },
+        {
+          "geom": "left_drive_shin_case_outer",
+          "penetration_mm": 0.003416036064321892
+        },
+        {
+          "geom": "left_drive_shin_case_outer",
+          "penetration_mm": 0.023876159136658
+        },
+        {
+          "geom": "left_drive_shin_case_outer",
+          "penetration_mm": 0.023876159136658
+        },
+        {
+          "geom": "left_drive_shin_case_outer",
+          "penetration_mm": 0.024628234318125376
+        }
+      ]
+    },
+    {
+      "time_s": 6.1802500000018075,
+      "original": [],
+      "refined": []
+    },
+    {
+      "time_s": 6.28025000000193,
+      "original": [
+        {
+          "geom": "left_drive_encoder_service_cap_outer",
+          "penetration_mm": 2.681021787954819e-05
+        },
+        {
+          "geom": "left_drive_encoder_service_cap_outer",
+          "penetration_mm": 2.681021787949253e-05
+        }
+      ],
+      "refined": []
+    }
+  ],
+  "false_cap_contact_removed": true,
+  "original_geoms": 16,
+  "refined_geoms": 78,
+  "passed": true
+}

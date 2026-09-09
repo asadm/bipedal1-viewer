@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "velocity_frame_cases": 32,
+  "maximum_frame_error": 9.103828801926284e-15,
+  "gyro_world_agreement": true,
+  "velocity_norm_gates_frame_invariant": true,
+  "policy_period_s": 0.01,
+  "physics_steps_per_action": 40,
+  "episode_steps": 800,
+  "source_sha256": {
+    "check_guidance.py": "ac250c8c7401e863b1efedb98148a2e0f62d964f7fc357bd0b9b46fea0e6b39c",
+    "guided_balance.py": "84282cffce9fa6598b431726e03e168da5c40cddaef09dd6dbdfb900d20234bb",
+    "balance_teacher.py": "b6e2e919240228084437bf59ec49537d3a165f6d3ff47691f554d9bcf78e4e09",
+    "environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb"
+  }
+}

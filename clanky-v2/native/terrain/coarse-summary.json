@@ -1,0 +1,299 @@
+{
+  "scope": "Single nominal start and deterministic courses, unchanged programmed controller. Not learned, hardware-qualified or a general off-road acceptance campaign.",
+  "source_sha256": {
+    "native_terrain_screen.py": "9470c164a04deb5f0cc3cd7718d9e90996a426869c74fff9b04dff502c479344",
+    "implementation-checks.json": "db4d2ebf65d97eb77a9634f6fcf571d8fcfe995942156c5503ffdca0125ab837"
+  },
+  "cases": [
+    {
+      "family": "cross_slope",
+      "magnitude": -10,
+      "seed": 731,
+      "timestep_s": 0.00025,
+      "directory": "coarse-cross_slope--10-250us",
+      "report_sha256": "edabf95c876ba82e03db3d49960b1095af9683a98ab91b68ef8a44ada44d8f6a",
+      "trajectory_sha256": "678cdbb79f7cde032e036003261b7f4ec60a555a1f91815b8c44ca358967a5a5",
+      "surface_sha256": "6ffc7b8cc7a3d65f6f12b05e56b009c99ec243d4c71247c2a2de87500b8ade88",
+      "passed": true,
+      "failed_checks": [],
+      "displacement_m": 2.8950842673513564,
+      "body_contact": false,
+      "stones_contacted": 0,
+      "maximum_roll_deg": 9.9997868308829,
+      "settling": {
+        "speed": 0.060993956197569824,
+        "lean": 0.002333760813977684,
+        "roll": 5.38320808703591e-05,
+        "yaw": 0.037100191796125656,
+        "pitch_rate": 0.004490220190824927
+      }
+    },
+    {
+      "family": "cross_slope",
+      "magnitude": -5,
+      "seed": 731,
+      "timestep_s": 0.00025,
+      "directory": "coarse-cross_slope--5-250us",
+      "report_sha256": "eaebb7e5d0168c426609b99a3f583f0b05e15f4bbe0b47862fcf39d1e63a5de5",
+      "trajectory_sha256": "b278413c10f24f5e862fbc6b86ea3451e7266cc021d7aa4fb951219483b2e02b",
+      "surface_sha256": "a3b9621beb93aadfdb13604620c236da127fce0d1af0065e9746be1620815a2c",
+      "passed": true,
+      "failed_checks": [],
+      "displacement_m": 2.89931042143562,
+      "body_contact": false,
+      "stones_contacted": 0,
+      "maximum_roll_deg": 5.4801835678516255,
+      "settling": {
+        "speed": 0.059517744449892385,
+        "lean": 0.0020554772620045686,
+        "roll": 6.126151467502808e-05,
+        "yaw": 0.02100607522887863,
+        "pitch_rate": 0.004566117713217436
+      }
+    },
+    {
+      "family": "cross_slope",
+      "magnitude": 5,
+      "seed": 731,
+      "timestep_s": 0.00025,
+      "directory": "coarse-cross_slope-5-250us",
+      "report_sha256": "e3df6bfab888769d07fcd20f71a210ea5542bf83198f394de7b5ddff8d9127aa",
+      "trajectory_sha256": "365c18f2bd1770fe38337706ebf640abda86e0e57b69b374c8142fdea0288497",
+      "surface_sha256": "cbaa2fbc36ac2b68b0df57c942ea89f8143507ab355d7bf3f1766f27b7eb807b",
+      "passed": true,
+      "failed_checks": [],
+      "displacement_m": 2.907517467753772,
+      "body_contact": false,
+      "stones_contacted": 0,
+      "maximum_roll_deg": 5.012761902795193,
+      "settling": {
+        "speed": 0.05426117438636768,
+        "lean": 0.0013967479372142956,
+        "roll": 5.315288975364827e-05,
+        "yaw": 0.022232094522870362,
+        "pitch_rate": 0.004119034339001551
+      }
+    },
+    {
+      "family": "cross_slope",
+      "magnitude": 10,
+      "seed": 731,
+      "timestep_s": 0.00025,
+      "directory": "coarse-cross_slope-10-250us",
+      "report_sha256": "662d5ba129dec3aaa046a2876f18249a6b77921e41da02595eb40d6e0e26286e",
+      "trajectory_sha256": "dbb97aeeb78f5aedcb0387042c5ed6297f61fb3ca9d33853ff7fdd61f2226e05",
+      "surface_sha256": "f5e5d23627c5d0995a58eebdb078283e140c2f1a587e6d4d723406584b535329",
+      "passed": true,
+      "failed_checks": [],
+      "displacement_m": 2.9125018157729716,
+      "body_contact": false,
+      "stones_contacted": 0,
+      "maximum_roll_deg": 9.954064035869061,
+      "settling": {
+        "speed": 0.05392070884867536,
+        "lean": 0.0016601969470843706,
+        "roll": 6.058543857458286e-05,
+        "yaw": 0.03563133963737161,
+        "pitch_rate": 0.004746672031136868
+      }
+    },
+    {
+      "family": "flat",
+      "magnitude": 0,
+      "seed": 731,
+      "timestep_s": 0.00025,
+      "directory": "coarse-flat-0-250us",
+      "report_sha256": "351a229e678a34776c313569ec62498e5023b3d32f691423ec575737f8d91cc8",
+      "trajectory_sha256": "fceebc37031354e02dfe60abde37f219fdc6b10a2914b578023e0f939c8c5499",
+      "surface_sha256": "387e23adf11f99e37136a02bc025fa886b9452ae29cda443cafea95c565837ab",
+      "passed": true,
+      "failed_checks": [],
+      "displacement_m": 2.9018150577247925,
+      "body_contact": false,
+      "stones_contacted": 0,
+      "maximum_roll_deg": 0.004860134984632877,
+      "settling": {
+        "speed": 0.056329949776120776,
+        "lean": 0.0016056621065235052,
+        "roll": 3.918788706107234e-05,
+        "yaw": 0.0006557742367570899,
+        "pitch_rate": 0.0045483091206949215
+      }
+    },
+    {
+      "family": "slope",
+      "magnitude": -10,
+      "seed": 731,
+      "timestep_s": 0.00025,
+      "directory": "coarse-slope--10-250us",
+      "report_sha256": "da54f78ca1bb37f8708f8efbc6422b3659453b7d66402d1bdf6e58428644c4b4",
+      "trajectory_sha256": "4c2bee7c195e3f9f8f3e7c547788b476a9492cfc8501495c30c916ce23fa6267",
+      "surface_sha256": "a710ccf5d9197fa59fb5234da091f45b8ef20c095a6b5abc8c0a7848ce951155",
+      "passed": false,
+      "failed_checks": [
+        "route_completed"
+      ],
+      "displacement_m": 1.5409251060287548,
+      "body_contact": false,
+      "stones_contacted": 0,
+      "maximum_roll_deg": 0.036610449557124426,
+      "settling": {
+        "speed": 0.08078067506414202,
+        "lean": 0.08575499237978064,
+        "roll": 0.0004055660527513922,
+        "yaw": 0.0020338231954259863,
+        "pitch_rate": 0.113373137019265
+      }
+    },
+    {
+      "family": "slope",
+      "magnitude": -5,
+      "seed": 731,
+      "timestep_s": 0.00025,
+      "directory": "coarse-slope--5-250us",
+      "report_sha256": "774b66ccb351391d2850de82286e0d28fde3c9ac67b5b176adcab49a2dd48e06",
+      "trajectory_sha256": "f05bd84578191a87e8d7fef9730b4b928e449c988ce441e33b0363148c838e43",
+      "surface_sha256": "0ca4e61a9b9bb1a245c7b00998c148d1d535220d2992eaddd2ee1a861a81831a",
+      "passed": true,
+      "failed_checks": [],
+      "displacement_m": 2.750654944150815,
+      "body_contact": false,
+      "stones_contacted": 0,
+      "maximum_roll_deg": 0.01173937571980713,
+      "settling": {
+        "speed": 0.05101126324376498,
+        "lean": 0.002623840924922717,
+        "roll": 5.902374932985453e-05,
+        "yaw": 0.00043767649081942657,
+        "pitch_rate": 0.002357090196171349
+      }
+    },
+    {
+      "family": "slope",
+      "magnitude": 5,
+      "seed": 731,
+      "timestep_s": 0.00025,
+      "directory": "coarse-slope-5-250us",
+      "report_sha256": "82f0bfd47e5b15bfa246b03bcc4811f556a8c42b9b82dcf2c63e234ce674bc74",
+      "trajectory_sha256": "13067e999866c9e8446784bf07215563e1e5adf11bf156588608e073a90fa5bc",
+      "surface_sha256": "0dec1248fa5d91e0b34a5ae7d85ab4d3586e9846af1574f4d6d2aa587e84479b",
+      "passed": true,
+      "failed_checks": [],
+      "displacement_m": 2.9235040534655363,
+      "body_contact": false,
+      "stones_contacted": 0,
+      "maximum_roll_deg": 0.01460261517447754,
+      "settling": {
+        "speed": 0.05756249426962997,
+        "lean": 0.0031939181936029284,
+        "roll": 3.4938527971596906e-05,
+        "yaw": 0.0006579085819797214,
+        "pitch_rate": 0.007059244084573443
+      }
+    },
+    {
+      "family": "slope",
+      "magnitude": 10,
+      "seed": 731,
+      "timestep_s": 0.00025,
+      "directory": "coarse-slope-10-250us",
+      "report_sha256": "7fdd357714f20b60ff0646b34289967afa391df8871f1a1e3cab7dcc63930c80",
+      "trajectory_sha256": "93bbf714c3bb27d3def4f90e9863f616ff31d9ac403e4d48189bff589ea26fb2",
+      "surface_sha256": "b4f4e78f2605df23d02701d791375d8744182ceb87490a6da295cd74f2c14015",
+      "passed": false,
+      "failed_checks": [
+        "route_completed",
+        "stable_finish"
+      ],
+      "displacement_m": 1.0145074467003474,
+      "body_contact": false,
+      "stones_contacted": 0,
+      "maximum_roll_deg": 0.03571365244525994,
+      "settling": {
+        "speed": 0.09356812916641753,
+        "lean": 0.11032988961691545,
+        "roll": 0.00041611817297657245,
+        "yaw": 0.0020791632956958473,
+        "pitch_rate": 0.026811196916453797
+      }
+    },
+    {
+      "family": "stones",
+      "magnitude": 0.01,
+      "seed": 731,
+      "timestep_s": 0.00025,
+      "directory": "coarse-stones-0.01-250us",
+      "report_sha256": "40f049a79dd8d6a54a6b18896cbb1843025028db1fc733439eeb9cdf7623c997",
+      "trajectory_sha256": "611be9c111f8e88d8a49ebe05bfb503e9e29f1d98d8a59f55ac1f1fda143da39",
+      "surface_sha256": "ed1c49ddd2d77b7d0cf78dc973da27286074d9f2abf3a89f0b97987b60b4a42c",
+      "passed": true,
+      "failed_checks": [],
+      "displacement_m": 2.879613379613259,
+      "body_contact": false,
+      "stones_contacted": 10,
+      "maximum_roll_deg": 2.7589848342516325,
+      "settling": {
+        "speed": 0.037531227182299565,
+        "lean": 0.0020136111855312013,
+        "roll": 4.001990909818542e-05,
+        "yaw": 0.0009901203372000083,
+        "pitch_rate": 0.00463350253612183
+      }
+    },
+    {
+      "family": "stones",
+      "magnitude": 0.02,
+      "seed": 731,
+      "timestep_s": 0.00025,
+      "directory": "coarse-stones-0.02-250us",
+      "report_sha256": "a2c1f6ddc78b62f5f0e3df45bc839d0fb2f87399349426e2f2a8df33380e0c04",
+      "trajectory_sha256": "75f6ad6ccf597f9d4cb14ec1edcb4d7067a4134c3707f9c8b34b8617031a98df",
+      "surface_sha256": "68a0196140696761ed0eb8c4ddf96064ca1b265e524571d3538a05e23a06118c",
+      "passed": true,
+      "failed_checks": [],
+      "displacement_m": 2.776074363653447,
+      "body_contact": false,
+      "stones_contacted": 10,
+      "maximum_roll_deg": 4.766503060416874,
+      "settling": {
+        "speed": 0.040537061166523,
+        "lean": 0.003701808850305292,
+        "roll": 5.66351414635406e-05,
+        "yaw": 0.024723648055428923,
+        "pitch_rate": 0.004261429826392488
+      }
+    },
+    {
+      "family": "stones",
+      "magnitude": 0.03,
+      "seed": 731,
+      "timestep_s": 0.00025,
+      "directory": "coarse-stones-0.03-250us",
+      "report_sha256": "170c308a47cb09de2a794bd15d100300cd3417eefccb44e0ff25293a46a6abd6",
+      "trajectory_sha256": "3ac2b7f3ab2aef1170066bbe5a9c7f4b888e54dc165cfbcd9c4570a654665722",
+      "surface_sha256": "8831ee12c4043e781332f0efd8532065a6f688b93ca3ba3dd7b56f40364ef416",
+      "passed": false,
+      "failed_checks": [
+        "completed",
+        "body_clear",
+        "route_completed",
+        "terrain_exposure",
+        "stable_finish"
+      ],
+      "displacement_m": 0.9343935224878489,
+      "body_contact": true,
+      "stones_contacted": 4,
+      "maximum_roll_deg": 7.182064570750728,
+      "settling": {
+        "speed": null,
+        "lean": null,
+        "roll": null,
+        "yaw": null,
+        "pitch_rate": null
+      }
+    }
+  ],
+  "passed": 9,
+  "total": 12,
+  "general_offroad_qualified": false
+}

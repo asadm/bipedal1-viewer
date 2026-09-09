@@ -1,0 +1,38 @@
+{
+  "status": "one_piece_rear_clearance_prototype",
+  "adopted": false,
+  "hardware_release": false,
+  "diameter_mm": 120,
+  "width_mm": 20,
+  "track_mm": 160,
+  "overall_tire_width_mm": 180,
+  "relief_radius_mm": 40.5,
+  "relief_depth_mm": 4.0,
+  "solid_count": 1,
+  "cad_valid": true,
+  "flat_print_bounds_mm": [
+    120.0,
+    120.0,
+    20.0
+  ],
+  "previous_volume_cm3": 82.81696838005212,
+  "volume_cm3": 78.06887618970336,
+  "removed_volume_cm3": 4.748092190348761,
+  "assembly_transform": "Rotate +90 degrees about X then translate Y=90 mm for left wheel; mirror for right.",
+  "source_sha256": {
+    "clanky-v2/geared_wheel_relief.py": "f6018ff3cf4294dd3cb853f311173644faebfedab8488518d0c5f5625feb4397",
+    "clanky-v2/layout.py": "6452521c3837fdca61a1302092fd1ed716d272bf57a7bcac966e52951852b41f",
+    "wheel-study/generate.py": "cfca641641167239ccc6d40765542dd0a31f879f50d346af7c4ccca6ca46cb4c",
+    "clanky-v2/geared-wheel-screen.json": "1ef280b2e7a03e30ca7722729f6dad0538ac33bd10065e66e25f3b07f075ba63"
+  },
+  "asset_sha256": {
+    "geared-wheel-relief.step": "adce44ec94a78e5595f7dac679275bb2fa6f381d9ca71e50cc47b840285a9547",
+    "geared-wheel-relief.stl": "b9c61e2792cb3e26520bade1ee8a71986cc20f0181f7cb2ccf5fdd217e6df51c",
+    "geared-wheel-relief-mesh.json": "528d7f7a7c4d8f7698d826332742fb8db3c354f1c27ff98b924d619e5aca3f9a"
+  },
+  "limitations": [
+    "No final axle coupling pattern; inherited bore is an allocation.",
+    "Removed material reduces local support; TPU deflection, creep and fatigue must be checked.",
+    "No V2 dynamics replay or complete gearbox fit follows from this wheel clearance check."
+  ]
+}

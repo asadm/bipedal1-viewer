@@ -1,0 +1,250 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "recording": "drive-88300-250us.npz",
+      "sha256": "bf9ba2c4cb4fd1fe6b3a5c679e4d144ac5788ff893e9a33d44be074868bdc045",
+      "passed": true,
+      "max_label_error": 1.2034817586936697e-13,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 2.4771486252117892e-06,
+      "sampled_gear_error_rad": 5.7338882797353105e-08,
+      "sampled_branch_margin": 0.9649997869625471
+    },
+    {
+      "recording": "drive-88300-125us.npz",
+      "sha256": "e3536d69a62321d4d6b7d855442f9d4bdac382e9f82e412b5c871df58ca7fa5e",
+      "passed": true,
+      "max_label_error": 1.509903313490213e-13,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 2.4771471283618603e-06,
+      "sampled_gear_error_rad": 5.734648418354027e-08,
+      "sampled_branch_margin": 0.9649789063665739
+    },
+    {
+      "recording": "turn-88301-250us.npz",
+      "sha256": "3ef6ea4eefd1471211440f27845924791c7ae204efe377d22de3008c9e9922f5",
+      "passed": true,
+      "max_label_error": 1.9095836023552692e-14,
+      "max_action_error": 1.4901161193847656e-07,
+      "sampled_closure_m": 2.5367174719352092e-06,
+      "sampled_gear_error_rad": 3.783561481895959e-08,
+      "sampled_branch_margin": 0.9638826935750717
+    },
+    {
+      "recording": "turn-88301-125us.npz",
+      "sha256": "6e729c053adb37562f62773b05637f617ec6cb9ba3167e91fdaa51b5f6b9b740",
+      "passed": true,
+      "max_label_error": 1.2013393752008383e-14,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 2.536782184396076e-06,
+      "sampled_gear_error_rad": 3.774872503470306e-08,
+      "sampled_branch_margin": 0.9638647460179088
+    },
+    {
+      "recording": "arc-88302-250us.npz",
+      "sha256": "668cda8fc48c985507ce7b7355965918d4b42bc8b9a345e800ae34d52d19708a",
+      "passed": true,
+      "max_label_error": 8.881784197001252e-14,
+      "max_action_error": 1.341104507446289e-07,
+      "sampled_closure_m": 2.475797382503174e-06,
+      "sampled_gear_error_rad": 7.476250267757223e-08,
+      "sampled_branch_margin": 0.9650813723820365
+    },
+    {
+      "recording": "arc-88302-125us.npz",
+      "sha256": "cb0759c936bff2c005b4bd6e82599f3a9048ab147ead86ac243c6bbdfccfa837",
+      "passed": true,
+      "max_label_error": 8.415490526658687e-14,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 2.475973723361463e-06,
+      "sampled_gear_error_rad": 7.546667042390709e-08,
+      "sampled_branch_margin": 0.9650620856978669
+    },
+    {
+      "recording": "mixed-88303-250us.npz",
+      "sha256": "5ec324ed2fd5c63eeff0b44b1d1845ca6cca5e19a39079f355cd2909618a2409",
+      "passed": true,
+      "max_label_error": 9.314771176605063e-14,
+      "max_action_error": 2.980232238769531e-07,
+      "sampled_closure_m": 2.5177895818321316e-06,
+      "sampled_gear_error_rad": 4.4837449664214545e-08,
+      "sampled_branch_margin": 0.9576704240052129
+    },
+    {
+      "recording": "mixed-88303-125us.npz",
+      "sha256": "ba7737bacf15a33c9d0489b37e6d5d3020d280d5bbf248d3ecfbe65db5bf9d4b",
+      "passed": true,
+      "max_label_error": 1.2423395645555502e-13,
+      "max_action_error": 1.9371509552001953e-07,
+      "sampled_closure_m": 2.5181101774790395e-06,
+      "sampled_gear_error_rad": 4.4553275557746017e-08,
+      "sampled_branch_margin": 0.9576760912342741
+    },
+    {
+      "recording": "hold-88304-250us.npz",
+      "sha256": "44557da1f548b29b3f53e3b5b106e01064f9cc35ce427eb2f3b43a9084194799",
+      "passed": true,
+      "max_label_error": 1.5200948139115766e-14,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 2.5294888101594954e-06,
+      "sampled_gear_error_rad": 6.626664017517214e-08,
+      "sampled_branch_margin": 0.9640285270369904
+    },
+    {
+      "recording": "hold-88304-125us.npz",
+      "sha256": "1591d6408d5b7312f998f7d49fc2f8fedbd5ca19c656b8679963e298087476d7",
+      "passed": true,
+      "max_label_error": 1.710805976051777e-14,
+      "max_action_error": 8.940696716308594e-08,
+      "sampled_closure_m": 2.5293926483023305e-06,
+      "sampled_gear_error_rad": 6.516669550649113e-08,
+      "sampled_branch_margin": 0.9640401301634579
+    },
+    {
+      "recording": "random-88305-250us.npz",
+      "sha256": "dd7317f9070a962df370050997d8ca261944d198e46880c5165271f2a9e36f1e",
+      "passed": true,
+      "max_label_error": 1.1313172620930345e-13,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 2.5188197618301778e-06,
+      "sampled_gear_error_rad": 1.413696825380839e-07,
+      "sampled_branch_margin": 0.9643555509839187
+    },
+    {
+      "recording": "random-88305-125us.npz",
+      "sha256": "59aecc86d1bcdc39cd96eff9a3718f070947e78354e699c56ece7c6b5a62a9bf",
+      "passed": true,
+      "max_label_error": 1.209813499380985e-13,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 2.5187742316992356e-06,
+      "sampled_gear_error_rad": 1.4149139921926234e-07,
+      "sampled_branch_margin": 0.964347794030324
+    },
+    {
+      "recording": "drive-88306-250us.npz",
+      "sha256": "406a40193fbd8a0bf7ce2a0f93acc206a31a35e605abc4d6c82491c4b3d6f9aa",
+      "passed": true,
+      "max_label_error": 1.1435297153639112e-13,
+      "max_action_error": 1.043081283569336e-07,
+      "sampled_closure_m": 2.5189833879364584e-06,
+      "sampled_gear_error_rad": 4.521699850101868e-08,
+      "sampled_branch_margin": 0.9645241376761727
+    },
+    {
+      "recording": "drive-88306-125us.npz",
+      "sha256": "9db8271101a0addec2cb0f972971e116912af77578d8217e7247e078a4a542cd",
+      "passed": true,
+      "max_label_error": 1.3744561044859438e-13,
+      "max_action_error": 9.685754776000977e-08,
+      "sampled_closure_m": 2.5189606305565774e-06,
+      "sampled_gear_error_rad": 4.508627995392089e-08,
+      "sampled_branch_margin": 0.9645151686182971
+    },
+    {
+      "recording": "turn-88307-250us.npz",
+      "sha256": "ce54734a98ce0477b54022d0b88dd89d6049fc110707bae4f4ad364eb005a485",
+      "passed": true,
+      "max_label_error": 2.085831507514513e-14,
+      "max_action_error": 1.1175870895385742e-07,
+      "sampled_closure_m": 2.5684414893948663e-06,
+      "sampled_gear_error_rad": 1.0243261492348665e-07,
+      "sampled_branch_margin": 0.9645395321248751
+    },
+    {
+      "recording": "turn-88307-125us.npz",
+      "sha256": "a34d43daa1f9e819ae92a14f62fef0dd8a89c33a164075077c4ca0d6fc3120b6",
+      "passed": true,
+      "max_label_error": 2.2246093855926574e-14,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 2.5687710613466874e-06,
+      "sampled_gear_error_rad": 1.0247242485661445e-07,
+      "sampled_branch_margin": 0.9645218715110565
+    },
+    {
+      "recording": "arc-88308-250us.npz",
+      "sha256": "7d59775a248bac1ceee1f3daa7f7ef525c3129ff05ff0abe5e7d153057718838",
+      "passed": true,
+      "max_label_error": 8.315570454442422e-14,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 2.475624724116397e-06,
+      "sampled_gear_error_rad": 2.223981248050677e-08,
+      "sampled_branch_margin": 0.9648545976667418
+    },
+    {
+      "recording": "arc-88308-125us.npz",
+      "sha256": "96306a980b8e85d17ee834343cabf1914d0bf3348afe17c944ca9383be5bd54e",
+      "passed": true,
+      "max_label_error": 8.859579736508749e-14,
+      "max_action_error": 1.2665987014770508e-07,
+      "sampled_closure_m": 2.4752060068794227e-06,
+      "sampled_gear_error_rad": 2.2131499832767078e-08,
+      "sampled_branch_margin": 0.9648349733381847
+    },
+    {
+      "recording": "mixed-88309-250us.npz",
+      "sha256": "08baae575d44967ca620895ef3c0431bce5fccdda11e6b0fb87d4ab5998b0268",
+      "passed": false,
+      "max_label_error": 1.163513729807164e-13,
+      "max_action_error": 1.7881393432617188e-07,
+      "sampled_closure_m": 2.5801594248569196e-06,
+      "sampled_gear_error_rad": 4.563126964479691e-08,
+      "sampled_branch_margin": 0.9580630430551638
+    },
+    {
+      "recording": "mixed-88309-125us.npz",
+      "sha256": "2aed16c962f121897cd9b0d9de50139753af0c0977dbaef84d57e0ef14968afc",
+      "passed": false,
+      "max_label_error": 1.0658141036401503e-13,
+      "max_action_error": 1.7881393432617188e-07,
+      "sampled_closure_m": 2.579872789016477e-06,
+      "sampled_gear_error_rad": 4.6083368869173635e-08,
+      "sampled_branch_margin": 0.9580684062003723
+    },
+    {
+      "recording": "hold-88310-250us.npz",
+      "sha256": "6c79bc6abfe0100a0f44c440e92b5e6ea2eda71aa96bce087ee38bb00e0f65de",
+      "passed": true,
+      "max_label_error": 1.484532982654052e-14,
+      "max_action_error": 8.940696716308594e-08,
+      "sampled_closure_m": 2.5107428223257177e-06,
+      "sampled_gear_error_rad": 6.371079273037594e-08,
+      "sampled_branch_margin": 0.9646702354436926
+    },
+    {
+      "recording": "hold-88310-125us.npz",
+      "sha256": "92382ba10ea1eeb3c1774e2875443db86c04528f6f18d6a9a7de8d7d8e442f6a",
+      "passed": true,
+      "max_label_error": 1.770176887017083e-14,
+      "max_action_error": 1.1920928955078125e-07,
+      "sampled_closure_m": 2.5107666152575093e-06,
+      "sampled_gear_error_rad": 6.372020493472519e-08,
+      "sampled_branch_margin": 0.9646605539701814
+    },
+    {
+      "recording": "random-88311-250us.npz",
+      "sha256": "1c182d89e57b205bcbdb75d3743676663d2037f7f3ccdd5796c168ce9ac921fc",
+      "passed": false,
+      "max_label_error": 1.1102230246251565e-13,
+      "max_action_error": 2.384185791015625e-07,
+      "sampled_closure_m": 2.5453038344183688e-06,
+      "sampled_gear_error_rad": 1.4699205230783718e-07,
+      "sampled_branch_margin": 0.9581855344796076
+    },
+    {
+      "recording": "random-88311-125us.npz",
+      "sha256": "664db0c8128f2a0e162c53a7a811b526031f4aade3178c90a0c4502668ef3133",
+      "passed": false,
+      "max_label_error": 9.692247004977617e-14,
+      "max_action_error": 2.384185791015625e-07,
+      "sampled_closure_m": 2.5448348124465077e-06,
+      "sampled_gear_error_rad": 1.4758801327729998e-07,
+      "sampled_branch_margin": 0.9581851785690602
+    }
+  ],
+  "summary_sha256": "15ce11c00414539551d07d4247bc6059469af652f679bb15f3479482db273418",
+  "source_sha256": {
+    "audit_command_driving.py": "93b62b3ccb3abe5c008d1487e4712b5f612a15240f508c374dee37408579fea0"
+  },
+  "scope": "Verify source/plan/recording identity, every initial state, command, teacher label and actor action. Reconstruct sensor inputs and sampled forward/yaw motion, COM, roll and linkage constraints; recompute tracking and final standing gates. Continuous motor/contact/standing guards rely on the hashed runner; no independent dynamics rerun or hardware qualification. Failed motions remain failures."
+}

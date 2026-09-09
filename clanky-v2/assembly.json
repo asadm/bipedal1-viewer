@@ -1,0 +1,3509 @@
+{
+  "status": "wheel_integrated_CAD_development",
+  "geometry": {
+    "upper_mm": 104.22865652867111,
+    "lower_mm": 112.83223894272054,
+    "tie_mm": 98.19735182313784,
+    "lever_mm": 14.501172785944334,
+    "ground_mm": [
+      11.61266289945004,
+      14.059250383875316
+    ],
+    "phase_rad": 2.7276054711798614
+  },
+  "poses": {
+    "fold": {
+      "hip_rad": -0.49999999999999956,
+      "knee_rad": 2.8310932134441846,
+      "bounds_mm": [
+        199.46925141882292,
+        252.00000000000003,
+        165.76178859817202
+      ]
+    },
+    "crouch": {
+      "hip_rad": -0.3799999999999999,
+      "knee_rad": 2.741096976531765,
+      "bounds_mm": [
+        204.79346733182763,
+        252.00000000000003,
+        170.7317997376673
+      ]
+    },
+    "ride": {
+      "hip_rad": 0.41900000000000015,
+      "knee_rad": 1.9024499212659896,
+      "bounds_mm": [
+        203.2124862720516,
+        252.00000000000003,
+        254.91294010275809
+      ]
+    },
+    "extend": {
+      "hip_rad": 1.0300000000000002,
+      "knee_rad": 0.9287545203984111,
+      "bounds_mm": [
+        168.0,
+        252.00000000000003,
+        323.80205274223925
+      ]
+    }
+  },
+  "hip_range_rad": [
+    -2.8,
+    1.08
+  ],
+  "spring": {
+    "crank_radius_mm": 14.0,
+    "connecting_rod_mm": 40.0,
+    "axis_z_mm": -15.0,
+    "axis_y_mm": 80.0,
+    "fixed_seat_x_mm": 14.0,
+    "seat_to_pin_mm": 8.0,
+    "guide_rod_diameter_mm": 5.0,
+    "guide_rod_from_pin_mm": 63.0,
+    "free_spring_length_mm": 50.0,
+    "spring_od_mm": 12.0,
+    "spring_id_mm": 6.5,
+    "rate_N_mm": 5.5,
+    "maximum_design_compression_mm": 20.0,
+    "supplier_part": "MISUMI SWF12-50",
+    "source": "https://vn.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+    "routing": "fixed_axis_crank_slider"
+  },
+  "track_mm": 232.0,
+  "wheel_diameter_mm": 120,
+  "wheel_width_mm": 20,
+  "leg_inboard_shift_mm": -33.0,
+  "wheel_module_outboard_shift_mm": 36.0,
+  "body_package": {
+    "source_urls": {
+      "D435i": "https://www.realsenseai.com/products/depth-camera-d435i/",
+      "Pi5": "https://datasheets.raspberrypi.com/rpi5/raspberry-pi-5-mechanical-drawing.pdf"
+    },
+    "dimensions_checked_on": "2026-09-08",
+    "body_envelope_mm": [
+      168.0,
+      126.0,
+      84
+    ],
+    "wall_mm": 2.5,
+    "allocations": [
+      {
+        "name": "depth_camera_bay",
+        "dims": [
+          45,
+          120,
+          40
+        ],
+        "centre": [
+          57,
+          0,
+          34
+        ],
+        "label": "D435i bay \u00b7 120 \u00d7 45 \u00d7 40 mm",
+        "color": [
+          0.16,
+          0.62,
+          0.7
+        ],
+        "note": "90 \u00d7 25 \u00d7 25 mm camera plus side USB clearance; mount, actual plug and optical check pending."
+      },
+      {
+        "name": "pi_cooling_and_connectors",
+        "dims": [
+          110,
+          78,
+          32
+        ],
+        "centre": [
+          -23,
+          -18,
+          41
+        ],
+        "label": "Raspberry Pi + cooler / plugs",
+        "color": [
+          0.26,
+          0.62,
+          0.39
+        ],
+        "note": "Pi 5 85 \u00d7 56 mm PCB reference; 32 mm allocation includes components/cooling, not an exact cooler model."
+      },
+      {
+        "name": "battery_bay",
+        "dims": [
+          76,
+          42,
+          32
+        ],
+        "centre": [
+          -25,
+          30,
+          8
+        ],
+        "label": "Battery bay \u00b7 76 \u00d7 42 \u00d7 32 mm",
+        "color": [
+          0.85,
+          0.52,
+          0.15
+        ],
+        "note": "Unselected pack: voltage, discharge capability, padding, retention and thermal isolation remain open."
+      },
+      {
+        "name": "controller_bay",
+        "dims": [
+          70,
+          42,
+          24
+        ],
+        "centre": [
+          -15,
+          -25,
+          4
+        ],
+        "label": "Control / power electronics",
+        "color": [
+          0.5,
+          0.4,
+          0.73
+        ],
+        "note": "Unselected controller allocation. Hip motor/reduction packaging remains unresolved."
+      }
+    ],
+    "camera_actual_xyz_mm": [
+      25,
+      90,
+      25
+    ],
+    "camera_bay_xyz_mm": [
+      45,
+      120,
+      40
+    ],
+    "connector_allowance": {
+      "centre": [
+        65,
+        -50,
+        34
+      ],
+      "dims": [
+        25,
+        20,
+        20
+      ],
+      "note": "Side USB plug/bend reserve; actual right-angle cable must be selected and checked."
+    },
+    "electronics_mounts_validated": false,
+    "cooling_validated": false,
+    "optical_field_of_view_validated": false,
+    "wiring_flex_validated": false,
+    "notes": [
+      "The wider chassis trades the former 180 mm folded-width target for room around the specified camera.",
+      "No new head actuator, separate camera pod or extra printed body trim.",
+      "Envelopes are not purchased components and do not establish an electrical BOM or final mass."
+    ]
+  },
+  "wiring_package": {
+    "status": "static_passages_and_joint_route_sketch",
+    "thigh_power_bore_mm": 6,
+    "thigh_feedback_bore_mm": 4,
+    "shin_internal_passage_mm": [
+      12,
+      3.5
+    ],
+    "motor_side_phase_port_mm": 6,
+    "encoder_cap_feedback_port_mm": 5.2,
+    "extra_printed_parts": 0,
+    "flexible_joint_routes_validated": false,
+    "electrical_wire_gauge_selected": false,
+    "notes": [
+      "Passage sizes reserve space; wire gauge/insulation, current heating and bend radius must be selected together.",
+      "Shin passage requires a flat harness. Feed unterminated wires before fitting connectors.",
+      "Printed static channels are integrated in the existing thigh frame and shin case; no extra cable-cover prints.",
+      "The viewer's orange and blue flexible paths are sketches, not collision-checked constant-length cables.",
+      "Grommets, strain relief, sealing, joint-loop retention and motor lead termination remain unfinished."
+    ]
+  },
+  "printed_parts": 16,
+  "valid_connected_parts": 175,
+  "printed_volume_cm3": 542.2583720706996,
+  "all_prints_fit_a1_envelope": true,
+  "parts": [
+    {
+      "name": "left_thigh_frame",
+      "body": "left_upper",
+      "printed": true,
+      "skin": false,
+      "material": "shell",
+      "bounds_mm": [
+        156.2286565286711,
+        24.299999999999997,
+        55.99999999999999
+      ],
+      "volume_cm3": 41.69654560937577,
+      "fits_a1_envelope": true,
+      "note": "",
+      "source_component": "retained_layout",
+      "assembly_modification": "Integral \u00d86 phase / \u00d84 feedback passages; original bearing interfaces retained."
+    },
+    {
+      "name": "left_thigh_lid",
+      "body": "left_upper",
+      "printed": true,
+      "skin": true,
+      "material": "shell",
+      "bounds_mm": [
+        156.2286565286711,
+        6.0,
+        55.99999999999999
+      ],
+      "volume_cm3": 16.79651090555074,
+      "fits_a1_envelope": true,
+      "note": "",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "left_internal_knee_lever",
+      "body": "left_lower",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        37.27617474319969,
+        4.5,
+        17.83328349695429
+      ],
+      "volume_cm3": 1.7088734365023917,
+      "fits_a1_envelope": true,
+      "note": "4.5 mm steel lever allocation with 6 mm D-bore; positive indexing, retention and fatigue still unqualified.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "left_internal_tie",
+      "body": "left_tie",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        106.19735182313784,
+        3.0,
+        8.000000000000002
+      ],
+      "volume_cm3": 1.891852881220578,
+      "fits_a1_envelope": true,
+      "note": "3 mm steel, 6 mm stem, 8 mm eyes, M3 pivot bores; pin hardware and buckling/fatigue qualification remain.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "left_spring_slider",
+      "body": "left_spring_slider",
+      "printed": true,
+      "skin": false,
+      "material": "shell",
+      "bounds_mm": [
+        12.0,
+        12.400000000000006,
+        12.399999999999999
+      ],
+      "volume_cm3": 0.91430649712092,
+      "fits_a1_envelope": true,
+      "note": "Spring seat and connecting-rod eye in one print. Guide fit, rod fixation and wear unqualified.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "left_spring_guide_rod",
+      "body": "left_spring_slider",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        58.0,
+        5.0,
+        5.0
+      ],
+      "volume_cm3": 1.1388273369263002,
+      "fits_a1_envelope": true,
+      "note": "5 mm steel guide, 58 mm long; attachment to slider and axial retention still open.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "left_spring_connecting_rod",
+      "body": "left_spring_link",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        48.0,
+        3.0,
+        8.000000000000002
+      ],
+      "volume_cm3": 0.8443005484040965,
+      "fits_a1_envelope": true,
+      "note": "Passive 40 mm pin-centre steel link, 3 mm thick; no added actuator.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "left_knee_626_inner",
+      "body": "left_upper",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        19.0,
+        6.0,
+        19.0
+      ],
+      "volume_cm3": 1.531526418625024,
+      "fits_a1_envelope": true,
+      "note": "626 bearing envelope, 6\u00d719\u00d76 mm. Nominal fit only; supplier/rating/tolerance unqualified.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "left_knee_626_outer",
+      "body": "left_upper",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        19.0,
+        6.0,
+        19.0
+      ],
+      "volume_cm3": 1.531526418625024,
+      "fits_a1_envelope": true,
+      "note": "626 bearing envelope, 6\u00d719\u00d76 mm. Nominal fit only; supplier/rating/tolerance unqualified.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "left_knee_shaft",
+      "body": "left_lower",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        6.0,
+        38.5,
+        6.0
+      ],
+      "volume_cm3": 1.0701054764568727,
+      "fits_a1_envelope": true,
+      "note": "6 mm steel shaft, separate local flats under lever and shin; final retention/clamp details open.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "right_thigh_frame",
+      "body": "right_upper",
+      "printed": true,
+      "skin": false,
+      "material": "shell",
+      "bounds_mm": [
+        156.2286565286711,
+        24.299999999999997,
+        55.99999999999999
+      ],
+      "volume_cm3": 41.69654560937577,
+      "fits_a1_envelope": true,
+      "note": "",
+      "source_component": "retained_layout",
+      "assembly_modification": "Integral \u00d86 phase / \u00d84 feedback passages; original bearing interfaces retained."
+    },
+    {
+      "name": "right_thigh_lid",
+      "body": "right_upper",
+      "printed": true,
+      "skin": true,
+      "material": "shell",
+      "bounds_mm": [
+        156.2286565286711,
+        6.0,
+        55.99999999999999
+      ],
+      "volume_cm3": 16.79651090555074,
+      "fits_a1_envelope": true,
+      "note": "",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "right_internal_knee_lever",
+      "body": "right_lower",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        37.27617474319969,
+        4.5,
+        17.83328349695429
+      ],
+      "volume_cm3": 1.7088734365023917,
+      "fits_a1_envelope": true,
+      "note": "4.5 mm steel lever allocation with 6 mm D-bore; positive indexing, retention and fatigue still unqualified.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "right_internal_tie",
+      "body": "right_tie",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        106.19735182313784,
+        3.0,
+        8.0
+      ],
+      "volume_cm3": 1.8918528812205775,
+      "fits_a1_envelope": true,
+      "note": "3 mm steel, 6 mm stem, 8 mm eyes, M3 pivot bores; pin hardware and buckling/fatigue qualification remain.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "right_spring_slider",
+      "body": "right_spring_slider",
+      "printed": true,
+      "skin": false,
+      "material": "shell",
+      "bounds_mm": [
+        12.0,
+        12.400000000000006,
+        12.399999999999999
+      ],
+      "volume_cm3": 0.91430649712092,
+      "fits_a1_envelope": true,
+      "note": "Spring seat and connecting-rod eye in one print. Guide fit, rod fixation and wear unqualified.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "right_spring_guide_rod",
+      "body": "right_spring_slider",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        58.0,
+        5.0,
+        5.0
+      ],
+      "volume_cm3": 1.1388273369263002,
+      "fits_a1_envelope": true,
+      "note": "5 mm steel guide, 58 mm long; attachment to slider and axial retention still open.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "right_spring_connecting_rod",
+      "body": "right_spring_link",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        48.0,
+        3.0,
+        8.0
+      ],
+      "volume_cm3": 0.8443005484040963,
+      "fits_a1_envelope": true,
+      "note": "Passive 40 mm pin-centre steel link, 3 mm thick; no added actuator.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "right_knee_626_inner",
+      "body": "right_upper",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        19.0,
+        6.0,
+        19.0
+      ],
+      "volume_cm3": 1.531526418625024,
+      "fits_a1_envelope": true,
+      "note": "626 bearing envelope, 6\u00d719\u00d76 mm. Nominal fit only; supplier/rating/tolerance unqualified.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "right_knee_626_outer",
+      "body": "right_upper",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        19.0,
+        6.0,
+        19.0
+      ],
+      "volume_cm3": 1.531526418625024,
+      "fits_a1_envelope": true,
+      "note": "626 bearing envelope, 6\u00d719\u00d76 mm. Nominal fit only; supplier/rating/tolerance unqualified.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "right_knee_shaft",
+      "body": "right_lower",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        6.0,
+        38.5,
+        6.0
+      ],
+      "volume_cm3": 1.0701054764568727,
+      "fits_a1_envelope": true,
+      "note": "6 mm steel shaft, separate local flats under lever and shin; final retention/clamp details open.",
+      "source_component": "retained_layout"
+    },
+    {
+      "name": "body_lower",
+      "body": "chassis",
+      "material": "shell",
+      "printed": true,
+      "skin": true,
+      "source_component": "body_package",
+      "note": "One structural lower tray; integrated side harness ports. Fastening, seals and hip supports unfinished.",
+      "bounds_mm": [
+        168.0,
+        126.0,
+        31.799999999999997
+      ],
+      "volume_cm3": 88.08405512165835,
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "body_upper",
+      "body": "chassis",
+      "material": "shell",
+      "printed": true,
+      "skin": true,
+      "source_component": "body_package",
+      "note": "One upper cover with front sensor opening; no separate head or eye pod.",
+      "bounds_mm": [
+        168.0,
+        126.0,
+        51.8
+      ],
+      "volume_cm3": 108.4121834512467,
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "D435i_housing_envelope",
+      "body": "chassis",
+      "material": "metal",
+      "printed": false,
+      "skin": false,
+      "source_component": "body_package",
+      "note": "Manufacturer overall envelope only, 90 \u00d7 25 \u00d7 25 mm. Not exact lens/mount/USB CAD.",
+      "bounds_mm": [
+        25.0,
+        90.0,
+        25.0
+      ],
+      "volume_cm3": 54.87654824574367,
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "D435i_native_front_face",
+      "body": "chassis",
+      "material": "glass",
+      "printed": false,
+      "skin": true,
+      "source_component": "body_package",
+      "note": "Illustrative native optical face. No additional dark glazing is specified.",
+      "bounds_mm": [
+        0.6000000000000085,
+        89.8,
+        24.799999999999997
+      ],
+      "volume_cm3": 1.3040800785063418,
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "sensor_surround",
+      "body": "chassis",
+      "material": "rubber",
+      "printed": false,
+      "skin": true,
+      "source_component": "body_package",
+      "note": "Foam/rubber surround allocation, not a structural camera mount or qualified weather seal.",
+      "bounds_mm": [
+        5.5,
+        109.6,
+        37.599999999999994
+      ],
+      "volume_cm3": 3.117000853792355,
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "raspberry_pi_5_PCB_envelope",
+      "body": "chassis",
+      "material": "board",
+      "printed": false,
+      "skin": false,
+      "source_component": "body_package",
+      "note": "85 \u00d7 56 mm PCB from official drawing; component/mount detail omitted.",
+      "bounds_mm": [
+        85.0,
+        56.0,
+        1.6000000000000014
+      ],
+      "volume_cm3": 7.616000000000006,
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "pi_cooler_envelope",
+      "body": "chassis",
+      "material": "metal",
+      "printed": false,
+      "skin": false,
+      "source_component": "body_package",
+      "note": "Illustrative cooler only, within the larger service allocation; thermal qualification required.",
+      "bounds_mm": [
+        44.0,
+        42.0,
+        19.0
+      ],
+      "volume_cm3": 35.112,
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "battery_envelope",
+      "body": "chassis",
+      "material": "battery",
+      "printed": false,
+      "skin": false,
+      "source_component": "body_package",
+      "note": "Pack envelope retained from R2, not a selected battery SKU.",
+      "bounds_mm": [
+        68.0,
+        34.0,
+        26.0
+      ],
+      "volume_cm3": 60.111999999999995,
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "control_electronics_envelope",
+      "body": "chassis",
+      "material": "board",
+      "printed": false,
+      "skin": false,
+      "source_component": "body_package",
+      "note": "Controller placeholder, not a selected or functional motor driver.",
+      "bounds_mm": [
+        60.0,
+        32.0,
+        15.0
+      ],
+      "volume_cm3": 28.8,
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_gear_100T",
+      "material": "gear",
+      "printed": false,
+      "rotates": true,
+      "note": "EN8 steel stock blank; extra matched \u00d82 cross-hole through hub and shaft. 6 mm H8 bore, 4 mm face, 8 mm overall. Tooth rendering is nominal.",
+      "sku": "GRSS05/100B",
+      "bounds_mm": [
+        51.000000000000014,
+        8.000000199999988,
+        51.0
+      ],
+      "volume_cm3": 9.509164508131674,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "gear_100T",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_pinion_20T",
+      "material": "gear",
+      "printed": false,
+      "rotates": true,
+      "note": "4 mm bore, 4 mm face, 9 mm overall; two supplied opposing M3 grubs. Match phase/centre-distance/backlash on assembly.",
+      "sku": "GRSSN05/20B",
+      "bounds_mm": [
+        10.913495279100175,
+        9.000000199999988,
+        10.913495279100175
+      ],
+      "volume_cm3": 0.47449100356740137,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "pinion_20T",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_pinion_grub_-1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 flat-ended set-screw envelope seated on a local shaft flat; tightening/loosening qualification pending.",
+      "sku": null,
+      "bounds_mm": [
+        2.8000000000000114,
+        3.0,
+        3.0
+      ],
+      "volume_cm3": 0.01979203371761573,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "pinion_grub_-1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_pinion_grub_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 flat-ended set-screw envelope seated on a local shaft flat; tightening/loosening qualification pending.",
+      "sku": null,
+      "bounds_mm": [
+        2.8000000000000114,
+        3.0,
+        3.0
+      ],
+      "volume_cm3": 0.01979203371761573,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "pinion_grub_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_output_shaft",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "Custom steel \u00d86 shaft: matched \u00d82 cross-hole, local 0.5 mm D-flat under wheel plate, axial M3 thread. Round bearing journals retained. Grade/fit and fatigue not qualified.",
+      "sku": null,
+      "bounds_mm": [
+        6.00000020270042,
+        23.900000199999994,
+        6.0000002
+      ],
+      "volume_cm3": 0.5991928007487306,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "output_shaft",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_gear_cross_pin",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "ISO 8750 standard-duty \u00d82\u00d724 coiled pin installed-envelope. Length availability/price, insertion fit, corrosion finish and cyclic load remain open; not a solid dowel strength claim.",
+      "sku": null,
+      "bounds_mm": [
+        24.0,
+        2.0,
+        2.0
+      ],
+      "volume_cm3": 0.075398223686155,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "gear_cross_pin",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_bearing_rear",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "One purchased sealed flanged bearing: 6\u00d715\u00d75, \u00d817\u00d71.2 flange. Simplified solid envelope; ring/ball internals not density-derived.",
+      "sku": "SMB F696-2RS",
+      "bounds_mm": [
+        17.0,
+        5.0,
+        17.0
+      ],
+      "volume_cm3": 0.8025198433595127,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "bearing_rear",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_bearing_front",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "One purchased sealed flanged bearing: 6\u00d715\u00d75, \u00d817\u00d71.2 flange. Simplified solid envelope; ring/ball internals not density-derived.",
+      "sku": "SMB F696-2RS",
+      "bounds_mm": [
+        17.0,
+        5.0,
+        17.0
+      ],
+      "volume_cm3": 0.8025198433595127,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "bearing_front",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_shaft_shim_rear_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "6 ID \u00d79 OD \u00d70.5 mm stainless shim. Nominal stack only; measure bearing widths and tune end float before tightening.",
+      "sku": "2807-0609-0500",
+      "bounds_mm": [
+        9.0,
+        0.5,
+        9.0
+      ],
+      "volume_cm3": 0.01767145867644257,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_shim_rear_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_shaft_shim_middle_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "6 ID \u00d79 OD \u00d70.5 mm stainless shim. Nominal stack only; measure bearing widths and tune end float before tightening.",
+      "sku": "2807-0609-0500",
+      "bounds_mm": [
+        9.0,
+        0.5,
+        9.0
+      ],
+      "volume_cm3": 0.01767145867644257,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_shim_middle_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_shaft_shim_middle_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "6 ID \u00d79 OD \u00d70.5 mm stainless shim. Nominal stack only; measure bearing widths and tune end float before tightening.",
+      "sku": "2807-0609-0500",
+      "bounds_mm": [
+        9.0,
+        0.5,
+        9.0
+      ],
+      "volume_cm3": 0.01767145867644257,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_shim_middle_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_shaft_shim_front_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "6 ID \u00d79 OD \u00d70.5 mm stainless shim. Nominal stack only; measure bearing widths and tune end float before tightening.",
+      "sku": "2807-0609-0500",
+      "bounds_mm": [
+        9.0,
+        0.5,
+        9.0
+      ],
+      "volume_cm3": 0.01767145867644257,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_shim_front_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_shaft_shim_front_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "6 ID \u00d79 OD \u00d70.5 mm stainless shim. Nominal stack only; measure bearing widths and tune end float before tightening.",
+      "sku": "2807-0609-0500",
+      "bounds_mm": [
+        9.0,
+        0.5,
+        9.0
+      ],
+      "volume_cm3": 0.01767145867644257,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_shim_front_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_shaft_shim_front_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "6 ID \u00d79 OD \u00d70.5 mm stainless shim. Nominal stack only; measure bearing widths and tune end float before tightening.",
+      "sku": "2807-0609-0500",
+      "bounds_mm": [
+        9.0,
+        0.5,
+        9.0
+      ],
+      "volume_cm3": 0.01767145867644257,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_shim_front_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_wheel_torque_plate",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "Custom flat 2 mm steel \u00d842 plate with D-bore and three M3 holes on \u00d834 PCD. Positive torque path; cutting tolerance and cyclic D-bore bearing stress unqualified.",
+      "sku": null,
+      "bounds_mm": [
+        42.000000000000014,
+        2.0,
+        42.0
+      ],
+      "volume_cm3": 2.666450966707802,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_torque_plate",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_shaft_end_washer",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 \u00d87\u00d70.5 washer.",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642545,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_end_washer",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_shaft_end_M3x8",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3\u00d78 button head retains the plate and clamps only the inner-race stack. Locking and tightening specification pending.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        9.650000000000006,
+        5.7
+      ],
+      "volume_cm3": 0.09865268520710853,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_end_M3x8",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_TPU_compression_limiter_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "\u00d85/3.2\u00d73 mm aluminum. Tightening load bypasses TPU; lateral load/creep still need tests.",
+      "sku": "Harwin R30-6200314",
+      "bounds_mm": [
+        5.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.03477743067523899,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "TPU_compression_limiter_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_wheel_washer_0_rear",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642552,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_washer_0_rear",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_wheel_washer_0_front",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642552,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_washer_0_front",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_wheel_nut_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 regular hex nut, locking method to qualify; accessible with wheel removed.",
+      "sku": null,
+      "bounds_mm": [
+        6.3508529610858915,
+        2.4000000000000057,
+        5.500000000000001
+      ],
+      "volume_cm3": 0.0459088439853655,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_nut_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_wheel_M3x10_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        11.650000000000006,
+        5.7
+      ],
+      "volume_cm3": 0.11278985214826266,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_M3x10_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_TPU_compression_limiter_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "\u00d85/3.2\u00d73 mm aluminum. Tightening load bypasses TPU; lateral load/creep still need tests.",
+      "sku": "Harwin R30-6200314",
+      "bounds_mm": [
+        5.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.03477743067523897,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "TPU_compression_limiter_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_wheel_washer_1_rear",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642543,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_washer_1_rear",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_wheel_washer_1_front",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642543,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_washer_1_front",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_wheel_nut_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 regular hex nut, locking method to qualify; accessible with wheel removed.",
+      "sku": null,
+      "bounds_mm": [
+        6.350852961085877,
+        2.4000000000000057,
+        5.5
+      ],
+      "volume_cm3": 0.04590884398536542,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_nut_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_wheel_M3x10_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        11.650000000000006,
+        5.700000000000001
+      ],
+      "volume_cm3": 0.11278985214826262,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_M3x10_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_TPU_compression_limiter_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "\u00d85/3.2\u00d73 mm aluminum. Tightening load bypasses TPU; lateral load/creep still need tests.",
+      "sku": "Harwin R30-6200314",
+      "bounds_mm": [
+        5.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.034777430675239,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "TPU_compression_limiter_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_wheel_washer_2_rear",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642546,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_washer_2_rear",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_wheel_washer_2_front",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642546,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_washer_2_front",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_wheel_nut_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 regular hex nut, locking method to qualify; accessible with wheel removed.",
+      "sku": null,
+      "bounds_mm": [
+        6.3508529610858915,
+        2.4000000000000057,
+        5.5000000000000036
+      ],
+      "volume_cm3": 0.04590884398536546,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_nut_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_wheel_M3x10_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        11.650000000000006,
+        5.700000000000001
+      ],
+      "volume_cm3": 0.1127898521482626,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_M3x10_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_tire",
+      "material": "tire",
+      "printed": true,
+      "rotates": true,
+      "note": "One connected 120\u00d720 TPU print. Rear \u00d881\u00d77.5 recess; 3 mm integrated hub, front metal plate recess. No separate printed rim.",
+      "sku": null,
+      "bounds_mm": [
+        120.00000000000001,
+        20.000000000000014,
+        120.0
+      ],
+      "volume_cm3": 74.67643019294633,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "tire",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_V2806_stator",
+      "material": "motor",
+      "printed": false,
+      "rotates": false,
+      "note": "Aggregate purchased motor 47 g; internal subdivisions are illustrative. Rear M3 depth provisionally 3 mm, not established by drawing.",
+      "sku": "SunnySky V2806 650KV",
+      "bounds_mm": [
+        35.000000000000014,
+        15.5,
+        35.0
+      ],
+      "volume_cm3": 3.9582064669914745,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "V2806_stator",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_V2806_rotor",
+      "material": "motor",
+      "printed": false,
+      "rotates": true,
+      "note": "35\u00d718 body, 4 mm shaft, 5.4 mm rear projection from source. Front 3.5 mm projection allocated pending sample; no wheel loads passed through this shaft.",
+      "sku": null,
+      "bounds_mm": [
+        35.000000000000014,
+        26.900000000000006,
+        35.0
+      ],
+      "volume_cm3": 4.403648962353152,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "V2806_rotor",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_V2806_windings",
+      "material": "copper",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        30.0,
+        12.0,
+        30.0
+      ],
+      "volume_cm3": 7.1251321383416535,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "V2806_windings",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_rotor_M3x5_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "ISO 10642 M3\u00d75 countersunk screw, 6.72 mm theoretical head diameter / 1.86 mm height. Flush seat permits a 2 mm motor bulkhead. Proposed motor engagement 2.5 mm; actual usable thread depth unconfirmed.",
+      "sku": "HCS10642-M3-5-A4",
+      "bounds_mm": [
+        6.719999999999999,
+        5.0,
+        6.719999999999999
+      ],
+      "volume_cm3": 0.058384463714926775,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "rotor_M3x5_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_rotor_M3x5_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "ISO 10642 M3\u00d75 countersunk screw, 6.72 mm theoretical head diameter / 1.86 mm height. Flush seat permits a 2 mm motor bulkhead. Proposed motor engagement 2.5 mm; actual usable thread depth unconfirmed.",
+      "sku": "HCS10642-M3-5-A4",
+      "bounds_mm": [
+        6.719999999999999,
+        5.0,
+        6.719999999999999
+      ],
+      "volume_cm3": 0.058384463714926775,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "rotor_M3x5_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_rotor_M3x5_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "ISO 10642 M3\u00d75 countersunk screw, 6.72 mm theoretical head diameter / 1.86 mm height. Flush seat permits a 2 mm motor bulkhead. Proposed motor engagement 2.5 mm; actual usable thread depth unconfirmed.",
+      "sku": "HCS10642-M3-5-A4",
+      "bounds_mm": [
+        6.719999999999999,
+        5.0,
+        6.719999999999999
+      ],
+      "volume_cm3": 0.058384463714926775,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "rotor_M3x5_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_rotor_M3x5_3",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "ISO 10642 M3\u00d75 countersunk screw, 6.72 mm theoretical head diameter / 1.86 mm height. Flush seat permits a 2 mm motor bulkhead. Proposed motor engagement 2.5 mm; actual usable thread depth unconfirmed.",
+      "sku": "HCS10642-M3-5-A4",
+      "bounds_mm": [
+        6.719999999999999,
+        5.0,
+        6.719999999999999
+      ],
+      "volume_cm3": 0.058384463714926775,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "rotor_M3x5_3",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_pinion_flanged_shaft",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "Custom metal flange/shaft, not the stock M6 prop adapter. \u00d84 blind relief accommodates motor stub; separate \u00d84 output with opposing flats. Custom machining cost pending.",
+      "sku": null,
+      "bounds_mm": [
+        22.0,
+        14.5,
+        22.0
+      ],
+      "volume_cm3": 0.9168138640414146,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "pinion_flanged_shaft",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_motor_base_washer_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642541,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_washer_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_motor_base_M3x5_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "2 mm proposed engagement, with 0.5 washer and 2.5 mm aluminum mount. Source thread depth unconfirmed.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        6.650000000000006,
+        5.700000000000003
+      ],
+      "volume_cm3": 0.07744693479537733,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_M3x5_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_motor_base_washer_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642543,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_washer_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_motor_base_M3x5_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "2 mm proposed engagement, with 0.5 washer and 2.5 mm aluminum mount. Source thread depth unconfirmed.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        6.650000000000006,
+        5.700000000000003
+      ],
+      "volume_cm3": 0.07744693479537733,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_M3x5_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_motor_base_washer_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642541,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_washer_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_motor_base_M3x5_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "2 mm proposed engagement, with 0.5 washer and 2.5 mm aluminum mount. Source thread depth unconfirmed.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        6.650000000000006,
+        5.700000000000003
+      ],
+      "volume_cm3": 0.07744693479537733,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_M3x5_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_motor_base_washer_3",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.01522101640664254,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_washer_3",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_motor_base_M3x5_3",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "2 mm proposed engagement, with 0.5 washer and 2.5 mm aluminum mount. Source thread depth unconfirmed.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        6.650000000000006,
+        5.700000000000003
+      ],
+      "volume_cm3": 0.07744693479537733,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_M3x5_3",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_motor_mount_plate",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "Custom 2.5 mm aluminum base with three M2 ears fastening into captured nuts in the shin. Four separate M3 screws attach the motor. Thermal path and fastening loads unqualified.",
+      "sku": null,
+      "bounds_mm": [
+        41.500000000000014,
+        2.5,
+        40.50704155516198
+      ],
+      "volume_cm3": 2.593447031585452,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_mount_plate",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_encoder_magnet",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "\u00d86\u00d72 diametric magnet allocation; bonded rear shaft interface needs field/runout/retention qualification.",
+      "sku": null,
+      "bounds_mm": [
+        6.0,
+        2.0,
+        6.0
+      ],
+      "volume_cm3": 0.0565486677646163,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "encoder_magnet",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_encoder_PCB",
+      "material": "board",
+      "printed": false,
+      "rotates": false,
+      "note": "Custom encoder PCB allocation, two M2 mounting holes. Sensor, connector and price not selected.",
+      "sku": null,
+      "bounds_mm": [
+        18.0,
+        0.7999999999999972,
+        18.0
+      ],
+      "volume_cm3": 0.2531178766226499,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "encoder_PCB",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_encoder_chip",
+      "material": "motor",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        6.5,
+        1.0,
+        6.5
+      ],
+      "volume_cm3": 0.042249999999999996,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "encoder_chip",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_motor_mount_nut_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        4.618802153517009,
+        1.5999999999999943,
+        4.0
+      ],
+      "volume_cm3": 0.017143702091137976,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_mount_nut_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_motor_mount_M2x10_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "M2\u00d710 commercial button-head envelope. Shared rear cap and motor plate closure into a radial captured nut; preload/loosening qualification pending.",
+      "sku": null,
+      "bounds_mm": [
+        3.8000000000000114,
+        11.200000000000003,
+        3.799999999999997
+      ],
+      "volume_cm3": 0.045025305911249015,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_mount_M2x10_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_motor_mount_nut_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        4.618802153517024,
+        1.5999999999999943,
+        4.0
+      ],
+      "volume_cm3": 0.01714370209113798,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_mount_nut_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_motor_mount_M2x10_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "M2\u00d710 commercial button-head envelope. Shared rear cap and motor plate closure into a radial captured nut; preload/loosening qualification pending.",
+      "sku": null,
+      "bounds_mm": [
+        3.8000000000000114,
+        11.200000000000003,
+        3.799999999999997
+      ],
+      "volume_cm3": 0.0450253059112489,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_mount_M2x10_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_motor_mount_nut_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        4.618802153517009,
+        1.5999999999999943,
+        4.000000000000002
+      ],
+      "volume_cm3": 0.017143702091137924,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_mount_nut_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_motor_mount_M2x10_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "M2\u00d710 commercial button-head envelope. Shared rear cap and motor plate closure into a radial captured nut; preload/loosening qualification pending.",
+      "sku": null,
+      "bounds_mm": [
+        3.8000000000000114,
+        11.200000000000003,
+        3.8000000000000007
+      ],
+      "volume_cm3": 0.04502530591124892,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_mount_M2x10_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_encoder_M2x3_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "M2\u00d73 tapped polymer mounting for lightweight PCB only; creep/locking unqualified.",
+      "sku": null,
+      "bounds_mm": [
+        3.8000000000000114,
+        4.200000000000003,
+        3.799999999999997
+      ],
+      "volume_cm3": 0.02303415733612035,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "encoder_M2x3_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_encoder_M2x3_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "M2\u00d73 tapped polymer mounting for lightweight PCB only; creep/locking unqualified.",
+      "sku": null,
+      "bounds_mm": [
+        3.8000000000000114,
+        4.200000000000003,
+        3.799999999999997
+      ],
+      "volume_cm3": 0.023034157336120346,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "encoder_M2x3_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_encoder_service_cap",
+      "material": "shell",
+      "printed": true,
+      "rotates": false,
+      "note": "One removable rear print combines PCB supports, encoder enclosure and motor-plate cover. Three shared M2 screws; seam seal and wire exit remain open.",
+      "sku": null,
+      "bounds_mm": [
+        44.50000010000001,
+        11.0,
+        42.50704155516198
+      ],
+      "volume_cm3": 3.6602145942306556,
+      "assembly_modification": "\u00d85.2 feedback wire exit; grommet/strain relief pending.",
+      "body": "left_lower",
+      "skin": true,
+      "source_component": "geared_wheel",
+      "source_part": "encoder_service_cap",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_lid_nut_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        6.350852961085906,
+        2.4000000000000057,
+        5.500000000000001
+      ],
+      "volume_cm3": 0.04590884398536558,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_nut_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_lid_washer_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642555,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_washer_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_lid_M3x6_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "1.9 mm nominal nut engagement; final locking, nut strength and print bearing pressure pending.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        7.650000000000006,
+        5.7
+      ],
+      "volume_cm3": 0.08451551826595449,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_M3x6_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_lid_nut_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        6.3508529610858915,
+        2.4000000000000057,
+        5.5000000000000036
+      ],
+      "volume_cm3": 0.04590884398536548,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_nut_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_lid_washer_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642538,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_washer_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_lid_M3x6_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "1.9 mm nominal nut engagement; final locking, nut strength and print bearing pressure pending.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        7.650000000000006,
+        5.700000000000003
+      ],
+      "volume_cm3": 0.08451551826595448,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_M3x6_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_lid_nut_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        6.350852961085877,
+        2.4000000000000057,
+        5.5000000000000036
+      ],
+      "volume_cm3": 0.04590884398536542,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_nut_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_lid_washer_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642543,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_washer_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_lid_M3x6_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "1.9 mm nominal nut engagement; final locking, nut strength and print bearing pressure pending.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        7.650000000000006,
+        5.700000000000003
+      ],
+      "volume_cm3": 0.08451551826595448,
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_M3x6_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_shin_case",
+      "material": "shell",
+      "printed": true,
+      "rotates": false,
+      "note": "Structural shin, gear/motor enclosure, motor mount nut bosses and rear cover supports in one print. Knee torque retention, sealing and wiring remain unfinished.",
+      "sku": null,
+      "bounds_mm": [
+        150.83223894272055,
+        33.000000099999994,
+        79.253520777581
+      ],
+      "volume_cm3": 29.31509473258055,
+      "assembly_modification": "Integral 12 \u00d7 3.5 mm flat-harness passage and \u00d86 motor lead exit.",
+      "body": "left_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shin_case",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "left_drive_bearing_service_lid",
+      "material": "shell",
+      "printed": true,
+      "rotates": false,
+      "note": "One front lid with integral dual-bearing tube. Housing faces Y74.35/82.8 leave 0.15 mm nominal flange end float. Measure/shim actual parts; stiffness, creep and tolerance stack unqualified.",
+      "sku": null,
+      "bounds_mm": [
+        56.000000000000014,
+        8.799999999999997,
+        66.5
+      ],
+      "volume_cm3": 5.821964217092267,
+      "body": "left_lower",
+      "skin": true,
+      "source_component": "geared_wheel",
+      "source_part": "bearing_service_lid",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_gear_100T",
+      "material": "gear",
+      "printed": false,
+      "rotates": true,
+      "note": "EN8 steel stock blank; extra matched \u00d82 cross-hole through hub and shaft. 6 mm H8 bore, 4 mm face, 8 mm overall. Tooth rendering is nominal.",
+      "sku": "GRSS05/100B",
+      "bounds_mm": [
+        51.000000000000014,
+        8.000000199999988,
+        51.0
+      ],
+      "volume_cm3": 9.509164508131674,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "gear_100T",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_pinion_20T",
+      "material": "gear",
+      "printed": false,
+      "rotates": true,
+      "note": "4 mm bore, 4 mm face, 9 mm overall; two supplied opposing M3 grubs. Match phase/centre-distance/backlash on assembly.",
+      "sku": "GRSSN05/20B",
+      "bounds_mm": [
+        10.913495279100175,
+        9.000000199999988,
+        10.913495279100175
+      ],
+      "volume_cm3": 0.47449100356740137,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "pinion_20T",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_pinion_grub_-1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 flat-ended set-screw envelope seated on a local shaft flat; tightening/loosening qualification pending.",
+      "sku": null,
+      "bounds_mm": [
+        2.8000000000000114,
+        3.0,
+        3.0
+      ],
+      "volume_cm3": 0.01979203371761573,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "pinion_grub_-1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_pinion_grub_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 flat-ended set-screw envelope seated on a local shaft flat; tightening/loosening qualification pending.",
+      "sku": null,
+      "bounds_mm": [
+        2.8000000000000114,
+        3.0,
+        3.0
+      ],
+      "volume_cm3": 0.01979203371761573,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "pinion_grub_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_output_shaft",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "Custom steel \u00d86 shaft: matched \u00d82 cross-hole, local 0.5 mm D-flat under wheel plate, axial M3 thread. Round bearing journals retained. Grade/fit and fatigue not qualified.",
+      "sku": null,
+      "bounds_mm": [
+        6.00000020270042,
+        23.900000199999994,
+        6.0000002
+      ],
+      "volume_cm3": 0.5991928007487306,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "output_shaft",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_gear_cross_pin",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "ISO 8750 standard-duty \u00d82\u00d724 coiled pin installed-envelope. Length availability/price, insertion fit, corrosion finish and cyclic load remain open; not a solid dowel strength claim.",
+      "sku": null,
+      "bounds_mm": [
+        24.0,
+        2.0,
+        2.0
+      ],
+      "volume_cm3": 0.075398223686155,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "gear_cross_pin",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_bearing_rear",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "One purchased sealed flanged bearing: 6\u00d715\u00d75, \u00d817\u00d71.2 flange. Simplified solid envelope; ring/ball internals not density-derived.",
+      "sku": "SMB F696-2RS",
+      "bounds_mm": [
+        17.0,
+        5.0,
+        17.0
+      ],
+      "volume_cm3": 0.8025198433595127,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "bearing_rear",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_bearing_front",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "One purchased sealed flanged bearing: 6\u00d715\u00d75, \u00d817\u00d71.2 flange. Simplified solid envelope; ring/ball internals not density-derived.",
+      "sku": "SMB F696-2RS",
+      "bounds_mm": [
+        17.0,
+        5.0,
+        17.0
+      ],
+      "volume_cm3": 0.8025198433595127,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "bearing_front",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_shaft_shim_rear_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "6 ID \u00d79 OD \u00d70.5 mm stainless shim. Nominal stack only; measure bearing widths and tune end float before tightening.",
+      "sku": "2807-0609-0500",
+      "bounds_mm": [
+        9.0,
+        0.5,
+        9.0
+      ],
+      "volume_cm3": 0.01767145867644257,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_shim_rear_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_shaft_shim_middle_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "6 ID \u00d79 OD \u00d70.5 mm stainless shim. Nominal stack only; measure bearing widths and tune end float before tightening.",
+      "sku": "2807-0609-0500",
+      "bounds_mm": [
+        9.0,
+        0.5,
+        9.0
+      ],
+      "volume_cm3": 0.01767145867644257,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_shim_middle_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_shaft_shim_middle_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "6 ID \u00d79 OD \u00d70.5 mm stainless shim. Nominal stack only; measure bearing widths and tune end float before tightening.",
+      "sku": "2807-0609-0500",
+      "bounds_mm": [
+        9.0,
+        0.5,
+        9.0
+      ],
+      "volume_cm3": 0.01767145867644257,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_shim_middle_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_shaft_shim_front_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "6 ID \u00d79 OD \u00d70.5 mm stainless shim. Nominal stack only; measure bearing widths and tune end float before tightening.",
+      "sku": "2807-0609-0500",
+      "bounds_mm": [
+        9.0,
+        0.5,
+        9.0
+      ],
+      "volume_cm3": 0.01767145867644257,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_shim_front_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_shaft_shim_front_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "6 ID \u00d79 OD \u00d70.5 mm stainless shim. Nominal stack only; measure bearing widths and tune end float before tightening.",
+      "sku": "2807-0609-0500",
+      "bounds_mm": [
+        9.0,
+        0.5,
+        9.0
+      ],
+      "volume_cm3": 0.01767145867644257,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_shim_front_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_shaft_shim_front_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "6 ID \u00d79 OD \u00d70.5 mm stainless shim. Nominal stack only; measure bearing widths and tune end float before tightening.",
+      "sku": "2807-0609-0500",
+      "bounds_mm": [
+        9.0,
+        0.5,
+        9.0
+      ],
+      "volume_cm3": 0.01767145867644257,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_shim_front_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_wheel_torque_plate",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "Custom flat 2 mm steel \u00d842 plate with D-bore and three M3 holes on \u00d834 PCD. Positive torque path; cutting tolerance and cyclic D-bore bearing stress unqualified.",
+      "sku": null,
+      "bounds_mm": [
+        42.000000000000014,
+        2.0,
+        42.0
+      ],
+      "volume_cm3": 2.666450966707802,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_torque_plate",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_shaft_end_washer",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 \u00d87\u00d70.5 washer.",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642545,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_end_washer",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_shaft_end_M3x8",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3\u00d78 button head retains the plate and clamps only the inner-race stack. Locking and tightening specification pending.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        9.650000000000006,
+        5.7
+      ],
+      "volume_cm3": 0.09865268520710853,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shaft_end_M3x8",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_TPU_compression_limiter_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "\u00d85/3.2\u00d73 mm aluminum. Tightening load bypasses TPU; lateral load/creep still need tests.",
+      "sku": "Harwin R30-6200314",
+      "bounds_mm": [
+        5.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.03477743067523899,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "TPU_compression_limiter_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_wheel_washer_0_rear",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642552,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_washer_0_rear",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_wheel_washer_0_front",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642552,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_washer_0_front",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_wheel_nut_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 regular hex nut, locking method to qualify; accessible with wheel removed.",
+      "sku": null,
+      "bounds_mm": [
+        6.3508529610858915,
+        2.4000000000000057,
+        5.500000000000001
+      ],
+      "volume_cm3": 0.0459088439853655,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_nut_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_wheel_M3x10_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        11.650000000000006,
+        5.7
+      ],
+      "volume_cm3": 0.11278985214826266,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_M3x10_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_TPU_compression_limiter_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "\u00d85/3.2\u00d73 mm aluminum. Tightening load bypasses TPU; lateral load/creep still need tests.",
+      "sku": "Harwin R30-6200314",
+      "bounds_mm": [
+        5.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.03477743067523897,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "TPU_compression_limiter_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_wheel_washer_1_rear",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642543,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_washer_1_rear",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_wheel_washer_1_front",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642543,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_washer_1_front",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_wheel_nut_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 regular hex nut, locking method to qualify; accessible with wheel removed.",
+      "sku": null,
+      "bounds_mm": [
+        6.350852961085877,
+        2.4000000000000057,
+        5.5
+      ],
+      "volume_cm3": 0.04590884398536542,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_nut_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_wheel_M3x10_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        11.650000000000006,
+        5.700000000000001
+      ],
+      "volume_cm3": 0.11278985214826262,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_M3x10_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_TPU_compression_limiter_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "\u00d85/3.2\u00d73 mm aluminum. Tightening load bypasses TPU; lateral load/creep still need tests.",
+      "sku": "Harwin R30-6200314",
+      "bounds_mm": [
+        5.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.034777430675239,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "TPU_compression_limiter_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_wheel_washer_2_rear",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642546,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_washer_2_rear",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_wheel_washer_2_front",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642546,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_washer_2_front",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_wheel_nut_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 regular hex nut, locking method to qualify; accessible with wheel removed.",
+      "sku": null,
+      "bounds_mm": [
+        6.3508529610858915,
+        2.4000000000000057,
+        5.5000000000000036
+      ],
+      "volume_cm3": 0.04590884398536546,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_nut_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_wheel_M3x10_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        11.650000000000006,
+        5.700000000000001
+      ],
+      "volume_cm3": 0.1127898521482626,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "wheel_M3x10_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_tire",
+      "material": "tire",
+      "printed": true,
+      "rotates": true,
+      "note": "One connected 120\u00d720 TPU print. Rear \u00d881\u00d77.5 recess; 3 mm integrated hub, front metal plate recess. No separate printed rim.",
+      "sku": null,
+      "bounds_mm": [
+        120.00000000000001,
+        20.000000000000014,
+        120.0
+      ],
+      "volume_cm3": 74.67643019294633,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "tire",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_V2806_stator",
+      "material": "motor",
+      "printed": false,
+      "rotates": false,
+      "note": "Aggregate purchased motor 47 g; internal subdivisions are illustrative. Rear M3 depth provisionally 3 mm, not established by drawing.",
+      "sku": "SunnySky V2806 650KV",
+      "bounds_mm": [
+        35.000000000000014,
+        15.5,
+        35.0
+      ],
+      "volume_cm3": 3.9582064669914745,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "V2806_stator",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_V2806_rotor",
+      "material": "motor",
+      "printed": false,
+      "rotates": true,
+      "note": "35\u00d718 body, 4 mm shaft, 5.4 mm rear projection from source. Front 3.5 mm projection allocated pending sample; no wheel loads passed through this shaft.",
+      "sku": null,
+      "bounds_mm": [
+        35.000000000000014,
+        26.900000000000006,
+        35.0
+      ],
+      "volume_cm3": 4.403648962353152,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "V2806_rotor",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_V2806_windings",
+      "material": "copper",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        30.0,
+        12.0,
+        30.0
+      ],
+      "volume_cm3": 7.1251321383416535,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "V2806_windings",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_rotor_M3x5_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "ISO 10642 M3\u00d75 countersunk screw, 6.72 mm theoretical head diameter / 1.86 mm height. Flush seat permits a 2 mm motor bulkhead. Proposed motor engagement 2.5 mm; actual usable thread depth unconfirmed.",
+      "sku": "HCS10642-M3-5-A4",
+      "bounds_mm": [
+        6.719999999999999,
+        5.0,
+        6.719999999999999
+      ],
+      "volume_cm3": 0.058384463714926775,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "rotor_M3x5_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_rotor_M3x5_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "ISO 10642 M3\u00d75 countersunk screw, 6.72 mm theoretical head diameter / 1.86 mm height. Flush seat permits a 2 mm motor bulkhead. Proposed motor engagement 2.5 mm; actual usable thread depth unconfirmed.",
+      "sku": "HCS10642-M3-5-A4",
+      "bounds_mm": [
+        6.719999999999999,
+        5.0,
+        6.719999999999999
+      ],
+      "volume_cm3": 0.058384463714926775,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "rotor_M3x5_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_rotor_M3x5_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "ISO 10642 M3\u00d75 countersunk screw, 6.72 mm theoretical head diameter / 1.86 mm height. Flush seat permits a 2 mm motor bulkhead. Proposed motor engagement 2.5 mm; actual usable thread depth unconfirmed.",
+      "sku": "HCS10642-M3-5-A4",
+      "bounds_mm": [
+        6.719999999999999,
+        5.0,
+        6.719999999999999
+      ],
+      "volume_cm3": 0.058384463714926775,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "rotor_M3x5_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_rotor_M3x5_3",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "ISO 10642 M3\u00d75 countersunk screw, 6.72 mm theoretical head diameter / 1.86 mm height. Flush seat permits a 2 mm motor bulkhead. Proposed motor engagement 2.5 mm; actual usable thread depth unconfirmed.",
+      "sku": "HCS10642-M3-5-A4",
+      "bounds_mm": [
+        6.719999999999999,
+        5.0,
+        6.719999999999999
+      ],
+      "volume_cm3": 0.058384463714926775,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "rotor_M3x5_3",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_pinion_flanged_shaft",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "Custom metal flange/shaft, not the stock M6 prop adapter. \u00d84 blind relief accommodates motor stub; separate \u00d84 output with opposing flats. Custom machining cost pending.",
+      "sku": null,
+      "bounds_mm": [
+        22.0,
+        14.5,
+        22.0
+      ],
+      "volume_cm3": 0.9168138640414146,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "pinion_flanged_shaft",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_motor_base_washer_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642541,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_washer_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_motor_base_M3x5_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "2 mm proposed engagement, with 0.5 washer and 2.5 mm aluminum mount. Source thread depth unconfirmed.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        6.650000000000006,
+        5.700000000000003
+      ],
+      "volume_cm3": 0.07744693479537733,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_M3x5_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_motor_base_washer_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642543,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_washer_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_motor_base_M3x5_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "2 mm proposed engagement, with 0.5 washer and 2.5 mm aluminum mount. Source thread depth unconfirmed.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        6.650000000000006,
+        5.700000000000003
+      ],
+      "volume_cm3": 0.07744693479537733,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_M3x5_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_motor_base_washer_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642541,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_washer_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_motor_base_M3x5_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "2 mm proposed engagement, with 0.5 washer and 2.5 mm aluminum mount. Source thread depth unconfirmed.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        6.650000000000006,
+        5.700000000000003
+      ],
+      "volume_cm3": 0.07744693479537733,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_M3x5_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_motor_base_washer_3",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.01522101640664254,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_washer_3",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_motor_base_M3x5_3",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "2 mm proposed engagement, with 0.5 washer and 2.5 mm aluminum mount. Source thread depth unconfirmed.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        6.650000000000006,
+        5.700000000000003
+      ],
+      "volume_cm3": 0.07744693479537733,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_base_M3x5_3",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_motor_mount_plate",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "Custom 2.5 mm aluminum base with three M2 ears fastening into captured nuts in the shin. Four separate M3 screws attach the motor. Thermal path and fastening loads unqualified.",
+      "sku": null,
+      "bounds_mm": [
+        41.500000000000014,
+        2.5,
+        40.50704155516198
+      ],
+      "volume_cm3": 2.593447031585452,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_mount_plate",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_encoder_magnet",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "\u00d86\u00d72 diametric magnet allocation; bonded rear shaft interface needs field/runout/retention qualification.",
+      "sku": null,
+      "bounds_mm": [
+        6.0,
+        2.0,
+        6.0
+      ],
+      "volume_cm3": 0.0565486677646163,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "encoder_magnet",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_encoder_PCB",
+      "material": "board",
+      "printed": false,
+      "rotates": false,
+      "note": "Custom encoder PCB allocation, two M2 mounting holes. Sensor, connector and price not selected.",
+      "sku": null,
+      "bounds_mm": [
+        18.0,
+        0.7999999999999972,
+        18.0
+      ],
+      "volume_cm3": 0.2531178766226499,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "encoder_PCB",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_encoder_chip",
+      "material": "motor",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        6.5,
+        1.0,
+        6.5
+      ],
+      "volume_cm3": 0.042249999999999996,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "encoder_chip",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_motor_mount_nut_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        4.618802153517009,
+        1.5999999999999943,
+        4.0
+      ],
+      "volume_cm3": 0.017143702091137976,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_mount_nut_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_motor_mount_M2x10_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "M2\u00d710 commercial button-head envelope. Shared rear cap and motor plate closure into a radial captured nut; preload/loosening qualification pending.",
+      "sku": null,
+      "bounds_mm": [
+        3.8000000000000114,
+        11.200000000000003,
+        3.799999999999997
+      ],
+      "volume_cm3": 0.045025305911249015,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_mount_M2x10_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_motor_mount_nut_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        4.618802153517024,
+        1.5999999999999943,
+        4.0
+      ],
+      "volume_cm3": 0.01714370209113798,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_mount_nut_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_motor_mount_M2x10_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "M2\u00d710 commercial button-head envelope. Shared rear cap and motor plate closure into a radial captured nut; preload/loosening qualification pending.",
+      "sku": null,
+      "bounds_mm": [
+        3.8000000000000114,
+        11.200000000000003,
+        3.799999999999997
+      ],
+      "volume_cm3": 0.0450253059112489,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_mount_M2x10_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_motor_mount_nut_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        4.618802153517009,
+        1.5999999999999943,
+        4.000000000000002
+      ],
+      "volume_cm3": 0.017143702091137924,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_mount_nut_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_motor_mount_M2x10_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "M2\u00d710 commercial button-head envelope. Shared rear cap and motor plate closure into a radial captured nut; preload/loosening qualification pending.",
+      "sku": null,
+      "bounds_mm": [
+        3.8000000000000114,
+        11.200000000000003,
+        3.8000000000000007
+      ],
+      "volume_cm3": 0.04502530591124892,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "motor_mount_M2x10_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_encoder_M2x3_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "M2\u00d73 tapped polymer mounting for lightweight PCB only; creep/locking unqualified.",
+      "sku": null,
+      "bounds_mm": [
+        3.8000000000000114,
+        4.200000000000003,
+        3.799999999999997
+      ],
+      "volume_cm3": 0.02303415733612035,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "encoder_M2x3_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_encoder_M2x3_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "M2\u00d73 tapped polymer mounting for lightweight PCB only; creep/locking unqualified.",
+      "sku": null,
+      "bounds_mm": [
+        3.8000000000000114,
+        4.200000000000003,
+        3.799999999999997
+      ],
+      "volume_cm3": 0.023034157336120346,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "encoder_M2x3_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_encoder_service_cap",
+      "material": "shell",
+      "printed": true,
+      "rotates": false,
+      "note": "One removable rear print combines PCB supports, encoder enclosure and motor-plate cover. Three shared M2 screws; seam seal and wire exit remain open.",
+      "sku": null,
+      "bounds_mm": [
+        44.50000010000001,
+        11.0,
+        42.50704155516198
+      ],
+      "volume_cm3": 3.6602145942306556,
+      "assembly_modification": "\u00d85.2 feedback wire exit; grommet/strain relief pending.",
+      "body": "right_lower",
+      "skin": true,
+      "source_component": "geared_wheel",
+      "source_part": "encoder_service_cap",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_lid_nut_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        6.350852961085906,
+        2.4000000000000057,
+        5.500000000000001
+      ],
+      "volume_cm3": 0.04590884398536558,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_nut_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_lid_washer_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642555,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_washer_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_lid_M3x6_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "1.9 mm nominal nut engagement; final locking, nut strength and print bearing pressure pending.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        7.650000000000006,
+        5.7
+      ],
+      "volume_cm3": 0.08451551826595449,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_M3x6_0",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_lid_nut_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        6.3508529610858915,
+        2.4000000000000057,
+        5.5000000000000036
+      ],
+      "volume_cm3": 0.04590884398536548,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_nut_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_lid_washer_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642538,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_washer_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_lid_M3x6_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "1.9 mm nominal nut engagement; final locking, nut strength and print bearing pressure pending.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        7.650000000000006,
+        5.700000000000003
+      ],
+      "volume_cm3": 0.08451551826595448,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_M3x6_1",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_lid_nut_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        6.350852961085877,
+        2.4000000000000057,
+        5.5000000000000036
+      ],
+      "volume_cm3": 0.04590884398536542,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_nut_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_lid_washer_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "sku": null,
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642543,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_washer_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_lid_M3x6_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "1.9 mm nominal nut engagement; final locking, nut strength and print bearing pressure pending.",
+      "sku": null,
+      "bounds_mm": [
+        5.699999999999989,
+        7.650000000000006,
+        5.700000000000003
+      ],
+      "volume_cm3": 0.08451551826595448,
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "lid_M3x6_2",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_shin_case",
+      "material": "shell",
+      "printed": true,
+      "rotates": false,
+      "note": "Structural shin, gear/motor enclosure, motor mount nut bosses and rear cover supports in one print. Knee torque retention, sealing and wiring remain unfinished.",
+      "sku": null,
+      "bounds_mm": [
+        150.83223894272055,
+        33.000000099999994,
+        79.253520777581
+      ],
+      "volume_cm3": 29.31509473258055,
+      "assembly_modification": "Integral 12 \u00d7 3.5 mm flat-harness passage and \u00d86 motor lead exit.",
+      "body": "right_lower",
+      "skin": false,
+      "source_component": "geared_wheel",
+      "source_part": "shin_case",
+      "fits_a1_envelope": true
+    },
+    {
+      "name": "right_drive_bearing_service_lid",
+      "material": "shell",
+      "printed": true,
+      "rotates": false,
+      "note": "One front lid with integral dual-bearing tube. Housing faces Y74.35/82.8 leave 0.15 mm nominal flange end float. Measure/shim actual parts; stiffness, creep and tolerance stack unqualified.",
+      "sku": null,
+      "bounds_mm": [
+        56.000000000000014,
+        8.799999999999997,
+        66.5
+      ],
+      "volume_cm3": 5.821964217092267,
+      "body": "right_lower",
+      "skin": true,
+      "source_component": "geared_wheel",
+      "source_part": "bearing_service_lid",
+      "fits_a1_envelope": true
+    }
+  ],
+  "source_sha256": {
+    "clanky-v2/assembly.py": "8143ccb78120660cf01c2df69fa2e73a39ae54e69956b832ffd21b660297f757",
+    "clanky-v2/layout.py": "6452521c3837fdca61a1302092fd1ed716d272bf57a7bcac966e52951852b41f",
+    "clanky-v2/body_package.py": "ecd475279c8759a7a6bab9648b65d8028292409ec35c4fd2ac7fee3608b2b265",
+    "clanky-v2/wiring_package.py": "23db8ffbb5505ff04b003f04acb576de541a7a2a9aa70c8264430d525422b488",
+    "clanky-v2/spring_cartridge.py": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff",
+    "clanky-v2/geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839",
+    "clanky-v2/refined-geometry.json": "6a8d2a57e8122cc1bac4988e10243decd392112e5752e7b29881ebe77a131f11",
+    "clanky-v2/layout.json": "a8b9323416680c1799ec8c2f154a8e47d099fff390aa619b2e7f032114d2a3c4",
+    "clanky-v2/geared_wheel_module.py": "7b23c72223252ebd0de467115560ae2d6ea2e0414bc11e7478ce742004e8f598",
+    "clanky-v2/direct_wheel_module.py": "5d80093a207dc0b72b47df00a3b48e0d1af3829408b09e6fada2bcab4f1192e2",
+    "clanky-v2/geared-wheel/manifest.json": "176e029422a43ebba1c3a6f0c70d5e0729a040c88815b11b031fa3f370ce1796",
+    "clanky-v2/geared-wheel/interfaces.json": "ff8fed3e6570d7c024c18ffcbd4c78cd25a417eb6f820e580dc8db0db98d90ef",
+    "clanky-v2/geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "clanky-v2/interfaces.json": "0420ecfc206f49e9e3db17bae526c55eddefaed076dba6c348ee64835260a2a4",
+    "wheel-study/generate.py": "cfca641641167239ccc6d40765542dd0a31f879f50d346af7c4ccca6ca46cb4c",
+    "concept04/cad.py": "32bfe6187819282ca549c5a4eadc0b70a5c766eb3668a1ce0721bc64e64cec2e"
+  },
+  "parts_sha256": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+  "step_sha256": "1f693a9a99a7c4cfce243c51986d4706b7596537995e778bba20ae71e2c266f9",
+  "wiring_additions_sha256": "ccce9710111ec163755d77089866bda17678105b209b5ee1eea533f5e2e38fce",
+  "complete_robot_fit_pass": false,
+  "dynamics_validated": false,
+  "hardware_release": false,
+  "limitations": [
+    "Hip drivetrains, grounded tie-pin supports, joint retainers and pivot hardware remain unfinished.",
+    "Wheel modules are detailed but load, tolerance, print-support and manufacturing checks remain open.",
+    "Camera, Pi, battery and control electronics have explicit space allocations; detailed mounts, cooling, connectors and wiring flex remain unverified.",
+    "The roomy D435i body widens the assembly; the previous 180 mm folded-width target is not met.",
+    "Wheel phase shown follows the shin; collision checking must cover all wheel angles separately.",
+    "No R2 motion evidence transfers to this V2 assembly. No complete mass has been assigned."
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "status": "sampled_static_geometry_diagnostic",
+  "samples": [
+    {
+      "hips_rad": 0.41900000000000015,
+      "pairs": []
+    },
+    {
+      "hips_rad": 0.38881000000000016,
+      "pairs": []
+    },
+    {
+      "hips_rad": 0.35862000000000016,
+      "pairs": []
+    },
+    {
+      "hips_rad": 0.3284300000000001,
+      "pairs": []
+    },
+    {
+      "hips_rad": 0.29824000000000017,
+      "pairs": []
+    },
+    {
+      "hips_rad": 0.2680500000000001,
+      "pairs": []
+    },
+    {
+      "hips_rad": 0.23786000000000013,
+      "pairs": []
+    },
+    {
+      "hips_rad": 0.20767000000000013,
+      "pairs": []
+    },
+    {
+      "hips_rad": 0.17748000000000014,
+      "pairs": []
+    },
+    {
+      "hips_rad": 0.14729000000000014,
+      "pairs": []
+    },
+    {
+      "hips_rad": 0.11710000000000015,
+      "pairs": []
+    },
+    {
+      "hips_rad": 0.08691000000000015,
+      "pairs": []
+    },
+    {
+      "hips_rad": 0.056720000000000104,
+      "pairs": []
+    },
+    {
+      "hips_rad": 0.02653000000000011,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.0036599999999998856,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.03384999999999988,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.06403999999999987,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.09422999999999992,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.12441999999999986,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.15460999999999991,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.18479999999999985,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.2149899999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.24517999999999984,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.2753699999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.30555999999999994,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.3357499999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.36593999999999993,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.39612999999999987,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.4263199999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.45650999999999986,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.4866999999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.5168899999999998,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.5470799999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.57727,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.60746,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.6376499999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.6678399999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.6980299999999998,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.72822,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.7584099999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.7885999999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.81879,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.84898,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.8791699999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.9093599999999998,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.93955,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.9697399999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -0.9999299999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.0301200000000001,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.0603099999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.0905,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.1206899999999997,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.15088,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.18107,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.2112599999999998,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.24145,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.27164,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.3018299999999998,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.33202,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.3622100000000001,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.3923999999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.42259,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.4527799999999997,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.48297,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.51316,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.5433499999999998,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.57354,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.60373,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.6339200000000003,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.66411,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.6943000000000001,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.7244899999999999,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.75468,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.7848700000000002,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.81506,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.84525,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.8754400000000002,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.90563,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.93582,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.9660100000000003,
+      "pairs": []
+    },
+    {
+      "hips_rad": -1.9962,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.02639,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.0565800000000003,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.08677,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.11696,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.14715,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.17734,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.20753,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.23772,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.26791,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.2981000000000003,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.32829,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.35848,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.3886700000000003,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.41886,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.44905,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.4792400000000003,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.50943,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.53962,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.56981,
+      "pairs": []
+    },
+    {
+      "hips_rad": -2.6,
+      "pairs": []
+    }
+  ],
+  "intersecting_pairs": [],
+  "shell_count": 12,
+  "cad_tires": 2,
+  "cad_source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+    "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26"
+  },
+  "source_sha256": {
+    "check_inverted_fold.py": "9898d83e75bffc8042741ef4fb7a9c6d413632c991878358e956d09aec31b6e9"
+  },
+  "plant_manifest_sha256": "e733063a55088781d85aaf4a3c2f3ce7b05fd2c696a2f44fad78ebcc39284d9d",
+  "scope": "101 prescribed symmetric hip poses from ride to -2.6 rad, using 12 concave printed shells and both CAD tires. No dynamic feasibility, internal mechanisms, spring pistons, containment/minimum clearance, continuous path clearance or strength qualification."
+}

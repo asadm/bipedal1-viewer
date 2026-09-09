@@ -1,0 +1,30 @@
+{
+  "source_sha256": {
+    "native/recovery/source-snapshots/native_recovery_turnaround.py.txt": "0ae720b90587de400cd2a307be1ef6dab0f2ec20b721ca519064ee4194bf455b"
+  },
+  "cases": [
+    {
+      "directory": "turnaround/front-q95-t250-250us",
+      "report_sha256": "be7c98f2bd27471dbe87790fe0de25907f7043b75446d3d3875ed1f77e8757ba",
+      "passed": false,
+      "score": -1.2894554726214844,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    },
+    {
+      "directory": "turnaround/front-q95-t500-250us",
+      "report_sha256": "4c759e26065ec0eda0e70953dc1051e33a55b43d31798a8cae697d6eb01c92ca",
+      "passed": false,
+      "score": -1.2893863469280828,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    }
+  ],
+  "scope": "Finite controller diagnostic following failed nominal seeds; not an RL policy or a hardware verdict",
+  "source_note": "Exact executed wrapper archived. Current entrypoint removes one unused import; simulation sources and recorded outputs are unchanged.",
+  "current_entrypoint_sha256": {
+    "native_recovery_turnaround.py": "19eab173cf30f97708932ce19a079dfb56e90f8e32199c2ae84de72256fa7dda"
+  }
+}

@@ -1,0 +1,523 @@
+{
+  "status": "left_output_joint_contact_classification",
+  "contact_classification": [
+    {
+      "pair": [
+        "left_output_M4x12_1",
+        "left_output_gear_80T"
+      ],
+      "classification": "Nominal 4 mm gear hole / screw shank and head-seat interface",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_M4_nut_2",
+        "left_output_M4x12_2"
+      ],
+      "classification": "Nominal M4 major-diameter thread envelope",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_driven_thigh_frame",
+        "left_knee_626_inner"
+      ],
+      "classification": "Nominal bearing housing surface; interference fit unqualified",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_driven_thigh_frame",
+        "left_output_M4_nut_2"
+      ],
+      "classification": "Captive nut on pocket bottom; print torque transfer unqualified",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_M4_nut_0",
+        "left_output_spacer_0"
+      ],
+      "classification": "Nut face on metal compression spacer",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_driven_thigh_frame",
+        "left_hip_cover_M3_3"
+      ],
+      "classification": "Nominal printed-thread envelope; not a qualified thread",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_output_mount",
+        "body_upper_output_neck_key"
+      ],
+      "classification": "Split shell / neck-slot interface; closure hardware pending",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_output_mount",
+        "left_drive_intermediate_outer_bearing"
+      ],
+      "classification": "Outer race at case end seat; bearing retention and tolerance pending",
+      "tested_poses": 13,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_M4x12_0",
+        "left_output_spacer_0"
+      ],
+      "classification": "Nominal 4 mm spacer bore / screw shank",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_M4x12_2",
+        "left_output_spacer_2"
+      ],
+      "classification": "Nominal 4 mm spacer bore / screw shank",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_spindle_M3_rear",
+        "left_output_spindle_cap_rear"
+      ],
+      "classification": "Countersunk screw seating cone",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_body_plate",
+        "left_output_mount_M3_17"
+      ],
+      "classification": "M3 major-diameter tap envelope",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_body_plate",
+        "left_output_mount_M3_-17"
+      ],
+      "classification": "M3 major-diameter tap envelope",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_M4x12_0",
+        "left_output_gear_80T"
+      ],
+      "classification": "Nominal 4 mm gear hole / screw shank and head-seat interface",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_M4_nut_1",
+        "left_output_M4x12_1"
+      ],
+      "classification": "Nominal M4 major-diameter thread envelope",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_driven_thigh_frame",
+        "left_output_M4_nut_1"
+      ],
+      "classification": "Captive nut on pocket bottom; print torque transfer unqualified",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_F688_inner",
+        "left_output_fixed_spindle"
+      ],
+      "classification": "Nominal \u00d88 bearing inner journal",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_F688_inner",
+        "left_output_spindle_spacer_0"
+      ],
+      "classification": "Nominal axial stack interface; tolerance/preload qualification pending",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_M4x12_2",
+        "left_output_gear_80T"
+      ],
+      "classification": "Nominal 4 mm gear hole / screw shank and head-seat interface",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_gear_80T",
+        "left_output_spacer_1"
+      ],
+      "classification": "Spacer face on stock gear web",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_drive_intermediate_20T",
+        "left_output_gear_80T"
+      ],
+      "classification": "intended_gear_mesh_envelope_overlap",
+      "passed": false,
+      "needs_tooth_phase_validation": true,
+      "note": "The full pinion tip envelope crosses the output teeth by design. This cannot validate actual meshing or be called a material-clearance pass."
+    },
+    {
+      "pair": [
+        "body_lower_output_mount",
+        "left_output_mount_M3_17"
+      ],
+      "classification": "Countersunk screw seating cone",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_driven_thigh_frame",
+        "left_output_M4_nut_3"
+      ],
+      "classification": "Captive nut on pocket bottom; print torque transfer unqualified",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_M4_nut_3",
+        "left_output_spacer_3"
+      ],
+      "classification": "Nut face on metal compression spacer",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_output_mount",
+        "left_output_mount_M3_-17"
+      ],
+      "classification": "Countersunk screw seating cone",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_gear_80T",
+        "left_output_spacer_2"
+      ],
+      "classification": "Spacer face on stock gear web",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_driven_thigh_frame",
+        "left_supported_thigh_lid"
+      ],
+      "classification": "Cover boss end faces",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_driven_thigh_frame",
+        "left_output_M4_nut_0"
+      ],
+      "classification": "Captive nut on pocket bottom; print torque transfer unqualified",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_gear_80T",
+        "left_output_spacer_0"
+      ],
+      "classification": "Spacer face on stock gear web",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_upper_output_neck_key",
+        "left_drive_intermediate_outer_bearing"
+      ],
+      "classification": "Outer race at case end seat; bearing retention and tolerance pending",
+      "tested_poses": 13,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_fixed_spindle",
+        "left_output_spindle_M3_rear"
+      ],
+      "classification": "M3 major-diameter tap envelope; thread form unmodeled",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_fixed_tie_anchor",
+        "left_output_fixed_spindle"
+      ],
+      "classification": "D-key transition/end surface; running clearance and fit unqualified",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_output_mount",
+        "left_drive_intermediate_inner_bearing"
+      ],
+      "classification": "Inner bearing outer race at printed support seat; retention/fit pending",
+      "tested_poses": 13,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_gear_80T",
+        "left_output_spacer_3"
+      ],
+      "classification": "Spacer face on stock gear web",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_body_plate",
+        "left_output_spindle_spacer_0"
+      ],
+      "classification": "Nominal axial stack interface; tolerance/preload qualification pending",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_M4x12_3",
+        "left_output_spacer_3"
+      ],
+      "classification": "Nominal 4 mm spacer bore / screw shank",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_driven_thigh_frame",
+        "left_output_F688_inner"
+      ],
+      "classification": "Bearing flange on rotating hub end",
+      "tested_poses": 13,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_M4x12_3",
+        "left_output_gear_80T"
+      ],
+      "classification": "Nominal 4 mm gear hole / screw shank and head-seat interface",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_driven_thigh_frame",
+        "left_spring_coil_envelope"
+      ],
+      "classification": "Fixed spring end seat",
+      "tested_poses": 14,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_F688_outer",
+        "left_output_fixed_spindle"
+      ],
+      "classification": "Nominal \u00d88 bearing inner journal",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_M4_nut_0",
+        "left_output_M4x12_0"
+      ],
+      "classification": "Nominal M4 major-diameter thread envelope",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_output_mount",
+        "left_output_body_plate"
+      ],
+      "classification": "Backing plate seated in body pocket",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_M4x12_1",
+        "left_output_spacer_1"
+      ],
+      "classification": "Nominal 4 mm spacer bore / screw shank",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_F688_inner",
+        "left_output_spindle_spacer_1"
+      ],
+      "classification": "Nominal axial stack interface; tolerance/preload qualification pending",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_driven_thigh_frame",
+        "left_hip_cover_M3_1"
+      ],
+      "classification": "Nominal printed-thread envelope; not a qualified thread",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_driven_thigh_frame",
+        "left_hip_F688_outer"
+      ],
+      "classification": "Bearing flange on rotating hub end",
+      "tested_poses": 13,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_F688_outer",
+        "left_output_spindle_spacer_1"
+      ],
+      "classification": "Nominal axial stack interface; tolerance/preload qualification pending",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_driven_thigh_frame",
+        "left_output_gear_80T"
+      ],
+      "classification": "Stock gear web seated on integral printed flange; clamp/fit unqualified",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_driven_thigh_frame",
+        "left_hip_cover_M3_2"
+      ],
+      "classification": "Nominal printed-thread envelope; not a qualified thread",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_body_plate",
+        "left_output_fixed_spindle"
+      ],
+      "classification": "D-key transition/end surface; running clearance and fit unqualified",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_M4_nut_3",
+        "left_output_M4x12_3"
+      ],
+      "classification": "Nominal M4 major-diameter thread envelope",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_body_plate",
+        "left_output_spindle_cap_rear"
+      ],
+      "classification": "Nominal axial stack interface; tolerance/preload qualification pending",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_M4_nut_2",
+        "left_output_spacer_2"
+      ],
+      "classification": "Nut face on metal compression spacer",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_M4_nut_1",
+        "left_output_spacer_1"
+      ],
+      "classification": "Nut face on metal compression spacer",
+      "tested_poses": 1,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_output_fixed_spindle",
+        "left_spindle_M3_front"
+      ],
+      "classification": "M3 major-diameter tap envelope; thread form unmodeled",
+      "tested_poses": 1,
+      "passed": true
+    }
+  ],
+  "nominal_joint_and_case_clearance_pass": true,
+  "checked_mesh_poses": 405,
+  "exact_material_cases": 987,
+  "material_failures": [],
+  "unclassified_material_contacts": [],
+  "gear_mesh_validated": false,
+  "complete_drive_validated": false,
+  "hardware_release": false,
+  "dynamics_validated": false,
+  "source_sha256": {
+    "classify_hip_output.py": "de543016cf822648470a7b0d4477c9c55c86ec1cc27c01fd21f2d51b1a5faf84",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/fit-diagnostic.json": "f4d57452e66ca80d48d0a5c3ed1c8998c8f12a461e3bb9ef68045e50f0e462c1",
+    "hip-output/exact-diagnostic.json": "be9ecc5465a1cb3dd086a93b788bfafe0d9fde6168e9c058759363a48092e3a5",
+    "check_coaxial_exact.py": "9bdf0181a166fbf96110d7dd3f7cd0c3b481d7f300938eca9d5b50da214a0b66",
+    "check_hip_exact.py": "3eb2980038c8ee2618aefec5ee1b742c4a9750bcc26097d79d92373155af14e5"
+  },
+  "limitations": [
+    "Only contacts involving changed left output/body parts; not a complete robot or bilateral drive audit.",
+    "Mesh sweep plus finite exact reprobes, not continuous collision proof.",
+    "Threads and bearing races use nominal envelopes. Manufacturing tolerances, closure, retention, assembly access, loads and dynamics remain open."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "scope": "Interactive desktop Chrome check of local viewer; no iOS device test or new physics integration.",
+  "url": "http://100.97.184.4:8765/viewer/v2.html?motion=learned-terrain&v=terrain-driving-1",
+  "checked": [
+    "terrain mode loads and autoplays",
+    "recorded commands and measured velocity shown",
+    "Exterior and Cutaway inspected at 5.60 s",
+    "Physics inspected at settled 14.00 s endpoint",
+    "manual mode exposes three leg sliders",
+    "programmed jump still selects and plays; flat floor/grid restored",
+    "no browser console errors",
+    "Tailscale URL HTTP 200"
+  ],
+  "source_sha256": {
+    "viewer/v2-replay.mjs": "0439814b95f9a93a4a6fd9744df835f50b8a70362720528c73c74ec5530903e9",
+    "viewer/v2.html": "cc29d1de6a559f044cd6ef298ff4822e8eaa13d173d3a700797c3673e3eb8457",
+    "clanky-v2/training/terrain-driving-viewer-replay.json": "ecb20179c39c28d33ccb88d574d636008c6a724522af157d755b186f0b6f2558"
+  }
+}

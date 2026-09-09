@@ -1,0 +1,457 @@
+{
+  "status": "detailed_module_vs_retained_layout_screen",
+  "passed": true,
+  "samples": 205,
+  "interferences": {},
+  "nearest": {
+    "gear_100T": {
+      "distance_mm": 3.999999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -1.1315999999999997
+    },
+    "pinion_20T": {
+      "distance_mm": 18.078282279406668,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "pinion_grub_-1": {
+      "distance_mm": 23.22323820888802,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "pinion_grub_1": {
+      "distance_mm": 24.25496374405001,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "output_shaft": {
+      "distance_mm": 2.999999999999993,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8211999999999997
+    },
+    "gear_cross_pin": {
+      "distance_mm": 9.0,
+      "other": "left_thigh_lid",
+      "q_rad": -1.0345999999999997
+    },
+    "bearing_rear": {
+      "distance_mm": 12.499999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -1.1121999999999999
+    },
+    "bearing_front": {
+      "distance_mm": 18.499999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8211999999999997
+    },
+    "shaft_shim_rear_0": {
+      "distance_mm": 11.999999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8211999999999997
+    },
+    "shaft_shim_middle_0": {
+      "distance_mm": 17.499999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8211999999999997
+    },
+    "shaft_shim_middle_1": {
+      "distance_mm": 17.999999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8211999999999997
+    },
+    "shaft_shim_front_0": {
+      "distance_mm": 23.499999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8211999999999997
+    },
+    "shaft_shim_front_1": {
+      "distance_mm": 23.999999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8211999999999997
+    },
+    "shaft_shim_front_2": {
+      "distance_mm": 24.499999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8211999999999997
+    },
+    "wheel_torque_plate": {
+      "distance_mm": 24.99999999999997,
+      "other": "left_thigh_lid",
+      "q_rad": -0.7629999999999999
+    },
+    "shaft_end_washer": {
+      "distance_mm": 26.999999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8211999999999997
+    },
+    "shaft_end_M3x8": {
+      "distance_mm": 19.499999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8211999999999997
+    },
+    "TPU_compression_limiter_0": {
+      "distance_mm": 22.08669991538842,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "wheel_washer_0_rear": {
+      "distance_mm": 21.521233753745783,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "wheel_washer_0_front": {
+      "distance_mm": 27.016911412731226,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "wheel_nut_0": {
+      "distance_mm": 19.16277561496964,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "wheel_M3x10_0": {
+      "distance_mm": 17.747628759931928,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "TPU_compression_limiter_1": {
+      "distance_mm": 22.151035144204375,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "wheel_washer_1_rear": {
+      "distance_mm": 21.558148639543607,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "wheel_washer_1_front": {
+      "distance_mm": 27.046326419028812,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "wheel_nut_1": {
+      "distance_mm": 19.217326816647343,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "wheel_M3x10_1": {
+      "distance_mm": 17.86289153666004,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "TPU_compression_limiter_2": {
+      "distance_mm": 21.999999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -1.1315999999999997
+    },
+    "wheel_washer_2_rear": {
+      "distance_mm": 21.499999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -1.1315999999999997
+    },
+    "wheel_washer_2_front": {
+      "distance_mm": 26.999999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -1.1315999999999997
+    },
+    "wheel_nut_2": {
+      "distance_mm": 19.09999999999998,
+      "other": "left_thigh_lid",
+      "q_rad": -1.1315999999999997
+    },
+    "wheel_M3x10_2": {
+      "distance_mm": 17.499999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -1.1315999999999997
+    },
+    "tire": {
+      "distance_mm": 9.499999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -1.1315999999999997
+    },
+    "V2806_stator": {
+      "distance_mm": 5.63919636012391,
+      "other": "left_thigh_frame",
+      "q_rad": -0.8017999999999998
+    },
+    "V2806_rotor": {
+      "distance_mm": 5.63919636012391,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "V2806_windings": {
+      "distance_mm": 8.137909344167802,
+      "other": "left_thigh_frame",
+      "q_rad": -0.8017999999999998
+    },
+    "rotor_M3x5_0": {
+      "distance_mm": 21.863947038557562,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "rotor_M3x5_1": {
+      "distance_mm": 26.190165791038986,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "rotor_M3x5_2": {
+      "distance_mm": 19.295675416762503,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "rotor_M3x5_3": {
+      "distance_mm": 14.449010169819172,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "pinion_flanged_shaft": {
+      "distance_mm": 13.135331490120167,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "motor_base_washer_0": {
+      "distance_mm": 27.80521909607657,
+      "other": "left_thigh_frame",
+      "q_rad": -0.8017999999999998
+    },
+    "motor_base_M3x5_0": {
+      "distance_mm": 28.455157777402146,
+      "other": "left_thigh_frame",
+      "q_rad": -0.8017999999999998
+    },
+    "motor_base_washer_1": {
+      "distance_mm": 23.682627894168792,
+      "other": "body_lower",
+      "q_rad": -1.1703999999999999
+    },
+    "motor_base_M3x5_1": {
+      "distance_mm": 22.887088813812674,
+      "other": "body_lower",
+      "q_rad": -1.1897999999999997
+    },
+    "motor_base_washer_2": {
+      "distance_mm": 11.871963973671816,
+      "other": "left_thigh_frame",
+      "q_rad": -0.8017999999999998
+    },
+    "motor_base_M3x5_2": {
+      "distance_mm": 12.52195530930256,
+      "other": "left_thigh_frame",
+      "q_rad": -0.8017999999999998
+    },
+    "motor_base_washer_3": {
+      "distance_mm": 14.021494868777916,
+      "other": "left_thigh_frame",
+      "q_rad": -0.8017999999999998
+    },
+    "motor_base_M3x5_3": {
+      "distance_mm": 14.671165198548241,
+      "other": "left_thigh_frame",
+      "q_rad": -0.8017999999999998
+    },
+    "motor_mount_plate": {
+      "distance_mm": 1.890987848653907,
+      "other": "left_thigh_frame",
+      "q_rad": -0.8017999999999998
+    },
+    "encoder_magnet": {
+      "distance_mm": 20.131728331798215,
+      "other": "left_thigh_frame",
+      "q_rad": -0.8017999999999998
+    },
+    "encoder_PCB": {
+      "distance_mm": 12.400353311685079,
+      "other": "body_lower",
+      "q_rad": -1.2479999999999998
+    },
+    "encoder_chip": {
+      "distance_mm": 18.35773529305882,
+      "other": "body_lower",
+      "q_rad": -1.2673999999999999
+    },
+    "motor_mount_nut_0": {
+      "distance_mm": 28.311402001092794,
+      "other": "left_thigh_frame",
+      "q_rad": -0.8017999999999998
+    },
+    "motor_mount_M2x8_0": {
+      "distance_mm": 28.716943666692572,
+      "other": "left_thigh_frame",
+      "q_rad": -0.8017999999999998
+    },
+    "motor_mount_nut_1": {
+      "distance_mm": 25.135309809136775,
+      "other": "body_lower",
+      "q_rad": -1.1703999999999999
+    },
+    "motor_mount_M2x8_1": {
+      "distance_mm": 26.11372800605939,
+      "other": "body_lower",
+      "q_rad": -1.1703999999999999
+    },
+    "motor_mount_nut_2": {
+      "distance_mm": 2.2708258279200644,
+      "other": "left_thigh_frame",
+      "q_rad": -0.8017999999999998
+    },
+    "motor_mount_M2x8_2": {
+      "distance_mm": 2.4895189339745354,
+      "other": "left_thigh_frame",
+      "q_rad": -0.8017999999999998
+    },
+    "rear_cap_nut_0": {
+      "distance_mm": 12.719989320317488,
+      "other": "body_lower",
+      "q_rad": -1.2091999999999998
+    },
+    "rear_cap_M2x6_0": {
+      "distance_mm": 8.976967970807769,
+      "other": "body_lower",
+      "q_rad": -1.2091999999999998
+    },
+    "rear_cap_nut_1": {
+      "distance_mm": 25.933227410435286,
+      "other": "left_thigh_frame",
+      "q_rad": -0.8017999999999998
+    },
+    "rear_cap_M2x6_1": {
+      "distance_mm": 27.013642525888415,
+      "other": "body_lower",
+      "q_rad": -1.3061999999999998
+    },
+    "encoder_M2x3_0": {
+      "distance_mm": 12.400859355033939,
+      "other": "body_lower",
+      "q_rad": -1.2673999999999999
+    },
+    "encoder_M2x3_1": {
+      "distance_mm": 26.31066075152975,
+      "other": "body_lower",
+      "q_rad": -1.2479999999999998
+    },
+    "encoder_service_cap": {
+      "distance_mm": 9.102650316970296,
+      "other": "body_lower",
+      "q_rad": -1.1897999999999997
+    },
+    "lid_nut_0": {
+      "distance_mm": 12.24906981183732,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "lid_washer_0": {
+      "distance_mm": 16.8056253560934,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "lid_M3x6_0": {
+      "distance_mm": 13.489725074487472,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "lid_nut_1": {
+      "distance_mm": 12.275945527630157,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "lid_washer_1": {
+      "distance_mm": 16.911709969165617,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "lid_M3x6_1": {
+      "distance_mm": 13.656423119053713,
+      "other": "left_thigh_lid",
+      "q_rad": -0.8017999999999998
+    },
+    "lid_nut_2": {
+      "distance_mm": 8.999999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -1.1315999999999997
+    },
+    "lid_washer_2": {
+      "distance_mm": 14.999999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -1.1315999999999997
+    },
+    "lid_M3x6_2": {
+      "distance_mm": 9.499999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -1.1315999999999997
+    },
+    "shin_case": {
+      "distance_mm": 0.0987609832645008,
+      "other": "left_knee_shaft",
+      "q_rad": -1.6359999999999997
+    },
+    "bearing_service_lid": {
+      "distance_mm": 13.499999999999986,
+      "other": "left_thigh_lid",
+      "q_rad": -1.1315999999999997
+    }
+  },
+  "inboard_leg_shift_mm": 3,
+  "chassis_lateral_scale": 0.9166666666666666,
+  "wheel_track_mm": 160,
+  "overall_tire_width_mm": 180,
+  "opposite_module_minimum_y_gap_mm": 52.6,
+  "complete_robot_fit_pass": false,
+  "adopted": false,
+  "hardware_release": false,
+  "module_rotation_envelopes": {
+    "passed": true,
+    "groups": {
+      "tire": {
+        "interferences": [],
+        "minimum_clearance_mm": 0.494484717870876,
+        "nearest": "bearing_service_lid"
+      },
+      "wheel_plate": {
+        "interferences": [],
+        "minimum_clearance_mm": 1.5,
+        "nearest": "bearing_front"
+      },
+      "wheel_fasteners": {
+        "interferences": [],
+        "minimum_clearance_mm": 1.4939493053472417,
+        "nearest": "bearing_service_lid"
+      },
+      "gear_100T": {
+        "interferences": [],
+        "minimum_clearance_mm": 0.5,
+        "nearest": "bearing_rear"
+      },
+      "motor_bell": {
+        "interferences": [],
+        "minimum_clearance_mm": 0.29999999999999716,
+        "nearest": "V2806_stator"
+      },
+      "rotor_screw_heads": {
+        "interferences": [],
+        "minimum_clearance_mm": 1.6379361706163023,
+        "nearest": "shin_case"
+      },
+      "pinion": {
+        "interferences": [],
+        "minimum_clearance_mm": 0.49295956647026534,
+        "nearest": "shin_case"
+      }
+    },
+    "scope": "Listed radial envelopes against fixed module solids, all wheel angular phases; zero TPU deflection."
+  },
+  "input_sha256": {
+    "check_geared_wheel.py": "9dd9177dbed85446810b6ccf0aff25f38c71f41e88be9aee7ca99d4fb7e2364f",
+    "geared-wheel/parts.json": "54e444ad3fe8264b265d0df76246de0c2de2015d36ab063ea2ca9246b198e97b",
+    "geared-wheel/interfaces.json": "ee82b3689657c7d36d67ad46bff48fced85a37dd4dcf59003f6f1a2391e64751",
+    "layout.json": "a8b9323416680c1799ec8c2f154a8e47d099fff390aa619b2e7f032114d2a3c4",
+    "layout-parts.json": "3f844258189c1a0e24ed6795bcb8168582b947a1950163c9797c98f28b51733d",
+    "check_layout.py": "32630e8eb58b6659780e8db7b68d2b0071d40b2672bfb67218043339092d05fa",
+    "check_direct_wheel.py": "e71e4319c6904d0af0af0610c9bda4566dffb373fd09336f6a9970ebb672357a"
+  },
+  "limitations": [
+    "3 mm inboard shift and scaled body are hypotheses; retained-part mutual clearances and packaging must be rechecked if adopted.",
+    "Full free-length spring annuli cover each spring's compressed states. New tire uses filled rotational envelope.",
+    "Module internal wheel/gear rotation clearance is separate from this leg sweep.",
+    "Motor plate attachment, rear enclosure, wiring and other omitted hardware are not cleared by this check."
+  ]
+}

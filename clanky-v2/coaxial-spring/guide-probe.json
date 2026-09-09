@@ -1,0 +1,1124 @@
+{
+  "status": "finite_guide_material_and_angular_stop_probe",
+  "adopted": false,
+  "loaded_slider_range_mm": [
+    58.632604071452974,
+    78.0
+  ],
+  "contact_direction_vertical_projection": 0.8297471058098266,
+  "guide_material_samples": [
+    {
+      "slider_x_mm": 58.632604071452974,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 58.632604071452974,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 58.632604071452974,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 58.632604071452974,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 58.632604071452974,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 58.632604071452974,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 58.632604071452974,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 58.632604071452974,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 61.05352856252135,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 61.05352856252135,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 61.05352856252135,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 61.05352856252135,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 61.05352856252135,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 61.05352856252135,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 61.05352856252135,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 61.05352856252135,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 63.47445305358973,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 63.47445305358973,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 63.47445305358973,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 63.47445305358973,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 63.47445305358973,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 63.47445305358973,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 63.47445305358973,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 63.47445305358973,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 65.8953775446581,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 65.8953775446581,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 65.8953775446581,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 65.8953775446581,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 65.8953775446581,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 65.8953775446581,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 65.8953775446581,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 65.8953775446581,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 68.3163020357265,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 68.3163020357265,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 68.3163020357265,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 68.3163020357265,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 68.3163020357265,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 68.3163020357265,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 68.3163020357265,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 68.3163020357265,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 70.73722652679487,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 70.73722652679487,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 70.73722652679487,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 70.73722652679487,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 70.73722652679487,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 70.73722652679487,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 70.73722652679487,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 70.73722652679487,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 73.15815101786325,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 73.15815101786325,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 73.15815101786325,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 73.15815101786325,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 73.15815101786325,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 73.15815101786325,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 73.15815101786325,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 73.15815101786325,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 75.57907550893162,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 75.57907550893162,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 75.57907550893162,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 75.57907550893162,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 75.57907550893162,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 75.57907550893162,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 75.57907550893162,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 75.57907550893162,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 78.0,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 78.0,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 78.0,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 78.0,
+      "band_x_mm": -11.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 78.0,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 78.0,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        -1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 78.0,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        -1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    },
+    {
+      "slider_x_mm": 78.0,
+      "band_x_mm": 1.0,
+      "quadrant": [
+        1,
+        1
+      ],
+      "frame_material": true,
+      "piston_material": true,
+      "radial_gap": true,
+      "passed": true
+    }
+  ],
+  "angular_stop_samples": [
+    {
+      "slider_x_mm": 58.632604071452974,
+      "nominal_overlap_mm3": 0,
+      "sides": [
+        {
+          "direction": -1,
+          "last_clear_angle_magnitude_deg": 1.0,
+          "first_contact_angle_magnitude_deg": 2.0,
+          "samples": [
+            {
+              "angle_deg": -0.5,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": -1.0,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": -2.0,
+              "overlap_mm3": 1.1825113590778282
+            }
+          ],
+          "contact_observed": true
+        },
+        {
+          "direction": 1,
+          "last_clear_angle_magnitude_deg": 1.0,
+          "first_contact_angle_magnitude_deg": 2.0,
+          "samples": [
+            {
+              "angle_deg": 0.5,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": 1.0,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": 2.0,
+              "overlap_mm3": 1.1825113590774945
+            }
+          ],
+          "contact_observed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "slider_x_mm": 66.36241200505718,
+      "nominal_overlap_mm3": 0,
+      "sides": [
+        {
+          "direction": -1,
+          "last_clear_angle_magnitude_deg": 1.0,
+          "first_contact_angle_magnitude_deg": 2.0,
+          "samples": [
+            {
+              "angle_deg": -0.5,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": -1.0,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": -2.0,
+              "overlap_mm3": 1.1825113590778282
+            }
+          ],
+          "contact_observed": true
+        },
+        {
+          "direction": 1,
+          "last_clear_angle_magnitude_deg": 1.0,
+          "first_contact_angle_magnitude_deg": 2.0,
+          "samples": [
+            {
+              "angle_deg": 0.5,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": 1.0,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": 2.0,
+              "overlap_mm3": 1.1825113590774945
+            }
+          ],
+          "contact_observed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "slider_x_mm": 74.0922199386614,
+      "nominal_overlap_mm3": 0,
+      "sides": [
+        {
+          "direction": -1,
+          "last_clear_angle_magnitude_deg": 1.0,
+          "first_contact_angle_magnitude_deg": 2.0,
+          "samples": [
+            {
+              "angle_deg": -0.5,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": -1.0,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": -2.0,
+              "overlap_mm3": 1.1825113590778282
+            }
+          ],
+          "contact_observed": true
+        },
+        {
+          "direction": 1,
+          "last_clear_angle_magnitude_deg": 1.0,
+          "first_contact_angle_magnitude_deg": 2.0,
+          "samples": [
+            {
+              "angle_deg": 0.5,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": 1.0,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": 2.0,
+              "overlap_mm3": 1.1825113590774945
+            }
+          ],
+          "contact_observed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "slider_x_mm": 81.82202787226561,
+      "nominal_overlap_mm3": 0,
+      "sides": [
+        {
+          "direction": -1,
+          "last_clear_angle_magnitude_deg": 1.0,
+          "first_contact_angle_magnitude_deg": 2.0,
+          "samples": [
+            {
+              "angle_deg": -0.5,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": -1.0,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": -2.0,
+              "overlap_mm3": 1.1825113590778282
+            }
+          ],
+          "contact_observed": true
+        },
+        {
+          "direction": 1,
+          "last_clear_angle_magnitude_deg": 1.0,
+          "first_contact_angle_magnitude_deg": 2.0,
+          "samples": [
+            {
+              "angle_deg": 0.5,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": 1.0,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": 2.0,
+              "overlap_mm3": 1.0592164671149233
+            }
+          ],
+          "contact_observed": true
+        }
+      ],
+      "passed": true
+    },
+    {
+      "slider_x_mm": 89.55183580586981,
+      "nominal_overlap_mm3": 0,
+      "sides": [
+        {
+          "direction": -1,
+          "last_clear_angle_magnitude_deg": 1.0,
+          "first_contact_angle_magnitude_deg": 2.0,
+          "samples": [
+            {
+              "angle_deg": -0.5,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": -1.0,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": -2.0,
+              "overlap_mm3": 1.0808802955570278
+            }
+          ],
+          "contact_observed": true
+        },
+        {
+          "direction": 1,
+          "last_clear_angle_magnitude_deg": 1.0,
+          "first_contact_angle_magnitude_deg": 2.0,
+          "samples": [
+            {
+              "angle_deg": 0.5,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": 1.0,
+              "overlap_mm3": 0
+            },
+            {
+              "angle_deg": 2.0,
+              "overlap_mm3": 0.4063174703546135
+            }
+          ],
+          "contact_observed": true
+        }
+      ],
+      "passed": true
+    }
+  ],
+  "passed": true,
+  "strength_pass": null,
+  "source_sha256": {
+    "check_coaxial_guide.py": "088780fc707ecc7cb1685278e8d4f8f3cedcbd60804b97d9c1c616acc06feee8",
+    "coaxial_spring.py": "b7dacbff8fcdb1025cfce4d7dc7a847e25bc1035baafb47e8d0a3b46a424c7aa",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079"
+  },
+  "limitations": [
+    "Point membership at proposed contact bands does not prove distributed support, contact pressure, stiffness or tolerance robustness.",
+    "Angular interference brackets nominal rigid-body stops; it does not establish allowable torque or wear life.",
+    "Loaded radial-support samples and full-travel angular-stop samples are finite; no continuous clearance proof."
+  ]
+}

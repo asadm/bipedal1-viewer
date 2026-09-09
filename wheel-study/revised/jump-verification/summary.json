@@ -1,0 +1,656 @@
+{
+  "kind": "programmed_wheel_transfer",
+  "rigid_tires": true,
+  "learned_policy": false,
+  "hardware_release": false,
+  "cases": 6,
+  "passed": 6,
+  "records": [
+    {
+      "kind": "jump",
+      "variant": "wide_heavy",
+      "timestep_s": 0.0005,
+      "baseline": false,
+      "settings": {},
+      "passed": true,
+      "learned_policy": false,
+      "hardware_release": false,
+      "mujoco_version": "3.10.0",
+      "model_sha256": "b92cdb8e720f02ec44177c3d360cd6251a8159ee7f765652659757b5783e9b8d",
+      "plant_fingerprint": "df3839299e688ed8284cf7c822eed25b87885bc51579b1d7281cb77c3dbbfc53",
+      "mass_kg": 2.750633331124019,
+      "result": {
+        "controller": "Programmed jump / perfect-state feedback / same four-action interface",
+        "duration_s": 12.000000000003174,
+        "requested_duration_s": 12.0,
+        "controller_settings": {
+          "crouch": -0.5,
+          "extend": 1.1,
+          "pulse": 0.1,
+          "retract": -0.25,
+          "landing_angle": 0.3,
+          "push_wheel": 0.0,
+          "command_time_s": 1.0,
+          "push_time_s": 1.6
+        },
+        "learned_policy": false,
+        "hardware_release": false,
+        "variant": "wide_heavy",
+        "physics_timestep_s": 0.0005,
+        "mujoco_version": "3.10.0",
+        "plant_fingerprint": "df3839299e688ed8284cf7c822eed25b87885bc51579b1d7281cb77c3dbbfc53",
+        "model_sha256": "b92cdb8e720f02ec44177c3d360cd6251a8159ee7f765652659757b5783e9b8d",
+        "policy_interface": {
+          "version": 2,
+          "hip_offset_rad": 0.0,
+          "hip_scale_rad": 2.35,
+          "hip_target_range_rad": [
+            -2.35,
+            2.35
+          ],
+          "hip_observation_offset_rad": 0.4101523742186677,
+          "wheel_scale_Nm": 0.55,
+          "wheel_target_range_Nm": [
+            -0.55,
+            0.55
+          ]
+        },
+        "checks": {
+          "complete": true,
+          "no_body_contact": true,
+          "spring_travel": true,
+          "hip_travel": true,
+          "linkage_closure": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "settled": true,
+          "passive_knee_travel": true,
+          "finite_velocity": true,
+          "jump_height": true,
+          "flight_and_landing": true,
+          "ballistic_jump": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "diagnostic_pass": true,
+        "tracking_metrics": {
+          "velocity_error": 0.07549161209688847,
+          "yaw_error": 0.0028893542267700084,
+          "height_error": 0.0012209556089964489
+        },
+        "hip_range_rad": [
+          -0.5004767785325814,
+          1.1352138429205574
+        ],
+        "max_spring_compression_mm": 16.152072257963113,
+        "max_closure_error_mm": 0.011784802377472831,
+        "stable_hold_s": 9.248999999999812,
+        "final_linear_velocity_m_s": [
+          0.00599666512825748,
+          -8.137617465857691e-05,
+          -8.803728533332302e-05
+        ],
+        "final_angular_velocity_rad_s": [
+          -3.271555415313382e-06,
+          -0.0006505888809092381,
+          0.00013894845494228421
+        ],
+        "final_wheel_contact": [
+          true,
+          true
+        ],
+        "peak_current_A": [
+          32.0,
+          32.0,
+          7.999999999951575,
+          7.999999995671557
+        ],
+        "max_both_wheel_clearance_mm": 94.31714978829869,
+        "takeoff_s": 1.6440000000000001,
+        "landing_s": 1.8845,
+        "launch_com_speed_m_s": 1.1100679806569151,
+        "ballistic_com_rise_mm": 62.331201813139
+      },
+      "file": "jump-wide_heavy-500us.json"
+    },
+    {
+      "kind": "jump",
+      "variant": "wide_current",
+      "timestep_s": 0.0005,
+      "baseline": false,
+      "settings": {},
+      "passed": true,
+      "learned_policy": false,
+      "hardware_release": false,
+      "mujoco_version": "3.10.0",
+      "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78",
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "mass_kg": 2.2921944426033494,
+      "result": {
+        "controller": "Programmed jump / perfect-state feedback / same four-action interface",
+        "duration_s": 12.000000000003174,
+        "requested_duration_s": 12.0,
+        "controller_settings": {
+          "crouch": -0.5,
+          "extend": 1.1,
+          "pulse": 0.1,
+          "retract": -0.25,
+          "landing_angle": 0.3,
+          "push_wheel": 0.0,
+          "command_time_s": 1.0,
+          "push_time_s": 1.6
+        },
+        "learned_policy": false,
+        "hardware_release": false,
+        "variant": "wide_current",
+        "physics_timestep_s": 0.0005,
+        "mujoco_version": "3.10.0",
+        "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+        "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78",
+        "policy_interface": {
+          "version": 2,
+          "hip_offset_rad": 0.0,
+          "hip_scale_rad": 2.35,
+          "hip_target_range_rad": [
+            -2.35,
+            2.35
+          ],
+          "hip_observation_offset_rad": 0.4101523742186677,
+          "wheel_scale_Nm": 0.55,
+          "wheel_target_range_Nm": [
+            -0.55,
+            0.55
+          ]
+        },
+        "checks": {
+          "complete": true,
+          "no_body_contact": true,
+          "spring_travel": true,
+          "hip_travel": true,
+          "linkage_closure": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "settled": true,
+          "passive_knee_travel": true,
+          "finite_velocity": true,
+          "jump_height": true,
+          "flight_and_landing": true,
+          "ballistic_jump": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "diagnostic_pass": true,
+        "tracking_metrics": {
+          "velocity_error": 0.062258163974972774,
+          "yaw_error": 0.00047730245283180003,
+          "height_error": 0.0011960063761182313
+        },
+        "hip_range_rad": [
+          -0.500454087739317,
+          1.1280915645825906
+        ],
+        "max_spring_compression_mm": 16.151154368002636,
+        "max_closure_error_mm": 0.010249410672456702,
+        "stable_hold_s": 9.417000000000018,
+        "final_linear_velocity_m_s": [
+          0.005216576986566378,
+          -4.699039807582556e-06,
+          8.094733184154125e-05
+        ],
+        "final_angular_velocity_rad_s": [
+          -2.3690521596434055e-06,
+          0.0010712374836441103,
+          8.965221185665962e-05
+        ],
+        "final_wheel_contact": [
+          true,
+          true
+        ],
+        "peak_current_A": [
+          32.0,
+          32.0,
+          7.999999993097101,
+          7.999999993097101
+        ],
+        "max_both_wheel_clearance_mm": 96.64805124665199,
+        "takeoff_s": 1.6425,
+        "landing_s": 1.8880000000000001,
+        "launch_com_speed_m_s": 1.129786108640093,
+        "ballistic_com_rise_mm": 64.56455185921736
+      },
+      "file": "jump-wide_current-500us.json"
+    },
+    {
+      "kind": "jump",
+      "variant": "wide_current",
+      "timestep_s": 0.00025,
+      "baseline": false,
+      "settings": {},
+      "passed": true,
+      "learned_policy": false,
+      "hardware_release": false,
+      "mujoco_version": "3.10.0",
+      "model_sha256": "0ebaeb6eb61747fd87edc0b644c66ee008c61264a87266f4bb0dd3c86cdfca25",
+      "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+      "mass_kg": 2.2921944426033494,
+      "result": {
+        "controller": "Programmed jump / perfect-state feedback / same four-action interface",
+        "duration_s": 11.999999999994708,
+        "requested_duration_s": 12.0,
+        "controller_settings": {
+          "crouch": -0.5,
+          "extend": 1.1,
+          "pulse": 0.1,
+          "retract": -0.25,
+          "landing_angle": 0.3,
+          "push_wheel": 0.0,
+          "command_time_s": 1.0,
+          "push_time_s": 1.6
+        },
+        "learned_policy": false,
+        "hardware_release": false,
+        "variant": "wide_current",
+        "physics_timestep_s": 0.00025,
+        "mujoco_version": "3.10.0",
+        "plant_fingerprint": "b52dd833fcd5057cea98146d9e938776eb01635999ac44d21470c62e95bce2ba",
+        "model_sha256": "629716393bc6f6234db544201a5212a370db3e01a7e083ad26e6185b98ad2b78",
+        "policy_interface": {
+          "version": 2,
+          "hip_offset_rad": 0.0,
+          "hip_scale_rad": 2.35,
+          "hip_target_range_rad": [
+            -2.35,
+            2.35
+          ],
+          "hip_observation_offset_rad": 0.4101523742186677,
+          "wheel_scale_Nm": 0.55,
+          "wheel_target_range_Nm": [
+            -0.55,
+            0.55
+          ]
+        },
+        "checks": {
+          "complete": true,
+          "no_body_contact": true,
+          "spring_travel": true,
+          "hip_travel": true,
+          "linkage_closure": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "settled": true,
+          "passive_knee_travel": true,
+          "finite_velocity": true,
+          "jump_height": true,
+          "flight_and_landing": true,
+          "ballistic_jump": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "diagnostic_pass": true,
+        "tracking_metrics": {
+          "velocity_error": 0.06312693132085984,
+          "yaw_error": 0.00017514308680749376,
+          "height_error": 0.0011973622306283545
+        },
+        "hip_range_rad": [
+          -0.5007117122577308,
+          1.1301988188744394
+        ],
+        "max_spring_compression_mm": 16.15405057209409,
+        "max_closure_error_mm": 0.007915293882353217,
+        "stable_hold_s": 9.405000000000756,
+        "final_linear_velocity_m_s": [
+          0.005279215606984775,
+          -1.1512097474876966e-05,
+          -6.48787217994149e-05
+        ],
+        "final_angular_velocity_rad_s": [
+          -4.780058621863699e-07,
+          -0.0003620434023206263,
+          2.369096278494598e-05
+        ],
+        "final_wheel_contact": [
+          true,
+          true
+        ],
+        "peak_current_A": [
+          31.999999999999996,
+          31.999999999999996,
+          7.999999993864122,
+          7.999999993864122
+        ],
+        "max_both_wheel_clearance_mm": 96.04005557222011,
+        "takeoff_s": 1.643,
+        "landing_s": 1.887,
+        "launch_com_speed_m_s": 1.1226769341927703,
+        "ballistic_com_rise_mm": 64.00052829466709
+      },
+      "file": "jump-wide_current-250us.json"
+    },
+    {
+      "kind": "jump",
+      "variant": "wide_low_battery",
+      "timestep_s": 0.0005,
+      "baseline": false,
+      "settings": {},
+      "passed": true,
+      "learned_policy": false,
+      "hardware_release": false,
+      "mujoco_version": "3.10.0",
+      "model_sha256": "6582b640ea2117523511504124961a733edaf0a1f2ef06f030bea7f81b048c7b",
+      "plant_fingerprint": "feb6338b707163efabffdb37cc9ab9152fbf92a3e59541fd2c65fc4f736be0ac",
+      "mass_kg": 2.2921944426033494,
+      "result": {
+        "controller": "Programmed jump / perfect-state feedback / same four-action interface",
+        "duration_s": 12.000000000003174,
+        "requested_duration_s": 12.0,
+        "controller_settings": {
+          "crouch": -0.5,
+          "extend": 1.1,
+          "pulse": 0.1,
+          "retract": -0.25,
+          "landing_angle": 0.3,
+          "push_wheel": 0.0,
+          "command_time_s": 1.0,
+          "push_time_s": 1.6
+        },
+        "learned_policy": false,
+        "hardware_release": false,
+        "variant": "wide_low_battery",
+        "physics_timestep_s": 0.0005,
+        "mujoco_version": "3.10.0",
+        "plant_fingerprint": "feb6338b707163efabffdb37cc9ab9152fbf92a3e59541fd2c65fc4f736be0ac",
+        "model_sha256": "6582b640ea2117523511504124961a733edaf0a1f2ef06f030bea7f81b048c7b",
+        "policy_interface": {
+          "version": 2,
+          "hip_offset_rad": 0.0,
+          "hip_scale_rad": 2.35,
+          "hip_target_range_rad": [
+            -2.35,
+            2.35
+          ],
+          "hip_observation_offset_rad": 0.4101523742186677,
+          "wheel_scale_Nm": 0.55,
+          "wheel_target_range_Nm": [
+            -0.55,
+            0.55
+          ]
+        },
+        "checks": {
+          "complete": true,
+          "no_body_contact": true,
+          "spring_travel": true,
+          "hip_travel": true,
+          "linkage_closure": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "settled": true,
+          "passive_knee_travel": true,
+          "finite_velocity": true,
+          "jump_height": true,
+          "flight_and_landing": true,
+          "ballistic_jump": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "diagnostic_pass": true,
+        "tracking_metrics": {
+          "velocity_error": 0.039327298256846194,
+          "yaw_error": 0.00010011203563224757,
+          "height_error": 0.0011414318245251851
+        },
+        "hip_range_rad": [
+          -0.500454087739317,
+          1.1247923468717216
+        ],
+        "max_spring_compression_mm": 16.151154368002636,
+        "max_closure_error_mm": 0.009999448379507466,
+        "stable_hold_s": 9.993000000000722,
+        "final_linear_velocity_m_s": [
+          0.0028606533133225744,
+          -1.799719507999915e-06,
+          8.029198096947706e-05
+        ],
+        "final_angular_velocity_rad_s": [
+          -6.474154749772808e-07,
+          0.0009960791793787711,
+          1.9548844688567322e-05
+        ],
+        "final_wheel_contact": [
+          true,
+          true
+        ],
+        "peak_current_A": [
+          31.99999999999979,
+          31.99999999999979,
+          7.999999998114231,
+          7.999999998114231
+        ],
+        "max_both_wheel_clearance_mm": 78.58953025044532,
+        "takeoff_s": 1.6465,
+        "landing_s": 1.858,
+        "launch_com_speed_m_s": 0.9501627345076539,
+        "ballistic_com_rise_mm": 45.685084823912035
+      },
+      "file": "jump-wide_low_battery-500us.json"
+    },
+    {
+      "kind": "jump",
+      "variant": "wide_heavy",
+      "timestep_s": 0.00025,
+      "baseline": false,
+      "settings": {},
+      "passed": true,
+      "learned_policy": false,
+      "hardware_release": false,
+      "mujoco_version": "3.10.0",
+      "model_sha256": "8c3490836c07425fed683d75bc9b4a76d9b90e2c683838770923caa10c78b577",
+      "plant_fingerprint": "df3839299e688ed8284cf7c822eed25b87885bc51579b1d7281cb77c3dbbfc53",
+      "mass_kg": 2.750633331124019,
+      "result": {
+        "controller": "Programmed jump / perfect-state feedback / same four-action interface",
+        "duration_s": 11.999999999994708,
+        "requested_duration_s": 12.0,
+        "controller_settings": {
+          "crouch": -0.5,
+          "extend": 1.1,
+          "pulse": 0.1,
+          "retract": -0.25,
+          "landing_angle": 0.3,
+          "push_wheel": 0.0,
+          "command_time_s": 1.0,
+          "push_time_s": 1.6
+        },
+        "learned_policy": false,
+        "hardware_release": false,
+        "variant": "wide_heavy",
+        "physics_timestep_s": 0.00025,
+        "mujoco_version": "3.10.0",
+        "plant_fingerprint": "df3839299e688ed8284cf7c822eed25b87885bc51579b1d7281cb77c3dbbfc53",
+        "model_sha256": "b92cdb8e720f02ec44177c3d360cd6251a8159ee7f765652659757b5783e9b8d",
+        "policy_interface": {
+          "version": 2,
+          "hip_offset_rad": 0.0,
+          "hip_scale_rad": 2.35,
+          "hip_target_range_rad": [
+            -2.35,
+            2.35
+          ],
+          "hip_observation_offset_rad": 0.4101523742186677,
+          "wheel_scale_Nm": 0.55,
+          "wheel_target_range_Nm": [
+            -0.55,
+            0.55
+          ]
+        },
+        "checks": {
+          "complete": true,
+          "no_body_contact": true,
+          "spring_travel": true,
+          "hip_travel": true,
+          "linkage_closure": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "settled": true,
+          "passive_knee_travel": true,
+          "finite_velocity": true,
+          "jump_height": true,
+          "flight_and_landing": true,
+          "ballistic_jump": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "diagnostic_pass": true,
+        "tracking_metrics": {
+          "velocity_error": 0.07534461729696043,
+          "yaw_error": 0.0007146316847833744,
+          "height_error": 0.0012197809885523252
+        },
+        "hip_range_rad": [
+          -0.5006840814930712,
+          1.1371820632641303
+        ],
+        "max_spring_compression_mm": 16.15440265406981,
+        "max_closure_error_mm": 0.006765696589572641,
+        "stable_hold_s": 9.251750000001113,
+        "final_linear_velocity_m_s": [
+          0.006121611694328683,
+          -2.9051459720453775e-06,
+          -7.388526522826512e-05
+        ],
+        "final_angular_velocity_rad_s": [
+          7.978989465936403e-07,
+          -0.0004055587013365251,
+          -2.6788522742124484e-05
+        ],
+        "final_wheel_contact": [
+          true,
+          true
+        ],
+        "peak_current_A": [
+          31.999999999999996,
+          31.999999999999996,
+          7.999999996662811,
+          7.999999996662811
+        ],
+        "max_both_wheel_clearance_mm": 94.61314095455752,
+        "takeoff_s": 1.64425,
+        "landing_s": 1.8855,
+        "launch_com_speed_m_s": 1.107680483534149,
+        "ballistic_com_rise_mm": 62.296533512609855
+      },
+      "file": "jump-wide_heavy-250us.json"
+    },
+    {
+      "kind": "jump",
+      "variant": "wide_low_battery",
+      "timestep_s": 0.00025,
+      "baseline": false,
+      "settings": {},
+      "passed": true,
+      "learned_policy": false,
+      "hardware_release": false,
+      "mujoco_version": "3.10.0",
+      "model_sha256": "4fc99e4b7f3d62020f03aeb33c8af1517847487173cf465dad99eff855d9f22f",
+      "plant_fingerprint": "feb6338b707163efabffdb37cc9ab9152fbf92a3e59541fd2c65fc4f736be0ac",
+      "mass_kg": 2.2921944426033494,
+      "result": {
+        "controller": "Programmed jump / perfect-state feedback / same four-action interface",
+        "duration_s": 11.999999999994708,
+        "requested_duration_s": 12.0,
+        "controller_settings": {
+          "crouch": -0.5,
+          "extend": 1.1,
+          "pulse": 0.1,
+          "retract": -0.25,
+          "landing_angle": 0.3,
+          "push_wheel": 0.0,
+          "command_time_s": 1.0,
+          "push_time_s": 1.6
+        },
+        "learned_policy": false,
+        "hardware_release": false,
+        "variant": "wide_low_battery",
+        "physics_timestep_s": 0.00025,
+        "mujoco_version": "3.10.0",
+        "plant_fingerprint": "feb6338b707163efabffdb37cc9ab9152fbf92a3e59541fd2c65fc4f736be0ac",
+        "model_sha256": "6582b640ea2117523511504124961a733edaf0a1f2ef06f030bea7f81b048c7b",
+        "policy_interface": {
+          "version": 2,
+          "hip_offset_rad": 0.0,
+          "hip_scale_rad": 2.35,
+          "hip_target_range_rad": [
+            -2.35,
+            2.35
+          ],
+          "hip_observation_offset_rad": 0.4101523742186677,
+          "wheel_scale_Nm": 0.55,
+          "wheel_target_range_Nm": [
+            -0.55,
+            0.55
+          ]
+        },
+        "checks": {
+          "complete": true,
+          "no_body_contact": true,
+          "spring_travel": true,
+          "hip_travel": true,
+          "linkage_closure": true,
+          "electrical_envelope": true,
+          "no_warnings": true,
+          "settled": true,
+          "passive_knee_travel": true,
+          "finite_velocity": true,
+          "jump_height": true,
+          "flight_and_landing": true,
+          "ballistic_jump": true,
+          "no_sampled_wheel_self_contact": true,
+          "allowed_body_contacts": true
+        },
+        "diagnostic_pass": true,
+        "tracking_metrics": {
+          "velocity_error": 0.03943056379143352,
+          "yaw_error": 0.0001746316262977552,
+          "height_error": 0.0011423439263220645
+        },
+        "hip_range_rad": [
+          -0.5007117122577308,
+          1.1269015317590414
+        ],
+        "max_spring_compression_mm": 16.15405057209409,
+        "max_closure_error_mm": 0.006790729975120915,
+        "stable_hold_s": 9.990749999999391,
+        "final_linear_velocity_m_s": [
+          0.0029472705828936813,
+          -3.2056205069719905e-06,
+          -6.555454493616507e-05
+        ],
+        "final_angular_velocity_rad_s": [
+          -7.488433423077617e-07,
+          -0.0004430330451131906,
+          3.384196874349939e-05
+        ],
+        "final_wheel_contact": [
+          true,
+          true
+        ],
+        "peak_current_A": [
+          31.99999999999985,
+          31.99999999999985,
+          7.99999999864839,
+          7.99999999864839
+        ],
+        "max_both_wheel_clearance_mm": 78.52376876786063,
+        "takeoff_s": 1.647,
+        "landing_s": 1.85825,
+        "launch_com_speed_m_s": 0.9468558454116257,
+        "ballistic_com_rise_mm": 45.53379160210011
+      },
+      "file": "jump-wide_low_battery-250us.json"
+    }
+  ],
+  "limitations": [
+    "Exact-start programmed diagnostics; no RL policy qualification",
+    "No measured TPU deflection, grip, creep, fatigue or impact strength"
+  ]
+}

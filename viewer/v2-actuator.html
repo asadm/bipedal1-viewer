@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Clanky V2 / Hip motor comparison</title><link rel="icon" href="data:,">
+  <link rel="stylesheet" href="viewer.css"><link rel="stylesheet" href="wheel.css"><link rel="stylesheet" href="v2-actuator.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js","three/addons/controls/OrbitControls.js":"./vendor/OrbitControls.js"}}</script>
+</head>
+<body>
+<header class="header">
+  <a class="brand" href="v2.html"><span class="brand-mark">c.</span><span>Clanky <span class="brand-secondary">/ hip motor study</span></span></a>
+  <span class="header-meta">Four motors · mounting study</span><a class="back-link" href="v2.html">Full robot ↗</a>
+</header>
+<main class="workspace">
+  <aside class="sidebar" aria-label="Motor comparison controls">
+    <section class="control-section">
+      <div class="eyebrow">LATEST HARDWARE STUDY</div>
+      <h1>A smaller<br>hip drive?</h1>
+      <p class="intro">Compare the current motor and four external gears with an RS05, which contains its gearbox, driver and encoders in one module. Both are shown at the same scale.</p>
+      <p class="fit-warning">RS05 is a proposal. The full robot still uses the custom drive; the new mounts, cooling and power system are unfinished.</p>
+      <div class="segmented" role="group" aria-label="Compare drives">
+        <button data-scene="compare" aria-pressed="true">Both</button>
+        <button data-scene="custom" aria-pressed="false">Current</button>
+        <button data-scene="rs05" aria-pressed="false">RS05</button>
+      </div>
+      <label class="check-row"><input id="spindle" type="checkbox"> Show why the old spindle cannot fit</label>
+      <p id="view-note" class="small-note" role="status">Loading source CAD…</p>
+      <div class="motor-key"><span><i class="silver"></i> Stock / supplier CAD</span><span><i class="amber"></i> Unfinished allocations</span></div>
+      <dl class="measurements">
+        <div><dt>RS05 envelope</dt><dd id="rs05-size">—</dd></div>
+        <div><dt>RS05 module mass</dt><dd id="rs05-mass">—</dd></div>
+        <div><dt>Internal reduction</dt><dd>7.75:1</dd></div>
+        <div><dt>Supply range / rated</dt><dd id="rs05-voltage">—</dd></div>
+      </dl>
+      <p class="small-note">The 47 mm length includes the locating pins. This supplier CAD shows packaging and mounting faces, not a complete internal gearbox.</p>
+    </section>
+    <section class="control-section">
+      <h2>What would change</h2>
+      <ol class="anatomy">
+        <li><span>01</span><div><strong>Fewer separate drive parts</strong><p>The integrated module replaces the hip motor, external gear train, separate driver and feedback modules. A body mount and thigh coupling are still required.</p></div></li>
+        <li><span>02</span><div><strong>The fixed tie anchor must move</strong><p>The current 8 mm spindle intersects the RS05. The proposed internal tie route puts its fixed anchor beside the actuator output, on the body side of the thigh.</p></div></li>
+        <li><span>03</span><div><strong>A different power system</strong><p>The current 3S supply is below its 15 V minimum. Jump sizing uses the supplier’s 48 V curve; performance over a real battery discharge remains open.</p></div></li>
+      </ol>
+      <h2>Per-hip price snapshot</h2>
+      <table class="motor-table"><thead><tr><th>Drive</th><th>Listed subtotal</th></tr></thead><tbody>
+        <tr><td>Current motor + 4 gears</td><td>$70.75</td></tr>
+        <tr><td>RS05 integrated module</td><td id="rs05-price">—</td></tr>
+        <tr><td>EduLite 05 alternative</td><td id="edulite-price">—</td></tr>
+      </tbody></table>
+      <p class="small-note">Archived study prices; tax and shipping excluded. The custom subtotal excludes its driver, encoders and supports. These are not complete robot costs. EduLite CAD is not shown.</p>
+      <details><summary>Source geometry and sizing</summary>
+        <p id="source-status" class="small-note">Checking CAD identities…</p>
+        <p class="downloads"><a href="../clanky-v2/integrated-hip/actuator-screen.png">Jump sizing chart ↗</a><a href="../clanky-v2/integrated-hip/mounting-screen.json">Mounting study ↗</a></p>
+        <p class="downloads"><a href="../clanky-v2/hardware-references/integrated-hips/RS05.STEP">Supplier STEP ↓</a><a href="../clanky-v2/hardware-references/integrated-hips/RS05User-Manual260713.pdf">Supplier manual ↗</a></p>
+        <p class="small-note">The jump calculation prescribes COM motion; it is not a free-body jump or landing simulation. This comparison adds no motion validation.</p>
+      </details>
+    </section>
+    <div class="sidebar-footer">Local design study · No hardware change adopted</div>
+  </aside>
+  <section class="viewport" aria-label="Three-dimensional hip drive comparison">
+    <div class="view-toolbar"><button data-camera="iso" aria-pressed="true">3D</button><button data-camera="front" aria-pressed="false">Output face</button><button data-camera="side" aria-pressed="false">Side</button><button id="fit">Fit</button></div>
+    <div class="canvas-caption"><span class="caption-mark"></span><span>Same scale · 20 mm floor grid</span></div>
+    <canvas id="model-canvas" aria-label="Current hip drive and proposed RS05; drag to orbit and scroll to zoom"></canvas>
+    <div id="load-status" role="status">Loading supplier CAD…</div>
+    <div id="custom-label" class="model-tag"><strong>Current · 16:1</strong><span>4 stock gears + motor allocation</span></div>
+    <div id="rs05-label" class="model-tag"><strong>RS05 · proposal</strong><span>Actual supplier CAD</span></div>
+    <div class="interaction-hint">Drag to orbit <span>·</span> Scroll to zoom</div>
+  </section>
+</main>
+<script type="module" src="v2-actuator.mjs?v=ios-sha256-2"></script>
+</body>
+</html>

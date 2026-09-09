@@ -1,0 +1,179 @@
+{
+  "status": "old_strut_envelope_against_new_knee_support",
+  "samples": [
+    {
+      "q_rad": -2.8,
+      "overlap_with_inner_knee_bearing_mm3": 3.9342033942348387
+    },
+    {
+      "q_rad": -2.703,
+      "overlap_with_inner_knee_bearing_mm3": 0.022412489240474103
+    },
+    {
+      "q_rad": -2.606,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -2.509,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -2.412,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -2.315,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -2.218,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -2.1209999999999996,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -2.024,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -1.9269999999999998,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -1.8299999999999998,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -1.7329999999999999,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -1.6359999999999997,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -1.5389999999999997,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -1.4419999999999997,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -1.3449999999999998,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -1.2479999999999998,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -1.1509999999999998,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -1.0539999999999998,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -0.9569999999999999,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -0.8599999999999999,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -0.7629999999999999,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -0.6659999999999999,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -0.569,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -0.47199999999999953,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -0.37499999999999956,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -0.2779999999999996,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -0.1809999999999996,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": -0.08399999999999963,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": 0.013000000000000345,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": 0.11000000000000032,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": 0.2070000000000003,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": 0.30400000000000027,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": 0.40100000000000025,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": 0.4980000000000002,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": 0.5950000000000002,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": 0.6920000000000002,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": 0.7890000000000001,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": 0.8860000000000001,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": 0.9830000000000001,
+      "overlap_with_inner_knee_bearing_mm3": 0
+    },
+    {
+      "q_rad": 1.08,
+      "overlap_with_inner_knee_bearing_mm3": 0.376723870566979
+    }
+  ],
+  "maximum_overlap_mm3": 3.9342033942348387,
+  "collision_samples": 3,
+  "scope": "Conservative full spring annulus, not measured helix contact. 65/20 mm anchors, 7 mm end offsets, free length capped at 50 mm. New inner 626 bearing only; no new guide blocks.",
+  "source_sha256": {
+    "compare_spring_paths.py": "f96d9b7a40fcddc42c94e97238e8594b61131ecc04685ee3d40b4d86b8a21828",
+    "geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839",
+    "refined-geometry.json": "6a8d2a57e8122cc1bac4988e10243decd392112e5752e7b29881ebe77a131f11",
+    "layout.py": "6452521c3837fdca61a1302092fd1ed716d272bf57a7bcac966e52951852b41f"
+  },
+  "hardware_release": false
+}

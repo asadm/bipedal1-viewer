@@ -1,0 +1,528 @@
+{
+  "status": "dimensioned_drivetrain_candidate_not_adopted",
+  "motor": {
+    "name": "SunnySky V3508 580KV",
+    "diameter_mm": 41.8,
+    "length_mm": 20,
+    "shaft_diameter_mm": 4,
+    "rear_shaft_projection_mm": 5.4,
+    "front_shaft_projection_mm": 2.1,
+    "rear_mount_span_mm": [
+      19,
+      25
+    ],
+    "rear_thread_depth_mm": 3,
+    "front_mount_pcd_mm": 12,
+    "front_thread_depth_mm": 2.6,
+    "nominal_mass_g": 97,
+    "motor_price_usd": 42.99,
+    "source": "https://www.minircflying.com/images/V3508KV580.pdf",
+    "current_product": "https://sunnyskyusa.com/products/sunnysky-v3508-motor",
+    "checked_at": "2026-09-08",
+    "qualification": "Drawing revision must be checked against purchased motor. No radial-load rating published."
+  },
+  "motor_rear_y_mm": 74,
+  "tire_track_mm": 180,
+  "overall_tire_width_mm": 200,
+  "wheel_mm": [
+    120,
+    20
+  ],
+  "tpu_volume_cm3": 75.62074990236097,
+  "valid_connected_parts": 34,
+  "fasteners": {
+    "assumptions_mm": {
+      "screw_length": [
+        5.88,
+        6.12
+      ],
+      "spacer_length": [
+        2.9,
+        3.1
+      ],
+      "washer_thickness": [
+        0.45,
+        0.55
+      ]
+    },
+    "hub_thread_engagement_mm": [
+      1.6799999999999997,
+      2.3200000000000003
+    ],
+    "hub_thread_depth_mm": 2.6,
+    "minimum_hub_bottom_margin_mm": 0.2799999999999998,
+    "one_washer_maximum_engagement_mm": 2.77,
+    "one_washer_bottoms_with_screen_tolerances": true,
+    "base_thread_engagement_mm": [
+      2.2299999999999995,
+      2.77
+    ],
+    "base_thread_depth_mm": 3,
+    "minimum_base_bottom_margin_mm": 0.22999999999999998,
+    "qualification": "Bottoming screen only. Thread strength, usable full threads, preload and loosening remain open."
+  },
+  "aggregate_motor_mass_g": 97,
+  "full_module_mass_kg": null,
+  "compression_limiter": {
+    "supplier": "Harwin",
+    "part": "R30-6200314",
+    "count_per_wheel": 4,
+    "source": "https://www.harwin.com/products/R30-6200314"
+  },
+  "parts": [
+    {
+      "name": "motor_mount_plate",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "3 mm aluminum, \u00d856 mm, four motor screws and three support screws. Custom flat part; quote/thermal path pending.",
+      "bounds_mm": [
+        56.0,
+        3.0,
+        56.0
+      ],
+      "volume_cm3": 7.0693374528138975
+    },
+    {
+      "name": "motor_stator",
+      "material": "motor",
+      "printed": false,
+      "rotates": false,
+      "note": "Simplified non-rotating motor body. Aggregate motor mass is 97 g, not this solid's bulk density.",
+      "bounds_mm": [
+        41.8,
+        17.5,
+        41.8
+      ],
+      "volume_cm3": 5.434400014208823
+    },
+    {
+      "name": "motor_rotor_and_shaft",
+      "material": "motor",
+      "printed": false,
+      "rotates": true,
+      "note": "Conservative bell/shaft shape; exact shaft projections retained. No assumed long output shaft or gearbox.",
+      "bounds_mm": [
+        41.8,
+        27.5,
+        41.8
+      ],
+      "volume_cm3": 7.315952476120688
+    },
+    {
+      "name": "motor_winding_envelope",
+      "material": "copper",
+      "printed": false,
+      "rotates": false,
+      "note": "Internal appearance envelope only, included in the single purchased 97 g motor.",
+      "bounds_mm": [
+        35.0,
+        14.0,
+        35.0
+      ],
+      "volume_cm3": 11.886215804856981
+    },
+    {
+      "name": "tire",
+      "material": "tire",
+      "printed": true,
+      "rotates": true,
+      "note": "One TPU part: tread, honeycomb and recessed hub. Nominal assembled 3 mm hub; creep and clamp fit require testing.",
+      "bounds_mm": [
+        120.0,
+        20.000000000000014,
+        120.0
+      ],
+      "volume_cm3": 75.62074990236097
+    },
+    {
+      "name": "hub_spacer_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "Harwin R30-6200314: \u00d85/3.2 \u00d73 mm aluminum compression limiter, 0.092 g nominal.",
+      "bounds_mm": [
+        5.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.03477743067523901
+    },
+    {
+      "name": "hub_washer_0_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 normal washer, \u00d87/3.2 \u00d70.5 mm; two per screw.",
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642552
+    },
+    {
+      "name": "hub_washer_0_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 normal washer, \u00d87/3.2 \u00d70.5 mm; two per screw.",
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642552
+    },
+    {
+      "name": "hub_M3x6_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3\u00d76 button head envelope. Nominal 2 mm engagement, 0.6 mm to drawing thread bottom; no tightening/stripping qualification.",
+      "bounds_mm": [
+        5.699999999999999,
+        7.650000000000006,
+        5.7
+      ],
+      "volume_cm3": 0.08451551826595445
+    },
+    {
+      "name": "hub_spacer_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "Harwin R30-6200314: \u00d85/3.2 \u00d73 mm aluminum compression limiter, 0.092 g nominal.",
+      "bounds_mm": [
+        5.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.03477743067523901
+    },
+    {
+      "name": "hub_washer_1_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 normal washer, \u00d87/3.2 \u00d70.5 mm; two per screw.",
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642552
+    },
+    {
+      "name": "hub_washer_1_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 normal washer, \u00d87/3.2 \u00d70.5 mm; two per screw.",
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642552
+    },
+    {
+      "name": "hub_M3x6_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3\u00d76 button head envelope. Nominal 2 mm engagement, 0.6 mm to drawing thread bottom; no tightening/stripping qualification.",
+      "bounds_mm": [
+        5.7,
+        7.650000000000006,
+        5.699999999999999
+      ],
+      "volume_cm3": 0.08451551826595445
+    },
+    {
+      "name": "hub_spacer_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "Harwin R30-6200314: \u00d85/3.2 \u00d73 mm aluminum compression limiter, 0.092 g nominal.",
+      "bounds_mm": [
+        5.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.03477743067523902
+    },
+    {
+      "name": "hub_washer_2_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 normal washer, \u00d87/3.2 \u00d70.5 mm; two per screw.",
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642552
+    },
+    {
+      "name": "hub_washer_2_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 normal washer, \u00d87/3.2 \u00d70.5 mm; two per screw.",
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642552
+    },
+    {
+      "name": "hub_M3x6_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3\u00d76 button head envelope. Nominal 2 mm engagement, 0.6 mm to drawing thread bottom; no tightening/stripping qualification.",
+      "bounds_mm": [
+        5.699999999999999,
+        7.650000000000006,
+        5.7
+      ],
+      "volume_cm3": 0.08451551826595445
+    },
+    {
+      "name": "hub_spacer_3",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "Harwin R30-6200314: \u00d85/3.2 \u00d73 mm aluminum compression limiter, 0.092 g nominal.",
+      "bounds_mm": [
+        5.0,
+        3.0,
+        5.0
+      ],
+      "volume_cm3": 0.03477743067523901
+    },
+    {
+      "name": "hub_washer_3_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 normal washer, \u00d87/3.2 \u00d70.5 mm; two per screw.",
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642552
+    },
+    {
+      "name": "hub_washer_3_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3 normal washer, \u00d87/3.2 \u00d70.5 mm; two per screw.",
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642552
+    },
+    {
+      "name": "hub_M3x6_3",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "M3\u00d76 button head envelope. Nominal 2 mm engagement, 0.6 mm to drawing thread bottom; no tightening/stripping qualification.",
+      "bounds_mm": [
+        5.7,
+        7.650000000000006,
+        5.699999999999999
+      ],
+      "volume_cm3": 0.08451551826595445
+    },
+    {
+      "name": "base_washer_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "bounds_mm": [
+        7.000000000000001,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642548
+    },
+    {
+      "name": "base_M3x6_0",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "M3\u00d76 button head, 2.5 mm nominal engagement in 3 mm base threads.",
+      "bounds_mm": [
+        5.700000000000001,
+        7.650000000000006,
+        5.699999999999999
+      ],
+      "volume_cm3": 0.08451551826595446
+    },
+    {
+      "name": "base_washer_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642555
+    },
+    {
+      "name": "base_M3x6_1",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "M3\u00d76 button head, 2.5 mm nominal engagement in 3 mm base threads.",
+      "bounds_mm": [
+        5.699999999999999,
+        7.650000000000006,
+        5.699999999999999
+      ],
+      "volume_cm3": 0.08451551826595446
+    },
+    {
+      "name": "base_washer_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "bounds_mm": [
+        6.999999999999999,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642548
+    },
+    {
+      "name": "base_M3x6_2",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "M3\u00d76 button head, 2.5 mm nominal engagement in 3 mm base threads.",
+      "bounds_mm": [
+        5.700000000000001,
+        7.650000000000006,
+        5.699999999999999
+      ],
+      "volume_cm3": 0.08451551826595446
+    },
+    {
+      "name": "base_washer_3",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "",
+      "bounds_mm": [
+        7.0,
+        0.5,
+        7.0
+      ],
+      "volume_cm3": 0.015221016406642552
+    },
+    {
+      "name": "base_M3x6_3",
+      "material": "metal",
+      "printed": false,
+      "rotates": false,
+      "note": "M3\u00d76 button head, 2.5 mm nominal engagement in 3 mm base threads.",
+      "bounds_mm": [
+        5.699999999999999,
+        7.650000000000006,
+        5.699999999999999
+      ],
+      "volume_cm3": 0.08451551826595446
+    },
+    {
+      "name": "encoder_PCB_allocation",
+      "material": "board",
+      "printed": false,
+      "rotates": false,
+      "note": "18\u00d718\u00d70.8 mm custom encoder PCB allocation; not an off-the-shelf module.",
+      "bounds_mm": [
+        18.0,
+        0.8000000000000043,
+        18.0
+      ],
+      "volume_cm3": 0.25920000000000043
+    },
+    {
+      "name": "encoder_chip_allocation",
+      "material": "motor",
+      "printed": false,
+      "rotates": false,
+      "note": "Magnetic encoder package allocation; component and PCB still unselected.",
+      "bounds_mm": [
+        6.5,
+        1.0,
+        6.5
+      ],
+      "volume_cm3": 0.042249999999999996
+    },
+    {
+      "name": "encoder_magnet_allocation",
+      "material": "metal",
+      "printed": false,
+      "rotates": true,
+      "note": "\u00d86\u00d72 mm diametric magnet allocation bonded to the existing rear shaft end. 1.1 mm nominal gap; field, retention and runout unqualified.",
+      "bounds_mm": [
+        6.0,
+        2.0,
+        6.0
+      ],
+      "volume_cm3": 0.056548667764616284
+    },
+    {
+      "name": "enclosure_ring_allocation",
+      "material": "shell",
+      "printed": true,
+      "rotates": false,
+      "note": "2.8 mm cylindrical wall allocation; shin attachment, closure/fastening, wire exit and seal are unfinished.",
+      "bounds_mm": [
+        62.0,
+        22.299999999999997,
+        62.0
+      ],
+      "volume_cm3": 11.612733881176675
+    },
+    {
+      "name": "encoder_rear_cover_allocation",
+      "material": "shell",
+      "printed": true,
+      "rotates": false,
+      "note": "2 mm rear protection allocation. Connection to the shin, PCB retention and wiring are unfinished.",
+      "bounds_mm": [
+        28.0,
+        2.0,
+        28.0
+      ],
+      "volume_cm3": 1.231504320207199
+    }
+  ],
+  "parts_sha256": "45cede90482f6aec8c199597496f506f1473f1e2b1ad8c38282605d4bef3da61",
+  "source_sha256": "5d80093a207dc0b72b47df00a3b48e0d1af3829408b09e6fada2bcab4f1192e2",
+  "motor_pdf_sha256": "06f056207199102618cdaee8655e69edbdfea8d29031c731f4fd6a4896b6d82f",
+  "hardware_release": false,
+  "adopted": false,
+  "limitations": [
+    "Motor envelope and mounting are from a manufacturer drawing; simplified internal geometry cannot supply actual inertia or bearing spacing.",
+    "No manufacturer radial load, rotor bell strength or shaft retention qualification for wheel use.",
+    "Encoder PCB, magnet, fastening, closed shin support and sealing are allocations, not a completed assembly.",
+    "Wheel elasticity, hub creep, bending and impact strength remain unmeasured.",
+    "The 200 mm tire width exceeds the 180 mm working target. Compactness must be checked over the full leg branch, not just ride pose."
+  ]
+}

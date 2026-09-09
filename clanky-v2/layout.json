@@ -1,0 +1,578 @@
+{
+  "status": "layout_CAD_only",
+  "geometry": {
+    "upper_mm": 104.22865652867111,
+    "lower_mm": 112.83223894272054,
+    "tie_mm": 98.19735182313784,
+    "lever_mm": 14.501172785944334,
+    "ground_mm": [
+      11.61266289945004,
+      14.059250383875316
+    ],
+    "phase_rad": 2.7276054711798614
+  },
+  "poses": {
+    "fold": {
+      "hip_rad": -0.49999999999999956,
+      "knee_rad": 2.8310932134441846,
+      "bounds_mm": [
+        193.56816965444995,
+        180.00000000000003,
+        169.7919089039214
+      ]
+    },
+    "crouch": {
+      "hip_rad": -0.3799999999999999,
+      "knee_rad": 2.741096976531765,
+      "bounds_mm": [
+        198.89238556745462,
+        180.00000000000003,
+        178.73179983766727
+      ]
+    },
+    "ride": {
+      "hip_rad": 0.41900000000000015,
+      "knee_rad": 1.9024499212659896,
+      "bounds_mm": [
+        197.3114045076786,
+        180.00000000000003,
+        262.912940202758
+      ]
+    },
+    "extend": {
+      "hip_rad": 1.0300000000000002,
+      "knee_rad": 0.9287545203984111,
+      "bounds_mm": [
+        155.75779480248764,
+        180.00000000000003,
+        331.8020528422393
+      ]
+    }
+  },
+  "hip_range_rad": [
+    -2.8,
+    1.08
+  ],
+  "track_mm": 160,
+  "wheel_diameter_mm": 120,
+  "wheel_width_mm": 20,
+  "printed_parts": 14,
+  "valid_connected_parts": 32,
+  "all_prints_fit_a1_envelope": true,
+  "printed_volume_cm3": 436.9765598940448,
+  "parts": [
+    {
+      "name": "body_lower",
+      "body": "chassis",
+      "printed": true,
+      "skin": true,
+      "material": "shell",
+      "bounds_mm": [
+        154.09891833562804,
+        73.45760749282348,
+        34.00815569096112
+      ],
+      "volume_cm3": 45.7327287971518,
+      "fits_a1_envelope": true,
+      "note": "Structural enclosure layout; mounts and fastening remain open."
+    },
+    {
+      "name": "body_lid_with_fixed_camera",
+      "body": "chassis",
+      "printed": true,
+      "skin": true,
+      "material": "shell",
+      "bounds_mm": [
+        154.09891833562807,
+        74.0,
+        56.00000020000019
+      ],
+      "volume_cm3": 54.35289503473988,
+      "fits_a1_envelope": true,
+      "note": "Fixed camera housing integrated in lid; no head actuator."
+    },
+    {
+      "name": "camera_lens_-25",
+      "body": "chassis",
+      "printed": false,
+      "skin": false,
+      "material": "glass",
+      "bounds_mm": [
+        0.6000000000000014,
+        18.599999999999998,
+        18.599999999999994
+      ],
+      "volume_cm3": 0.16302980916538914,
+      "fits_a1_envelope": true,
+      "note": "Camera/lens envelope only."
+    },
+    {
+      "name": "camera_lens_25",
+      "body": "chassis",
+      "printed": false,
+      "skin": false,
+      "material": "glass",
+      "bounds_mm": [
+        0.6000000000000014,
+        18.599999999999998,
+        18.599999999999994
+      ],
+      "volume_cm3": 0.16302980916538914,
+      "fits_a1_envelope": true,
+      "note": "Camera/lens envelope only."
+    },
+    {
+      "name": "left_thigh_frame",
+      "body": "left_upper",
+      "printed": true,
+      "skin": false,
+      "material": "shell",
+      "bounds_mm": [
+        156.2286565286711,
+        21.799999999999997,
+        55.99999999999999
+      ],
+      "volume_cm3": 37.447570714681326,
+      "fits_a1_envelope": true,
+      "note": ""
+    },
+    {
+      "name": "left_thigh_lid",
+      "body": "left_upper",
+      "printed": true,
+      "skin": true,
+      "material": "shell",
+      "bounds_mm": [
+        156.2286565286711,
+        6.0,
+        55.99999999999999
+      ],
+      "volume_cm3": 16.796510905550736,
+      "fits_a1_envelope": true,
+      "note": ""
+    },
+    {
+      "name": "left_shin_case",
+      "body": "left_lower",
+      "printed": true,
+      "skin": false,
+      "material": "shell",
+      "bounds_mm": [
+        149.83223894272055,
+        18.0,
+        54.0
+      ],
+      "volume_cm3": 26.000504833556267,
+      "fits_a1_envelope": true,
+      "note": ""
+    },
+    {
+      "name": "left_wheel_service_lid",
+      "body": "left_lower",
+      "printed": true,
+      "skin": true,
+      "material": "shell",
+      "bounds_mm": [
+        54.000000000000014,
+        2.0,
+        54.0
+      ],
+      "volume_cm3": 4.46960670011527,
+      "fits_a1_envelope": true,
+      "note": ""
+    },
+    {
+      "name": "left_tire",
+      "body": "left_wheel",
+      "printed": true,
+      "skin": false,
+      "material": "tire",
+      "bounds_mm": [
+        120.0,
+        20.000000000000014,
+        120.0
+      ],
+      "volume_cm3": 82.81696838005202,
+      "fits_a1_envelope": true,
+      "note": "One connected dished TPU part; final drive mounting is unresolved."
+    },
+    {
+      "name": "left_internal_knee_lever",
+      "body": "left_lower",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        37.27617474319969,
+        4.5,
+        17.83328349695429
+      ],
+      "volume_cm3": 1.7088734365023917,
+      "fits_a1_envelope": true,
+      "note": "4.5 mm steel lever allocation with 6 mm D-bore; positive indexing, retention and fatigue still unqualified."
+    },
+    {
+      "name": "left_internal_tie",
+      "body": "left_tie",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        106.19735182313784,
+        3.0,
+        8.000000000000002
+      ],
+      "volume_cm3": 1.891852881220578,
+      "fits_a1_envelope": true,
+      "note": "3 mm steel, 6 mm stem, 8 mm eyes, M3 pivot bores; pin hardware and buckling/fatigue qualification remain."
+    },
+    {
+      "name": "left_wheel_drive_envelope",
+      "body": "left_lower",
+      "printed": false,
+      "skin": false,
+      "material": "motor",
+      "bounds_mm": [
+        48.000000000000014,
+        14.5,
+        48.0
+      ],
+      "volume_cm3": 26.238581842781954,
+      "fits_a1_envelope": true,
+      "note": "\u00d848 \u00d714.5 mm remaining drive space: too small for the selected complete drive. Packaging failure, not a motor selection."
+    },
+    {
+      "name": "left_spring_slider",
+      "body": "left_spring_slider",
+      "printed": true,
+      "skin": false,
+      "material": "shell",
+      "bounds_mm": [
+        12.0,
+        12.400000000000006,
+        12.399999999999999
+      ],
+      "volume_cm3": 0.91430649712092,
+      "fits_a1_envelope": true,
+      "note": "Spring seat and connecting-rod eye in one print. Guide fit, rod fixation and wear unqualified."
+    },
+    {
+      "name": "left_spring_guide_rod",
+      "body": "left_spring_slider",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        58.0,
+        5.0,
+        5.0
+      ],
+      "volume_cm3": 1.1388273369263002,
+      "fits_a1_envelope": true,
+      "note": "5 mm steel guide, 58 mm long; attachment to slider and axial retention still open."
+    },
+    {
+      "name": "left_spring_connecting_rod",
+      "body": "left_spring_link",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        48.0,
+        3.0,
+        8.000000000000002
+      ],
+      "volume_cm3": 0.8443005484040965,
+      "fits_a1_envelope": true,
+      "note": "Passive 40 mm pin-centre steel link, 3 mm thick; no added actuator."
+    },
+    {
+      "name": "left_knee_626_inner",
+      "body": "left_upper",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        19.0,
+        6.0,
+        19.0
+      ],
+      "volume_cm3": 1.531526418625024,
+      "fits_a1_envelope": true,
+      "note": "626 bearing envelope, 6\u00d719\u00d76 mm. Nominal fit only; supplier/rating/tolerance unqualified."
+    },
+    {
+      "name": "left_knee_626_outer",
+      "body": "left_upper",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        19.0,
+        6.0,
+        19.0
+      ],
+      "volume_cm3": 1.531526418625024,
+      "fits_a1_envelope": true,
+      "note": "626 bearing envelope, 6\u00d719\u00d76 mm. Nominal fit only; supplier/rating/tolerance unqualified."
+    },
+    {
+      "name": "left_knee_shaft",
+      "body": "left_lower",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        6.0,
+        38.5,
+        6.0
+      ],
+      "volume_cm3": 1.0701054764568727,
+      "fits_a1_envelope": true,
+      "note": "6 mm steel shaft, separate local flats under lever and shin; final retention/clamp details open."
+    },
+    {
+      "name": "right_thigh_frame",
+      "body": "right_upper",
+      "printed": true,
+      "skin": false,
+      "material": "shell",
+      "bounds_mm": [
+        156.2286565286711,
+        21.799999999999997,
+        55.99999999999999
+      ],
+      "volume_cm3": 37.447570714681326,
+      "fits_a1_envelope": true,
+      "note": ""
+    },
+    {
+      "name": "right_thigh_lid",
+      "body": "right_upper",
+      "printed": true,
+      "skin": true,
+      "material": "shell",
+      "bounds_mm": [
+        156.2286565286711,
+        6.0,
+        55.99999999999999
+      ],
+      "volume_cm3": 16.796510905550736,
+      "fits_a1_envelope": true,
+      "note": ""
+    },
+    {
+      "name": "right_shin_case",
+      "body": "right_lower",
+      "printed": true,
+      "skin": false,
+      "material": "shell",
+      "bounds_mm": [
+        149.83223894272055,
+        18.0,
+        54.0
+      ],
+      "volume_cm3": 26.000504833556267,
+      "fits_a1_envelope": true,
+      "note": ""
+    },
+    {
+      "name": "right_wheel_service_lid",
+      "body": "right_lower",
+      "printed": true,
+      "skin": true,
+      "material": "shell",
+      "bounds_mm": [
+        54.000000000000014,
+        2.0,
+        54.0
+      ],
+      "volume_cm3": 4.46960670011527,
+      "fits_a1_envelope": true,
+      "note": ""
+    },
+    {
+      "name": "right_tire",
+      "body": "right_wheel",
+      "printed": true,
+      "skin": false,
+      "material": "tire",
+      "bounds_mm": [
+        120.0,
+        20.000000000000014,
+        120.0
+      ],
+      "volume_cm3": 82.81696838005202,
+      "fits_a1_envelope": true,
+      "note": "One connected dished TPU part; final drive mounting is unresolved."
+    },
+    {
+      "name": "right_internal_knee_lever",
+      "body": "right_lower",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        37.27617474319969,
+        4.5,
+        17.83328349695429
+      ],
+      "volume_cm3": 1.7088734365023917,
+      "fits_a1_envelope": true,
+      "note": "4.5 mm steel lever allocation with 6 mm D-bore; positive indexing, retention and fatigue still unqualified."
+    },
+    {
+      "name": "right_internal_tie",
+      "body": "right_tie",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        106.19735182313784,
+        3.0,
+        8.0
+      ],
+      "volume_cm3": 1.8918528812205775,
+      "fits_a1_envelope": true,
+      "note": "3 mm steel, 6 mm stem, 8 mm eyes, M3 pivot bores; pin hardware and buckling/fatigue qualification remain."
+    },
+    {
+      "name": "right_wheel_drive_envelope",
+      "body": "right_lower",
+      "printed": false,
+      "skin": false,
+      "material": "motor",
+      "bounds_mm": [
+        48.000000000000014,
+        14.5,
+        48.0
+      ],
+      "volume_cm3": 26.238581842781954,
+      "fits_a1_envelope": true,
+      "note": "\u00d848 \u00d714.5 mm remaining drive space: too small for the selected complete drive. Packaging failure, not a motor selection."
+    },
+    {
+      "name": "right_spring_slider",
+      "body": "right_spring_slider",
+      "printed": true,
+      "skin": false,
+      "material": "shell",
+      "bounds_mm": [
+        12.0,
+        12.400000000000006,
+        12.399999999999999
+      ],
+      "volume_cm3": 0.9143064971209203,
+      "fits_a1_envelope": true,
+      "note": "Spring seat and connecting-rod eye in one print. Guide fit, rod fixation and wear unqualified."
+    },
+    {
+      "name": "right_spring_guide_rod",
+      "body": "right_spring_slider",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        58.0,
+        5.0,
+        5.0
+      ],
+      "volume_cm3": 1.1388273369263002,
+      "fits_a1_envelope": true,
+      "note": "5 mm steel guide, 58 mm long; attachment to slider and axial retention still open."
+    },
+    {
+      "name": "right_spring_connecting_rod",
+      "body": "right_spring_link",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        48.0,
+        3.0,
+        8.0
+      ],
+      "volume_cm3": 0.8443005484040963,
+      "fits_a1_envelope": true,
+      "note": "Passive 40 mm pin-centre steel link, 3 mm thick; no added actuator."
+    },
+    {
+      "name": "right_knee_626_inner",
+      "body": "right_upper",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        19.0,
+        6.0,
+        19.0
+      ],
+      "volume_cm3": 1.531526418625024,
+      "fits_a1_envelope": true,
+      "note": "626 bearing envelope, 6\u00d719\u00d76 mm. Nominal fit only; supplier/rating/tolerance unqualified."
+    },
+    {
+      "name": "right_knee_626_outer",
+      "body": "right_upper",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        19.0,
+        6.0,
+        19.0
+      ],
+      "volume_cm3": 1.531526418625024,
+      "fits_a1_envelope": true,
+      "note": "626 bearing envelope, 6\u00d719\u00d76 mm. Nominal fit only; supplier/rating/tolerance unqualified."
+    },
+    {
+      "name": "right_knee_shaft",
+      "body": "right_lower",
+      "printed": false,
+      "skin": false,
+      "material": "metal",
+      "bounds_mm": [
+        6.0,
+        38.5,
+        6.0
+      ],
+      "volume_cm3": 1.0701054764568727,
+      "fits_a1_envelope": true,
+      "note": "6 mm steel shaft, separate local flats under lever and shin; final retention/clamp details open."
+    }
+  ],
+  "spring": {
+    "crank_radius_mm": 14.0,
+    "connecting_rod_mm": 40.0,
+    "axis_z_mm": -15.0,
+    "axis_y_mm": 47.0,
+    "fixed_seat_x_mm": 14.0,
+    "seat_to_pin_mm": 8.0,
+    "guide_rod_diameter_mm": 5.0,
+    "guide_rod_from_pin_mm": 63.0,
+    "free_spring_length_mm": 50.0,
+    "spring_od_mm": 12.0,
+    "spring_id_mm": 6.5,
+    "rate_N_mm": 5.5,
+    "maximum_design_compression_mm": 20.0,
+    "supplier_part": "MISUMI SWF12-50",
+    "source": "https://vn.misumi-ec.com/vona2/detail/110100185510/?HissuCode=SWF12-50",
+    "routing": "fixed_axis_crank_slider"
+  },
+  "source_sha256": {
+    "layout.py": "6452521c3837fdca61a1302092fd1ed716d272bf57a7bcac966e52951852b41f",
+    "spring_cartridge.py": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff",
+    "refined-geometry.json": "6a8d2a57e8122cc1bac4988e10243decd392112e5752e7b29881ebe77a131f11"
+  },
+  "mechanical_fit_pass": false,
+  "dynamics_validated": false,
+  "hardware_release": false,
+  "limitations": [
+    "Knee bearing/shaft nominal interfaces added; fits, retention, clamps, fasteners and wires remain open.",
+    "Wheel drive allocation is too small for selected complete drive. Hip drives, retention/fasteners and electronics remain absent.",
+    "Body is a packaging allocation. Motor/electronics containment and actual complete mass remain open.",
+    "New dished wheel differs from the R2 wheel in the verified jump viewer; no dynamics transfer is claimed."
+  ],
+  "parts_sha256": "3f844258189c1a0e24ed6795bcb8168582b947a1950163c9797c98f28b51733d"
+}

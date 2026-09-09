@@ -1,0 +1,69 @@
+{
+  "scope": "Six predefined powered-fall seeds; no RL, no hardware changes, no randomized validation",
+  "source_sha256": {
+    "native_recovery_active_seeds.py": "1a72a479b47e4b92dbeada576b84a3572f16ac54c503995ea02e143b6ca8aee0",
+    "native_recovery_screen.py": "9eae1d6ce93dcd20ea4867339ec0451b09b9cb6cbe9eccb95acb9eaae1241174"
+  },
+  "cases": [
+    {
+      "directory": "active-seeds/front-reach180-wheel-35-250us",
+      "report_sha256": "5f37e69e19663bb0890d3c93cd1eb6eaab9e7f9e71b38cacf9cbd9e64dd37073",
+      "passed": false,
+      "captured_balance_s": null,
+      "score": -2.0000353191028633,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    },
+    {
+      "directory": "active-seeds/front-reach180-wheel0-250us",
+      "report_sha256": "e299779c901904e4b4df4312d09dfcbbd6018fd5f0667a541d1610db5751ffda",
+      "passed": false,
+      "captured_balance_s": null,
+      "score": -2.0000412177810545,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    },
+    {
+      "directory": "active-seeds/front-reach180-wheel35-250us",
+      "report_sha256": "d29cb03aedcfae4d79fee42c03e24e7e602d7cdc9ea1820dd8215bb421b07845",
+      "passed": false,
+      "captured_balance_s": null,
+      "score": -2.0000418317944963,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    },
+    {
+      "directory": "active-seeds/front-reach250-wheel-35-250us",
+      "report_sha256": "76594dcca5b1b0caafe71be48291faadb51df0c9a51b300abf34f047cce63a98",
+      "passed": false,
+      "captured_balance_s": null,
+      "score": -2.000003068829227,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    },
+    {
+      "directory": "active-seeds/front-reach250-wheel0-250us",
+      "report_sha256": "19806a41fd2c7445a109a4406f165c088232ab3c15c6ab9085e7a891011fe6e9",
+      "passed": false,
+      "captured_balance_s": null,
+      "score": 0.6326590261846542,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    },
+    {
+      "directory": "active-seeds/front-reach250-wheel35-250us",
+      "report_sha256": "c8f59b3656afc2e072e417fd438900b5842184be483014b2b257488c4e6e2ca0",
+      "passed": false,
+      "captured_balance_s": null,
+      "score": 0.6324176542832544,
+      "failed_checks": [
+        "stable_finish"
+      ]
+    }
+  ]
+}

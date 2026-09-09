@@ -1,0 +1,54 @@
+{
+  "kind": "terrain-development",
+  "qualification": false,
+  "hardware_release": false,
+  "model_sha256": "60f21ccdef503755e4dff697eceedf1ee508977b3ba661cab7c014b79c7e3f8d",
+  "policy_sha256": "049217e524f24ed47fbe68e2121645afe253160dddff8d4910847cc699fbda79",
+  "updates": 27,
+  "source_run": "model_25",
+  "source_sha256": "1d350dd722b8a6f7603d1b2425eb8a05b0c30e6baee6700333c246f533e6384f",
+  "terrain": {
+    "version": 1,
+    "generator_seed": 20260908,
+    "size_m": 6.0,
+    "cell_m": 0.03,
+    "families": [
+      "slopes",
+      "bumps",
+      "stones",
+      "mixed"
+    ],
+    "difficulty_levels": 5,
+    "difficulty_range": [
+      0.15,
+      1.0
+    ],
+    "max_initial_level": 0,
+    "loose_stones": false,
+    "height_reference": "Mean terrain elevation directly below the two wheel centers",
+    "actor_terrain_observations": false
+  },
+  "screen_passed": 5,
+  "screen_cases": 8,
+  "evaluation": "report.json",
+  "replays": [
+    {
+      "id": "terrain-drive",
+      "label": "Uneven terrain \u00b7 drive",
+      "motion": "drive",
+      "file": "mixed-drive.json",
+      "replay_sha256": "caf4651bb77f4efe9a268d556a4d9e28b085b9fa3ac74f25c0545fe748ebad0f",
+      "terrain_sha256": "17f3ca0e5837056e4febe5194054166e6fa23e06e57801a3849439fc3b92698f",
+      "simulation_skill_pass": false
+    },
+    {
+      "id": "terrain-balance",
+      "label": "Uneven terrain \u00b7 balance",
+      "motion": "balance",
+      "file": "mixed-balance.json",
+      "replay_sha256": "52a5a794112bc83ad7d2cdb40d390064c4ae1c4a338a48033451a25c4127e864",
+      "terrain_sha256": "17f3ca0e5837056e4febe5194054166e6fa23e06e57801a3849439fc3b92698f",
+      "simulation_skill_pass": true
+    }
+  ]
+}

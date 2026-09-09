@@ -1,0 +1,945 @@
+{
+  "status": "completed",
+  "samples": 51200,
+  "episodes": [
+    {
+      "family": "standing",
+      "seed": 71000,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.853500000003852,
+      "passed": true,
+      "peak_current_A": [
+        5.618858467709931,
+        4.994452263894122,
+        5.725207161293696,
+        9.791351566449283
+      ],
+      "minimum_branch_margin": 0.9591745920083304,
+      "episode_id": 0,
+      "split": "train"
+    },
+    {
+      "family": "near",
+      "seed": 71001,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.527750000003454,
+      "passed": true,
+      "peak_current_A": [
+        7.999999999999251,
+        7.999999999999251,
+        8.437528706801315,
+        17.572285138181616
+      ],
+      "minimum_branch_margin": 0.9575134656126197,
+      "episode_id": 1,
+      "split": "train"
+    },
+    {
+      "family": "standing",
+      "seed": 71002,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.8552500000038545,
+      "passed": true,
+      "peak_current_A": [
+        3.164764981759663,
+        2.558481115375481,
+        10.383735054838935,
+        6.173506377431085
+      ],
+      "minimum_branch_margin": 0.9596213018930113,
+      "episode_id": 2,
+      "split": "train"
+    },
+    {
+      "family": "near",
+      "seed": 71003,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.905000000003915,
+      "passed": true,
+      "peak_current_A": [
+        6.079934602698484,
+        6.0810215989324945,
+        7.727424732591929,
+        6.184517145004023
+      ],
+      "minimum_branch_margin": 0.9643516276121906,
+      "episode_id": 3,
+      "split": "train"
+    },
+    {
+      "family": "standing",
+      "seed": 71004,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.839500000003835,
+      "passed": true,
+      "peak_current_A": [
+        5.036956979648395,
+        4.455848313115527,
+        6.638735434364437,
+        7.424136544089427
+      ],
+      "minimum_branch_margin": 0.958567515466601,
+      "episode_id": 4,
+      "split": "train"
+    },
+    {
+      "family": "near",
+      "seed": 71005,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.804250000003792,
+      "passed": true,
+      "peak_current_A": [
+        7.999999983510771,
+        7.999999983510771,
+        7.006475605822629,
+        8.402786055659705
+      ],
+      "minimum_branch_margin": 0.9646362634345489,
+      "episode_id": 5,
+      "split": "train"
+    },
+    {
+      "family": "standing",
+      "seed": 71006,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.859000000003859,
+      "passed": true,
+      "peak_current_A": [
+        5.286438149681691,
+        5.227648104770858,
+        5.784142134541123,
+        9.652022883278606
+      ],
+      "minimum_branch_margin": 0.9595475717855183,
+      "episode_id": 6,
+      "split": "train"
+    },
+    {
+      "family": "near",
+      "seed": 71007,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.756000000003733,
+      "passed": true,
+      "peak_current_A": [
+        7.999999983510771,
+        7.999999983510771,
+        6.572076674967329,
+        8.986343704095995
+      ],
+      "minimum_branch_margin": 0.9582369785206659,
+      "episode_id": 7,
+      "split": "train"
+    },
+    {
+      "family": "standing",
+      "seed": 71008,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.961500000003984,
+      "passed": true,
+      "peak_current_A": [
+        6.615943364252012,
+        6.555966424132098,
+        6.753061640170555,
+        7.779942325843209
+      ],
+      "minimum_branch_margin": 0.9633551538071098,
+      "episode_id": 8,
+      "split": "train"
+    },
+    {
+      "family": "near",
+      "seed": 71009,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.639750000003591,
+      "passed": true,
+      "peak_current_A": [
+        7.999999999999251,
+        7.999999999999251,
+        5.155073092128774,
+        8.505080729189649
+      ],
+      "minimum_branch_margin": 0.9601961326700897,
+      "episode_id": 9,
+      "split": "train"
+    },
+    {
+      "family": "standing",
+      "seed": 71010,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.8372500000038325,
+      "passed": true,
+      "peak_current_A": [
+        6.4567040961831115,
+        5.787212480105613,
+        7.182136762725377,
+        9.843762465608478
+      ],
+      "minimum_branch_margin": 0.9585845422183134,
+      "episode_id": 10,
+      "split": "train"
+    },
+    {
+      "family": "near",
+      "seed": 71011,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.6547500000036095,
+      "passed": true,
+      "peak_current_A": [
+        7.998314888500905,
+        7.99999913043,
+        26.126077141820463,
+        8.77838826089851
+      ],
+      "minimum_branch_margin": 0.9575127822271786,
+      "episode_id": 11,
+      "split": "train"
+    },
+    {
+      "family": "standing",
+      "seed": 71012,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.848750000003847,
+      "passed": true,
+      "peak_current_A": [
+        3.9153863773467514,
+        4.2913776302531925,
+        9.713949735734783,
+        9.257676908161127
+      ],
+      "minimum_branch_margin": 0.9592032856223035,
+      "episode_id": 12,
+      "split": "train"
+    },
+    {
+      "family": "near",
+      "seed": 71013,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.787750000003772,
+      "passed": true,
+      "peak_current_A": [
+        7.9996368005619,
+        7.9996368005619,
+        6.7860937425358,
+        12.951863911522858
+      ],
+      "minimum_branch_margin": 0.9576327997607911,
+      "episode_id": 13,
+      "split": "train"
+    },
+    {
+      "family": "standing",
+      "seed": 71014,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.928500000003944,
+      "passed": true,
+      "peak_current_A": [
+        4.480430479552678,
+        4.1943855961601795,
+        7.527732419150713,
+        7.711450023361326
+      ],
+      "minimum_branch_margin": 0.9604356532756384,
+      "episode_id": 14,
+      "split": "train"
+    },
+    {
+      "family": "near",
+      "seed": 71015,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.655750000003611,
+      "passed": true,
+      "peak_current_A": [
+        7.999999983510771,
+        7.999999983510771,
+        7.92273002464271,
+        25.195698806035598
+      ],
+      "minimum_branch_margin": 0.9576575014168649,
+      "episode_id": 15,
+      "split": "train"
+    },
+    {
+      "family": "standing",
+      "seed": 71016,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.944250000003963,
+      "passed": true,
+      "peak_current_A": [
+        3.2772674821943037,
+        3.482650734537363,
+        8.720105133599791,
+        4.973884689440696
+      ],
+      "minimum_branch_margin": 0.9622519999899507,
+      "episode_id": 16,
+      "split": "train"
+    },
+    {
+      "family": "near",
+      "seed": 71017,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.73700000000371,
+      "passed": true,
+      "peak_current_A": [
+        7.999999983510771,
+        7.999999983510771,
+        9.37035101792636,
+        16.783659001070895
+      ],
+      "minimum_branch_margin": 0.9576521133536281,
+      "episode_id": 17,
+      "split": "train"
+    },
+    {
+      "family": "standing",
+      "seed": 71018,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.8642500000038655,
+      "passed": true,
+      "peak_current_A": [
+        4.821567017415118,
+        4.886944177333942,
+        8.41913523769067,
+        4.909880777463269
+      ],
+      "minimum_branch_margin": 0.9597780552337898,
+      "episode_id": 18,
+      "split": "train"
+    },
+    {
+      "family": "near",
+      "seed": 71019,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.760250000003738,
+      "passed": true,
+      "peak_current_A": [
+        7.999999983510771,
+        7.999999983510771,
+        11.79114337397121,
+        8.299694460064343
+      ],
+      "minimum_branch_margin": 0.9621076667845253,
+      "episode_id": 19,
+      "split": "train"
+    },
+    {
+      "family": "standing",
+      "seed": 71020,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.8585000000038585,
+      "passed": true,
+      "peak_current_A": [
+        4.428055782965778,
+        4.46571911955208,
+        5.769909598259565,
+        7.016626874801944
+      ],
+      "minimum_branch_margin": 0.9594730351289282,
+      "episode_id": 20,
+      "split": "train"
+    },
+    {
+      "family": "near",
+      "seed": 71021,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.759250000003737,
+      "passed": true,
+      "peak_current_A": [
+        7.999999983510771,
+        7.999999983510771,
+        8.216036939861022,
+        22.14271963201662
+      ],
+      "minimum_branch_margin": 0.957426363072261,
+      "episode_id": 21,
+      "split": "train"
+    },
+    {
+      "family": "standing",
+      "seed": 71022,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.9460000000039654,
+      "passed": true,
+      "peak_current_A": [
+        3.39041683359059,
+        3.6283960026197004,
+        5.954751643583335,
+        7.129279825692533
+      ],
+      "minimum_branch_margin": 0.9624042512097519,
+      "episode_id": 22,
+      "split": "train"
+    },
+    {
+      "family": "near",
+      "seed": 71023,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.649250000003603,
+      "passed": true,
+      "peak_current_A": [
+        7.999999314642073,
+        7.999675670116921,
+        8.243643537341658,
+        26.379242098370334
+      ],
+      "minimum_branch_margin": 0.9575097084507163,
+      "episode_id": 23,
+      "split": "train"
+    },
+    {
+      "family": "standing",
+      "seed": 71024,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.932000000003948,
+      "passed": true,
+      "peak_current_A": [
+        4.92974493110884,
+        4.915161128276259,
+        6.0880149104105605,
+        6.752479008075904
+      ],
+      "minimum_branch_margin": 0.9617283537175145,
+      "episode_id": 24,
+      "split": "validation"
+    },
+    {
+      "family": "near",
+      "seed": 71025,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.723750000003694,
+      "passed": true,
+      "peak_current_A": [
+        7.9996368005619,
+        7.9996368005619,
+        10.045597039480981,
+        23.080508087819997
+      ],
+      "minimum_branch_margin": 0.9575545402592665,
+      "episode_id": 25,
+      "split": "validation"
+    },
+    {
+      "family": "standing",
+      "seed": 71026,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.86800000000387,
+      "passed": true,
+      "peak_current_A": [
+        5.780491055470857,
+        5.665062897098558,
+        10.948947638448976,
+        6.857947705669771
+      ],
+      "minimum_branch_margin": 0.9598328688891086,
+      "episode_id": 26,
+      "split": "validation"
+    },
+    {
+      "family": "near",
+      "seed": 71027,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.749250000003725,
+      "passed": true,
+      "peak_current_A": [
+        7.876562974593602,
+        6.162054993919999,
+        8.375646382868757,
+        20.107708917179796
+      ],
+      "minimum_branch_margin": 0.9575593048389982,
+      "episode_id": 27,
+      "split": "validation"
+    },
+    {
+      "family": "standing",
+      "seed": 71028,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.867250000003869,
+      "passed": true,
+      "peak_current_A": [
+        4.642532292407794,
+        4.676136079142353,
+        10.315630911471219,
+        6.616019219344283
+      ],
+      "minimum_branch_margin": 0.9599154643434578,
+      "episode_id": 28,
+      "split": "validation"
+    },
+    {
+      "family": "near",
+      "seed": 71029,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.788000000003772,
+      "passed": true,
+      "peak_current_A": [
+        7.515567688442618,
+        6.402113646060406,
+        6.883811621554719,
+        15.197330648753
+      ],
+      "minimum_branch_margin": 0.9575868447389903,
+      "episode_id": 29,
+      "split": "validation"
+    },
+    {
+      "family": "standing",
+      "seed": 71030,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.864750000003866,
+      "passed": true,
+      "peak_current_A": [
+        4.431087790830356,
+        4.463998931533523,
+        5.703159313602873,
+        10.383616440995711
+      ],
+      "minimum_branch_margin": 0.9598974813173395,
+      "episode_id": 30,
+      "split": "validation"
+    },
+    {
+      "family": "near",
+      "seed": 71031,
+      "timestep_s": 0.00025,
+      "policy_period_s": 0.01,
+      "steps": 800,
+      "failure": null,
+      "stable_time_s": 7.943000000003962,
+      "passed": true,
+      "peak_current_A": [
+        4.438736299160097,
+        4.166369993919062,
+        7.204084136696129,
+        6.464520244938406
+      ],
+      "minimum_branch_margin": 0.962000053634892,
+      "episode_id": 31,
+      "split": "validation"
+    },
+    {
+      "family": "standing",
+      "seed": 74000,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -1,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74001,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -2,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "standing",
+      "seed": 74002,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -3,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74003,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -4,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "standing",
+      "seed": 74004,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -5,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74005,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -6,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "standing",
+      "seed": 74006,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -7,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74007,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -8,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "standing",
+      "seed": 74008,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -9,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74009,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -10,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "standing",
+      "seed": 74010,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -11,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74011,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -12,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "standing",
+      "seed": 74012,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -13,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74013,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -14,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "standing",
+      "seed": 74014,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -15,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74015,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -16,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "standing",
+      "seed": 74016,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -17,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74017,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -18,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "standing",
+      "seed": 74018,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -19,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74019,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -20,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "standing",
+      "seed": 74020,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -21,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74021,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -22,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "standing",
+      "seed": 74022,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -23,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74023,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -24,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "standing",
+      "seed": 74024,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -25,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74025,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -26,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "standing",
+      "seed": 74026,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -27,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74027,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -28,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "standing",
+      "seed": 74028,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -29,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74029,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -30,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "standing",
+      "seed": 74030,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -31,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    },
+    {
+      "family": "near",
+      "seed": 74031,
+      "steps": 800,
+      "student_failure": null,
+      "student_passed": true,
+      "episode_id": -32,
+      "split": "train",
+      "origin": "student rollout, teacher labels"
+    }
+  ],
+  "scope": "One DAgger collection; student-only actuation, original validation rows unchanged",
+  "dataset_sha256": "8126bbe1b615966f7bbfb05ae163e6731c547a348df1b61cbc06b19274ed3f12",
+  "base_dataset_sha256": "39bd5c99666564cfc075fc7e8bf0bbd7abe272b0a59f0dcb0cc294611b2e39d3",
+  "student_policy_sha256": "f6dc286c506f902ede054802fc4183cc89c4bfae264a65af7b3fe8e35c367d5c",
+  "plant_manifest_sha256": "e733063a55088781d85aaf4a3c2f3ce7b05fd2c696a2f44fad78ebcc39284d9d",
+  "source_sha256": {
+    "balance_dagger.py": "f2f0e5ce447cb04dcb60663a6d8ba1e07891ed98c1dde3fc5ac6ba8e1e03fe26",
+    "guided_balance.py": "84282cffce9fa6598b431726e03e168da5c40cddaef09dd6dbdfb900d20234bb",
+    "balance_teacher.py": "b6e2e919240228084437bf59ec49537d3a165f6d3ff47691f554d9bcf78e4e09",
+    "environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "supplier_CAD_visual_comparison_only",
+  "adopted": false,
+  "parts_sha256": "9f18daa109de2cae3e2483d17464cec8e006f8d214df3b0a899ef52085f4b6ac",
+  "parts": 31,
+  "supplier_bounds_mm": [
+    46.00000020000001,
+    46.000000200000024,
+    47.00000010000122
+  ],
+  "display_coordinates": "mm; native X,Z-30.5,-Y; output face at Y=0",
+  "source_sha256": {
+    "export_actuator_viewer.py": "e2b146c1dedb0993ae25164359319d046726e21c9db70318bc794d742e23264a",
+    "hardware-references/integrated-hips/RS05.STEP": "35a143d7e04d84eeda8664591e33626a1802f614a5b76ac29f465620dec81792",
+    "integrated-hip/mounting-screen.json": "777ebedc16499232790e2f5e706dcff794d91a91dd6161c7505721602df57bd8"
+  },
+  "limitations": [
+    "Supplier packaging geometry does not describe a complete internal gearbox.",
+    "Display finishes are illustrative, not material or mass assignments.",
+    "Robot mounting, heat sink, power system and motions remain unverified."
+  ]
+}

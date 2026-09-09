@@ -1,0 +1,186 @@
+{
+  "status": "passed",
+  "recordings": [
+    {
+      "recording": "back-76000-250us.json",
+      "sha256": "ae14dbe1cac27cf1061c0253532d688fbf68904e20a086fc8c24f2a9bdad5637",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.244381070452584e-06,
+      "sampled_gear_error_rad": 1.7246417911565003e-07,
+      "sampled_branch_margin": 0.5778188247673747
+    },
+    {
+      "recording": "back-76000-125us.json",
+      "sha256": "14a3dbf3652b8b63c40beea11ada9451a0a39c597957fcd7e755ee904f200934",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.248245438330803e-06,
+      "sampled_gear_error_rad": 1.6643724762843703e-07,
+      "sampled_branch_margin": 0.5777501477628227
+    },
+    {
+      "recording": "back-77000-250us.json",
+      "sha256": "89812db3546cac6bbe7b571e60745646428b08ab2a981a83c0406b26a85e8411",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.243784594073416e-06,
+      "sampled_gear_error_rad": 1.648823108268971e-07,
+      "sampled_branch_margin": 0.5778049878841847
+    },
+    {
+      "recording": "back-77000-125us.json",
+      "sha256": "c82dc5ef42375957f292602748757861859676e90edba73702a18ed5e284f253",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.248262112144991e-06,
+      "sampled_gear_error_rad": 1.5547928633452557e-07,
+      "sampled_branch_margin": 0.5776901445091168
+    },
+    {
+      "recording": "back-77001-250us.json",
+      "sha256": "53b36181bf932ca5729ea9f4125d201ddeddd1ce5a648b6db857af89621efbec",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.244388444004885e-06,
+      "sampled_gear_error_rad": 1.644106209397478e-07,
+      "sampled_branch_margin": 0.5778186052909968
+    },
+    {
+      "recording": "back-77001-125us.json",
+      "sha256": "c81532c94c55c0c9ee0e79806f6098c5d0d7a38159384cf106d8b9de8200846c",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.248245609848354e-06,
+      "sampled_gear_error_rad": 1.666739141370499e-07,
+      "sampled_branch_margin": 0.5777501437924315
+    },
+    {
+      "recording": "back-77002-250us.json",
+      "sha256": "35ff3baaef352c4cc79cf82f58eca94303d80f971adeda134f393f8758508815",
+      "sampled_settled": false,
+      "sampled_closure_m": 5.243471143385216e-06,
+      "sampled_gear_error_rad": 1.6526862403054566e-07,
+      "sampled_branch_margin": 0.5778005798993153
+    },
+    {
+      "recording": "back-77002-125us.json",
+      "sha256": "6a19c2f4d6a2402defa67bc7a66894c32aea22953f0761f18ee7682ff6c387d2",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.247834355902679e-06,
+      "sampled_gear_error_rad": 1.5538315629726184e-07,
+      "sampled_branch_margin": 0.5776746502304714
+    },
+    {
+      "recording": "back-77003-250us.json",
+      "sha256": "9c95a80d0beb8acf9b506bd4d653f4f2eeaca5c036ea8e59b9c24636d6097685",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.243567879720302e-06,
+      "sampled_gear_error_rad": 1.728231158182325e-07,
+      "sampled_branch_margin": 0.5778077940223771
+    },
+    {
+      "recording": "back-77003-125us.json",
+      "sha256": "006495b9bae91c7edf20f1f336cd59ff5b5cfb0f212a209a694cf2152295065c",
+      "sampled_settled": false,
+      "sampled_closure_m": 5.246366311082351e-06,
+      "sampled_gear_error_rad": 1.447191390724356e-07,
+      "sampled_branch_margin": 0.5776966327393701
+    },
+    {
+      "recording": "back-77004-250us.json",
+      "sha256": "9983db87833b0b7e43870dbd46b17ff61dc9468c20c8b172b7b55f9a5c92b8c2",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.243784665065843e-06,
+      "sampled_gear_error_rad": 1.7265503835517392e-07,
+      "sampled_branch_margin": 0.5778049720500084
+    },
+    {
+      "recording": "back-77004-125us.json",
+      "sha256": "0a65e68bc4d0e260ade56000bc99138614919c9f4cf725cb491390e7820d870e",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.2482625946914845e-06,
+      "sampled_gear_error_rad": 1.593168985181137e-07,
+      "sampled_branch_margin": 0.5776901292513311
+    },
+    {
+      "recording": "back-77005-250us.json",
+      "sha256": "82d9b42689397dfeb6f8a34d90f72db3fab9fbe8b1e6e3eefed7e983fe5b30ad",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.252863806045144e-06,
+      "sampled_gear_error_rad": 1.422980417942199e-07,
+      "sampled_branch_margin": 0.57762087443941
+    },
+    {
+      "recording": "back-77005-125us.json",
+      "sha256": "a6a025d87a09371519c36975d8bf58933f3db376753d2155e755f179c70ecbea",
+      "sampled_settled": false,
+      "sampled_closure_m": 5.252207187297608e-06,
+      "sampled_gear_error_rad": 1.4657114888905198e-06,
+      "sampled_branch_margin": 0.5776262855651503
+    },
+    {
+      "recording": "back-77006-250us.json",
+      "sha256": "d048e2c8e5b25066ec6f70e37a46e3b3334dc50328c1506c1f71189a663702ca",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.246200714654168e-06,
+      "sampled_gear_error_rad": 2.1522738506973839e-07,
+      "sampled_branch_margin": 0.5778249331642742
+    },
+    {
+      "recording": "back-77006-125us.json",
+      "sha256": "305060d5a935457f86cdc6ba8ab8a039834b6bbd14f2fac7e553c2bbd44cab65",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.2515456126292975e-06,
+      "sampled_gear_error_rad": 6.983819730521645e-07,
+      "sampled_branch_margin": 0.5776410457631622
+    },
+    {
+      "recording": "back-77007-250us.json",
+      "sha256": "ecb4ec3c8b981e6be884bcc9320b70bc99d900514a8dbc8087d3324f7661cd9a",
+      "sampled_settled": false,
+      "sampled_closure_m": 5.246102337290234e-06,
+      "sampled_gear_error_rad": 2.3801492261554812e-07,
+      "sampled_branch_margin": 0.5778217543463114
+    },
+    {
+      "recording": "back-77007-125us.json",
+      "sha256": "ae7b4348af829710f2286de24c3f4aa75d0b7f716b4ff530c0703a48701df092",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.248563437049631e-06,
+      "sampled_gear_error_rad": 1.4805384438432156e-07,
+      "sampled_branch_margin": 0.57767362749788
+    },
+    {
+      "recording": "back-77008-250us.json",
+      "sha256": "fd694ba1372dc50169f5e79d3f256b567a63fa6f51d09d7ca57409e9eae20261",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.248374106413831e-06,
+      "sampled_gear_error_rad": 1.634620613089055e-07,
+      "sampled_branch_margin": 0.5777994076400135
+    },
+    {
+      "recording": "back-77008-125us.json",
+      "sha256": "57d33b2a16669abf8dbdd786acb798dc9d97fee7f85bd36cde6ed8b2d47ea4f2",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.251393877824093e-06,
+      "sampled_gear_error_rad": 2.3830436646221642e-07,
+      "sampled_branch_margin": 0.5776254101671908
+    },
+    {
+      "recording": "back-77009-250us.json",
+      "sha256": "0bed32c6eb3119cddfb14dd637ace2449dab049e45143a90f86716dcd58ec803",
+      "sampled_settled": false,
+      "sampled_closure_m": 5.244380228261233e-06,
+      "sampled_gear_error_rad": 1.7279883905985117e-07,
+      "sampled_branch_margin": 0.5778188471473287
+    },
+    {
+      "recording": "back-77009-125us.json",
+      "sha256": "ec9b640b3a259bbb01bc584bf36a14a80750ffd3cd41d223fc15e09cbd01a699",
+      "sampled_settled": true,
+      "sampled_closure_m": 5.248244440082636e-06,
+      "sampled_gear_error_rad": 1.5889422044779167e-07,
+      "sampled_branch_margin": 0.5777501709334096
+    }
+  ],
+  "passed_motion_cases": 17,
+  "paired_fresh_passes": 5,
+  "source_sha256": "70057c7107506f57873f51fb80bb5fbe4a0a48c69d3fe64e635f69a1014cc8ef",
+  "summary_sha256": "1cdc9c6b47d6e8a616f58a3a87f2a07e19604446b3c3f70f324111d116f170da",
+  "scope": "All 22 source/report identities, current ceilings, sampled geometry and sampled final-window criteria. Continuous physics-step guards rely on the hashed evaluator. Passing this audit preserves the 5 failed motions; it does not qualify recovery."
+}

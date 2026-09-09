@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "cases": [
+    {
+      "recording": "inverted-front-prefix-250us.npz",
+      "sha256": "92e0094a5d4c7a1a508c1d2df797f347ca3cc9982ce8ec7330b0c39cfc6c95e6",
+      "settled": true,
+      "recovery_passed": false,
+      "max_action_error": 1.7881393432617188e-07,
+      "sampled_closure_m": 5.313584349351411e-06,
+      "sampled_gear_error_rad": 1.019388207623706e-07,
+      "sampled_branch_margin": 0.577909749520213
+    },
+    {
+      "recording": "inverted-front-prefix-125us.npz",
+      "sha256": "ab25fa09a5a6208869d4ea16bc42b769f197f588744429c2713341df7c656def",
+      "settled": true,
+      "recovery_passed": false,
+      "max_action_error": 1.7881393432617188e-07,
+      "sampled_closure_m": 6.770722807762707e-06,
+      "sampled_gear_error_rad": 1.1694463921685383e-07,
+      "sampled_branch_margin": 0.5778669740875308
+    },
+    {
+      "recording": "inverted-back-prefix-250us.npz",
+      "sha256": "7010387d5b719ab11f5dfb79ae2091c476d5487598045d1c993ddaff5a7867ce",
+      "settled": true,
+      "recovery_passed": false,
+      "max_action_error": 1.7881393432617188e-07,
+      "sampled_closure_m": 5.288027711688829e-06,
+      "sampled_gear_error_rad": 8.093300039035966e-08,
+      "sampled_branch_margin": 0.5766528171505398
+    },
+    {
+      "recording": "inverted-back-prefix-125us.npz",
+      "sha256": "9000505968fad0242c2cef82f7a5573872e520deae64f3a9f3a61373ce5a72e3",
+      "settled": true,
+      "recovery_passed": false,
+      "max_action_error": 2.384185791015625e-07,
+      "sampled_closure_m": 5.2891999550553494e-06,
+      "sampled_gear_error_rad": 8.094186796370195e-08,
+      "sampled_branch_margin": 0.5766282190382739
+    }
+  ],
+  "summary_sha256": "2008cb6f409cc275e6057c66bbe1e0a677e82f472df6ae7dc036939ab2ec6304",
+  "source_sha256": {
+    "audit_settled_recovery.py": "bc2365555ef1da3d588445c152d87ab6e10573ef170a6d401522bbf741f22f30",
+    "feedback_recovery.py": "95e98bcec2e733cd179232f13efe356037538a8f97ece7530d77bd2d108bb0ef",
+    "settled_recovery.py": "ea37b51af28e5458cda509a0ea88bb0f1dfdeeaa14bfb7d9777e3fc0d5df74f1"
+  },
+  "scope": "Recorded source/reference identity, continuous timestamps and handoff qpos/qvel/current preservation; all action decisions, sampled IMU/encoder reconstruction, geometry, current ceilings, settling and final-window posture gates. Contact flags and continuous physics guards rely on the retained simulator runner; no dynamics rerun or hardware qualification."
+}
