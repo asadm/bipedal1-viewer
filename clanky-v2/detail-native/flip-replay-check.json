@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "frames": 196,
+  "launch_frames": 149,
+  "displayed_aerial_rotation_deg": 361.9373564623396,
+  "errors": {
+    "position_m": 0.0,
+    "quaternion": 0.0,
+    "spring_m": 0.0,
+    "clearance_mm": 0.0
+  },
+  "last_event": "first_wheel_contact",
+  "controlled_landing_proven": false,
+  "source_sha256": {
+    "detail-native/flip-viewer-replay.json": "ea199d58638bca9b1b5706a1ee60e56f7b8d441ea2f25dfded0487852dc63233",
+    "check_detail_flip_replay.py": "39159301d799b9468a6432805347d3d9e6d390509fb84314209dc83c7b42673e"
+  },
+  "scope": "Every display pose, spring and clearance matches its saved state. Exact launch seed, independent full-turn winding and first-contact endpoint checked. Browser controls are checked separately."
+}

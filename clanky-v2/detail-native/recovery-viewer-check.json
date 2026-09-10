@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-10T02:53:42.769135+00:00",
+  "url": "http://100.97.184.4:8765/viewer/v2.html?motion=recovery-latest",
+  "browser": "Existing desktop browser through browser skill",
+  "checks": [
+    "The page loads the source-matched recovery recording and exposes Exterior, Cutaway, Packaging and Physics controls.",
+    "The result states 40/40 fixed conditions: 24 earlier starts plus 16 fresh falls with four off-axis directions, 3/5 rad/s initial rotation, varied headings and both timesteps.",
+    "The text preserves the distinction between sensor-ended programmed get-up and frozen learned balance; no learned recovery training is claimed.",
+    "The Fresh fall checks link targets the completed sixteen-condition recording audit.",
+    "The full 36-second replay stops standing with the original two-second standing result, visible ground and shadows.",
+    "All 905 displayed frames are unchanged from the preceding viewer revision; the replay checker again reports zero body/spring pose error."
+  ],
+  "limitations": [
+    "Desktop browser only; no physical iOS device checked.",
+    "Prescribed initial velocities and nominal rigid-tire dynamics do not qualify arbitrary disturbances, complete self-contact, TPU compliance, print strength or physical recovery."
+  ],
+  "source_sha256": {
+    "viewer/v2-replay.mjs": "161c70d9dc92ce9ca926c8adc2ce5df31f350917be26b0c3bc0b44c7af1cb488",
+    "viewer/v2-detail.mjs": "91ca32aba865532767bad0e7b1190f36f952d4dffc137b4f5415a6d3eb687417",
+    "viewer/v2.html": "fc33d1bee5f8d92603101263f5066b84ef0419a98c67e71b3398ca039896e2c9",
+    "clanky-v2/detail-native/recovery-viewer-replay.json": "781326836f296e1bd918a0d74b2b22b015261bca3d8df28697d756951cf298bf",
+    "clanky-v2/detail-native/recovery-replay-check.json": "69bb004a5c8bfa3e01f659c29d5333c93b2cefa40a0dec537d2ef48092b75aa6",
+    "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/coverage.json": "bce4d55fc00d64e8dea4d3b28f885868a85577214c3435ad649225e6986b5596",
+    "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/summary.json": "70844c4c4508b51653e10a5924fde82556ef4bbe3620e91ffe928d3910f0d4d7",
+    "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/recording-check.json": "5a03881fb67ab7b9902e37b9bc6337b3254e25a500eeed046fce1f26cb0b1d59"
+  }
+}

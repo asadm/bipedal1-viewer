@@ -1,0 +1,901 @@
+{
+  "status": "nominal_exact_gear_tooth_cycle",
+  "source_sha256": {
+    "check_detail_gear_exact.py": "87882d3c2d76cbeeccd601bce867a5e45e5388dacd61b23aa609c3fb4a820f60",
+    "detail_gears.py": "2d3d06dc074f15fc7f8dfb9e8f6e53aa1abc03710b8f62ee37848c7d5d8a2d30",
+    "detail/manifest.json": "60bee91d5ffd9a083f2a5a8d630d3307473e87e70862f095b3919dda1aed4ca5",
+    "detail/parts-local.step": "e53449e635694d467c9deb6b3a669e993ab81e281e7cce9e62c0b8b48b548b02",
+    "detail/parts.json": "86f31e6d8bbaf15a7bee35f2cd0a64becd03607178027916f487d5331bf5d423",
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "hip-output/parts-local.step": "b3c59b3ff0222c7f39e6566aeb55affac3e6c48825fe3286d6917452b85fd91d"
+  },
+  "passed": true,
+  "hardware_release": false,
+  "cases": [
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.0,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.0,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.0625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.0625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.1875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.1875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.25,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.25,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.3125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.3125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.4375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.4375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.5,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.5,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.5625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.5625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.6875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.6875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.75,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.75,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.8125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.8125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 0.9375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 0.9375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.0,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.0,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.0625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.0625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.1875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.1875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.25,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.25,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.3125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.3125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.4375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.4375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.5,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.5,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.5625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.5625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.6875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.6875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.75,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.75,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.8125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.8125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 1.9375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 1.9375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.0,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.0,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.0625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.0625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.1875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.1875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.25,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.25,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.3125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.3125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.4375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.4375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.5,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.5,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.5625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.5625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.6875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.6875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.75,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.75,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.8125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.8125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 2.9375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 2.9375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.0,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.0,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.0625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.0625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.1875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.1875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.25,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.25,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.3125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.3125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.4375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.4375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.5,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.5,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.5625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.5625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.6875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.6875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.75,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.75,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.8125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.8125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 3.9375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 3.9375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 4.0,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 4.0,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 4.0625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 4.0625,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 4.125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 4.125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 4.1875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 4.1875,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 4.25,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 4.25,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 4.3125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 4.3125,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 4.375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 4.375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 4.4375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 4.4375,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "hip_delta_deg": 4.5,
+      "overlap_mm3": 0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "hip_delta_deg": 4.5,
+      "overlap_mm3": 0,
+      "passed": true
+    }
+  ],
+  "common_output_cycle_deg": 4.5,
+  "cycle_samples": 73,
+  "limitations": [
+    "Unloaded nominal geometry at finite poses, not continuous contact/clearance proof.",
+    "Left pair solids; mirrored right assembly and independent legs checked in the bilateral detail audit.",
+    "No gear strength, measured backlash, thermal expansion, tooth errors, shaft deflection or printer qualification.",
+    "Supplier set-screw thread representation is retained separately in the assembly contact diagnostic."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "motion": "jump",
+      "frames": 800,
+      "errors": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "spring_m": 0.0,
+        "wheel_clearance_mm": 0.0,
+        "geometry": 0.0
+      },
+      "passed": true
+    },
+    {
+      "motion": "balance",
+      "frames": 800,
+      "errors": {
+        "position_m": 0.0,
+        "quaternion": 0.0,
+        "spring_m": 0.0,
+        "wheel_clearance_mm": 0.0,
+        "geometry": 0.0
+      },
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "detail-native/viewer-replay.json": "a597ebc0335f939620673192eeefd152cbde35e00f413e3b94007a7f1fe0f6e4",
+    "detail/parts-download.zip": "41f62f497c95b90841e71edf7ce21ec0e1b5b37f6f1b4415660401e80dc0f159",
+    "check_detail_replay.py": "ea3ca28f729266f002c5d9d736c818f22e4979e55db36ab386d43fbb38d46270"
+  },
+  "scope": "All recorded frames and collision geometry match saved states/compiled model. STEP download bytes preserved. Browser behavior checked separately."
+}

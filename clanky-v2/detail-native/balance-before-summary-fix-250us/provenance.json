@@ -1,0 +1,5 @@
+{
+  "reason": "First balance completed; the outer summary failed on a NumPy boolean during JSON serialization. Retained before fixing serialization.",
+  "runner_source_sha256": "51adb455c323eb5db25ca12675a18b3603856fdffbb38c49d47df505ac8b079d",
+  "original_runner_path": "detail_native_trials.py"
+}

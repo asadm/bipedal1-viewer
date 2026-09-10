@@ -1,0 +1,3185 @@
+{
+  "status": "bilateral_detail_exact_diagnostic",
+  "source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+    "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+    "detail/manifest.json": "60bee91d5ffd9a083f2a5a8d630d3307473e87e70862f095b3919dda1aed4ca5",
+    "detail/parts.json": "86f31e6d8bbaf15a7bee35f2cd0a64becd03607178027916f487d5331bf5d423",
+    "detail_cad.py": "377f1be10e8399c915e15e6a1e6c6a825b95a11adc528c06385b6e157cd68f31",
+    "check_detail_exact.py": "2f2a593a87632bcfca00d0c65adfb32a05a3370f5944104c1d9f5a5404e5c080",
+    "detail/mesh-diagnostic.json": "8cd4c7bc38bc2dbe6e864e4fd7bc92e2048573b73611a80a8f3fb6d58af310de",
+    "coaxial_spring.py": "b7dacbff8fcdb1025cfce4d7dc7a847e25bc1035baafb47e8d0a3b46a424c7aa",
+    "hip_stock_gears.py": "580af351bd824a0d9514632ff080fb9a0f535cc9ff77679f4706c287b86c01f5",
+    "geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839",
+    "spring_cartridge.py": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff",
+    "assembly.step": "1f693a9a99a7c4cfce243c51986d4706b7596537995e778bba20ae71e2c266f9"
+  },
+  "cases": [
+    {
+      "pair": [
+        "right_output_M4x12_2",
+        "right_output_spacer_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_60T_countersunk",
+        "left_compound_M3x8_3"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_motor_rotor_envelope",
+        "right_rotor_D6_adapter"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_M4_nut_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_knee_626_inner"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 1.6614093731990007e-12,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_body_plate",
+        "right_output_fixed_spindle"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_60T_countersunk",
+        "left_compound_M3x8_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "right_compound_624_outer"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi_M2p5x10_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 4.3558341751572165,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "right_output_spindle_M3_rear",
+        "right_output_spindle_cap_rear"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_F688_inner",
+        "right_output_spindle_spacer_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_rotor_D6_adapter",
+        "right_rotor_M2x5_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "D435i_mounted_envelope",
+        "body_lower_detailed"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_60T_countersunk",
+        "right_compound_M3x8_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_fixed_spindle",
+        "right_output_spindle_M3_rear"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_closure_M3_nut_1_-1",
+        "body_closure_M3x10_1_-1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_M3x8_0",
+        "right_compound_flange_shaft"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi_M2p5x10_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_M4x12_3",
+        "right_output_spacer_3"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_F688_inner",
+        "right_output_spindle_spacer_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_M4x12_2",
+        "right_output_gear_80T"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "camera_rear_M3x6_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.8
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 4.696687483374262e-12,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.315
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 1.2132608241297188e-12,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.8299999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 4.803237360673125e-12,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.3449999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 2.985125254554078e-13,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        -0.49999999999999956,
+        -0.49999999999999956
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 3.929301328753354e-12,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        -0.3799999999999999,
+        -0.3799999999999999
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 1.1084466677857563e-12,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        1.0300000000000002,
+        1.0300000000000002
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 1.2434497875801753e-12,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_motor_M3x6_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi_M2p5_nut_3",
+        "pi_M2p5x10_3"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi5_mounted_PCB_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "right_compound_624_inner"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_M4x12_0",
+        "right_output_spacer_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "D435i_mounted_envelope",
+        "camera_rear_M3x6_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_3",
+        "right_output_M4x12_3"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_M4_nut_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "right_motor_M3x6_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_1",
+        "right_output_M4x12_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "right_motor_M3x6_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_60T_countersunk",
+        "left_compound_flange_shaft"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi5_usb3_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_M3x8_2",
+        "right_compound_flange_shaft"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_60T_countersunk",
+        "left_compound_M3x8_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "left_motor_M3x6_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "right_hip_motor_base_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "right_output_mount_M3_17"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_60T_countersunk",
+        "right_compound_M3x8_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_gpio_envelope",
+        "pi5_mounted_PCB_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_rotor_envelope",
+        "left_rotor_M2x5_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_0"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.8
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_0"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.315
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_0"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.8299999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_0"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.3449999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_0"
+      ],
+      "hip_rad": [
+        -0.49999999999999956,
+        -0.49999999999999956
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_0"
+      ],
+      "hip_rad": [
+        -0.3799999999999999,
+        -0.3799999999999999
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_0"
+      ],
+      "hip_rad": [
+        1.0300000000000002,
+        1.0300000000000002
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_M3x8_2",
+        "left_compound_flange_shaft"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_body_plate",
+        "right_output_spindle_cap_rear"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_rotor_envelope",
+        "left_rotor_M2x5_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "left_compound_624_outer"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_body_plate",
+        "right_output_spindle_spacer_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_rotor_D6_adapter",
+        "right_rotor_M2x5_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi_M2p5x10_3"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 4.3558341751572165,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_motor_M3x6_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_shim_1",
+        "right_drive_intermediate_20T"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_rotor_envelope",
+        "left_rotor_D6_adapter"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_M3x8_1",
+        "left_compound_flange_shaft"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_1"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.8
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_1"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.315
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_1"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.8299999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_1"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.3449999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_1"
+      ],
+      "hip_rad": [
+        -0.49999999999999956,
+        -0.49999999999999956
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_1"
+      ],
+      "hip_rad": [
+        -0.3799999999999999,
+        -0.3799999999999999
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_1"
+      ],
+      "hip_rad": [
+        1.0300000000000002,
+        1.0300000000000002
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_M3x8_3",
+        "right_compound_flange_shaft"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_hip_F688_outer"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.8
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_hip_F688_outer"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.315
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_hip_F688_outer"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.8299999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_hip_F688_outer"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.3449999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_hip_F688_outer"
+      ],
+      "hip_rad": [
+        -0.49999999999999956,
+        -0.49999999999999956
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_hip_F688_outer"
+      ],
+      "hip_rad": [
+        -0.3799999999999999,
+        -0.3799999999999999
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_hip_F688_outer"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_hip_F688_outer"
+      ],
+      "hip_rad": [
+        1.0300000000000002,
+        1.0300000000000002
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "right_motor_M3x6_3"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_closure_M3_nut_-1_1",
+        "body_closure_M3x10_-1_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_F688_outer",
+        "right_output_spindle_spacer_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi_M2p5x10_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "left_hip_motor_base_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_motor_M3x6_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_1",
+        "right_output_spacer_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "battery_retained_envelope",
+        "body_lower_detailed"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi5_sd_socket_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_2",
+        "right_output_spacer_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_outer",
+        "left_compound_shim_2"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.8
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_outer",
+        "left_compound_shim_2"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.315
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_outer",
+        "left_compound_shim_2"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.8299999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_outer",
+        "left_compound_shim_2"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.3449999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_outer",
+        "left_compound_shim_2"
+      ],
+      "hip_rad": [
+        -0.49999999999999956,
+        -0.49999999999999956
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_outer",
+        "left_compound_shim_2"
+      ],
+      "hip_rad": [
+        -0.3799999999999999,
+        -0.3799999999999999
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_outer",
+        "left_compound_shim_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_624_outer",
+        "left_compound_shim_2"
+      ],
+      "hip_rad": [
+        1.0300000000000002,
+        1.0300000000000002
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_60T_countersunk",
+        "left_compound_M3x8_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_rotor_D6_adapter",
+        "left_rotor_M2x5_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi_M2p5x10_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_3",
+        "right_output_spacer_3"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_flange_shaft",
+        "right_compound_shim_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_drive_input_pinion",
+        "left_rotor_D6_adapter"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_60T_countersunk",
+        "right_compound_M3x8_3"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi_M2p5_nut_0",
+        "pi_M2p5x10_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_hip_cover_M3_3"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi5_usb2_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_motor_M3x6_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi_M2p5x10_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 4.355834175157598,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "pi_M2p5_nut_1",
+        "pi_M2p5x10_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "left_compound_624_inner"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_M4x12_3",
+        "right_output_gear_80T"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_motor_M3x6_3"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "left_motor_M3x6_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_body_plate",
+        "right_output_mount_M3_-17"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_motor_M3x6_3"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_flange_shaft",
+        "right_drive_intermediate_20T"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 1.0000200489912459e-07,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_outer",
+        "right_compound_shim_2"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.8
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_outer",
+        "right_compound_shim_2"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.315
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_outer",
+        "right_compound_shim_2"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.8299999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_outer",
+        "right_compound_shim_2"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.3449999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_outer",
+        "right_compound_shim_2"
+      ],
+      "hip_rad": [
+        -0.49999999999999956,
+        -0.49999999999999956
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_outer",
+        "right_compound_shim_2"
+      ],
+      "hip_rad": [
+        -0.3799999999999999,
+        -0.3799999999999999
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_outer",
+        "right_compound_shim_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_outer",
+        "right_compound_shim_2"
+      ],
+      "hip_rad": [
+        1.0300000000000002,
+        1.0300000000000002
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "right_output_body_plate"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "left_compound_624_outer"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "left_output_mount_M3_-17"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "left_motor_M3x6_3"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_0",
+        "right_output_M4x12_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi5_usb_c_power_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 46.05888000000008,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "right_fixed_tie_anchor",
+        "right_output_fixed_spindle"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_closure_M3_nut_1_1",
+        "body_closure_M3x10_1_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_60T_countersunk",
+        "right_compound_M3x8_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.8
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 4.696687483374262e-12,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.315
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 4.696687483374262e-12,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.8299999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 4.696687483374262e-12,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.3449999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 4.696687483374262e-12,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        -0.49999999999999956,
+        -0.49999999999999956
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 3.929301328753354e-12,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        -0.3799999999999999,
+        -0.3799999999999999
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 1.1084466677857563e-12,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_hip_motor_rotor_envelope"
+      ],
+      "hip_rad": [
+        1.0300000000000002,
+        1.0300000000000002
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 1.2434497875801753e-12,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_circlip_envelope_0",
+        "right_compound_flange_shaft"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi_M2p5_nut_2",
+        "pi_M2p5x10_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_M3x8_0",
+        "left_compound_flange_shaft"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_motor_M3x6_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_1"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.8
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_1"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.315
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_1"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.3449999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_1"
+      ],
+      "hip_rad": [
+        -2.8,
+        -0.8599999999999999
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_1"
+      ],
+      "hip_rad": [
+        -0.49999999999999956,
+        -0.49999999999999956
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_1"
+      ],
+      "hip_rad": [
+        -0.3799999999999999,
+        -0.3799999999999999
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_1"
+      ],
+      "hip_rad": [
+        1.0300000000000002,
+        1.0300000000000002
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_flange_shaft",
+        "left_drive_intermediate_20T"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 1.0000000116860974e-07,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_rotor_envelope",
+        "left_rotor_M2x5_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_flange_shaft",
+        "left_compound_shim_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_circlip_envelope_1",
+        "left_compound_flange_shaft"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_compound_M3x8_3",
+        "left_compound_flange_shaft"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_circlip_envelope_1",
+        "right_compound_flange_shaft"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "left_output_body_plate"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "pi5_mounted_PCB_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_supported_thigh_lid"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "D435i_mounted_envelope",
+        "D435i_native_front_face"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_rotor_D6_adapter",
+        "left_rotor_M2x5_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_motor_M3x6_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_motor_rotor_envelope",
+        "right_rotor_M2x5_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_M4_nut_3"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi5_gpio_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 581.1519999999995,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "left_compound_shim_1",
+        "left_drive_intermediate_20T"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "right_compound_624_outer"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi_M2p5x10_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 4.3558341751575975,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "right_output_M4x12_0",
+        "right_output_gear_80T"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "camera_rear_M3x6_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_body_plate",
+        "right_output_mount_M3_17"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_F688_outer",
+        "right_output_fixed_spindle"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_drive_input_pinion",
+        "right_rotor_D6_adapter"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "left_motor_M3x6_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_drive_input_pinion",
+        "left_drive_input_pinion_set_screw"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0.6452760551757706,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "left_compound_circlip_envelope_0",
+        "left_compound_flange_shaft"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_hip_cover_M3_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_M4_nut_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_drive_intermediate_20T",
+        "right_drive_intermediate_20T_set_screw"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 5.2946903393732265,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "body_closure_M3_nut_-1_-1",
+        "body_closure_M3x10_-1_-1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_ethernet_envelope",
+        "pi5_mounted_PCB_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "D435i_mounted_envelope",
+        "camera_rear_M3x6_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_0",
+        "right_output_spacer_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "right_motor_M3x6_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_rotor_D6_adapter",
+        "right_rotor_M2x5_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_F688_inner",
+        "right_output_fixed_spindle"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_2",
+        "right_output_M4x12_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_60T_countersunk",
+        "right_compound_flange_shaft"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_M4x12_1",
+        "right_output_gear_80T"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_0"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.8
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_0"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.315
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_0"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.8299999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_0"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.3449999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_0"
+      ],
+      "hip_rad": [
+        -0.49999999999999956,
+        -0.49999999999999956
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_0"
+      ],
+      "hip_rad": [
+        -0.3799999999999999,
+        -0.3799999999999999
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_0"
+      ],
+      "hip_rad": [
+        1.0300000000000002,
+        1.0300000000000002
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi_M2p5x10_3"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_motor_rotor_envelope",
+        "right_rotor_M2x5_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_drive_intermediate_20T",
+        "left_drive_intermediate_20T_set_screw"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 5.288958590477389,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "right_compound_M3x8_1",
+        "right_compound_flange_shaft"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "left_output_mount_M3_17"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "body_upper_detailed"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_drive_input_pinion",
+        "right_drive_input_pinion_set_screw"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 1.6020261928460506,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "right_output_M4x12_1",
+        "right_output_spacer_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "right_output_mount_M3_-17"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_output_fixed_spindle",
+        "right_spindle_M3_front"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_hip_cover_M3_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_F688_inner"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.8
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_F688_inner"
+      ],
+      "hip_rad": [
+        -2.8,
+        -2.315
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_F688_inner"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.8299999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_F688_inner"
+      ],
+      "hip_rad": [
+        -2.8,
+        -1.3449999999999998
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_F688_inner"
+      ],
+      "hip_rad": [
+        -0.49999999999999956,
+        -0.49999999999999956
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_F688_inner"
+      ],
+      "hip_rad": [
+        -0.3799999999999999,
+        -0.3799999999999999
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_F688_inner"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_F688_inner"
+      ],
+      "hip_rad": [
+        1.0300000000000002,
+        1.0300000000000002
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi5_usb_c_power_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_hip_motor_rotor_envelope",
+        "right_rotor_M2x5_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "left_rotor_D6_adapter",
+        "left_rotor_M2x5_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 0.0,
+      "passed": true
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_spring_coil_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0,
+      "distance_mm": 1.7763568394002505e-15,
+      "passed": true
+    }
+  ],
+  "untested_pairs": [],
+  "largest_overlap_per_failed_pair": [
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi_M2p5x10_2"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 4.3558341751572165,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi_M2p5x10_3"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 4.3558341751572165,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi_M2p5x10_0"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 4.355834175157598,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi5_usb_c_power_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 46.05888000000008,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi5_gpio_envelope"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 581.1519999999995,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi_M2p5x10_1"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 4.3558341751575975,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "left_drive_input_pinion",
+        "left_drive_input_pinion_set_screw"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 0.6452760551757706,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "right_drive_intermediate_20T",
+        "right_drive_intermediate_20T_set_screw"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 5.2946903393732265,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "left_drive_intermediate_20T",
+        "left_drive_intermediate_20T_set_screw"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 5.288958590477389,
+      "distance_mm": 0.0,
+      "passed": false
+    },
+    {
+      "pair": [
+        "right_drive_input_pinion",
+        "right_drive_input_pinion_set_screw"
+      ],
+      "hip_rad": [
+        0.41900000000000015,
+        0.41900000000000015
+      ],
+      "overlap_mm3": 1.6020261928460506,
+      "distance_mm": 0.0,
+      "passed": false
+    }
+  ],
+  "passed": false,
+  "hardware_release": false,
+  "limitations": [
+    "Contact reprobes at finite poses; no continuous collision proof.",
+    "Some motor, encoder, cooler, bearing and clip geometry uses dimensional envelopes rather than exact supplier internals.",
+    "Positive overlap is retained as failure; thread and race contact still need classification."
+  ]
+}

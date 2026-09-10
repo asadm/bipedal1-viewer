@@ -1,0 +1,219 @@
+{
+  "status": "coupon_export_checks_only",
+  "passed": true,
+  "hardware_release": false,
+  "manifest_sha256": "1dd84a69ca4c9e6c757c5f1143b0a99269473a4038a6c750a5c5d5e2d804f10a",
+  "validator_sha256": "476ec0db6d1dc3522b63e985be747db1a63b1a0b2259adaca653d5a152c2bb73",
+  "meshes": [
+    {
+      "file": "rigid-fit-plate.stl",
+      "sha256": "5a23b17414b003bdcc467adc226ee49e34817a7929429e753546fe71b234baf3",
+      "triangles": 90522,
+      "connected_solids": 7,
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0002339617728994714,
+      "bounds_mm": [
+        148.0,
+        169.0,
+        8.5
+      ],
+      "passed": true
+    },
+    {
+      "file": "horizontal-bearing-plate.stl",
+      "sha256": "b8197952f6da7babbb0c49513bca5e1a1d0d4b3f9dbd27c206f8ca779e67b8da",
+      "triangles": 68520,
+      "connected_solids": 4,
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00030256225887304034,
+      "bounds_mm": [
+        148.0,
+        60.0,
+        28.0
+      ],
+      "passed": true
+    },
+    {
+      "file": "M2p5-fasteners.stl",
+      "sha256": "092e6aa89d33a4530995c15bf9f4776d0644b5d1a5ca7e6e9c432fca244d0831",
+      "triangles": 15220,
+      "connected_solids": 1,
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 1.577236625860401e-05,
+      "bounds_mm": [
+        148.0,
+        24.0,
+        6.0
+      ],
+      "passed": true
+    },
+    {
+      "file": "TPU-hub-fit-plate.stl",
+      "sha256": "f52ea2c827791304b871124002631fdde46c2a64ad8ced48852cd1bf7efd293a",
+      "triangles": 22200,
+      "connected_solids": 6,
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00014730489963088456,
+      "bounds_mm": [
+        152.0,
+        99.99000902334228,
+        3.0
+      ],
+      "passed": true
+    }
+  ],
+  "bearing_bores": [
+    {
+      "diameter_mm": 13,
+      "land_edges": 336,
+      "maximum_radial_chord_error_mm": 0.004546088082546973,
+      "passed": true
+    },
+    {
+      "diameter_mm": 13.1,
+      "land_edges": 336,
+      "maximum_radial_chord_error_mm": 0.004582044148608411,
+      "passed": true
+    },
+    {
+      "diameter_mm": 13.2,
+      "land_edges": 336,
+      "maximum_radial_chord_error_mm": 0.004617167184879811,
+      "passed": true
+    },
+    {
+      "diameter_mm": 13.3,
+      "land_edges": 336,
+      "maximum_radial_chord_error_mm": 0.004653078958783752,
+      "passed": true
+    },
+    {
+      "diameter_mm": 13.4,
+      "land_edges": 336,
+      "maximum_radial_chord_error_mm": 0.004687344150009487,
+      "passed": true
+    },
+    {
+      "diameter_mm": 13.5,
+      "land_edges": 336,
+      "maximum_radial_chord_error_mm": 0.004721853597477121,
+      "passed": true
+    },
+    {
+      "diameter_mm": 15,
+      "land_edges": 348,
+      "maximum_radial_chord_error_mm": 0.004890666153987588,
+      "passed": true
+    },
+    {
+      "diameter_mm": 15.1,
+      "land_edges": 348,
+      "maximum_radial_chord_error_mm": 0.0049233914265167655,
+      "passed": true
+    },
+    {
+      "diameter_mm": 15.2,
+      "land_edges": 348,
+      "maximum_radial_chord_error_mm": 0.004957878320502651,
+      "passed": true
+    },
+    {
+      "diameter_mm": 15.3,
+      "land_edges": 348,
+      "maximum_radial_chord_error_mm": 0.004990377099075793,
+      "passed": true
+    },
+    {
+      "diameter_mm": 15.4,
+      "land_edges": 352,
+      "maximum_radial_chord_error_mm": 0.0049087527561813005,
+      "passed": true
+    },
+    {
+      "diameter_mm": 15.5,
+      "land_edges": 352,
+      "maximum_radial_chord_error_mm": 0.004942193872055967,
+      "passed": true
+    },
+    {
+      "diameter_mm": 16,
+      "land_edges": 356,
+      "maximum_radial_chord_error_mm": 0.004985897578300147,
+      "passed": true
+    },
+    {
+      "diameter_mm": 16.1,
+      "land_edges": 360,
+      "maximum_radial_chord_error_mm": 0.004907226562497868,
+      "passed": true
+    },
+    {
+      "diameter_mm": 16.2,
+      "land_edges": 360,
+      "maximum_radial_chord_error_mm": 0.0049367948561336306,
+      "passed": true
+    },
+    {
+      "diameter_mm": 16.3,
+      "land_edges": 360,
+      "maximum_radial_chord_error_mm": 0.0049687016138495466,
+      "passed": true
+    },
+    {
+      "diameter_mm": 16.4,
+      "land_edges": 360,
+      "maximum_radial_chord_error_mm": 0.004997942568058633,
+      "passed": true
+    },
+    {
+      "diameter_mm": 16.5,
+      "land_edges": 364,
+      "maximum_radial_chord_error_mm": 0.004921436003488822,
+      "passed": true
+    },
+    {
+      "diameter_mm": 19,
+      "land_edges": 388,
+      "maximum_radial_chord_error_mm": 0.004985214422490003,
+      "passed": true
+    },
+    {
+      "diameter_mm": 19.1,
+      "land_edges": 392,
+      "maximum_radial_chord_error_mm": 0.0049096009577631605,
+      "passed": true
+    },
+    {
+      "diameter_mm": 19.2,
+      "land_edges": 392,
+      "maximum_radial_chord_error_mm": 0.004935160461895904,
+      "passed": true
+    },
+    {
+      "diameter_mm": 19.3,
+      "land_edges": 392,
+      "maximum_radial_chord_error_mm": 0.004961326141494027,
+      "passed": true
+    },
+    {
+      "diameter_mm": 19.4,
+      "land_edges": 392,
+      "maximum_radial_chord_error_mm": 0.004987875859836066,
+      "passed": true
+    },
+    {
+      "diameter_mm": 19.5,
+      "land_edges": 396,
+      "maximum_radial_chord_error_mm": 0.004912964494238281,
+      "passed": true
+    }
+  ],
+  "limitations": [
+    "Mesh and envelope checks only; no sliced or physically printed sample.",
+    "Horizontal supports, printed dimensions, material and loaded fits remain unqualified."
+  ]
+}

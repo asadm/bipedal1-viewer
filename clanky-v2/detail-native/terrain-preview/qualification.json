@@ -1,0 +1,82 @@
+{
+  "status": "ten_fixed_terrain_conditions_pass",
+  "passed": 10,
+  "total": 10,
+  "cases": [
+    {
+      "directory": "slope+0-250us",
+      "passed": true,
+      "report_sha256": "44ebc26554cddbed43eecff5e37a57109a4c1b077f9f7c57d661f4f063d49b47",
+      "source": "pilot"
+    },
+    {
+      "directory": "slope+0-125us",
+      "passed": true,
+      "report_sha256": "4460837e24ea2f548520a081ae58878d687816b290c4959521f0a82b5076faec",
+      "source": "pilot"
+    },
+    {
+      "directory": "slope-9-250us",
+      "passed": true,
+      "report_sha256": "9751a6bd6dcfd91e6c018bfb15b03763af92aa2d924f10c2db040bde4218d855",
+      "source": "pilot"
+    },
+    {
+      "directory": "slope-9-125us",
+      "passed": true,
+      "report_sha256": "40cf2fc11eb64146d733c99dfb8c4cf76566c90634c95cd20d5a49b660797db1",
+      "source": "pilot"
+    },
+    {
+      "directory": "slope+5-250us",
+      "passed": true,
+      "report_sha256": "7edc8e667adfba9ccbda781b9189159f1e68c6230de3a447dd809f350a1f0963",
+      "source": "regression"
+    },
+    {
+      "directory": "slope+5-125us",
+      "passed": true,
+      "report_sha256": "689e6370fd8ae635a2a9a447a08d4235afebd69f6ab2aac6a1bfae0503e9b0af",
+      "source": "regression"
+    },
+    {
+      "directory": "slope-5-250us",
+      "passed": true,
+      "report_sha256": "69a5d61431e6b769389ae09812db231ef64c94977983b2cf00139d44f1398ae6",
+      "source": "regression"
+    },
+    {
+      "directory": "slope-5-125us",
+      "passed": true,
+      "report_sha256": "8daed1cc8c8f74b144059f689a30a486b188a4834d1b6e99dfc73c7f30927dbe",
+      "source": "regression"
+    },
+    {
+      "directory": "slope+9-250us",
+      "passed": true,
+      "report_sha256": "9c226fb3231fceef6286f50eda38449932cec0050076d7dc0375af5ebf8cf702",
+      "source": "regression"
+    },
+    {
+      "directory": "slope+9-125us",
+      "passed": true,
+      "report_sha256": "a1ab9f10927e9ebf582b72edb4ba90056a5762c2505a9727bfdc33323f054907",
+      "source": "regression"
+    }
+  ],
+  "audits": {
+    "coverage_sha256": "293bd2e343f469ff762fffed39932ffe714407d5eccc64afdede4efacff439ac",
+    "pilot_audit_sha256": "17c79d1ca7993773e7d60ab55738f56ece1242a53b5b3f05fcaba0b4b4baecb1",
+    "regression_audit_sha256": "66fda3a64b00e3a927901453c47b14552a690d6231e3f119c47198f514917be0"
+  },
+  "actor_sha256": "555eb5896d5dddff18e2b05b1137a8176881a07b09f81965ec4032c74e55d6c2",
+  "calibration_sha256": "8557714d65ea73c8080f3ddc2fe4ae42ceffda3ecd20cae2473145b5416346be",
+  "harder_screen": {
+    "passed": 0,
+    "total": 6,
+    "summary_sha256": "6f6a5bac9664ace0ed0bc27328d721b08d9d5a52f6b2532d9f253c1116691ca7",
+    "audit_sha256": "28d0ff10d32cc55041ca49a5ba9d3ffc61af7355babe1f062a3aaa8b66afafd6",
+    "scope": "Separate six-case 250us screen: +/-15 degree rough slopes/cross-slopes and +/-20 degree hills/valleys. All fail; no fine repeats or new weights."
+  },
+  "scope": "Frozen learned low-level actor plus programmed stopping-preview navigation. Four pilot development cases and six regression cases at two timesteps. Fixed nominal simulations; no new weights, real localization or hardware qualification."
+}

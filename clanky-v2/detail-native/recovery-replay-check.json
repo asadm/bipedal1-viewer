@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "frames": 905,
+  "source_frames": 3600,
+  "maximum_pose_spring_error": 0.0,
+  "controller_retries": 0,
+  "first_time_s": 0.010000000000000007,
+  "last_time_s": 36.0000000000127,
+  "source_sha256": {
+    "check_detail_recovery_fall_viewer.py": "8b9083781afc2477861ecf1a4d9d9d9b80d752764672275db3dc3597f7c78d9c",
+    "detail-native/recovery-viewer-replay.json": "781326836f296e1bd918a0d74b2b22b015261bca3d8df28697d756951cf298bf"
+  },
+  "scope": "Every displayed body and spring matches the saved current-CAD state; phase boundaries, contact flags, retry count and full end state are preserved. Raw recording/action/standing audit is separate. Display interpolation does not establish hardware recovery."
+}

@@ -1,0 +1,86 @@
+{
+  "status": "unprinted_fit_samples",
+  "hardware_release": false,
+  "printer_envelope_mm": [
+    180,
+    180,
+    180
+  ],
+  "coupon_dimensions_are": "CAD dimensions in mm",
+  "diametral_offsets_mm": [
+    0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "bearing_od_mm": [
+    13,
+    15,
+    16,
+    19
+  ],
+  "tab_per_side_clearances_mm": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "source_sha256": "e8267e40bbc312f92b82f07de08666c1497724985a3316088282273dd41e1111",
+  "outputs": [
+    {
+      "file": "rigid-fit-plate.stl",
+      "purpose": "Final rigid filament; holes along print Z",
+      "solids": 7,
+      "bounds_mm": [
+        148.0000002,
+        169.0000002,
+        8.5
+      ],
+      "cad_volume_cm3": 101.34329040220413,
+      "sha256": "5a23b17414b003bdcc467adc226ee49e34817a7929429e753546fe71b234baf3"
+    },
+    {
+      "file": "horizontal-bearing-plate.stl",
+      "purpose": "Final rigid filament; holes along print Y; match intended supports",
+      "solids": 4,
+      "bounds_mm": [
+        148.0000002,
+        60.0,
+        28.0000001
+      ],
+      "cad_volume_cm3": 76.85847455452121,
+      "sha256": "b8197952f6da7babbb0c49513bca5e1a1d0d4b3f9dbd27c206f8ca779e67b8da"
+    },
+    {
+      "file": "M2p5-fasteners.stl",
+      "purpose": "Final rigid filament; M2.5 screw and nut fit",
+      "solids": 1,
+      "bounds_mm": [
+        148.0000002,
+        24.000000200000002,
+        6.0000001
+      ],
+      "cad_volume_cm3": 20.59508828714965,
+      "sha256": "092e6aa89d33a4530995c15bf9f4776d0644b5d1a5ca7e6e9c432fca244d0831"
+    },
+    {
+      "file": "TPU-hub-fit-plate.stl",
+      "purpose": "Final wheel TPU; sleeve holes \u00d85.0..5.5 on \u00d834 PCD",
+      "solids": 6,
+      "bounds_mm": [
+        152.0000002,
+        100.00000019999999,
+        3.0000001
+      ],
+      "cad_volume_cm3": 23.255170344484622,
+      "sha256": "f52ea2c827791304b871124002631fdde46c2a64ad8ced48852cd1bf7efd293a"
+    }
+  ],
+  "limitations": [
+    "Coupons are representative fit samples, not complete bearing housings or load tests.",
+    "No measured filament compensation is applied to the robot.",
+    "Plate bounds include room for a 5 mm brim; slicing and physical prints remain to be checked."
+  ]
+}

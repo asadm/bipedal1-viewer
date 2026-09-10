@@ -1,0 +1,510 @@
+{
+  "scope": "Detailed CAD revision. Explicit rotor/gear implementation audit; 49 locked-CAD poses, 12 analytical velocity cases, 4 free flights. Does not qualify hardware or skills.",
+  "source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+    "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+    "detail/manifest.json": "60bee91d5ffd9a083f2a5a8d630d3307473e87e70862f095b3919dda1aed4ca5",
+    "detail/parts.json": "86f31e6d8bbaf15a7bee35f2cd0a64becd03607178027916f487d5331bf5d423",
+    "detail_cad.py": "377f1be10e8399c915e15e6a1e6c6a825b95a11adc528c06385b6e157cd68f31",
+    "detail_mass.py": "f8a080a5b58a7c64f528c72d8577ee8a0b0ab6a3bcfb459c0951acfe204d6d9c",
+    "native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+    "native_drivetrain.py": "3994d8475929f8ae1e6fcf68a487f852c3812ec96937c796d41b499fc0304b77",
+    "native/mass-properties.json": "0d5c5d21f94f9282dd107cc92a867e4c4f888601783eda00580f5f71d0e970c7",
+    "detail_native.py": "d4278841d509f2c2dbbd7931dfb89210c09775d39eb76425a7071a2d7c3388f3",
+    "detail-native/mass-properties.json": "2f60afa5510fb6b8c8db88d94b89e9240f2ffed1caf372490d7098c55d4ecd3f",
+    "native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+    "check_native_drivetrain.py": "685598ffd4686fd9315b8626f61a3bd3fc98ea8e161895bf513caee291d1e689",
+    "check_detail_native.py": "1025fbfb9d88d1713b5a25f8efb516eb96edb9b8a8b70faab926d763d7bf9880"
+  },
+  "model_sha256": "632f650387c00755db398daa0e8138a63e295f7f2ebbcf4e7ff2d233ffd4976d",
+  "mass_kg": 2.6084381491651243,
+  "rotating_groups": [
+    {
+      "name": "left_hip_input",
+      "carrier": "chassis",
+      "output": "left_hip",
+      "ratio": 16,
+      "origin_m": [
+        -0.06014636003909517,
+        0.0,
+        0.034127307456489724
+      ],
+      "properties": {
+        "mass_kg": 0.04144391786616346,
+        "com_m": [
+          -0.06014499542150258,
+          0.03718041430245506,
+          0.03413105163666609
+        ],
+        "inertia_kg_m2": [
+          [
+            8.754145790407517e-06,
+            -7.903461214981878e-10,
+            1.5766965520334307e-10
+          ],
+          [
+            -7.903461214981878e-10,
+            4.390316933484491e-06,
+            -2.1553602025706366e-09
+          ],
+          [
+            1.5766965520334307e-10,
+            -2.1553602025706366e-09,
+            8.754457760304442e-06
+          ]
+        ]
+      },
+      "shaft_inertia_kg_m2": 4.390317591658103e-06,
+      "members": [
+        "left_hip_motor_rotor_envelope",
+        "left_rotor_M2x5_0",
+        "left_rotor_M2x5_1",
+        "left_rotor_M2x5_2",
+        "left_rotor_D6_adapter",
+        "left_drive_input_pinion",
+        "left_drive_input_pinion_set_screw"
+      ],
+      "prior": "Detailed CAD mass allocation with the retained unmeasured motor rotor prior; no extra actuator."
+    },
+    {
+      "name": "left_hip_intermediate",
+      "carrier": "chassis",
+      "output": "left_hip",
+      "ratio": -4,
+      "origin_m": [
+        -0.037435642774229644,
+        0.0,
+        0.01437298333959473
+      ],
+      "properties": {
+        "mass_kg": 0.06065563973680008,
+        "com_m": [
+          -0.03743573395547155,
+          0.05242544357803015,
+          0.014387359160326501
+        ],
+        "inertia_kg_m2": [
+          [
+            6.5211444149498014e-06,
+            -1.272120396234273e-11,
+            -3.0498133258844317e-11
+          ],
+          [
+            -1.272120396234273e-11,
+            9.339483072059008e-06,
+            2.1456559110398835e-09
+          ],
+          [
+            -3.0498133258844317e-11,
+            2.1456559110398835e-09,
+            6.525554170799987e-06
+          ]
+        ]
+      },
+      "shaft_inertia_kg_m2": 9.339495607913887e-06,
+      "members": [
+        "left_compound_M3x8_0",
+        "left_compound_M3x8_1",
+        "left_compound_M3x8_2",
+        "left_compound_M3x8_3",
+        "left_compound_flange_shaft",
+        "left_compound_60T_countersunk",
+        "left_compound_shim_0",
+        "left_compound_shim_1",
+        "left_compound_shim_2",
+        "left_compound_circlip_envelope_0",
+        "left_compound_circlip_envelope_1",
+        "left_drive_intermediate_20T",
+        "left_drive_intermediate_20T_set_screw"
+      ],
+      "prior": "Detailed CAD mass allocation with the retained unmeasured motor rotor prior; no extra actuator."
+    },
+    {
+      "name": "left_wheel_input",
+      "carrier": "left_lower",
+      "output": "left_wheel",
+      "ratio": -5,
+      "origin_m": [
+        0.11283223894272054,
+        0.0,
+        0.03
+      ],
+      "properties": {
+        "mass_kg": 0.02686417884024932,
+        "com_m": [
+          0.112832238866366,
+          0.09409168070222053,
+          0.030000000677951496
+        ],
+        "inertia_kg_m2": [
+          [
+            3.130103789918021e-06,
+            1.789960498035612e-14,
+            5.7046905842992e-16
+          ],
+          [
+            1.789960498035612e-14,
+            3.2917980577411395e-06,
+            -2.6474248244363426e-13
+          ],
+          [
+            5.7046905842992e-16,
+            -2.6474248244363426e-13,
+            3.1299872270311298e-06
+          ]
+        ]
+      },
+      "shaft_inertia_kg_m2": 3.2917980577411395e-06,
+      "members": [
+        "left_drive_pinion_20T",
+        "left_drive_pinion_grub_-1",
+        "left_drive_pinion_grub_1",
+        "left_drive_V2806_rotor",
+        "left_drive_rotor_M3x5_0",
+        "left_drive_rotor_M3x5_1",
+        "left_drive_rotor_M3x5_2",
+        "left_drive_rotor_M3x5_3",
+        "left_drive_pinion_flanged_shaft",
+        "left_drive_encoder_magnet"
+      ],
+      "prior": "Detailed CAD mass allocation with the retained unmeasured motor rotor prior; no extra actuator."
+    },
+    {
+      "name": "right_hip_input",
+      "carrier": "chassis",
+      "output": "right_hip",
+      "ratio": 16,
+      "origin_m": [
+        -0.06014636003909517,
+        0.0,
+        0.034127307456489724
+      ],
+      "properties": {
+        "mass_kg": 0.04144391786616346,
+        "com_m": [
+          -0.06014499566910504,
+          -0.03718041458645644,
+          0.0341310527435488
+        ],
+        "inertia_kg_m2": [
+          [
+            8.754145954210983e-06,
+            7.902125818063501e-10,
+            1.5763862693779824e-10
+          ],
+          [
+            7.902125818063501e-10,
+            4.390317102737153e-06,
+            2.156185613030367e-09
+          ],
+          [
+            1.5763862693779824e-10,
+            2.156185613030367e-09,
+            8.754458143103918e-06
+          ]
+        ]
+      },
+      "shaft_inertia_kg_m2": 4.3903177612263345e-06,
+      "members": [
+        "right_hip_motor_rotor_envelope",
+        "right_rotor_M2x5_0",
+        "right_rotor_M2x5_1",
+        "right_rotor_M2x5_2",
+        "right_rotor_D6_adapter",
+        "right_drive_input_pinion",
+        "right_drive_input_pinion_set_screw"
+      ],
+      "prior": "Detailed CAD mass allocation with the retained unmeasured motor rotor prior; no extra actuator."
+    },
+    {
+      "name": "right_hip_intermediate",
+      "carrier": "chassis",
+      "output": "right_hip",
+      "ratio": -4,
+      "origin_m": [
+        -0.037435642774229644,
+        0.0,
+        0.01437298333959473
+      ],
+      "properties": {
+        "mass_kg": 0.06065563973680008,
+        "com_m": [
+          -0.0374357341092448,
+          -0.052425443189855224,
+          0.014387359301914555
+        ],
+        "inertia_kg_m2": [
+          [
+            6.521144664172564e-06,
+            1.2677685157979711e-11,
+            -3.0513710380954234e-11
+          ],
+          [
+            1.2677685157979711e-11,
+            9.339483073543603e-06,
+            -2.145722746552689e-09
+          ],
+          [
+            -3.0513710380954234e-11,
+            -2.145722746552689e-09,
+            6.525554459541308e-06
+          ]
+        ]
+      },
+      "shaft_inertia_kg_m2": 9.339495609647118e-06,
+      "members": [
+        "right_compound_M3x8_0",
+        "right_compound_M3x8_1",
+        "right_compound_M3x8_2",
+        "right_compound_M3x8_3",
+        "right_compound_flange_shaft",
+        "right_compound_60T_countersunk",
+        "right_compound_shim_0",
+        "right_compound_shim_1",
+        "right_compound_shim_2",
+        "right_compound_circlip_envelope_0",
+        "right_compound_circlip_envelope_1",
+        "right_drive_intermediate_20T",
+        "right_drive_intermediate_20T_set_screw"
+      ],
+      "prior": "Detailed CAD mass allocation with the retained unmeasured motor rotor prior; no extra actuator."
+    },
+    {
+      "name": "right_wheel_input",
+      "carrier": "right_lower",
+      "output": "right_wheel",
+      "ratio": -5,
+      "origin_m": [
+        0.11283223894272054,
+        0.0,
+        0.03
+      ],
+      "properties": {
+        "mass_kg": 0.02686417884024931,
+        "com_m": [
+          0.11283223886636604,
+          -0.09409168070222053,
+          0.030000000677951506
+        ],
+        "inertia_kg_m2": [
+          [
+            3.1301037899182553e-06,
+            -1.7899371749304678e-14,
+            5.704887187647347e-16
+          ],
+          [
+            -1.7899371749304678e-14,
+            3.291798057741196e-06,
+            2.647425373999761e-13
+          ],
+          [
+            5.704887187647347e-16,
+            2.647425373999761e-13,
+            3.1299872270313695e-06
+          ]
+        ]
+      },
+      "shaft_inertia_kg_m2": 3.291798057741196e-06,
+      "members": [
+        "right_drive_pinion_20T",
+        "right_drive_pinion_grub_-1",
+        "right_drive_pinion_grub_1",
+        "right_drive_V2806_rotor",
+        "right_drive_rotor_M3x5_0",
+        "right_drive_rotor_M3x5_1",
+        "right_drive_rotor_M3x5_2",
+        "right_drive_rotor_M3x5_3",
+        "right_drive_pinion_flanged_shaft",
+        "right_drive_encoder_magnet"
+      ],
+      "prior": "Detailed CAD mass allocation with the retained unmeasured motor rotor prior; no extra actuator."
+    }
+  ],
+  "locked_CAD_pose_errors": {
+    "mass_kg": 1.3322676295501878e-15,
+    "com_m": 1.7985612998927536e-14,
+    "inertia_kg_m2": 1.3080751195757023e-10,
+    "closure_m": 4.3420998160653894e-13
+  },
+  "analytical_inertia_cases": [
+    {
+      "measured_extra_kinetic_J": 0.0001492996470524588,
+      "predicted_cross_term_J": 0.00014929897174444182,
+      "energy_error_J": 6.753080169716319e-10,
+      "angular_momentum_error_Nms": 4.113428587789842e-10
+    },
+    {
+      "measured_extra_kinetic_J": 0.002740934596936029,
+      "predicted_cross_term_J": 0.0027409351311534656,
+      "energy_error_J": 5.342174367803376e-10,
+      "angular_momentum_error_Nms": 5.168907254793736e-10
+    },
+    {
+      "measured_extra_kinetic_J": 0.0011573721241742163,
+      "predicted_cross_term_J": 0.0011573723962901264,
+      "energy_error_J": 2.721159101000403e-10,
+      "angular_momentum_error_Nms": 4.4471862356354774e-10
+    },
+    {
+      "measured_extra_kinetic_J": -0.0006839830962350746,
+      "predicted_cross_term_J": -0.0006839832282201132,
+      "energy_error_J": 1.319850385667759e-10,
+      "angular_momentum_error_Nms": 1.1694370967669418e-10
+    },
+    {
+      "measured_extra_kinetic_J": 0.005324473396874474,
+      "predicted_cross_term_J": 0.005324473308358283,
+      "energy_error_J": 8.851619090477492e-11,
+      "angular_momentum_error_Nms": 2.2053155352982583e-10
+    },
+    {
+      "measured_extra_kinetic_J": -0.0006057012808629025,
+      "predicted_cross_term_J": -0.0006057012711650355,
+      "energy_error_J": 9.697867075358912e-12,
+      "angular_momentum_error_Nms": 1.9191071562818522e-10
+    },
+    {
+      "measured_extra_kinetic_J": 0.0004689938732616028,
+      "predicted_cross_term_J": 0.00046899334264165074,
+      "energy_error_J": 5.306199520570265e-10,
+      "angular_momentum_error_Nms": 3.8627315885989046e-10
+    },
+    {
+      "measured_extra_kinetic_J": -0.0007929819341203626,
+      "predicted_cross_term_J": -0.0007929814824696201,
+      "energy_error_J": 4.516507424133509e-10,
+      "angular_momentum_error_Nms": 3.988323559584876e-10
+    },
+    {
+      "measured_extra_kinetic_J": 0.003212973627761073,
+      "predicted_cross_term_J": 0.003212973074658344,
+      "energy_error_J": 5.53102729415611e-10,
+      "angular_momentum_error_Nms": 3.8301106204728067e-10
+    },
+    {
+      "measured_extra_kinetic_J": 0.001140361435357562,
+      "predicted_cross_term_J": 0.0011403605145622752,
+      "energy_error_J": 9.20795286806636e-10,
+      "angular_momentum_error_Nms": 4.951133069627195e-10
+    },
+    {
+      "measured_extra_kinetic_J": -0.0004259745004411286,
+      "predicted_cross_term_J": -0.0004259746956202924,
+      "energy_error_J": 1.95179163792452e-10,
+      "angular_momentum_error_Nms": 2.3560406043245006e-10
+    },
+    {
+      "measured_extra_kinetic_J": 0.002067650642974428,
+      "predicted_cross_term_J": 0.0020676499781649487,
+      "energy_error_J": 6.648094791686376e-10,
+      "angular_momentum_error_Nms": 4.715717238927205e-10
+    }
+  ],
+  "free_flights": [
+    {
+      "powered_internal_pulse": false,
+      "timestep_s": 0.00025,
+      "maximum_energy_increase_J": 0.0,
+      "maximum_angular_momentum_drift_Nms": 6.284871822551489e-05,
+      "initial_angular_momentum_norm_Nms": 0.0063449941231468404,
+      "maximum_output_equivalent_gear_error_rad": 2.6264706098899637e-07,
+      "maximum_closure_error_m": 3.7711781442376626e-05,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true
+    },
+    {
+      "powered_internal_pulse": false,
+      "timestep_s": 0.000125,
+      "maximum_energy_increase_J": 0.0,
+      "maximum_angular_momentum_drift_Nms": 6.284534605521449e-05,
+      "initial_angular_momentum_norm_Nms": 0.0063449941231468404,
+      "maximum_output_equivalent_gear_error_rad": 2.6266120378704017e-07,
+      "maximum_closure_error_m": 3.7710488297980083e-05,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true
+    },
+    {
+      "powered_internal_pulse": true,
+      "timestep_s": 0.00025,
+      "maximum_energy_increase_J": 0.29697503678783477,
+      "maximum_angular_momentum_drift_Nms": 4.5452409204598535e-05,
+      "initial_angular_momentum_norm_Nms": 0.0063449941231468404,
+      "maximum_output_equivalent_gear_error_rad": 2.2539527078091481e-07,
+      "maximum_closure_error_m": 3.557726443847509e-05,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true
+    },
+    {
+      "powered_internal_pulse": true,
+      "timestep_s": 0.000125,
+      "maximum_energy_increase_J": 0.2969750127488311,
+      "maximum_angular_momentum_drift_Nms": 4.545310201544888e-05,
+      "initial_angular_momentum_norm_Nms": 0.0063449941231468404,
+      "maximum_output_equivalent_gear_error_rad": 2.254674553725522e-07,
+      "maximum_closure_error_m": 3.557596271455847e-05,
+      "warnings": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite": true
+    }
+  ],
+  "checks": {
+    "four_actuators": true,
+    "unchanged_mass": true,
+    "unchanged_locked_mass_distribution": true,
+    "unchanged_kinematics": true,
+    "analytical_kinetic_cross_terms": true,
+    "analytical_rotor_angular_momentum": true,
+    "passive_energy": true,
+    "free_flight_angular_momentum": true,
+    "gear_constraints": true,
+    "linkage_constraints": true,
+    "finite_no_warnings": true
+  },
+  "passed": true,
+  "hardware_release": false
+}

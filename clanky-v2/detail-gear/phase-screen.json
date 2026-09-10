@@ -1,0 +1,159 @@
+{
+  "status": "finite_tooth_profile_spacing_and_phase_screen",
+  "hardware_release": false,
+  "source_sha256": {
+    "detail_gear_sections.py": "b29dd113a1203e383a45b62c966a94bc0f49baf0ed679d386e83780ce89d4160",
+    "detail_gears.py": "2d3d06dc074f15fc7f8dfb9e8f6e53aa1abc03710b8f62ee37848c7d5d8a2d30",
+    "hip_gear_layout.py": "3c755de0a291d5552184f707ce2337c2d9370a638a86e5a591133674ed6c3359",
+    "hip_stock_gears.py": "580af351bd824a0d9514632ff080fb9a0f535cc9ff77679f4706c287b86c01f5",
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "hardware-references/hip-gears/2303-1006-0015.step": "222d32c757ac7b33ddfa17d63090af5297277b88a6a8105d40edb6ab669803f6",
+    "hardware-references/hip-gears/2303-1006-0020.step": "435d078a198b5dbdfd7e2b11870d60daf6a4b405be38f9629d66b1c0bf38ef4c",
+    "hardware-references/hip-gears/2302-0014-0060.step": "0ff5026d07e04967b1f2edb536bbf63a42f4df5e326c717b156aecc888d293f5",
+    "hardware-references/hip-gears/2302-0014-0080.step": "dd2ae620f2d89e71a8eb9177a3792f4c0ea7f2323838b2277d2b9634900b9a04",
+    "detail-gear/profiles.json": "3e0c0ed2a863dfd7091be159b986290eb29eeab2e7be2911b4956d5f2e6faea1",
+    "check_detail_gear_phase.py": "9a684c161e55e43c9839b2a1ef19d44efa0b8ed2b5657982d0a9a74e4079ddec"
+  },
+  "old_hub_overlap_area_mm2": 1.8833089585227496,
+  "cases": [
+    {
+      "stage": "first",
+      "center_spacing_error_mm": -0.15,
+      "pinion_phase_error_deg": 0,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 0.019177319815766185,
+      "passed": false
+    },
+    {
+      "stage": "first",
+      "center_spacing_error_mm": -0.1,
+      "pinion_phase_error_deg": 0,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 5.131227257591956e-05,
+      "passed": false
+    },
+    {
+      "stage": "first",
+      "center_spacing_error_mm": -0.05,
+      "pinion_phase_error_deg": 0,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "center_spacing_error_mm": 0,
+      "pinion_phase_error_deg": -0.1,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "center_spacing_error_mm": 0,
+      "pinion_phase_error_deg": 0,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "center_spacing_error_mm": 0,
+      "pinion_phase_error_deg": 0.1,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "center_spacing_error_mm": 0.05,
+      "pinion_phase_error_deg": 0,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "stage": "first",
+      "center_spacing_error_mm": 0.1,
+      "pinion_phase_error_deg": 0,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "center_spacing_error_mm": -0.15,
+      "pinion_phase_error_deg": 0,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 0.02270489685914505,
+      "passed": false
+    },
+    {
+      "stage": "second",
+      "center_spacing_error_mm": -0.1,
+      "pinion_phase_error_deg": 0,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 1.2005313102541375e-06,
+      "passed": false
+    },
+    {
+      "stage": "second",
+      "center_spacing_error_mm": -0.05,
+      "pinion_phase_error_deg": 0,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "center_spacing_error_mm": 0,
+      "pinion_phase_error_deg": -0.1,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "center_spacing_error_mm": 0,
+      "pinion_phase_error_deg": 0,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "center_spacing_error_mm": 0,
+      "pinion_phase_error_deg": 0.1,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "center_spacing_error_mm": 0.05,
+      "pinion_phase_error_deg": 0,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 0.0,
+      "passed": true
+    },
+    {
+      "stage": "second",
+      "center_spacing_error_mm": 0.1,
+      "pinion_phase_error_deg": 0,
+      "poses": 121,
+      "maximum_overlap_area_mm2": 0.0,
+      "passed": true
+    }
+  ],
+  "nominal_passed": true,
+  "approximate_added_circular_backlash_mm": 0.07279404685324047,
+  "sources": [
+    "https://www.gobilda.com/2303-series-steel-mod-0-8-pinion-gear-6mm-d-bore-15-tooth/",
+    "https://www.rexnord.com/contentitems/techlibrary/documents/mcb-11557-br"
+  ],
+  "limitations": [
+    "Sampled profile overlaps only. No strength, loaded contact, measured backlash, tolerance or physical manufacturing qualification.",
+    "Spacing errors are separate diagnostic perturbations. Combined radial/tangential, tilt, runout, gear and thermal errors remain open.",
+    "A measured negative spacing error larger than the allowance can bind. No universal FDM offset is implied."
+  ]
+}

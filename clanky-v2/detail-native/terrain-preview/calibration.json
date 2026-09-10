@@ -1,0 +1,1342 @@
+{
+  "status": "one_coasting_coefficient_from_existing_flat_stop_data",
+  "tau_s": 0.7534195799693871,
+  "fitting_rows": [
+    {
+      "time_s": 5.5,
+      "velocity_m_s": 0.20297442757647444,
+      "remaining_coast_m": 0.15830960404106986,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.51,
+      "velocity_m_s": 0.20069530443558303,
+      "remaining_coast_m": 0.15630265099671403,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.5200000000000005,
+      "velocity_m_s": 0.19824674507981088,
+      "remaining_coast_m": 0.15432018354591592,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.53,
+      "velocity_m_s": 0.19586661606270095,
+      "remaining_coast_m": 0.1523615173852889,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.54,
+      "velocity_m_s": 0.19359849825311137,
+      "remaining_coast_m": 0.1504255324027578,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.55,
+      "velocity_m_s": 0.19115247679056813,
+      "remaining_coast_m": 0.14851400763485212,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.5600000000000005,
+      "velocity_m_s": 0.18892962797900648,
+      "remaining_coast_m": 0.14662471135506205,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.57,
+      "velocity_m_s": 0.18657773382995124,
+      "remaining_coast_m": 0.14475893401676254,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.58,
+      "velocity_m_s": 0.18424119051538845,
+      "remaining_coast_m": 0.14291652211160866,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.59,
+      "velocity_m_s": 0.18216647362871985,
+      "remaining_coast_m": 0.14109485737532146,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.6000000000000005,
+      "velocity_m_s": 0.18001216345087112,
+      "remaining_coast_m": 0.13929473574081275,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.61,
+      "velocity_m_s": 0.17792303377699437,
+      "remaining_coast_m": 0.1375155054030428,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.62,
+      "velocity_m_s": 0.17576632753717458,
+      "remaining_coast_m": 0.13575784212767106,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.63,
+      "velocity_m_s": 0.17361565880390506,
+      "remaining_coast_m": 0.134021685539632,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.64,
+      "velocity_m_s": 0.17157491796085944,
+      "remaining_coast_m": 0.1323059363600234,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.65,
+      "velocity_m_s": 0.16950680894014525,
+      "remaining_coast_m": 0.13061086827062196,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.66,
+      "velocity_m_s": 0.16732868627999942,
+      "remaining_coast_m": 0.12893758140782197,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.67,
+      "velocity_m_s": 0.16534906409260142,
+      "remaining_coast_m": 0.12728409076689595,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.68,
+      "velocity_m_s": 0.1634068493305718,
+      "remaining_coast_m": 0.12565002227359023,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.69,
+      "velocity_m_s": 0.16146070995400885,
+      "remaining_coast_m": 0.12403541517405015,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.7,
+      "velocity_m_s": 0.1595678949495749,
+      "remaining_coast_m": 0.1224397362245544,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.71,
+      "velocity_m_s": 0.15770009478154323,
+      "remaining_coast_m": 0.12086273527673896,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.72,
+      "velocity_m_s": 0.1557939594061808,
+      "remaining_coast_m": 0.11930479568267716,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.73,
+      "velocity_m_s": 0.1539230990958429,
+      "remaining_coast_m": 0.11776556469171873,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.74,
+      "velocity_m_s": 0.15212731432596716,
+      "remaining_coast_m": 0.11624429154845906,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.75,
+      "velocity_m_s": 0.15029583541705804,
+      "remaining_coast_m": 0.11474133319428848,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.76,
+      "velocity_m_s": 0.14853558632258457,
+      "remaining_coast_m": 0.11325597733106263,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.7700000000000005,
+      "velocity_m_s": 0.14677472257811353,
+      "remaining_coast_m": 0.1117882301052815,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.78,
+      "velocity_m_s": 0.14489065653080502,
+      "remaining_coast_m": 0.11033932353997344,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.79,
+      "velocity_m_s": 0.14312942139829143,
+      "remaining_coast_m": 0.10890802932599053,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.8,
+      "velocity_m_s": 0.14143482060562373,
+      "remaining_coast_m": 0.10749368111993429,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.8100000000000005,
+      "velocity_m_s": 0.13976281608123475,
+      "remaining_coast_m": 0.10609605295912194,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.82,
+      "velocity_m_s": 0.13801130430393105,
+      "remaining_coast_m": 0.10471593991608263,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.83,
+      "velocity_m_s": 0.13640227725141285,
+      "remaining_coast_m": 0.1033519171435685,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.84,
+      "velocity_m_s": 0.13480944603553313,
+      "remaining_coast_m": 0.10200382268321317,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.8500000000000005,
+      "velocity_m_s": 0.13311169984769888,
+      "remaining_coast_m": 0.10067270568473619,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.86,
+      "velocity_m_s": 0.1314663485694645,
+      "remaining_coast_m": 0.09935804219904154,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.87,
+      "velocity_m_s": 0.12990349143827684,
+      "remaining_coast_m": 0.09805900728465877,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.88,
+      "velocity_m_s": 0.1284614280993912,
+      "remaining_coast_m": 0.09677439300366486,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.89,
+      "velocity_m_s": 0.12686581615830583,
+      "remaining_coast_m": 0.0955057348420818,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.9,
+      "velocity_m_s": 0.12532507938853854,
+      "remaining_coast_m": 0.09425248404819642,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.91,
+      "velocity_m_s": 0.12379107351221386,
+      "remaining_coast_m": 0.09301457331307428,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.92,
+      "velocity_m_s": 0.12237018135741184,
+      "remaining_coast_m": 0.09179087149950016,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.93,
+      "velocity_m_s": 0.1207825057241374,
+      "remaining_coast_m": 0.09058304644225879,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.94,
+      "velocity_m_s": 0.11931513552119188,
+      "remaining_coast_m": 0.08938989508704687,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.95,
+      "velocity_m_s": 0.11788675015182992,
+      "remaining_coast_m": 0.08821102758552857,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.96,
+      "velocity_m_s": 0.11653629862569126,
+      "remaining_coast_m": 0.08704566459927165,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.97,
+      "velocity_m_s": 0.11504791037691975,
+      "remaining_coast_m": 0.08589518549550246,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.98,
+      "velocity_m_s": 0.1135867280767866,
+      "remaining_coast_m": 0.08475931821473459,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 5.99,
+      "velocity_m_s": 0.11224398409659386,
+      "remaining_coast_m": 0.08363687837376865,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.0,
+      "velocity_m_s": 0.11091936272613623,
+      "remaining_coast_m": 0.08252768474650729,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.01,
+      "velocity_m_s": 0.1096448057032351,
+      "remaining_coast_m": 0.08143123668947494,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.0200000000000005,
+      "velocity_m_s": 0.10821050043311464,
+      "remaining_coast_m": 0.0803491316851438,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.03,
+      "velocity_m_s": 0.1069342068675816,
+      "remaining_coast_m": 0.07927978961646798,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.04,
+      "velocity_m_s": 0.10564731102030711,
+      "remaining_coast_m": 0.0782233165062649,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.05,
+      "velocity_m_s": 0.10442945052409058,
+      "remaining_coast_m": 0.077179022001024,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.0600000000000005,
+      "velocity_m_s": 0.10313121101016565,
+      "remaining_coast_m": 0.07614770989092234,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.07,
+      "velocity_m_s": 0.10179246624864025,
+      "remaining_coast_m": 0.07512978522843594,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.08,
+      "velocity_m_s": 0.10058492078510728,
+      "remaining_coast_m": 0.07412393602058487,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.09,
+      "velocity_m_s": 0.09937856615519491,
+      "remaining_coast_m": 0.07313015035903292,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.1000000000000005,
+      "velocity_m_s": 0.09825579110049887,
+      "remaining_coast_m": 0.07214759244802793,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.11,
+      "velocity_m_s": 0.09701828057129269,
+      "remaining_coast_m": 0.071177409642315,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.12,
+      "velocity_m_s": 0.09573982858959162,
+      "remaining_coast_m": 0.07022001135641909,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.13,
+      "velocity_m_s": 0.09460269834804524,
+      "remaining_coast_m": 0.06927398437293864,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.140000000000001,
+      "velocity_m_s": 0.09348268951993033,
+      "remaining_coast_m": 0.06833915747773933,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.15,
+      "velocity_m_s": 0.09236248735239316,
+      "remaining_coast_m": 0.0674155326042154,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.16,
+      "velocity_m_s": 0.09130677370690066,
+      "remaining_coast_m": 0.0665024648671464,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.17,
+      "velocity_m_s": 0.0900436035411678,
+      "remaining_coast_m": 0.06560202883173472,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.18,
+      "velocity_m_s": 0.08896228474175594,
+      "remaining_coast_m": 0.06471240598431716,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.19,
+      "velocity_m_s": 0.08789847033612297,
+      "remaining_coast_m": 0.06383342128095593,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.2,
+      "velocity_m_s": 0.0868120600366229,
+      "remaining_coast_m": 0.0629653006805897,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.21,
+      "velocity_m_s": 0.0858838684792862,
+      "remaining_coast_m": 0.062106461995796836,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.22,
+      "velocity_m_s": 0.08477622955235242,
+      "remaining_coast_m": 0.06125869970027331,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.23,
+      "velocity_m_s": 0.08360004717896663,
+      "remaining_coast_m": 0.060422699228483645,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.24,
+      "velocity_m_s": 0.08255161151903279,
+      "remaining_coast_m": 0.05959718311329332,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.25,
+      "velocity_m_s": 0.08159077009315396,
+      "remaining_coast_m": 0.05878127541236178,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.26,
+      "velocity_m_s": 0.08059002371305635,
+      "remaining_coast_m": 0.057975375175231214,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.2700000000000005,
+      "velocity_m_s": 0.0797503259326593,
+      "remaining_coast_m": 0.05717787191590462,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.28,
+      "velocity_m_s": 0.07876052195083805,
+      "remaining_coast_m": 0.05639026669639624,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.29,
+      "velocity_m_s": 0.07763467704035021,
+      "remaining_coast_m": 0.05561391992599274,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.3,
+      "velocity_m_s": 0.07665951787445557,
+      "remaining_coast_m": 0.05484732474724818,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.3100000000000005,
+      "velocity_m_s": 0.07574432701202838,
+      "remaining_coast_m": 0.0540898814771279,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.32,
+      "velocity_m_s": 0.07483698426743457,
+      "remaining_coast_m": 0.05334151163445355,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.33,
+      "velocity_m_s": 0.07394440637749078,
+      "remaining_coast_m": 0.052602067570678646,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.34,
+      "velocity_m_s": 0.07322790861934436,
+      "remaining_coast_m": 0.0518697884844852,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.3500000000000005,
+      "velocity_m_s": 0.07213199955198313,
+      "remaining_coast_m": 0.05114846848896537,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.36,
+      "velocity_m_s": 0.0711600538386925,
+      "remaining_coast_m": 0.050436867950578446,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.37,
+      "velocity_m_s": 0.07025612090292288,
+      "remaining_coast_m": 0.04973430674154922,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.38,
+      "velocity_m_s": 0.06943835785750974,
+      "remaining_coast_m": 0.04903992316297412,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.390000000000001,
+      "velocity_m_s": 0.06859792207337678,
+      "remaining_coast_m": 0.04835394394224035,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.4,
+      "velocity_m_s": 0.06778311717734464,
+      "remaining_coast_m": 0.047676112770466905,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.41,
+      "velocity_m_s": 0.0671632735933847,
+      "remaining_coast_m": 0.04700448003453306,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.42,
+      "velocity_m_s": 0.0661989062183066,
+      "remaining_coast_m": 0.04634249097234999,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.43,
+      "velocity_m_s": 0.0652078606102946,
+      "remaining_coast_m": 0.045690412366247046,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.44,
+      "velocity_m_s": 0.06436493273591637,
+      "remaining_coast_m": 0.04504676303888788,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.45,
+      "velocity_m_s": 0.06357397220616567,
+      "remaining_coast_m": 0.044411023316826226,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.46,
+      "velocity_m_s": 0.06287403901956701,
+      "remaining_coast_m": 0.043782282926630556,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.47,
+      "velocity_m_s": 0.06206685498573172,
+      "remaining_coast_m": 0.04316161437677324,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.48,
+      "velocity_m_s": 0.06140226756323752,
+      "remaining_coast_m": 0.04254759170114086,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 6.49,
+      "velocity_m_s": 0.06086026484279916,
+      "remaining_coast_m": 0.04193898905271287,
+      "terminal_world_x_m": 1.0014790135004124
+    },
+    {
+      "time_s": 15.0,
+      "velocity_m_s": 0.20532822991898847,
+      "remaining_coast_m": 0.1586063326645153,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.01,
+      "velocity_m_s": 0.20291498947466735,
+      "remaining_coast_m": 0.15657718276976862,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.02,
+      "velocity_m_s": 0.2004510648543345,
+      "remaining_coast_m": 0.15457267212122527,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.030000000000001,
+      "velocity_m_s": 0.19818499270352063,
+      "remaining_coast_m": 0.15259082219419007,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.040000000000001,
+      "velocity_m_s": 0.1953478211553783,
+      "remaining_coast_m": 0.15063734398263628,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.05,
+      "velocity_m_s": 0.1926638782999479,
+      "remaining_coast_m": 0.1487107051996368,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.06,
+      "velocity_m_s": 0.19058390908774925,
+      "remaining_coast_m": 0.1468048661087593,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.07,
+      "velocity_m_s": 0.18837782687470828,
+      "remaining_coast_m": 0.14492108784001223,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.08,
+      "velocity_m_s": 0.18631506804998033,
+      "remaining_coast_m": 0.14305793715951243,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.09,
+      "velocity_m_s": 0.18413167111472895,
+      "remaining_coast_m": 0.14121662044836514,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.1,
+      "velocity_m_s": 0.18203659281170737,
+      "remaining_coast_m": 0.13939625452024806,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.11,
+      "velocity_m_s": 0.17986723827396744,
+      "remaining_coast_m": 0.1375975821375084,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.120000000000001,
+      "velocity_m_s": 0.17762921327895143,
+      "remaining_coast_m": 0.13582129000471888,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.13,
+      "velocity_m_s": 0.17551434463802806,
+      "remaining_coast_m": 0.1340661465583386,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.14,
+      "velocity_m_s": 0.17340707625326246,
+      "remaining_coast_m": 0.13233207579580597,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.15,
+      "velocity_m_s": 0.17124008162738846,
+      "remaining_coast_m": 0.13061967497953209,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.16,
+      "velocity_m_s": 0.1691937433974111,
+      "remaining_coast_m": 0.12892773754555797,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.17,
+      "velocity_m_s": 0.16714745294690303,
+      "remaining_coast_m": 0.12725626301608894,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.18,
+      "velocity_m_s": 0.16507932052096663,
+      "remaining_coast_m": 0.12560546981087928,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.19,
+      "velocity_m_s": 0.16311496113039503,
+      "remaining_coast_m": 0.12397432019957533,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.200000000000001,
+      "velocity_m_s": 0.16113377460604816,
+      "remaining_coast_m": 0.12236298245351485,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.21,
+      "velocity_m_s": 0.1591271490081425,
+      "remaining_coast_m": 0.12077171096343342,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.22,
+      "velocity_m_s": 0.1572571581657023,
+      "remaining_coast_m": 0.1191991393817764,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.23,
+      "velocity_m_s": 0.15539302636273788,
+      "remaining_coast_m": 0.11764520911814902,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.24,
+      "velocity_m_s": 0.15346927864161586,
+      "remaining_coast_m": 0.11611051633173286,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.25,
+      "velocity_m_s": 0.15166512847670788,
+      "remaining_coast_m": 0.11459386504696578,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.26,
+      "velocity_m_s": 0.14986735647113392,
+      "remaining_coast_m": 0.11309519148225444,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.27,
+      "velocity_m_s": 0.14800707248765477,
+      "remaining_coast_m": 0.1116151207573779,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.280000000000001,
+      "velocity_m_s": 0.14624399048832615,
+      "remaining_coast_m": 0.11015268085249463,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.290000000000001,
+      "velocity_m_s": 0.14447354687634473,
+      "remaining_coast_m": 0.10870794538373119,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.3,
+      "velocity_m_s": 0.14267111457639814,
+      "remaining_coast_m": 0.1072812342379672,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.31,
+      "velocity_m_s": 0.14088803563199193,
+      "remaining_coast_m": 0.10587235388164729,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.32,
+      "velocity_m_s": 0.13919692156849628,
+      "remaining_coast_m": 0.10448038466596232,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.33,
+      "velocity_m_s": 0.137562890089038,
+      "remaining_coast_m": 0.10310475576507194,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.34,
+      "velocity_m_s": 0.13586523583435373,
+      "remaining_coast_m": 0.1017461034067284,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.35,
+      "velocity_m_s": 0.13425457704285826,
+      "remaining_coast_m": 0.10040355763629982,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.36,
+      "velocity_m_s": 0.13264084172681656,
+      "remaining_coast_m": 0.09907714921903166,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.370000000000001,
+      "velocity_m_s": 0.1310339330518051,
+      "remaining_coast_m": 0.0977668098885136,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.38,
+      "velocity_m_s": 0.12936364468987271,
+      "remaining_coast_m": 0.09647317344161488,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.39,
+      "velocity_m_s": 0.12782575182330724,
+      "remaining_coast_m": 0.0951949159233818,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.4,
+      "velocity_m_s": 0.12630301244689335,
+      "remaining_coast_m": 0.09393188579891287,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.41,
+      "velocity_m_s": 0.12473688318506149,
+      "remaining_coast_m": 0.09268451696706226,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.42,
+      "velocity_m_s": 0.1231256992138885,
+      "remaining_coast_m": 0.09145325997492337,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.43,
+      "velocity_m_s": 0.12164515456891678,
+      "remaining_coast_m": 0.0902368084292342,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.44,
+      "velocity_m_s": 0.12020095621001481,
+      "remaining_coast_m": 0.08903479886713406,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.450000000000001,
+      "velocity_m_s": 0.11874778524703089,
+      "remaining_coast_m": 0.08784732101466375,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.46,
+      "velocity_m_s": 0.11721282699932445,
+      "remaining_coast_m": 0.0866751927446705,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.47,
+      "velocity_m_s": 0.11581086128717999,
+      "remaining_coast_m": 0.0855170841317987,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.48,
+      "velocity_m_s": 0.11443872528205112,
+      "remaining_coast_m": 0.08437269687897819,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.49,
+      "velocity_m_s": 0.11309617088874901,
+      "remaining_coast_m": 0.0832417351700907,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.5,
+      "velocity_m_s": 0.11160542179906585,
+      "remaining_coast_m": 0.08212568095210004,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.51,
+      "velocity_m_s": 0.11024854765815384,
+      "remaining_coast_m": 0.0810231954755185,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.52,
+      "velocity_m_s": 0.10891596095330414,
+      "remaining_coast_m": 0.07993403586598546,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.530000000000001,
+      "velocity_m_s": 0.1076134171269949,
+      "remaining_coast_m": 0.07885790169471552,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.540000000000001,
+      "velocity_m_s": 0.10630524142909437,
+      "remaining_coast_m": 0.07779484928042457,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.55,
+      "velocity_m_s": 0.10490994690255384,
+      "remaining_coast_m": 0.07674574981139903,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.56,
+      "velocity_m_s": 0.10362421001466338,
+      "remaining_coast_m": 0.0757095077112524,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.57,
+      "velocity_m_s": 0.10240954457723106,
+      "remaining_coast_m": 0.07468541226548009,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.58,
+      "velocity_m_s": 0.10121694307683171,
+      "remaining_coast_m": 0.07367324283471177,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.59,
+      "velocity_m_s": 0.0999197188583878,
+      "remaining_coast_m": 0.0726740456461279,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.6,
+      "velocity_m_s": 0.0986243469257797,
+      "remaining_coast_m": 0.0716878021768701,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.610000000000001,
+      "velocity_m_s": 0.09743529836843123,
+      "remaining_coast_m": 0.07071344919318578,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.620000000000001,
+      "velocity_m_s": 0.09630153480473247,
+      "remaining_coast_m": 0.06975043384513846,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.63,
+      "velocity_m_s": 0.09515451029322719,
+      "remaining_coast_m": 0.06879888874220619,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.64,
+      "velocity_m_s": 0.09396842007762807,
+      "remaining_coast_m": 0.06785920454142991,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.65,
+      "velocity_m_s": 0.09269933589837187,
+      "remaining_coast_m": 0.06693221118244619,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.66,
+      "velocity_m_s": 0.09156825543179536,
+      "remaining_coast_m": 0.06601652862812823,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.67,
+      "velocity_m_s": 0.09051372280217684,
+      "remaining_coast_m": 0.06511139140010647,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.68,
+      "velocity_m_s": 0.08938190208098717,
+      "remaining_coast_m": 0.0642175723792966,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.69,
+      "velocity_m_s": 0.08836838614478815,
+      "remaining_coast_m": 0.06333388851784871,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.700000000000001,
+      "velocity_m_s": 0.08710516585588302,
+      "remaining_coast_m": 0.06246283685928988,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.71,
+      "velocity_m_s": 0.08604145928003959,
+      "remaining_coast_m": 0.06160242226648949,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.72,
+      "velocity_m_s": 0.08502358787811914,
+      "remaining_coast_m": 0.060752186387708296,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.73,
+      "velocity_m_s": 0.08406831800367165,
+      "remaining_coast_m": 0.05991150320767158,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.74,
+      "velocity_m_s": 0.08302309693686283,
+      "remaining_coast_m": 0.05908127223830295,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.75,
+      "velocity_m_s": 0.08206387691731543,
+      "remaining_coast_m": 0.0582606334691298,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.76,
+      "velocity_m_s": 0.08085643603084058,
+      "remaining_coast_m": 0.05745206910882139,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.77,
+      "velocity_m_s": 0.07982632102461196,
+      "remaining_coast_m": 0.05665380589857527,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.780000000000001,
+      "velocity_m_s": 0.07883304000539937,
+      "remaining_coast_m": 0.05586547549852128,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.790000000000001,
+      "velocity_m_s": 0.07796071053518538,
+      "remaining_coast_m": 0.055085868393169424,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.8,
+      "velocity_m_s": 0.07697191580535723,
+      "remaining_coast_m": 0.05431614923511585,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.81,
+      "velocity_m_s": 0.07608622284385191,
+      "remaining_coast_m": 0.05355528700667733,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.82,
+      "velocity_m_s": 0.07497450239766223,
+      "remaining_coast_m": 0.05280554198270071,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.83,
+      "velocity_m_s": 0.07391109283112485,
+      "remaining_coast_m": 0.05206643105438946,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.84,
+      "velocity_m_s": 0.07298902258772166,
+      "remaining_coast_m": 0.051336540828512245,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.85,
+      "velocity_m_s": 0.07213330741566715,
+      "remaining_coast_m": 0.05061520775435557,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.860000000000001,
+      "velocity_m_s": 0.07133061239059657,
+      "remaining_coast_m": 0.04990190163044961,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.870000000000001,
+      "velocity_m_s": 0.070464428178596,
+      "remaining_coast_m": 0.04919725734866365,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.88,
+      "velocity_m_s": 0.0696785755087248,
+      "remaining_coast_m": 0.0485004715935764,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.89,
+      "velocity_m_s": 0.06859988116247884,
+      "remaining_coast_m": 0.04781447278195161,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.9,
+      "velocity_m_s": 0.06762728004270357,
+      "remaining_coast_m": 0.047138199981524576,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.91,
+      "velocity_m_s": 0.06680673301535656,
+      "remaining_coast_m": 0.04647013265137101,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.92,
+      "velocity_m_s": 0.0660218614832786,
+      "remaining_coast_m": 0.045809914036538224,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.93,
+      "velocity_m_s": 0.06533030175415178,
+      "remaining_coast_m": 0.045156611018996706,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.94,
+      "velocity_m_s": 0.0644824940886135,
+      "remaining_coast_m": 0.04451178607811057,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.950000000000001,
+      "velocity_m_s": 0.06375660452424547,
+      "remaining_coast_m": 0.043874220032868116,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.96,
+      "velocity_m_s": 0.06300409808059904,
+      "remaining_coast_m": 0.043244179052062126,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.97,
+      "velocity_m_s": 0.06196514740426373,
+      "remaining_coast_m": 0.04262452757801949,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.98,
+      "velocity_m_s": 0.06115086943516701,
+      "remaining_coast_m": 0.04201301888366782,
+      "terminal_world_x_m": 2.673106296873576
+    },
+    {
+      "time_s": 15.99,
+      "velocity_m_s": 0.06037611644060803,
+      "remaining_coast_m": 0.04140925771926174,
+      "terminal_world_x_m": 2.673106296873576
+    }
+  ],
+  "fitting_rms_error_m": 0.0026799193501472946,
+  "fitting_maximum_error_m": 0.005384696071875694,
+  "checks": [
+    {
+      "directory": "detail-native/terrain-navigation/evaluate/slope+0-250us",
+      "stop_start_s": 5.5,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.002650764303285258,
+      "maximum_stop_prediction_error_m": 0.00538469607187575
+    },
+    {
+      "directory": "detail-native/terrain-navigation/evaluate/slope+0-250us",
+      "stop_start_s": 15.0,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.002708760612349565,
+      "maximum_stop_prediction_error_m": 0.004224342060172859
+    },
+    {
+      "directory": "detail-native/terrain-navigation/evaluate/slope+0-125us",
+      "stop_start_s": 5.5,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.0026957095411076783,
+      "maximum_stop_prediction_error_m": 0.005085031152812003
+    },
+    {
+      "directory": "detail-native/terrain-navigation/evaluate/slope+0-125us",
+      "stop_start_s": 15.0,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.002766849808173967,
+      "maximum_stop_prediction_error_m": 0.004438776906776631
+    },
+    {
+      "directory": "detail-native/terrain-navigation/evaluate/slope-9-250us",
+      "stop_start_s": 5.5,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.03410552852840493,
+      "maximum_stop_prediction_error_m": 0.03911068378543914
+    },
+    {
+      "directory": "detail-native/terrain-navigation/evaluate/slope-9-250us",
+      "stop_start_s": 15.0,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.023267505181108893,
+      "maximum_stop_prediction_error_m": 0.026604002214898337
+    },
+    {
+      "directory": "detail-native/terrain-navigation/evaluate/slope-9-125us",
+      "stop_start_s": 5.5,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.03484228615705918,
+      "maximum_stop_prediction_error_m": 0.040224788338415696
+    },
+    {
+      "directory": "detail-native/terrain-navigation/evaluate/slope-9-125us",
+      "stop_start_s": 15.0,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.023662015731122595,
+      "maximum_stop_prediction_error_m": 0.026941453340363797
+    },
+    {
+      "directory": "detail-native/terrain-progress/pilot/slope+0-250us",
+      "stop_start_s": 5.5,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.004030351057192364,
+      "maximum_stop_prediction_error_m": 0.007831764506820216
+    },
+    {
+      "directory": "detail-native/terrain-progress/pilot/slope+0-250us",
+      "stop_start_s": 15.0,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.0028553786182598934,
+      "maximum_stop_prediction_error_m": 0.004535696816616586
+    },
+    {
+      "directory": "detail-native/terrain-progress/pilot/slope+0-125us",
+      "stop_start_s": 5.5,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.003959243134903753,
+      "maximum_stop_prediction_error_m": 0.006075186022174162
+    },
+    {
+      "directory": "detail-native/terrain-progress/pilot/slope+0-125us",
+      "stop_start_s": 15.0,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.00297175011667375,
+      "maximum_stop_prediction_error_m": 0.004619153611256532
+    },
+    {
+      "directory": "detail-native/terrain-progress/pilot/slope-9-250us",
+      "stop_start_s": 5.5,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.03888558551678928,
+      "maximum_stop_prediction_error_m": 0.04427292796337379
+    },
+    {
+      "directory": "detail-native/terrain-progress/pilot/slope-9-250us",
+      "stop_start_s": 15.0,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.004539199035495303,
+      "maximum_stop_prediction_error_m": 0.008262975841383913
+    },
+    {
+      "directory": "detail-native/terrain-progress/pilot/slope-9-125us",
+      "stop_start_s": 5.5,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.03979016117421122,
+      "maximum_stop_prediction_error_m": 0.04550573027853688
+    },
+    {
+      "directory": "detail-native/terrain-progress/pilot/slope-9-125us",
+      "stop_start_s": 15.0,
+      "samples": 100,
+      "rms_stop_prediction_error_m": 0.004618002897599647,
+      "maximum_stop_prediction_error_m": 0.008551659074907292
+    }
+  ],
+  "source_sha256": {
+    "detail-native/terrain-navigation/evaluate/slope+0-250us/recording.npz": "0cdee66b3a99183d2bc0c9ec943850f7fe0f2e701b765e7c739434d8529038ca",
+    "detail-native/terrain-navigation/evaluate/slope+0-250us/report.json": "c48ffc3de6be894c55595ee0ad6672b16e60a36ef2663b72598b8550617a3df9",
+    "detail-native/terrain-navigation/evaluate/slope+0-125us/recording.npz": "388e2d569e707664c81695f986c526738ef392f279341a05b61cd46a07fc7adc",
+    "detail-native/terrain-navigation/evaluate/slope+0-125us/report.json": "ae712f4b1ab7a996cee9b5eafa82f92bcaaaa1c4f2afcc20948baf9c318f838b",
+    "detail-native/terrain-navigation/evaluate/slope-9-250us/recording.npz": "ceaa461b4dc4b05ff813317ff356ddec18f495d72d93d21f6683e2bb6dc79ae3",
+    "detail-native/terrain-navigation/evaluate/slope-9-250us/report.json": "47ca151a6e8729155bda7e41c67efa5e875ad3c779de40e0557dfc138ab77666",
+    "detail-native/terrain-navigation/evaluate/slope-9-125us/recording.npz": "0f0babf1c1068d68ea3b62d873525955077f265d804871f8a70670f74fba4954",
+    "detail-native/terrain-navigation/evaluate/slope-9-125us/report.json": "b243d271b0ab01b40a9887720dee26d41589dce5e27d2b2939b5723e7bcef8d7",
+    "detail-native/terrain-progress/pilot/slope+0-250us/recording.npz": "a6bdabb05fdb7ef48a069b5e95ddc58214466545fa1d8ee46777207ef16ab69a",
+    "detail-native/terrain-progress/pilot/slope+0-250us/report.json": "255365b01edd40fe0bc46e27090673b056388ca668e5a6ff6a53ee8237576e8f",
+    "detail-native/terrain-progress/pilot/slope+0-125us/recording.npz": "9875f3067a3f2435ab290931506feb3a8e1484e5236450b04e3dc059f009deeb",
+    "detail-native/terrain-progress/pilot/slope+0-125us/report.json": "af3a7596809a316384bd423aacdbc1f422e1a5f3533a2f6e2811558a5fc6624e",
+    "detail-native/terrain-progress/pilot/slope-9-250us/recording.npz": "a88d56f3631f80c0fd538c9ccf1bcab7e4b082360be9d48502a49286258494f0",
+    "detail-native/terrain-progress/pilot/slope-9-250us/report.json": "486f294e03afcf72ca1baed30a64ffd795d686bcf04ecf16cc589776238e1939",
+    "detail-native/terrain-progress/pilot/slope-9-125us/recording.npz": "beda5aceeda2627e483ba022036fabfc3d2812d49c0f740992956918b4b81145",
+    "detail-native/terrain-progress/pilot/slope-9-125us/report.json": "965c2fd43b33f27d36da1e49cb598da76a4c8de2e9fef160e86b480aaaf92ed1"
+  },
+  "method": "Single no-intercept least-squares fit of remaining coast to backward-difference wheel-midpoint velocity, from the old flat 250us trial's first second after each zero command. Terminal positions average the last second of each stop.",
+  "scope": "A local stopping predictor for an external navigator, not an identified motor or terrain-independent dynamics model. Original flat/valley records are development evidence."
+}

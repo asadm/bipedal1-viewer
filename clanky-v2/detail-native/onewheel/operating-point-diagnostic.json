@@ -1,0 +1,1219 @@
+{
+  "status": "reference_load_and_motor_discontinuity_identified",
+  "cases": [
+    {
+      "directory": "left-low-effort-250us-roll+0",
+      "original_hold_passed": false,
+      "initial_grounded": [
+        true,
+        false
+      ],
+      "initial_body_contact": false,
+      "initial_wheel_clearance_m": [
+        -2.0000000000124085e-05,
+        0.2720753158565232
+      ],
+      "initial_tire_normal_N": [
+        12.294123840088414,
+        0.0
+      ],
+      "total_weight_N": 25.588778243309868,
+      "reference_root_qacc": [
+        1.504701434211696,
+        -2.726959307647343,
+        -5.837845799910053,
+        -30.125252003584595,
+        19.224706379033496,
+        -41.9130927538212
+      ],
+      "root_qacc_coordinates": "World linear acceleration xyz, body angular acceleration xyz; all initial velocities zero.",
+      "static_projected_force_residual_N": 0.0,
+      "static_projected_moment_residual_Nm": 1.2212453270876722e-15,
+      "stored_open_loop_spectral_radius": 5.642445273544662,
+      "stored_one_ms_affine_drift": [
+        -2.2963963824673694e-06,
+        -1.201035639072788e-05,
+        6.749525691057197e-06,
+        -1.6406487551463796e-05,
+        -4.543620630625966e-05,
+        -6.613810508149243e-07,
+        0.0010804570429750605,
+        -0.0018006813871269778,
+        -0.004012289666579518,
+        -0.02110459233589238,
+        0.011325546778060799,
+        -0.028601065868200652,
+        -0.08660225299542096,
+        -4.815317623655736e-05,
+        -0.07876143591492962,
+        -0.0014624377052613981,
+        -0.005809660380192525,
+        2.134288080039549e-06,
+        -0.03676025373030334,
+        -0.3457324297057882
+      ],
+      "zero_speed_torque_probes": [
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 0.0001,
+          "requested_torque_Nm": -0.21009066831622603,
+          "initial_current_A": -1.5125442295563087,
+          "samples": [
+            {
+              "output_speed_rad_s": -0.0001,
+              "output_torque_Nm": -0.2100847205401235,
+              "final_current_A": -1.51258140864171
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": -0.21009066831622603,
+              "final_current_A": -1.5125442295563087
+            },
+            {
+              "output_speed_rad_s": 0.0001,
+              "output_torque_Nm": -0.27335501678970325,
+              "final_current_A": -1.259449498434404
+            }
+          ],
+          "maximum_jump_fraction": 0.3011287887296949
+        },
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 1e-06,
+          "requested_torque_Nm": -0.21009066831622603,
+          "initial_current_A": -1.5125442295563087,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-06,
+              "output_torque_Nm": -0.21009060883846453,
+              "final_current_A": -1.512544601347166
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": -0.21009066831622603,
+              "final_current_A": -1.5125442295563087
+            },
+            {
+              "output_speed_rad_s": 1e-06,
+              "output_torque_Nm": -0.27334581632354543,
+              "final_current_A": -1.259486305728948
+            }
+          ],
+          "maximum_jump_fraction": 0.3010849958938133
+        },
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 1e-08,
+          "requested_torque_Nm": -0.21009066831622603,
+          "initial_current_A": -1.5125442295563087,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-08,
+              "output_torque_Nm": -0.21009066772144844,
+              "final_current_A": -1.5125442332742174
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": -0.21009066831622603,
+              "final_current_A": -1.5125442295563087
+            },
+            {
+              "output_speed_rad_s": 1e-08,
+              "output_torque_Nm": -0.2733457243188831,
+              "final_current_A": -1.2594866738018966
+            }
+          ],
+          "maximum_jump_fraction": 0.3010845579654509
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 0.0001,
+          "requested_torque_Nm": 0.15733493086370492,
+          "initial_current_A": 1.1327301859373349,
+          "samples": [
+            {
+              "output_speed_rad_s": -0.0001,
+              "output_torque_Nm": 0.2047153416795144,
+              "final_current_A": 0.9431805797969969
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.15733493086370492,
+              "final_current_A": 1.1327301859373349
+            },
+            {
+              "output_speed_rad_s": 0.0001,
+              "output_torque_Nm": 0.1573289830876024,
+              "final_current_A": 1.1327673650227361
+            }
+          ],
+          "maximum_jump_fraction": 0.3011436211635284
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 1e-06,
+          "requested_torque_Nm": 0.15733493086370492,
+          "initial_current_A": 1.1327301859373349,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-06,
+              "output_torque_Nm": 0.20470614121335665,
+              "final_current_A": 0.943217387091541
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.15733493086370492,
+              "final_current_A": 1.1327301859373349
+            },
+            {
+              "output_speed_rad_s": 1e-06,
+              "output_torque_Nm": 0.15733487138594338,
+              "final_current_A": 1.132730557728192
+            }
+          ],
+          "maximum_jump_fraction": 0.30108514421815297
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 1e-08,
+          "requested_torque_Nm": 0.15733493086370492,
+          "initial_current_A": 1.1327301859373349,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-08,
+              "output_torque_Nm": 0.20470604920869426,
+              "final_current_A": 0.9432177551644896
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.15733493086370492,
+              "final_current_A": 1.1327301859373349
+            },
+            {
+              "output_speed_rad_s": 1e-08,
+              "output_torque_Nm": 0.1573349302689273,
+              "final_current_A": 1.1327301896552435
+            }
+          ],
+          "maximum_jump_fraction": 0.30108455944869406
+        }
+      ]
+    },
+    {
+      "directory": "left-low-tilt-250us-roll+0",
+      "original_hold_passed": false,
+      "initial_grounded": [
+        true,
+        false
+      ],
+      "initial_body_contact": false,
+      "initial_wheel_clearance_m": [
+        -2.0000000000124085e-05,
+        0.4012004393236152
+      ],
+      "initial_tire_normal_N": [
+        25.863571701993767,
+        0.0
+      ],
+      "total_weight_N": 25.588778243309868,
+      "reference_root_qacc": [
+        3.1348549051426393,
+        0.6813071024764907,
+        1.404449396301631,
+        -1.0560501000970304,
+        -96.71228670074856,
+        -13.853198442715637
+      ],
+      "root_qacc_coordinates": "World linear acceleration xyz, body angular acceleration xyz; all initial velocities zero.",
+      "static_projected_force_residual_N": 0.0,
+      "static_projected_moment_residual_Nm": 1.033895191682177e-15,
+      "stored_open_loop_spectral_radius": 2.254907606884107,
+      "stored_one_ms_affine_drift": [
+        4.319661816021281e-07,
+        -4.674765162093988e-07,
+        -2.8666233500924738e-05,
+        -4.052629998807422e-06,
+        4.171606139702355e-05,
+        1.558984609228986e-05,
+        0.0013846385515170743,
+        0.0002815682254278778,
+        0.0006598418638834401,
+        -0.0008685286944967587,
+        -0.042659323802560684,
+        -0.005983841846943386,
+        -0.049157759915821955,
+        -0.0006183013459434148,
+        0.06063831451867041,
+        0.022987984920694884,
+        -0.0037798923965607118,
+        -5.774095904879967e-05,
+        0.0336386277645353,
+        0.01259413289492528
+      ],
+      "zero_speed_torque_probes": [
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 0.0001,
+          "requested_torque_Nm": 2.761124329162707,
+          "initial_current_A": 19.87866812283368,
+          "samples": [
+            {
+              "output_speed_rad_s": -0.0001,
+              "output_torque_Nm": 3.592465508482587,
+              "final_current_A": 16.552812766261987
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 2.7611243291627066,
+              "final_current_A": 19.87866812283368
+            },
+            {
+              "output_speed_rad_s": 0.0001,
+              "output_torque_Nm": 2.7611183813866043,
+              "final_current_A": 19.878705301919084
+            }
+          ],
+          "maximum_jump_fraction": 0.3010879193447905
+        },
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 1e-06,
+          "requested_torque_Nm": 2.761124329162707,
+          "initial_current_A": 19.87866812283368,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-06,
+              "output_torque_Nm": 3.5924563080164296,
+              "final_current_A": 16.552849573556532
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 2.7611243291627066,
+              "final_current_A": 19.87866812283368
+            },
+            {
+              "output_speed_rad_s": 1e-06,
+              "output_torque_Nm": 2.761124269684945,
+              "final_current_A": 19.878668494624538
+            }
+          ],
+          "maximum_jump_fraction": 0.3010845871999609
+        },
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 1e-08,
+          "requested_torque_Nm": 2.761124329162707,
+          "initial_current_A": 19.87866812283368,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-08,
+              "output_torque_Nm": 3.592456216011767,
+              "final_current_A": 16.552849941629482
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 2.7611243291627066,
+              "final_current_A": 19.87866812283368
+            },
+            {
+              "output_speed_rad_s": 1e-08,
+              "output_torque_Nm": 2.761124328567929,
+              "final_current_A": 19.878668126551588
+            }
+          ],
+          "maximum_jump_fraction": 0.30108455387851224
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 0.0001,
+          "requested_torque_Nm": 0.13434525020443555,
+          "initial_current_A": 0.9672163670742315,
+          "samples": [
+            {
+              "output_speed_rad_s": -0.0001,
+              "output_torque_Nm": 0.17480382328287736,
+              "final_current_A": 0.8053581969998634
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.13434525020443552,
+              "final_current_A": 0.9672163670742315
+            },
+            {
+              "output_speed_rad_s": 0.0001,
+              "output_torque_Nm": 0.13433930242833303,
+              "final_current_A": 0.9672535461596328
+            }
+          ],
+          "maximum_jump_fraction": 0.30115372904419974
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 1e-06,
+          "requested_torque_Nm": 0.13434525020443555,
+          "initial_current_A": 0.9672163670742315,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-06,
+              "output_torque_Nm": 0.17479462281671954,
+              "final_current_A": 0.8053950042944075
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.13434525020443552,
+              "final_current_A": 0.9672163670742315
+            },
+            {
+              "output_speed_rad_s": 1e-06,
+              "output_torque_Nm": 0.13434519072667403,
+              "final_current_A": 0.9672167388650887
+            }
+          ],
+          "maximum_jump_fraction": 0.3010852452969603
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 1e-08,
+          "requested_torque_Nm": 0.13434525020443555,
+          "initial_current_A": 0.9672163670742315,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-08,
+              "output_torque_Nm": 0.1747945308120572,
+              "final_current_A": 0.8053953723673561
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.13434525020443552,
+              "final_current_A": 0.9672163670742315
+            },
+            {
+              "output_speed_rad_s": 1e-08,
+              "output_torque_Nm": 0.13434524960965796,
+              "final_current_A": 0.9672163707921402
+            }
+          ],
+          "maximum_jump_fraction": 0.3010845604594823
+        }
+      ]
+    },
+    {
+      "directory": "left-ride-250us-roll+0",
+      "original_hold_passed": false,
+      "initial_grounded": [
+        true,
+        false
+      ],
+      "initial_body_contact": false,
+      "initial_wheel_clearance_m": [
+        -2.0000000000124085e-05,
+        0.14505801867153625
+      ],
+      "initial_tire_normal_N": [
+        25.132368630187234,
+        0.0
+      ],
+      "total_weight_N": 25.588778243309868,
+      "reference_root_qacc": [
+        -0.31515897402147913,
+        0.1290414476717759,
+        -0.19639767106880032,
+        -1.8683959615966008,
+        8.21242395325522,
+        -22.765135597102713
+      ],
+      "root_qacc_coordinates": "World linear acceleration xyz, body angular acceleration xyz; all initial velocities zero.",
+      "static_projected_force_residual_N": 0.0,
+      "static_projected_moment_residual_Nm": 2.7200464103316335e-15,
+      "stored_open_loop_spectral_radius": 26.4664030171123,
+      "stored_one_ms_affine_drift": [
+        -4.7673559711025604e-08,
+        -9.48357151500386e-07,
+        2.255777838377107e-06,
+        -6.545299544032369e-06,
+        2.9457001232691127e-06,
+        -8.846357982705833e-06,
+        -0.00012023263524142012,
+        5.160893484452153e-05,
+        -4.92930063312424e-05,
+        -0.0018286384831103202,
+        0.0031814642333753275,
+        -0.00953244616039063,
+        -0.029398968697474853,
+        0.01463675920957922,
+        0.003376717104952391,
+        -0.012234220555113938,
+        -0.002321112866694007,
+        0.0012625307470810134,
+        0.002359811858097416,
+        -0.007143801661635862
+      ],
+      "zero_speed_torque_probes": [
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 0.0001,
+          "requested_torque_Nm": 0.6714574889996331,
+          "initial_current_A": 4.8341468877145966,
+          "samples": [
+            {
+              "output_speed_rad_s": -0.0001,
+              "output_torque_Nm": 0.8736322606976343,
+              "final_current_A": 4.0253284818158885
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.671457488999633,
+              "final_current_A": 4.8341468877145966
+            },
+            {
+              "output_speed_rad_s": 0.0001,
+              "output_torque_Nm": 0.6714515412235306,
+              "final_current_A": 4.834184066799998
+            }
+          ],
+          "maximum_jump_fraction": 0.30109839418011425
+        },
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 1e-06,
+          "requested_torque_Nm": 0.6714574889996331,
+          "initial_current_A": 4.8341468877145966,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-06,
+              "output_torque_Nm": 0.8736230602314766,
+              "final_current_A": 4.025365289110433
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.671457488999633,
+              "final_current_A": 4.8341468877145966
+            },
+            {
+              "output_speed_rad_s": 1e-06,
+              "output_torque_Nm": 0.6714574295218716,
+              "final_current_A": 4.834147259505454
+            }
+          ],
+          "maximum_jump_fraction": 0.30108469194831483
+        },
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 1e-08,
+          "requested_torque_Nm": 0.6714574889996331,
+          "initial_current_A": 4.8341468877145966,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-08,
+              "output_torque_Nm": 0.8736229682268144,
+              "final_current_A": 4.025365657183382
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.671457488999633,
+              "final_current_A": 4.8341468877145966
+            },
+            {
+              "output_speed_rad_s": 1e-08,
+              "output_torque_Nm": 0.6714574884048554,
+              "final_current_A": 4.834146891432505
+            }
+          ],
+          "maximum_jump_fraction": 0.3010845549259959
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 0.0001,
+          "requested_torque_Nm": -1.515705435019954,
+          "initial_current_A": -10.912295761731855,
+          "samples": [
+            {
+              "output_speed_rad_s": -0.0001,
+              "output_torque_Nm": -1.5156994872438516,
+              "final_current_A": -10.912332940817256
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": -1.515705435019954,
+              "final_current_A": -10.912295761731855
+            },
+            {
+              "output_speed_rad_s": 0.0001,
+              "output_torque_Nm": -1.9720702226241769,
+              "final_current_A": -9.08656727484766
+            }
+          ],
+          "maximum_jump_fraction": 0.30109068494447605
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 1e-06,
+          "requested_torque_Nm": -1.515705435019954,
+          "initial_current_A": -10.912295761731855,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-06,
+              "output_torque_Nm": -1.5157053755421925,
+              "final_current_A": -10.912296133522712
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": -1.515705435019954,
+              "final_current_A": -10.912295761731855
+            },
+            {
+              "output_speed_rad_s": 1e-06,
+              "output_torque_Nm": -1.972061022158019,
+              "final_current_A": -9.086604082142204
+            }
+          ],
+          "maximum_jump_fraction": 0.301084614855958
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 1e-08,
+          "requested_torque_Nm": -1.515705435019954,
+          "initial_current_A": -10.912295761731855,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-08,
+              "output_torque_Nm": -1.5157054344251764,
+              "final_current_A": -10.912295765449764
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": -1.515705435019954,
+              "final_current_A": -10.912295761731855
+            },
+            {
+              "output_speed_rad_s": 1e-08,
+              "output_torque_Nm": -1.9720609301533567,
+              "final_current_A": -9.086604450215152
+            }
+          ],
+          "maximum_jump_fraction": 0.30108455415507235
+        }
+      ]
+    },
+    {
+      "directory": "right-low-effort-250us-roll+0",
+      "original_hold_passed": false,
+      "initial_grounded": [
+        false,
+        true
+      ],
+      "initial_body_contact": false,
+      "initial_wheel_clearance_m": [
+        0.2721142210080955,
+        -2.0000000000006124e-05
+      ],
+      "initial_tire_normal_N": [
+        0.0,
+        12.301318602078464
+      ],
+      "total_weight_N": 25.588778243309868,
+      "reference_root_qacc": [
+        1.5070902474039312,
+        2.7326659981433563,
+        -5.8403609803686996,
+        30.146615285665266,
+        19.548264450285536,
+        42.03545468064277
+      ],
+      "root_qacc_coordinates": "World linear acceleration xyz, body angular acceleration xyz; all initial velocities zero.",
+      "static_projected_force_residual_N": 0.0,
+      "static_projected_moment_residual_Nm": 4.884981308350689e-15,
+      "stored_open_loop_spectral_radius": 5.648129864395074,
+      "stored_one_ms_affine_drift": [
+        -2.2965468256530563e-06,
+        1.2014005751427152e-05,
+        6.867855107830338e-06,
+        1.645020607641699e-05,
+        -7.066908973563102e-07,
+        -4.5498916140918055e-05,
+        0.0010814749580527513,
+        0.001803539303762819,
+        -0.004011720298760622,
+        0.02110600195472494,
+        0.01153015976261946,
+        0.02867245234353097,
+        -5.022266368765986e-05,
+        -0.08666954947328075,
+        -0.0015409518684886216,
+        -0.07885525042648807,
+        1.9885518144212526e-06,
+        -0.005815132862537891,
+        -0.34662719092749084,
+        -0.036810123661236815
+      ],
+      "zero_speed_torque_probes": [
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 0.0001,
+          "requested_torque_Nm": 0.15772636438603546,
+          "initial_current_A": 1.1355483049913655,
+          "samples": [
+            {
+              "output_speed_rad_s": -0.0001,
+              "output_torque_Nm": 0.2052246297891572,
+              "final_current_A": 0.9455272109465914
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.1577263643860355,
+              "final_current_A": 1.1355483049913655
+            },
+            {
+              "output_speed_rad_s": 0.0001,
+              "output_torque_Nm": 0.15772041660993297,
+              "final_current_A": 1.1355854840767667
+            }
+          ],
+          "maximum_jump_fraction": 0.3011434745739126
+        },
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 1e-06,
+          "requested_torque_Nm": 0.15772636438603546,
+          "initial_current_A": 1.1355483049913655,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-06,
+              "output_torque_Nm": 0.2052154293229994,
+              "final_current_A": 0.9455640182411355
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.1577263643860355,
+              "final_current_A": 1.1355483049913655
+            },
+            {
+              "output_speed_rad_s": 1e-06,
+              "output_torque_Nm": 0.1577263049082739,
+              "final_current_A": 1.1355486767822225
+            }
+          ],
+          "maximum_jump_fraction": 0.30108514275225673
+        },
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 1e-08,
+          "requested_torque_Nm": 0.15772636438603546,
+          "initial_current_A": 1.1355483049913655,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-08,
+              "output_torque_Nm": 0.20521533731833708,
+              "final_current_A": 0.945564386314084
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.1577263643860355,
+              "final_current_A": 1.1355483049913655
+            },
+            {
+              "output_speed_rad_s": 1e-08,
+              "output_torque_Nm": 0.15772636379125782,
+              "final_current_A": 1.135548308709274
+            }
+          ],
+          "maximum_jump_fraction": 0.3010845594340354
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 0.0001,
+          "requested_torque_Nm": -0.20995463179193313,
+          "initial_current_A": -1.5115648368899082,
+          "samples": [
+            {
+              "output_speed_rad_s": -0.0001,
+              "output_torque_Nm": -0.20994868401583058,
+              "final_current_A": -1.5116020159753092
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": -0.2099546317919331,
+              "final_current_A": -1.5115648368899082
+            },
+            {
+              "output_speed_rad_s": 0.0001,
+              "output_torque_Nm": -0.2731780217692282,
+              "final_current_A": -1.258633963925536
+            }
+          ],
+          "maximum_jump_fraction": 0.30112881739113034
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 1e-06,
+          "requested_torque_Nm": -0.20995463179193313,
+          "initial_current_A": -1.5115648368899082,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-06,
+              "output_torque_Nm": -0.20995457231417158,
+              "final_current_A": -1.5115652086807652
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": -0.2099546317919331,
+              "final_current_A": -1.5115648368899082
+            },
+            {
+              "output_speed_rad_s": 1e-06,
+              "output_torque_Nm": -0.2731688213030704,
+              "final_current_A": -1.2586707712200802
+            }
+          ],
+          "maximum_jump_fraction": 0.3010849961804276
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 1e-08,
+          "requested_torque_Nm": -0.20995463179193313,
+          "initial_current_A": -1.5115648368899082,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-08,
+              "output_torque_Nm": -0.20995463119715552,
+              "final_current_A": -1.5115648406078166
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": -0.2099546317919331,
+              "final_current_A": -1.5115648368899082
+            },
+            {
+              "output_speed_rad_s": 1e-08,
+              "output_torque_Nm": -0.2731687292984081,
+              "final_current_A": -1.2586711392930288
+            }
+          ],
+          "maximum_jump_fraction": 0.301084557968317
+        }
+      ]
+    },
+    {
+      "directory": "right-low-tilt-250us-roll+0",
+      "original_hold_passed": false,
+      "initial_grounded": [
+        false,
+        true
+      ],
+      "initial_body_contact": false,
+      "initial_wheel_clearance_m": [
+        0.40124186458780164,
+        -2.0000000000193474e-05
+      ],
+      "initial_tire_normal_N": [
+        0.0,
+        25.87102854506929
+      ],
+      "total_weight_N": 25.588778243309868,
+      "reference_root_qacc": [
+        3.1376801068153615,
+        -0.6757317488700012,
+        1.4058070336186863,
+        1.0192889313756965,
+        -96.63913154792208,
+        13.890608755032606
+      ],
+      "root_qacc_coordinates": "World linear acceleration xyz, body angular acceleration xyz; all initial velocities zero.",
+      "static_projected_force_residual_N": 0.0,
+      "static_projected_moment_residual_Nm": 1.5543122344752192e-15,
+      "stored_open_loop_spectral_radius": 2.2572528520042745,
+      "stored_one_ms_affine_drift": [
+        4.3230670743188426e-07,
+        4.573901967615473e-07,
+        -2.8644505025232343e-05,
+        4.064237922778788e-06,
+        1.557749261671404e-05,
+        4.1710322121968346e-05,
+        0.0013858913231531835,
+        -0.00027898365345144124,
+        0.0006603557099862752,
+        0.0008542373073741867,
+        -0.0426268375059015,
+        0.006001637097982633,
+        -0.0006136997337650295,
+        -0.04915281069380554,
+        0.022969682866088772,
+        0.06063008719503374,
+        -5.727097524925011e-05,
+        -0.0037793300419296117,
+        0.01258415788740741,
+        0.033634014719400085
+      ],
+      "zero_speed_torque_probes": [
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 0.0001,
+          "requested_torque_Nm": 0.13448606675194583,
+          "initial_current_A": 0.9682301734373115,
+          "samples": [
+            {
+              "output_speed_rad_s": -0.0001,
+              "output_torque_Nm": 0.17498703751772607,
+              "final_current_A": 0.8062023875914064
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.13448606675194583,
+              "final_current_A": 0.9682301734373115
+            },
+            {
+              "output_speed_rad_s": 0.0001,
+              "output_torque_Nm": 0.1344801189758433,
+              "final_current_A": 0.9682673525227128
+            }
+          ],
+          "maximum_jump_fraction": 0.30115365661249255
+        },
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 1e-06,
+          "requested_torque_Nm": 0.13448606675194583,
+          "initial_current_A": 0.9682301734373115,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-06,
+              "output_torque_Nm": 0.17497783705156827,
+              "final_current_A": 0.8062391948859504
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.13448606675194583,
+              "final_current_A": 0.9682301734373115
+            },
+            {
+              "output_speed_rad_s": 1e-06,
+              "output_torque_Nm": 0.1344860072741843,
+              "final_current_A": 0.9682305452281686
+            }
+          ],
+          "maximum_jump_fraction": 0.30108524457264335
+        },
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 1e-08,
+          "requested_torque_Nm": 0.13448606675194583,
+          "initial_current_A": 0.9682301734373115,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-08,
+              "output_torque_Nm": 0.1749777450469059,
+              "final_current_A": 0.806239562958899
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.13448606675194583,
+              "final_current_A": 0.9682301734373115
+            },
+            {
+              "output_speed_rad_s": 1e-08,
+              "output_torque_Nm": 0.1344860661571682,
+              "final_current_A": 0.9682301771552201
+            }
+          ],
+          "maximum_jump_fraction": 0.301084560452239
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 0.0001,
+          "requested_torque_Nm": 2.7602200644867927,
+          "initial_current_A": 19.872157884523205,
+          "samples": [
+            {
+              "output_speed_rad_s": -0.0001,
+              "output_torque_Nm": 3.591288983680441,
+              "final_current_A": 16.54739172913838
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 2.7602200644867927,
+              "final_current_A": 19.872157884523205
+            },
+            {
+              "output_speed_rad_s": 0.0001,
+              "output_torque_Nm": 2.7602141167106904,
+              "final_current_A": 19.872195063608608
+            }
+          ],
+          "maximum_jump_fraction": 0.3010879204474477
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 1e-06,
+          "requested_torque_Nm": 2.7602200644867927,
+          "initial_current_A": 19.872157884523205,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-06,
+              "output_torque_Nm": 3.5912797832142833,
+              "final_current_A": 16.547428536432925
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 2.7602200644867927,
+              "final_current_A": 19.872157884523205
+            },
+            {
+              "output_speed_rad_s": 1e-06,
+              "output_torque_Nm": 2.760220005009031,
+              "final_current_A": 19.872158256314062
+            }
+          ],
+          "maximum_jump_fraction": 0.30108458721098724
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 1e-08,
+          "requested_torque_Nm": 2.7602200644867927,
+          "initial_current_A": 19.872157884523205,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-08,
+              "output_torque_Nm": 3.591279691209621,
+              "final_current_A": 16.547428904505875
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 2.7602200644867927,
+              "final_current_A": 19.872157884523205
+            },
+            {
+              "output_speed_rad_s": 1e-08,
+              "output_torque_Nm": 2.7602200638920147,
+              "final_current_A": 19.872157888241112
+            }
+          ],
+          "maximum_jump_fraction": 0.3010845538786225
+        }
+      ]
+    },
+    {
+      "directory": "right-ride-250us-roll+0",
+      "original_hold_passed": false,
+      "initial_grounded": [
+        false,
+        true
+      ],
+      "initial_body_contact": false,
+      "initial_wheel_clearance_m": [
+        0.14520625810612636,
+        -1.999999999996449e-05
+      ],
+      "initial_tire_normal_N": [
+        0.0,
+        25.132271044441506
+      ],
+      "total_weight_N": 25.588778243309868,
+      "reference_root_qacc": [
+        -0.30965831186755827,
+        -0.12883178169431597,
+        -0.19802577105748784,
+        1.8809476153984943,
+        8.282711052174152,
+        22.742736817058578
+      ],
+      "root_qacc_coordinates": "World linear acceleration xyz, body angular acceleration xyz; all initial velocities zero.",
+      "static_projected_force_residual_N": 0.0,
+      "static_projected_moment_residual_Nm": 2.3314683517128287e-15,
+      "stored_open_loop_spectral_radius": 26.45349462871972,
+      "stored_one_ms_affine_drift": [
+        -4.822050120312227e-08,
+        9.521465478636702e-07,
+        2.2771813762921715e-06,
+        6.539022789101542e-06,
+        -8.850762455048233e-06,
+        2.9241807236179973e-06,
+        -0.0001178611881808567,
+        -5.128988725618102e-05,
+        -5.0148553728117166e-05,
+        0.0018342784315464875,
+        0.0032138664589997463,
+        0.00952350075795272,
+        0.014610222159932813,
+        -0.029406986211461324,
+        -0.012241616199306986,
+        0.0033449632327897287,
+        0.0012604410320354166,
+        -0.002321461913279078,
+        -0.007147383062607204,
+        0.0023423968636357984
+      ],
+      "zero_speed_torque_probes": [
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 0.0001,
+          "requested_torque_Nm": -1.515459392872281,
+          "initial_current_A": -10.910524385431932,
+          "samples": [
+            {
+              "output_speed_rad_s": -0.0001,
+              "output_torque_Nm": -1.5154534450961787,
+              "final_current_A": -10.910561564517334
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": -1.5154593928722813,
+              "final_current_A": -10.910524385431932
+            },
+            {
+              "output_speed_rad_s": 0.0001,
+              "output_torque_Nm": -1.9717501009863192,
+              "final_current_A": -9.085092260228562
+            }
+          ],
+          "maximum_jump_fraction": 0.3010906859399387
+        },
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 1e-06,
+          "requested_torque_Nm": -1.515459392872281,
+          "initial_current_A": -10.910524385431932,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-06,
+              "output_torque_Nm": -1.5154593333945197,
+              "final_current_A": -10.91052475722279
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": -1.5154593928722813,
+              "final_current_A": -10.910524385431932
+            },
+            {
+              "output_speed_rad_s": 1e-06,
+              "output_torque_Nm": -1.9717409005201614,
+              "final_current_A": -9.085129067523106
+            }
+          ],
+          "maximum_jump_fraction": 0.30108461486591254
+        },
+        {
+          "joint": "left_hip",
+          "epsilon_rad_s": 1e-08,
+          "requested_torque_Nm": -1.515459392872281,
+          "initial_current_A": -10.910524385431932,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-08,
+              "output_torque_Nm": -1.5154593922775037,
+              "final_current_A": -10.910524389149842
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": -1.5154593928722813,
+              "final_current_A": -10.910524385431932
+            },
+            {
+              "output_speed_rad_s": 1e-08,
+              "output_torque_Nm": -1.971740808515499,
+              "final_current_A": -9.085129435596054
+            }
+          ],
+          "maximum_jump_fraction": 0.30108455415517177
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 0.0001,
+          "requested_torque_Nm": 0.6702485248929485,
+          "initial_current_A": 4.825442970982064,
+          "samples": [
+            {
+              "output_speed_rad_s": -0.0001,
+              "output_torque_Nm": 0.8720592961726404,
+              "final_current_A": 4.018080781581641
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.6702485248929485,
+              "final_current_A": 4.825442970982064
+            },
+            {
+              "output_speed_rad_s": 0.0001,
+              "output_torque_Nm": 0.6702425771168459,
+              "final_current_A": 4.825480150067466
+            }
+          ],
+          "maximum_jump_fraction": 0.30109841914523416
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 1e-06,
+          "requested_torque_Nm": 0.6702485248929485,
+          "initial_current_A": 4.825442970982064,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-06,
+              "output_torque_Nm": 0.8720500957064827,
+              "final_current_A": 4.018117588876185
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.6702485248929485,
+              "final_current_A": 4.825442970982064
+            },
+            {
+              "output_speed_rad_s": 1e-06,
+              "output_torque_Nm": 0.670248465415187,
+              "final_current_A": 4.825443342772922
+            }
+          ],
+          "maximum_jump_fraction": 0.30108469219796613
+        },
+        {
+          "joint": "right_hip",
+          "epsilon_rad_s": 1e-08,
+          "requested_torque_Nm": 0.6702485248929485,
+          "initial_current_A": 4.825442970982064,
+          "samples": [
+            {
+              "output_speed_rad_s": -1e-08,
+              "output_torque_Nm": 0.8720500037018203,
+              "final_current_A": 4.018117956949133
+            },
+            {
+              "output_speed_rad_s": 0.0,
+              "output_torque_Nm": 0.6702485248929485,
+              "final_current_A": 4.825442970982064
+            },
+            {
+              "output_speed_rad_s": 1e-08,
+              "output_torque_Nm": 0.6702485242981708,
+              "final_current_A": 4.825442974699973
+            }
+          ],
+          "maximum_jump_fraction": 0.3010845549284921
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "diagnose_detail_onewheel_operating_point.py": "aebd8b93378fb6547d6d7a98e0da6551bab8056e5b124a2aa4a7c69c12144249",
+    "native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+    "native_trial.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486",
+    "detail-native/onewheel/hold-summary.json": "ac167d0b57f2334397d570f449c91d4006685d3591fe825016087b3cc009a619",
+    "detail-native/baseline-jump-250us/model.xml": "632f650387c00755db398daa0e8138a63e295f7f2ebbcf4e7ff2d233ffd4976d",
+    "detail-native/onewheel/left-low-effort-250us-roll+0/report.json": "47268a276de43f10a0e9a0f546806354ef01d348c3a5e99b5898779fd2665597",
+    "detail-native/onewheel/left-low-effort-250us-roll+0/controller.json": "6c8d75e09fc9d7ae0f36b8e1cd7d23f6be235f5c584490939a071dd9aa5b8c0a",
+    "detail-native/onewheel/left-low-tilt-250us-roll+0/report.json": "16bcd42bf9fbcca7929ba04e83c37bb6094b12620cf0225f26e7302c29ee4a48",
+    "detail-native/onewheel/left-low-tilt-250us-roll+0/controller.json": "e1cec3be55815bda43f4d975c81833cf7a1f923f170663d0c6ecdd81ec903a5e",
+    "detail-native/onewheel/left-ride-250us-roll+0/report.json": "d6c6865d22997a3c9b25330e045bbe335ff29a1923c29230f34140718165f990",
+    "detail-native/onewheel/left-ride-250us-roll+0/controller.json": "b713642b47765b1ed93ce37cb1bb1f2327dd8a3f0d32cadae971b316d0f719a9",
+    "detail-native/onewheel/right-low-effort-250us-roll+0/report.json": "d6f6bb7948eb2e372cdd23480f296b4cfb02f96d97c95de5c126b6cf918b6607",
+    "detail-native/onewheel/right-low-effort-250us-roll+0/controller.json": "e27c22f899db686f429a751825d443f06202d9bdad25f6874ec437aad7c21bcb",
+    "detail-native/onewheel/right-low-tilt-250us-roll+0/report.json": "083258cb6d24c202d90d6fea2499b0af5e496a5bbd992db45ab5b81d9811f0d7",
+    "detail-native/onewheel/right-low-tilt-250us-roll+0/controller.json": "14b03d73559128db6c866e9ee77f503725ef7a932d412a2648b52b001ae9d152",
+    "detail-native/onewheel/right-ride-250us-roll+0/report.json": "9e0a0186735c2f092505166f556fb07881a385d0c37d77e80e0781fdf0bb057a",
+    "detail-native/onewheel/right-ride-250us-roll+0/controller.json": "38dc08c7dae0b5cd126f5e5509439f0d8a144554c6550fb763263577e6884fef"
+  },
+  "findings": [
+    "All six prescribed references have nonzero native acceleration under their declared zero-speed static torques. The low-effort pair carries only about 12.3 N of tire normal load against 25.6 N weight.",
+    "Each hip's first motor update changes output torque by about 30% when an arbitrarily small speed opposes the requested torque. The motoring/regeneration efficiency branch and current lag create this discontinuity.",
+    "A linear controller fitted at this zero-speed non-equilibrium point cannot be justified by the stable eigenvalues of its sampled linear matrix alone."
+  ],
+  "next_gate": "Before another hold or training attempt, establish a loaded native equilibrium and finite-amplitude predictions with the full drive/guide state. Treat zero-speed actuator switching explicitly; do not smooth the plant merely to obtain a passing controller.",
+  "scope": "Instantaneous forward dynamics and isolated motor algebra on the six existing references. No physical trajectory, redesigned hardware, learned policy, identified friction or one-wheel skill success is produced."
+}

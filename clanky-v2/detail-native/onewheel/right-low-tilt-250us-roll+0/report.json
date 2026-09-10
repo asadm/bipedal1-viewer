@@ -1,0 +1,77 @@
+{
+  "case": {
+    "name": "low-tilt",
+    "support": "right",
+    "support_hip_rad": 1.03,
+    "other_hip_rad": -2.12
+  },
+  "timestep_s": 0.00025,
+  "initial_roll_perturbation_deg": 0,
+  "status": "programmed_onewheel_hold_attempt",
+  "passed": false,
+  "checks": {
+    "completed": false,
+    "one_wheel_for_last_two_seconds": false,
+    "no_body_contact": false,
+    "no_other_wheel_touch": true,
+    "constraints": true,
+    "no_motor_envelope_errors": true,
+    "finite": true,
+    "no_MuJoCo_warnings": true
+  },
+  "elapsed_s": 0.27174999999999777,
+  "stop_reason": "body_contact",
+  "longest_onewheel_contact_s": 0.02700000000000002,
+  "max_loop_error_m": 0.00036524721115313276,
+  "max_gear_error_rad": 2.3053500086689382e-06,
+  "peak_current_A": [
+    7.999999999999998,
+    7.999999999999998,
+    31.999999999999996,
+    31.999999999999996
+  ],
+  "peak_voltage_V": [
+    11.1,
+    11.1,
+    11.1,
+    8.889907661524749
+  ],
+  "motor_copper_J": [
+    2.3595479160260027,
+    2.6480515094121118,
+    21.212177176089003,
+    24.319198971620274
+  ],
+  "model_sha256": "632f650387c00755db398daa0e8138a63e295f7f2ebbcf4e7ff2d233ffd4976d",
+  "source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+    "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+    "detail/manifest.json": "60bee91d5ffd9a083f2a5a8d630d3307473e87e70862f095b3919dda1aed4ca5",
+    "detail/parts.json": "86f31e6d8bbaf15a7bee35f2cd0a64becd03607178027916f487d5331bf5d423",
+    "detail_cad.py": "377f1be10e8399c915e15e6a1e6c6a825b95a11adc528c06385b6e157cd68f31",
+    "detail_mass.py": "f8a080a5b58a7c64f528c72d8577ee8a0b0ab6a3bcfb459c0951acfe204d6d9c",
+    "native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+    "native_drivetrain.py": "3994d8475929f8ae1e6fcf68a487f852c3812ec96937c796d41b499fc0304b77",
+    "native/mass-properties.json": "0d5c5d21f94f9282dd107cc92a867e4c4f888601783eda00580f5f71d0e970c7",
+    "detail_native.py": "d4278841d509f2c2dbbd7931dfb89210c09775d39eb76425a7071a2d7c3388f3",
+    "detail-native/mass-properties.json": "2f60afa5510fb6b8c8db88d94b89e9240f2ffed1caf372490d7098c55d4ecd3f",
+    "native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+    "detail_onewheel.py": "598a72bac822c3209d82ce0b163e81075f485412e0e2ed0baf9439b02ffda8de",
+    "detail_onewheel_hold.py": "526adb4e54392dde2ab23ad0f1ca4d4184a28dc56c5cfd4987dc6b2120a96f2a",
+    "native_trial.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486"
+  },
+  "limitations": [
+    "Starts already leaning over one wheel, with preloaded motor current. No entry/exit or learned skill.",
+    "Perfect-state local feedback. Rigid tires, ideal gears, mass/electrical/guide priors; no thermal or hardware qualification."
+  ]
+}

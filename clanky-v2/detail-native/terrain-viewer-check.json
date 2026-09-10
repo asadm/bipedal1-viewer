@@ -1,0 +1,27 @@
+{
+  "checked_at_utc": "2026-09-10T04:24:22.618372+00:00",
+  "surface": "Browser skill, existing local viewer at http://100.97.184.4:8765",
+  "rendering_and_controls_passed": true,
+  "observations": [
+    "Learned hills displays the -9 degree valley, 2.83 m, the fixed 10/10 cohort and separate 0/6 harder-screen result.",
+    "Learned valley slope-stop highlight is 7.50 s and its 18.00 s final pose reports both wheels grounded.",
+    "Cutaway and Physics views render the learned terrain recording; the regular 265 mm jump remains selectable with its airborne peak.",
+    "Programmed rough hill (15 degrees, 8 mm fixed waviness) autoplays, renders its terrain, and reports both wheels grounded at the slope stop and final stop.",
+    "Programmed steep hill (20 degrees) renders in Side camera and reports both wheels grounded at its slope stop and final stop.",
+    "Both new programmed modes show the 3/6 teacher comparison and all three fine confirmations, and explicitly state that the frozen learned policy failed these conditions."
+  ],
+  "evidence_navigation": {
+    "in_page_source_hash_checks_passed": true,
+    "raw_json_link_open": "Browser client returned ERR_BLOCKED_BY_CLIENT for direct qualification.json navigation. It was not counted as a successful raw-document browser check. The same evidence bytes loaded successfully through the viewer checksum checks."
+  },
+  "scope": "Local desktop rendering and control inspection; not an iOS browser, physical robot or full self-contact qualification.",
+  "source_sha256": {
+    "viewer/v2-replay.mjs": "451d757b5669106740d5217111b9fd6254ee28f468a9049455bb269ecae46ab7",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+    "clanky-v2/detail-native/terrain-viewer-replay.json": "6b2cd0872d1b80d36e870da5b5157813c2e63cc01870d1479ea857f9638554f6",
+    "clanky-v2/detail-native/terrain-replay-check.json": "a33c52fddcbfcb1fbc3112b2f9ffce30f616aed2b43e5bdf213d9d981e2a0312",
+    "clanky-v2/detail-native/terrain-preview/qualification.json": "b0846dbe195ab7f91d600579beb29f43665aba10ce9ef54d8f1682cf46b1b327",
+    "clanky-v2/detail-native/terrain-preview/teacher-comparison/screen/recording-check.json": "aed5c2f87c972f3731bf428a3052c3fd277022856670be8e7a3002de9f042b88",
+    "clanky-v2/detail-native/terrain-preview/teacher-comparison/confirm/recording-check.json": "fd1b7696aeab577a114cfd3b9afe0353cb0abc98464ac03189bfa5a9a8dd3de1"
+  }
+}

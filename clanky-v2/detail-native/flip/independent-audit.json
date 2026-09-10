@@ -1,0 +1,61 @@
+{
+  "status": "independent_aerial_winding_and_landing_result_audit",
+  "passed": true,
+  "full_turn_cases": [
+    {
+      "case": "baseline-tuck-1.5-wheel-1",
+      "projected_body_axis_rotation_deg": 371.7113919806258,
+      "difference_from_integrated_angle_deg": 0.05004599400245979,
+      "minimum_projection_norm": 0.9995491627833137,
+      "independent_full_turn": true,
+      "passed": true,
+      "source_sha256": {
+        "baseline-tuck-1.5-wheel-1/report.json": "07c12649d41509f033d95aac2a60c7d5ea8076dff9017bc3605a9a53cc85cddd",
+        "baseline-tuck-1.5-wheel-1/trajectory.json": "e89e59937fca68c641861a6a44b11fe95e37965bcc8d152a36bd65509b880c96"
+      }
+    },
+    {
+      "case": "baseline-tuck-1.5-wheel-1-125us",
+      "projected_body_axis_rotation_deg": 371.70724696193093,
+      "difference_from_integrated_angle_deg": 0.005895084739620415,
+      "minimum_projection_norm": 0.9999624364581325,
+      "independent_full_turn": true,
+      "passed": true,
+      "source_sha256": {
+        "baseline-tuck-1.5-wheel-1-125us/report.json": "6d07cf979368aeaf92d94bf12df5f90dc1ff95ee49053f50a9db76eda914c209",
+        "baseline-tuck-1.5-wheel-1-125us/trajectory.json": "611e718d533943212fced8e032afc89d9cbb14cea5fd9c5dfb77dd1f972dede5"
+      }
+    },
+    {
+      "case": "baseline-tuck-0.5-wheel-1",
+      "projected_body_axis_rotation_deg": 361.455201571974,
+      "difference_from_integrated_angle_deg": 0.05055402086634331,
+      "minimum_projection_norm": 0.9996435707635777,
+      "independent_full_turn": true,
+      "passed": true,
+      "source_sha256": {
+        "baseline-tuck-0.5-wheel-1/report.json": "928f711f4902201dcbeac89ad7e60621caa058d11e59f80338539c39b8f00f50",
+        "baseline-tuck-0.5-wheel-1/trajectory.json": "a777c1a830f17ae85ee124da8d6d9d61746f97f9ab2aaee3233a4ba34adf4935"
+      }
+    },
+    {
+      "case": "baseline-tuck-0.5-wheel-1-125us",
+      "projected_body_axis_rotation_deg": 361.9373564623396,
+      "difference_from_integrated_angle_deg": 0.006943169194414622,
+      "minimum_projection_norm": 0.9999664970194794,
+      "independent_full_turn": true,
+      "passed": true,
+      "source_sha256": {
+        "baseline-tuck-0.5-wheel-1-125us/report.json": "1a45a04ea5bd567613a6be2a6a3a9d2ededdbc7b44155a99b8dcdcd60480e51e",
+        "baseline-tuck-0.5-wheel-1-125us/trajectory.json": "04b560ff341a3fe14326e3bb07ccfd096fae5214499e4ef6b53afefe17e0f7af"
+      }
+    }
+  ],
+  "complete_landing_attempts": 12,
+  "complete_landing_passes": 0,
+  "source_sha256": {
+    "audit_detail_flip.py": "57001b60829a4d39e646d87779f2108aa78ad7aa1130112cc84e1f171f5ea153",
+    "detail-native/flip/paired-authority.json": "26f86717ba577c645ac2e5e4fb1e1a872df5d5fe0aa8bf4ebf3a0f5ccaf63088",
+    "detail-native/flip-landing/summary.json": "bf9d61993f35d750a1d4285e87e07e148e40d687b1ce81d8cbefb820167c5aaa"
+  }
+}

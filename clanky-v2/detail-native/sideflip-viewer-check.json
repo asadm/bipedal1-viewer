@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-09T20:49:01.114769+00:00",
+  "browser": "Existing desktop browser through browser skill",
+  "url": "http://100.97.184.4:8765/viewer/v2.html?motion=sideflip",
+  "checks": [
+    "Side flip attempt is labeled programmed and failed, showing 169 degrees and body contact.",
+    "Autoplay stops at 1.89 s with the failed-contact message and Play button; repeated after changing other motions.",
+    "Side-on chooses 89-degree airborne pose at 1.72 s; Front camera exterior and Physics views visually inspected.",
+    "Cutaway remains selectable; 0.25x playback advances to 113 degrees; timeline supports backward seeking.",
+    "Front flip still selects Mid-flip and shows its 177-degree airborne pose and 362-degree result.",
+    "Regular jump retains Peak jump and the 265 mm clearance result."
+  ],
+  "limitations": [
+    "Desktop browser only; no physical iOS device checked.",
+    "Failure replay and nominal native checks do not demonstrate a complete side flip or qualify impact loads."
+  ],
+  "source_sha256": {
+    "viewer/v2-replay.mjs": "dad44c7457a9c0a4ecd4759ea033f24938f2ae28892b435f5e85545d2e4d7a28",
+    "viewer/v2-detail.mjs": "8c90b8e528eb95e4e60cdbf1bc788662ded8731b250a3b95a8362dc27f43ee2b",
+    "viewer/v2.html": "9b5b0ea7e56113da909a520dd606b50b474dc69ff78e88644091752d18218640",
+    "clanky-v2/detail-native/sideflip-viewer-replay.json": "6c716d404f1596ab635442cf8c6958f2b7c1f922f9d443019a09b4ec310bbe48",
+    "clanky-v2/detail-native/sideflip-replay-check.json": "70441d5694f9f3b707608f8b7200bdd15b508c7eb1b242e927fab2721106f75f",
+    "clanky-v2/detail-native/sideflip/paired-check.json": "d51ac6624e58f0cc3872397890b1d56aa57b7ec881496a2bb47eb75af3e62fc5"
+  }
+}

@@ -1,8 +1,3928 @@
 {
-  "commit": "cd21ba47d13f5c3165e8d789feed4cd98bcb4fcc",
-  "source_base": "https://github.com/asadm/bipedal1/blob/cd21ba47d13f5c3165e8d789feed4cd98bcb4fcc/design/",
+  "commit": "97ea59e3279bc029fa17b03151d4ee5205f71547",
+  "source_base": "https://github.com/asadm/bipedal1/blob/97ea59e3279bc029fa17b03151d4ee5205f71547/design/",
   "scope": "Development records excluded from Pages; retained in the source repository.",
   "files": [
+    {
+      "path": "clanky-v2/detail-gear/profiles.json",
+      "bytes": 1435468,
+      "reason": "raw gear section samples; phase and exact-solid reports remain"
+    },
+    {
+      "path": "clanky-v2/detail-native/balance-before-summary-fix-250us/model.xml",
+      "bytes": 182330,
+      "reason": "development model duplicate; the source-matched viewer model remains"
+    },
+    {
+      "path": "clanky-v2/detail-native/balance-before-summary-fix-250us/parameters.json",
+      "bytes": 129808,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/balance-before-summary-fix-250us/trajectory.json",
+      "bytes": 1445163,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/baseline-balance-125us/model.xml",
+      "bytes": 182331,
+      "reason": "development model duplicate; the source-matched viewer model remains"
+    },
+    {
+      "path": "clanky-v2/detail-native/baseline-balance-125us/parameters.json",
+      "bytes": 129809,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/baseline-balance-125us/trajectory.json",
+      "bytes": 1445817,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/baseline-balance-250us/model.xml",
+      "bytes": 182330,
+      "reason": "development model duplicate; the source-matched viewer model remains"
+    },
+    {
+      "path": "clanky-v2/detail-native/baseline-balance-250us/parameters.json",
+      "bytes": 129808,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/baseline-balance-250us/trajectory.json",
+      "bytes": 1445163,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/baseline-jump-125us/parameters.json",
+      "bytes": 129809,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/baseline-jump-125us/trajectory.json",
+      "bytes": 1405689,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/baseline-jump-250us/model.xml",
+      "bytes": 182330,
+      "reason": "development model duplicate; the source-matched viewer model remains"
+    },
+    {
+      "path": "clanky-v2/detail-native/baseline-jump-250us/parameters.json",
+      "bytes": 129808,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/baseline-jump-250us/trajectory.json",
+      "bytes": 1405111,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/README.md",
+      "bytes": 8105,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/bias-compensation/confirm/plan.json",
+      "bytes": 9261,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/bias-compensation/confirm/progress.json",
+      "bytes": 79,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/bias-compensation/screen/plan.json",
+      "bytes": 9256,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/bias-compensation/screen/progress.json",
+      "bytes": 79,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/command-preflight.json",
+      "bytes": 1086,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/demonstrations/calibration.json",
+      "bytes": 27929,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/demonstrations/collect/plan.json",
+      "bytes": 18120,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/demonstrations/collect/progress.json",
+      "bytes": 79,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/demonstrations/collect/recording-check.json",
+      "bytes": 12370,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/demonstrations/collect/summary.json",
+      "bytes": 91626,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/demonstrations/collect/train-300-left-pattern0-250us/report.json",
+      "bytes": 10709,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/demonstrations/collect/train-301-right-pattern0-250us/report.json",
+      "bytes": 10718,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/demonstrations/collect/train-302-left-pattern1-250us/report.json",
+      "bytes": 10729,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/demonstrations/collect/train-303-right-pattern1-250us/report.json",
+      "bytes": 10736,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/demonstrations/collect/validation-304-left-pattern2-250us/report.json",
+      "bytes": 10749,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/demonstrations/collect/validation-305-right-pattern2-250us/report.json",
+      "bytes": 10756,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/demonstrations/fit-eligibility.json",
+      "bytes": 670,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/README.md",
+      "bytes": 7269,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/decision.json",
+      "bytes": 2473,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/evaluation/README.md",
+      "bytes": 3317,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/evaluation/pilot/plan.json",
+      "bytes": 23653,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/evaluation/pilot/progress.json",
+      "bytes": 69,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/evaluation/pilot/recording-check.json",
+      "bytes": 16769,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/evaluation/pilot/slope+0-250us/report.json",
+      "bytes": 14621,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/evaluation/pilot/slope-9-250us/report.json",
+      "bytes": 14712,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/evaluation/pilot/student-left-first-250us/report.json",
+      "bytes": 15674,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/evaluation/pilot/student-right-first-250us/report.json",
+      "bytes": 15676,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/evaluation/pilot/summary.json",
+      "bytes": 90485,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/execution/continuation-01.json",
+      "bytes": 2318,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/package-00/update.json",
+      "bytes": 588,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/package-01/optimizer.pt",
+      "bytes": 96651,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/package-01/update.json",
+      "bytes": 676,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/package-02/optimizer.pt",
+      "bytes": 96651,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/package-02/update.json",
+      "bytes": 676,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/package-03/optimizer.pt",
+      "bytes": 96651,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/package-03/update.json",
+      "bytes": 676,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/package-04/optimizer.pt",
+      "bytes": 96651,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/package-04/update.json",
+      "bytes": 676,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/package-05/optimizer.pt",
+      "bytes": 96651,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/package-05/update.json",
+      "bytes": 676,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/package-06/optimizer.pt",
+      "bytes": 96651,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/package-06/update.json",
+      "bytes": 676,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/package-07/optimizer.pt",
+      "bytes": 96651,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/package-07/update.json",
+      "bytes": 676,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/plan.json",
+      "bytes": 28179,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-00/plan.json",
+      "bytes": 16953,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-00/progress.json",
+      "bytes": 56,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-00/recording-check.json",
+      "bytes": 14547,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-00/summary.json",
+      "bytes": 78631,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-00/turn-00/report.json",
+      "bytes": 13752,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-00/turn-01/report.json",
+      "bytes": 13754,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-00/turn-02/report.json",
+      "bytes": 13766,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-00/turn-03/report.json",
+      "bytes": 13773,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-01/plan.json",
+      "bytes": 16947,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-01/progress.json",
+      "bytes": 56,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-01/recording-check.json",
+      "bytes": 14543,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-01/summary.json",
+      "bytes": 78614,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-01/turn-00/report.json",
+      "bytes": 13750,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-01/turn-01/report.json",
+      "bytes": 13749,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-01/turn-02/report.json",
+      "bytes": 13765,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-01/turn-03/report.json",
+      "bytes": 13770,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-02/plan.json",
+      "bytes": 16941,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-02/progress.json",
+      "bytes": 56,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-02/recording-check.json",
+      "bytes": 14542,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-02/summary.json",
+      "bytes": 78613,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-02/turn-00/report.json",
+      "bytes": 13746,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-02/turn-01/report.json",
+      "bytes": 13759,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-02/turn-02/report.json",
+      "bytes": 13765,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-02/turn-03/report.json",
+      "bytes": 13770,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-03/plan.json",
+      "bytes": 16955,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-03/progress.json",
+      "bytes": 56,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-03/recording-check.json",
+      "bytes": 14534,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-03/summary.json",
+      "bytes": 78614,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-03/turn-00/report.json",
+      "bytes": 13747,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-03/turn-01/report.json",
+      "bytes": 13751,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-03/turn-02/report.json",
+      "bytes": 13760,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-03/turn-03/report.json",
+      "bytes": 13768,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-04/plan.json",
+      "bytes": 16956,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-04/progress.json",
+      "bytes": 56,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-04/recording-check.json",
+      "bytes": 14537,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-04/summary.json",
+      "bytes": 78623,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-04/turn-00/report.json",
+      "bytes": 13749,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-04/turn-01/report.json",
+      "bytes": 13751,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-04/turn-02/report.json",
+      "bytes": 13766,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-04/turn-03/report.json",
+      "bytes": 13768,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-05/plan.json",
+      "bytes": 16953,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-05/progress.json",
+      "bytes": 56,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-05/recording-check.json",
+      "bytes": 14536,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-05/summary.json",
+      "bytes": 78601,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-05/turn-00/report.json",
+      "bytes": 13741,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-05/turn-01/report.json",
+      "bytes": 13747,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-05/turn-02/report.json",
+      "bytes": 13758,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-05/turn-03/report.json",
+      "bytes": 13769,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-06/plan.json",
+      "bytes": 16958,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-06/progress.json",
+      "bytes": 56,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-06/recording-check.json",
+      "bytes": 14539,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-06/summary.json",
+      "bytes": 78624,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-06/turn-00/report.json",
+      "bytes": 13745,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-06/turn-01/report.json",
+      "bytes": 13751,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-06/turn-02/report.json",
+      "bytes": 13766,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-06/turn-03/report.json",
+      "bytes": 13771,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-07/plan.json",
+      "bytes": 16954,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-07/progress.json",
+      "bytes": 56,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-07/recording-check.json",
+      "bytes": 14539,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-07/summary.json",
+      "bytes": 78625,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-07/turn-00/report.json",
+      "bytes": 13747,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-07/turn-01/report.json",
+      "bytes": 13755,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-07/turn-02/report.json",
+      "bytes": 13766,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/round-07/turn-03/report.json",
+      "bytes": 13770,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/training-results.json",
+      "bytes": 12791,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-00/local-check.json",
+      "bytes": 10599,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-00/manifest.json",
+      "bytes": 20269,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-00/optimizer.pt",
+      "bytes": 96651,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-01/local-check.json",
+      "bytes": 10599,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-01/manifest.json",
+      "bytes": 20333,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-01/optimizer.pt",
+      "bytes": 96651,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-02/local-check.json",
+      "bytes": 10599,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-02/manifest.json",
+      "bytes": 20346,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-02/optimizer.pt",
+      "bytes": 96651,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-03/local-check.json",
+      "bytes": 10599,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-03/manifest.json",
+      "bytes": 20282,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-03/optimizer.pt",
+      "bytes": 96651,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-04/local-check.json",
+      "bytes": 10599,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-04/manifest.json",
+      "bytes": 20290,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-04/optimizer.pt",
+      "bytes": 96651,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-05/local-check.json",
+      "bytes": 10599,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-05/manifest.json",
+      "bytes": 20288,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-05/optimizer.pt",
+      "bytes": 96651,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-06/local-check.json",
+      "bytes": 10599,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-06/manifest.json",
+      "bytes": 20233,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-06/optimizer.pt",
+      "bytes": 96651,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-07/local-check.json",
+      "bytes": 10599,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-07/manifest.json",
+      "bytes": 20236,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/feedback/update-07/optimizer.pt",
+      "bytes": 96651,
+      "reason": "training checkpoint; the viewer plays recorded trajectories"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/screen/plan.json",
+      "bytes": 12231,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/screen/progress.json",
+      "bytes": 79,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/screen/recording-check.json",
+      "bytes": 8437,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/screen/student-left-first-250us/report.json",
+      "bytes": 8357,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/screen/student-right-first-250us/report.json",
+      "bytes": 8361,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/screen/summary.json",
+      "bytes": 51717,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/screen/teacher-left-first-250us/report.json",
+      "bytes": 8768,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/screen/teacher-right-first-250us/report.json",
+      "bytes": 8770,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/turn-policy/fit-check.json",
+      "bytes": 3226,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/turn-policy/fit-package/package.json",
+      "bytes": 21412,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/turn-policy/pilot-diagnostic.json",
+      "bytes": 25318,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/turn-policy/pilot/plan.json",
+      "bytes": 21933,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/turn-policy/pilot/progress.json",
+      "bytes": 79,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/turn-policy/pilot/recording-check.json",
+      "bytes": 15599,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/turn-policy/pilot/slope+0-250us/report.json",
+      "bytes": 12792,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/turn-policy/pilot/slope-9-250us/report.json",
+      "bytes": 12879,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/turn-policy/pilot/student-left-first-250us/report.json",
+      "bytes": 13833,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/turn-policy/pilot/student-right-first-250us/report.json",
+      "bytes": 13842,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/turn-policy/pilot/summary.json",
+      "bytes": 81020,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/turn-policy/student-01/manifest.json",
+      "bytes": 51237,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/commanded-turns/turn-policy/student-01/plan.json",
+      "bytes": 21615,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/summary.json",
+      "bytes": 152079,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend210-brake270-250us/flip-result.json",
+      "bytes": 10623,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend210-brake270-250us/parameters.json",
+      "bytes": 129696,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend210-brake270-250us/report.json",
+      "bytes": 6895,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend210-brake270-250us/trajectory.json",
+      "bytes": 1364552,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend210-brake315-250us/flip-result.json",
+      "bytes": 10623,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend210-brake315-250us/parameters.json",
+      "bytes": 129696,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend210-brake315-250us/report.json",
+      "bytes": 6895,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend210-brake315-250us/trajectory.json",
+      "bytes": 1364552,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend270-brake270-250us/flip-result.json",
+      "bytes": 10850,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend270-brake270-250us/parameters.json",
+      "bytes": 129696,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend270-brake270-250us/report.json",
+      "bytes": 6899,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend270-brake270-250us/trajectory.json",
+      "bytes": 1364356,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend270-brake315-250us/flip-result.json",
+      "bytes": 10761,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend270-brake315-250us/parameters.json",
+      "bytes": 129696,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend270-brake315-250us/report.json",
+      "bytes": 6888,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend270-brake315-250us/trajectory.json",
+      "bytes": 1350432,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend315-brake270-250us/flip-result.json",
+      "bytes": 10844,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend315-brake270-250us/parameters.json",
+      "bytes": 129696,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend315-brake270-250us/report.json",
+      "bytes": 6894,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend315-brake270-250us/trajectory.json",
+      "bytes": 1365204,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend315-brake315-250us/flip-result.json",
+      "bytes": 10624,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend315-brake315-250us/parameters.json",
+      "bytes": 129696,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend315-brake315-250us/report.json",
+      "bytes": 6899,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-0.5-extend315-brake315-250us/trajectory.json",
+      "bytes": 1364360,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend210-brake270-250us/flip-result.json",
+      "bytes": 10551,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend210-brake270-250us/parameters.json",
+      "bytes": 129696,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend210-brake270-250us/report.json",
+      "bytes": 6896,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend210-brake270-250us/trajectory.json",
+      "bytes": 1364622,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend210-brake315-250us/flip-result.json",
+      "bytes": 10551,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend210-brake315-250us/parameters.json",
+      "bytes": 129696,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend210-brake315-250us/report.json",
+      "bytes": 6896,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend210-brake315-250us/trajectory.json",
+      "bytes": 1364622,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend270-brake270-250us/flip-result.json",
+      "bytes": 10699,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend270-brake270-250us/parameters.json",
+      "bytes": 129696,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend270-brake270-250us/report.json",
+      "bytes": 6892,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend270-brake270-250us/trajectory.json",
+      "bytes": 1363981,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend270-brake315-250us/flip-result.json",
+      "bytes": 10827,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend270-brake315-250us/parameters.json",
+      "bytes": 129696,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend270-brake315-250us/report.json",
+      "bytes": 6891,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend270-brake315-250us/trajectory.json",
+      "bytes": 1364623,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend315-brake270-250us/flip-result.json",
+      "bytes": 10704,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend315-brake270-250us/parameters.json",
+      "bytes": 129696,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend315-brake270-250us/report.json",
+      "bytes": 6888,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend315-brake270-250us/trajectory.json",
+      "bytes": 1365380,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend315-brake315-250us/flip-result.json",
+      "bytes": 10846,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend315-brake315-250us/parameters.json",
+      "bytes": 129696,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend315-brake315-250us/report.json",
+      "bytes": 6888,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip-landing/tuck-1.5-extend315-brake315-250us/trajectory.json",
+      "bytes": 1364416,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/README.md",
+      "bytes": 4789,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/authority-summary.json",
+      "bytes": 156749,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck+0.5-wheel+0.25/report.json",
+      "bytes": 4530,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck+0.5-wheel+0.25/trajectory.json",
+      "bytes": 64003,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck+0.5-wheel+1/report.json",
+      "bytes": 4526,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck+0.5-wheel+1/trajectory.json",
+      "bytes": 62688,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck+0.5-wheel-0.25/report.json",
+      "bytes": 4532,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck+0.5-wheel-0.25/trajectory.json",
+      "bytes": 65244,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck+0.5-wheel-1/report.json",
+      "bytes": 4526,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck+0.5-wheel-1/trajectory.json",
+      "bytes": 65609,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-0.5-wheel+0.25/report.json",
+      "bytes": 4529,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-0.5-wheel+0.25/trajectory.json",
+      "bytes": 68203,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-0.5-wheel+1/report.json",
+      "bytes": 4525,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-0.5-wheel+1/trajectory.json",
+      "bytes": 68169,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-0.5-wheel-0.25/report.json",
+      "bytes": 4530,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-0.5-wheel-0.25/trajectory.json",
+      "bytes": 68400,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-0.5-wheel-1-125us/trajectory.json",
+      "bytes": 68603,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-0.5-wheel-1/report.json",
+      "bytes": 4529,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-0.5-wheel-1/trajectory.json",
+      "bytes": 68466,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-1.5-wheel+0.25/report.json",
+      "bytes": 4535,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-1.5-wheel+0.25/trajectory.json",
+      "bytes": 64874,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-1.5-wheel+1/report.json",
+      "bytes": 4526,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-1.5-wheel+1/trajectory.json",
+      "bytes": 64883,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-1.5-wheel-0.25/report.json",
+      "bytes": 4528,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-1.5-wheel-0.25/trajectory.json",
+      "bytes": 69367,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-1.5-wheel-1-125us/report.json",
+      "bytes": 4630,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-1.5-wheel-1-125us/trajectory.json",
+      "bytes": 69687,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-1.5-wheel-1/report.json",
+      "bytes": 4526,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-1.5-wheel-1/trajectory.json",
+      "bytes": 69459,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-2.5-wheel+0.25/report.json",
+      "bytes": 4505,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-2.5-wheel+0.25/trajectory.json",
+      "bytes": 63610,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-2.5-wheel+1/report.json",
+      "bytes": 4498,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-2.5-wheel+1/trajectory.json",
+      "bytes": 65278,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-2.5-wheel-0.25/report.json",
+      "bytes": 4495,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-2.5-wheel-0.25/trajectory.json",
+      "bytes": 68217,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-2.5-wheel-1/report.json",
+      "bytes": 4500,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/baseline-tuck-2.5-wheel-1/trajectory.json",
+      "bytes": 68221,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.26-pulse0.06/report.json",
+      "bytes": 4552,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.26-pulse0.06/trajectory.json",
+      "bytes": 59724,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.26-pulse0.09/report.json",
+      "bytes": 4549,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.26-pulse0.09/trajectory.json",
+      "bytes": 62477,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.42-pulse0.06/report.json",
+      "bytes": 4553,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.42-pulse0.06/trajectory.json",
+      "bytes": 53986,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.42-pulse0.09/report.json",
+      "bytes": 4549,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.42-pulse0.09/trajectory.json",
+      "bytes": 53946,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.58-pulse0.06/report.json",
+      "bytes": 4536,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.58-pulse0.06/trajectory.json",
+      "bytes": 41415,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.58-pulse0.09/report.json",
+      "bytes": 4558,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.58-pulse0.09/trajectory.json",
+      "bytes": 37184,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.72-pulse0.06/report.json",
+      "bytes": 4540,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.72-pulse0.06/trajectory.json",
+      "bytes": 31785,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.72-pulse0.09/report.json",
+      "bytes": 4554,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/launch-lean-0.72-pulse0.09/trajectory.json",
+      "bytes": 26125,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/paired-authority.json",
+      "bytes": 3767,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/seed-baseline-125us.json",
+      "bytes": 8505,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/seed-baseline-250us.json",
+      "bytes": 8397,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/seed-launch-lean-0.26-pulse0.06.json",
+      "bytes": 8424,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/seed-launch-lean-0.26-pulse0.09.json",
+      "bytes": 8420,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/seed-launch-lean-0.42-pulse0.06.json",
+      "bytes": 8428,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/seed-launch-lean-0.42-pulse0.09.json",
+      "bytes": 8408,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/seed-launch-lean-0.58-pulse0.06.json",
+      "bytes": 8421,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/seed-launch-lean-0.58-pulse0.09.json",
+      "bytes": 8430,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/seed-launch-lean-0.72-pulse0.06.json",
+      "bytes": 8440,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/flip/seed-launch-lean-0.72-pulse0.09.json",
+      "bytes": 8417,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/mass-properties.json",
+      "bytes": 439235,
+      "reason": "raw per-part mass allocation; compiled model and motion reports remain"
+    },
+    {
+      "path": "clanky-v2/detail-native/model.xml",
+      "bytes": 182330,
+      "reason": "development model duplicate; the source-matched viewer model remains"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/current-aware-probes/isolated-check.json",
+      "bytes": 476051,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/current-aware-probes/left-low-tilt-250us-roll+0-probe-125us-motor-trace.json",
+      "bytes": 223877,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/current-aware-probes/left-low-tilt-250us-roll+0-probe-250us-motor-trace.json",
+      "bytes": 111960,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/current-aware-probes/left-ride-250us-roll+0-probe-125us-motor-trace.json",
+      "bytes": 224236,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/current-aware-probes/left-ride-250us-roll+0-probe-250us-motor-trace.json",
+      "bytes": 111871,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/current-aware-probes/plan.json",
+      "bytes": 1606,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/current-aware-probes/right-low-tilt-250us-roll+0-probe-125us-motor-trace.json",
+      "bytes": 223611,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/current-aware-probes/right-low-tilt-250us-roll+0-probe-250us-motor-trace.json",
+      "bytes": 111584,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/current-aware-probes/right-ride-250us-roll+0-probe-125us-motor-trace.json",
+      "bytes": 224251,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/current-aware-probes/right-ride-250us-roll+0-probe-250us-motor-trace.json",
+      "bytes": 111904,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/current-aware-probes/summary.json",
+      "bytes": 37205,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/full-state-model/left-low-tilt-125us-roll+0/report.json",
+      "bytes": 111010,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/full-state-model/left-low-tilt-250us-roll+0/report.json",
+      "bytes": 113816,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/full-state-model/left-ride-125us-roll+0/report.json",
+      "bytes": 110948,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/full-state-model/left-ride-250us-roll+0/report.json",
+      "bytes": 113439,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/full-state-model/plan.json",
+      "bytes": 4282,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/full-state-model/recording-check.json",
+      "bytes": 30311,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/full-state-model/right-low-tilt-125us-roll+0/report.json",
+      "bytes": 110979,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/full-state-model/right-low-tilt-250us-roll+0/report.json",
+      "bytes": 113931,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/full-state-model/right-ride-125us-roll+0/report.json",
+      "bytes": 110978,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/full-state-model/right-ride-250us-roll+0/report.json",
+      "bytes": 113477,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/full-state-model/summary.json",
+      "bytes": 1072697,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/left-low-effort-250us-roll+0/trajectory.json",
+      "bytes": 9860,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/left-low-tilt-250us-roll+0/trajectory.json",
+      "bytes": 29520,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/left-ride-250us-roll+0/trajectory.json",
+      "bytes": 14439,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-equilibrium/check.json",
+      "bytes": 42553,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-equilibrium/left-low-effort-250us-roll+0.json",
+      "bytes": 5123,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-equilibrium/left-low-tilt-250us-roll+0.json",
+      "bytes": 5282,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-equilibrium/left-ride-250us-roll+0.json",
+      "bytes": 5294,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-equilibrium/plan.json",
+      "bytes": 3821,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-equilibrium/probe-plan.json",
+      "bytes": 1084,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-equilibrium/right-low-effort-250us-roll+0.json",
+      "bytes": 5132,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-equilibrium/right-low-tilt-250us-roll+0.json",
+      "bytes": 5286,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-equilibrium/right-ride-250us-roll+0.json",
+      "bytes": 5294,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-equilibrium/summary.json",
+      "bytes": 40498,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-hold-preflight-first-attempt/README.md",
+      "bytes": 1166,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-hold-preflight-first-attempt/plan.json",
+      "bytes": 4225,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-hold-preflight-first-attempt/tangent-preflight-diagnostic.json",
+      "bytes": 1011,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-hold/left-low-tilt-250us-roll+0/controller.json",
+      "bytes": 16643,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-hold/left-low-tilt-250us-roll+0/report.json",
+      "bytes": 1495,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-hold/left-ride-250us-roll+0/controller.json",
+      "bytes": 16682,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-hold/left-ride-250us-roll+0/report.json",
+      "bytes": 1490,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-hold/plan.json",
+      "bytes": 4225,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-hold/prediction-diagnostic.json",
+      "bytes": 25346,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-hold/recording-check.json",
+      "bytes": 23391,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-hold/right-low-tilt-250us-roll+0/controller.json",
+      "bytes": 16690,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-hold/right-low-tilt-250us-roll+0/report.json",
+      "bytes": 1508,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-hold/right-ride-250us-roll+0/controller.json",
+      "bytes": 16672,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-hold/right-ride-250us-roll+0/report.json",
+      "bytes": 1493,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/loaded-hold/summary.json",
+      "bytes": 10287,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/right-low-effort-250us-roll+0/trajectory.json",
+      "bytes": 9852,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/right-low-tilt-250us-roll+0/trajectory.json",
+      "bytes": 29528,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/right-ride-250us-roll+0/trajectory.json",
+      "bytes": 14407,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/onewheel/static-screen.json",
+      "bytes": 907669,
+      "reason": "raw static pose catalogue; dynamic attempt summary and reports remain"
+    },
+    {
+      "path": "clanky-v2/detail-native/parameters.json",
+      "bytes": 129481,
+      "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/README.md",
+      "bytes": 5475,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/README.md",
+      "bytes": 4301,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/decision-check.json",
+      "bytes": 11196,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/README.md",
+      "bytes": 3946,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/available-recording-check.json",
+      "bytes": 14028,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-0-rate-3-125us/report.json",
+      "bytes": 17956,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-0-rate-3-250us/report.json",
+      "bytes": 17930,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-0-rate-5-125us/report.json",
+      "bytes": 17975,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-0-rate-5-250us/report.json",
+      "bytes": 17942,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-1-rate-3-125us/report.json",
+      "bytes": 17003,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-1-rate-3-250us/report.json",
+      "bytes": 16966,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-1-rate-5-125us/report.json",
+      "bytes": 16931,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-1-rate-5-250us/report.json",
+      "bytes": 17002,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-2-rate-3-125us/report.json",
+      "bytes": 16915,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-2-rate-3-250us/report.json",
+      "bytes": 16953,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-2-rate-5-125us/report.json",
+      "bytes": 16967,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-2-rate-5-250us/report.json",
+      "bytes": 16962,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-3-rate-3-125us/report.json",
+      "bytes": 17958,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-3-rate-3-250us/report.json",
+      "bytes": 17934,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-3-rate-5-125us/report.json",
+      "bytes": 20895,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/direction-3-rate-5-250us/report.json",
+      "bytes": 20870,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/initial-check.json",
+      "bytes": 28554,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/plan.json",
+      "bytes": 14403,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/preflight.json",
+      "bytes": 38732,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/heldout-falls/progress.json",
+      "bytes": 82,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/pilot/available-recording-check.json",
+      "bytes": 8875,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/pilot/back-125us/report.json",
+      "bytes": 15586,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/pilot/back-250us/report.json",
+      "bytes": 15638,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/pilot/left-125us/report.json",
+      "bytes": 16606,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/pilot/left-250us/report.json",
+      "bytes": 16618,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/pilot/plan.json",
+      "bytes": 8258,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/pilot/progress.json",
+      "bytes": 79,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/README.md",
+      "bytes": 4047,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/audit-preflight.json",
+      "bytes": 1749,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/available-recording-check.json",
+      "bytes": 20678,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/fall-back_left-125us/report.json",
+      "bytes": 16349,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/fall-back_left-250us/report.json",
+      "bytes": 16347,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/fall-back_right-125us/report.json",
+      "bytes": 16318,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/fall-back_right-250us/report.json",
+      "bytes": 16352,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/fall-front-125us/report.json",
+      "bytes": 17297,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/fall-front-250us/report.json",
+      "bytes": 17296,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/fall-front_right-125us/report.json",
+      "bytes": 17329,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/fall-front_right-250us/report.json",
+      "bytes": 17343,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/fall-right-125us/report.json",
+      "bytes": 17292,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/fall-right-250us/report.json",
+      "bytes": 17285,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/plan.json",
+      "bytes": 14622,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/preflight.json",
+      "bytes": 46259,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/progress.json",
+      "bytes": 82,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/rest-back-125us/report.json",
+      "bytes": 16137,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/rest-back-250us/report.json",
+      "bytes": 16136,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/rest-front-125us/report.json",
+      "bytes": 17112,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/rest-front-250us/report.json",
+      "bytes": 17145,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/rest-inverted-125us/report.json",
+      "bytes": 17141,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/rest-inverted-250us/report.json",
+      "bytes": 17129,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/rest-left-125us/report.json",
+      "bytes": 17155,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/capture-hold/regression/rest-left-250us/report.json",
+      "bytes": 17135,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/endpoint/nominal-125us/report.json",
+      "bytes": 7179,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/endpoint/nominal-250us/report.json",
+      "bytes": 7178,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/endpoint/perturbed-125us/report.json",
+      "bytes": 7191,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/endpoint/perturbed-250us/report.json",
+      "bytes": 7188,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/endpoint/plan.json",
+      "bytes": 6898,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/endpoint/recording-check.json",
+      "bytes": 7733,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/endpoint/summary.json",
+      "bytes": 38793,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/pilot/back-125us/report.json",
+      "bytes": 9921,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/pilot/back-250us/report.json",
+      "bytes": 9906,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/pilot/front-125us/report.json",
+      "bytes": 12446,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/pilot/front-250us/report.json",
+      "bytes": 12441,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/pilot/inverted-125us/report.json",
+      "bytes": 12457,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/pilot/inverted-250us/report.json",
+      "bytes": 12461,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/pilot/left-125us/report.json",
+      "bytes": 12439,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/pilot/left-250us/report.json",
+      "bytes": 12443,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/pilot/plan.json",
+      "bytes": 8016,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/pilot/recording-check.json",
+      "bytes": 9280,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/pilot/summary.json",
+      "bytes": 117503,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/remote-parity/README.md",
+      "bytes": 2375,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/remote-parity/comparison.json",
+      "bytes": 10085,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/remote-parity/local.json",
+      "bytes": 301360,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/remote-parity/package-inputs.json",
+      "bytes": 14445,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/remote-parity/remote.json",
+      "bytes": 301399,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/remote-runtime.json",
+      "bytes": 1188,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/setup-check.json",
+      "bytes": 15892,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/README.md",
+      "bytes": 4821,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/available-recording-check.json",
+      "bytes": 11251,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/back-125us/report.json",
+      "bytes": 19589,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/back-250us/report.json",
+      "bytes": 11442,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/back_left-125us/report.json",
+      "bytes": 11473,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/back_left-250us/report.json",
+      "bytes": 19586,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/back_right-125us/report.json",
+      "bytes": 19609,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/back_right-250us/report.json",
+      "bytes": 19626,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/diagnostic.json",
+      "bytes": 94666,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/front-125us/report.json",
+      "bytes": 13951,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/front-250us/report.json",
+      "bytes": 22755,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/front_left-125us/report.json",
+      "bytes": 22761,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/front_left-250us/report.json",
+      "bytes": 22760,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/front_right-125us/report.json",
+      "bytes": 22764,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/front_right-250us/report.json",
+      "bytes": 22798,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/initial-check.json",
+      "bytes": 32207,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/left-125us/report.json",
+      "bytes": 22711,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/left-250us/report.json",
+      "bytes": 22710,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/plan.json",
+      "bytes": 9840,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/progress.json",
+      "bytes": 81,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/recording-check.json",
+      "bytes": 15583,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/right-125us/report.json",
+      "bytes": 13960,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/right-250us/report.json",
+      "bytes": 13959,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/standing-falls/summary.json",
+      "bytes": 364698,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/supervisor/guard-check.json",
+      "bytes": 9399,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/supervisor/pilot/back-125us/report.json",
+      "bytes": 10094,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/supervisor/pilot/back-250us/report.json",
+      "bytes": 10083,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/supervisor/pilot/front-125us/report.json",
+      "bytes": 12615,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/supervisor/pilot/front-250us/report.json",
+      "bytes": 21387,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/supervisor/pilot/plan.json",
+      "bytes": 7361,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/supervisor/pilot/recording-check.json",
+      "bytes": 10214,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/supervisor/pilot/resume-plan.json",
+      "bytes": 6852,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/supervisor/pilot/resume-progress.json",
+      "bytes": 123,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/recovery-transfer/supervisor/pilot/summary.json",
+      "bytes": 77313,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/GPU_REPAIR.md",
+      "bytes": 2705,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/README.md",
+      "bytes": 2578,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/baseline.json",
+      "bytes": 36798,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/baseline.txt",
+      "bytes": 4401,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/fused-contact-check/result.json",
+      "bytes": 8966,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/fused-pair/baseline-events.json",
+      "bytes": 119922,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/fused-pair/baseline.txt",
+      "bytes": 3818,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/fused-pair/fused-events.json",
+      "bytes": 119922,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/fused-pair/fused.txt",
+      "bytes": 3839,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/fused-pair/plan.json",
+      "bytes": 5617,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/fused-pair/result.json",
+      "bytes": 7135,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/gpu-inspection.json",
+      "bytes": 11763,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/warp-probe/README.md",
+      "bytes": 5448,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/warp-probe/audit-decision.json",
+      "bytes": 8175,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/warp-probe/contact-diagnostic.json",
+      "bytes": 111229,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/warp-probe/flat-result.json",
+      "bytes": 1412,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/warp-probe/installed-sources.json",
+      "bytes": 1881,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/warp-probe/motor-result.json",
+      "bytes": 320,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/warp-probe/parameters.json",
+      "bytes": 495,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/warp-probe/plan.json",
+      "bytes": 8767,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/warp-probe/result.json",
+      "bytes": 4701,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/runtime-profile/warp-probe/rough_hill-result.json",
+      "bytes": 1417,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/README.md",
+      "bytes": 5325,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/confirm-plan.json",
+      "bytes": 449,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/confirm-summary.json",
+      "bytes": 8939,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/momentum-diagnostic.json",
+      "bytes": 41119,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-single_leg-delay0-tuck-0.5-250us/report.json",
+      "bytes": 7201,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-single_leg-delay0-tuck-0.5-250us/trajectory.json",
+      "bytes": 247055,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-single_leg-delay0-tuck-2.5-250us/report.json",
+      "bytes": 4893,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-single_leg-delay0-tuck-2.5-250us/trajectory.json",
+      "bytes": 236386,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-staggered-delay0.02-tuck-0.5-250us/report.json",
+      "bytes": 7189,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-staggered-delay0.02-tuck-0.5-250us/trajectory.json",
+      "bytes": 300090,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-staggered-delay0.02-tuck-2.5-250us/report.json",
+      "bytes": 7181,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-staggered-delay0.02-tuck-2.5-250us/trajectory.json",
+      "bytes": 302154,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-staggered-delay0.04-tuck-0.5-250us/report.json",
+      "bytes": 7191,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-staggered-delay0.04-tuck-0.5-250us/trajectory.json",
+      "bytes": 303167,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-staggered-delay0.04-tuck-2.5-250us/report.json",
+      "bytes": 7160,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-staggered-delay0.04-tuck-2.5-250us/trajectory.json",
+      "bytes": 263655,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-staggered-delay0.06-tuck-0.5-250us/report.json",
+      "bytes": 7196,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-staggered-delay0.06-tuck-0.5-250us/trajectory.json",
+      "bytes": 309316,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-staggered-delay0.06-tuck-2.5-250us/report.json",
+      "bytes": 7162,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0-staggered-delay0.06-tuck-2.5-250us/trajectory.json",
+      "bytes": 263562,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-single_leg-delay0-tuck-0.5-250us/report.json",
+      "bytes": 4894,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-single_leg-delay0-tuck-0.5-250us/trajectory.json",
+      "bytes": 313133,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-single_leg-delay0-tuck-2.5-250us/report.json",
+      "bytes": 7207,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-single_leg-delay0-tuck-2.5-250us/trajectory.json",
+      "bytes": 244898,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-staggered-delay0.02-tuck-0.5-250us/report.json",
+      "bytes": 7188,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-staggered-delay0.02-tuck-0.5-250us/trajectory.json",
+      "bytes": 302483,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-staggered-delay0.02-tuck-2.5-250us/report.json",
+      "bytes": 7181,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-staggered-delay0.02-tuck-2.5-250us/trajectory.json",
+      "bytes": 301424,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-staggered-delay0.04-tuck-0.5-250us/report.json",
+      "bytes": 7185,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-staggered-delay0.04-tuck-0.5-250us/trajectory.json",
+      "bytes": 304156,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-staggered-delay0.04-tuck-2.5-250us/report.json",
+      "bytes": 7162,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-staggered-delay0.04-tuck-2.5-250us/trajectory.json",
+      "bytes": 261482,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-staggered-delay0.06-tuck-0.5-250us/report.json",
+      "bytes": 7185,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-staggered-delay0.06-tuck-0.5-250us/trajectory.json",
+      "bytes": 306997,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-staggered-delay0.06-tuck-2.5-250us/report.json",
+      "bytes": 7152,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset+0.25-staggered-delay0.06-tuck-2.5-250us/trajectory.json",
+      "bytes": 262960,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-single_leg-delay0-tuck-0.5-250us/report.json",
+      "bytes": 7196,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-single_leg-delay0-tuck-0.5-250us/trajectory.json",
+      "bytes": 247884,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-single_leg-delay0-tuck-2.5-250us/report.json",
+      "bytes": 4899,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-single_leg-delay0-tuck-2.5-250us/trajectory.json",
+      "bytes": 235692,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-staggered-delay0.02-tuck-0.5-250us/report.json",
+      "bytes": 7194,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-staggered-delay0.02-tuck-0.5-250us/trajectory.json",
+      "bytes": 296190,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-staggered-delay0.02-tuck-2.5-250us/report.json",
+      "bytes": 7193,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-staggered-delay0.02-tuck-2.5-250us/trajectory.json",
+      "bytes": 295283,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-staggered-delay0.04-tuck-0.5-250us/report.json",
+      "bytes": 7191,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-staggered-delay0.04-tuck-0.5-250us/trajectory.json",
+      "bytes": 297629,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-staggered-delay0.04-tuck-2.5-250us/report.json",
+      "bytes": 7161,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-staggered-delay0.04-tuck-2.5-250us/trajectory.json",
+      "bytes": 262953,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-staggered-delay0.06-tuck-0.5-250us/report.json",
+      "bytes": 7195,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-staggered-delay0.06-tuck-0.5-250us/trajectory.json",
+      "bytes": 303866,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-staggered-delay0.06-tuck-2.5-250us/report.json",
+      "bytes": 7171,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/offset-0.25-staggered-delay0.06-tuck-2.5-250us/trajectory.json",
+      "bytes": 262812,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/screen-plan.json",
+      "bytes": 5687,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/screen-summary.json",
+      "bytes": 199983,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/sideflip/selected-125us/trajectory.json",
+      "bytes": 303798,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-control/README.md",
+      "bytes": 4328,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-control/confirm-plan.json",
+      "bytes": 4236,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-control/confirm-summary.json",
+      "bytes": 18172,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-control/confirm/flat+0-mu0.8-125us/report.json",
+      "bytes": 6050,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-control/confirm/slope+10-mu0.8-125us/report.json",
+      "bytes": 6117,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-control/leveling-implementation-check.json",
+      "bytes": 4692,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-control/paired-check.json",
+      "bytes": 7809,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-control/pilot-plan.json",
+      "bytes": 4462,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-control/pilot-summary.json",
+      "bytes": 25418,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-control/pilot/cross_slope+15-mu0.8-250us/report.json",
+      "bytes": 6159,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-control/pilot/flat+0-mu0.8-250us/report.json",
+      "bytes": 6049,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-control/pilot/slope+10-mu0.8-250us/report.json",
+      "bytes": 6114,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/README.md",
+      "bytes": 4292,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/audit-smoke.json",
+      "bytes": 2445,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/plan.json",
+      "bytes": 56489,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/progress.json",
+      "bytes": 82,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/recording-check.json",
+      "bytes": 37558,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/summary.json",
+      "bytes": 429545,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-100-rough_slope+6-250us/report.json",
+      "bytes": 11246,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-101-rough_slope-6-250us/report.json",
+      "bytes": 11269,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-102-rough_slope+10-250us/report.json",
+      "bytes": 11251,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-103-rough_slope-10-250us/report.json",
+      "bytes": 11269,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-104-rough_slope+15-250us/report.json",
+      "bytes": 11248,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-105-rough_slope-15-250us/report.json",
+      "bytes": 11270,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-106-cross_slope+6-250us/report.json",
+      "bytes": 11284,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-107-cross_slope-6-250us/report.json",
+      "bytes": 11284,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-108-cross_slope+10-250us/report.json",
+      "bytes": 11280,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-109-cross_slope-10-250us/report.json",
+      "bytes": 11284,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-110-cross_slope+15-250us/report.json",
+      "bytes": 11283,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-111-cross_slope-15-250us/report.json",
+      "bytes": 11279,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-112-slope+10-250us/report.json",
+      "bytes": 11232,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-113-slope-10-250us/report.json",
+      "bytes": 11245,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-114-slope+15-250us/report.json",
+      "bytes": 11230,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-115-slope-15-250us/report.json",
+      "bytes": 11256,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-116-slope+20-250us/report.json",
+      "bytes": 11231,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/train-117-slope-20-250us/report.json",
+      "bytes": 11256,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/validation-118-rough_slope+8-250us/report.json",
+      "bytes": 11261,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/validation-119-rough_slope-8-250us/report.json",
+      "bytes": 11279,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/validation-120-rough_slope+12-250us/report.json",
+      "bytes": 11260,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/validation-121-rough_slope-12-250us/report.json",
+      "bytes": 11276,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/validation-122-cross_slope+8-250us/report.json",
+      "bytes": 11292,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/validation-123-cross_slope-8-250us/report.json",
+      "bytes": 11294,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/validation-124-cross_slope+12-250us/report.json",
+      "bytes": 11297,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/validation-125-cross_slope-12-250us/report.json",
+      "bytes": 11298,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/validation-126-slope+12-250us/report.json",
+      "bytes": 11241,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/validation-127-slope-12-250us/report.json",
+      "bytes": 11262,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/validation-128-slope+18-250us/report.json",
+      "bytes": 11237,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/collect/validation-129-slope-18-250us/report.json",
+      "bytes": 11263,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-corrections/README.md",
+      "bytes": 2617,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-corrections/collect/plan.json",
+      "bytes": 19396,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-corrections/collect/progress.json",
+      "bytes": 79,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-corrections/collect/recording-check.json",
+      "bytes": 17289,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-corrections/collect/summary.json",
+      "bytes": 84316,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-corrections/collect/train-200-cross_slope+10-correction-250us/report.json",
+      "bytes": 14838,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-corrections/collect/train-201-cross_slope+15-correction-250us/report.json",
+      "bytes": 14840,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-corrections/collect/validation-202-cross_slope+12-correction-250us/report.json",
+      "bytes": 14855,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-corrections/collect/validation-203-cross_slope+13-correction-250us/report.json",
+      "bytes": 14848,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-corrections/contact-loss-diagnostic.json",
+      "bytes": 937,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-corrections/fit-eligibility.json",
+      "bytes": 844,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/README.md",
+      "bytes": 4807,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/fit-check.json",
+      "bytes": 4020,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/fit-eligibility.json",
+      "bytes": 19059,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/fit-package/package.json",
+      "bytes": 32778,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/pilot-diagnostic.json",
+      "bytes": 32383,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/pilot/cross_slope+15-250us/report.json",
+      "bytes": 13534,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/pilot/cross_slope-15-250us/report.json",
+      "bytes": 13526,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/pilot/plan.json",
+      "bytes": 17316,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/pilot/progress.json",
+      "bytes": 79,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/pilot/recording-check.json",
+      "bytes": 17053,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/pilot/slope+0-250us/report.json",
+      "bytes": 13390,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/pilot/slope-9-250us/report.json",
+      "bytes": 13476,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/pilot/summary.json",
+      "bytes": 76302,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/plan.json",
+      "bytes": 6859,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/pre-optimizer-tempdir-failure/plan.json",
+      "bytes": 32981,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/remote-execution.json",
+      "bytes": 1167,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/student-01/manifest.json",
+      "bytes": 65977,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-student/student-01/plan.json",
+      "bytes": 32981,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-takeover/README.md",
+      "bytes": 2748,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-takeover/screen/cross_slope+15-takeover-5.5s-250us/report.json",
+      "bytes": 14398,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-takeover/screen/cross_slope-15-takeover-5.5s-250us/report.json",
+      "bytes": 14398,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-takeover/screen/plan.json",
+      "bytes": 12608,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-takeover/screen/progress.json",
+      "bytes": 90,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-takeover/screen/recording-check.json",
+      "bytes": 14887,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/cross-slope-takeover/screen/summary.json",
+      "bytes": 44127,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-expansion/fit-eligibility.json",
+      "bytes": 27381,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-hold/paired-check.json",
+      "bytes": 9516,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-hold/pilot-plan.json",
+      "bytes": 4953,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-hold/pilot-summary.json",
+      "bytes": 26623,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-hold/pilot/cross_slope+15-mu0.8-250us/report.json",
+      "bytes": 6391,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-hold/pilot/flat+0-mu0.8-250us/report.json",
+      "bytes": 6270,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-hold/pilot/slope+10-mu0.8-250us/report.json",
+      "bytes": 6339,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/README.md",
+      "bytes": 6609,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/collect/failure.json",
+      "bytes": 436,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/collect/plan.json",
+      "bytes": 8573,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collect/plan.json",
+      "bytes": 8789,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collect/summary.json",
+      "bytes": 108252,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collect/train-00-slope+0-250us/report.json",
+      "bytes": 6646,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collect/train-01-slope+0-250us/report.json",
+      "bytes": 6645,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collect/train-02-slope+3-250us/report.json",
+      "bytes": 6713,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collect/train-03-slope-3-250us/report.json",
+      "bytes": 6734,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collect/train-04-slope+6-250us/report.json",
+      "bytes": 6729,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collect/train-05-slope-6-250us/report.json",
+      "bytes": 6734,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collect/train-06-slope+10-250us/report.json",
+      "bytes": 6720,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collect/train-07-slope-10-250us/report.json",
+      "bytes": 6753,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collect/validation-08-slope+0-250us/report.json",
+      "bytes": 6655,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collect/validation-09-slope+4-250us/report.json",
+      "bytes": 6723,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collect/validation-10-slope-4-250us/report.json",
+      "bytes": 6743,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collect/validation-11-slope+8-250us/report.json",
+      "bytes": 6728,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collect/validation-12-slope-8-250us/report.json",
+      "bytes": 6743,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/collection-check.json",
+      "bytes": 11355,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/reset-check.json",
+      "bytes": 22830,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/startup-pickle-failure/collect/plan.json",
+      "bytes": 8789,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/startup-pickle-failure/failure.json",
+      "bytes": 330,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/reset-safe/startup-pickle-failure/reset-check.json",
+      "bytes": 22830,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/teacher-repeat/cross_slope+15-mu0.8-125us/report.json",
+      "bytes": 6544,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/teacher-repeat/flat+0-mu0.8-125us/report.json",
+      "bytes": 6423,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/teacher-repeat/plan.json",
+      "bytes": 5316,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/teacher-repeat/slope+10-mu0.8-125us/report.json",
+      "bytes": 6492,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-learning/teacher-repeat/summary.json",
+      "bytes": 27571,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/README.md",
+      "bytes": 7847,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/plan.json",
+      "bytes": 9402,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/recording-check.json",
+      "bytes": 21758,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/summary.json",
+      "bytes": 116205,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/train-00-slope+0-250us/report.json",
+      "bytes": 7178,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/train-01-slope+0-250us/report.json",
+      "bytes": 7179,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/train-02-slope+3-250us/report.json",
+      "bytes": 7244,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/train-03-slope-3-250us/report.json",
+      "bytes": 7265,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/train-04-slope+6-250us/report.json",
+      "bytes": 7243,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/train-05-slope-6-250us/report.json",
+      "bytes": 7265,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/train-06-slope+10-250us/report.json",
+      "bytes": 7247,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/train-07-slope-10-250us/report.json",
+      "bytes": 7269,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/validation-08-slope+0-250us/report.json",
+      "bytes": 7187,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/validation-09-slope+4-250us/report.json",
+      "bytes": 7256,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/validation-10-slope-4-250us/report.json",
+      "bytes": 7276,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/validation-11-slope+8-250us/report.json",
+      "bytes": 7252,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/collect/validation-12-slope-8-250us/report.json",
+      "bytes": 7276,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/confirm/flat+0-125us/report.json",
+      "bytes": 7147,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/confirm/plan.json",
+      "bytes": 6287,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/confirm/slope+10-125us/report.json",
+      "bytes": 7220,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/evaluate/plan.json",
+      "bytes": 8420,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/evaluate/slope+0-125us/report.json",
+      "bytes": 7216,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/evaluate/slope+0-250us/report.json",
+      "bytes": 7217,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/evaluate/slope+5-125us/report.json",
+      "bytes": 7280,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/evaluate/slope+5-250us/report.json",
+      "bytes": 7278,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/evaluate/slope-5-125us/report.json",
+      "bytes": 7299,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/evaluate/slope-5-250us/report.json",
+      "bytes": 7302,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/evaluate/slope-9-125us/report.json",
+      "bytes": 7306,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/evaluate/slope-9-250us/report.json",
+      "bytes": 7303,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/fit-package/package.json",
+      "bytes": 10460,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/forward-progress-diagnostic.json",
+      "bytes": 26381,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/implementation-check.json",
+      "bytes": 6609,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/pilot/flat+0-250us/report.json",
+      "bytes": 7147,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/pilot/plan.json",
+      "bytes": 6180,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/pilot/recording-check.json",
+      "bytes": 9031,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/pilot/slope+10-250us/report.json",
+      "bytes": 7217,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/pilot/summary.json",
+      "bytes": 30735,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/student-01/plan.json",
+      "bytes": 10663,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-navigation/tracking-diagnostic.json",
+      "bytes": 35521,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/README.md",
+      "bytes": 6856,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/challenge-screen/cross_slope+15-250us/report.json",
+      "bytes": 10585,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/challenge-screen/cross_slope-15-250us/report.json",
+      "bytes": 10573,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/challenge-screen/plan.json",
+      "bytes": 9843,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/challenge-screen/progress.json",
+      "bytes": 79,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/challenge-screen/rough_slope+15-250us/report.json",
+      "bytes": 10557,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/challenge-screen/rough_slope-15-250us/report.json",
+      "bytes": 10554,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/challenge-screen/slope+20-250us/report.json",
+      "bytes": 10604,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/challenge-screen/slope-20-250us/report.json",
+      "bytes": 10547,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/pilot/plan.json",
+      "bytes": 7614,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/pilot/progress.json",
+      "bytes": 79,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/pilot/slope+0-125us/report.json",
+      "bytes": 9353,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/pilot/slope+0-250us/report.json",
+      "bytes": 9354,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/preflight.json",
+      "bytes": 12029,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/regression/plan.json",
+      "bytes": 16209,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/regression/progress.json",
+      "bytes": 79,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/regression/slope+5-125us/report.json",
+      "bytes": 9915,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/regression/slope+5-250us/report.json",
+      "bytes": 9914,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/regression/slope+9-125us/report.json",
+      "bytes": 9914,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/regression/slope+9-250us/report.json",
+      "bytes": 9916,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/regression/slope-5-125us/report.json",
+      "bytes": 9932,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/regression/slope-5-250us/report.json",
+      "bytes": 9931,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/teacher-comparison/README.md",
+      "bytes": 3912,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/teacher-comparison/confirm/cross_slope+15-125us/report.json",
+      "bytes": 10750,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/teacher-comparison/confirm/plan.json",
+      "bytes": 8836,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/teacher-comparison/confirm/progress.json",
+      "bytes": 79,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/teacher-comparison/screen/cross_slope+15-250us/report.json",
+      "bytes": 10751,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/teacher-comparison/screen/cross_slope-15-250us/report.json",
+      "bytes": 10753,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/teacher-comparison/screen/plan.json",
+      "bytes": 9717,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/teacher-comparison/screen/progress.json",
+      "bytes": 79,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/teacher-comparison/screen/rough_slope-15-250us/report.json",
+      "bytes": 10737,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-preview/teacher-comparison/screen/slope-20-250us/report.json",
+      "bytes": 10723,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-progress/README.md",
+      "bytes": 4808,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-progress/overshoot-diagnostic.json",
+      "bytes": 14551,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-progress/pilot/plan.json",
+      "bytes": 7125,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-progress/pilot/progress.json",
+      "bytes": 79,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-progress/pilot/recording-check.json",
+      "bytes": 8259,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-progress/pilot/slope+0-125us/report.json",
+      "bytes": 8744,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-progress/pilot/slope+0-250us/report.json",
+      "bytes": 8744,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-progress/pilot/slope-9-125us/report.json",
+      "bytes": 8830,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-progress/pilot/slope-9-250us/report.json",
+      "bytes": 8826,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-progress/pilot/summary.json",
+      "bytes": 46541,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-progress/preflight.json",
+      "bytes": 12385,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain-progress/storage-check.json",
+      "bytes": 5552,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/README.md",
+      "bytes": 3913,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/implementation-checks.json",
+      "bytes": 16257,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/plant-contract.json",
+      "bytes": 4393,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/preflight-before-reset-ray-fix/README.md",
+      "bytes": 905,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/preflight-before-reset-ray-fix/flat+0-mu0.8-actor-125us/report.json",
+      "bytes": 5557,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/preflight-before-reset-ray-fix/flat+0-mu0.8-actor-250us/report.json",
+      "bytes": 5555,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/preflight-before-reset-ray-fix/flat+0-mu0.8-teacher-125us/report.json",
+      "bytes": 5539,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/preflight-before-reset-ray-fix/flat+0-mu0.8-teacher-250us/report.json",
+      "bytes": 5540,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/preflight-before-reset-ray-fix/plan.json",
+      "bytes": 4677,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/preflight-before-reset-ray-fix/plant-contract.json",
+      "bytes": 4393,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/preflight-before-reset-ray-fix/summary.json",
+      "bytes": 30287,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/preflight/flat+0-mu0.8-actor-125us/report.json",
+      "bytes": 5557,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/preflight/flat+0-mu0.8-actor-250us/report.json",
+      "bytes": 5555,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/preflight/flat+0-mu0.8-teacher-125us/report.json",
+      "bytes": 5539,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/preflight/flat+0-mu0.8-teacher-250us/report.json",
+      "bytes": 5540,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/preflight/plan.json",
+      "bytes": 4806,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/preflight/summary.json",
+      "bytes": 30416,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/cross_slope+15-mu0.8-actor-250us/report.json",
+      "bytes": 5668,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/cross_slope+15-mu0.8-teacher-250us/report.json",
+      "bytes": 5668,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/cross_slope-15-mu0.8-actor-250us/report.json",
+      "bytes": 5682,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/cross_slope-15-mu0.8-teacher-250us/report.json",
+      "bytes": 5668,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/flat+0-mu0.8-actor-250us/report.json",
+      "bytes": 5552,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/flat+0-mu0.8-teacher-250us/report.json",
+      "bytes": 5537,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/plan.json",
+      "bytes": 9686,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/rough_slope+15-mu0.6-actor-250us/report.json",
+      "bytes": 5650,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/rough_slope+15-mu0.6-teacher-250us/report.json",
+      "bytes": 5635,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/rough_slope-15-mu0.6-actor-250us/report.json",
+      "bytes": 5665,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/rough_slope-15-mu0.6-teacher-250us/report.json",
+      "bytes": 5636,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope+10-mu0.8-actor-250us/report.json",
+      "bytes": 5639,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope+10-mu0.8-teacher-250us/report.json",
+      "bytes": 5625,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope+15-mu0.25-actor-250us/report.json",
+      "bytes": 5600,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope+15-mu0.25-teacher-250us/report.json",
+      "bytes": 5627,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope+15-mu0.8-actor-250us/report.json",
+      "bytes": 5637,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope+15-mu0.8-teacher-250us/report.json",
+      "bytes": 5621,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope+20-mu0.25-actor-250us/report.json",
+      "bytes": 5640,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope+20-mu0.25-teacher-250us/report.json",
+      "bytes": 5629,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope+20-mu0.8-actor-250us/report.json",
+      "bytes": 5642,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope+20-mu0.8-teacher-250us/report.json",
+      "bytes": 5621,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope-10-mu0.8-actor-250us/report.json",
+      "bytes": 5645,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope-10-mu0.8-teacher-250us/report.json",
+      "bytes": 5645,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope-15-mu0.8-actor-250us/report.json",
+      "bytes": 5658,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope-15-mu0.8-teacher-250us/report.json",
+      "bytes": 5627,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope-20-mu0.8-actor-250us/report.json",
+      "bytes": 5662,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/slope-20-mu0.8-teacher-250us/report.json",
+      "bytes": 5629,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/screen/summary.json",
+      "bytes": 178349,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail-native/terrain/startup-import-failure/plan.json",
+      "bytes": 4677,
+      "reason": "unreleased skill development; full evidence remains in the robot source repository"
+    },
+    {
+      "path": "clanky-v2/detail/parts-local.step",
+      "bytes": 26840036,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "clanky-v2/direct-wheel/module.step",
+      "bytes": 4774127,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "clanky-v2/direct-wheel/wheel.stl",
+      "bytes": 1183284,
+      "reason": "CAD export without a viewer download link"
+    },
     {
       "path": "clanky-v2/geared-wheel-relief.step",
       "bytes": 4564531,
@@ -31,6 +3951,11 @@
     {
       "path": "clanky-v2/hardware-references/hip-gears/2303-1006-0020.step",
       "bytes": 1528853,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "clanky-v2/hardware-references/pi5/supplier-cad.zip",
+      "bytes": 13270704,
       "reason": "CAD export without a viewer download link"
     },
     {
@@ -682,6 +4607,11 @@
       "path": "clanky-v2/large-wheel/tire-150x20.stl",
       "bytes": 2077284,
       "reason": "rejected geometry study; current viewers do not load it"
+    },
+    {
+      "path": "clanky-v2/layout.step",
+      "bytes": 10663713,
+      "reason": "CAD export without a viewer download link"
     },
     {
       "path": "clanky-v2/native/deeper-tuck-0/parameters.json",
@@ -1507,6 +5437,11 @@
       "path": "clanky-v2/native/prelaunch-lean-4/trajectory.json",
       "bytes": 714024,
       "reason": "raw native run; the viewer uses the exported replay"
+    },
+    {
+      "path": "clanky-v2/native/recovery/model.xml",
+      "bytes": 174338,
+      "reason": "development model duplicate; the preceding viewer model remains"
     },
     {
       "path": "clanky-v2/native/recovery/parameters.json",
@@ -3959,8 +7894,18 @@
       "reason": "rejected geometry study; current viewers do not load it"
     },
     {
+      "path": "concept03/sources/DCGM-3865-PDF-2D.zip",
+      "bytes": 99885,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
       "path": "concept03/sources/GM3865-3D.step",
       "bytes": 157631,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "concept03/sources/GM3865-3D.zip",
+      "bytes": 23626,
       "reason": "CAD export without a viewer download link"
     },
     {
@@ -4937,6 +8882,16 @@
       "path": "wheel-study/revised/turn-verification/turn-wide_current-500us.json",
       "bytes": 1535109,
       "reason": "raw wheel-study run; replays.json remains"
+    },
+    {
+      "path": "wheel-study/revised/wheel.step",
+      "bytes": 5138691,
+      "reason": "CAD export without a viewer download link"
+    },
+    {
+      "path": "wheel-study/revised/wheel.stl",
+      "bytes": 2101784,
+      "reason": "CAD export without a viewer download link"
     },
     {
       "path": "wheel-study/tpu-wheel-120x25.step",

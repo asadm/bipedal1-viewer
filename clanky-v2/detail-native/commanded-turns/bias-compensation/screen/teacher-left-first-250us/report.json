@@ -1,0 +1,211 @@
+{
+  "surface": "flat",
+  "angle_deg": 0,
+  "friction": 0.8,
+  "terrain_seed": 990,
+  "seed": 99000,
+  "perturbed": true,
+  "timestep_s": 0.00025,
+  "task": "screen",
+  "role": "teacher",
+  "direction": 1,
+  "split": "commanded_turn_development",
+  "name": "teacher-left-first-250us",
+  "status": "completed",
+  "controller": "yaw_bias_compensated_teacher",
+  "teacher_intervenes": true,
+  "actor_sha256": null,
+  "targets": [
+    [
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      -1.0
+    ],
+    [
+      0.0,
+      0.6
+    ]
+  ],
+  "elapsed_s": 16.99999999999016,
+  "steps": 1700,
+  "failure": null,
+  "native_valid": true,
+  "boundary": null,
+  "stable_time_s": 3.5872499999993717,
+  "peak_motor_current_A": [
+    6.943528520297629,
+    7.990898381291618,
+    6.037383558565898,
+    7.682679172334978
+  ],
+  "minimum_branch_margin": 0.9586268179267935,
+  "body_contact_geoms": [],
+  "terrain": {
+    "family": "flat",
+    "magnitude": 0.0,
+    "magnitude_unit": "deg",
+    "seed": 990,
+    "fixed_surface": true,
+    "loose_stones": false,
+    "grid_spacing_m": 0.005,
+    "size_m": [
+      4.5,
+      1
+    ],
+    "position_m": [
+      1.25,
+      0,
+      0.0
+    ],
+    "scale_m": 0.001,
+    "nrow": 201,
+    "ncol": 901,
+    "stones": [],
+    "obstacle_interval_x_m": [
+      0.55,
+      2.4
+    ],
+    "actual_min_height_m": 0.0,
+    "actual_max_height_m": 0.0,
+    "sha256": "a6e49252454602409febc751fee00ec13d81f4cdb09a310f5e0ccef05d238359",
+    "scene_sha256": "f434e4757731de7e7339d5b1978ab3078d67ead414e1174fd4ded6aa2c2a0cca",
+    "sliding_friction": 0.8
+  },
+  "passed": true,
+  "gates": {
+    "full_duration": true,
+    "no_fall_or_native_failure": true,
+    "final_two_seconds_standing": true,
+    "all_windows_measured": true,
+    "speed_tracking": true,
+    "yaw_tracking": true,
+    "roll_below_eight_degrees": true,
+    "no_sampled_body_contact": true,
+    "within_flat_scene": true,
+    "in_place_displacement": true,
+    "net_yaw_rotation": true,
+    "native_valid": true,
+    "no_body_contact_ever": true
+  },
+  "tracking_windows": [
+    {
+      "end_s": 5.0,
+      "samples": 100,
+      "command_mean": [
+        0.0,
+        1.0
+      ],
+      "motion_mean": [
+        -0.005098933784067134,
+        0.9884171509819563
+      ],
+      "rmse": [
+        0.005140362686552891,
+        0.013199552191592441
+      ]
+    },
+    {
+      "end_s": 9.0,
+      "samples": 100,
+      "command_mean": [
+        0.0,
+        -1.0
+      ],
+      "motion_mean": [
+        -0.005372044617611939,
+        -1.0006570292410955
+      ],
+      "rmse": [
+        0.005404146242793321,
+        0.010594027390556284
+      ]
+    },
+    {
+      "end_s": 13.0,
+      "samples": 100,
+      "command_mean": [
+        0.0,
+        0.600000000000001
+      ],
+      "motion_mean": [
+        -0.0016941348492240651,
+        0.5936839488398469
+      ],
+      "rmse": [
+        0.001787082159709445,
+        0.011263401849443709
+      ]
+    }
+  ],
+  "body_yaw_change_rad": 2.371264226531599,
+  "integrated_yaw_command_rad": 2.399999999999999,
+  "net_yaw_error_rad": -0.028735773468400172,
+  "maximum_wheel_midpoint_displacement_m": 0.027386428023526675,
+  "source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+    "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+    "detail/manifest.json": "60bee91d5ffd9a083f2a5a8d630d3307473e87e70862f095b3919dda1aed4ca5",
+    "detail/parts.json": "86f31e6d8bbaf15a7bee35f2cd0a64becd03607178027916f487d5331bf5d423",
+    "detail_cad.py": "377f1be10e8399c915e15e6a1e6c6a825b95a11adc528c06385b6e157cd68f31",
+    "detail_mass.py": "f8a080a5b58a7c64f528c72d8577ee8a0b0ab6a3bcfb459c0951acfe204d6d9c",
+    "native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+    "native_drivetrain.py": "3994d8475929f8ae1e6fcf68a487f852c3812ec96937c796d41b499fc0304b77",
+    "native/mass-properties.json": "0d5c5d21f94f9282dd107cc92a867e4c4f888601783eda00580f5f71d0e970c7",
+    "detail_native.py": "d4278841d509f2c2dbbd7931dfb89210c09775d39eb76425a7071a2d7c3388f3",
+    "detail-native/mass-properties.json": "2f60afa5510fb6b8c8db88d94b89e9240f2ffed1caf372490d7098c55d4ecd3f",
+    "native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+    "detail_terrain.py": "5572d3e338b6b631b2d573b5454b33db15fb5b2112abea2a3ae67c751575bb16",
+    "detail-native/baseline-jump-250us/model.xml": "632f650387c00755db398daa0e8138a63e295f7f2ebbcf4e7ff2d233ffd4976d",
+    "training/environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb",
+    "training/command_driving.py": "34d3a9ac92222b5414a8731ba8a891d09fa30ae02fc4ea43905e3e445ddb18cd",
+    "training/balance_teacher.py": "b6e2e919240228084437bf59ec49537d3a165f6d3ff47691f554d9bcf78e4e09",
+    "training/teacher_reference.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486",
+    "training/balance_dagger.py": "f2f0e5ce447cb04dcb60663a6d8ba1e07891ed98c1dde3fc5ac6ba8e1e03fe26",
+    "training/guided_balance.py": "84282cffce9fa6598b431726e03e168da5c40cddaef09dd6dbdfb900d20234bb",
+    "training/evaluate.py": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef",
+    "training/terrain_courses.py": "9bcc441dd4ca3052e93b19a1ca2c07a05d7bb4593a1778f0b260a9731b56565c",
+    "training/terrain_reference.py": "af2fe776105bfacc9701113f840a991bce3e6d195f030f42c032b2dba8846347",
+    "detail_terrain_control.py": "36e716517eef1b642a4b5118c63ecab242e2c736bcf166e51de10a324b0cc6b0",
+    "detail-native/terrain/screen/summary.json": "13155530b46c61e50eea5134e2a87f240b823478cfd47c27d0a03fa9b3dda0d2",
+    "detail_terrain_hold.py": "5ba86c4f81ab13285b13f162306cb7e3971b3ce0ff06029575f92a53d945939c",
+    "detail-native/terrain-control/pilot-summary.json": "b7189315a080837107c38cb21d187b8186bb124fc943954e3bcea215a91d623e",
+    "detail_terrain_learning.py": "533bcc899c5a2750a6fb339faec9850e2d004e8ae07b89d3266069aa228cf79c",
+    "detail-native/terrain-hold/pilot-summary.json": "5368efa20da7e1f67b5b4e9f0a42c2d1d663ef3ba7b9c3978dbfd189f26d7600",
+    "detail_terrain_reset.py": "f3170a786b043e15452d7de99d2289707a36a94a314a3c68225c543259669f1e",
+    "training/plant/native_recovery_support.py": "e7a7b6d71d68a0335a131097621c6e7aaf88f7ebd41e9b13e620e070e9890157",
+    "detail_terrain_navigation.py": "9baf1a6fa3292b92d1efd3b84d3c2fce1019d9f2248ca076dea2fe863b7ef6f2",
+    "detail-native/terrain-learning/reset-safe/collection-check.json": "9e42b97e91464852874778dd8eedcfb6d2fc93f351248b3527cfd970f57490c2",
+    "detail_commanded_turns.py": "ff07956605de3302aff4392f6f4390ddbd14d85e55217ce99ed7f9de5c4b0af2",
+    "detail-native/terrain-navigation/student-01/actor.npz": "555eb5896d5dddff18e2b05b1137a8176881a07b09f81965ec4032c74e55d6c2",
+    "detail-native/terrain-navigation/student-01/manifest.json": "9ade5268d883131dfb331fea4904f0ad21512c762919efbe1f32d636ed6f2ac6",
+    "detail_turn_bias.py": "76b36fdec904898cd0096dd44448d7d19164b72c4c31ed69849b0e2d191581d2",
+    "detail-native/commanded-turns/screen/summary.json": "e4a8df302ed97b963d470f2e494d397c7c9af08090ed87084bab6f785f3161ce",
+    "detail-native/commanded-turns/screen/recording-check.json": "976774b35882a6dac00e5e7b2897fc10c41170cc86638be6e026c9739bd75152",
+    "check_detail_commanded_turns.py": "0cda2c13025293dfc26b98fb6d947838471a3640fa930ff9a39c8120f68f8027",
+    "detail-native/commanded-turns/bias-compensation/calibration.json": "93f0f28eb17f9ea687ecef70ae33e523597184c7a18b2377dfd7f2e44ef0d445"
+  },
+  "recording_sha256": "704f363196cdd675a430a4d8d2588051d4a005f2cbda2b05870d47f1906a1c6b",
+  "limitations": [
+    "Current 120 mm detailed CAD; nominal rigid tire, ideal gear, motor and mass priors.",
+    "Fixed in-place yaw commands with no external pose navigator. Student sees only its existing masked sensor and command channels.",
+    "Teacher uses privileged velocity/contact information. Teacher labels in student trials are diagnostic and never applied.",
+    "Same three-segment command ramps and tracking thresholds as the earlier driving study, now on the current detailed plant with its contact/hip-velocity standing criterion.",
+    "Two command signs at one perturbed start; timestep repeats are numerical checks, not independent robustness samples. This does not qualify translating turns or uneven-ground steering.",
+    "One yaw bias measured from the earlier saved teacher plateaus. Differential wheel feedforward only; original requested commands, hip controller, native limits and all turn/standing gates are retained."
+  ],
+  "calibration_sha256": "93f0f28eb17f9ea687ecef70ae33e523597184c7a18b2377dfd7f2e44ef0d445",
+  "rate_bias_rad_s": 0.1072994967032564
+}

@@ -1,0 +1,202 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "initial_kind": "standing_fall",
+      "family": "back",
+      "timestep_s": 0.00025,
+      "passed": true,
+      "origin": "reused_development",
+      "report_sha256": "2195ee55204847dd82b19e5ed6d6e088becb3724c137ca220eb4b4d63919c840"
+    },
+    {
+      "initial_kind": "standing_fall",
+      "family": "back",
+      "timestep_s": 0.000125,
+      "passed": true,
+      "origin": "reused_development",
+      "report_sha256": "d6f08dcc5323d4061a96003799e1c4486e17b9c86b60c6a009ef6d963d935a88"
+    },
+    {
+      "initial_kind": "standing_fall",
+      "family": "left",
+      "timestep_s": 0.00025,
+      "passed": true,
+      "origin": "reused_development",
+      "report_sha256": "37b7e2365f9f8086d7328b9ad48d62aa0d8b9794f78b3643ce61ae1911c59220"
+    },
+    {
+      "initial_kind": "standing_fall",
+      "family": "left",
+      "timestep_s": 0.000125,
+      "passed": true,
+      "origin": "reused_development",
+      "report_sha256": "6613c51cdc0e33649fb1f0c06f66744092653205f97b299705982e31afc19daf"
+    },
+    {
+      "initial_kind": "standing_fall",
+      "family": "front",
+      "timestep_s": 0.00025,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "93de204e2c528c9eb529fd8f2d6ce6d64bc7f65beb6ebed5f84a0f14e02fde31"
+    },
+    {
+      "initial_kind": "standing_fall",
+      "family": "front",
+      "timestep_s": 0.000125,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "4da22ca78b46b96722193c49db981fbf95599c6e4e201cbd027026bdc1c3f119"
+    },
+    {
+      "initial_kind": "standing_fall",
+      "family": "right",
+      "timestep_s": 0.00025,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "5e2e666e8d313901a86eceecd932369ecb9018833b5e81fc3038113466a40284"
+    },
+    {
+      "initial_kind": "standing_fall",
+      "family": "right",
+      "timestep_s": 0.000125,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "be9e9a28f5a1cced101ce29bccfd567381d7d4f79f9f50d933186bad8eb895a9"
+    },
+    {
+      "initial_kind": "standing_fall",
+      "family": "front_left",
+      "timestep_s": 0.00025,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "3c4a8358514f2e138868031e45fd008f1f4a44bc96bb8aab6e145cbef8cf77d9"
+    },
+    {
+      "initial_kind": "standing_fall",
+      "family": "front_left",
+      "timestep_s": 0.000125,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "396dc09565ad445b5c2c66d7bbb2fc7df54736ede329330ebd74f44bee5be9fb"
+    },
+    {
+      "initial_kind": "standing_fall",
+      "family": "front_right",
+      "timestep_s": 0.00025,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "686d34f61d6ea5ef37b6a31b04f00e03b9199742caa97b686ad6e78de45c9fe6"
+    },
+    {
+      "initial_kind": "standing_fall",
+      "family": "front_right",
+      "timestep_s": 0.000125,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "957c4f8fb539873da4ca862d3d002a2bc20843e38e192cee76b1ef9199caea01"
+    },
+    {
+      "initial_kind": "standing_fall",
+      "family": "back_left",
+      "timestep_s": 0.00025,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "2787b7ce68775550ec5bf9748ad60d7ec5daef37b8ee61d463baaa27253906b1"
+    },
+    {
+      "initial_kind": "standing_fall",
+      "family": "back_left",
+      "timestep_s": 0.000125,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "33e683f0480ab9de0d1f81a6570133c22741f87dfe7347b3bc0fc4a733b3d547"
+    },
+    {
+      "initial_kind": "standing_fall",
+      "family": "back_right",
+      "timestep_s": 0.00025,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "d8449f21cdcb2868b21ffba6faf44130d18a736034c29d27f7d96d2fe1bdc922"
+    },
+    {
+      "initial_kind": "standing_fall",
+      "family": "back_right",
+      "timestep_s": 0.000125,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "0b3f182bd7b5194e26784e672949c1ab888c9534f9b6e7f170edd61f52febe93"
+    },
+    {
+      "initial_kind": "near_floor",
+      "family": "front",
+      "timestep_s": 0.00025,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "3595dc49a88ce1d3e6d0136c8619de13fa75fb2951984324e6deee81b9847b29"
+    },
+    {
+      "initial_kind": "near_floor",
+      "family": "front",
+      "timestep_s": 0.000125,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "10d0ab90e61224ff1c17af38ac80a9998c0a929819312ce16d2df66776fe1fcd"
+    },
+    {
+      "initial_kind": "near_floor",
+      "family": "back",
+      "timestep_s": 0.00025,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "61a61e431544d8b380073a632a4c34f9a920f00a7d3940686fbd1d08c46d1397"
+    },
+    {
+      "initial_kind": "near_floor",
+      "family": "back",
+      "timestep_s": 0.000125,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "fa71fba9112bb2c1fa6e4a61da099f7250d591c93c9dce75747a77a6536f038f"
+    },
+    {
+      "initial_kind": "near_floor",
+      "family": "left",
+      "timestep_s": 0.00025,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "08aa4d8ce3598ddb4c6565e8fb6603111a7569f099c60c7b5d0ae6870312f60a"
+    },
+    {
+      "initial_kind": "near_floor",
+      "family": "left",
+      "timestep_s": 0.000125,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "64ab2fd047ca468c728b8705869ad49fdcf8389e534a532731939367b2cbc84c"
+    },
+    {
+      "initial_kind": "near_floor",
+      "family": "inverted",
+      "timestep_s": 0.00025,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "d369c770a5af26a7dff3567b261dbf427f665e76b9ab42aaf10a55a84ba6cd7c"
+    },
+    {
+      "initial_kind": "near_floor",
+      "family": "inverted",
+      "timestep_s": 0.000125,
+      "passed": true,
+      "origin": "regression",
+      "report_sha256": "3120171d6f01a96b1647f1e9b95f74f39046d8b6acde02ef73cd3a14b072463c"
+    }
+  ],
+  "standing_fall_passes": 16,
+  "near_floor_passes": 8,
+  "regression_audit_sha256": "19d04cdea80ed9c0ddac1c4e850a0ec6a7fe20d3619a9c0a16db2608212c3061",
+  "development_audit_sha256": "9c8309a493ac5d14fea73e543b35e63d753ba799b4fe73dd479ca82fd6c799bf",
+  "scope": "Sixteen standing-fall and eight earlier near-floor conditions. Four development trials reused; twenty regression executions. This is nominal historical-case coverage, not fresh randomized or physical validation."
+}

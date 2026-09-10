@@ -1,0 +1,4888 @@
+{
+  "status": "bilateral_detail_mesh_diagnostic",
+  "source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+    "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+    "detail/manifest.json": "60bee91d5ffd9a083f2a5a8d630d3307473e87e70862f095b3919dda1aed4ca5",
+    "detail/parts.json": "86f31e6d8bbaf15a7bee35f2cd0a64becd03607178027916f487d5331bf5d423",
+    "detail_cad.py": "377f1be10e8399c915e15e6a1e6c6a825b95a11adc528c06385b6e157cd68f31",
+    "check_detail_mesh.py": "10c5140b84155d47a38b2e0337b1f8fe1ce3e46255a34f05e2163e1dca200220",
+    "check_coaxial_spring.py": "a5edba09a7d3916dea1b94b27d717721e961c853cb96d20b5085989440bc8d57",
+    "check_assembly.py": "45281fe027c219b051a2a53698a759d7e2b51ff92b7bd02dc4e92056d9f429e4",
+    "check_direct_wheel.py": "e71e4319c6904d0af0af0610c9bda4566dffb373fd09336f6a9970ebb672357a",
+    "check_layout.py": "32630e8eb58b6659780e8db7b68d2b0071d40b2672bfb67218043339092d05fa",
+    "geometry_screen.py": "ed095aaab8cdcdeec74da7c84dfd53b0567d208a06d16984c4649171d9932839",
+    "spring_cartridge.py": "3af1da0a6ddd5d83ab4c85af2857b8f0eed1d36abee2ddacf37a0c8cb5fba9ff"
+  },
+  "poses": 370,
+  "independent_leg_poses": 169,
+  "symmetric_poses": 201,
+  "mesh_checks": [
+    {
+      "name": "right_output_spacer_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322523939592209,
+      "passed": true
+    },
+    {
+      "name": "right_output_M4_nut_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00039220758596525407,
+      "passed": true
+    },
+    {
+      "name": "right_output_M4x12_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322495446215662,
+      "passed": true
+    },
+    {
+      "name": "right_output_spacer_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322523939607752,
+      "passed": true
+    },
+    {
+      "name": "right_output_M4_nut_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0003922075859663643,
+      "passed": true
+    },
+    {
+      "name": "right_output_M4x12_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322495446226764,
+      "passed": true
+    },
+    {
+      "name": "right_output_spacer_2",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322523939603311,
+      "passed": true
+    },
+    {
+      "name": "right_output_M4_nut_2",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00039220758602431793,
+      "passed": true
+    },
+    {
+      "name": "right_output_M4x12_2",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322495446225654,
+      "passed": true
+    },
+    {
+      "name": "right_output_spacer_3",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322523939603311,
+      "passed": true
+    },
+    {
+      "name": "right_output_M4_nut_3",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0003922075859663643,
+      "passed": true
+    },
+    {
+      "name": "right_output_M4x12_3",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322495446226764,
+      "passed": true
+    },
+    {
+      "name": "right_driven_thigh_frame",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00032268522084444307,
+      "passed": true
+    },
+    {
+      "name": "right_output_gear_80T",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0005378978746184426,
+      "passed": true
+    },
+    {
+      "name": "right_output_F688_inner",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322425106487175,
+      "passed": true
+    },
+    {
+      "name": "right_output_fixed_spindle",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0008970934922214457,
+      "passed": true
+    },
+    {
+      "name": "right_output_spindle_spacer_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322421594618602,
+      "passed": true
+    },
+    {
+      "name": "right_output_spindle_spacer_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322421594614161,
+      "passed": true
+    },
+    {
+      "name": "right_output_spindle_cap_rear",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.000569170009399822,
+      "passed": true
+    },
+    {
+      "name": "right_output_spindle_M3_rear",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0015695348389891395,
+      "passed": true
+    },
+    {
+      "name": "right_output_mount_M3_-17",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0015695348890862881,
+      "passed": true
+    },
+    {
+      "name": "right_output_mount_M3_17",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0015695348890875094,
+      "passed": true
+    },
+    {
+      "name": "right_output_body_plate",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 5.87124347257717e-05,
+      "passed": true
+    },
+    {
+      "name": "body_closure_M3x10_-1_-1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00045930107527136776,
+      "passed": true
+    },
+    {
+      "name": "body_closure_M3_nut_-1_-1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 9.738468399489442e-05,
+      "passed": true
+    },
+    {
+      "name": "body_closure_M3x10_-1_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00045930107527136776,
+      "passed": true
+    },
+    {
+      "name": "body_closure_M3_nut_-1_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 9.738468399489442e-05,
+      "passed": true
+    },
+    {
+      "name": "body_closure_M3x10_1_-1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00045930107527136776,
+      "passed": true
+    },
+    {
+      "name": "body_closure_M3_nut_1_-1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 9.738468399489442e-05,
+      "passed": true
+    },
+    {
+      "name": "body_closure_M3x10_1_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00045930107527136776,
+      "passed": true
+    },
+    {
+      "name": "body_closure_M3_nut_1_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 9.738468399489442e-05,
+      "passed": true
+    },
+    {
+      "name": "left_motor_M3x6_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322421183161067,
+      "passed": true
+    },
+    {
+      "name": "left_motor_M3x6_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322418876251959,
+      "passed": true
+    },
+    {
+      "name": "left_motor_M3x6_2",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322442320433,
+      "passed": true
+    },
+    {
+      "name": "left_motor_M3x6_3",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322422361530691,
+      "passed": true
+    },
+    {
+      "name": "left_hip_encoder_allocation",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "name": "left_hip_motor_base_envelope",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322407190466286,
+      "passed": true
+    },
+    {
+      "name": "left_hip_motor_rotor_envelope",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322408672679527,
+      "passed": true
+    },
+    {
+      "name": "left_rotor_M2x5_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0016255957275933541,
+      "passed": true
+    },
+    {
+      "name": "left_rotor_M2x5_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0016255965001062966,
+      "passed": true
+    },
+    {
+      "name": "left_rotor_M2x5_2",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0016255991200414543,
+      "passed": true
+    },
+    {
+      "name": "left_rotor_D6_adapter",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0008333012425498776,
+      "passed": true
+    },
+    {
+      "name": "right_motor_M3x6_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322421183162177,
+      "passed": true
+    },
+    {
+      "name": "right_motor_M3x6_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322418876251959,
+      "passed": true
+    },
+    {
+      "name": "right_motor_M3x6_2",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322442320433,
+      "passed": true
+    },
+    {
+      "name": "right_motor_M3x6_3",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322422361530691,
+      "passed": true
+    },
+    {
+      "name": "right_hip_encoder_allocation",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "name": "right_hip_motor_base_envelope",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322407190470727,
+      "passed": true
+    },
+    {
+      "name": "right_hip_motor_rotor_envelope",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322408672680638,
+      "passed": true
+    },
+    {
+      "name": "right_rotor_M2x5_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.001625595727593132,
+      "passed": true
+    },
+    {
+      "name": "right_rotor_M2x5_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0016255965001059636,
+      "passed": true
+    },
+    {
+      "name": "right_rotor_M2x5_2",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0016255991200411213,
+      "passed": true
+    },
+    {
+      "name": "right_rotor_D6_adapter",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0008333012425498776,
+      "passed": true
+    },
+    {
+      "name": "battery_retained_envelope",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "name": "camera_rear_M3x6_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322417765275093,
+      "passed": true
+    },
+    {
+      "name": "camera_rear_M3x6_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322417765288415,
+      "passed": true
+    },
+    {
+      "name": "D435i_mounted_envelope",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 8.473724000934713e-05,
+      "passed": true
+    },
+    {
+      "name": "pi_M2p5_nut_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0002733246483888063,
+      "passed": true
+    },
+    {
+      "name": "pi_M2p5x10_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322354342576888,
+      "passed": true
+    },
+    {
+      "name": "pi_M2p5_nut_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00027332464838836223,
+      "passed": true
+    },
+    {
+      "name": "pi_M2p5x10_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.000932235434258466,
+      "passed": true
+    },
+    {
+      "name": "pi_M2p5_nut_2",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00027332464838791815,
+      "passed": true
+    },
+    {
+      "name": "pi_M2p5x10_2",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322354342571337,
+      "passed": true
+    },
+    {
+      "name": "pi_M2p5_nut_3",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00027332464838791815,
+      "passed": true
+    },
+    {
+      "name": "pi_M2p5x10_3",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322354342576888,
+      "passed": true
+    },
+    {
+      "name": "pi5_mounted_PCB_envelope",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 4.507065633818641e-06,
+      "passed": true
+    },
+    {
+      "name": "pi5_ethernet_envelope",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "name": "pi5_usb3_envelope",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "pi5_usb2_envelope",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "name": "pi5_gpio_envelope",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 2.220446049250313e-16,
+      "passed": true
+    },
+    {
+      "name": "pi5_usb_c_power_envelope",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 1.9984014443252818e-15,
+      "passed": true
+    },
+    {
+      "name": "pi5_sd_socket_envelope",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "pi5_active_cooler_allocation",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0,
+      "passed": true
+    },
+    {
+      "name": "left_compound_M3x8_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0015334596632404773,
+      "passed": true
+    },
+    {
+      "name": "left_compound_M3x8_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.001533459687332539,
+      "passed": true
+    },
+    {
+      "name": "left_compound_M3x8_2",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0015334596632405884,
+      "passed": true
+    },
+    {
+      "name": "left_compound_M3x8_3",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0015334596419938062,
+      "passed": true
+    },
+    {
+      "name": "left_compound_flange_shaft",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00090902386674796,
+      "passed": true
+    },
+    {
+      "name": "left_compound_60T_countersunk",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00035386730216768747,
+      "passed": true
+    },
+    {
+      "name": "left_compound_shim_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322410582278673,
+      "passed": true
+    },
+    {
+      "name": "left_compound_shim_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322410582278673,
+      "passed": true
+    },
+    {
+      "name": "left_compound_shim_2",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322410582278673,
+      "passed": true
+    },
+    {
+      "name": "left_compound_circlip_envelope_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322398407378696,
+      "passed": true
+    },
+    {
+      "name": "left_compound_circlip_envelope_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322398407378696,
+      "passed": true
+    },
+    {
+      "name": "left_compound_624_inner",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322404451131971,
+      "passed": true
+    },
+    {
+      "name": "left_compound_624_outer",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322404451131971,
+      "passed": true
+    },
+    {
+      "name": "right_compound_M3x8_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0015334596632402553,
+      "passed": true
+    },
+    {
+      "name": "right_compound_M3x8_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.001533459687332539,
+      "passed": true
+    },
+    {
+      "name": "right_compound_M3x8_2",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0015334596632408104,
+      "passed": true
+    },
+    {
+      "name": "right_compound_M3x8_3",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0015334596419948054,
+      "passed": true
+    },
+    {
+      "name": "right_compound_flange_shaft",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009090238667477379,
+      "passed": true
+    },
+    {
+      "name": "right_compound_60T_countersunk",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00035391321819377985,
+      "passed": true
+    },
+    {
+      "name": "right_compound_shim_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322410582278673,
+      "passed": true
+    },
+    {
+      "name": "right_compound_shim_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322410582278673,
+      "passed": true
+    },
+    {
+      "name": "right_compound_shim_2",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322410582278673,
+      "passed": true
+    },
+    {
+      "name": "right_compound_circlip_envelope_0",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322398407380916,
+      "passed": true
+    },
+    {
+      "name": "right_compound_circlip_envelope_1",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009322398407380916,
+      "passed": true
+    },
+    {
+      "name": "right_compound_624_inner",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.000932240445112198,
+      "passed": true
+    },
+    {
+      "name": "right_compound_624_outer",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.000932240445112198,
+      "passed": true
+    },
+    {
+      "name": "left_drive_input_pinion",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00016129680491594467,
+      "passed": true
+    },
+    {
+      "name": "left_drive_input_pinion_set_screw",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009807675478189504,
+      "passed": true
+    },
+    {
+      "name": "left_drive_intermediate_20T",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0004694463341242683,
+      "passed": true
+    },
+    {
+      "name": "left_drive_intermediate_20T_set_screw",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0008892198074825775,
+      "passed": true
+    },
+    {
+      "name": "right_drive_input_pinion",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.00016271549850821465,
+      "passed": true
+    },
+    {
+      "name": "right_drive_input_pinion_set_screw",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0009640781693049938,
+      "passed": true
+    },
+    {
+      "name": "right_drive_intermediate_20T",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0004697955258745612,
+      "passed": true
+    },
+    {
+      "name": "right_drive_intermediate_20T_set_screw",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 0.0008595801478097354,
+      "passed": true
+    },
+    {
+      "name": "body_lower_detailed",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 5.3049981225128384e-05,
+      "passed": true
+    },
+    {
+      "name": "body_upper_detailed",
+      "watertight": true,
+      "consistent_winding": true,
+      "relative_volume_error": 6.329097688462237e-05,
+      "passed": true
+    }
+  ],
+  "pose_bounds": {
+    "fold": {
+      "bounds_mm": [
+        201.96858416467828,
+        252.0,
+        168.26062569345362
+      ],
+      "hip_rad": -0.49999999999999956
+    },
+    "crouch": {
+      "bounds_mm": [
+        207.2868734168968,
+        251.99999999999997,
+        170.7317994177597
+      ],
+      "hip_rad": -0.3799999999999999
+    },
+    "ride": {
+      "bounds_mm": [
+        205.7111448235317,
+        252.0,
+        254.907420073952
+      ],
+      "hip_rad": 0.41900000000000015
+    },
+    "extend": {
+      "bounds_mm": [
+        168.0,
+        252.0,
+        323.8020507308994
+      ],
+      "hip_rad": 1.0300000000000002
+    }
+  },
+  "contacts": [
+    {
+      "pair": [
+        "right_output_M4x12_2",
+        "right_output_spacer_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_60T_countersunk",
+        "left_compound_M3x8_3"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_hip_motor_rotor_envelope",
+        "right_rotor_D6_adapter"
+      ],
+      "count": 345,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_M4_nut_0"
+      ],
+      "count": 367,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_knee_626_inner"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_body_plate",
+        "right_output_fixed_spindle"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_60T_countersunk",
+        "left_compound_M3x8_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "right_compound_624_outer"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi_M2p5x10_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_spindle_M3_rear",
+        "right_output_spindle_cap_rear"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_F688_inner",
+        "right_output_spindle_spacer_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_rotor_D6_adapter",
+        "right_rotor_M2x5_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "D435i_mounted_envelope",
+        "body_lower_detailed"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_60T_countersunk",
+        "right_compound_M3x8_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_fixed_spindle",
+        "right_output_spindle_M3_rear"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_closure_M3_nut_1_-1",
+        "body_closure_M3x10_1_-1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_M3x8_0",
+        "right_compound_flange_shaft"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi_M2p5x10_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_M4x12_3",
+        "right_output_spacer_3"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_F688_inner",
+        "right_output_spindle_spacer_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_M4x12_2",
+        "right_output_gear_80T"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "camera_rear_M3x6_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_hip_motor_rotor_envelope"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_motor_M3x6_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi_M2p5_nut_3",
+        "pi_M2p5x10_3"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi5_mounted_PCB_envelope"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "right_compound_624_inner"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_M4x12_0",
+        "right_output_spacer_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "D435i_mounted_envelope",
+        "camera_rear_M3x6_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_3",
+        "right_output_M4x12_3"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_M4_nut_1"
+      ],
+      "count": 367,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "right_motor_M3x6_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_1",
+        "right_output_M4x12_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "right_motor_M3x6_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_60T_countersunk",
+        "left_compound_flange_shaft"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi5_usb3_envelope"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_M3x8_2",
+        "right_compound_flange_shaft"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_60T_countersunk",
+        "left_compound_M3x8_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "left_motor_M3x6_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "right_hip_motor_base_envelope"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "right_output_mount_M3_17"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_60T_countersunk",
+        "right_compound_M3x8_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_gpio_envelope",
+        "pi5_mounted_PCB_envelope"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_hip_motor_rotor_envelope",
+        "left_rotor_M2x5_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_0"
+      ],
+      "count": 341,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_M3x8_2",
+        "left_compound_flange_shaft"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_body_plate",
+        "right_output_spindle_cap_rear"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_hip_motor_rotor_envelope",
+        "left_rotor_M2x5_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "left_compound_624_outer"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_body_plate",
+        "right_output_spindle_spacer_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_rotor_D6_adapter",
+        "right_rotor_M2x5_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi_M2p5x10_3"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_motor_M3x6_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_shim_1",
+        "right_drive_intermediate_20T"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_hip_motor_rotor_envelope",
+        "left_rotor_D6_adapter"
+      ],
+      "count": 350,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_M3x8_1",
+        "left_compound_flange_shaft"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_624_inner",
+        "left_compound_shim_1"
+      ],
+      "count": 343,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_M3x8_3",
+        "right_compound_flange_shaft"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_hip_F688_outer"
+      ],
+      "count": 367,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "right_motor_M3x6_3"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_closure_M3_nut_-1_1",
+        "body_closure_M3x10_-1_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_hip_F688_outer",
+        "right_output_spindle_spacer_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi_M2p5x10_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "left_hip_motor_base_envelope"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_motor_M3x6_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_1",
+        "right_output_spacer_1"
+      ],
+      "count": 369,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "battery_retained_envelope",
+        "body_lower_detailed"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi5_sd_socket_envelope"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_2",
+        "right_output_spacer_2"
+      ],
+      "count": 365,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_624_outer",
+        "left_compound_shim_2"
+      ],
+      "count": 341,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_60T_countersunk",
+        "left_compound_M3x8_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_rotor_D6_adapter",
+        "left_rotor_M2x5_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi_M2p5x10_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_3",
+        "right_output_spacer_3"
+      ],
+      "count": 369,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_flange_shaft",
+        "right_compound_shim_1"
+      ],
+      "count": 340,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ],
+        [
+          -2.8,
+          -0.8599999999999999
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_drive_input_pinion",
+        "left_rotor_D6_adapter"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_60T_countersunk",
+        "right_compound_M3x8_3"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi_M2p5_nut_0",
+        "pi_M2p5x10_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_hip_cover_M3_3"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi5_usb2_envelope"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_motor_M3x6_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi_M2p5x10_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi_M2p5_nut_1",
+        "pi_M2p5x10_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "left_compound_624_inner"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_M4x12_3",
+        "right_output_gear_80T"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_motor_M3x6_3"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "left_motor_M3x6_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_body_plate",
+        "right_output_mount_M3_-17"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_motor_M3x6_3"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_flange_shaft",
+        "right_drive_intermediate_20T"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_624_outer",
+        "right_compound_shim_2"
+      ],
+      "count": 347,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "right_output_body_plate"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "left_compound_624_outer"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "left_output_mount_M3_-17"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "left_motor_M3x6_3"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_0",
+        "right_output_M4x12_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi5_usb_c_power_envelope"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_fixed_tie_anchor",
+        "right_output_fixed_spindle"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_closure_M3_nut_1_1",
+        "body_closure_M3x10_1_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_60T_countersunk",
+        "right_compound_M3x8_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_hip_motor_rotor_envelope"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_circlip_envelope_0",
+        "right_compound_flange_shaft"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi_M2p5_nut_2",
+        "pi_M2p5x10_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_M3x8_0",
+        "left_compound_flange_shaft"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_hip_motor_base_envelope",
+        "right_motor_M3x6_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_1"
+      ],
+      "count": 346,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ],
+        [
+          -2.8,
+          -0.8599999999999999
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_flange_shaft",
+        "left_drive_intermediate_20T"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_hip_motor_rotor_envelope",
+        "left_rotor_M2x5_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_flange_shaft",
+        "left_compound_shim_1"
+      ],
+      "count": 346,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_circlip_envelope_1",
+        "left_compound_flange_shaft"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_M3x8_3",
+        "left_compound_flange_shaft"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_circlip_envelope_1",
+        "right_compound_flange_shaft"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "left_output_body_plate"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "pi5_mounted_PCB_envelope"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_supported_thigh_lid"
+      ],
+      "count": 367,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "D435i_mounted_envelope",
+        "D435i_native_front_face"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_rotor_D6_adapter",
+        "left_rotor_M2x5_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_hip_motor_base_envelope",
+        "left_motor_M3x6_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_hip_motor_rotor_envelope",
+        "right_rotor_M2x5_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_M4_nut_3"
+      ],
+      "count": 366,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi5_gpio_envelope"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_shim_1",
+        "left_drive_intermediate_20T"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "right_compound_624_outer"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_active_cooler_allocation",
+        "pi_M2p5x10_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_M4x12_0",
+        "right_output_gear_80T"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "camera_rear_M3x6_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_body_plate",
+        "right_output_mount_M3_17"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_hip_F688_outer",
+        "right_output_fixed_spindle"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_drive_input_pinion",
+        "right_rotor_D6_adapter"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "left_motor_M3x6_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_drive_input_pinion",
+        "left_drive_input_pinion_set_screw"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_compound_circlip_envelope_0",
+        "left_compound_flange_shaft"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_hip_cover_M3_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_M4_nut_2"
+      ],
+      "count": 366,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_drive_intermediate_20T",
+        "right_drive_intermediate_20T_set_screw"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_closure_M3_nut_-1_-1",
+        "body_closure_M3x10_-1_-1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_ethernet_envelope",
+        "pi5_mounted_PCB_envelope"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "D435i_mounted_envelope",
+        "camera_rear_M3x6_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_0",
+        "right_output_spacer_0"
+      ],
+      "count": 365,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_upper_detailed",
+        "right_motor_M3x6_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_rotor_D6_adapter",
+        "right_rotor_M2x5_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_F688_inner",
+        "right_output_fixed_spindle"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_M4_nut_2",
+        "right_output_M4x12_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_60T_countersunk",
+        "right_compound_flange_shaft"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_M4x12_1",
+        "right_output_gear_80T"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_624_inner",
+        "right_compound_shim_0"
+      ],
+      "count": 352,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi_M2p5x10_3"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_hip_motor_rotor_envelope",
+        "right_rotor_M2x5_0"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_drive_intermediate_20T",
+        "left_drive_intermediate_20T_set_screw"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_compound_M3x8_1",
+        "right_compound_flange_shaft"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "left_output_mount_M3_17"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "body_upper_detailed"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_drive_input_pinion",
+        "right_drive_input_pinion_set_screw"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_M4x12_1",
+        "right_output_spacer_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "body_lower_detailed",
+        "right_output_mount_M3_-17"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_output_fixed_spindle",
+        "right_spindle_M3_front"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_hip_cover_M3_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_output_F688_inner"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "pi5_mounted_PCB_envelope",
+        "pi5_usb_c_power_envelope"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_hip_motor_rotor_envelope",
+        "right_rotor_M2x5_1"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "left_rotor_D6_adapter",
+        "left_rotor_M2x5_2"
+      ],
+      "count": 370,
+      "examples": [
+        [
+          -2.8,
+          -2.8
+        ],
+        [
+          -2.8,
+          -2.315
+        ],
+        [
+          -2.8,
+          -1.8299999999999998
+        ],
+        [
+          -2.8,
+          -1.3449999999999998
+        ]
+      ]
+    },
+    {
+      "pair": [
+        "right_driven_thigh_frame",
+        "right_spring_coil_envelope"
+      ],
+      "count": 182,
+      "examples": [
+        [
+          -2.8,
+          -0.8599999999999999
+        ],
+        [
+          -2.8,
+          0.11000000000000032
+        ],
+        [
+          -2.8,
+          0.5950000000000002
+        ],
+        [
+          -2.8,
+          1.08
+        ]
+      ]
+    }
+  ],
+  "passed": false,
+  "hardware_release": false,
+  "limitations": [
+    "All contacts remain unclassified pending exact-material review.",
+    "Gear teeth use supplier CAD and the prescribed phase; gear engagement is not qualified.",
+    "Finite nominal sampling; no tolerance, deformation, flex cable or strength proof."
+  ]
+}

@@ -3,22 +3,33 @@
 The prior wheel work is committed locally as `37fc29e`. Its verified jump remains
 at http://localhost:8765/viewer/wheel.html?scene=robot&motion=jump .
 
-The current integrated assembly is at http://localhost:8765/viewer/v2.html . It
-plays a programmed native V2 jump experiment by default. The dropdown also
-offers standing balance and manual Fold/Crouch/Ride/Extend poses with shared and
-individual leg sliders. Exterior, Cutaway and Physics follow the same recording;
-Packaging shows the revised electronics reservations. Flexible cable routing
-needs revision for the new hip drives and is omitted in this latest layout.
-**This is development CAD and early simulation, not a verified robot.** Nothing is pushed.
+The current integrated assembly is at http://localhost:8765/viewer/v2.html . Its
+default jump uses the 340-part detailed CAD and a 2.608 kg estimated mass:
+264–265 mm wheel clearance, with a settled landing at both tested timesteps.
+The dropdown also offers standing balance, programmed 15° cross-slope driving,
+experimental flip recordings and manual poses with shared and individual leg
+sliders. Exterior, Cutaway and Physics follow the same recording. Earlier
+learned/recovery recordings retain their original CAD and do not qualify this
+new plant. See [detailed dynamics and limits](detail-native/README.md).
+Flexible wiring, cooling, print tolerances and structural loads remain open.
+**This is development CAD and nominal simulation, not a verified robot.**
+The latest navigation/viewer changes are local and have not been pushed.
 
-The [terrain-trained actor](training/TERRAIN_DRIVING.md) now adds a local
+The preceding [terrain-trained actor](training/TERRAIN_DRIVING.md) adds a local
 **Learned terrain · +10° cross slope** replay. It improves the fixed terrain
 screen from 2/13 to 5/13 paired passes; rocks/longitudinal slopes and a flat-stop
 regression remain open. The original flat-driving actor remains separate.
 
-## Native dynamics development — 2026-09-09 UTC
+The new [detailed-CAD navigation campaign](detail-native/terrain-navigation/README.md)
+passes its programmed flat, +10° hill and +15° cross-slope demonstrations at
+both timesteps. One new imitation fit passes 8/10 held-out physical evaluations:
+flat, ±5° and +9°. The −9° valley pair stays upright but falls short of the
+distance target. The **Learned hills · latest CAD** viewer mode displays the
+passed +9° run. Its external navigator still uses perfect simulator pose.
 
-A [native V2 plant](native/README.md) now follows the latest viewer composition,
+## Preceding native dynamics development — 2026-09-09 UTC
+
+A [native V2 plant](native/README.md) follows the preceding viewer composition,
 including the aligned springs and the more detailed left hip. Its CAD and
 component-prior estimate is 2.489 kg, including 0.805 kg of prints; these are
 unweighed, unsliced values. The first 289 independent-pose, spring-energy and

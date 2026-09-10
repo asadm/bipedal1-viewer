@@ -1,0 +1,70 @@
+{
+  "status": "complete_fixed_ten_condition_cohort",
+  "total": 10,
+  "passed": 10,
+  "cases": [
+    {
+      "directory": "slope+0-250us",
+      "passed": true,
+      "report_sha256": "44ebc26554cddbed43eecff5e37a57109a4c1b077f9f7c57d661f4f063d49b47",
+      "source": "pilot"
+    },
+    {
+      "directory": "slope+0-125us",
+      "passed": true,
+      "report_sha256": "4460837e24ea2f548520a081ae58878d687816b290c4959521f0a82b5076faec",
+      "source": "pilot"
+    },
+    {
+      "directory": "slope-9-250us",
+      "passed": true,
+      "report_sha256": "9751a6bd6dcfd91e6c018bfb15b03763af92aa2d924f10c2db040bde4218d855",
+      "source": "pilot"
+    },
+    {
+      "directory": "slope-9-125us",
+      "passed": true,
+      "report_sha256": "40cf2fc11eb64146d733c99dfb8c4cf76566c90634c95cd20d5a49b660797db1",
+      "source": "pilot"
+    },
+    {
+      "directory": "slope+5-250us",
+      "passed": true,
+      "report_sha256": "7edc8e667adfba9ccbda781b9189159f1e68c6230de3a447dd809f350a1f0963",
+      "source": "regression"
+    },
+    {
+      "directory": "slope+5-125us",
+      "passed": true,
+      "report_sha256": "689e6370fd8ae635a2a9a447a08d4235afebd69f6ab2aac6a1bfae0503e9b0af",
+      "source": "regression"
+    },
+    {
+      "directory": "slope-5-250us",
+      "passed": true,
+      "report_sha256": "69a5d61431e6b769389ae09812db231ef64c94977983b2cf00139d44f1398ae6",
+      "source": "regression"
+    },
+    {
+      "directory": "slope-5-125us",
+      "passed": true,
+      "report_sha256": "8daed1cc8c8f74b144059f689a30a486b188a4834d1b6e99dfc73c7f30927dbe",
+      "source": "regression"
+    },
+    {
+      "directory": "slope+9-250us",
+      "passed": true,
+      "report_sha256": "9c226fb3231fceef6286f50eda38449932cec0050076d7dc0375af5ebf8cf702",
+      "source": "regression"
+    },
+    {
+      "directory": "slope+9-125us",
+      "passed": true,
+      "report_sha256": "a1ab9f10927e9ebf582b72edb4ba90056a5762c2505a9727bfdc33323f054907",
+      "source": "regression"
+    }
+  ],
+  "pilot_summary_sha256": "cea3566307b9f6e80dc954146f329991eb4df102fca784be9031c460b1ea7d57",
+  "regression_summary_sha256": "d8f6bbba28dc70f3e4aed32a80faab36e987181349a69afc2c3267aa2a2ae5d4",
+  "scope": "Fixed nominal simulation conditions, including four pilot development cases. Audits and broader terrain generalization remain separate requirements."
+}

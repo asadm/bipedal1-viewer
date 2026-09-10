@@ -1,0 +1,25 @@
+{
+  "source_page": "https://dev.realsenseai.com/docs/cad-files/",
+  "url": "https://dev.realsenseai.com/download/41950",
+  "download_sha256": "31d176bd773f0e25c76c0af2d68c0575fdb550bceb60ffe9da72f92f2a53ca73",
+  "retrieved_utc": "2026-09-09",
+  "files": [
+    {
+      "filename": "D435i_Solid.SLDPRT",
+      "sha256": "9cdbfdc7085ea5430ec9007eb1d895c7ff513c40b77c298a275ded33edf65525"
+    }
+  ],
+  "note": "Official archive contains native SolidWorks files, which CadQuery cannot import directly. Mechanical drawing is needed for mounting geometry or a STEP conversion.",
+  "mounting_drawing": {
+    "url": "https://www.realsenseai.com/wp-content/uploads/2023/03/Intel-RealSense-D400-Series-Datasheet-March-2023.pdf",
+    "pdf_sha256": "78ec24fe0bfd66ecc409b1a8362d1cbf9155ffbf01e3b09eea431f815076f6a7",
+    "page": 142,
+    "figure": "10-9",
+    "rear_mounts": 2,
+    "thread": "M3",
+    "spacing_mm": 45,
+    "maximum_insertion_mm": 3,
+    "recommended_torque_Nm": 0.4,
+    "rendered_page": "D435i-mounting-drawing.png"
+  }
+}

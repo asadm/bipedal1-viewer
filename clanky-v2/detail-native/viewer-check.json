@@ -1,0 +1,26 @@
+{
+  "status": "observed_local_browser_checks",
+  "url": "http://100.97.184.4:8765/viewer/v2.html?motion=jump",
+  "source_sha256": {
+    "viewer/v2-detail.mjs": "f6316bcdad68a373931dc3cb07b1bf306577701b149c0760110d10650464f313",
+    "viewer/v2-replay.mjs": "89e22b38fca73ce2ce91cd376e5975e0aa0f668204c2b72f948c7df018274a38",
+    "viewer/cad-robot.mjs": "2effd78977490d91ad640b192c23e068a8c06da9c66571a34dd26575d534ea0c",
+    "clanky-v2/detail-native/viewer-replay.json": "a597ebc0335f939620673192eeefd152cbde35e00f413e3b94007a7f1fe0f6e4",
+    "clanky-v2/detail/manifest.json": "60bee91d5ffd9a083f2a5a8d630d3307473e87e70862f095b3919dda1aed4ca5"
+  },
+  "checks": [
+    "Latest programmed jump loads with 265 mm clearance and latest detailed CAD label.",
+    "Peak jump pauses at 1.69 seconds with both wheels airborne; exterior visually inspected.",
+    "Physics shows the detailed compiled collision shapes at the same jump peak.",
+    "Preceding jump selection shows its older revision and 264 mm report.",
+    "Manual Cutaway renders detailed gear, spring and electronics geometry.",
+    "Independent left slider moves to -0.86 rad while right remains 0.42 rad.",
+    "Both-legs slider sets both legs to -0.86 rad.",
+    "Latest standing-balance recording selects with its eight-second result.",
+    "Evidence disclosure exposes current fit, gear cycle, paired baseline, one-wheel and print-fit links."
+  ],
+  "limits": [
+    "Desktop browser over Tailscale HTTP. This is not an iOS-device test or physical hardware qualification.",
+    "Underlying frames and collision data are checked separately by replay-check.json."
+  ]
+}

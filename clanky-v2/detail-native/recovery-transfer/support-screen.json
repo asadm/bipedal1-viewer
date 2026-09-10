@@ -1,0 +1,649 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "family": "front",
+      "hips_rad": [
+        -2.6,
+        -2.6
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "body_lower_detailed_outer",
+      "cad_support_m": 0.003000002581911118,
+      "cad_part": "body_closure_M3x10_1_-1",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "front",
+      "hips_rad": [
+        -0.5,
+        -0.5
+      ],
+      "collision_support_m": 0.002999999999999989,
+      "collider": "right_driven_thigh_frame_outer",
+      "cad_support_m": 0.003000005685542359,
+      "cad_part": "right_driven_thigh_frame",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "front",
+      "hips_rad": [
+        0.419,
+        0.419
+      ],
+      "collision_support_m": 0.002999999999999989,
+      "collider": "left_driven_thigh_frame_outer",
+      "cad_support_m": 0.002999998467751397,
+      "cad_part": "left_driven_thigh_frame",
+      "omitted_protrusion_mm": 1.532248591895602e-06,
+      "passed": true
+    },
+    {
+      "family": "front",
+      "hips_rad": [
+        1.03,
+        1.03
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "body_lower_detailed_outer",
+      "cad_support_m": 0.003000002581911118,
+      "cad_part": "body_closure_M3x10_1_-1",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "front",
+      "hips_rad": [
+        -0.5,
+        0.419
+      ],
+      "collision_support_m": 0.0030000000000000165,
+      "collider": "right_driven_thigh_frame_outer",
+      "cad_support_m": 0.003000000636557948,
+      "cad_part": "right_driven_thigh_frame",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "back",
+      "hips_rad": [
+        -2.6,
+        -2.6
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "left_tire",
+      "cad_support_m": 0.0030049688430601185,
+      "cad_part": "left_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "back",
+      "hips_rad": [
+        -0.5,
+        -0.5
+      ],
+      "collision_support_m": 0.0030000000000000165,
+      "collider": "body_lower_detailed_outer",
+      "cad_support_m": 0.0030000025759840815,
+      "cad_part": "body_closure_M3x10_-1_-1",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "back",
+      "hips_rad": [
+        0.419,
+        0.419
+      ],
+      "collision_support_m": 0.0030000000000000165,
+      "collider": "body_lower_detailed_outer",
+      "cad_support_m": 0.0030000025759840815,
+      "cad_part": "body_closure_M3x10_-1_-1",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "back",
+      "hips_rad": [
+        1.03,
+        1.03
+      ],
+      "collision_support_m": 0.0030000000000000165,
+      "collider": "body_lower_detailed_outer",
+      "cad_support_m": 0.0030000025759840815,
+      "cad_part": "body_closure_M3x10_-1_-1",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "back",
+      "hips_rad": [
+        -0.5,
+        0.419
+      ],
+      "collision_support_m": 0.0030000000000000165,
+      "collider": "body_lower_detailed_outer",
+      "cad_support_m": 0.0030000025759840815,
+      "cad_part": "body_closure_M3x10_-1_-1",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "left",
+      "hips_rad": [
+        -2.6,
+        -2.6
+      ],
+      "collision_support_m": 0.003000000000000008,
+      "collider": "left_tire",
+      "cad_support_m": 0.0030000000000000027,
+      "cad_part": "left_drive_tire",
+      "omitted_protrusion_mm": 5.204170427930421e-15,
+      "passed": true
+    },
+    {
+      "family": "left",
+      "hips_rad": [
+        -0.5,
+        -0.5
+      ],
+      "collision_support_m": 0.00299999999999998,
+      "collider": "left_tire",
+      "cad_support_m": 0.002999999999999975,
+      "cad_part": "left_drive_tire",
+      "omitted_protrusion_mm": 5.204170427930421e-15,
+      "passed": true
+    },
+    {
+      "family": "left",
+      "hips_rad": [
+        0.419,
+        0.419
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "left_tire",
+      "cad_support_m": 0.0030000000000000027,
+      "cad_part": "left_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "left",
+      "hips_rad": [
+        1.03,
+        1.03
+      ],
+      "collision_support_m": 0.003000000000000008,
+      "collider": "left_tire",
+      "cad_support_m": 0.0030000000000000027,
+      "cad_part": "left_drive_tire",
+      "omitted_protrusion_mm": 5.204170427930421e-15,
+      "passed": true
+    },
+    {
+      "family": "left",
+      "hips_rad": [
+        -0.5,
+        0.419
+      ],
+      "collision_support_m": 0.00299999999999998,
+      "collider": "left_tire",
+      "cad_support_m": 0.002999999999999975,
+      "cad_part": "left_drive_tire",
+      "omitted_protrusion_mm": 5.204170427930421e-15,
+      "passed": true
+    },
+    {
+      "family": "right",
+      "hips_rad": [
+        -2.6,
+        -2.6
+      ],
+      "collision_support_m": 0.003000000000000008,
+      "collider": "right_tire",
+      "cad_support_m": 0.0030000000000000027,
+      "cad_part": "right_drive_tire",
+      "omitted_protrusion_mm": 5.204170427930421e-15,
+      "passed": true
+    },
+    {
+      "family": "right",
+      "hips_rad": [
+        -0.5,
+        -0.5
+      ],
+      "collision_support_m": 0.00299999999999998,
+      "collider": "right_tire",
+      "cad_support_m": 0.002999999999999975,
+      "cad_part": "right_drive_tire",
+      "omitted_protrusion_mm": 5.204170427930421e-15,
+      "passed": true
+    },
+    {
+      "family": "right",
+      "hips_rad": [
+        0.419,
+        0.419
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "right_tire",
+      "cad_support_m": 0.0030000000000000027,
+      "cad_part": "right_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "right",
+      "hips_rad": [
+        1.03,
+        1.03
+      ],
+      "collision_support_m": 0.003000000000000008,
+      "collider": "right_tire",
+      "cad_support_m": 0.0030000000000000027,
+      "cad_part": "right_drive_tire",
+      "omitted_protrusion_mm": 5.204170427930421e-15,
+      "passed": true
+    },
+    {
+      "family": "right",
+      "hips_rad": [
+        -0.5,
+        0.419
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "right_tire",
+      "cad_support_m": 0.0030000000000000027,
+      "cad_part": "right_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "inverted",
+      "hips_rad": [
+        -2.6,
+        -2.6
+      ],
+      "collision_support_m": 0.0030000000000000304,
+      "collider": "left_tire",
+      "cad_support_m": 0.00300013618504405,
+      "cad_part": "left_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "inverted",
+      "hips_rad": [
+        -0.5,
+        -0.5
+      ],
+      "collision_support_m": 0.0029999999999999957,
+      "collider": "right_driven_thigh_frame_outer",
+      "cad_support_m": 0.0030000028241359278,
+      "cad_part": "right_driven_thigh_frame",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "inverted",
+      "hips_rad": [
+        0.419,
+        0.419
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "body_upper_detailed_outer",
+      "cad_support_m": 0.003000000467168834,
+      "cad_part": "body_upper_detailed",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "inverted",
+      "hips_rad": [
+        1.03,
+        1.03
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "body_upper_detailed_outer",
+      "cad_support_m": 0.003000000467168834,
+      "cad_part": "body_upper_detailed",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "inverted",
+      "hips_rad": [
+        -0.5,
+        0.419
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "left_driven_thigh_frame_outer",
+      "cad_support_m": 0.003000001361204388,
+      "cad_part": "left_driven_thigh_frame",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "front_left",
+      "hips_rad": [
+        -2.6,
+        -2.6
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "body_lower_detailed_outer",
+      "cad_support_m": 0.0030000012220143396,
+      "cad_part": "body_lower_detailed",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "front_left",
+      "hips_rad": [
+        -0.5,
+        -0.5
+      ],
+      "collision_support_m": 0.0030000000000000165,
+      "collider": "left_supported_thigh_lid_outer",
+      "cad_support_m": 0.003000001454036977,
+      "cad_part": "left_supported_thigh_lid",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "front_left",
+      "hips_rad": [
+        0.419,
+        0.419
+      ],
+      "collision_support_m": 0.0030000000000000165,
+      "collider": "left_supported_thigh_lid_outer",
+      "cad_support_m": 0.00300000405443146,
+      "cad_part": "left_supported_thigh_lid",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "front_left",
+      "hips_rad": [
+        1.03,
+        1.03
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "left_tire",
+      "cad_support_m": 0.0030057324364401034,
+      "cad_part": "left_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "front_left",
+      "hips_rad": [
+        -0.5,
+        0.419
+      ],
+      "collision_support_m": 0.0030000000000000165,
+      "collider": "left_supported_thigh_lid_outer",
+      "cad_support_m": 0.003000001454036977,
+      "cad_part": "left_supported_thigh_lid",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "front_right",
+      "hips_rad": [
+        -2.6,
+        -2.6
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "body_lower_detailed_outer",
+      "cad_support_m": 0.003000002021454881,
+      "cad_part": "body_lower_detailed",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "front_right",
+      "hips_rad": [
+        -0.5,
+        -0.5
+      ],
+      "collision_support_m": 0.0029999999999999957,
+      "collider": "right_supported_thigh_lid_outer",
+      "cad_support_m": 0.003000001454036949,
+      "cad_part": "right_supported_thigh_lid",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "front_right",
+      "hips_rad": [
+        0.419,
+        0.419
+      ],
+      "collision_support_m": 0.0030000000000000165,
+      "collider": "right_supported_thigh_lid_outer",
+      "cad_support_m": 0.00300000405443146,
+      "cad_part": "right_supported_thigh_lid",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "front_right",
+      "hips_rad": [
+        1.03,
+        1.03
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "right_tire",
+      "cad_support_m": 0.0030057324364401034,
+      "cad_part": "right_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "front_right",
+      "hips_rad": [
+        -0.5,
+        0.419
+      ],
+      "collision_support_m": 0.0030000000000000165,
+      "collider": "right_supported_thigh_lid_outer",
+      "cad_support_m": 0.00300000405443146,
+      "cad_part": "right_supported_thigh_lid",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "back_left",
+      "hips_rad": [
+        -2.6,
+        -2.6
+      ],
+      "collision_support_m": 0.0030000000000000087,
+      "collider": "left_tire",
+      "cad_support_m": 0.003003513502622457,
+      "cad_part": "left_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "back_left",
+      "hips_rad": [
+        -0.5,
+        -0.5
+      ],
+      "collision_support_m": 0.003000000000000015,
+      "collider": "left_tire",
+      "cad_support_m": 0.0030021642507291058,
+      "cad_part": "left_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "back_left",
+      "hips_rad": [
+        0.419,
+        0.419
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "left_tire",
+      "cad_support_m": 0.0030082691896047287,
+      "cad_part": "left_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "back_left",
+      "hips_rad": [
+        1.03,
+        1.03
+      ],
+      "collision_support_m": 0.0030000000000000087,
+      "collider": "left_tire",
+      "cad_support_m": 0.003005732432695085,
+      "cad_part": "left_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "back_left",
+      "hips_rad": [
+        -0.5,
+        0.419
+      ],
+      "collision_support_m": 0.003000000000000015,
+      "collider": "left_tire",
+      "cad_support_m": 0.0030021642507291058,
+      "cad_part": "left_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "back_right",
+      "hips_rad": [
+        -2.6,
+        -2.6
+      ],
+      "collision_support_m": 0.0030000000000000087,
+      "collider": "right_tire",
+      "cad_support_m": 0.003003513502622457,
+      "cad_part": "right_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "back_right",
+      "hips_rad": [
+        -0.5,
+        -0.5
+      ],
+      "collision_support_m": 0.003000000000000015,
+      "collider": "right_tire",
+      "cad_support_m": 0.0030021642507291058,
+      "cad_part": "right_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "back_right",
+      "hips_rad": [
+        0.419,
+        0.419
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "right_tire",
+      "cad_support_m": 0.0030082691896047287,
+      "cad_part": "right_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "back_right",
+      "hips_rad": [
+        1.03,
+        1.03
+      ],
+      "collision_support_m": 0.0030000000000000087,
+      "collider": "right_tire",
+      "cad_support_m": 0.003005732432695085,
+      "cad_part": "right_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    },
+    {
+      "family": "back_right",
+      "hips_rad": [
+        -0.5,
+        0.419
+      ],
+      "collision_support_m": 0.0030000000000000027,
+      "collider": "right_tire",
+      "cad_support_m": 0.0030082691896047287,
+      "cad_part": "right_drive_tire",
+      "omitted_protrusion_mm": 0.0,
+      "passed": true
+    }
+  ],
+  "cad_parts": 340,
+  "maximum_omitted_protrusion_mm": 1.532248591895602e-06,
+  "source_sha256": {
+    "assembly.json": "1b2a7973637b794229f841f47750f9e1980b5a51410040f8544d99acac3d52fa",
+    "assembly-parts.json": "64bc48dd1e3bdd4d5c379e9e44d60d070e170ad3c3bab58f4b92088faa8bd1d5",
+    "coaxial-spring/manifest.json": "f8dda580e3b70bc600cd3004acb0c0c0460e74749aab1fdaca5442db75ecb079",
+    "coaxial-spring/parts.json": "d15d6229e9348b6db9c85bd1830ee453370714bd2991ee5c641e817923772a82",
+    "hip-gear-layout/layout-screen.json": "21706d1358278be967a30a76a8c8da64e8372f2751c0d2f1adb88196f9e6e686",
+    "hip-gear-layout/viewer-parts.json": "f1860e6329ee382a838de1a581c865d83e1688482137def1ee12a6750ef9b59e",
+    "hip-output/manifest.json": "a400254bfd25481f674fe299741fdd14b29148df827b4216f5002db64e7f9335",
+    "hip-output/parts.json": "fb3dbd4ccbdc1f42cd17c39e6318cb8fb6b912ed10f6a69fa7a03166056cd978",
+    "geared-wheel/parts.json": "497602b0d403fd85374d2a863339c80beb6c11dcbe48e3ff267f99a8c0de8486",
+    "hardware-references/hip-gears/properties.json": "531c2e6ea42e1709a447324516f6683e4fd7846723f6c06b8a90eabd4deb4f44",
+    "native_cad.py": "6ba4acd3413fc9f535338fe99fe100a730c9682999a04054f292ec49bc2ba634",
+    "viewer/v2.mjs": "2f69bc105be18ea345ae28e39bcce0dd9d56d93c29f7bf7f378b06c84ec23b26",
+    "detail/manifest.json": "60bee91d5ffd9a083f2a5a8d630d3307473e87e70862f095b3919dda1aed4ca5",
+    "detail/parts.json": "86f31e6d8bbaf15a7bee35f2cd0a64becd03607178027916f487d5331bf5d423",
+    "detail_cad.py": "377f1be10e8399c915e15e6a1e6c6a825b95a11adc528c06385b6e157cd68f31",
+    "detail_mass.py": "f8a080a5b58a7c64f528c72d8577ee8a0b0ab6a3bcfb459c0951acfe204d6d9c",
+    "native_mass.py": "d2d5af86641f81ae0ca8fceb6e3118f8f106f37f3e1c6477dba0578d8491cf0e",
+    "native_drivetrain.py": "3994d8475929f8ae1e6fcf68a487f852c3812ec96937c796d41b499fc0304b77",
+    "native/mass-properties.json": "0d5c5d21f94f9282dd107cc92a867e4c4f888601783eda00580f5f71d0e970c7",
+    "detail_native.py": "d4278841d509f2c2dbbd7931dfb89210c09775d39eb76425a7071a2d7c3388f3",
+    "detail-native/mass-properties.json": "2f60afa5510fb6b8c8db88d94b89e9240f2ffed1caf372490d7098c55d4ecd3f",
+    "native_plant.py": "99b41e5ab39478c47374cb70ca1a74ff3b1deb2957519d49ee4ab757fa5ed7b9",
+    "detail_terrain.py": "5572d3e338b6b631b2d573b5454b33db15fb5b2112abea2a3ae67c751575bb16",
+    "detail-native/baseline-jump-250us/model.xml": "632f650387c00755db398daa0e8138a63e295f7f2ebbcf4e7ff2d233ffd4976d",
+    "training/environment.py": "499a157766132b477f205ffaa53d0538105dd3ac597338af26f2bbb5eb78d6cb",
+    "training/command_driving.py": "34d3a9ac92222b5414a8731ba8a891d09fa30ae02fc4ea43905e3e445ddb18cd",
+    "training/balance_teacher.py": "b6e2e919240228084437bf59ec49537d3a165f6d3ff47691f554d9bcf78e4e09",
+    "training/teacher_reference.py": "f4bcd88263856ad1b545b98074f7b763f0c1a574d787754195b6397da874c486",
+    "training/balance_dagger.py": "f2f0e5ce447cb04dcb60663a6d8ba1e07891ed98c1dde3fc5ac6ba8e1e03fe26",
+    "training/guided_balance.py": "84282cffce9fa6598b431726e03e168da5c40cddaef09dd6dbdfb900d20234bb",
+    "training/evaluate.py": "25f4baa828a0754127bd07dddb69e6ea5fbd3b40f3fe83ba7e3bacf7db74ddef",
+    "training/terrain_courses.py": "9bcc441dd4ca3052e93b19a1ca2c07a05d7bb4593a1778f0b260a9731b56565c",
+    "training/terrain_reference.py": "af2fe776105bfacc9701113f840a991bce3e6d195f030f42c032b2dba8846347",
+    "training/orientation_recovery.py": "233500c3eafe58ffbd8f45ce83c9f127cb34a550e387de0a65814c7a43b1190c",
+    "training/inverted_to_back.py": "48ff5c9542be5010b84fddd86d2d497326259914364c290f48a6bb6a9e68380e",
+    "training/inverted_contact.py": "cec8b4fbcdc5311f0c6d6ce4f7659064244b3338a0066a168b766d7196cba486",
+    "training/feedback_recovery.py": "95e98bcec2e733cd179232f13efe356037538a8f97ece7530d77bd2d108bb0ef",
+    "training/settled_recovery.py": "ea37b51af28e5458cda509a0ea88bb0f1dfdeeaa14bfb7d9777e3fc0d5df74f1",
+    "training/recovery_shooting.py": "0172608f37204abdc2216bfd4978240ad811da4b24b85b33a4801e12f1b2f7ce",
+    "training/side_transfer.py": "044181b7d6c25389d7bdcabaee4cc2aaa30498e6dd4a231acfc819098acf9333",
+    "training/side_roof_transfer.py": "ebb1389651468bc2729aa13c12d600974dfad5554d5ce52ba9e787f6796d10d2",
+    "training/standing_release_recovery.py": "d46cce68faedca0ca5e4a6c7c1e92296e2555a3994d647844c8ca2bbd0b0311f",
+    "training/unified_recovery.py": "10d89cdea7e1d4c1ad6fe25c9634ac0f1b7ea34e27887765b717b608a5bad31e",
+    "training/return_brake.py": "c472d5bee17fcda29d512f44bb6f3ab0815669b6b6e461d01d0956f7ebf4754a",
+    "training/evaluate_return_brake.py": "7a771c2f605e82a23d252d99a72016558635e6439cbd18c3ee5825609d4cf0f2",
+    "training/evidence/recovery-shooting-front-01/search.json": "31f62699d38cf24b131f49510c23eeb0d175da85c341fab92c7cd82805e2f43e",
+    "training/evidence/recovery-shooting-back-01/search.json": "ca34437982b94de11cb5b3a4516923e6f5b17acd5b731f4f65885d8939692c35",
+    "training/evidence/balance-clone-02/actor.npz": "69c1cafa24b403839701fe15eee9b615497df3bc79a1e9f688a768b411b167d6",
+    "training/evidence/balance-clone-02/manifest.json": "5a55e14c3a86b9ed94e5ab3b69427d04b7e6f50715fd3279415403c282b3399c",
+    "training/evidence/return-brake-evaluation-01/summary.json": "e3fd99f313c957a0faa559e5642271370d7458f17abe2760bb55d392ad17cf88",
+    "training/evidence/return-brake-evaluation-01/recording-audit-local.json": "740622e827222063834028455e861c7d66324d8dfdc6de5259ad235955841aaa",
+    "detail_recovery_transfer.py": "d36b9954fc8e5779514af0fe72b2b3147b9398780f07a4507dcc614eb4713bcb",
+    "training/plant/native_recovery_support.py": "e7a7b6d71d68a0335a131097621c6e7aaf88f7ebd41e9b13e620e070e9890157",
+    "check_detail_recovery_support.py": "9525db35cf2fe10636b389a6c418191b7e4b06f5885b4a027128d2ac0e6b5e9a"
+  },
+  "scope": "45 static orientations/hip pairs on the selected detailed plant, including folded, extended and unequal legs. Every CAD vertex and passive gear transform included in downward support. This does not test intermediate swept contact, internal collisions, impact loads or physical strength."
+}

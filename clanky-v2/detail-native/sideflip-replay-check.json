@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "frames": 191,
+  "maximum_pose_spring_clearance_error": 0.0,
+  "last_event": "first_body_contact",
+  "sideflip_skill_pass": false,
+  "source_sha256": {
+    "export_detail_sideflip_replay.py": "d03d243b9a562c51120560bfc7cba5eb3a228071d5b243cdbe23e9f91f5b8c2f",
+    "detail-native/sideflip-viewer-replay.json": "6c716d404f1596ab635442cf8c6958f2b7c1f922f9d443019a09b4ec310bbe48"
+  },
+  "scope": "Every display pose, contact flag and spring matches the saved failed trial; flight winding audited separately."
+}

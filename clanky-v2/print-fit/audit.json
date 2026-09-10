@@ -1,0 +1,231 @@
+{
+  "status": "nominal_CAD_fits_not_print_calibrated",
+  "hardware_release": false,
+  "source_sha256": {
+    "coaxial_spring.py": "b7dacbff8fcdb1025cfce4d7dc7a847e25bc1035baafb47e8d0a3b46a424c7aa",
+    "detail/manifest.json": "60bee91d5ffd9a083f2a5a8d630d3307473e87e70862f095b3919dda1aed4ca5",
+    "detail/parts.json": "86f31e6d8bbaf15a7bee35f2cd0a64becd03607178027916f487d5331bf5d423",
+    "detail_compound.py": "d8348ef019d656fba5570eb24079e48370a4a32f1552d4ce70db09f08ce758f0",
+    "detail_electronics.py": "124ff4ba1efdf327ebc932ca5f9ccb531ec0a78cfc11ee390f492433e0c8e200",
+    "detail_model.py": "9af42d91f3351e732f0848c1561f50d68e485c037d2687492756fbe0b3bd046f",
+    "geared_wheel_module.py": "7b23c72223252ebd0de467115560ae2d6ea2e0414bc11e7478ce742004e8f598",
+    "hip_joint.py": "06a2cd6da1e6af89486ad5844111465c139dcc7a790a0a4c0a25e4d5a2636da2",
+    "hip_output.py": "3c1479f0be33d39e7419fef61280b752be1c24ffc8f48b030a4cc86a63fd3a91",
+    "print_fit_audit.py": "682c3febd955222606a514b106a68546654768af39e247fe91cd01fd4d59c49d",
+    "print_fit_coupons.py": "e8267e40bbc312f92b82f07de08666c1497724985a3316088282273dd41e1111"
+  },
+  "all_robot_interfaces_audited": false,
+  "interfaces": [
+    {
+      "id": "compound_624_seat",
+      "source": "detail_compound.py",
+      "hole_mm": 13.02,
+      "mate_mm": 13,
+      "fit": "bearing OD to printed housing",
+      "required": "Calibrated seat, coaxiality, retention and loaded creep checks",
+      "nominal_total_clearance_mm": 0.02,
+      "calibrated": false
+    },
+    {
+      "id": "hip_F688_seat",
+      "source": "hip_output.py",
+      "hole_mm": 16.02,
+      "mate_mm": 16,
+      "fit": "bearing OD to printed thigh",
+      "required": "Calibrated seat plus separate flange relief and retention check",
+      "nominal_total_clearance_mm": 0.02,
+      "calibrated": false
+    },
+    {
+      "id": "wheel_F696_seat",
+      "source": "geared_wheel_module.py",
+      "hole_mm": 15.02,
+      "mate_mm": 15,
+      "fit": "bearing OD to printed wheel case",
+      "required": "Calibrated seat and measured axial shim stack",
+      "nominal_total_clearance_mm": 0.02,
+      "calibrated": false
+    },
+    {
+      "id": "knee_626_seat",
+      "source": "hip_joint.py",
+      "hole_mm": 19,
+      "mate_mm": 19,
+      "fit": "bearing OD to printed thigh/lid",
+      "required": "Select finished fit and retention; zero nominal gap is not a printable fit",
+      "nominal_total_clearance_mm": 0,
+      "calibrated": false
+    },
+    {
+      "id": "spring_piston",
+      "source": "coaxial_spring.py",
+      "hole_mm": 12.9,
+      "mate_mm": 12.4,
+      "fit": "printed sliding piston to printed guide",
+      "required": "Check full travel, loaded friction, wear and thermal expansion",
+      "nominal_total_clearance_mm": 0.5,
+      "calibrated": false
+    },
+    {
+      "id": "closure_tab",
+      "source": "detail_model.py",
+      "hole_mm": 4.4,
+      "mate_mm": 4,
+      "fit": "printed tab width to printed slot",
+      "required": "Fit coupon followed by whole lid seam/warp check",
+      "nominal_total_clearance_mm": 0.4,
+      "calibrated": false
+    },
+    {
+      "id": "M3_clearance",
+      "source": "detail_model.py",
+      "hole_mm": 3.3,
+      "mate_mm": 3,
+      "fit": "metal screw through printed mount",
+      "required": "Free insertion without using the thread to cut the hole",
+      "nominal_total_clearance_mm": 0.3,
+      "calibrated": false
+    },
+    {
+      "id": "closure_M3_nut",
+      "source": "detail_model.py",
+      "hole_mm": 5.8,
+      "mate_mm": 5.5,
+      "fit": "metal nut across flats to printed pocket",
+      "required": "Nut seats without cracking its retaining web",
+      "nominal_total_clearance_mm": 0.3,
+      "calibrated": false
+    },
+    {
+      "id": "Pi_M2p5_nut",
+      "source": "detail_electronics.py",
+      "hole_mm": 5.2,
+      "mate_mm": 5,
+      "fit": "metal nut across flats to printed pocket",
+      "required": "Check side insertion and retention after cover print",
+      "nominal_total_clearance_mm": 0.2,
+      "calibrated": false
+    },
+    {
+      "id": "TPU_limiter",
+      "source": "geared_wheel_module.py",
+      "hole_mm": 5.2,
+      "mate_mm": 5,
+      "fit": "metal sleeve to TPU hub",
+      "required": "Separate TPU coupon plus final wheel clamp/slip/creep tests",
+      "nominal_total_clearance_mm": 0.2,
+      "calibrated": false
+    }
+  ],
+  "sensitivity_is": "Illustrative bounded error arithmetic; NOT measured process capability or tolerance qualification",
+  "sensitivity": [
+    {
+      "name": "13.02 housing / exact 13.00 bearing",
+      "nominal_gap_mm": 0.02,
+      "assumed_independent_error_bounds": [
+        {
+          "feature": "printed bore diameter",
+          "error_mm": 0.2
+        }
+      ],
+      "gap_interval_mm": [
+        -0.18,
+        0.22
+      ],
+      "meaning": "An illustrative 0.2 mm diameter error can consume the entire nominal seat clearance. Bearing OD tolerance is omitted, not known to be zero.",
+      "qualification": false
+    },
+    {
+      "name": "One side of closure tab",
+      "nominal_gap_mm": 0.2,
+      "assumed_independent_error_bounds": [
+        {
+          "feature": "slot wall position",
+          "error_mm": 0.15
+        },
+        {
+          "feature": "tab face position",
+          "error_mm": 0.15
+        }
+      ],
+      "gap_interval_mm": [
+        -0.1,
+        0.5
+      ],
+      "meaning": "Two independently displaced faces can jam despite a nominal 0.2 mm per-side gap.",
+      "qualification": false
+    },
+    {
+      "name": "Lid seam",
+      "nominal_gap_mm": 0.4,
+      "assumed_independent_error_bounds": [
+        {
+          "feature": "upper seam position",
+          "error_mm": 0.15
+        },
+        {
+          "feature": "lower seam position",
+          "error_mm": 0.15
+        }
+      ],
+      "gap_interval_mm": [
+        0.1,
+        0.7
+      ],
+      "meaning": "Positive residual gap under these assumed errors only; body warp, screw preload and seals are not included.",
+      "qualification": false
+    },
+    {
+      "name": "Motor M3x6 insertion margin to 2.8 mm depth",
+      "nominal_gap_mm": 0.3,
+      "assumed_independent_error_bounds": [
+        {
+          "feature": "screw length",
+          "error_mm": 0.1
+        },
+        {
+          "feature": "printed mount thickness",
+          "error_mm": 0.15
+        }
+      ],
+      "gap_interval_mm": [
+        0.05,
+        0.55
+      ],
+      "meaning": "Nominal engagement is 2.5 mm; illustrative range is 2.25..2.75 mm. Measure before assembly; these are not vendor screw tolerances.",
+      "qualification": false
+    },
+    {
+      "name": "Rotor M2x5 insertion margin to 2.8 mm depth",
+      "nominal_gap_mm": 0.15,
+      "assumed_independent_error_bounds": [
+        {
+          "feature": "screw length",
+          "error_mm": 0.1
+        },
+        {
+          "feature": "countersunk seat position",
+          "error_mm": 0.1
+        }
+      ],
+      "gap_interval_mm": [
+        -0.05,
+        0.35
+      ],
+      "meaning": "The assumed errors allow bottoming out: nominal 2.65 mm insertion becomes 2.45..2.85 mm. Select actual screws and control/measure the metal seat.",
+      "qualification": false
+    }
+  ],
+  "open_items": [
+    "Actual bearing/shaft ISO fits and surface finish based on ring loading and temperature",
+    "Gear center distances, eccentricity, tooth phase/backlash and shaft alignment",
+    "Complete axial stack including bearings, shims, circlip freedom and printed shoulders",
+    "Body warp, shrinkage, first-layer effects, joint/guide wear and loaded thermal/impact deflection",
+    "Compensation applied to each printed interface, then new full-assembly checks",
+    "Final assembly and physical material tests"
+  ],
+  "sources": [
+    "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
+    "https://us.store.bambulab.com/products/a1-mini"
+  ]
+}

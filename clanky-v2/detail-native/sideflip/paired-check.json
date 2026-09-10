@@ -1,0 +1,46 @@
+{
+  "status": "paired_sideflip_failure_reproduced",
+  "passed": true,
+  "sideflip_skill_pass": false,
+  "trials": 24,
+  "full_aerial_side_turns": 0,
+  "pairs": [
+    {
+      "directory": "offset-0.25-staggered-delay0.06-tuck-0.5-250us",
+      "timestep_s": 0.00025,
+      "integrated_air_roll_deg": 169.76331201781434,
+      "independent_air_roll_deg": 169.86220264675495,
+      "winding_error_deg": 0.09889062894060885,
+      "maximum_sampled_axis_deviation_deg": 6.8108152176357395,
+      "airtime_s": 0.34725000000011597,
+      "first_contact": "body",
+      "native_guards_pass": true,
+      "report_sha256": "819cd15e4948761a18f68082a0a7f43543c222d821d4da4d687aa976f4b60b67",
+      "trajectory_sha256": "97740fe427e302b49b90c5291eb67f4fcf27b57c8d928f09e3d68721c5f622ad"
+    },
+    {
+      "directory": "selected-125us",
+      "timestep_s": 0.000125,
+      "integrated_air_roll_deg": 169.1256749171549,
+      "independent_air_roll_deg": 169.2287400162498,
+      "winding_error_deg": 0.10306509909489137,
+      "maximum_sampled_axis_deviation_deg": 7.004670445522863,
+      "airtime_s": 0.34599999999980824,
+      "first_contact": "body",
+      "native_guards_pass": true,
+      "report_sha256": "5a6786d2564e5eccf3aee3a4a58f7b4ee8b2d8c45418c22fece27f0d66a2c30a",
+      "trajectory_sha256": "737516e385f05cbfd8bc36c3bed53e9cfafed31454178a387fa6a1a76fa6e126"
+    }
+  ],
+  "timestep_rotation_difference_deg": 0.6334626305051643,
+  "conclusion": "Both timesteps reproduce a partial sideways rotation ending in body contact. No complete side flip or controlled landing is demonstrated.",
+  "source_sha256": {
+    "check_detail_sideflip.py": "106773ca59c38d844ecb20249682da80bad24f67484aadc3852f58f4c3c013e1",
+    "detail-native/sideflip/screen-summary.json": "51e28fe7de41f6d0f0b3bb197f3da9118e502e8ab86aa58064a02b8c2d3f6cc2",
+    "detail-native/sideflip/confirm-summary.json": "28bfbaa24fbc4e67c6862b84ae8050f8d95c351de30a2f25e66e4546d287fd3d"
+  },
+  "limitations": [
+    "Finite fixed controller study, not proof the hardware cannot perform a side flip.",
+    "The replay ends at first body contact; it does not validate subsequent impact or recovery."
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "retrieved_utc": "2026-09-09",
+  "sources": {
+    "board": "https://datasheets.raspberrypi.com/rpi5/raspberry-pi-5-mechanical-drawing.pdf",
+    "cooler": "https://datasheets.raspberrypi.com/cooling/raspberry-pi-active-cooler-mechanical-drawing.pdf",
+    "supplier_cad": "https://pip-assets.raspberrypi.com/categories/892-raspberry-pi-5/documents/RP-010083-CA-1-rpi-5%203D%20STEP%20-%20No%20Graphics%20small%20file.zip",
+    "M2p5_nut": "https://www.accu.co.uk/hexagon-nuts/766419-NUT202M2-5"
+  },
+  "board_xy_mm": [
+    85,
+    56
+  ],
+  "hole_pattern_mm": [
+    58,
+    49
+  ],
+  "board_hole_diameter_mm": [
+    3,
+    2.7
+  ],
+  "cooler_xyz_mm": [
+    63.5,
+    42.5,
+    13.7
+  ],
+  "nut_af_thickness_mm": [
+    5,
+    2
+  ],
+  "supplier_step_sha256": "78164070c1cc7ab854382950d2e85926c6e35432f1e5a146b733397a7c6afb44",
+  "supplier_solids": 2689,
+  "notes": [
+    "Supplier STEP is kept in its original MIT-licensed archive; the viewer uses conservative major-component envelopes, not all 2689 solids.",
+    "Board mount and cooler drawings are manufacturer references, not production dimensional guarantees.",
+    "Pi is mounted components down with an enlarged cooler allowance; exact cooler placement, plugs and thermal qualification remain open."
+  ],
+  "files": {
+    "supplier-cad.zip": "6841637b4cfa97637bf34b529bfe896f24d9634b2c40b57a156781f55d88f06f",
+    "board-drawing.png": "3b13a8fa8030b99cf6e593886ca9c3a87760586f288090fb1f85c1e1541025a8",
+    "LICENSE.txt": "4ca2d350552b24137e55587e13fb09a249b757c6af49652ff02ea524d154c7fc",
+    "board-drawing.pdf": "5dd680d6c1f5e7aa9c7b020695e315d04aac862df82ff01d4e9041cd0668d7f2",
+    "cooler-drawing.pdf": "3cc3bccc4b58d0690c2b18251cffc3863091305c32fd5d198f152722ba2bd09f",
+    "cooler-drawing.png": "02f0b06ab1f82c74a584bd954aa04b18bc9a9acf4008284eda28f46ddbc68852"
+  }
+}

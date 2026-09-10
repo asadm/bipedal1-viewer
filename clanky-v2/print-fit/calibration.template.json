@@ -1,0 +1,22 @@
+{
+  "status": "not_calibrated",
+  "printer": "Bambu Lab A1 Mini",
+  "rigid_material": null,
+  "rigid_filament_lot": null,
+  "tpu_material": null,
+  "tpu_shore_hardness": null,
+  "nozzle_mm": null,
+  "layer_height_mm": null,
+  "slicer_version": null,
+  "slicer_profile": null,
+  "print_orientation": null,
+  "wall_count": null,
+  "infill": null,
+  "support_settings": null,
+  "xy_hole_compensation_mm": null,
+  "xy_contour_compensation_mm": null,
+  "elephant_foot_compensation_mm": null,
+  "measurements": [],
+  "selected_interface_offsets_mm": {},
+  "applied_to_robot": false
+}

@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "checked_at": "2026-09-09T20:30:58.593037+00:00",
+  "browser": "Existing desktop browser through browser skill",
+  "url": "http://100.97.184.4:8765/viewer/v2.html?motion=flip",
+  "checks": [
+    "Experimental flip selectable, direct URL loads latest CAD and recorded motion.",
+    "Autoplay stops at 1.93 seconds, first wheel contact; Play button and explicit stable-landing-unverified message remain.",
+    "Mid-flip selects recorded 177-degree pose at 1.72 seconds; side-view exterior visually inspected.",
+    "Physics and Cutaway visibly show the same upside-down pose.",
+    "0.25x playback advances from 177 to 220 degrees and pauses again at contact.",
+    "Play at the endpoint restarts the clip; timeline click seeks backward to 0.97 seconds and pauses.",
+    "Manual left and linked leg sliders respond; linked control sets both to -0.86 rad.",
+    "Regular jump remains selectable with Peak jump control and 265 mm clearance result."
+  ],
+  "limits": [
+    "Desktop browser checked; no physical iOS-device test in this checkpoint.",
+    "Display-only inspection and source-state audit do not establish a controlled flip landing."
+  ],
+  "source_sha256": {
+    "viewer/v2-replay.mjs": "83a999a86747db87a0f30e8b133bdf971dfe41d93f51c404a04e34f23960b870",
+    "viewer/v2-detail.mjs": "a307850f4f264e4362605a3940bc0b35b05cebfe68fa8a906e62960159892012",
+    "viewer/v2.html": "48392448b13b4615951e7da8614eb043765888316c0e0f5638760246e8892d48",
+    "clanky-v2/detail-native/flip-viewer-replay.json": "ea199d58638bca9b1b5706a1ee60e56f7b8d441ea2f25dfded0487852dc63233",
+    "clanky-v2/detail-native/flip-replay-check.json": "f3c60b041bbaedf6e4becd524a30e95c2d82a00beb14c4a5ca4810500f59581f"
+  }
+}
